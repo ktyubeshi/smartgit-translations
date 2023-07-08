@@ -1,3 +1,5 @@
+[English](README.md) , [Simplified Chinese](README_zh-CN.md) ,[Japanese](README_ja-JP.md)
+
 # SmartGit Localization - SmartGit Translation Files
 
 This repository contains translation files for the Git client SmartGit:
