@@ -15,7 +15,7 @@ def main():
             exit(-1)
 
         po.format()
-        po.save(po_file)
+        po.save(po_file,newline='\n')
 
 if __name__ == "__main__":
     main()
