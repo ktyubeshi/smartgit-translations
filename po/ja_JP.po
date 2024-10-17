@@ -13415,10 +13415,9 @@ msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "Add Review Comment"
 msgstr "レビューコメントを追加"
 
-#, fuzzy
 msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "Add to dictionary"
-msgstr "★辞書に追加"
+msgstr "辞書に追加"
 
 msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "All"
