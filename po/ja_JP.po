@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 3.4.2\n"
+"X-Generator: Poedit 3.5\n"
 
 msgctxt "*.btn:"
 msgid "< Back"
@@ -2319,10 +2319,9 @@ msgctxt "dlgSgBranchDeleteLocalConfirmMultiple.chk:"
 msgid "Delete from remote repository"
 msgstr "リモートリポジトリから削除する"
 
-#, fuzzy
 msgctxt "dlgSgBranchDeleteLocalConfirmMultiple.chk:"
 msgid "Delete tracked branches from remote repository"
-msgstr "★リモートリポジトリから追跡ブランチを削除"
+msgstr "リモートリポジトリから追跡ブランチを削除"
 
 msgctxt "dlgSgBranchDeleteLocalConfirmMultiple.chk:"
 msgid "Delete tracked branches"
@@ -2336,10 +2335,9 @@ msgctxt "dlgSgBranchDeleteLocalConfirmMultiple.fur:"
 msgid "You may lose unpushed changes or it might be complicated to restore the branch\\(es\\)!"
 msgstr "プッシュされていない変更が失われたり、ブランチの復元が困難になる可能性があります!"
 
-#, fuzzy
 msgctxt "dlgSgBranchDeleteLocalConfirmMultiple.hdl:"
 msgid "Do you want to delete $1 local branches?"
-msgstr "★$1 個のローカル ブランチを削除しますか?"
+msgstr "$1 件のローカル ブランチを削除しますか?"
 
 msgctxt "dlgSgBranchDeleteLocalConfirmMultiple.hdl%1"
 msgid "Do you want to delete $1 local branches?"
@@ -2353,10 +2351,9 @@ msgctxt "dlgSgBranchDeleteLocalConfirmSingle.btn:"
 msgid "Delete"
 msgstr "削除"
 
-#, fuzzy
 msgctxt "dlgSgBranchDeleteLocalConfirmSingle.chk:"
 msgid "Delete branch '$1' from remote repository '$2'"
-msgstr "★リモートリポジトリ '$2' からブランチ '$1' を削除する"
+msgstr "リモートリポジトリ '$2' からブランチ '$1' を削除する"
 
 msgctxt "dlgSgBranchDeleteLocalConfirmSingle.chk:"
 msgid "Delete from remote repository '$1'"
@@ -2379,10 +2376,9 @@ msgctxt "dlgSgBranchDeleteLocalConfirmSingle.fur:"
 msgid "Your local branch is tracking branch '$1'. Decide whether you also want to delete this branch from the remote repository."
 msgstr "★ローカル ブランチはブランチ '$1' を追跡しています。リモート リポジトリからもこのブランチを削除するかどうかを決定します。"
 
-#, fuzzy
 msgctxt "dlgSgBranchDeleteLocalConfirmSingle.hdl:"
 msgid "Do you want to delete the local branch '$1'?"
-msgstr "★ローカル ブランチ '$1' を削除しますか?"
+msgstr "ローカル ブランチ '$1' を削除しますか?"
 
 msgctxt "dlgSgBranchDeleteLocalConfirmSingle.hdl%1"
 msgid "Do you want to delete the local branch '$1'?"
@@ -5869,29 +5865,26 @@ msgctxt "dlgSgOutput.lbl:"
 msgid "Command Cherry-Pick produced warnings."
 msgstr "コマンド 「チェリーピック」 が警告を発しました。"
 
-#, fuzzy
 msgctxt "dlgSgOutput.lbl:"
 msgid "Command Clone produced warnings."
-msgstr "★コマンド 「クローン」 が警告を発しました。"
+msgstr "コマンド 「クローン」 が警告を発しました。"
 
 msgctxt "dlgSgOutput.lbl:"
 msgid "Command Commit failed!"
 msgstr "コマンド 「コミット」に失敗しました!"
 
-#, fuzzy
 msgctxt "dlgSgOutput.lbl:"
 msgid "Command Commit produced warnings."
-msgstr "★コマンド 「コミット」 が警告を発しました。"
+msgstr "コマンド 「コミット」 が警告を発しました。"
 
 #, fuzzy
 msgctxt "dlgSgOutput.lbl:"
 msgid "Command Delete Branch failed!"
 msgstr "★コマンド「ブランチの削除」に失敗しました!"
 
-#, fuzzy
 msgctxt "dlgSgOutput.lbl:"
 msgid "Command Delete failed!"
-msgstr "★コマンド 「削除」 に失敗しました!"
+msgstr "コマンド 「削除」 に失敗しました!"
 
 msgctxt "dlgSgOutput.lbl:"
 msgid "Command Discard failed!"
@@ -5961,10 +5954,9 @@ msgctxt "dlgSgOutput.lbl:"
 msgid "Command Reset failed!"
 msgstr "コマンド 「リセット」 に失敗しました!"
 
-#, fuzzy
 msgctxt "dlgSgOutput.lbl:"
 msgid "Command Reset produced warnings."
-msgstr "★コマンド 「リセット」 が警告を発しました。"
+msgstr "コマンド 「リセット」 が警告を発しました。"
 
 #, fuzzy
 msgctxt "dlgSgOutput.lbl:"
@@ -5980,15 +5972,13 @@ msgctxt "dlgSgOutput.lbl:"
 msgid "Command Squash Commits failed!"
 msgstr "★コマンド 「コミットのスカッシュ」 に失敗しました!"
 
-#, fuzzy
 msgctxt "dlgSgOutput.lbl:"
 msgid "Command Stage failed!"
-msgstr "★コマンド 「ステージ」 に失敗しました!"
+msgstr "コマンド 「ステージ」 に失敗しました!"
 
-#, fuzzy
 msgctxt "dlgSgOutput.lbl:"
 msgid "Command Stage produced warnings."
-msgstr "★コマンド 「ステージ」 が警告を発しました。"
+msgstr "コマンド 「ステージ」 が警告を発しました。"
 
 msgctxt "dlgSgOutput.lbl:"
 msgid "Command Start Support Branch failed!"
@@ -5999,10 +5989,9 @@ msgctxt "dlgSgOutput.lbl:"
 msgid "Command Unregister Submodule failed!"
 msgstr "★コマンド「サブモジュールの登録解除」に失敗しました！"
 
-#, fuzzy
 msgctxt "dlgSgOutput.lbl:"
 msgid "Command Unstage failed!"
-msgstr "★コマンド 「アンステージ」 に失敗しました!"
+msgstr "コマンド 「アンステージ」 に失敗しました!"
 
 msgctxt "dlgSgOutput.lbl:"
 msgid "If in question, please ask your repository administrator."
@@ -6024,10 +6013,9 @@ msgctxt "dlgSgOutput.mni:"
 msgid "Copy Selection"
 msgstr "選択範囲をコピー"
 
-#, fuzzy
 msgctxt "dlgSgOutput.mni:"
 msgid "Wrap Long Lines"
-msgstr "★長い行を折り返す"
+msgstr "長い行を折り返す"
 
 msgctxt "dlgSgOutput.tle:"
 msgid "Command Failed"
@@ -7337,20 +7325,18 @@ msgctxt "dlgSgProviderCommentEdit.inf"
 msgid "Enter the text of the comment."
 msgstr "★コメントのテキストを入力してください。"
 
-#, fuzzy
 msgctxt "dlgSgProviderCommentEdit.tle"
 msgid "Edit Comment"
-msgstr "★コメントを編集"
+msgstr "コメントを編集"
 
 #, fuzzy
 msgctxt "dlgSgProviderGenerateToken.btn:"
 msgid "Authenticate"
 msgstr "★認証"
 
-#, fuzzy
 msgctxt "dlgSgProviderGenerateToken.edt:"
 msgid "Link"
-msgstr "★リンク"
+msgstr "リンク"
 
 #, fuzzy
 msgctxt "dlgSgProviderGenerateToken.hdl"
@@ -8061,10 +8047,9 @@ msgctxt "dlgSgRebaseContinueWithDirtyWorkingTree.hdl"
 msgid "Do you want the working tree changes to be part of the new commit?"
 msgstr "★作業ツリーの変更を新しいコミットの一部にしますか？"
 
-#, fuzzy
 msgctxt "dlgSgRebaseContinueWithDirtyWorkingTree.tle"
 msgid "Rebase"
-msgstr "★リベース"
+msgstr "リベース"
 
 #, fuzzy
 msgctxt "dlgSgRebaseContinueWithDirtyWorkingTreeAndIndex.btn:"
@@ -8081,10 +8066,9 @@ msgctxt "dlgSgRebaseContinueWithDirtyWorkingTreeAndIndex.hdl"
 msgid "Do you want the working tree changes to be applied, too?"
 msgstr "★作業ツリーの変更も適用しますか？"
 
-#, fuzzy
 msgctxt "dlgSgRebaseContinueWithDirtyWorkingTreeAndIndex.tle"
 msgid "Rebase"
-msgstr "★リベース"
+msgstr "リベース"
 
 msgctxt "dlgSgRebaseContinueWithoutApplyingAllChanges.btn:"
 msgid "Continue Anyway"
@@ -8214,10 +8198,9 @@ msgctxt "dlgSgRebaseInteractiveMessage.edt:"
 msgid "Commit Message"
 msgstr "コミットメッセージ"
 
-#, fuzzy
 msgctxt "dlgSgRebaseInteractiveMessage.edt:"
 msgid "New Message"
-msgstr "★新しいメッセージ"
+msgstr "新しいメッセージ"
 
 msgctxt "dlgSgRebaseInteractiveMessage.hdl"
 msgid "Edit commit message"
@@ -8257,10 +8240,9 @@ msgctxt "dlgSgRebaseNoop.hdl"
 msgid "There is nothing to rebase."
 msgstr "★リベースするものはありません。"
 
-#, fuzzy
 msgctxt "dlgSgRebaseNoop.tle"
 msgid "Merge"
-msgstr "★マージ"
+msgstr "マージ"
 
 #, fuzzy
 msgctxt "dlgSgRebaseNoopSelf.fur"
@@ -8464,10 +8446,9 @@ msgctxt "dlgSgRemoteSetDepth.edt:"
 msgid "Depth"
 msgstr "深さ"
 
-#, fuzzy
 msgctxt "dlgSgRemoteSetDepth.err:"
 msgid "Please enter a valid commit count."
-msgstr "★有効なコミット数を入力してください。"
+msgstr "有効なコミット数を入力してください。"
 
 msgctxt "dlgSgRemoteSetDepth.hdl"
 msgid "Set repository depth"
@@ -9597,10 +9578,9 @@ msgctxt "dlgSgRollbackToFiles.btn:"
 msgid "+ Stage"
 msgstr "+ ステージ"
 
-#, fuzzy
 msgctxt "dlgSgRollbackToFiles.btn:"
 msgid "Rollback"
-msgstr "★ロールバック"
+msgstr "ロールバック"
 
 #, fuzzy
 msgctxt "dlgSgRollbackToFiles.fur"
@@ -10195,10 +10175,9 @@ msgctxt "dlgSgStashOnDemandConfirmation.hdl:"
 msgid "What to do with the working tree or Index changes?"
 msgstr "★作業ツリーまたはインデックスの変更をどうしますか？"
 
-#, fuzzy
 msgctxt "dlgSgStashOnDemandConfirmation.tle"
 msgid "Reset"
-msgstr "★リセット"
+msgstr "リセット"
 
 msgctxt "dlgSgStashOnDemandConfirmation.tle:"
 msgid "Checkout"
@@ -10389,10 +10368,9 @@ msgctxt "dlgSgSubmoduleDeinitConfirm.tle"
 msgid "Deinit Submodule"
 msgstr "サブモジュールの削除"
 
-#, fuzzy
 msgctxt "dlgSgSubmoduleInitAll.btn:"
 msgid "Initialize"
-msgstr "★初期化"
+msgstr "初期化"
 
 #, fuzzy
 msgctxt "dlgSgSubmoduleInitAll.chk:"
@@ -14455,10 +14433,9 @@ msgctxt "wnd(Log|Project|Std|).mniFixup"
 msgid "Use Message for Commit"
 msgstr "コミットにメッセージを使用"
 
-#, fuzzy
 msgctxt "wnd(Log|Project|Std|).mniFlowConfigure"
 msgid "Configure"
-msgstr "★設定"
+msgstr "設定"
 
 msgctxt "wnd(Log|Project|Std|).mniFlowConfigure:"
 msgid "Configure Features"
