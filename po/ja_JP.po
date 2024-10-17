@@ -366,10 +366,9 @@ msgctxt "dlgQBugReportSend.edt:"
 msgid "Reply To"
 msgstr "返信先"
 
-#, fuzzy
 msgctxt "dlgQBugReportSend.edt:"
 msgid "Your Email"
-msgstr "★あなたのメールアドレス"
+msgstr "あなたのメールアドレス"
 
 msgctxt "dlgQBugReportSend.lbl:"
 msgid "Sorry for the trouble!"
@@ -379,10 +378,9 @@ msgctxt "dlgQBugReportSend.lbl:"
 msgid "The \\[file log-file\\] will be sent with this bug report. Alternatively, you may send it to \\[email smartgit@syntevo.com\\]."
 msgstr "このバグレポートとともに、\\[file log-file\\] を送信します。または、\\[email smartgit@syntevo.com\\] に送信することもできます。"
 
-#, fuzzy
 msgctxt "dlgQBugReportSend.lbl:"
 msgid "We only use it to ask further details about this bug or provide a workaround."
-msgstr "★このバグに関する詳細を問い合わせたり、回避策を提供するためにのみ使用します。"
+msgstr "このバグに関する詳細を問い合わせたり、回避策を提供するためにのみ使用します。"
 
 msgctxt "dlgQBugReportSend.lbl:"
 msgid "What did you do? We often solve a difficult bug after receiving just one good hint!"
@@ -1824,10 +1822,9 @@ msgctxt "dlgScTextSettings.rbt:"
 msgid "Off"
 msgstr "Off"
 
-#, fuzzy
 msgctxt "dlgScTextSettings.rbt:"
 msgid "Syntax-dependent \\(experimental\\)"
-msgstr "★シンタックス依存 \\(実験的\\)"
+msgstr "構文依存 \\(実験的\\)"
 
 msgctxt "dlgScTextSettings.rbt:"
 msgid "Trailing, in selection and changed blocks"
@@ -1845,15 +1842,13 @@ msgctxt "dlgScTextSettings.tle"
 msgid "Settings"
 msgstr "設定"
 
-#, fuzzy
 msgctxt "dlgScUpdateInstallationResumeFailure.fur"
 msgid "The process could not be started."
-msgstr "★プロセスを開始できませんでした。"
+msgstr "プロセスを開始できませんでした。"
 
-#, fuzzy
 msgctxt "dlgScUpdateInstallationResumeFailure.hdl"
 msgid "Launching updater directly failed."
-msgstr "★アップデータの直接起動に失敗しました。"
+msgstr "アップデータの直接起動に失敗しました。"
 
 msgctxt "dlgScUpdateInstallationResumeFailure.tle"
 msgid "Upgrade"
@@ -2371,10 +2366,9 @@ msgctxt "dlgSgBranchDeleteLocalConfirmSingle.fur:"
 msgid "You may lose unpushed changes or it might be complicated to restore the branch\\(es\\)!"
 msgstr "プッシュされていない変更が失われたり、ブランチの復元が困難になる可能性があります!"
 
-#, fuzzy
 msgctxt "dlgSgBranchDeleteLocalConfirmSingle.fur:"
 msgid "Your local branch is tracking branch '$1'. Decide whether you also want to delete this branch from the remote repository."
-msgstr "★ローカル ブランチはブランチ '$1' を追跡しています。リモート リポジトリからもこのブランチを削除するかどうかを決定します。"
+msgstr "ローカルブランチが '$1' ブランチを追跡しています。リモートリポジトリからもこのブランチを削除するか検討してください。"
 
 msgctxt "dlgSgBranchDeleteLocalConfirmSingle.hdl:"
 msgid "Do you want to delete the local branch '$1'?"
@@ -2607,7 +2601,7 @@ msgstr "ローカルブランチではなく、コミットを直接チェック
 #, fuzzy
 msgctxt "dlgSgCheckoutTarget.wrn:"
 msgid "Local and remote branch are diverged. The checkout will end up at a different commit."
-msgstr "★ローカル ブランチとリモート ブランチが分岐しています。チェックアウトは異なるコミットになります。"
+msgstr "★ブランチがローカルとリモートで分かれています。チェックアウトすると、予期せぬコミットに移動する可能性があります。"
 
 msgctxt "dlgSgCheckoutTarget.wrn:"
 msgid "Local branch '$1' is behind checkout target '$2'."
@@ -3015,8 +3009,12 @@ msgstr "★SmartGitを認証ヘルパーとして設定"
 
 #, fuzzy
 msgctxt "dlgSgCloneSetCredentialHelper.fur"
-msgid "If selected, SmartGit will be set as `credential.helper` in the `.git\\\\/config` of newly cloned repositories that are cloned directly from a configured Hosting Provider. Executing remote Git commands \\(e.g. \\*pull\\* or \\*push\\*\\) in the terminal or a shell script will then use the credentials known to SmartGit.\\n\\nThis repository setting will only affect new clones and takes precedence over any `credential.helper` configuration in your user `~\\\\/.gitconfig`.\\n\\nFor already cloned repositories the setting \\*Use SmartGit as credential helper\\* can be changed in \\*Repository \\| Settings\\*.\\n\\n\\*When to select?\\*\\nIf you solely use SmartGit as your GUI client and you use Git from the command line, we suggest selecting this option. It will simplify the authentication process when accessing platforms like GitHub.\\n\\n\\*When not to set?\\*\\nIf you also use other GUI clients, adding this configuration may disrupt the authentication of these tools and should be avoided.\\n\\nIf you do not use Git on command line or other GUI clients, selecting this option serves no purpose and is not recommended."
-msgstr "★選択した場合、設定済みのホスティングプロバイダーから直接クローンされた新しいリポジトリの `.git/config` に、SmartGit が `credential.helper` として設定されます。ターミナルまたはシェルスクリプトでリモート Git コマンド (例: *pull* または *push*) を実行すると、SmartGit に認識されている資格情報が使用されます。\\n\\nこのリポジトリ設定は、新しいクローンにのみ影響し、ユーザーの `~/.gitconfig` にある `credential.helper` 設定よりも優先されます。\\n\\n既にクローンされているリポジトリの場合、*SmartGit を認証ヘルパーとして使用する* 設定は、*リポジトリ | 設定* で変更できます。\\n\\n*いつ選択するか？*\\nSmartGit のみを GUI クライアントとして使用し、コマンドラインから Git を使用する場合は、このオプションを選択することをお勧めします。GitHub などのプラットフォームにアクセスする際の認証プロセスが簡素化されます。\\n\\n*いつ設定しないか？*\\n他の GUI クライアントも使用している場合、この設定を追加すると、これらのツールの認証が中断される可能性があるため、避ける必要があります。\\n\\nコマンドラインまたは他の GUI クライアントで Git を使用しない場合、このオプションを選択しても意味がないため、推奨されません。"
+msgid ""
+"If selected, SmartGit will be set as `credential.helper` in the `.git\\\\/config` of newly cloned repositories that are cloned directly from a configured Hosting Provider. Executing remote Git commands \\(e.g. \\*pull\\* or \\*push\\*\\) in the terminal or a shell script will then use the credentials known to SmartGit.\\n\\nThis repository setting will only affect new clones and takes precedence over any `credential.helper` configuration in your user `~\\\\/.gitconfig`.\\n\\nFor already cloned repositories the setting \\*Use SmartGit as credential helper\\* can be changed in \\*Repository \\| Settings\\*.\\n\\n\\*When to select?\\*\\nIf you solely use SmartGit as your GUI client and you use Git from the command line, we suggest selecting this option. It will simplify the authentication process when accessing platforms like GitHub.\\n\\n\\*When not to set?\\*\\nIf you also use other GUI clients, adding this configuration may disrupt the authentication of these tools and should be "
+"avoided.\\n\\nIf you do not use Git on command line or other GUI clients, selecting this option serves no purpose and is not recommended."
+msgstr ""
+"★選択した場合、設定済みのホスティングプロバイダーから直接クローンされた新しいリポジトリの `.git/config` に、SmartGit が `credential.helper` として設定されます。ターミナルまたはシェルスクリプトでリモート Git コマンド (例: *pull* または *push*) を実行すると、SmartGit に認識されている資格情報が使用されます。\\n\\nこのリポジトリ設定は、新しいクローンにのみ影響し、ユーザーの `~/.gitconfig` にある `credential.helper` 設定よりも優先されます。\\n\\n既にクローンされているリポジトリの場合、*SmartGit を認証ヘルパーとして使用する* 設定は、*リポジトリ | 設定* で変更できます。\\n\\n*いつ選択するか？*\\nSmartGit のみを GUI クライアントとして使用し、コマンドラインから Git を使用する場合は、このオプションを選択することをお勧めします。GitHub などのプラットフォームにアクセスする際の認証プロセスが簡素化されます。\\n\\n*いつ設定しないか？*\\n他の GUI クライアントも使用している場合、この設定を追加すると、これらのツールの認証が中断される可能性があるため、避ける必要があります。\\n\\nコマンドラインまたは他"
+"の GUI クライアントで Git を使用しない場合、このオプションを選択しても意味がないため、推奨されません。"
 
 #, fuzzy
 msgctxt "dlgSgCloneSetCredentialHelper.hdl"
@@ -7718,10 +7716,9 @@ msgctxt "dlgSgPushToAddRemote.fur"
 msgid "There is no remote repository configured yet. To push, you first need to configure that. After having added the remote, invoke Push again."
 msgstr "★リモートリポジトリはまだ設定されていません。プッシュするには、まず設定する必要があります。リモートを追加した後、もう一度プッシュを実行してください。"
 
-#, fuzzy
 msgctxt "dlgSgPushToAddRemote.hdl"
 msgid "Do you want to add a remote?"
-msgstr "★リモートを追加しますか？"
+msgstr "リモートを追加しますか？"
 
 #, fuzzy
 msgctxt "dlgSgPushToAddRemote.tle"
@@ -8032,10 +8029,9 @@ msgctxt "dlgSgRebaseContinuePreserveUntrackedFiles.tle"
 msgid "Rebase"
 msgstr "リベース"
 
-#, fuzzy
 msgctxt "dlgSgRebaseContinueWithDirtyWorkingTree.btn:"
 msgid "Continue"
-msgstr "★続行"
+msgstr "続ける"
 
 #, fuzzy
 msgctxt "dlgSgRebaseContinueWithDirtyWorkingTree.fur"
@@ -8051,10 +8047,9 @@ msgctxt "dlgSgRebaseContinueWithDirtyWorkingTree.tle"
 msgid "Rebase"
 msgstr "リベース"
 
-#, fuzzy
 msgctxt "dlgSgRebaseContinueWithDirtyWorkingTreeAndIndex.btn:"
 msgid "Continue"
-msgstr "★続行"
+msgstr "続ける"
 
 #, fuzzy
 msgctxt "dlgSgRebaseContinueWithDirtyWorkingTreeAndIndex.fur"
@@ -15654,10 +15649,9 @@ msgctxt "wnd(Log|Project|Std|).tbt:"
 msgid "Hosting provider is not configured for the current repository. Go to the Preferences to add a configuration."
 msgstr "現在のリポジトリにホスティングプロバイダーが設定されていません。環境設定から、設定を追加してください。"
 
-#, fuzzy
 msgctxt "wnd(Log|Project|Std|).tbt:"
 msgid "If selected and Index as well as Working Tree changes are available, show them separately."
-msgstr "★選択されていて、インデックスと作業ツリーの両方に変更がある場合は、それらを別々に表示します。"
+msgstr "選択され、インデックスと作業ツリーの変更がある場合、それらを個別に表示します。"
 
 msgctxt "wnd(Log|Project|Std|).tbt:"
 msgid "If selected, files from subdirectories are shown."
@@ -15819,10 +15813,9 @@ msgctxt "wnd(Log|Project|Std|).tbtRefresh"
 msgid "Refresh the log view."
 msgstr "ログ ビューを更新します。"
 
-#, fuzzy
 msgctxt "wnd(Log|Project|Std|).tbtRemoteFetch"
 msgid "Fetch commits from current remote repository."
-msgstr "★現在のリモートリポジトリからコミットをフェッチします。"
+msgstr "現在のリモートリポジトリからコミットをフェッチします。"
 
 msgctxt "wnd(Log|Project|Std|).tbtRemoteFetch:"
 msgid "Fetch commits from all remote repositories."
@@ -15908,10 +15901,9 @@ msgctxt "wnd(Log|Project|Std|).tbtUnstage"
 msgid "Remove staged changes from index."
 msgstr "インデックスからステージングされた変更を削除します。"
 
-#, fuzzy
 msgctxt "wnd(Log|Project|Std|).tbtView-ignore-whitespaces"
 msgid "Ignore irrelevant whitespace"
-msgstr "★無関係な空白を無視する"
+msgstr "無関係な空白を無視する"
 
 msgctxt "wnd(Log|Project|Std|).tbtViewFromSubmodules"
 msgid "If selected, files from submodules will be shown."
