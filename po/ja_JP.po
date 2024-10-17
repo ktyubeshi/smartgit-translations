@@ -2138,6 +2138,7 @@ msgctxt "dlgSgAzureGenerateToken.inf"
 msgid "Authenticate at Azure DevOps and enter the generated token."
 msgstr "Azure DevOpsで認証し、生成されたトークンを入力します。"
 
+#, fuzzy
 msgctxt "dlgSgAzureGenerateToken.lbl:"
 msgid "Your browser should have opened automatically, let you authenticate with your preferred account at Azure DevOps and grant access to SmartGit. If this didn't happen, manually open following link:"
 msgstr "ブラウザが自動的に開いて、Azure DevOps でお好みのアカウントで認証され、SmartGit にアクセスが許可されるはずです。 そうならなかった場合は、以下のリンクを手動で開いてください:"
@@ -2210,6 +2211,7 @@ msgctxt "dlgSgBitbucketGenerateToken.inf"
 msgid "Authenticate at Bitbucket and enter the generated token"
 msgstr "Bitbucketで認証し、生成されたトークンを入力します"
 
+#, fuzzy
 msgctxt "dlgSgBitbucketGenerateToken.lbl:"
 msgid "Your browser should have opened automatically, let you authenticate with your preferred account at Bitbucket and grant access to SmartGit. If this didn't happen, manually open following link:"
 msgstr "ブラウザが自動的に開き、Bitbucketのアカウントで認証され、SmartGitへのアクセスが許可されたはずです。\\nそうならなかった場合は、手動で以下のリンクを開いてください。"
@@ -2780,10 +2782,9 @@ msgctxt "dlgSgCleanNoFilesFound.hdl"
 msgid "No files found to be deleted."
 msgstr "削除対象のファイルが見つかりませんでした。"
 
-#, fuzzy
 msgctxt "dlgSgCleanNoFilesFound.tle"
 msgid "Clean Working Tree"
-msgstr "★作業ツリーのクリーンアップ"
+msgstr "作業ツリーのクリーンアップ"
 
 msgctxt "dlgSgClone.btn:"
 msgid "Configure"
@@ -2963,10 +2964,9 @@ msgctxt "dlgSgClone.ttpPartialWarning:"
 msgid "This functionality depends on the capabilities of your server."
 msgstr "この機能はサーバーの機能に依存します。"
 
-#, fuzzy
 msgctxt "dlgSgCloneDirectoryIsGitRepository.fur"
 msgid "Please select an empty, local directory for the new repository."
-msgstr "★新しいリポジトリには、空のローカルディレクトリを選択してください。"
+msgstr "新しいリポジトリ用に空のローカル ディレクトリを選択してください。"
 
 #, fuzzy
 msgctxt "dlgSgCloneDirectoryIsGitRepository.hdl"
@@ -3002,10 +3002,9 @@ msgctxt "dlgSgCloneSetCredentialHelper.btn:"
 msgid "Keep As-Is"
 msgstr "★現状維持"
 
-#, fuzzy
 msgctxt "dlgSgCloneSetCredentialHelper.btn:"
 msgid "Set SmartGit as Credential-Helper"
-msgstr "★SmartGitを認証ヘルパーとして設定"
+msgstr "SmartGit を Credential-Helper として設定する"
 
 #, fuzzy
 msgctxt "dlgSgCloneSetCredentialHelper.fur"
@@ -3437,10 +3436,9 @@ msgctxt "dlgSgCompareTwoFiles.tle"
 msgid "Compare"
 msgstr "比較"
 
-#, fuzzy
 msgctxt "dlgSgCompareTwoFilesFrameMixedLineEndingsRight.fur"
 msgid "To prevent overwriting intentional mixed line-endings, editing and saving is disabled."
-msgstr "★意図的な混在改行の上書きを防ぐため、編集と保存は無効になっています。"
+msgstr "意図的に混在させた可能性がある行末の改行コードの上書きを防ぐため、編集と保存を無効にしています。"
 
 msgctxt "dlgSgCompareTwoFilesFrameMixedLineEndingsRight.hdl"
 msgid "The right file is not editable because of mixed line-endings."
@@ -4350,6 +4348,7 @@ msgctxt "dlgSgGitHubGenerateToken.inf"
 msgid "Authenticate at GitHub and grant access to SmartGit."
 msgstr "OAuthまたは認証情報を用いてGitHubで認証します。"
 
+#, fuzzy
 msgctxt "dlgSgGitHubGenerateToken.lbl:"
 msgid "Your browser should have opened automatically, let you authenticate with your preferred account at GitHub and grant access to SmartGit. If this didn't happen, manually open following link:"
 msgstr "ブラウザが自動的に起動し、GitHubのアカウントで認証され、SmartGitへのアクセスが許可されるはずです。\\n認証されなかった場合は、手動で以下のリンクを開いてください。"
@@ -4462,6 +4461,7 @@ msgctxt "dlgSgGitLabGenerateToken.inf"
 msgid "Paste the OAuth code from your browser."
 msgstr "ブラウザのOAuthコードを貼り付けます。"
 
+#, fuzzy
 msgctxt "dlgSgGitLabGenerateToken.lbl:"
 msgid "Your browser should have opened automatically, let you authenticate with your preferred account at GitLab and grant access to SmartGit. If this didn't happen, manually open following link:"
 msgstr "ブラウザが自動的に起動し、GitLabのアカウントで認証され、SmartGitへのアクセスが許可されるはずです。\\n認証されなかった場合は、手動で次のリンクを開いてください。"
@@ -4643,10 +4643,9 @@ msgctxt "dlgSgHistoryEditMessage.mni:"
 msgid "Paste"
 msgstr "貼り付け"
 
-#, fuzzy
 msgctxt "dlgSgHistoryEditMessage.mni:"
 msgid "Rewrap"
-msgstr "★折り返し"
+msgstr "折り返し"
 
 msgctxt "dlgSgHistoryEditMessage.tle"
 msgid "Edit Message"
@@ -4748,15 +4747,13 @@ msgctxt "dlgSgHistoryPushedCommitsModifyPushedCommits.tle:"
 msgid "Modify Commit"
 msgstr "コミットの修正"
 
-#, fuzzy
 msgctxt "dlgSgHistoryPushedCommitsModifyPushedCommits.tle:"
 msgid "Move and Squash Commit"
-msgstr "★移動してコミットをスカッシュ"
+msgstr "移動してスカッシュコミット"
 
-#, fuzzy
 msgctxt "dlgSgHistoryPushedCommitsModifyPushedCommits.tle:"
 msgid "Rebase Interactive"
-msgstr "★対話形式でリベース"
+msgstr "対話的なリベース"
 
 msgctxt "dlgSgHistoryPushedCommitsModifyPushedCommits.tle:"
 msgid "Split Commit"
@@ -5323,10 +5320,9 @@ msgctxt "dlgSgIgnoreFile.tle"
 msgid "Ignore"
 msgstr "無視"
 
-#, fuzzy
 msgctxt "dlgSgIgnoreFile.wrn:"
 msgid "Because of performance reasons it is recommended to ignore by pattern - if possible."
-msgstr "★パフォーマンス上の理由から、可能であればパターンで無視することをお勧めします。"
+msgstr "パフォーマンス上の理由から、可能であればパターンで無視することをお勧めします。"
 
 msgctxt "dlgSgIndexEditorSaveOrDiscard.btn:"
 msgid "Discard"
@@ -5833,15 +5829,13 @@ msgctxt "dlgSgOutput.lbl:"
 msgid "Command Add Submodule failed!"
 msgstr "★コマンド「サブモジュールの追加」に失敗しました!"
 
-#, fuzzy
 msgctxt "dlgSgOutput.lbl:"
 msgid "Command Add Submodule produced warnings."
-msgstr "★コマンド 「サブモジュールの追加」 が警告を発しました。"
+msgstr "コマンド 「サブモジュールの追加」 が警告を発しました。"
 
-#, fuzzy
 msgctxt "dlgSgOutput.lbl:"
 msgid "Command Apply Stash failed!"
-msgstr "★コマンド 「スタッシュの適用」 に失敗しました!"
+msgstr "コマンド 「スタッシュの適用」 に失敗しました!"
 
 msgctxt "dlgSgOutput.lbl:"
 msgid "Command Apply Stash produced warnings."
@@ -5914,10 +5908,9 @@ msgctxt "dlgSgOutput.lbl:"
 msgid "Command Move failed!"
 msgstr "コマンド 「移動」 に失敗しました!"
 
-#, fuzzy
 msgctxt "dlgSgOutput.lbl:"
 msgid "Command Move produced warnings."
-msgstr "★コマンド 「移動」 が警告を発しました。"
+msgstr "コマンド 「移動」 が警告を発しました。"
 
 msgctxt "dlgSgOutput.lbl:"
 msgid "Command Pull \\(Merge\\) produced warnings."
@@ -5965,10 +5958,9 @@ msgctxt "dlgSgOutput.lbl:"
 msgid "Command Resolve produced warnings."
 msgstr "コマンド 「解決」 が警告を発しました。"
 
-#, fuzzy
 msgctxt "dlgSgOutput.lbl:"
 msgid "Command Squash Commits failed!"
-msgstr "★コマンド 「コミットのスカッシュ」 に失敗しました!"
+msgstr "コマンド 「スカッシュコミット」 に失敗しました!"
 
 msgctxt "dlgSgOutput.lbl:"
 msgid "Command Stage failed!"
@@ -7327,29 +7319,26 @@ msgctxt "dlgSgProviderCommentEdit.tle"
 msgid "Edit Comment"
 msgstr "コメントを編集"
 
-#, fuzzy
 msgctxt "dlgSgProviderGenerateToken.btn:"
 msgid "Authenticate"
-msgstr "★認証"
+msgstr "認証"
 
 msgctxt "dlgSgProviderGenerateToken.edt:"
 msgid "Link"
 msgstr "リンク"
 
-#, fuzzy
 msgctxt "dlgSgProviderGenerateToken.hdl"
 msgid "Generate a new API token for GitLab"
-msgstr "★GitLab 用の新しい API トークンを生成する"
+msgstr "GitLab用の新しいAPIトークンを生成する"
 
-#, fuzzy
 msgctxt "dlgSgProviderGenerateToken.inf"
 msgid "Authenticate at GitLab and grant access to SmartGit."
-msgstr "★GitLab で認証し、SmartGit へのアクセスを許可します。"
+msgstr "GitLabで認証し、SmartGitへのアクセスを許可します。"
 
 #, fuzzy
 msgctxt "dlgSgProviderGenerateToken.lbl:"
 msgid "Your browser should have opened automatically, let you authenticate with your preferred account at GitLab and grant access to SmartGit. If this didn't happen, manually open following link:"
-msgstr "★ブラウザが自動的に開いて、GitLab で希望のアカウントで認証し、SmartGit へのアクセスを許可するはずです。これが発生しなかった場合は、次のリンクを手動で開いてください。"
+msgstr "ブラウザが自動的に開き、GitLabで希望するアカウントでの認証とSmartGitへのアクセス許可が行われるはずです。ブラウザが自動的に開かなかった場合は、以下のリンクを手動で開いてください："
 
 msgctxt "dlgSgProviderGenerateToken.tle"
 msgid "Generate API Token"
