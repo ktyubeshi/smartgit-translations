@@ -2879,10 +2879,9 @@ msgctxt "dlgSgClone.hnt:"
 msgid "No repository found."
 msgstr "リポジトリが見つかりません。"
 
-#, fuzzy
 msgctxt "dlgSgClone.hnt:"
 msgid "No repository matches the entered filter."
-msgstr "★入力されたフィルターに一致するリポジトリはありません。"
+msgstr "入力されたフィルタに一致するリポジトリはありません。"
 
 msgctxt "dlgSgClone.hnt:"
 msgid "Searching ..."
@@ -2968,10 +2967,9 @@ msgctxt "dlgSgCloneDirectoryIsGitRepository.fur"
 msgid "Please select an empty, local directory for the new repository."
 msgstr "新しいリポジトリ用に空のローカル ディレクトリを選択してください。"
 
-#, fuzzy
 msgctxt "dlgSgCloneDirectoryIsGitRepository.hdl"
 msgid "The selected directory is a Git repository."
-msgstr "★選択されたディレクトリはGitリポジトリです。"
+msgstr "選択されたディレクトリはGitリポジトリです。"
 
 msgctxt "dlgSgCloneDirectoryIsGitRepository.tle"
 msgid "Input Validation"
@@ -4494,10 +4492,9 @@ msgctxt "dlgSgGitLabMergeRequestCreate.tle"
 msgid "Create Merge Request"
 msgstr "マージリクエストを作成"
 
-#, fuzzy
 msgctxt "dlgSgGitLabRefreshFailed.fur"
 msgid "Your SmartGit Hosting Provider configuration for GitLab is probably invalid.\\n\\nReview your settings in the Preferences."
-msgstr "★GitLab の SmartGit ホスティングプロバイダー設定が無効になっている可能性があります。\\n\\n環境設定で設定を確認してください。"
+msgstr "GitLab の SmartGit ホスティングプロバイダ設定が無効になっている可能性があります。\\n\\n環境設定で設定を確認してください。"
 
 msgctxt "dlgSgGitLabRefreshFailed.hdl"
 msgid "Refresh failed."
@@ -4651,10 +4648,9 @@ msgctxt "dlgSgHistoryEditMessage.tle"
 msgid "Edit Message"
 msgstr "メッセージの編集"
 
-#, fuzzy
 msgctxt "dlgSgHistoryModifyConfirm.btn:"
 msgid "Modify"
-msgstr "★修正"
+msgstr "変更"
 
 msgctxt "dlgSgHistoryModifyConfirm.chk"
 msgid "Don't show again"
@@ -5123,10 +5119,9 @@ msgctxt "dlgSgHostingProviderSelectRepository.hnt:"
 msgid "No repository found."
 msgstr "リポジトリが見つかりません。"
 
-#, fuzzy
 msgctxt "dlgSgHostingProviderSelectRepository.hnt:"
 msgid "No repository matches the entered filter."
-msgstr "★入力したフィルタに一致するリポジトリはありません。"
+msgstr "入力されたフィルタに一致するリポジトリはありません。"
 
 msgctxt "dlgSgHostingProviderSelectRepository.hnt:"
 msgid "Searching ..."
@@ -5824,10 +5819,9 @@ msgctxt "dlgSgOutput.lbl:"
 msgid "Command Abort failed!"
 msgstr "コマンド「中止」に失敗しました!"
 
-#, fuzzy
 msgctxt "dlgSgOutput.lbl:"
 msgid "Command Add Submodule failed!"
-msgstr "★コマンド「サブモジュールの追加」に失敗しました!"
+msgstr "コマンド「サブモジュールの追加」に失敗しました!"
 
 msgctxt "dlgSgOutput.lbl:"
 msgid "Command Add Submodule produced warnings."
@@ -5869,10 +5863,9 @@ msgctxt "dlgSgOutput.lbl:"
 msgid "Command Commit produced warnings."
 msgstr "コマンド 「コミット」 が警告を発しました。"
 
-#, fuzzy
 msgctxt "dlgSgOutput.lbl:"
 msgid "Command Delete Branch failed!"
-msgstr "★コマンド「ブランチの削除」に失敗しました!"
+msgstr "コマンド「ブランチの削除」に失敗しました!"
 
 msgctxt "dlgSgOutput.lbl:"
 msgid "Command Delete failed!"
@@ -5882,10 +5875,9 @@ msgctxt "dlgSgOutput.lbl:"
 msgid "Command Discard failed!"
 msgstr "コマンド「破棄」に失敗しました!"
 
-#, fuzzy
 msgctxt "dlgSgOutput.lbl:"
 msgid "Command Fetch Pull Request produced warnings."
-msgstr "★コマンド 「プルリクエストのフェッチ」 が警告を発しました。"
+msgstr "コマンド 「プルリクエストのフェッチ」 が警告を発しました。"
 
 msgctxt "dlgSgOutput.lbl:"
 msgid "Command Fetch failed!"
@@ -5899,10 +5891,9 @@ msgctxt "dlgSgOutput.lbl:"
 msgid "Command Merge produced warnings."
 msgstr "コマンド 「マージ」 が警告を発しました。"
 
-#, fuzzy
 msgctxt "dlgSgOutput.lbl:"
 msgid "Command Modify Commit failed!"
-msgstr "★コマンド 「コミットの修正」 に失敗しました!"
+msgstr "コマンド 「コミットの修正」 に失敗しました!"
 
 msgctxt "dlgSgOutput.lbl:"
 msgid "Command Move failed!"
@@ -5928,10 +5919,9 @@ msgctxt "dlgSgOutput.lbl:"
 msgid "Command Push failed!"
 msgstr "コマンド 「プッシュ」 に失敗しました!"
 
-#, fuzzy
 msgctxt "dlgSgOutput.lbl:"
 msgid "Command Rebase Interactive failed!"
-msgstr "★コマンド 「対話形式でのリベース」 に失敗しました!"
+msgstr "コマンド 「対話的なリベース」 に失敗しました!"
 
 msgctxt "dlgSgOutput.lbl:"
 msgid "Command Rebase failed!"
@@ -5939,7 +5929,7 @@ msgstr "コマンド 「リベース」 に失敗した！"
 
 msgctxt "dlgSgOutput.lbl:"
 msgid "Command Rebase produced warnings."
-msgstr "コマンド 「リベース」 は警告を発しました。"
+msgstr "コマンド 「リベース」 が警告を発しました。"
 
 msgctxt "dlgSgOutput.lbl:"
 msgid "Command Reset failed!"
@@ -5949,10 +5939,9 @@ msgctxt "dlgSgOutput.lbl:"
 msgid "Command Reset produced warnings."
 msgstr "コマンド 「リセット」 が警告を発しました。"
 
-#, fuzzy
 msgctxt "dlgSgOutput.lbl:"
 msgid "Command Resolve failed!"
-msgstr "★コマンド 「競合の解決」 に失敗しました!"
+msgstr "コマンド 「競合の解決」 に失敗しました!"
 
 msgctxt "dlgSgOutput.lbl:"
 msgid "Command Resolve produced warnings."
@@ -5974,10 +5963,9 @@ msgctxt "dlgSgOutput.lbl:"
 msgid "Command Start Support Branch failed!"
 msgstr "コマンド 「サポートブランチを開始」 に失敗しました!"
 
-#, fuzzy
 msgctxt "dlgSgOutput.lbl:"
 msgid "Command Unregister Submodule failed!"
-msgstr "★コマンド「サブモジュールの登録解除」に失敗しました！"
+msgstr "コマンド「サブモジュールの登録解除」に失敗しました！"
 
 msgctxt "dlgSgOutput.lbl:"
 msgid "Command Unstage failed!"
@@ -6416,10 +6404,9 @@ msgctxt "dlgSgPreferences.chk:"
 msgid "Update registered submodules"
 msgstr "登録されたサブモジュールの更新"
 
-#, fuzzy
 msgctxt "dlgSgPreferences.chk:"
 msgid "Use SmartGit for authentication \\(ignoring your current credential.helper configuration\\)"
-msgstr "★認証に SmartGit を使用する \\(現在の credential.helper 設定を無視する\\)"
+msgstr "認証に SmartGit を使用する \\(現在の credential.helper の設定を無視する\\)"
 
 msgctxt "dlgSgPreferences.chk:"
 msgid "Use gravatar.com to show images for the users"
@@ -6433,10 +6420,9 @@ msgctxt "dlgSgPreferences.chk:"
 msgid "Use pre-installed \\(\"system\"\\) Git-Flow\\*"
 msgstr "プリインストールされた \\(\"system\"\\) Git-Flow を使用する\\*"
 
-#, fuzzy
 msgctxt "dlgSgPreferences.chk:"
 msgid "Warn about submodule configuration changes \\(.gitmodules\\)"
-msgstr "★サブモジュール設定の変更を警告する \\(.gitmodules\\)"
+msgstr "サブモジュールの設定変更について警告する \\(.gitmodules\\)"
 
 msgctxt "dlgSgPreferences.chk:"
 msgid "Warn for slow rename detection"
@@ -6674,10 +6660,9 @@ msgctxt "dlgSgPreferences.edt:"
 msgid "Suggest to"
 msgstr "提案する"
 
-#, fuzzy
 msgctxt "dlgSgPreferences.edt:"
 msgid "Super Config File"
-msgstr "★スーパー設定ファイル"
+msgstr "スーパー設定ファイル"
 
 msgctxt "dlgSgPreferences.edt:"
 msgid "System Config File"
@@ -7305,10 +7290,9 @@ msgctxt "dlgSgProviderCommentEdit.edt:"
 msgid "Text"
 msgstr "テキスト"
 
-#, fuzzy
 msgctxt "dlgSgProviderCommentEdit.hdl"
 msgid "Edit GitHub comment"
-msgstr "★GitHub のコメントを編集"
+msgstr "GitHub のコメントを編集"
 
 #, fuzzy
 msgctxt "dlgSgProviderCommentEdit.inf"
@@ -7597,20 +7581,18 @@ msgctxt "dlgSgPullOrJustFetch.tle"
 msgid "Pull"
 msgstr "プル"
 
-#, fuzzy
 msgctxt "dlgSgPullSubmoduleUpdate.btn:"
 msgid "Pull"
-msgstr "★プル"
+msgstr "プル"
 
 #, fuzzy
 msgctxt "dlgSgPullSubmoduleUpdate.fur"
 msgid "The git infrastructure for this submodule will be initialized and all commits will be pulled."
 msgstr "★このサブモジュールの git インフラストラクチャが初期化され、すべてのコミットがプルされます。"
 
-#, fuzzy
 msgctxt "dlgSgPullSubmoduleUpdate.tle"
 msgid "Pull Submodule"
-msgstr "★サブモジュールをプル"
+msgstr "サブモジュールをプル"
 
 msgctxt "dlgSgPushConfirmSingleBranch.btn:"
 msgid "Push"
@@ -7709,25 +7691,22 @@ msgctxt "dlgSgPushToAddRemote.hdl"
 msgid "Do you want to add a remote?"
 msgstr "リモートを追加しますか？"
 
-#, fuzzy
 msgctxt "dlgSgPushToAddRemote.tle"
 msgid "Push To"
-msgstr "★プッシュ先"
+msgstr "プッシュ先"
 
-#, fuzzy
 msgctxt "dlgSgPushToNoMoreGitRemoteFound.fur"
 msgid "There is no other Git-remote to which branches of the selected remote could be pushed."
-msgstr "★選択したリモートのブランチをプッシュできる他の Git リモートはありません。"
+msgstr "選択したリモートのブランチをプッシュできる他の Git リモートはありません。"
 
 #, fuzzy
 msgctxt "dlgSgPushToNoMoreGitRemoteFound.hdl"
 msgid "No more Git remote found."
 msgstr "★これ以上 Git リモートが見つかりません。"
 
-#, fuzzy
 msgctxt "dlgSgPushToNoMoreGitRemoteFound.tle"
 msgid "Push To"
-msgstr "★プッシュ先"
+msgstr "プッシュ先"
 
 msgctxt "dlgSgPushToNoTagsOrLocalBranches.fur"
 msgid "You can only push tags or local branches."
@@ -8027,10 +8006,9 @@ msgctxt "dlgSgRebaseContinueWithDirtyWorkingTree.fur"
 msgid "Rebase Continue will store all working tree changes in the commit."
 msgstr "★リベースの続行は、すべての作業ツリーの変更をコミットに保存します。"
 
-#, fuzzy
 msgctxt "dlgSgRebaseContinueWithDirtyWorkingTree.hdl"
 msgid "Do you want the working tree changes to be part of the new commit?"
-msgstr "★作業ツリーの変更を新しいコミットの一部にしますか？"
+msgstr "作業ツリーの変更を新しいコミットの一部にしますか？"
 
 msgctxt "dlgSgRebaseContinueWithDirtyWorkingTree.tle"
 msgid "Rebase"
@@ -8045,10 +8023,9 @@ msgctxt "dlgSgRebaseContinueWithDirtyWorkingTreeAndIndex.fur"
 msgid "Rebase Continue will store both, staged changes and the working tree changes, in the new commit!\\n\\nIf the staged changes should go to a seperate commit, first commit them, and then invoke Continue again."
 msgstr "★リベースの続行は、ステージングされた変更と作業ツリーの変更の両方を新しいコミットに保存します！\\n\\nステージングされた変更を別のコミットにする場合は、最初にコミットしてから、もう一度続行を呼び出してください。"
 
-#, fuzzy
 msgctxt "dlgSgRebaseContinueWithDirtyWorkingTreeAndIndex.hdl"
 msgid "Do you want the working tree changes to be applied, too?"
-msgstr "★作業ツリーの変更も適用しますか？"
+msgstr "作業ツリーの変更も適用しますか？"
 
 msgctxt "dlgSgRebaseContinueWithDirtyWorkingTreeAndIndex.tle"
 msgid "Rebase"
@@ -8233,10 +8210,9 @@ msgctxt "dlgSgRebaseNoopSelf.fur"
 msgid "Rebasing a commit onto itself is allowed by Git but will not create a new commit or any meaningful changes."
 msgstr "★コミットをそれ自体にリベースすることは Git で許可されていますが、新しいコミットや意味のある変更は作成されません。"
 
-#, fuzzy
 msgctxt "dlgSgRebaseNoopSelf.hdl"
 msgid "There is nothing to rebase."
-msgstr "★リベースするものはありません。"
+msgstr "リベースするものは何もありません。"
 
 msgctxt "dlgSgRebaseNoopSelf.tle"
 msgid "Rebase"
@@ -9538,25 +9514,21 @@ msgctxt "dlgSgRollbackToCommit.btn:"
 msgid "Rollback"
 msgstr "ロールバック"
 
-#, fuzzy
 msgctxt "dlgSgRollbackToCommit.fur"
 msgid "All differences between the HEAD and the selected commit will be checked out into the working tree and optionally be staged."
-msgstr "★HEAD と選択したコミット間のすべての差分が作業ツリーにチェックアウトされ、オプションでステージングされます。"
+msgstr "HEAD と選択したコミット間のすべての差分が作業ツリーにチェックアウトされ、オプションでステージングされます。"
 
-#, fuzzy
 msgctxt "dlgSgRollbackToCommit.hdl"
 msgid "Do you want to rollback the Index to the state of commit $1?"
-msgstr "★インデックスをコミット $1 の状態にロールバックしますか？"
+msgstr "インデックスをコミット $1 の状態にロールバックしますか？"
 
-#, fuzzy
 msgctxt "dlgSgRollbackToCommit.hdl%1"
 msgid "Do you want to rollback the Index to the state of commit $1?"
-msgstr "★インデックスをコミット $1 の状態にロールバックしますか？"
+msgstr "インデックスをコミット $1 の状態にロールバックしますか？"
 
-#, fuzzy
 msgctxt "dlgSgRollbackToCommit.tle"
 msgid "Rollback To"
-msgstr "★ロールバック先"
+msgstr "ロールバック"
 
 msgctxt "dlgSgRollbackToFiles.btn:"
 msgid "+ Stage"
@@ -9566,20 +9538,17 @@ msgctxt "dlgSgRollbackToFiles.btn:"
 msgid "Rollback"
 msgstr "ロールバック"
 
-#, fuzzy
 msgctxt "dlgSgRollbackToFiles.fur"
 msgid "All differences of the selected files between the HEAD and the selected commit will be checked out into the working tree and optionally be staged."
-msgstr "★選択したファイルの HEAD と選択したコミット間のすべての差分が作業ツリーにチェックアウトされ、オプションでステージングされます。"
+msgstr "選択したファイルの HEAD と選択したコミット間のすべての差分が作業ツリーにチェックアウトされ、オプションでステージングされます。"
 
-#, fuzzy
 msgctxt "dlgSgRollbackToFiles.hdl"
 msgid "Do you want to rollback the selected files to the state of commit $1?"
-msgstr "★選択したファイルをコミット $1 の状態にロールバックしますか？"
+msgstr "選択したファイルをコミット $1 の状態にロールバックしますか？"
 
-#, fuzzy
 msgctxt "dlgSgRollbackToFiles.tle"
 msgid "Rollback To"
-msgstr "★ロールバック先"
+msgstr "ロールバック"
 
 msgctxt "dlgSgSelectBranch.edt:"
 msgid "Auxiliary Branch"
@@ -10083,10 +10052,9 @@ msgctxt "dlgSgStashOnDemandConfirmation.chk"
 msgid "Automatically save stash"
 msgstr "自動的にスタッシュを保存"
 
-#, fuzzy
 msgctxt "dlgSgStashOnDemandConfirmation.fur:"
 msgid "Check Out may require a clean working tree to complete successfully. After the Check Out succeeded, the stashed local changes will be automatically reapplied."
-msgstr "★チェックアウトを正常に完了するには、作業ツリーがクリーンである必要があります。チェックアウトが成功すると、スタッシュされたローカルの変更が自動的に再適用されます。"
+msgstr "チェックアウトを正常に完了するには、作業ツリーがクリーンである必要があります。チェックアウトが成功すると、スタッシュされたローカルの変更が自動的に再適用されます。"
 
 msgctxt "dlgSgStashOnDemandConfirmation.fur:"
 msgid "Checkout may require a clean working tree to complete successfully. After the Checkout succeeded, the stashed local changes will be automatically reapplied."
@@ -10101,10 +10069,9 @@ msgctxt "dlgSgStashOnDemandConfirmation.fur:"
 msgid "Local changes in the working tree have to be merged with incoming remote changes. After the Pull, either the local changes will be updated and the stash will be dropped, or conflicted changes will be marked as such and the local changes prior to the Pull will be preserved in the stash. Press Cancel to abort the Pull."
 msgstr "作業ツリーのローカルの変更を、受信したリモートの変更とマージする必要があります。プルの後、ローカルの変更が更新され、スタッシュが削除されるか、競合した変更が競合状態としてマークされ、プル前のローカルの変更はスタッシュに保存されます。プルを中止するには、[キャンセル] を押してください。"
 
-#, fuzzy
 msgctxt "dlgSgStashOnDemandConfirmation.fur:"
 msgid "Please either select to save them as a stash for later manual re-applying or discard them."
-msgstr "★後で手動で再適用するためにスタッシュとして保存するか、破棄するかを選択してください。"
+msgstr "後で手動で再適用するためのに変更をスタッシュに退避するか、変更を廃棄するか選択してください。"
 
 #, fuzzy
 msgctxt "dlgSgStashOnDemandConfirmation.fur:"
@@ -10134,30 +10101,25 @@ msgctxt "dlgSgStashOnDemandConfirmation.hdl:"
 msgid "Do you want to save local changes to a stash and retry Reorder Commits?"
 msgstr "★ローカルの変更をスタッシュに保存して、コミットの並べ替えを再試行しますか？"
 
-#, fuzzy
 msgctxt "dlgSgStashOnDemandConfirmation.hdl:"
 msgid "Do you want to save untracked files to a stash and retry Edit Message?"
-msgstr "★追跡されていないファイルをスタッシュに保存して、メッセージの編集を再試行しますか？"
+msgstr "追跡されていないファイルをスタッシュに保存して、メッセージの編集を再試行しますか？"
 
-#, fuzzy
 msgctxt "dlgSgStashOnDemandConfirmation.hdl:"
 msgid "Do you want to save untracked files to a stash and retry Pull?"
-msgstr "★追跡されていないファイルをスタッシュに保存して、プルを再試行しますか？"
+msgstr "追跡されていないファイルをスタッシュに保存して、プルを再試行しますか？"
 
-#, fuzzy
 msgctxt "dlgSgStashOnDemandConfirmation.hdl:"
 msgid "Do you want to save untracked files to a stash and retry Reorder Commits?"
-msgstr "★追跡されていないファイルをスタッシュに保存して、コミットの並べ替えを再試行しますか？"
+msgstr "追跡されていないファイルをスタッシュに保存して、コミットの並べ替えを再試行しますか？"
 
-#, fuzzy
 msgctxt "dlgSgStashOnDemandConfirmation.hdl:"
 msgid "Do you want to save untracked files to a stash and retry Squash Commits?"
-msgstr "★追跡されていないファイルをスタッシュに保存して、コミットのスカッシュを再試行しますか？"
+msgstr "追跡されていないファイルをスタッシュに保存して、コミットのスカッシュを再試行しますか？"
 
-#, fuzzy
 msgctxt "dlgSgStashOnDemandConfirmation.hdl:"
 msgid "What to do with the working tree or Index changes?"
-msgstr "★作業ツリーまたはインデックスの変更をどうしますか？"
+msgstr "作業ツリーまたはインデックスの変更をどうしますか？"
 
 msgctxt "dlgSgStashOnDemandConfirmation.tle"
 msgid "Reset"
@@ -10267,10 +10229,9 @@ msgctxt "dlgSgSubmoduleAdd.edt:"
 msgid "Repository URL"
 msgstr "リポジトリ URL"
 
-#, fuzzy
 msgctxt "dlgSgSubmoduleAdd.edt:"
 msgid "URL for .gitmodules"
-msgstr "★.gitmodules の URL"
+msgstr ".gitmodules の URL"
 
 msgctxt "dlgSgSubmoduleAdd.edt:"
 msgid "URL"
@@ -10281,10 +10242,9 @@ msgctxt "dlgSgSubmoduleAdd.err:"
 msgid "Please specify the URL of the remote repository to be cloned."
 msgstr "★クローンするリモート リポジトリの URL を指定してください。"
 
-#, fuzzy
 msgctxt "dlgSgSubmoduleAdd.hnt:"
 msgid "No repository found."
-msgstr "★リポジトリが見つかりません。"
+msgstr "リポジトリが見つかりませんでした。"
 
 msgctxt "dlgSgSubmoduleAdd.hnt:"
 msgid "Searching ..."
@@ -10371,10 +10331,9 @@ msgctxt "dlgSgSubmoduleInitAll.inf"
 msgid "Submodule entries will be added to .git/config. You may customize the URLs afterwards or pull immediately."
 msgstr "★サブモジュールエントリが .git/config に追加されます。後で URL をカスタマイズするか、すぐにプルすることができます。"
 
-#, fuzzy
 msgctxt "dlgSgSubmoduleInitAll.tle"
 msgid "Initialize Submodule"
-msgstr "★サブモジュールを初期化"
+msgstr "サブモジュールを初期化"
 
 msgctxt "dlgSgSubmoduleInitGit.btn:"
 msgid "Initialize && Pull"
@@ -10404,20 +10363,17 @@ msgctxt "dlgSgSubmoduleRegister.edt:"
 msgid "URL"
 msgstr "URL"
 
-#, fuzzy
 msgctxt "dlgSgSubmoduleRegister.hdl"
 msgid "Register nested root as submodule"
-msgstr "★ネストされたルートをサブモジュールとして登録する"
+msgstr "ネストされたルートをサブモジュールとして登録する"
 
-#, fuzzy
 msgctxt "dlgSgSubmoduleRegister.inf"
 msgid "Select the URL for the submodule to register."
-msgstr "★登録するサブモジュールの URL を選択します。"
+msgstr "登録するサブモジュールの URL を選択します。"
 
-#, fuzzy
 msgctxt "dlgSgSubmoduleRegister.tle"
 msgid "Register Submodule"
-msgstr "★サブモジュールを登録"
+msgstr "サブモジュールを登録"
 
 msgctxt "dlgSgSubmoduleResetConfirm.btn:"
 msgid "Reset"
@@ -10459,10 +10415,9 @@ msgctxt "dlgSgSubmoduleSync.chk:"
 msgid "Pull submodule repositories"
 msgstr "サブモジュールレポジトリをプル"
 
-#, fuzzy
 msgctxt "dlgSgSubmoduleSync.chk:"
 msgid "Pull submodule repository"
-msgstr "★サブモジュールリポジトリをプルする"
+msgstr "サブモジュールリポジトリをプル"
 
 msgctxt "dlgSgSubmoduleSync.hdl"
 msgid "Synchronize all submodules"
@@ -10486,25 +10441,22 @@ msgctxt "dlgSgSubmoduleSyncConfigured.hdl"
 msgid "Submodules have been configured."
 msgstr "★サブモジュールが設定されました。"
 
-#, fuzzy
 msgctxt "dlgSgSubmoduleSyncConfigured.tle"
 msgid "Synchronize Submodules"
-msgstr "★サブモジュールを同期"
+msgstr "サブモジュールの同期"
 
-#, fuzzy
 msgctxt "dlgSgSubmoduleUnregisterConfirm.btn:"
 msgid "Unregister"
-msgstr "★登録解除"
+msgstr "登録を解除"
 
 #, fuzzy
 msgctxt "dlgSgSubmoduleUnregisterConfirm.fur"
 msgid "All relevant files will be adjusted. Afterwards you will only need to perform a commit to finish the operation. To just skip the submodule from the working tree, use Deinit."
 msgstr "★関連するすべてのファイルが調整されます。その後、操作を完了するにはコミットを実行するだけで済みます。作業ツリーからサブモジュールをスキップするには、Deinit を使用します。"
 
-#, fuzzy
 msgctxt "dlgSgSubmoduleUnregisterConfirm.tle"
 msgid "Unregister Submodule"
-msgstr "★サブモジュールの登録を解除"
+msgstr "サブモジュールの登録を解除"
 
 msgctxt "dlgSgSubtreeAdd.chk:"
 msgid "Create local branch \\(for advanced operations\\)"
@@ -10702,10 +10654,9 @@ msgctxt "dlgSgTagDeleteConfirmSingle.btn:"
 msgid "Delete"
 msgstr "削除"
 
-#, fuzzy
 msgctxt "dlgSgTagDeleteConfirmSingle.chk"
 msgid "Delete from all remotes"
-msgstr "★すべてのリモートから削除"
+msgstr "すべてのリモートから削除"
 
 msgctxt "dlgSgTagDeleteConfirmSingle.chk%1"
 msgid "Delete from remote '$1'"
@@ -11443,10 +11394,9 @@ msgctxt "pop:"
 msgid "Select the stash to rename."
 msgstr "名前を変更するスタッシュを選択します。"
 
-#, fuzzy
 msgctxt "pop:"
 msgid "The dropped directory is no Git repository."
-msgstr "★ドロップされたディレクトリは Git リポジトリではありません。"
+msgstr "ドロップされたディレクトリは Git リポジトリではありません。"
 
 msgctxt "pop:"
 msgid "There are no obsolete repositories."
@@ -11572,10 +11522,9 @@ msgctxt "ttpBranches:"
 msgid "<b>\\t</b><col1>Tracking is configured in .git/config but the tracked branch is not present \\(any more\\)."
 msgstr "<b>\\t</b><col1>.git/config で追跡が設定されていますが、追跡されていたブランチはもうありません。"
 
-#, fuzzy
 msgctxt "ttpBranches:"
 msgid "<col1>The pull requests contains new commits on the server. Refetch the pull request to fix.</col1>"
-msgstr "★<col1>プルリクエストには、サーバー上の新しいコミットが含まれています。修正するには、プルリクエストを再フェッチしてください。</col1>"
+msgstr "<col1>プルリクエストには、サーバー上の新しいコミットが含まれています。修正するには、プルリクエストを再フェッチしてください。</col1>"
 
 msgctxt "ttpBranches:"
 msgid "<col1>The pull requests is conflicting; changes won't be displayed. First, the pull request has to be fixed to become mergable. After that, you can refetch the pull request.</col1>"
@@ -11585,10 +11534,9 @@ msgctxt "ttpBranches:"
 msgid "<col1>Tracking is configured in .git/config but the tracked branch is not present \\(any more\\).</col1>"
 msgstr ""
 
-#, fuzzy
 msgctxt "ttpBranches:"
 msgid "<col1>You may consider to invoke Stop Tracking to fix the configuration.</col1>"
-msgstr "★<col1>設定を修正するために、追跡の停止を実行することを検討してください。</col1>"
+msgstr "<col1>設定を修正するために、「追跡を停止」することを検討をしてください。</col1>"
 
 msgctxt "ttpBranches:"
 msgid "Not yet loaded or not present on the Provider server anymore."
@@ -11710,10 +11658,9 @@ msgctxt "ttpRepositories:"
 msgid "<col1>Tracking is configured in .git/config but the tracked branch is not present \\(any more\\).</col1>"
 msgstr ""
 
-#, fuzzy
 msgctxt "ttpRepositories:"
 msgid "<col1>You may consider to invoke Stop Tracking to fix the configuration.</col1>"
-msgstr "★<col1>設定を修正するために「追跡を停止」を実行することを検討してください。</col1>"
+msgstr "<col1>設定を修正するために、「追跡を停止」することを検討をしてください。</col1>"
 
 msgctxt "ttpRepositories:"
 msgid "Bisecting"
@@ -13759,10 +13706,9 @@ msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "Message"
 msgstr "メッセージ"
 
-#, fuzzy
 msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "Modification"
-msgstr "★変更"
+msgstr "変更"
 
 msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "More options"
@@ -14097,20 +14043,17 @@ msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "Unstage Hunk"
 msgstr "★ハンクのステージを解除"
 
-#, fuzzy
 msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "Unstage Innerline Change"
-msgstr "★行内変更のステージを解除する"
+msgstr "行内の変更をアンステージ"
 
-#, fuzzy
 msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "Unstage Line"
-msgstr "★行のステージを解除"
+msgstr "行をアンステージ"
 
-#, fuzzy
 msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "Unstage Selection"
-msgstr "★選択のステージを解除"
+msgstr "選択範囲をアンステージ"
 
 msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "Varying Coloring"
@@ -14604,10 +14547,9 @@ msgctxt "wnd(Log|Project|Std|).mniNewWindow"
 msgid "New Window"
 msgstr "新しいウィンドウ"
 
-#, fuzzy
 msgctxt "wnd(Log|Project|Std|).mniOpen"
 msgid "Open from Working Tree"
-msgstr "★作業ツリーから開く"
+msgstr "作業ツリーから開く"
 
 msgctxt "wnd(Log|Project|Std|).mniOpen:"
 msgid "Open from Working Tree"
@@ -14917,10 +14859,9 @@ msgctxt "wnd(Log|Project|Std|).mniRewriteTextFile"
 msgid "Fix Line-Endings"
 msgstr "改行コードを修正"
 
-#, fuzzy
 msgctxt "wnd(Log|Project|Std|).mniRollbackTo"
 msgid "Rollback To"
-msgstr "★ロールバック先"
+msgstr "ロールバック"
 
 msgctxt "wnd(Log|Project|Std|).mniSaveAs"
 msgid "Save As"
