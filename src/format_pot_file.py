@@ -13,8 +13,31 @@ def main():
         print(e)
         exit(-1)
 
-    po.format()
-    po.save(pot_file, newline='\n')
+    # コメントがないエントリとコメントがあるエントリを分ける
+    no_comment_entries = []
+    comment_entries = []
+
+    for entry in po:
+        if not entry.comment:  # コメントがないエントリ
+            no_comment_entries.append(entry)
+        else:  # コメントがあるエントリ
+            comment_entries.append(entry)
+
+    # コメントがないエントリのみを一時的に新しいsgpo.SgPoオブジェクトに追加
+    formatted_po = sgpo.SgPo()  # SgPo クラスのインスタンスを作成
+    formatted_po.extend(no_comment_entries)
+
+    # メタデータのLanguageを設定
+    formatted_po.metadata["Language"] = "en_US"
+
+    # フォーマットを実行
+    formatted_po.format()
+
+    # コメントがあるエントリを末尾に追加
+    formatted_po.extend(comment_entries)
+
+    # ファイルに保存
+    formatted_po.save(pot_file, newline='\n')
 
 
 if __name__ == "__main__":
