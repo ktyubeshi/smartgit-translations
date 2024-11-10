@@ -9165,19 +9165,19 @@ msgctxt "dlgSgResolve.rbt:"
 msgid "Open Conflict Solver"
 msgstr ""
 
-msgctxt "dlgSgResolve.rbt\"Set to $1 \\(\\\"ours\\\", $2\\)\""
+msgctxt "dlgSgResolve.rbt:"
 msgid "Set to $1 \\(\"ours\", $2\\)"
 msgstr ""
 
-msgctxt "dlgSgResolve.rbt\"Set to $1 \\(\\\"theirs\\\", $2\\)\""
+msgctxt "dlgSgResolve.rbt:"
 msgid "Set to $1 \\(\"theirs\", $2\\)"
 msgstr ""
 
-msgctxt "dlgSgResolve.rbt\"Set to rebase target \\(\\\"theirs\\\", $1\\)\""
+msgctxt "dlgSgResolve.rbt:"
 msgid "Set to rebase target \\(\"theirs\", $1\\)"
 msgstr ""
 
-msgctxt "dlgSgResolve.rbt\"Set to rebased branch '$1' \\(\\\"ours\\\", $2\\)\""
+msgctxt "dlgSgResolve.rbt:"
 msgid "Set to rebased branch '$1' \\(\"ours\", $2\\)"
 msgstr ""
 
@@ -10633,7 +10633,7 @@ msgctxt "dlgSgSvnClientCertificate.tle"
 msgid "SVN Authentication"
 msgstr ""
 
-msgctxt "dlgSgSvnClientCertificate.wrn\"Authentication to the SVN repository '$1' failed with error: $2\""
+msgctxt "dlgSgSvnClientCertificate.wrn:"
 msgid "Authentication to the SVN repository '$1' failed with error: $2'"
 msgstr ""
 
@@ -11565,7 +11565,7 @@ msgctxt "ttpBranches:"
 msgid "<b>Incoming</b> from repository <b>$1</b> branch <b>$2</b> to branch <b>$3</b>"
 msgstr ""
 
-msgctxt "ttpBranches\"<b>Last Updated By:\\t</b>$1\""
+msgctxt "ttpBranches:"
 msgid "<b>Last Updated By: </b>$1"
 msgstr ""
 
@@ -11573,11 +11573,11 @@ msgctxt "ttpBranches:"
 msgid "<b>Local Branch:\\t</b>$1"
 msgstr ""
 
-msgctxt "ttpBranches\"<b>On:\\t</b>$1\""
+msgctxt "ttpBranches:"
 msgid "<b>On: </b>$1"
 msgstr ""
 
-msgctxt "ttpBranches\"<b>Outgoing</b> from branch <b>main</b> to repository <b>$1</b> branch <b>$2</b>\""
+msgctxt "ttpBranches:"
 msgid "<b>Outgoing</b> from branch <b>$1</b> to repository <b>$2</b> branch <b>main</b>"
 msgstr ""
 
