@@ -9702,11 +9702,23 @@ msgid "Send usage statistics"
 msgstr ""
 
 msgctxt "dlgSgSetup.chk:"
+msgid "Use SmartGit for authentication \\(ignoring your current credential.helper configuration\\)"
+msgstr ""
+
+msgctxt "dlgSgSetup.chk:"
 msgid "Use gravatar.com to show images for the users"
 msgstr ""
 
 msgctxt "dlgSgSetup.edt:"
 msgid "Email"
+msgstr ""
+
+msgctxt "dlgSgSetup.edt:"
+msgid "Full Name"
+msgstr ""
+
+msgctxt "dlgSgSetup.edt:"
+msgid "Git Email"
 msgstr ""
 
 msgctxt "dlgSgSetup.edt:"
@@ -9729,8 +9741,24 @@ msgctxt "dlgSgSetup.edt:"
 msgid "User Name"
 msgstr ""
 
-msgctxt "dlgSgSetup.inf:"
-msgid "Welcome to SmartGit!\\nChoose the window style you prefer. You can change this option later in the preferences."
+msgctxt "dlgSgSetup.hdl:"
+msgid "Git Executable"
+msgstr ""
+
+msgctxt "dlgSgSetup.hdl:"
+msgid "License"
+msgstr ""
+
+msgctxt "dlgSgSetup.hdl:"
+msgid "Privacy"
+msgstr ""
+
+msgctxt "dlgSgSetup.hdl:"
+msgid "Style"
+msgstr ""
+
+msgctxt "dlgSgSetup.hdl:"
+msgid "User Information"
 msgstr ""
 
 msgctxt "dlgSgSetup.inf:"
@@ -9755,6 +9783,10 @@ msgstr ""
 
 msgctxt "dlgSgSetup.inf:"
 msgid "Welcome to SmartGit! Please confirm that you are accepting the license agreement."
+msgstr ""
+
+msgctxt "dlgSgSetup.inf:"
+msgid "Welcome to SmartGit!\\nChoose the window style you prefer. You can change this option later in the preferences."
 msgstr ""
 
 msgctxt "dlgSgSetup.lbl:"
@@ -9814,6 +9846,10 @@ msgid "may be harder to configure and use for new users, but is more flexible"
 msgstr ""
 
 msgctxt "dlgSgSetup.rbt:"
+msgid "Bundled Git"
+msgstr ""
+
+msgctxt "dlgSgSetup.rbt:"
 msgid "Commits \\(Log History\\)"
 msgstr ""
 
@@ -9827,6 +9863,10 @@ msgstr ""
 
 msgctxt "dlgSgSetup.rbt:"
 msgid "Non-commercial use only \\(most features, no support\\)"
+msgstr ""
+
+msgctxt "dlgSgSetup.rbt:"
+msgid "Other Git Executable:"
 msgstr ""
 
 msgctxt "dlgSgSetup.rbt:"
