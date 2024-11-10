@@ -725,13 +725,13 @@ msgctxt "dlgScConflictSolverInconsistentLineEndings.hdl"
 msgid "The file contains mixed \\(inconsistent\\) line-endings."
 msgstr "ファイルには、混在した \\(一貫性のない\\) 改行文字が含まれています。"
 
-msgctxt "dlgScConflictSolverInconsistentLineEndings.tle"
-msgid "\\[$1\\] - $2"
-msgstr "\\[$1\\] - $2"
-
 msgctxt "dlgScConflictSolverInconsistentLineEndings.tle%1"
 msgid "\\[$1\\] - Conflict Solver"
 msgstr "\\[$1\\] - コンフリクトソルバー"
+
+msgctxt "dlgScConflictSolverInconsistentLineEndings.tle%2"
+msgid "\\[$1\\] - $2"
+msgstr "\\[$1\\] - $2"
 
 msgctxt "dlgScConflictSolverUnresolvedConflicts.chk"
 msgid "Don't warn me again"
@@ -2901,6 +2901,18 @@ msgctxt "dlgSgClone.err:"
 msgid "Please specify the root directory of a local repository."
 msgstr "ローカルリポジトリのルートディレクトリを指定してください。"
 
+msgctxt "dlgSgClone.hdl:"
+msgid "Local Directory"
+msgstr "ローカルディレクトリ"
+
+msgctxt "dlgSgClone.hdl:"
+msgid "Repository"
+msgstr "リポジトリ"
+
+msgctxt "dlgSgClone.hdl:"
+msgid "Selection"
+msgstr "選択"
+
 msgctxt "dlgSgClone.hnt:"
 msgid "No repository found."
 msgstr "リポジトリが見つかりません。"
@@ -3461,7 +3473,7 @@ msgctxt "dlgSgCompareTwoFilesFrameMixedLineEndingsRight.hdl"
 msgid "The right file is not editable because of mixed line-endings."
 msgstr "右側のファイルは、改行コードが混在しているため編集できません。"
 
-msgctxt "dlgSgCompareTwoFilesFrameMixedLineEndingsRight.tle"
+msgctxt "dlgSgCompareTwoFilesFrameMixedLineEndingsRight.tle%3"
 msgid "\\[$1\\] - \\[$2\\] - $3"
 msgstr "\\[$1\\] - \\[$2\\] - $3"
 
@@ -5011,6 +5023,18 @@ msgctxt "dlgSgHostingProviderAdd.tle"
 msgid "Add Hosting Provider"
 msgstr "ホスティングプロバイダーを追加"
 
+msgctxt "dlgSgHostingProviderAddFailed.fur"
+msgid "github.com has the same connection parameters. It makes no sense to have duplicate configurations for the same account."
+msgstr "github.com は同じ接続パラメータを持っています。同じアカウントに対して重複した設定を持つことは意味がありません。"
+
+msgctxt "dlgSgHostingProviderAddFailed.hdl"
+msgid "There is already another configuration with identical parameters."
+msgstr "同じパラメータを持つ他の設定が既に存在します。"
+
+msgctxt "dlgSgHostingProviderAddFailed.tle"
+msgid "Hosting provider"
+msgstr "ホスティングプロバイダー"
+
 msgctxt "dlgSgHostingProviderEdit.btn:"
 msgid "Generate API Token"
 msgstr "APIトークンを生成"
@@ -5402,6 +5426,10 @@ msgstr "少なくとも 1 つのファイルの内容に、混合した (不整�
 msgctxt "dlgSgIndexEditorMixedLineEndings.hdl"
 msgid "The file is not editable because of mixed line-endings."
 msgstr "改行コードが混合しているため、ファイルを編集できません。"
+
+msgctxt "dlgSgIndexEditorMixedLineEndings.tle%2"
+msgid "$1 - index $2"
+msgstr "$1 - index $2"
 
 msgctxt "dlgSgIndexEditorSaveOrDiscard.btn:"
 msgid "Discard"
@@ -5819,6 +5847,10 @@ msgctxt "dlgSgMergeHowToMerge.hdl:"
 msgid "How to merge from tag '$1'?"
 msgstr "タグ '$1' からどのようにマージしますか?"
 
+msgctxt "dlgSgMergeHowToMerge.hdl%1"
+msgid "How to merge from branch '$1'?"
+msgstr "ブランチ '$1' からどのようにマージしますか？"
+
 msgctxt "dlgSgMergeHowToMerge.tle"
 msgid "Merge"
 msgstr "マージ"
@@ -6086,6 +6118,10 @@ msgstr "作業ツリーにローカルな変更があります。"
 msgctxt "dlgSgOutput.lbl:"
 msgid "Your local changes to the following files would be overwritten by checkout:\\ncould not detach HEAD"
 msgstr "次のファイルに対するローカルの変更は、チェックアウトによって上書きされます:\\n HEAD をデタッチできませんでした"
+
+msgctxt "dlgSgOutput.lbl:"
+msgid "Your local changes to the following files would be overwritten by merge:\\ncherry-pick failed"
+msgstr "以下のファイルへのローカルの変更がマージによって上書きされます:\\ncherry-pick に失敗しました"
 
 msgctxt "dlgSgOutput.mni:"
 msgid "Copy Selection"
@@ -7403,6 +7439,26 @@ msgctxt "dlgSgProviderCommentEdit.tle"
 msgid "Edit Comment"
 msgstr "コメントを編集"
 
+msgctxt "dlgSgProviderCredentialsAutoGeneratorSelector.btn:"
+msgid "Confirm"
+msgstr "確認"
+
+msgctxt "dlgSgProviderCredentialsAutoGeneratorSelector.edt:"
+msgid "Provider"
+msgstr "プロバイダー"
+
+msgctxt "dlgSgProviderCredentialsAutoGeneratorSelector.hdl"
+msgid "Select which GitLab account to use"
+msgstr "使用するGitLabアカウントを選択"
+
+msgctxt "dlgSgProviderCredentialsAutoGeneratorSelector.inf%1"
+msgid "Select which account you want to use for connecting to '$1'."
+msgstr "'$1' への接続に使用するアカウントを選択してください。"
+
+msgctxt "dlgSgProviderCredentialsAutoGeneratorSelector.tle"
+msgid "Select GitLab account"
+msgstr "GitLabアカウントを選択"
+
 msgctxt "dlgSgProviderGenerateToken.btn:"
 msgid "Authenticate"
 msgstr "認証"
@@ -7411,21 +7467,37 @@ msgctxt "dlgSgProviderGenerateToken.edt:"
 msgid "Link"
 msgstr "リンク"
 
-msgctxt "dlgSgProviderGenerateToken.hdl"
+msgctxt "dlgSgProviderGenerateToken.hdl%1"
 msgid "Generate a new API token for $1"
-msgstr "$1 用の新しいAPIトークンを生成する"
+msgstr "$1 の新しいAPIトークンを生成"
 
-msgctxt "dlgSgProviderGenerateToken.inf%1"
-msgid "Authenticate at $1 and grant access to SmartGit."
-msgstr "$1 で認証し、SmartGitへのアクセスを許可します。"
+msgctxt "dlgSgProviderGenerateToken.inf"
+msgid "Authenticate at GitLab and grant access to SmartGit."
+msgstr "GitLabで認証を行い、SmartGitへのアクセスを許可してください。"
 
 msgctxt "dlgSgProviderGenerateToken.lbl:"
-msgid "Your browser should have opened automatically, let you authenticate with your preferred account at $1 and grant access to SmartGit. If this didn't happen, manually open following link:"
-msgstr "ブラウザが自動的に開き、$1のアカウントで認証を行い、SmartGitへのアクセスを許可します。自動的に開かなかった場合は、以下のリンクを手動で開いてください："
+msgid "Your browser should have opened automatically, let you authenticate with your preferred account at GitHub and grant access to SmartGit. If this didn't happen, manually open following link:"
+msgstr "ブラウザが自動的に開き、GitHubのアカウントで認証を行い、SmartGitへのアクセスを許可します。自動的に開かなかった場合は、以下のリンクを手動で開いてください："
+
+msgctxt "dlgSgProviderGenerateToken.lbl:"
+msgid "Your browser should have opened automatically, let you authenticate with your preferred account at GitLab and grant access to SmartGit. If this didn't happen, manually open following link:"
+msgstr "ブラウザが自動的に開き、GitLabのアカウントで認証を行い、SmartGitへのアクセスを許可します。自動的に開かなかった場合は、以下のリンクを手動で開いてください："
 
 msgctxt "dlgSgProviderGenerateToken.tle"
 msgid "Generate API Token"
 msgstr "API トークンを生成する"
+
+msgctxt "dlgSgProviderGenerateTokenInternalServerFailed.fur"
+msgid "The resource owner or authorization server denied the request."
+msgstr "リソース所有者または認可サーバーがリクエストを拒否しました。"
+
+msgctxt "dlgSgProviderGenerateTokenInternalServerFailed.hdl"
+msgid "The OAuth authorization has failed."
+msgstr "OAuth認証が失敗しました。"
+
+msgctxt "dlgSgProviderGenerateTokenInternalServerFailed.tle%1"
+msgid "$1 OAuth Authorization"
+msgstr "$1 OAuth認証"
 
 msgctxt "dlgSgProviderPullRequestCreateNoTargetRepositories.fur"
 msgid "The repository is no GitHub-fork and there are no other remotes which are forks of this repository."
@@ -9158,19 +9230,19 @@ msgctxt "dlgSgResolve.rbt:"
 msgid "Open Conflict Solver"
 msgstr "競合解決ツールを開く"
 
-msgctxt "dlgSgResolve.rbt\"Set to $1 \\(\\\"ours\\\", $2\\)\""
+msgctxt "dlgSgResolve.rbt:"
 msgid "Set to $1 \\(\"ours\", $2\\)"
 msgstr "$1 に設定\\(\"ours\", $2\\)"
 
-msgctxt "dlgSgResolve.rbt\"Set to $1 \\(\\\"theirs\\\", $2\\)\""
+msgctxt "dlgSgResolve.rbt:"
 msgid "Set to $1 \\(\"theirs\", $2\\)"
 msgstr "$1 に設定\\(\"theirs\", $2\\)"
 
-msgctxt "dlgSgResolve.rbt\"Set to rebase target \\(\\\"theirs\\\", $1\\)\""
+msgctxt "dlgSgResolve.rbt:"
 msgid "Set to rebase target \\(\"theirs\", $1\\)"
 msgstr "リベースターゲットに設定 \\(\"theirs\", $1\\)"
 
-msgctxt "dlgSgResolve.rbt\"Set to rebased branch '$1' \\(\\\"ours\\\", $2\\)\""
+msgctxt "dlgSgResolve.rbt:"
 msgid "Set to rebased branch '$1' \\(\"ours\", $2\\)"
 msgstr "リベースされたブランチ\"$1\"に設定 \\(\"ours\", $2\\)"
 
@@ -10666,9 +10738,9 @@ msgctxt "dlgSgSvnClientCertificate.tle"
 msgid "SVN Authentication"
 msgstr "SVN認証"
 
-msgctxt "dlgSgSvnClientCertificate.wrn\"Authentication to the SVN repository '$1' failed with error: $2\""
+msgctxt "dlgSgSvnClientCertificate.wrn:"
 msgid "Authentication to the SVN repository '$1' failed with error: $2'"
-msgstr "SVN リポジトリ '$1' への認証に失敗し、次のエラーが発生しました: '$2'"
+msgstr "SVNリポジトリ '$1' への認証がエラーで失敗しました: $2'"
 
 msgctxt "dlgSgSvnSslFingerprintChanged.btn:"
 msgid "Accept"
@@ -11122,6 +11194,66 @@ msgctxt "dlgShPushTrackingLocalSvnBranches.tle"
 msgid "Push"
 msgstr "プッシュ"
 
+msgctxt "dlgStdFeatureConfiguration.btn:"
+msgid "Confirm"
+msgstr "確認"
+
+msgctxt "dlgStdFeatureConfiguration.edt:"
+msgid "Feature Prefix"
+msgstr "フィーチャーの接頭辞"
+
+msgctxt "dlgStdFeatureConfiguration.edt:"
+msgid "Main Branch"
+msgstr "メインブランチ"
+
+msgctxt "dlgStdFeatureConfiguration.edt:"
+msgid "Main Branches"
+msgstr "メインブランチ群"
+
+msgctxt "dlgStdFeatureConfiguration.hdl"
+msgid "Configure main and feature branches"
+msgstr "メインブランチとフィーチャーブランチの設定"
+
+msgctxt "dlgStdFeatureConfiguration.inf"
+msgid "Set the main branch for your repository and an optional prefix for feature branches."
+msgstr "リポジトリのメインブランチと、フィーチャーブランチのオプションの接頭辞を設定します。"
+
+msgctxt "dlgStdFeatureConfiguration.lbl:"
+msgid "Example: develop, release-.\\*"
+msgstr "例：develop, release-.\\*"
+
+msgctxt "dlgStdFeatureConfiguration.lbl:"
+msgid "The 'main branch' represents the main development branch of your repository and serves as a foundation for releases. Usually it is named 'develop', 'master' or 'main'.\\n\\nBranches that are used to develop a single new feature, bugfix or other related changes \\(temporarily\\) isolated from the main branch are called 'feature branch' \\(or short 'feature'\\). They typically have a special name prefix, e.g. 'feature/'.\\n\\nNew features will be forked off from a main branch using 'Start'. For an existing feature, new changes from the main branch will be integrated using 'Integrate'. Once you have finished the feature, you can incorporate it into the main branch using 'Finish'.\\n\\nFor extended configuration options, invoke '\\u30d6\\u30e9\\u30f3\\u30c1 \\| \\u8a2d\\u5b9a'."
+msgstr "'メインブランチ'はリポジトリのメイン開発ブランチを表し、リリースの基盤となります。通常は'develop'、'master'または'main'という名前が付けられます。\\n\\n単一の新機能、バグ修正、その他の関連する変更をメインブランチから\\(一時的に\\)分離して開発するために使用されるブランチを'フィーチャーブランチ'\\(または略して'フィーチャー'\\)と呼びます。通常、'feature/'などの特別な名前の接頭辞が付きます。\\n\\n新しいフィーチャーは'開始'を使用してメインブランチから分岐されます。既存のフィーチャーの場合、メインブランチからの新しい変更は'統合'を使用して取り込まれます。フィーチャーが完了したら、'完了'を使用してメインブランチに組み込むことができます。\\n\\n詳細な設定オプションについては、'\\u30d6\\u30e9\\u30f3\\u30c1 \\| \\u8a2d\\u5b9a'を呼び出してください。"
+
+msgctxt "dlgStdFeatureConfiguration.tle"
+msgid "Configure Features"
+msgstr "フィーチャーの設定"
+
+msgctxt "dlgStdFeatureConfiguration.ttp:"
+msgid "The <b>Feature Prefix</b> is optional. <tt>feature/</tt>is commonly used and compatible with Git-Flow."
+msgstr "<b>フィーチャーの接頭辞</b>はオプションです。<tt>feature/</tt>が一般的に使用され、Git-Flowと互換性があります。"
+
+msgctxt "dlgStdFeatureConfiguration.ttp:"
+msgid "You can configure one or more <b>Main Branches</b> by specifying their names separated by semicolon. To specify patterns instead of singular names, use regular expressions. For example: <tt>main,release-.\\*</tt>."
+msgstr "セミコロンで区切って名前を指定することで、1つ以上の<b>メインブランチ</b>を設定できます。単一の名前の代わりにパターンを指定する場合は、正規表現を使用します。例：<tt>main,release-.\\*</tt>"
+
+msgctxt "dlgStdFeatureStartNotOnMainBranchesAndLocalChanges.btn:"
+msgid "Switch Anyway"
+msgstr "とにかく切り替える"
+
+msgctxt "dlgStdFeatureStartNotOnMainBranchesAndLocalChanges.fur"
+msgid "Your working tree currently has local modifications, and you are not currently on the main branch. Initiating a new feature now will require switching commits, which can potentially fail due to the presence of local changes.\\n\\nThe recommended course of action is either to commit your local changes \\(if they pertain to the current branch\\) or stash them away in order to have a clean working tree before starting a new feature."
+msgstr "作業ツリーにローカルの変更があり、現在メインブランチ上にいません。新しいフィーチャーを開始すると、コミットの切り替えが必要になりますが、ローカルの変更があるため失敗する可能性があります。\\n\\n推奨される対処方法は、ローカルの変更をコミットする（現在のブランチに関連する場合）か、スタッシュに退避して、新しいフィーチャーを開始する前にクリーンな作業ツリーにすることです。"
+
+msgctxt "dlgStdFeatureStartNotOnMainBranchesAndLocalChanges.hdl"
+msgid "Do you want to switch to a different branch despite having local changes?"
+msgstr "ローカルの変更がある状態で、別のブランチに切り替えますか？"
+
+msgctxt "dlgStdFeatureStartNotOnMainBranchesAndLocalChanges.tle"
+msgid "Start a new feature"
+msgstr "新しいフィーチャーを開始"
+
 msgctxt "dlgTxtEditor.fileModified.btn:"
 msgid "Keep Content"
 msgstr "コンテンツを保持"
@@ -11241,6 +11373,10 @@ msgstr "<b>\\[credential\\]</b>"
 msgctxt "ntmCredentialHelper:"
 msgid "In case you are encountering strange errors or unexpected dialog popups, try to disable this configuration and let SmartGit handle the authentication itself."
 msgstr "奇妙なエラーや予期せぬダイアログのポップアップが表示される場合は、この設定を無効にして、SmartGitに認証処理を任せてみてください。"
+
+msgctxt "ntmCredentialHelper:"
+msgid "In general this should be fine and is the recommended configuration when working with multiple Git clients. If unexpected credential popups or weird errors occur, try to let SmartGit handle the authentication itself."
+msgstr "一般的にこれで問題なく、複数のGitクライアントを使用する場合の推奨設定です。予期しない認証ポップアップや不可解なエラーが発生する場合は、SmartGit自体に認証を処理させてみてください。"
 
 msgctxt "ntmCredentialHelper:"
 msgid "In general this should be fine and is the recommended configuration when working with multiple Git clients. In case you are encountering strange errors or unexpected dialog popups, try to disable this configuration and let SmartGit handle the authentication itself."
@@ -11396,8 +11532,16 @@ msgid "vote at <link1>alternativeto.net</link1>"
 msgstr "<link1>alternativeto.net</link1>で投票"
 
 msgctxt "nttCredentialHelper:"
+msgid "External Credential Helper detected"
+msgstr "外部の認証情報ヘルパーが検出されました"
+
+msgctxt "nttCredentialHelper:"
 msgid "External Credentials Helper detected"
 msgstr "外部の認証情報ヘルパーが検出されました"
+
+msgctxt "nttCredentialHelper:"
+msgid "Let SmartGit handle Authentication"
+msgstr "SmartGitに認証を処理させる"
 
 msgctxt "nttFollowUsOnTwitter:"
 msgid "Follow SmartGit on Twitter!"
@@ -11599,7 +11743,7 @@ msgctxt "ttpBranches:"
 msgid "<b>Incoming</b> from repository <b>$1</b> branch <b>$2</b> to branch <b>$3</b>"
 msgstr "<b>受信中</b> リポジトリ <b>$1</b> のブランチ <b>$2</b> からブランチ <b>$3</b>"
 
-msgctxt "ttpBranches\"<b>Last Updated By:\\t</b>$1\""
+msgctxt "ttpBranches:"
 msgid "<b>Last Updated By: </b>$1"
 msgstr "<b>最終更新者: </b>$1"
 
@@ -11607,13 +11751,13 @@ msgctxt "ttpBranches:"
 msgid "<b>Local Branch:\\t</b>$1"
 msgstr "<b>ローカルブランチ:\\t</b>$1"
 
-msgctxt "ttpBranches\"<b>On:\\t</b>$1\""
+msgctxt "ttpBranches:"
 msgid "<b>On: </b>$1"
-msgstr "<b>On: </b>$1"
+msgstr "<b>日時: </b>$1"
 
-msgctxt "ttpBranches\"<b>Outgoing</b> from branch <b>main</b> to repository <b>$1</b> branch <b>$2</b>\""
+msgctxt "ttpBranches:"
 msgid "<b>Outgoing</b> from branch <b>$1</b> to repository <b>$2</b> branch <b>main</b>"
-msgstr "ブランチ <b>$1</b> からリポジトリ <b>$2</b> の<b>main</b>ブランチへ<b>送信</b>"
+msgstr "ブランチ<b>$1</b>からリポジトリ<b>$2</b>のブランチ<b>main</b>への<b>送信待ち</b>"
 
 msgctxt "ttpBranches:"
 msgid "<b>Push Target:\\t</b>$1"
@@ -12549,7 +12693,7 @@ msgstr "空白の変更を無視"
 
 msgctxt "wndDeepgit.mniDgLicenseAgreement"
 msgid "License Agreement"
-msgstr "ライセンス規約"
+msgstr "使用許諾契約"
 
 msgctxt "wndDeepgit.mniDgOptimizeCreationOrigins"
 msgid "Optimize 'Appeared Here' Origins"
@@ -12876,6 +13020,10 @@ msgid "Stage Line"
 msgstr "行をステージ"
 
 msgctxt "wndGit.indexEditor.mni:"
+msgid "Stage Lines"
+msgstr "行をステージ"
+
+msgctxt "wndGit.indexEditor.mni:"
 msgid "Stage Selection"
 msgstr "選択範囲をステージ"
 
@@ -12950,6 +13098,10 @@ msgstr "前の変更点に移動します。"
 msgctxt "wndGit.indexEditor.tle:"
 msgid "$1 - Index Editor"
 msgstr "$1 - index エディタ"
+
+msgctxt "wndLog.hnt:"
+msgid "No commit matches the filter."
+msgstr "フィルタに一致するコミットがありません。"
 
 msgctxt "wndLog.hnt:"
 msgid "No graph roots selected."
@@ -13052,6 +13204,14 @@ msgid "Changed files"
 msgstr "変更されたファイル"
 
 msgctxt "wndStd.mni:"
+msgid "Fetch '$1' \\(current\\) "
+msgstr "'$1'をフェッチ \\(現在\\) "
+
+msgctxt "wndStd.mni:"
+msgid "Fetch '$1'"
+msgstr "'$1'をフェッチ"
+
+msgctxt "wndStd.mni:"
 msgid "Fetch All"
 msgstr "すべてフェッチ"
 
@@ -13080,6 +13240,18 @@ msgid "Only current branch \\(HEAD\\)"
 msgstr "現在のブランチのみ \\(HEAD\\)"
 
 msgctxt "wndStd.mni:"
+msgid "Open with $1"
+msgstr "$1で開く"
+
+msgctxt "wndStd.mni:"
+msgid "Open"
+msgstr "開く"
+
+msgctxt "wndStd.mni:"
+msgid "Pull All"
+msgstr "すべてをプル"
+
+msgctxt "wndStd.mni:"
 msgid "Rebase"
 msgstr "リベース"
 
@@ -13098,6 +13270,10 @@ msgstr "リセット"
 msgctxt "wndStd.mni:"
 msgid "Save Stash"
 msgstr "スタッシュに保存"
+
+msgctxt "wndStd.mni:"
+msgid "Show Tags"
+msgstr "タグを表示"
 
 msgctxt "wndStd.mni:"
 msgid "Sort by File Name"
@@ -13143,9 +13319,21 @@ msgctxt "wndStd.tbr:"
 msgid "Submodule"
 msgstr "サブモジュール"
 
+msgctxt "wndStd.tbt:"
+msgid "Show filter input field."
+msgstr "フィルター入力フィールドを表示。"
+
+msgctxt "wndStd.tbtFlowFeatureFinish"
+msgid "Finish the current feature branch."
+msgstr "現在のフィーチャーブランチを完了します。"
+
 msgctxt "wndStd.tbtFlowFeatureStart"
 msgid "Start a new feature branch."
 msgstr "新しいフィーチャーブランチを開始します。"
+
+msgctxt "wndStd.tbtIntegrateMain"
+msgid "Integrate latest changes from the main branch into the current feature branch."
+msgstr "メインブランチからの最新の変更を現在のフィーチャーブランチに統合します。"
 
 msgctxt "wnd(Annotate|Compare|ConflictSolver|Deepgit|Git.indexEditor|Editor|Log|Project|Std|).lblStatusBarMessage:"
 msgid "Ready"
@@ -14829,7 +15017,7 @@ msgstr "アンロック"
 
 msgctxt "wnd(Log|Project|Std|).mniLicenseAgreement"
 msgid "License Agreement"
-msgstr "ライセンス規約"
+msgstr "使用許諾契約"
 
 msgctxt "wnd(Log|Project|Std|).mniLocalGc"
 msgid "Run Garbage Collector"
