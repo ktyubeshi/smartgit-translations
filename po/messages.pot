@@ -5017,6 +5017,18 @@ msgctxt "dlgSgHostingProviderAdd.tle"
 msgid "Add Hosting Provider"
 msgstr ""
 
+msgctxt "dlgSgHostingProviderAddFailed.fur"
+msgid "github.com has the same connection parameters. It makes no sense to have duplicate configurations for the same account."
+msgstr ""
+
+msgctxt "dlgSgHostingProviderAddFailed.hdl"
+msgid "There is already another configuration with identical parameters."
+msgstr ""
+
+msgctxt "dlgSgHostingProviderAddFailed.tle"
+msgid "Hosting provider"
+msgstr ""
+
 msgctxt "dlgSgHostingProviderEdit.btn:"
 msgid "Generate API Token"
 msgstr ""
@@ -5407,6 +5419,10 @@ msgstr ""
 
 msgctxt "dlgSgIndexEditorMixedLineEndings.hdl"
 msgid "The file is not editable because of mixed line-endings."
+msgstr ""
+
+msgctxt "dlgSgIndexEditorMixedLineEndings.tle%2"
+msgid "$1 - index $2"
 msgstr ""
 
 msgctxt "dlgSgIndexEditorSaveOrDiscard.btn:"
@@ -5825,6 +5841,10 @@ msgctxt "dlgSgMergeHowToMerge.hdl:"
 msgid "How to merge from tag '$1'?"
 msgstr ""
 
+msgctxt "dlgSgMergeHowToMerge.hdl%1"
+msgid "How to merge from branch '$1'?"
+msgstr ""
+
 msgctxt "dlgSgMergeHowToMerge.tle"
 msgid "Merge"
 msgstr ""
@@ -6091,6 +6111,10 @@ msgstr ""
 
 msgctxt "dlgSgOutput.lbl:"
 msgid "Your local changes to the following files would be overwritten by checkout:\\ncould not detach HEAD"
+msgstr ""
+
+msgctxt "dlgSgOutput.lbl:"
+msgid "Your local changes to the following files would be overwritten by merge:\\ncherry-pick failed"
 msgstr ""
 
 msgctxt "dlgSgOutput.mni:"
@@ -7409,6 +7433,26 @@ msgctxt "dlgSgProviderCommentEdit.tle"
 msgid "Edit Comment"
 msgstr ""
 
+msgctxt "dlgSgProviderCredentialsAutoGeneratorSelector.btn:"
+msgid "Confirm"
+msgstr ""
+
+msgctxt "dlgSgProviderCredentialsAutoGeneratorSelector.edt:"
+msgid "Provider"
+msgstr ""
+
+msgctxt "dlgSgProviderCredentialsAutoGeneratorSelector.hdl"
+msgid "Select which GitLab account to use"
+msgstr ""
+
+msgctxt "dlgSgProviderCredentialsAutoGeneratorSelector.inf%1"
+msgid "Select which account you want to use for connecting to '$1'."
+msgstr ""
+
+msgctxt "dlgSgProviderCredentialsAutoGeneratorSelector.tle"
+msgid "Select GitLab account"
+msgstr ""
+
 msgctxt "dlgSgProviderGenerateToken.btn:"
 msgid "Authenticate"
 msgstr ""
@@ -7435,6 +7479,18 @@ msgstr ""
 
 msgctxt "dlgSgProviderGenerateToken.tle"
 msgid "Generate API Token"
+msgstr ""
+
+msgctxt "dlgSgProviderGenerateTokenInternalServerFailed.fur"
+msgid "The resource owner or authorization server denied the request."
+msgstr ""
+
+msgctxt "dlgSgProviderGenerateTokenInternalServerFailed.hdl"
+msgid "The OAuth authorization has failed."
+msgstr ""
+
+msgctxt "dlgSgProviderGenerateTokenInternalServerFailed.tle%1"
+msgid "$1 OAuth Authorization"
 msgstr ""
 
 msgctxt "dlgSgProviderPullRequestCreateNoTargetRepositories.fur"
@@ -9766,6 +9822,10 @@ msgid "If you are using SSH to connect to other Git repositories, select what SS
 msgstr ""
 
 msgctxt "dlgSgSetup.inf:"
+msgid "Please review the following privacy options. You can change them later in the Preferences."
+msgstr ""
+
+msgctxt "dlgSgSetup.inf:"
 msgid "Please review the following privacy options. You can change them later in the preferences."
 msgstr ""
 
@@ -11125,6 +11185,66 @@ msgctxt "dlgShPushTrackingLocalSvnBranches.tle"
 msgid "Push"
 msgstr ""
 
+msgctxt "dlgStdFeatureConfiguration.btn:"
+msgid "Confirm"
+msgstr ""
+
+msgctxt "dlgStdFeatureConfiguration.edt:"
+msgid "Feature Prefix"
+msgstr ""
+
+msgctxt "dlgStdFeatureConfiguration.edt:"
+msgid "Main Branch"
+msgstr ""
+
+msgctxt "dlgStdFeatureConfiguration.edt:"
+msgid "Main Branches"
+msgstr ""
+
+msgctxt "dlgStdFeatureConfiguration.hdl"
+msgid "Configure main and feature branches"
+msgstr ""
+
+msgctxt "dlgStdFeatureConfiguration.inf"
+msgid "Set the main branch for your repository and an optional prefix for feature branches."
+msgstr ""
+
+msgctxt "dlgStdFeatureConfiguration.lbl:"
+msgid "Example: develop, release-.\\*"
+msgstr ""
+
+msgctxt "dlgStdFeatureConfiguration.lbl:"
+msgid "The 'main branch' represents the main development branch of your repository and serves as a foundation for releases. Usually it is named 'develop', 'master' or 'main'.\\n\\nBranches that are used to develop a single new feature, bugfix or other related changes \\(temporarily\\) isolated from the main branch are called 'feature branch' \\(or short 'feature'\\). They typically have a special name prefix, e.g. 'feature/'.\\n\\nNew features will be forked off from a main branch using 'Start'. For an existing feature, new changes from the main branch will be integrated using 'Integrate'. Once you have finished the feature, you can incorporate it into the main branch using 'Finish'.\\n\\nFor extended configuration options, invoke '\\u30d6\\u30e9\\u30f3\\u30c1 \\| \\u8a2d\\u5b9a'."
+msgstr ""
+
+msgctxt "dlgStdFeatureConfiguration.tle"
+msgid "Configure Features"
+msgstr ""
+
+msgctxt "dlgStdFeatureConfiguration.ttp:"
+msgid "The <b>Feature Prefix</b> is optional. <tt>feature/</tt>is commonly used and compatible with Git-Flow."
+msgstr ""
+
+msgctxt "dlgStdFeatureConfiguration.ttp:"
+msgid "You can configure one or more <b>Main Branches</b> by specifying their names separated by semicolon. To specify patterns instead of singular names, use regular expressions. For example: <tt>main,release-.\\*</tt>."
+msgstr ""
+
+msgctxt "dlgStdFeatureStartNotOnMainBranchesAndLocalChanges.btn:"
+msgid "Switch Anyway"
+msgstr ""
+
+msgctxt "dlgStdFeatureStartNotOnMainBranchesAndLocalChanges.fur"
+msgid "Your working tree currently has local modifications, and you are not currently on the main branch. Initiating a new feature now will require switching commits, which can potentially fail due to the presence of local changes.\\n\\nThe recommended course of action is either to commit your local changes \\(if they pertain to the current branch\\) or stash them away in order to have a clean working tree before starting a new feature."
+msgstr ""
+
+msgctxt "dlgStdFeatureStartNotOnMainBranchesAndLocalChanges.hdl"
+msgid "Do you want to switch to a different branch despite having local changes?"
+msgstr ""
+
+msgctxt "dlgStdFeatureStartNotOnMainBranchesAndLocalChanges.tle"
+msgid "Start a new feature"
+msgstr ""
+
 msgctxt "dlgTxtEditor.fileModified.btn:"
 msgid "Keep Content"
 msgstr ""
@@ -11243,6 +11363,10 @@ msgstr ""
 
 msgctxt "ntmCredentialHelper:"
 msgid "In case you are encountering strange errors or unexpected dialog popups, try to disable this configuration and let SmartGit handle the authentication itself."
+msgstr ""
+
+msgctxt "ntmCredentialHelper:"
+msgid "In general this should be fine and is the recommended configuration when working with multiple Git clients. If unexpected credential popups or weird errors occur, try to let SmartGit handle the authentication itself."
 msgstr ""
 
 msgctxt "ntmCredentialHelper:"
@@ -11398,7 +11522,15 @@ msgid "vote at <link1>alternativeto.net</link1>"
 msgstr ""
 
 msgctxt "nttCredentialHelper:"
+msgid "External Credential Helper detected"
+msgstr ""
+
+msgctxt "nttCredentialHelper:"
 msgid "External Credentials Helper detected"
+msgstr ""
+
+msgctxt "nttCredentialHelper:"
+msgid "Let SmartGit handle Authentication"
 msgstr ""
 
 msgctxt "nttFollowUsOnTwitter:"
@@ -12878,6 +13010,10 @@ msgid "Stage Line"
 msgstr ""
 
 msgctxt "wndGit.indexEditor.mni:"
+msgid "Stage Lines"
+msgstr ""
+
+msgctxt "wndGit.indexEditor.mni:"
 msgid "Stage Selection"
 msgstr ""
 
@@ -12951,6 +13087,10 @@ msgstr ""
 
 msgctxt "wndGit.indexEditor.tle:"
 msgid "$1 - Index Editor"
+msgstr ""
+
+msgctxt "wndLog.hnt:"
+msgid "No commit matches the filter."
 msgstr ""
 
 msgctxt "wndLog.hnt:"
@@ -13054,11 +13194,11 @@ msgid "Changed files"
 msgstr ""
 
 msgctxt "wndStd.mni:"
-msgid "Fetch '$1'"
+msgid "Fetch '$1' \\(current\\) "
 msgstr ""
 
 msgctxt "wndStd.mni:"
-msgid "Fetch '$1' \\(current\\) "
+msgid "Fetch '$1'"
 msgstr ""
 
 msgctxt "wndStd.mni:"
@@ -13090,6 +13230,18 @@ msgid "Only current branch \\(HEAD\\)"
 msgstr ""
 
 msgctxt "wndStd.mni:"
+msgid "Open with $1"
+msgstr ""
+
+msgctxt "wndStd.mni:"
+msgid "Open"
+msgstr ""
+
+msgctxt "wndStd.mni:"
+msgid "Pull All"
+msgstr ""
+
+msgctxt "wndStd.mni:"
 msgid "Rebase"
 msgstr ""
 
@@ -13107,6 +13259,10 @@ msgstr ""
 
 msgctxt "wndStd.mni:"
 msgid "Save Stash"
+msgstr ""
+
+msgctxt "wndStd.mni:"
+msgid "Show Tags"
 msgstr ""
 
 msgctxt "wndStd.mni:"
@@ -13153,8 +13309,20 @@ msgctxt "wndStd.tbr:"
 msgid "Submodule"
 msgstr ""
 
+msgctxt "wndStd.tbt:"
+msgid "Show filter input field."
+msgstr ""
+
+msgctxt "wndStd.tbtFlowFeatureFinish"
+msgid "Finish the current feature branch."
+msgstr ""
+
 msgctxt "wndStd.tbtFlowFeatureStart"
 msgid "Start a new feature branch."
+msgstr ""
+
+msgctxt "wndStd.tbtIntegrateMain"
+msgid "Integrate latest changes from the main branch into the current feature branch."
 msgstr ""
 
 msgctxt "wnd(Annotate|Compare|ConflictSolver|Deepgit|Git.indexEditor|Editor|Log|Project|Std|).lblStatusBarMessage:"
