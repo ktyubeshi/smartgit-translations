@@ -9695,12 +9695,24 @@ msgid "Send usage statistics"
 msgstr "使用状況の統計情報の送信"
 
 msgctxt "dlgSgSetup.chk:"
+msgid "Use SmartGit for authentication \\(ignoring your current credential.helper configuration\\)"
+msgstr "認証にSmartGitを使用する \\(現在のcredential.helper設定を無視します\\)"
+
+msgctxt "dlgSgSetup.chk:"
 msgid "Use gravatar.com to show images for the users"
 msgstr "gravatar.comを使用してユーザーアイコンを表示する"
 
 msgctxt "dlgSgSetup.edt:"
 msgid "Email"
 msgstr "電子メール"
+
+msgctxt "dlgSgSetup.edt:"
+msgid "Full Name"
+msgstr "フルネーム"
+
+msgctxt "dlgSgSetup.edt:"
+msgid "Git Email"
+msgstr "Gitメールアドレス"
 
 msgctxt "dlgSgSetup.edt:"
 msgid "Git Executable"
@@ -9722,13 +9734,33 @@ msgctxt "dlgSgSetup.edt:"
 msgid "User Name"
 msgstr "ユーザ名"
 
-msgctxt "dlgSgSetup.inf:"
-msgid "Welcome to SmartGit!\\nChoose the window style you prefer. You can change this option later in the preferences."
-msgstr "SmartGitへようこそ! SmartGitのどのウィンドウを使用するかを決めます。このオプションは、後で環境設定で変更することができます。"
+msgctxt "dlgSgSetup.hdl:"
+msgid "Git Executable"
+msgstr "Git実行ファイル"
+
+msgctxt "dlgSgSetup.hdl:"
+msgid "License"
+msgstr "ライセンス"
+
+msgctxt "dlgSgSetup.hdl:"
+msgid "Privacy"
+msgstr "プライバシー"
+
+msgctxt "dlgSgSetup.hdl:"
+msgid "Style"
+msgstr "スタイル"
+
+msgctxt "dlgSgSetup.hdl:"
+msgid "User Information"
+msgstr "ユーザー情報"
 
 msgctxt "dlgSgSetup.inf:"
 msgid "If you are using SSH to connect to other Git repositories, select what SSH client to use. You can change it later in the Preferences."
 msgstr "SSHを使って他のGitリポジトリに接続する場合は、使用するSSHクライアントを選択します。この設定は後から「環境設定」で変更できます。"
+
+msgctxt "dlgSgSetup.inf:"
+msgid "Please review the following privacy options. You can change them later in the Preferences."
+msgstr "以下のプライバシー設定をご確認ください。これらの設定は後から環境設定で変更できます。"
 
 msgctxt "dlgSgSetup.inf:"
 msgid "Please review the following privacy options. You can change them later in the preferences."
@@ -9748,7 +9780,11 @@ msgstr "ユーザー名とメールアドレスは、コミットの一部とし
 
 msgctxt "dlgSgSetup.inf:"
 msgid "Welcome to SmartGit! Please confirm that you are accepting the license agreement."
-msgstr "SmartGitへようこそ! 使用許諾契約に同意されることをご確認ください。"
+msgstr "SmartGitへようこそ！使用許諾契約への同意をご確認ください。"
+
+msgctxt "dlgSgSetup.inf:"
+msgid "Welcome to SmartGit!\\nChoose the window style you prefer. You can change this option later in the preferences."
+msgstr "SmartGitへようこそ！\\nお好みのウィンドウスタイルを選択してください。この設定は後で環境設定から変更できます。"
 
 msgctxt "dlgSgSetup.lbl:"
 msgid "- Working Tree and Graph\\n- repository tabs\\n\\n- recommended for new users"
@@ -9756,7 +9792,7 @@ msgstr "- 作業ツリーとグラフ\\n- リポジトリタブ\\n\\n- 新規ユ
 
 msgctxt "dlgSgSetup.lbl:"
 msgid "- Working Tree as graph node\\n- full feature set\\n\\n- recommended for power users"
-msgstr "- 作業ツリーをグラフノードとして表示する\\n- 全機能を使用可能\\n- パワーユーザーにおすすめします。"
+msgstr "- 作業ツリーをグラフノードとして表示する\\n- 全機能を使用可能\\n\\n- パワーユーザーにおすすめします。"
 
 msgctxt "dlgSgSetup.lbl:"
 msgid "- needs Log window for full history\\n- file display from submodules\\n\\n- SmartGit 19.1 defaults"
@@ -9807,6 +9843,10 @@ msgid "may be harder to configure and use for new users, but is more flexible"
 msgstr "新しいユーザーにとっては設定や使い方が難しいかもしれませんが、より柔軟性があります。"
 
 msgctxt "dlgSgSetup.rbt:"
+msgid "Bundled Git"
+msgstr "バンドルされたGit"
+
+msgctxt "dlgSgSetup.rbt:"
 msgid "Commits \\(Log History\\)"
 msgstr "コミット \\(ログ履歴\\)"
 
@@ -9821,6 +9861,10 @@ msgstr "ロググラフ \\(コミット中心\\)"
 msgctxt "dlgSgSetup.rbt:"
 msgid "Non-commercial use only \\(most features, no support\\)"
 msgstr "非商用利用のみ （ほとんどの機能、サポートなし）"
+
+msgctxt "dlgSgSetup.rbt:"
+msgid "Other Git Executable:"
+msgstr "その他のGit実行ファイル："
 
 msgctxt "dlgSgSetup.rbt:"
 msgid "Registered user, commercial use \\(all features, support\\)"
@@ -9846,13 +9890,9 @@ msgctxt "dlgSgSetup.rbt:"
 msgid "Working tree \\(file oriented\\)"
 msgstr "作業ツリー \\(ファイル中心\\)"
 
-msgctxt "dlgSgSetup.tle:"
+msgctxt "dlgSgSetup.tle%1"
 msgid "Setup SmartGit $1"
 msgstr "SmartGit $1 のセットアップ"
-
-msgctxt "dlgSgSetup.tle:"
-msgid "Setup SmartGit"
-msgstr "SmartGit のセットアップ"
 
 msgctxt "dlgSgSetupStdWnd.btn:"
 msgid "Use Standard Window"
