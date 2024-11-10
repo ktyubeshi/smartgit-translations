@@ -725,12 +725,12 @@ msgctxt "dlgScConflictSolverInconsistentLineEndings.hdl"
 msgid "The file contains mixed \\(inconsistent\\) line-endings."
 msgstr ""
 
-msgctxt "dlgScConflictSolverInconsistentLineEndings.tle%2"
-msgid "\\[$1\\] - $2"
-msgstr ""
-
 msgctxt "dlgScConflictSolverInconsistentLineEndings.tle%1"
 msgid "\\[$1\\] - Conflict Solver"
+msgstr ""
+
+msgctxt "dlgScConflictSolverInconsistentLineEndings.tle%2"
+msgid "\\[$1\\] - $2"
 msgstr ""
 
 msgctxt "dlgScConflictSolverUnresolvedConflicts.chk"
@@ -9853,12 +9853,8 @@ msgctxt "dlgSgSetup.rbt:"
 msgid "Working tree \\(file oriented\\)"
 msgstr ""
 
-msgctxt "dlgSgSetup.tle:"
+msgctxt "dlgSgSetup.tle%1"
 msgid "Setup SmartGit $1"
-msgstr ""
-
-msgctxt "dlgSgSetup.tle:"
-msgid "Setup SmartGit"
 msgstr ""
 
 msgctxt "dlgSgSetupStdWnd.btn:"
