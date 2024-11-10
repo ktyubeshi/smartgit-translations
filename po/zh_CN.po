@@ -725,13 +725,13 @@ msgctxt "dlgScConflictSolverInconsistentLineEndings.hdl"
 msgid "The file contains mixed \\(inconsistent\\) line-endings."
 msgstr "文件包含混合不一致的行尾序列."
 
-msgctxt "dlgScConflictSolverInconsistentLineEndings.tle"
-msgid "\\[$1\\] - $2"
-msgstr ""
-
 msgctxt "dlgScConflictSolverInconsistentLineEndings.tle%1"
 msgid "\\[$1\\] - Conflict Solver"
 msgstr "\\[$1\\] - 冲突解决工具"
+
+msgctxt "dlgScConflictSolverInconsistentLineEndings.tle%2"
+msgid "\\[$1\\] - $2"
+msgstr ""
 
 msgctxt "dlgScConflictSolverUnresolvedConflicts.chk"
 msgid "Don't warn me again"
@@ -2902,6 +2902,18 @@ msgctxt "dlgSgClone.err:"
 msgid "Please specify the root directory of a local repository."
 msgstr "请指定本地仓库的根目录。"
 
+msgctxt "dlgSgClone.hdl:"
+msgid "Local Directory"
+msgstr ""
+
+msgctxt "dlgSgClone.hdl:"
+msgid "Repository"
+msgstr ""
+
+msgctxt "dlgSgClone.hdl:"
+msgid "Selection"
+msgstr ""
+
 msgctxt "dlgSgClone.hnt:"
 msgid "No repository found."
 msgstr ""
@@ -3462,7 +3474,7 @@ msgctxt "dlgSgCompareTwoFilesFrameMixedLineEndingsRight.hdl"
 msgid "The right file is not editable because of mixed line-endings."
 msgstr ""
 
-msgctxt "dlgSgCompareTwoFilesFrameMixedLineEndingsRight.tle"
+msgctxt "dlgSgCompareTwoFilesFrameMixedLineEndingsRight.tle%3"
 msgid "\\[$1\\] - \\[$2\\] - $3"
 msgstr ""
 
@@ -5006,6 +5018,18 @@ msgctxt "dlgSgHostingProviderAdd.tle"
 msgid "Add Hosting Provider"
 msgstr "添加主机提供商"
 
+msgctxt "dlgSgHostingProviderAddFailed.fur"
+msgid "github.com has the same connection parameters. It makes no sense to have duplicate configurations for the same account."
+msgstr ""
+
+msgctxt "dlgSgHostingProviderAddFailed.hdl"
+msgid "There is already another configuration with identical parameters."
+msgstr ""
+
+msgctxt "dlgSgHostingProviderAddFailed.tle"
+msgid "Hosting provider"
+msgstr ""
+
 msgctxt "dlgSgHostingProviderEdit.btn:"
 msgid "Generate API Token"
 msgstr "生成 API 令牌"
@@ -5396,6 +5420,10 @@ msgstr ""
 
 msgctxt "dlgSgIndexEditorMixedLineEndings.hdl"
 msgid "The file is not editable because of mixed line-endings."
+msgstr ""
+
+msgctxt "dlgSgIndexEditorMixedLineEndings.tle%2"
+msgid "$1 - index $2"
 msgstr ""
 
 msgctxt "dlgSgIndexEditorSaveOrDiscard.btn:"
@@ -5814,6 +5842,10 @@ msgctxt "dlgSgMergeHowToMerge.hdl:"
 msgid "How to merge from tag '$1'?"
 msgstr "如何从标签 '$1' 合并?"
 
+msgctxt "dlgSgMergeHowToMerge.hdl%1"
+msgid "How to merge from branch '$1'?"
+msgstr ""
+
 msgctxt "dlgSgMergeHowToMerge.tle"
 msgid "Merge"
 msgstr "合并"
@@ -6081,6 +6113,10 @@ msgstr ""
 msgctxt "dlgSgOutput.lbl:"
 msgid "Your local changes to the following files would be overwritten by checkout:\\ncould not detach HEAD"
 msgstr "您对以下文件的本地更改将被签出覆盖:\\n无法分离 HEAD"
+
+msgctxt "dlgSgOutput.lbl:"
+msgid "Your local changes to the following files would be overwritten by merge:\\ncherry-pick failed"
+msgstr ""
 
 msgctxt "dlgSgOutput.mni:"
 msgid "Copy Selection"
@@ -7399,6 +7435,26 @@ msgctxt "dlgSgProviderCommentEdit.tle"
 msgid "Edit Comment"
 msgstr ""
 
+msgctxt "dlgSgProviderCredentialsAutoGeneratorSelector.btn:"
+msgid "Confirm"
+msgstr ""
+
+msgctxt "dlgSgProviderCredentialsAutoGeneratorSelector.edt:"
+msgid "Provider"
+msgstr ""
+
+msgctxt "dlgSgProviderCredentialsAutoGeneratorSelector.hdl"
+msgid "Select which GitLab account to use"
+msgstr ""
+
+msgctxt "dlgSgProviderCredentialsAutoGeneratorSelector.inf%1"
+msgid "Select which account you want to use for connecting to '$1'."
+msgstr ""
+
+msgctxt "dlgSgProviderCredentialsAutoGeneratorSelector.tle"
+msgid "Select GitLab account"
+msgstr ""
+
 msgctxt "dlgSgProviderGenerateToken.btn:"
 msgid "Authenticate"
 msgstr ""
@@ -7407,7 +7463,7 @@ msgctxt "dlgSgProviderGenerateToken.edt:"
 msgid "Link"
 msgstr ""
 
-msgctxt "dlgSgProviderGenerateToken.hdl"
+msgctxt "dlgSgProviderGenerateToken.hdl%1"
 msgid "Generate a new API token for $1"
 msgstr ""
 
@@ -7425,6 +7481,18 @@ msgstr ""
 
 msgctxt "dlgSgProviderGenerateToken.tle"
 msgid "Generate API Token"
+msgstr ""
+
+msgctxt "dlgSgProviderGenerateTokenInternalServerFailed.fur"
+msgid "The resource owner or authorization server denied the request."
+msgstr ""
+
+msgctxt "dlgSgProviderGenerateTokenInternalServerFailed.hdl"
+msgid "The OAuth authorization has failed."
+msgstr ""
+
+msgctxt "dlgSgProviderGenerateTokenInternalServerFailed.tle%1"
+msgid "$1 OAuth Authorization"
 msgstr ""
 
 msgctxt "dlgSgProviderPullRequestCreateNoTargetRepositories.fur"
@@ -9157,21 +9225,21 @@ msgctxt "dlgSgResolve.rbt:"
 msgid "Open Conflict Solver"
 msgstr "打开冲突解决工具"
 
-msgctxt "dlgSgResolve.rbt\"Set to $1 \\(\\\"ours\\\", $2\\)\""
+msgctxt "dlgSgResolve.rbt:"
 msgid "Set to $1 \\(\"ours\", $2\\)"
-msgstr "设置为 $1 \\(“我们的”，$2 \\)"
+msgstr ""
 
-msgctxt "dlgSgResolve.rbt\"Set to $1 \\(\\\"theirs\\\", $2\\)\""
+msgctxt "dlgSgResolve.rbt:"
 msgid "Set to $1 \\(\"theirs\", $2\\)"
-msgstr "设置为 $1 \\(“他们的”，$2 \\)"
+msgstr ""
 
-msgctxt "dlgSgResolve.rbt\"Set to rebase target \\(\\\"theirs\\\", $1\\)\""
+msgctxt "dlgSgResolve.rbt:"
 msgid "Set to rebase target \\(\"theirs\", $1\\)"
-msgstr "设置为变基目标 \\(“他们的”，$1\\)"
+msgstr ""
 
-msgctxt "dlgSgResolve.rbt\"Set to rebased branch '$1' \\(\\\"ours\\\", $2\\)\""
+msgctxt "dlgSgResolve.rbt:"
 msgid "Set to rebased branch '$1' \\(\"ours\", $2\\)"
-msgstr "设置为变基分支 “$1” \\(“我们的”，$2\\)"
+msgstr ""
 
 msgctxt "dlgSgResolve.tle"
 msgid "Resolve"
@@ -9694,12 +9762,24 @@ msgid "Send usage statistics"
 msgstr "发送使用量统计"
 
 msgctxt "dlgSgSetup.chk:"
+msgid "Use SmartGit for authentication \\(ignoring your current credential.helper configuration\\)"
+msgstr ""
+
+msgctxt "dlgSgSetup.chk:"
 msgid "Use gravatar.com to show images for the users"
 msgstr "使用 gravatar.com 为用户显示图像"
 
 msgctxt "dlgSgSetup.edt:"
 msgid "Email"
 msgstr "电子邮箱"
+
+msgctxt "dlgSgSetup.edt:"
+msgid "Full Name"
+msgstr ""
+
+msgctxt "dlgSgSetup.edt:"
+msgid "Git Email"
+msgstr ""
 
 msgctxt "dlgSgSetup.edt:"
 msgid "Git Executable"
@@ -9721,13 +9801,33 @@ msgctxt "dlgSgSetup.edt:"
 msgid "User Name"
 msgstr "用户名"
 
-msgctxt "dlgSgSetup.inf:"
-msgid "Welcome to SmartGit!\\nChoose the window style you prefer. You can change this option later in the preferences."
-msgstr "欢迎来到 SmartGit！决定您喜欢的 SmartGit 窗口。您可以稍后在偏好设置中更改此选项。"
+msgctxt "dlgSgSetup.hdl:"
+msgid "Git Executable"
+msgstr ""
+
+msgctxt "dlgSgSetup.hdl:"
+msgid "License"
+msgstr ""
+
+msgctxt "dlgSgSetup.hdl:"
+msgid "Privacy"
+msgstr ""
+
+msgctxt "dlgSgSetup.hdl:"
+msgid "Style"
+msgstr ""
+
+msgctxt "dlgSgSetup.hdl:"
+msgid "User Information"
+msgstr ""
 
 msgctxt "dlgSgSetup.inf:"
 msgid "If you are using SSH to connect to other Git repositories, select what SSH client to use. You can change it later in the Preferences."
 msgstr "如果您使用 SSH 连接到其他 Git 仓库，请选择要使用的 SSH 客户端。 您可以稍后在偏好设置中进行更改。"
+
+msgctxt "dlgSgSetup.inf:"
+msgid "Please review the following privacy options. You can change them later in the Preferences."
+msgstr ""
 
 msgctxt "dlgSgSetup.inf:"
 msgid "Please review the following privacy options. You can change them later in the preferences."
@@ -9748,6 +9848,10 @@ msgstr "用户名和电子邮件将作为提交的一部分存储。 您可以�
 msgctxt "dlgSgSetup.inf:"
 msgid "Welcome to SmartGit! Please confirm that you are accepting the license agreement."
 msgstr "欢迎来到 SmartGit！请确认您正在接受许可协议。"
+
+msgctxt "dlgSgSetup.inf:"
+msgid "Welcome to SmartGit!\\nChoose the window style you prefer. You can change this option later in the preferences."
+msgstr "欢迎来到 SmartGit！决定您喜欢的 SmartGit 窗口。您可以稍后在偏好设置中更改此选项。"
 
 msgctxt "dlgSgSetup.lbl:"
 msgid "- Working Tree and Graph\\n- repository tabs\\n\\n- recommended for new users"
@@ -9806,6 +9910,10 @@ msgid "may be harder to configure and use for new users, but is more flexible"
 msgstr ""
 
 msgctxt "dlgSgSetup.rbt:"
+msgid "Bundled Git"
+msgstr ""
+
+msgctxt "dlgSgSetup.rbt:"
 msgid "Commits \\(Log History\\)"
 msgstr "日志历史"
 
@@ -9820,6 +9928,10 @@ msgstr "日志图 \\(面向提交\\)"
 msgctxt "dlgSgSetup.rbt:"
 msgid "Non-commercial use only \\(most features, no support\\)"
 msgstr "仅限非商业用途 \\(大多数功能, 无技术支持\\)"
+
+msgctxt "dlgSgSetup.rbt:"
+msgid "Other Git Executable:"
+msgstr ""
 
 msgctxt "dlgSgSetup.rbt:"
 msgid "Registered user, commercial use \\(all features, support\\)"
@@ -9845,13 +9957,9 @@ msgctxt "dlgSgSetup.rbt:"
 msgid "Working tree \\(file oriented\\)"
 msgstr "工作区 \\(面向文件\\)"
 
-msgctxt "dlgSgSetup.tle:"
+msgctxt "dlgSgSetup.tle%1"
 msgid "Setup SmartGit $1"
-msgstr "设置 SmartGit $1"
-
-msgctxt "dlgSgSetup.tle:"
-msgid "Setup SmartGit"
-msgstr "设置 SmartGit"
+msgstr ""
 
 msgctxt "dlgSgSetupStdWnd.btn:"
 msgid "Use Standard Window"
@@ -10626,9 +10734,9 @@ msgctxt "dlgSgSvnClientCertificate.tle"
 msgid "SVN Authentication"
 msgstr "SVN 认证"
 
-msgctxt "dlgSgSvnClientCertificate.wrn\"Authentication to the SVN repository '$1' failed with error: $2\""
+msgctxt "dlgSgSvnClientCertificate.wrn:"
 msgid "Authentication to the SVN repository '$1' failed with error: $2'"
-msgstr "对 SVN 仓库 “$1” 的身份验证失败，错误：$2"
+msgstr ""
 
 msgctxt "dlgSgSvnSslFingerprintChanged.btn:"
 msgid "Accept"
@@ -11082,6 +11190,66 @@ msgctxt "dlgShPushTrackingLocalSvnBranches.tle"
 msgid "Push"
 msgstr "推送"
 
+msgctxt "dlgStdFeatureConfiguration.btn:"
+msgid "Confirm"
+msgstr ""
+
+msgctxt "dlgStdFeatureConfiguration.edt:"
+msgid "Feature Prefix"
+msgstr ""
+
+msgctxt "dlgStdFeatureConfiguration.edt:"
+msgid "Main Branch"
+msgstr ""
+
+msgctxt "dlgStdFeatureConfiguration.edt:"
+msgid "Main Branches"
+msgstr ""
+
+msgctxt "dlgStdFeatureConfiguration.hdl"
+msgid "Configure main and feature branches"
+msgstr ""
+
+msgctxt "dlgStdFeatureConfiguration.inf"
+msgid "Set the main branch for your repository and an optional prefix for feature branches."
+msgstr ""
+
+msgctxt "dlgStdFeatureConfiguration.lbl:"
+msgid "Example: develop, release-.\\*"
+msgstr ""
+
+msgctxt "dlgStdFeatureConfiguration.lbl:"
+msgid "The 'main branch' represents the main development branch of your repository and serves as a foundation for releases. Usually it is named 'develop', 'master' or 'main'.\\n\\nBranches that are used to develop a single new feature, bugfix or other related changes \\(temporarily\\) isolated from the main branch are called 'feature branch' \\(or short 'feature'\\). They typically have a special name prefix, e.g. 'feature/'.\\n\\nNew features will be forked off from a main branch using 'Start'. For an existing feature, new changes from the main branch will be integrated using 'Integrate'. Once you have finished the feature, you can incorporate it into the main branch using 'Finish'.\\n\\nFor extended configuration options, invoke '\\u30d6\\u30e9\\u30f3\\u30c1 \\| \\u8a2d\\u5b9a'."
+msgstr ""
+
+msgctxt "dlgStdFeatureConfiguration.tle"
+msgid "Configure Features"
+msgstr ""
+
+msgctxt "dlgStdFeatureConfiguration.ttp:"
+msgid "The <b>Feature Prefix</b> is optional. <tt>feature/</tt>is commonly used and compatible with Git-Flow."
+msgstr ""
+
+msgctxt "dlgStdFeatureConfiguration.ttp:"
+msgid "You can configure one or more <b>Main Branches</b> by specifying their names separated by semicolon. To specify patterns instead of singular names, use regular expressions. For example: <tt>main,release-.\\*</tt>."
+msgstr ""
+
+msgctxt "dlgStdFeatureStartNotOnMainBranchesAndLocalChanges.btn:"
+msgid "Switch Anyway"
+msgstr ""
+
+msgctxt "dlgStdFeatureStartNotOnMainBranchesAndLocalChanges.fur"
+msgid "Your working tree currently has local modifications, and you are not currently on the main branch. Initiating a new feature now will require switching commits, which can potentially fail due to the presence of local changes.\\n\\nThe recommended course of action is either to commit your local changes \\(if they pertain to the current branch\\) or stash them away in order to have a clean working tree before starting a new feature."
+msgstr ""
+
+msgctxt "dlgStdFeatureStartNotOnMainBranchesAndLocalChanges.hdl"
+msgid "Do you want to switch to a different branch despite having local changes?"
+msgstr ""
+
+msgctxt "dlgStdFeatureStartNotOnMainBranchesAndLocalChanges.tle"
+msgid "Start a new feature"
+msgstr ""
+
 msgctxt "dlgTxtEditor.fileModified.btn:"
 msgid "Keep Content"
 msgstr "保留内容"
@@ -11201,6 +11369,10 @@ msgstr ""
 msgctxt "ntmCredentialHelper:"
 msgid "In case you are encountering strange errors or unexpected dialog popups, try to disable this configuration and let SmartGit handle the authentication itself."
 msgstr "万一您遇到奇怪的错误或意外的对话框弹出, 可以尝试禁用此配置改由 SmartGit 处理身份验证."
+
+msgctxt "ntmCredentialHelper:"
+msgid "In general this should be fine and is the recommended configuration when working with multiple Git clients. If unexpected credential popups or weird errors occur, try to let SmartGit handle the authentication itself."
+msgstr ""
 
 msgctxt "ntmCredentialHelper:"
 msgid "In general this should be fine and is the recommended configuration when working with multiple Git clients. In case you are encountering strange errors or unexpected dialog popups, try to disable this configuration and let SmartGit handle the authentication itself."
@@ -11355,8 +11527,16 @@ msgid "vote at <link1>alternativeto.net</link1>"
 msgstr "vote at <link1>alternativeto.net</link1>"
 
 msgctxt "nttCredentialHelper:"
+msgid "External Credential Helper detected"
+msgstr ""
+
+msgctxt "nttCredentialHelper:"
 msgid "External Credentials Helper detected"
 msgstr "检测到外部凭据帮助程序"
+
+msgctxt "nttCredentialHelper:"
+msgid "Let SmartGit handle Authentication"
+msgstr ""
 
 msgctxt "nttFollowUsOnTwitter:"
 msgid "Follow SmartGit on Twitter!"
@@ -11558,7 +11738,7 @@ msgctxt "ttpBranches:"
 msgid "<b>Incoming</b> from repository <b>$1</b> branch <b>$2</b> to branch <b>$3</b>"
 msgstr ""
 
-msgctxt "ttpBranches\"<b>Last Updated By:\\t</b>$1\""
+msgctxt "ttpBranches:"
 msgid "<b>Last Updated By: </b>$1"
 msgstr ""
 
@@ -11566,11 +11746,11 @@ msgctxt "ttpBranches:"
 msgid "<b>Local Branch:\\t</b>$1"
 msgstr ""
 
-msgctxt "ttpBranches\"<b>On:\\t</b>$1\""
+msgctxt "ttpBranches:"
 msgid "<b>On: </b>$1"
 msgstr ""
 
-msgctxt "ttpBranches\"<b>Outgoing</b> from branch <b>main</b> to repository <b>$1</b> branch <b>$2</b>\""
+msgctxt "ttpBranches:"
 msgid "<b>Outgoing</b> from branch <b>$1</b> to repository <b>$2</b> branch <b>main</b>"
 msgstr ""
 
@@ -12835,6 +13015,10 @@ msgid "Stage Line"
 msgstr "暂存线"
 
 msgctxt "wndGit.indexEditor.mni:"
+msgid "Stage Lines"
+msgstr ""
+
+msgctxt "wndGit.indexEditor.mni:"
 msgid "Stage Selection"
 msgstr "暂存选择"
 
@@ -12908,6 +13092,10 @@ msgstr "上一处变更。"
 
 msgctxt "wndGit.indexEditor.tle:"
 msgid "$1 - Index Editor"
+msgstr ""
+
+msgctxt "wndLog.hnt:"
+msgid "No commit matches the filter."
 msgstr ""
 
 msgctxt "wndLog.hnt:"
@@ -13011,6 +13199,14 @@ msgid "Changed files"
 msgstr ""
 
 msgctxt "wndStd.mni:"
+msgid "Fetch '$1' \\(current\\) "
+msgstr ""
+
+msgctxt "wndStd.mni:"
+msgid "Fetch '$1'"
+msgstr ""
+
+msgctxt "wndStd.mni:"
 msgid "Fetch All"
 msgstr ""
 
@@ -13039,6 +13235,18 @@ msgid "Only current branch \\(HEAD\\)"
 msgstr ""
 
 msgctxt "wndStd.mni:"
+msgid "Open with $1"
+msgstr ""
+
+msgctxt "wndStd.mni:"
+msgid "Open"
+msgstr ""
+
+msgctxt "wndStd.mni:"
+msgid "Pull All"
+msgstr ""
+
+msgctxt "wndStd.mni:"
 msgid "Rebase"
 msgstr ""
 
@@ -13056,6 +13264,10 @@ msgstr ""
 
 msgctxt "wndStd.mni:"
 msgid "Save Stash"
+msgstr ""
+
+msgctxt "wndStd.mni:"
+msgid "Show Tags"
 msgstr ""
 
 msgctxt "wndStd.mni:"
@@ -13102,8 +13314,20 @@ msgctxt "wndStd.tbr:"
 msgid "Submodule"
 msgstr ""
 
+msgctxt "wndStd.tbt:"
+msgid "Show filter input field."
+msgstr ""
+
+msgctxt "wndStd.tbtFlowFeatureFinish"
+msgid "Finish the current feature branch."
+msgstr ""
+
 msgctxt "wndStd.tbtFlowFeatureStart"
 msgid "Start a new feature branch."
+msgstr ""
+
+msgctxt "wndStd.tbtIntegrateMain"
+msgid "Integrate latest changes from the main branch into the current feature branch."
 msgstr ""
 
 msgctxt "wnd(Annotate|Compare|ConflictSolver|Deepgit|Git.indexEditor|Editor|Log|Project|Std|).lblStatusBarMessage:"
@@ -16218,13 +16442,41 @@ msgctxt "wnd(Log|Project|Std|).tle:"
 msgid "$1 \\[$2\\] - Log for $3"
 msgstr ""
 
+#~ msgctxt "dlgScConflictSolverInconsistentLineEndings.tle"
+#~ msgid "\\[$1\\] - $2"
+#~ msgstr ""
+
 #~ msgctxt "dlgSgBranchDeleteRemoteConfirmSingle.hdl"
 #~ msgid "Do you want to delete the branch '$1'?"
+#~ msgstr ""
+
+#~ msgctxt "dlgSgCompareTwoFilesFrameMixedLineEndingsRight.tle"
+#~ msgid "\\[$1\\] - \\[$2\\] - $3"
+#~ msgstr ""
+
+#~ msgctxt "dlgSgProviderGenerateToken.hdl"
+#~ msgid "Generate a new API token for $1"
 #~ msgstr ""
 
 #~ msgctxt "dlgSgProviderPullRequestDropConfirmPr.hdl"
 #~ msgid "Do you want to drop the local commits of pull request $1?"
 #~ msgstr ""
+
+#~ msgctxt "dlgSgResolve.rbt\"Set to $1 \\(\\\"ours\\\", $2\\)\""
+#~ msgid "Set to $1 \\(\"ours\", $2\\)"
+#~ msgstr "设置为 $1 \\(“我们的”，$2 \\)"
+
+#~ msgctxt "dlgSgResolve.rbt\"Set to $1 \\(\\\"theirs\\\", $2\\)\""
+#~ msgid "Set to $1 \\(\"theirs\", $2\\)"
+#~ msgstr "设置为 $1 \\(“他们的”，$2 \\)"
+
+#~ msgctxt "dlgSgResolve.rbt\"Set to rebase target \\(\\\"theirs\\\", $1\\)\""
+#~ msgid "Set to rebase target \\(\"theirs\", $1\\)"
+#~ msgstr "设置为变基目标 \\(“他们的”，$1\\)"
+
+#~ msgctxt "dlgSgResolve.rbt\"Set to rebased branch '$1' \\(\\\"ours\\\", $2\\)\""
+#~ msgid "Set to rebased branch '$1' \\(\"ours\", $2\\)"
+#~ msgstr "设置为变基分支 “$1” \\(“我们的”，$2\\)"
 
 #~ msgctxt "dlgSgRollbackToCommit.hdl"
 #~ msgid "Do you want to rollback the Index to the state of commit $1?"
@@ -16232,6 +16484,30 @@ msgstr ""
 
 #~ msgctxt "dlgSgRollbackToFiles.hdl"
 #~ msgid "Do you want to rollback the selected files to the state of commit $1?"
+#~ msgstr ""
+
+#~ msgctxt "dlgSgSetup.tle:"
+#~ msgid "Setup SmartGit $1"
+#~ msgstr "设置 SmartGit $1"
+
+#~ msgctxt "dlgSgSetup.tle:"
+#~ msgid "Setup SmartGit"
+#~ msgstr "设置 SmartGit"
+
+#~ msgctxt "dlgSgSvnClientCertificate.wrn\"Authentication to the SVN repository '$1' failed with error: $2\""
+#~ msgid "Authentication to the SVN repository '$1' failed with error: $2'"
+#~ msgstr "对 SVN 仓库 “$1” 的身份验证失败，错误：$2"
+
+#~ msgctxt "ttpBranches\"<b>Last Updated By:\\t</b>$1\""
+#~ msgid "<b>Last Updated By: </b>$1"
+#~ msgstr ""
+
+#~ msgctxt "ttpBranches\"<b>On:\\t</b>$1\""
+#~ msgid "<b>On: </b>$1"
+#~ msgstr ""
+
+#~ msgctxt "ttpBranches\"<b>Outgoing</b> from branch <b>main</b> to repository <b>$1</b> branch <b>$2</b>\""
+#~ msgid "<b>Outgoing</b> from branch <b>$1</b> to repository <b>$2</b> branch <b>main</b>"
 #~ msgstr ""
 
 #, fuzzy
