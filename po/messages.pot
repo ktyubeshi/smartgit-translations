@@ -16413,103 +16413,136 @@ msgctxt "wnd(Log|Project|Std|).tle:"
 msgid "$1 \\[$2\\] - Log for $3"
 msgstr ""
 
-#. opening smartgit.byA@37FFE4F3:SmartGit 24.1 (smartgit.byA@4FA4F485)
-#. Performing 'newStandardWindow, Show Standard Window'
-#. opening smartgit.azT@1FEB586D:null (smartgit.azT@58021C3C)
-#. Performing 'flowFeatureStart, Start Feature..., Start a new feature branch.'
-#. Showing dialog 0 (@106802EA) '@6AB1F85B - Start Feature' (owner: @58021C3C)
 msgctxt "dlgStdFeatureStart.btn:"
 msgid "Start"
 msgstr ""
 
-#. opening smartgit.byA@37FFE4F3:SmartGit 24.1 (smartgit.byA@4FA4F485)
-#. Performing 'newStandardWindow, Show Standard Window'
-#. opening smartgit.azT@1FEB586D:null (smartgit.azT@58021C3C)
-#. Performing 'flowFeatureStart, Start Feature..., Start a new feature branch.'
-#. Showing dialog 0 (@106802EA) '@6AB1F85B - Start Feature' (owner: @58021C3C)
 msgctxt "dlgStdFeatureStart.edt:"
 msgid "Feature Name"
 msgstr ""
 
-#. opening smartgit.byA@37FFE4F3:SmartGit 24.1 (smartgit.byA@4FA4F485)
-#. Performing 'newStandardWindow, Show Standard Window'
-#. opening smartgit.azT@1FEB586D:null (smartgit.azT@58021C3C)
-#. Performing 'flowFeatureStart, Start Feature..., Start a new feature branch.'
-#. Showing dialog 0 (@106802EA) '@6AB1F85B - Start Feature' (owner: @58021C3C)
 msgctxt "dlgStdFeatureStart.hdl"
 msgid "Start a new feature"
 msgstr ""
 
-#. opening smartgit.byA@37FFE4F3:SmartGit 24.1 (smartgit.byA@4FA4F485)
-#. Performing 'newStandardWindow, Show Standard Window'
-#. opening smartgit.azT@1FEB586D:null (smartgit.azT@58021C3C)
-#. Performing 'flowFeatureStart, Start Feature..., Start a new feature branch.'
-#. Showing dialog 0 (@106802EA) '@6AB1F85B - Start Feature' (owner: @58021C3C)
 msgctxt "dlgStdFeatureStart.inf%1"
 msgid "Enter the name of the new feature branch. This operation will fork a new branch from '$1'."
 msgstr ""
 
-#. opening smartgit.byA@37FFE4F3:SmartGit 24.1 (smartgit.byA@4FA4F485)
-#. Performing 'newStandardWindow, Show Standard Window'
-#. opening smartgit.azT@1FEB586D:null (smartgit.azT@58021C3C)
-#. Performing 'flowFeatureStart, Start Feature..., Start a new feature branch.'
 msgctxt "dlgStdFeatureStart.tle"
 msgid "Start Feature"
 msgstr ""
 
-#. Performing ', Cancel'
-#. Performing 'flowConfigure, Configure Features...'
-#. Showing dialog 8 (@8616368) '@7B9B244E - Configure Features' (owner: @2BEE1C13)
-#. Performing ', Cancel'
-#. Performing 'flowFeatureStart, Start Feature..., Start a new feature branch.'
-#. Showing dialog 9 (@297BBD41) '@3B5F72FA - Start a new feature' (owner: @2BEE1C13)
-#. Performing ', Cancel'
-#. Performing ', Set 'main' to 9bb1e30a'
-#. Performing 'flowFeatureStart, Start Feature..., Start a new feature branch.'
-#. Showing dialog 10 (@61FE5253) '@3F1485C3 - Start a new feature' (owner: @2BEE1C13)
 msgctxt "dlgStdFeatureStartMainBranchAhead.btn:"
 msgid "Move into Feature Branch"
 msgstr ""
 
-#. Performing ', Cancel'
-#. Performing 'flowConfigure, Configure Features...'
-#. Showing dialog 8 (@8616368) '@7B9B244E - Configure Features' (owner: @2BEE1C13)
-#. Performing ', Cancel'
-#. Performing 'flowFeatureStart, Start Feature..., Start a new feature branch.'
-#. Showing dialog 9 (@297BBD41) '@3B5F72FA - Start a new feature' (owner: @2BEE1C13)
-#. Performing ', Cancel'
-#. Performing ', Set 'main' to 9bb1e30a'
-#. Performing 'flowFeatureStart, Start Feature..., Start a new feature branch.'
-#. Showing dialog 10 (@61FE5253) '@3F1485C3 - Start a new feature' (owner: @2BEE1C13)
-##### This entry has many variables, so check carefully. #####
 msgctxt "dlgStdFeatureStartMainBranchAhead.fur%5"
 msgid "Local branch '$1' is ahead of remote branch '$2'.\\n\\nYour local commits will be moved into a feature branch and '$3' will be reset to '$4'.\\n\\nIf these local commits should actually go directly to '$5', click Cancel and Push before starting the new feature."
 msgstr ""
 
-#. Performing ', Cancel'
-#. Performing 'flowConfigure, Configure Features...'
-#. Showing dialog 8 (@8616368) '@7B9B244E - Configure Features' (owner: @2BEE1C13)
-#. Performing ', Cancel'
-#. Performing 'flowFeatureStart, Start Feature..., Start a new feature branch.'
-#. Showing dialog 9 (@297BBD41) '@3B5F72FA - Start a new feature' (owner: @2BEE1C13)
-#. Performing ', Cancel'
-#. Performing ', Set 'main' to 9bb1e30a'
-#. Performing 'flowFeatureStart, Start Feature..., Start a new feature branch.'
-#. Showing dialog 10 (@61FE5253) '@3F1485C3 - Start a new feature' (owner: @2BEE1C13)
 msgctxt "dlgStdFeatureStartMainBranchAhead.hdl"
 msgid "Do you want to move your local commits into a feature branch?"
 msgstr ""
 
-#. Showing dialog 7 (@77954F77) '@6529B078 - Start a new feature' (owner: @2BEE1C13)
-#. Performing ', Cancel'
-#. Performing 'flowConfigure, Configure Features...'
-#. Showing dialog 8 (@8616368) '@7B9B244E - Configure Features' (owner: @2BEE1C13)
-#. Performing ', Cancel'
-#. Performing 'flowFeatureStart, Start Feature..., Start a new feature branch.'
-#. Showing dialog 9 (@297BBD41) '@3B5F72FA - Start a new feature' (owner: @2BEE1C13)
-#. Performing ', Cancel'
-#. Performing ', Set 'main' to 9bb1e30a'
-#. Performing 'flowFeatureStart, Start Feature..., Start a new feature branch.'
 msgctxt "dlgStdFeatureStartMainBranchAhead.tle"
 msgid "Start a new feature"
+msgstr ""
+
+#. Showing dialog 2 (@4D0B276E) '@231D3CE - Start Feature' (owner: @2F6E92CA)
+#. Performing ', Cancel'
+#. Performing ', Changed files'
+#. Performing ', All files, excl. ignored'
+#. Performing 'flowFeatureStart, Start Feature..., Start a new feature branch.'
+#. Showing dialog 3 (@57ED02E6) '@39004E4F - Start a new feature' (owner: @2F6E92CA)
+#. Performing ', Move into Feature Branch'
+#. Showing dialog 4 (@54D35ED5) '@6F7C9755 - Start a new feature' (owner: @2F6E92CA)
+#. Performing ', Switch Anyway'
+#. Showing dialog 5 (@434EE422) '@4DE93EDD - Start Feature' (owner: @2F6E92CA)
+msgctxt "dlgStdFeatureStart.lbl:"
+msgid "Resulting Branch: $1"
+msgstr ""
+
+#. Showing dialog 5 (@434EE422) '@4DE93EDD - Start Feature' (owner: @2F6E92CA)
+#. Performing ', Start'
+#. Performing ', Reset HEAD to 03f4cf49'
+#. Showing dialog 6 (@A0BDBE2) '@ED1D2CF - Reset' (owner: @2F6E92CA)
+#. Performing ', Save Stash'
+#. Performing 'integrateMain, Integrate Main, Integrate latest changes from the main branch into the current feature branch.'
+#. Showing dialog 7 (@285B63EB) '@5A983F8A - Integrate' (owner: @2F6E92CA)
+#. Performing ', OK'
+#. Performing 'flowFeatureFinish, Finish Feature..., Finish the current feature branch.'
+#. Showing dialog 8 (@354BAAB2) '@30BE6A05 - Finish' (owner: @2F6E92CA)
+msgctxt "dlgStdFinishMultipleRemotes.fur"
+msgid "Multiple remotes are currently not supported in this window."
+msgstr ""
+
+#. Showing dialog 5 (@434EE422) '@4DE93EDD - Start Feature' (owner: @2F6E92CA)
+#. Performing ', Start'
+#. Performing ', Reset HEAD to 03f4cf49'
+#. Showing dialog 6 (@A0BDBE2) '@ED1D2CF - Reset' (owner: @2F6E92CA)
+#. Performing ', Save Stash'
+#. Performing 'integrateMain, Integrate Main, Integrate latest changes from the main branch into the current feature branch.'
+#. Showing dialog 7 (@285B63EB) '@5A983F8A - Integrate' (owner: @2F6E92CA)
+#. Performing ', OK'
+#. Performing 'flowFeatureFinish, Finish Feature..., Finish the current feature branch.'
+#. Showing dialog 8 (@354BAAB2) '@30BE6A05 - Finish' (owner: @2F6E92CA)
+msgctxt "dlgStdFinishMultipleRemotes.hdl"
+msgid "Can't finish with multiple remotes."
+msgstr ""
+
+#. Performing ', Switch Anyway'
+#. Showing dialog 5 (@434EE422) '@4DE93EDD - Start Feature' (owner: @2F6E92CA)
+#. Performing ', Start'
+#. Performing ', Reset HEAD to 03f4cf49'
+#. Showing dialog 6 (@A0BDBE2) '@ED1D2CF - Reset' (owner: @2F6E92CA)
+#. Performing ', Save Stash'
+#. Performing 'integrateMain, Integrate Main, Integrate latest changes from the main branch into the current feature branch.'
+#. Showing dialog 7 (@285B63EB) '@5A983F8A - Integrate' (owner: @2F6E92CA)
+#. Performing ', OK'
+#. Performing 'flowFeatureFinish, Finish Feature..., Finish the current feature branch.'
+msgctxt "dlgStdFinishMultipleRemotes.tle"
+msgid "Finish"
+msgstr ""
+
+#. Performing ', Move into Feature Branch'
+#. Showing dialog 4 (@54D35ED5) '@6F7C9755 - Start a new feature' (owner: @2F6E92CA)
+#. Performing ', Switch Anyway'
+#. Showing dialog 5 (@434EE422) '@4DE93EDD - Start Feature' (owner: @2F6E92CA)
+#. Performing ', Start'
+#. Performing ', Reset HEAD to 03f4cf49'
+#. Showing dialog 6 (@A0BDBE2) '@ED1D2CF - Reset' (owner: @2F6E92CA)
+#. Performing ', Save Stash'
+#. Performing 'integrateMain, Integrate Main, Integrate latest changes from the main branch into the current feature branch.'
+#. Showing dialog 7 (@285B63EB) '@5A983F8A - Integrate' (owner: @2F6E92CA)
+msgctxt "dlgStdIntegrateMultipleRemotes.fur"
+msgid "Multiple remotes are currently not supported in this window."
+msgstr ""
+
+#. Performing ', Move into Feature Branch'
+#. Showing dialog 4 (@54D35ED5) '@6F7C9755 - Start a new feature' (owner: @2F6E92CA)
+#. Performing ', Switch Anyway'
+#. Showing dialog 5 (@434EE422) '@4DE93EDD - Start Feature' (owner: @2F6E92CA)
+#. Performing ', Start'
+#. Performing ', Reset HEAD to 03f4cf49'
+#. Showing dialog 6 (@A0BDBE2) '@ED1D2CF - Reset' (owner: @2F6E92CA)
+#. Performing ', Save Stash'
+#. Performing 'integrateMain, Integrate Main, Integrate latest changes from the main branch into the current feature branch.'
+#. Showing dialog 7 (@285B63EB) '@5A983F8A - Integrate' (owner: @2F6E92CA)
+msgctxt "dlgStdIntegrateMultipleRemotes.hdl"
+msgid "Can't integrate with multiple remotes."
+msgstr ""
+
+#. Showing dialog 3 (@57ED02E6) '@39004E4F - Start a new feature' (owner: @2F6E92CA)
+#. Performing ', Move into Feature Branch'
+#. Showing dialog 4 (@54D35ED5) '@6F7C9755 - Start a new feature' (owner: @2F6E92CA)
+#. Performing ', Switch Anyway'
+#. Showing dialog 5 (@434EE422) '@4DE93EDD - Start Feature' (owner: @2F6E92CA)
+#. Performing ', Start'
+#. Performing ', Reset HEAD to 03f4cf49'
+#. Showing dialog 6 (@A0BDBE2) '@ED1D2CF - Reset' (owner: @2F6E92CA)
+#. Performing ', Save Stash'
+#. Performing 'integrateMain, Integrate Main, Integrate latest changes from the main branch into the current feature branch.'
+msgctxt "dlgStdIntegrateMultipleRemotes.tle"
+msgid "Integrate"
 msgstr ""
