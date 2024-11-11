@@ -71,7 +71,7 @@ def check_pot_entry(msgid, msgstr):
     return None
 
 def process_po_file(po_filepath):
-    """POファイルを処理し、エラーを報告し、必要に応じてエントリにfuzzyフラグを追加"""
+    """POファイルを処理し、エラーを報告し、必要に応じてエントリにfuzzyフラグとTranslatorコメントを追加"""
     po = polib.pofile(po_filepath)
 
     errors_found = False
@@ -86,11 +86,16 @@ def process_po_file(po_filepath):
             # fuzzy フラグを追加
             if 'fuzzy' not in entry.flags:
                 entry.flags.append('fuzzy')
+            # エラーの理由をTranslatorコメントに追加
+            if entry.tcomment:
+                entry.tcomment += f"\n{error}"
+            else:
+                entry.tcomment = error
 
     if errors_found:
         # PO ファイルを上書き保存
         po.save()
-        print(f"\nエラーが検出されたため、'fuzzy' フラグを追加して PO ファイルを保存しました。")
+        print(f"\nエラーが検出されたため、'fuzzy' フラグとエラーの理由を追加して PO ファイルを保存しました。")
     else:
         print("エラーなし。")
 
