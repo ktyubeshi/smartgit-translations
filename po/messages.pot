@@ -16457,3 +16457,59 @@ msgctxt "dlgStdFeatureStart.tle"
 msgid "Start Feature"
 msgstr ""
 
+#. Performing ', Cancel'
+#. Performing 'flowConfigure, Configure Features...'
+#. Showing dialog 8 (@8616368) '@7B9B244E - Configure Features' (owner: @2BEE1C13)
+#. Performing ', Cancel'
+#. Performing 'flowFeatureStart, Start Feature..., Start a new feature branch.'
+#. Showing dialog 9 (@297BBD41) '@3B5F72FA - Start a new feature' (owner: @2BEE1C13)
+#. Performing ', Cancel'
+#. Performing ', Set 'main' to 9bb1e30a'
+#. Performing 'flowFeatureStart, Start Feature..., Start a new feature branch.'
+#. Showing dialog 10 (@61FE5253) '@3F1485C3 - Start a new feature' (owner: @2BEE1C13)
+msgctxt "dlgStdFeatureStartMainBranchAhead.btn:"
+msgid "Move into Feature Branch"
+msgstr ""
+
+#. Performing ', Cancel'
+#. Performing 'flowConfigure, Configure Features...'
+#. Showing dialog 8 (@8616368) '@7B9B244E - Configure Features' (owner: @2BEE1C13)
+#. Performing ', Cancel'
+#. Performing 'flowFeatureStart, Start Feature..., Start a new feature branch.'
+#. Showing dialog 9 (@297BBD41) '@3B5F72FA - Start a new feature' (owner: @2BEE1C13)
+#. Performing ', Cancel'
+#. Performing ', Set 'main' to 9bb1e30a'
+#. Performing 'flowFeatureStart, Start Feature..., Start a new feature branch.'
+#. Showing dialog 10 (@61FE5253) '@3F1485C3 - Start a new feature' (owner: @2BEE1C13)
+##### This entry has many variables, so check carefully. #####
+msgctxt "dlgStdFeatureStartMainBranchAhead.fur%5"
+msgid "Local branch '$1' is ahead of remote branch '$2'.\\n\\nYour local commits will be moved into a feature branch and '$3' will be reset to '$4'.\\n\\nIf these local commits should actually go directly to '$5', click Cancel and Push before starting the new feature."
+msgstr ""
+
+#. Performing ', Cancel'
+#. Performing 'flowConfigure, Configure Features...'
+#. Showing dialog 8 (@8616368) '@7B9B244E - Configure Features' (owner: @2BEE1C13)
+#. Performing ', Cancel'
+#. Performing 'flowFeatureStart, Start Feature..., Start a new feature branch.'
+#. Showing dialog 9 (@297BBD41) '@3B5F72FA - Start a new feature' (owner: @2BEE1C13)
+#. Performing ', Cancel'
+#. Performing ', Set 'main' to 9bb1e30a'
+#. Performing 'flowFeatureStart, Start Feature..., Start a new feature branch.'
+#. Showing dialog 10 (@61FE5253) '@3F1485C3 - Start a new feature' (owner: @2BEE1C13)
+msgctxt "dlgStdFeatureStartMainBranchAhead.hdl"
+msgid "Do you want to move your local commits into a feature branch?"
+msgstr ""
+
+#. Showing dialog 7 (@77954F77) '@6529B078 - Start a new feature' (owner: @2BEE1C13)
+#. Performing ', Cancel'
+#. Performing 'flowConfigure, Configure Features...'
+#. Showing dialog 8 (@8616368) '@7B9B244E - Configure Features' (owner: @2BEE1C13)
+#. Performing ', Cancel'
+#. Performing 'flowFeatureStart, Start Feature..., Start a new feature branch.'
+#. Showing dialog 9 (@297BBD41) '@3B5F72FA - Start a new feature' (owner: @2BEE1C13)
+#. Performing ', Cancel'
+#. Performing ', Set 'main' to 9bb1e30a'
+#. Performing 'flowFeatureStart, Start Feature..., Start a new feature branch.'
+msgctxt "dlgStdFeatureStartMainBranchAhead.tle"
+msgid "Start a new feature"
+msgstr ""
