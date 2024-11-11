@@ -16422,3 +16422,24 @@ msgstr "$1 - ログ"
 msgctxt "wnd(Log|Project|Std|).tle:"
 msgid "$1 \\[$2\\] - Log for $3"
 msgstr "$1 \\[$2\\] - $3 のログ"
+
+msgctxt "dlgStdFeatureStart.btn:"
+msgid "Start"
+msgstr "開始"
+
+msgctxt "dlgStdFeatureStart.edt:"
+msgid "Feature Name"
+msgstr "フィーチャー名"
+
+msgctxt "dlgStdFeatureStart.hdl"
+msgid "Start a new feature"
+msgstr "新規フィーチャーを開始"
+
+msgctxt "dlgStdFeatureStart.inf%1"
+msgid "Enter the name of the new feature branch. This operation will fork a new branch from '$1'."
+msgstr "新しいフィーチャーブランチの名前を入力してください。この操作により'$1'から新しいブランチが作成されます。"
+
+msgctxt "dlgStdFeatureStart.tle"
+msgid "Start Feature"
+msgstr "フィーチャーを開始"
+
