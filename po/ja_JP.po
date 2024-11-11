@@ -16443,3 +16443,30 @@ msgctxt "dlgStdFeatureStart.tle"
 msgid "Start Feature"
 msgstr "フィーチャーを開始"
 
+msgctxt "dlgStdFeatureStart.lbl:"
+msgid "Resulting Branch: $1"
+msgstr "作成されるブランチ: $1"
+
+msgctxt "dlgStdFinishMultipleRemotes.fur"
+msgid "Multiple remotes are currently not supported in this window."
+msgstr "このウィンドウでは現在、複数のリモートはサポートされていません。"
+
+msgctxt "dlgStdFinishMultipleRemotes.hdl"
+msgid "Can't finish with multiple remotes."
+msgstr "複数のリモートがある場合は完了できません。"
+
+msgctxt "dlgStdFinishMultipleRemotes.tle"
+msgid "Finish"
+msgstr "完了"
+
+msgctxt "dlgStdIntegrateMultipleRemotes.fur"
+msgid "Multiple remotes are currently not supported in this window."
+msgstr "このウィンドウでは現在、複数のリモートはサポートされていません。"
+
+msgctxt "dlgStdIntegrateMultipleRemotes.hdl"
+msgid "Can't integrate with multiple remotes."
+msgstr "複数のリモートがある場合は統合できません。"
+
+msgctxt "dlgStdIntegrateMultipleRemotes.tle"
+msgid "Integrate"
+msgstr "統合"
