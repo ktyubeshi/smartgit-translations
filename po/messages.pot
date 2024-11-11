@@ -16449,100 +16449,114 @@ msgctxt "dlgStdFeatureStartMainBranchAhead.tle"
 msgid "Start a new feature"
 msgstr ""
 
-#. Showing dialog 2 (@4D0B276E) '@231D3CE - Start Feature' (owner: @2F6E92CA)
-#. Performing ', Cancel'
-#. Performing ', Changed files'
-#. Performing ', All files, excl. ignored'
-#. Performing 'flowFeatureStart, Start Feature..., Start a new feature branch.'
-#. Showing dialog 3 (@57ED02E6) '@39004E4F - Start a new feature' (owner: @2F6E92CA)
-#. Performing ', Move into Feature Branch'
-#. Showing dialog 4 (@54D35ED5) '@6F7C9755 - Start a new feature' (owner: @2F6E92CA)
-#. Performing ', Switch Anyway'
-#. Showing dialog 5 (@434EE422) '@4DE93EDD - Start Feature' (owner: @2F6E92CA)
 msgctxt "dlgStdFeatureStart.lbl:"
 msgid "Resulting Branch: $1"
 msgstr ""
 
-#. Showing dialog 5 (@434EE422) '@4DE93EDD - Start Feature' (owner: @2F6E92CA)
-#. Performing ', Start'
-#. Performing ', Reset HEAD to 03f4cf49'
-#. Showing dialog 6 (@A0BDBE2) '@ED1D2CF - Reset' (owner: @2F6E92CA)
-#. Performing ', Save Stash'
-#. Performing 'integrateMain, Integrate Main, Integrate latest changes from the main branch into the current feature branch.'
-#. Showing dialog 7 (@285B63EB) '@5A983F8A - Integrate' (owner: @2F6E92CA)
-#. Performing ', OK'
-#. Performing 'flowFeatureFinish, Finish Feature..., Finish the current feature branch.'
-#. Showing dialog 8 (@354BAAB2) '@30BE6A05 - Finish' (owner: @2F6E92CA)
 msgctxt "dlgStdFinishMultipleRemotes.fur"
 msgid "Multiple remotes are currently not supported in this window."
 msgstr ""
 
-#. Showing dialog 5 (@434EE422) '@4DE93EDD - Start Feature' (owner: @2F6E92CA)
-#. Performing ', Start'
-#. Performing ', Reset HEAD to 03f4cf49'
-#. Showing dialog 6 (@A0BDBE2) '@ED1D2CF - Reset' (owner: @2F6E92CA)
-#. Performing ', Save Stash'
-#. Performing 'integrateMain, Integrate Main, Integrate latest changes from the main branch into the current feature branch.'
-#. Showing dialog 7 (@285B63EB) '@5A983F8A - Integrate' (owner: @2F6E92CA)
-#. Performing ', OK'
-#. Performing 'flowFeatureFinish, Finish Feature..., Finish the current feature branch.'
-#. Showing dialog 8 (@354BAAB2) '@30BE6A05 - Finish' (owner: @2F6E92CA)
 msgctxt "dlgStdFinishMultipleRemotes.hdl"
 msgid "Can't finish with multiple remotes."
 msgstr ""
 
-#. Performing ', Switch Anyway'
-#. Showing dialog 5 (@434EE422) '@4DE93EDD - Start Feature' (owner: @2F6E92CA)
-#. Performing ', Start'
-#. Performing ', Reset HEAD to 03f4cf49'
-#. Showing dialog 6 (@A0BDBE2) '@ED1D2CF - Reset' (owner: @2F6E92CA)
-#. Performing ', Save Stash'
-#. Performing 'integrateMain, Integrate Main, Integrate latest changes from the main branch into the current feature branch.'
-#. Showing dialog 7 (@285B63EB) '@5A983F8A - Integrate' (owner: @2F6E92CA)
-#. Performing ', OK'
-#. Performing 'flowFeatureFinish, Finish Feature..., Finish the current feature branch.'
 msgctxt "dlgStdFinishMultipleRemotes.tle"
 msgid "Finish"
 msgstr ""
 
-#. Performing ', Move into Feature Branch'
-#. Showing dialog 4 (@54D35ED5) '@6F7C9755 - Start a new feature' (owner: @2F6E92CA)
-#. Performing ', Switch Anyway'
-#. Showing dialog 5 (@434EE422) '@4DE93EDD - Start Feature' (owner: @2F6E92CA)
-#. Performing ', Start'
-#. Performing ', Reset HEAD to 03f4cf49'
-#. Showing dialog 6 (@A0BDBE2) '@ED1D2CF - Reset' (owner: @2F6E92CA)
-#. Performing ', Save Stash'
-#. Performing 'integrateMain, Integrate Main, Integrate latest changes from the main branch into the current feature branch.'
-#. Showing dialog 7 (@285B63EB) '@5A983F8A - Integrate' (owner: @2F6E92CA)
 msgctxt "dlgStdIntegrateMultipleRemotes.fur"
 msgid "Multiple remotes are currently not supported in this window."
 msgstr ""
 
-#. Performing ', Move into Feature Branch'
-#. Showing dialog 4 (@54D35ED5) '@6F7C9755 - Start a new feature' (owner: @2F6E92CA)
-#. Performing ', Switch Anyway'
-#. Showing dialog 5 (@434EE422) '@4DE93EDD - Start Feature' (owner: @2F6E92CA)
-#. Performing ', Start'
-#. Performing ', Reset HEAD to 03f4cf49'
-#. Showing dialog 6 (@A0BDBE2) '@ED1D2CF - Reset' (owner: @2F6E92CA)
-#. Performing ', Save Stash'
-#. Performing 'integrateMain, Integrate Main, Integrate latest changes from the main branch into the current feature branch.'
-#. Showing dialog 7 (@285B63EB) '@5A983F8A - Integrate' (owner: @2F6E92CA)
 msgctxt "dlgStdIntegrateMultipleRemotes.hdl"
 msgid "Can't integrate with multiple remotes."
 msgstr ""
 
-#. Showing dialog 3 (@57ED02E6) '@39004E4F - Start a new feature' (owner: @2F6E92CA)
-#. Performing ', Move into Feature Branch'
-#. Showing dialog 4 (@54D35ED5) '@6F7C9755 - Start a new feature' (owner: @2F6E92CA)
-#. Performing ', Switch Anyway'
-#. Showing dialog 5 (@434EE422) '@4DE93EDD - Start Feature' (owner: @2F6E92CA)
-#. Performing ', Start'
-#. Performing ', Reset HEAD to 03f4cf49'
-#. Showing dialog 6 (@A0BDBE2) '@ED1D2CF - Reset' (owner: @2F6E92CA)
-#. Performing ', Save Stash'
-#. Performing 'integrateMain, Integrate Main, Integrate latest changes from the main branch into the current feature branch.'
 msgctxt "dlgStdIntegrateMultipleRemotes.tle"
 msgid "Integrate"
+msgstr ""
+
+#. Performing ', OK'
+#. Performing 'flowFeatureFinish, Finish Feature..., Finish the current feature branch.'
+#. Showing dialog 3 (@224E7AA5) '@89FF043 - Finish' (owner: @57AC236A)
+#. Performing ', OK'
+#. Performing 'merge, Merge..., Merge changes from other branches.'
+#. Showing dialog 4 (@12B4A53D) '@13EA9AFC - Merge' (owner: @57AC236A)
+#. Performing 'branchRename, Rename...'
+#. Showing dialog 5 (@122F58A) '@1F410C8 - Rename' (owner: @57AC236A)
+#. Performing 'rebaseHeadTo, Rebase..., Apply commits from your current branch to the selected commit.'
+#. Showing dialog 6 (@27551C3A) '@7F657888 - Rebase Single Commit' (owner: @57AC236A)
+msgctxt "dlgSgRebaseSingleCommitConfirm.btn:"
+msgid "Rebase Single Commit"
+msgstr ""
+
+#. Performing ', OK'
+#. Performing 'flowFeatureFinish, Finish Feature..., Finish the current feature branch.'
+#. Showing dialog 3 (@224E7AA5) '@89FF043 - Finish' (owner: @57AC236A)
+#. Performing ', OK'
+#. Performing 'merge, Merge..., Merge changes from other branches.'
+#. Showing dialog 4 (@12B4A53D) '@13EA9AFC - Merge' (owner: @57AC236A)
+#. Performing 'branchRename, Rename...'
+#. Showing dialog 5 (@122F58A) '@1F410C8 - Rename' (owner: @57AC236A)
+#. Performing 'rebaseHeadTo, Rebase..., Apply commits from your current branch to the selected commit.'
+#. Showing dialog 6 (@27551C3A) '@7F657888 - Rebase Single Commit' (owner: @57AC236A)
+msgctxt "dlgSgRebaseSingleCommitConfirm.fur"
+msgid "You are about to rebase your branch onto its own history. This action is allowed by Git but will not create a new commit or any meaningful changes.\\n\\nTo rebase a single commit, you can do so now.\\n\\nTo rebase a range of commits, select them in the Graph and drag & drop to the target commit."
+msgstr ""
+
+#. Performing ', OK'
+#. Performing 'flowFeatureFinish, Finish Feature..., Finish the current feature branch.'
+#. Showing dialog 3 (@224E7AA5) '@89FF043 - Finish' (owner: @57AC236A)
+#. Performing ', OK'
+#. Performing 'merge, Merge..., Merge changes from other branches.'
+#. Showing dialog 4 (@12B4A53D) '@13EA9AFC - Merge' (owner: @57AC236A)
+#. Performing 'branchRename, Rename...'
+#. Showing dialog 5 (@122F58A) '@1F410C8 - Rename' (owner: @57AC236A)
+#. Performing 'rebaseHeadTo, Rebase..., Apply commits from your current branch to the selected commit.'
+#. Showing dialog 6 (@27551C3A) '@7F657888 - Rebase Single Commit' (owner: @57AC236A)
+msgctxt "dlgSgRebaseSingleCommitConfirm.hdl"
+msgid "Do you want to rebase only the HEAD commit?"
+msgstr ""
+
+#. Showing dialog 2 (@13FAD0C7) '@24FB8317 - Integrate' (owner: @57AC236A)
+#. Performing ', OK'
+#. Performing 'flowFeatureFinish, Finish Feature..., Finish the current feature branch.'
+#. Showing dialog 3 (@224E7AA5) '@89FF043 - Finish' (owner: @57AC236A)
+#. Performing ', OK'
+#. Performing 'merge, Merge..., Merge changes from other branches.'
+#. Showing dialog 4 (@12B4A53D) '@13EA9AFC - Merge' (owner: @57AC236A)
+#. Performing 'branchRename, Rename...'
+#. Showing dialog 5 (@122F58A) '@1F410C8 - Rename' (owner: @57AC236A)
+#. Performing 'rebaseHeadTo, Rebase..., Apply commits from your current branch to the selected commit.'
+msgctxt "dlgSgRebaseSingleCommitConfirm.tle"
+msgid "Rebase Single Commit"
+msgstr ""
+
+#. Showing dialog 6 (@27551C3A) '@7F657888 - Rebase Single Commit' (owner: @57AC236A)
+#. Performing ', Cancel'
+#. Performing 'fixup, Use Message for Commit'
+#. Performing 'stage, Stage, Store working tree files in the index to prepare the next commit.'
+#. Performing 'flowContext, Git-Flow..., Finish a Git-Flow feature.'
+#. Performing 'flowFeatureFinish, Finish Feature..., Finish a Git-Flow feature.'
+#. Showing dialog 7 (@559C3710) '@2DFDE704 - Finish Feature' (owner: @1F2F0109)
+#. Performing ', Cancel'
+#. Performing ', Show filter input field.'
+#. Performing ', Regular Expressions, Interpret the search pattern as regular expression.'
+msgctxt "wndStd.hnt:"
+msgid "This commit is empty."
+msgstr ""
+
+#. Performing ', Switch Anyway'
+#. Showing dialog 1 (@59700156) '@6C167296 - Start Feature' (owner: @57AC236A)
+#. Performing ', Cancel'
+#. Performing 'stdSetModeHistory, Show History, Show the history view.'
+#. Performing 'integrateMain, Integrate Main, Integrate latest changes from the main branch into the current feature branch.'
+#. Showing dialog 2 (@13FAD0C7) '@24FB8317 - Integrate' (owner: @57AC236A)
+#. Performing ', OK'
+#. Performing 'flowFeatureFinish, Finish Feature..., Finish the current feature branch.'
+#. Showing dialog 3 (@224E7AA5) '@89FF043 - Finish' (owner: @57AC236A)
+#. Performing ', OK'
+msgctxt "wndStd.mniShowInMyHistory"
+msgid "Show in My History"
 msgstr ""
