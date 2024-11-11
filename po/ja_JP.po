@@ -16470,3 +16470,27 @@ msgstr "複数のリモートがある場合は統合できません。"
 msgctxt "dlgStdIntegrateMultipleRemotes.tle"
 msgid "Integrate"
 msgstr "統合"
+
+msgctxt "dlgSgRebaseSingleCommitConfirm.btn:"
+msgid "Rebase Single Commit"
+msgstr "単一コミットをリベース"
+
+msgctxt "dlgSgRebaseSingleCommitConfirm.fur"
+msgid "You are about to rebase your branch onto its own history. This action is allowed by Git but will not create a new commit or any meaningful changes.\\n\\nTo rebase a single commit, you can do so now.\\n\\nTo rebase a range of commits, select them in the Graph and drag & drop to the target commit."
+msgstr "ブランチを自身の履歴上にリベースしようとしています。この操作はGitで許可されていますが、新しいコミットや意味のある変更は作成されません。\\n\\n単一のコミットをリベースする場合は、ここで実行できます。\\n\\n複数のコミットをリベースする場合は、グラフ上でそれらを選択し、対象のコミットにドラッグ＆ドロップしてください。"
+
+msgctxt "dlgSgRebaseSingleCommitConfirm.hdl"
+msgid "Do you want to rebase only the HEAD commit?"
+msgstr "HEADコミットのみをリベースしますか？"
+
+msgctxt "dlgSgRebaseSingleCommitConfirm.tle"
+msgid "Rebase Single Commit"
+msgstr "単一コミットのリベース"
+
+msgctxt "wndStd.hnt:"
+msgid "This commit is empty."
+msgstr "このコミットは空です。"
+
+msgctxt "wndStd.mniShowInMyHistory"
+msgid "Show in My History"
+msgstr "マイ履歴で表示"
