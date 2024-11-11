@@ -16412,3 +16412,48 @@ msgstr ""
 msgctxt "wnd(Log|Project|Std|).tle:"
 msgid "$1 \\[$2\\] - Log for $3"
 msgstr ""
+
+#. opening smartgit.byA@37FFE4F3:SmartGit 24.1 (smartgit.byA@4FA4F485)
+#. Performing 'newStandardWindow, Show Standard Window'
+#. opening smartgit.azT@1FEB586D:null (smartgit.azT@58021C3C)
+#. Performing 'flowFeatureStart, Start Feature..., Start a new feature branch.'
+#. Showing dialog 0 (@106802EA) '@6AB1F85B - Start Feature' (owner: @58021C3C)
+msgctxt "dlgStdFeatureStart.btn:"
+msgid "Start"
+msgstr ""
+
+#. opening smartgit.byA@37FFE4F3:SmartGit 24.1 (smartgit.byA@4FA4F485)
+#. Performing 'newStandardWindow, Show Standard Window'
+#. opening smartgit.azT@1FEB586D:null (smartgit.azT@58021C3C)
+#. Performing 'flowFeatureStart, Start Feature..., Start a new feature branch.'
+#. Showing dialog 0 (@106802EA) '@6AB1F85B - Start Feature' (owner: @58021C3C)
+msgctxt "dlgStdFeatureStart.edt:"
+msgid "Feature Name"
+msgstr ""
+
+#. opening smartgit.byA@37FFE4F3:SmartGit 24.1 (smartgit.byA@4FA4F485)
+#. Performing 'newStandardWindow, Show Standard Window'
+#. opening smartgit.azT@1FEB586D:null (smartgit.azT@58021C3C)
+#. Performing 'flowFeatureStart, Start Feature..., Start a new feature branch.'
+#. Showing dialog 0 (@106802EA) '@6AB1F85B - Start Feature' (owner: @58021C3C)
+msgctxt "dlgStdFeatureStart.hdl"
+msgid "Start a new feature"
+msgstr ""
+
+#. opening smartgit.byA@37FFE4F3:SmartGit 24.1 (smartgit.byA@4FA4F485)
+#. Performing 'newStandardWindow, Show Standard Window'
+#. opening smartgit.azT@1FEB586D:null (smartgit.azT@58021C3C)
+#. Performing 'flowFeatureStart, Start Feature..., Start a new feature branch.'
+#. Showing dialog 0 (@106802EA) '@6AB1F85B - Start Feature' (owner: @58021C3C)
+msgctxt "dlgStdFeatureStart.inf%1"
+msgid "Enter the name of the new feature branch. This operation will fork a new branch from '$1'."
+msgstr ""
+
+#. opening smartgit.byA@37FFE4F3:SmartGit 24.1 (smartgit.byA@4FA4F485)
+#. Performing 'newStandardWindow, Show Standard Window'
+#. opening smartgit.azT@1FEB586D:null (smartgit.azT@58021C3C)
+#. Performing 'flowFeatureStart, Start Feature..., Start a new feature branch.'
+msgctxt "dlgStdFeatureStart.tle"
+msgid "Start Feature"
+msgstr ""
+
