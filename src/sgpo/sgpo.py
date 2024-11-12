@@ -32,8 +32,8 @@ class SgPo(polib.POFile):
         'Plural-Forms': 'nplurals=1; plural=0;',
     }
 
-    def __init__(self) -> None:
-        super().__init__(self)
+    def __init__(self, *args, **kwargs) -> None:
+        super().__init__(*args, **kwargs)
         self.wrapwidth = 9999
         self.charset = 'utf-8'
         self.check_for_duplicates = True
@@ -57,6 +57,10 @@ class SgPo(polib.POFile):
             instance.append(entry)
 
         return instance
+
+    @classmethod
+    def POFile(cls, *args, **kwargs):
+        return cls(*args, **kwargs)
 
     def import_unknown(self, unknown: SgPo) -> None:
         success_count = 0
