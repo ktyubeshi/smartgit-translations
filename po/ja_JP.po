@@ -2667,7 +2667,7 @@ msgstr "チェリーピック"
 
 msgctxt "dlgSgCherryPickConfigurationFile.fur"
 msgid "Only changes of these files will be cherry-picked \\(without committing\\)."
-msgstr "これらのファイルの変更点のみが（コミットせずに）チェリーピックされます。"
+msgstr "これらのファイルの変更点のみが\\(コミットせずに\\)チェリーピックされます。"
 
 msgctxt "dlgSgCherryPickConfigurationFile.hdl:"
 msgid "Do you want to cherry-pick changes of $1 files?"
@@ -5421,7 +5421,7 @@ msgstr "パフォーマンス上の理由から、可能であればパターン
 
 msgctxt "dlgSgIndexEditorMixedLineEndings.fur"
 msgid "At least one of the file contents contains mixed \\(inconsistent\\) line-endings. To prevent overwriting intentional mixed line-endings, editing and saving is disabled."
-msgstr "少なくとも 1 つのファイルの内容に、混合した (不整合な) 改行コードが含まれています。意図的な改行コードの混合の上書きを防ぐため、編集と保存は無効になっています。"
+msgstr "少なくとも 1 つのファイルの内容に、混合した\\(不整合な\\) 改行コードが含まれています。意図的な改行コードの混合の上書きを防ぐため、編集と保存機能は無効になっています。"
 
 msgctxt "dlgSgIndexEditorMixedLineEndings.hdl"
 msgid "The file is not editable because of mixed line-endings."
@@ -5717,7 +5717,7 @@ msgstr "サブモジュールログ"
 
 msgctxt "dlgSgLogOpenSubmoduleLinkOrRepository.fur"
 msgid "The history of submodule updates will show changes to the submodule link \\('GITLINK'\\) from the parent repository's perspective. The Log for the submodule repository will show all commits which have occurred in the submodule repository itself."
-msgstr "サブモジュールの更新履歴には、親リポジトリから見たサブモジュールリンク ('GITLINK') の変更が表示されます。サブモジュールリポジトリのログには、サブモジュールリポジトリ自身で発生したすべてのコミットが表示されます。"
+msgstr "サブモジュールの更新履歴には、親リポジトリから見たサブモジュールリンク \\('GITLINK'\\) の変更が表示されます。サブモジュールリポジトリのログには、サブモジュールリポジトリ自身で発生したすべてのコミットが表示されます。"
 
 msgctxt "dlgSgLogOpenSubmoduleLinkOrRepository.hdl"
 msgid "Do you want to show the history of submodule updates or the Log for the submodule repository?"
@@ -6025,7 +6025,7 @@ msgstr "コマンド 「移動」 が警告を発しました。"
 
 msgctxt "dlgSgOutput.lbl:"
 msgid "Command Pull \\(Merge\\) produced warnings."
-msgstr "コマンド \\「プル \\(マージ\\)」 は警告を発しました。"
+msgstr "コマンド 「プル \\(マージ\\)」 は警告を発しました。"
 
 msgctxt "dlgSgOutput.lbl:"
 msgid "Command Pull \\(Rebase\\) failed!"
@@ -6333,7 +6333,7 @@ msgstr "スタッシュとプルリクエストのコミットにすべてのコ
 
 msgctxt "dlgSgPreferences.chk:"
 msgid "Allow modifying pushed commits \\(e.g. forced-push\\)"
-msgstr "プッシュされたコミットの修正を許可する (例: force-push)"
+msgstr "プッシュされたコミットの修正を許可する \\(例: force-push\\)"
 
 msgctxt "dlgSgPreferences.chk:"
 msgid "Allow to open multiple Log windows for the same repository/file"
@@ -6365,7 +6365,7 @@ msgstr "内部エラー発生後、自動的に「クラッシュフットプリ
 
 msgctxt "dlgSgPreferences.chk:"
 msgid "Automatically set up tracking for new branches \\(requires push.default to be unset\\)"
-msgstr "新しいブランチのトラッキングを自動的に設定する\\(push.defaultが未設定の必要があります。\\）"
+msgstr "新しいブランチの追跡を自動的に設定する\\(push.defaultが未設定の必要があります。\\）"
 
 msgctxt "dlgSgPreferences.chk:"
 msgid "Automatically set up tracking for new branches"
@@ -6397,15 +6397,15 @@ msgstr "リモートの変更の検出"
 
 msgctxt "dlgSgPreferences.chk:"
 msgid "Detect renames \\(for added and removed files, as command line Git does\\)"
-msgstr "リネームの検出（コマンドラインGitと同様に、追加されたファイルと削除されたファイルの検出）"
+msgstr "リネームの検出\\コマンドラインGitと同様に、追加されたファイルと削除されたファイルの検出\\)"
 
 msgctxt "dlgSgPreferences.chk:"
 msgid "Distinguish between content and EOL-only changes \\(slightly more expensive\\)"
-msgstr "コンテンツとEOLのみの変更を区別する（やや高コストな処理）"
+msgstr "コンテンツとEOLのみの変更を区別する\\(やや高コストな処理\\)"
 
 msgctxt "dlgSgPreferences.chk:"
 msgid "Enable integration for configured hosting providers \\(pull requests, comments\\)"
-msgstr "設定済みのホスティングプロバイダーの統合を可能にする（プルリクエスト、コメント）"
+msgstr "設定済みのホスティングプロバイダーの統合を可能にする\\(プルリクエスト、コメント\\)"
 
 msgctxt "dlgSgPreferences.chk:"
 msgid "Focus next change after accepting change \\(Take Left/Take Right\\)"
@@ -6505,7 +6505,7 @@ msgstr "複数のエントリーが一致した場合、選択ダイアログを
 
 msgctxt "dlgSgPreferences.chk:"
 msgid "Show line length guides \\(only useful for monospaced-font\\)"
-msgstr "コミットメッセージ入力欄に行の長さのガイドを表示する（等幅フォントの場合に有用）"
+msgstr "コミットメッセージ入力欄に行の長さのガイドを表示する\\(等幅フォントの場合に有用\\)"
 
 msgctxt "dlgSgPreferences.chk:"
 msgid "Show only fixed-width fonts"
@@ -6953,7 +6953,7 @@ msgstr "「クラッシュ フットプリント」と使用状況統計を自�
 
 msgctxt "dlgSgPreferences.lbl:"
 msgid "Please help to improve SmartGit's quality by automatically sending 'crash footprints' which do not contain any sensitive information. You can change this option later in the preferences.\\n\\nA 'crash footprint' contains details about your machine \\(e.g. version of operating system\\), SmartGit's version/build number, the JVM state and where the internal error occurred.\\n\\nIt contains NO POTENTIALLY SENSITIVE INFORMATION like user names, email addresses, file contents, file paths or server names."
-msgstr "「クラッシュ フットプリント」と使用状況統計を自動的に送信することで、SmartGit の品質向上にご協力ください。 \" このオプションは、後で [環境設定] で変更できます。\\n\\n「クラッシュ フットプリント」には、お使いのマシンの詳細（オペレーティング システムのバージョンなど）、SmartGit のバージョン/ビルド番号、JVM の状態、内部エラーが発生した場所などが含まれていますが、ユーザー名、電子メール アドレス、ファイルの内容、ファイル パス、サーバー名など、機密情報になりうる可能性のある情報は一切含まれていません。"
+msgstr "「クラッシュ フットプリント」を自動的に送信することで、SmartGit の品質向上にご協力ください。このオプションは、後で [環境設定] で変更できます。\\n\\n「クラッシュ フットプリント」には、お使いのマシンの詳細\\(オペレーティング システムのバージョンなど\\)、SmartGit のバージョン/ビルド番号、JVM の状態、内部エラーが発生した場所などが含まれていますが、機密情報は一切含まれていません。\\n\\nユーザー名、電子メール アドレス、ファイルの内容、ファイル パス、サーバー名など、機密情報になりうる可能性のある情報は一切含まれていません。"
 
 msgctxt "dlgSgPreferences.lbl:"
 msgid "Preview:"
@@ -6977,7 +6977,7 @@ msgstr "前回のチェックは $1 に実施されました。"
 
 msgctxt "dlgSgPreferences.lbl:"
 msgid "The proxy is primarily used for the Check for New Version. It will also be used for Git HTTP\\(s\\) connections if no reasonable system proxy configuration seems to be present already \\(see documentation for details\\)."
-msgstr "このプロキシは、主に「新しいバージョンの確認」に使用されます。\\rシステムのプロキシ設定が適切でない場合には、Git HTTP\\(S\\)の接続にも使用されます。(詳細はドキュメントを参照してください)"
+msgstr "このプロキシは、主に「新しいバージョンの確認」に使用されます。システムのプロキシ設定が適切でない場合には、Git HTTP\\(s\\)の接続にも使用されます。\\(詳細はドキュメントを参照してください\\)"
 
 msgctxt "dlgSgPreferences.lbl:"
 msgid "This file will be sent as is: $1"
@@ -6989,11 +6989,11 @@ msgstr "手動でインプレースアップデートするには、バージョ
 
 msgctxt "dlgSgPreferences.lbl:"
 msgid "When comparing files, this list is searched from top to bottom to find a matching diff tool. If none is found, the built-in file compare is used for text files."
-msgstr "ファイルを比較する際には、このリストを上から下に向かって検索し、一致する 比較 ツールを探します。\\r見つからない場合は、テキスト ファイルの場合は内蔵のファイル比較が使用されます。"
+msgstr "ファイルを比較する際、このリストを上から下に検索して一致する差分比較ツールを探します。\\r一致するものが見つからない場合は、テキストファイルに対して内蔵の比較ツールが使用されます。"
 
 msgctxt "dlgSgPreferences.lbl:"
 msgid "When invoking the Conflict Solver feature, this list is searched from top to bottom to find a matching entry. If none is found, the built-in Conflict Solver is used for text files."
-msgstr "コンフリクトソルバー機能を呼び出すと、このリストを上から下へ検索し、一致するエントリーを探します。\\r見つからない場合は、テキストファイル用の組み込みのコンフリクトソルバーが使用されます。"
+msgstr "コンフリクト解決機能を使用する際、このリストを上から下に向かって検索して一致するエントリーを探します。\\r一致するものが見つからない場合は、テキストファイルに対して内蔵のコンフリクトソルバーが使用されます。"
 
 msgctxt "dlgSgPreferences.lbl:"
 msgid "You may configure hosting provider accounts to simplify accessing your hosted repositories or to enable the GitHub pull request and comment features."
@@ -7381,11 +7381,11 @@ msgstr "<b>設定が推奨される場合</b>"
 
 msgctxt "dlgSgPreferences.ttpSmartGitAsCredentialHelper:"
 msgid "For already cloned repositories the setting <b>Use SmartGit as credential helper</b> can be changed in <b>Repository \\| Settings</b>."
-msgstr "既にクローンされているリポジトリの場合、設定 <b>SmartGit を認証ヘルパーとして使用する</b> は、<b>リポジトリ | 設定</b> で変更できます。"
+msgstr "既にクローンされているリポジトリの場合、設定 <b>SmartGit を認証ヘルパーとして使用する</b> は、<b>[リポジトリ]→[設定]</b> で変更できます。"
 
 msgctxt "dlgSgPreferences.ttpSmartGitAsCredentialHelper:"
 msgid "If selected, SmartGit will be set as <tt>credential.helper</tt> in the <tt>.git/config</tt> of newly cloned repositories that are cloned directly from a configured Hosting Provider. Executing remote Git commands \\(e.g. <b>pull</b> or <b>push</b>\\) in the terminal or a shell script will then use the credentials known to SmartGit."
-msgstr "選択した場合、設定済みのホスティングプロバイダーから直接クローンされた新しいリポジトリの <tt>.git/config</tt> に、SmartGit が <tt>credential.helper</tt> として設定されます。ターミナルまたはシェルスクリプトでリモート Git コマンド (例: <b>pull</b> または <b>push</b>) を実行すると、SmartGit に認識されている資格情報が使用されます。"
+msgstr "選択した場合、設定済みのホスティングプロバイダーから直接クローンされた新しいリポジトリの <tt>.git/config</tt> に、SmartGit が <tt>credential.helper</tt> として設定されます。ターミナルまたはシェルスクリプトでリモート Git コマンド \\(例: <b>pull</b> または <b>push</b>\\) を実行すると、SmartGit に認識されている資格情報が使用されます。"
 
 msgctxt "dlgSgPreferences.ttpSmartGitAsCredentialHelper:"
 msgid "If you also use other GUI clients, adding this configuration may disrupt the authentication of these tools and should be avoided."
@@ -7637,11 +7637,11 @@ msgstr "リモートリポジトリからコミットをプル"
 
 msgctxt "dlgSgPull.inf:"
 msgid "In contrast to Fetch Only, Pull will also incorporate the fetched changes \\(expand the options below to configure\\)."
-msgstr "「フェッチのみ」と対照的に、「プル」ではフェッチされた変更点も取り込まれます。"
+msgstr "「フェッチのみ」と異なり、「プル」ではフェッチした変更を取り込みます \\(設定は以下のオプションを展開してください\\)。"
 
 msgctxt "dlgSgPull.inf:"
 msgid "Select the remote repository to pull. In contrast to Fetch Only, Pull will also incorporate the fetched changes \\(expand the options below to configure\\)."
-msgstr "プルするリモート リポジトリを選択します。フェッチのみとは対照的に、プルはフェッチされた変更も取り込みます。 （以下のオプションを展開して設定します）"
+msgstr "プルするリモートリポジトリを選択してください。フェッチのみの場合と異なり、プルではフェッチした変更も取り込まれます \\(設定は以下のオプションを展開してください\\)。"
 
 msgctxt "dlgSgPull.tle"
 msgid "Pull"
@@ -7801,7 +7801,7 @@ msgstr "リモートブランチへのプッシュは ファストフォワー�
 
 msgctxt "dlgSgPushForced.hdl"
 msgid "Do you want to force-push \\(replace\\) the remote branch?"
-msgstr "リモートブランチを強制プッシュ（置き換え）しますか？"
+msgstr "リモートブランチに強制プッシュ\\(置き換え\\) しますか？"
 
 msgctxt "dlgSgPushForced.tle"
 msgid "Push"
@@ -7817,7 +7817,7 @@ msgstr "リモート ブランチを置き換えようとしています。そ�
 
 msgctxt "dlgSgPushForcedSvn.hdl"
 msgid "Do you want to force-push \\(replace\\) the remote branch?"
-msgstr "リモートブランチを強制プッシュ（置き換え）しますか？"
+msgstr "リモートブランチを強制プッシュ\\(置き換え\\)しますか？"
 
 msgctxt "dlgSgPushForcedSvn.tle"
 msgid "Push"
@@ -8185,10 +8185,7 @@ msgstr "続ける"
 
 msgctxt "dlgSgRebaseContinueWithDirtyWorkingTreeAndIndex.fur"
 msgid "Rebase Continue will store both, staged changes and the working tree changes, in the new commit!\\n\\nIf the staged changes should go to a seperate commit, first commit them, and then invoke Continue again."
-msgstr ""
-"リベース継続時に、ステージされた変更と作業ツリーの変更の両方が新しいコミットに保存されます！\n"
-"\n"
-"ステージされた変更を別のコミットにしたい場合は、先にそれらをコミットしてから、再度リベースを継続してください。"
+msgstr "リベース継続時に、ステージされた変更と作業ツリーの変更の両方が新しいコミットに保存されます！\\n\\nステージされた変更を別のコミットにしたい場合は、先にそれらをコミットしてから、再度リベースを継続してください。"
 
 msgctxt "dlgSgRebaseContinueWithDirtyWorkingTreeAndIndex.hdl"
 msgid "Do you want the working tree changes to be applied, too?"
@@ -8680,7 +8677,7 @@ msgstr "リポジトリからをファイル削除"
 
 msgctxt "dlgSgRemove.inf"
 msgid "Select the files you want to remove from the repository or working tree \\(stopped from tracking\\)."
-msgstr "リポジトリや作業ツリーから削除したい（追跡を停止したい）ファイルを選択します。"
+msgstr "リポジトリや作業ツリーから削除したい\\(追跡を停止したい\\)ファイルを選択します。"
 
 msgctxt "dlgSgRemove.tle"
 msgid "Remove"
@@ -9444,7 +9441,7 @@ msgstr "続ける"
 
 msgctxt "dlgSgReviewConfigureForGitHub.fur"
 msgid "This repository is connected to a GitHub server. GitHub comes with its own reviewing concepts, like commit comments and pull requests. Hence, you probably do not want to have SmartGit's review database in addition to GitHub's existing capabilities."
-msgstr "このリポジトリはGitHubサーバーに接続されています。\\nGitHubには、コミットコメントやプルリクエストなど、独自のレビューの概念があります。\\nそのため、GitHubの既存の機能に加えて、SmartGitのレビューデータベースは必要ないかもしれません。"
+msgstr "このリポジトリはGitHubに接続されています。GitHubにはコミットコメントやプルリクエストなどの独自のレビュー機能が備わっているため、SmartGitのレビューデータベースを追加で使用する必要はないかもしれません。"
 
 msgctxt "dlgSgReviewConfigureForGitHub.hdl"
 msgid "Do you really want to configure SmartGit's review database for your GitHub repository?"
@@ -9484,7 +9481,7 @@ msgstr "リモートの初期化"
 
 msgctxt "dlgSgReviewConfigureWhat.fur"
 msgid "The user database allows to define aliases \\(e.g. @mike\\) that make addressing teammates easier in review comments."
-msgstr "ユーザーデータベースでは、エイリアス（@mikeなど）を定義することができ、レビューコメントの中でチームメイトに声をかけやすくなります。"
+msgstr "ユーザーデータベースでは、エイリアス \\(例:@mike\\) を定義することができ、レビューコメントの中でチームメイトに声をかけやすくなります。"
 
 msgctxt "dlgSgReviewConfigureWhat.hdl"
 msgid "Select what you want to configure."
@@ -9608,7 +9605,7 @@ msgstr "ユーザーの編集"
 
 msgctxt "dlgSgReviewUserAddEdit.inf"
 msgid "Enter the user's name and email address \\(as used for Git\\), one or more space- or comma-separated aliases and optional contact details."
-msgstr "ユーザーの名前とメールアドレス（Gitで使用されているもの）、スペースまたはカンマで区切られた1つ以上のエイリアス、およびオプションの連絡先情報を入力します。"
+msgstr "ユーザーの名前とメールアドレス \\(Gitで使用されているもの\\)、スペースまたはカンマで区切られた1つ以上のエイリアス、およびオプションの連絡先情報を入力します。"
 
 msgctxt "dlgSgReviewUserAddEdit.lbl:"
 msgid "Aliases have to be alphanumeric and can be used in comments, like '@bob please check'."
@@ -9876,7 +9873,7 @@ msgstr "$1 個のリポジトリが見つかりました。"
 
 msgctxt "dlgSgSetup.lbl:"
 msgid "Please help to improve SmartGit's quality by automatically sending 'crash footprints' which do not contain any sensitive information. You can change this option later in the preferences.\\n\\nA 'crash footprint' contains details about your machine \\(e.g. version of operating system\\), SmartGit's version/build number, the JVM state and where the internal error occurred.\\n\\nIt contains NO POTENTIALLY SENSITIVE INFORMATION like user names, email addresses, file contents, file paths or server names."
-msgstr "「クラッシュ フットプリント」と使用状況統計を自動的に送信することで、SmartGit の品質向上にご協力ください。 \" このオプションは、後で [環境設定] で変更できます。\\n\\n「クラッシュ フットプリント」には、お使いのマシンの詳細（オペレーティング システムのバージョンなど）、SmartGit のバージョン/ビルド番号、JVM の状態、内部エラーが発生した場所などが含まれていますが、ユーザー名、電子メール アドレス、ファイルの内容、ファイル パス、サーバー名など、機密情報になりうる可能性のある情報は一切含まれていません。"
+msgstr "機密情報を含まない「クラッシュ フットプリント」を自動送信することで、SmartGit の品質向上にご協力ください。このオプションは、後から環境設定で変更できます。\\n\\n「クラッシュ フットプリント」には、マシンの詳細情報 \\(オペレーティング システムのバージョンなど\\)、SmartGit のバージョン/ビルド番号、JVM の状態、内部エラーの発生箇所が含まれます。\\n\\nユーザー名、メールアドレス、ファイルの内容、ファイルパス、サーバー名などの機密情報は一切含まれません。"
 
 msgctxt "dlgSgSetup.lbl:"
 msgid "Please wait ..."
@@ -9932,7 +9929,7 @@ msgstr "ロググラフ \\(コミット中心\\)"
 
 msgctxt "dlgSgSetup.rbt:"
 msgid "Non-commercial use only \\(most features, no support\\)"
-msgstr "非商用利用のみ （ほとんどの機能、サポートなし）"
+msgstr "非商用利用専用 \\(ほぼ全機能利用可、サポートなし\\)"
 
 msgctxt "dlgSgSetup.rbt:"
 msgid "Other Git Executable:"
@@ -9972,7 +9969,7 @@ msgstr "スタンダードウィンドウを使用する"
 
 msgctxt "dlgSgSetupStdWnd.fur"
 msgid "We recommend the Standard window for \\*new or less experienced Git users\\*.\\n\\nIf you have used older SmartGit versions, you might be surprised that the Standard window \\*looks different\\* than you are used to. In case you want to get the previous experience, consider to select the \\*Log Graph\\* or \\*Working Tree\\* window instead."
-msgstr "初めてのGitユーザーまたは経験の浅い方には、スタンダードウィンドウをおすすめします。\\n\\n以前にSmartGitの古いバージョンを使用していた場合、スタンダードウィンドウが従来のものとは\\*異なる見た目\\*になっていることに驚かれるかもしれません。\\n以前のバージョンと同様の体験をしたい場合は、\\*ロググラフ\\* ウィンドウまたは \\*作業ツリー\\* ウィンドウを選択してみてください。"
+msgstr "初めてのGitユーザーまたは経験の浅い方には、スタンダードウィンドウをおすすめします。\\n\\n以前にSmartGitの古いバージョンを使用していた場合、スタンダードウィンドウが従来のものとは\\*異なる見た目\\*になっていることに驚かれるかもしれません。\\n\\n以前のバージョンと同様の体験をしたい場合は、\\*ロググラフ\\* ウィンドウまたは \\*作業ツリー\\* ウィンドウを選択してみてください。"
 
 msgctxt "dlgSgSetupStdWnd.hdl"
 msgid "Do you want to use the Standard Window?"
@@ -10496,7 +10493,7 @@ msgstr "サブモジュールを追加"
 
 msgctxt "dlgSgSubmoduleDeinitConfirm.btn:"
 msgid "Deinit"
-msgstr "削除\\(Deinit\\)"
+msgstr "初期化解除\\(Deinit\\)"
 
 msgctxt "dlgSgSubmoduleDeinitConfirm.chk"
 msgid "Force \\(for modified submodules\\)"
@@ -10960,7 +10957,7 @@ msgstr "ツールメニューの項目名、実行するコマンド、その引
 
 msgctxt "dlgSgTool(Add|Edit).lbl:"
 msgid "Valid wildcards are ?\\u00a0\\(one arbitrary character\\) and \\*\\u00a0\\(any number of arbitrary characters\\). Separate multiple patterns by comma. Example:\\u00a0\\*.txt,\\u00a0\\*.html"
-msgstr "有効なワイルドカードは下記のとおりです。複数のパターンはコンマで区切ります。\\r例：*.txt,*.html \\r ? (任意の1文字) \\r * (任意の数の任意の文字)"
+msgstr "有効なワイルドカードは ?\\u00a0\\(任意の1文字\\) と \\*\\u00a0\\(任意の数の任意の文字\\) です。複数のパターンはコンマで区切ります。例:\\u00a0\\*.txt,\\u00a0\\*.html"
 
 msgctxt "dlgSgTool(Add|Edit).mni:"
 msgid "2nd Commit ID or Ref \\(optional\\)"
@@ -11088,7 +11085,7 @@ msgstr "何をしますか？"
 
 msgctxt "dlgSgWelcome.inf"
 msgid "Select whether to open a new, local repository, clone a \\(remote\\) repository or open an existing repository."
-msgstr "新規のローカルリポジトリを開くか、リモートリポジトリをクローンするか、既存のリポジトリを開くかを選択します。"
+msgstr "新規リポジトリの作成、リモートリポジトリのクローン、既存リポジトリを開くのいずれかを選択してください。"
 
 msgctxt "dlgSgWelcome.rbt:"
 msgid "Add an existing local or create a new repository"
@@ -11144,7 +11141,7 @@ msgstr "すべてのワークツリーは引き続き使用できます。"
 
 msgctxt "dlgSgWorktreePruneNoWorktree.hdl"
 msgid "No worktree to prune."
-msgstr "プルーニング\\(剪定\\)するワークツリーがありません。"
+msgstr "削除可能なワークツリーがありません。"
 
 msgctxt "dlgSgWorktreePruneNoWorktree.tle"
 msgid "Prune Obsolete Worktrees"
@@ -11160,7 +11157,7 @@ msgstr "Git は次のワークツリーが廃止されたと報告しました:"
 
 msgctxt "dlgSgWorktreePruneWorktrees.hdl"
 msgid "Do you want to prune following worktrees?"
-msgstr "以下の作業ツリーをプルーン\\(prune\\)しますか？"
+msgstr "以下のワークツリーを削除しますか？"
 
 msgctxt "dlgSgWorktreePruneWorktrees.tle"
 msgid "Prune Obsolete Worktrees"
@@ -11244,7 +11241,7 @@ msgstr "とにかく切り替える"
 
 msgctxt "dlgStdFeatureStartNotOnMainBranchesAndLocalChanges.fur"
 msgid "Your working tree currently has local modifications, and you are not currently on the main branch. Initiating a new feature now will require switching commits, which can potentially fail due to the presence of local changes.\\n\\nThe recommended course of action is either to commit your local changes \\(if they pertain to the current branch\\) or stash them away in order to have a clean working tree before starting a new feature."
-msgstr "作業ツリーにローカルの変更があり、現在メインブランチ上にいません。新しいフィーチャーを開始すると、コミットの切り替えが必要になりますが、ローカルの変更があるため失敗する可能性があります。\\n\\n推奨される対処方法は、ローカルの変更をコミットする（現在のブランチに関連する場合）か、スタッシュに退避して、新しいフィーチャーを開始する前にクリーンな作業ツリーにすることです。"
+msgstr "現在、作業ツリーにローカルの変更があり、メインブランチ上にいません。この状態で新しいフィーチャーを開始すると、別のコミットに切り替える必要が生じますが、ローカルの変更が存在するため失敗する可能性があります。\\n\\n推奨される対処法は、ローカルの変更をコミットする \\(現在のブランチに関連する場合\\) か、スタッシュに退避させることです。これにより、新しいフィーチャーの開始前にクリーンな作業ツリーを確保できます。"
 
 msgctxt "dlgStdFeatureStartNotOnMainBranchesAndLocalChanges.hdl"
 msgid "Do you want to switch to a different branch despite having local changes?"
@@ -11312,11 +11309,11 @@ msgstr "引数には、変数 \\$\\{file\\} が必要です。"
 
 msgctxt "dlg(ScConflictSolverAdd|ScConflictSolverEdit|ScFileComparatorAdd|ScFileComparatorEdit).err:"
 msgid "The Arguments require the variables \\$\\{leftFile\\} and \\$\\{rightFile\\}."
-msgstr "引数には変数 \\${leftFile}, \\${rightFile} が必要です。"
+msgstr "引数には変数 \\$\\{leftFile\\} と \\$\\{rightFile\\} が必要です。"
 
 msgctxt "dlg(ScConflictSolverAdd|ScConflictSolverEdit|ScFileComparatorAdd|ScFileComparatorEdit).err:"
 msgid "The Arguments require the variables \\$\\{leftFile\\}, \\$\\{rightFile\\} and \\$\\{mergedFile\\}."
-msgstr "引数には変数 \\${leftFile}, \\${rightFile}, \\${mergedFile} が必要です。"
+msgstr "引数には変数 \\$\\{leftFile\\}, \\$\\{rightFile\\}, \\$\\{mergedFile\\} が必要です。"
 
 msgctxt "dlg(ScConflictSolverAdd|ScConflictSolverEdit|ScFileComparatorAdd|ScFileComparatorEdit).lbl:"
 msgid "You must use the variable \\$\\{file\\}."
@@ -11709,7 +11706,7 @@ msgstr "1回目のコミットで不要な変更をアンステージし、コ�
 
 msgctxt "ttpBranches:"
 msgid "<b>$1</b> <col1>approved</col1> on <b>$2</b>:"
-msgstr "<b>$1<\\/b> <col1>$2<\\/col1> で承認されました:"
+msgstr "<b>$1</b> は <col1>$2</col1> で承認されました:"
 
 msgctxt "ttpBranches:"
 msgid "<b>Author:\\t</b>$1"
@@ -11733,7 +11730,7 @@ msgstr "<b>コミッター:\\t</b>$1"
 
 msgctxt "ttpBranches:"
 msgid "<b>Date:\\t</b>$1"
-msgstr "<b>日付: </b>$1"
+msgstr "<b>日付:\\t</b>$1"
 
 msgctxt "ttpBranches:"
 msgid "<b>ID:\\t</b>$1"
@@ -11797,7 +11794,7 @@ msgstr "<b>追跡されたブランチ:\\t</b><s>$1</s><col1> \\(設定済み\\)
 
 msgctxt "ttpBranches:"
 msgid "<b>Tracking State:\\t</b>$1 commit behind"
-msgstr "<b>追跡状態:  $1 コミット遅れています</b>"
+msgstr "<b>追跡状態:\\t</b>$1 コミット遅れています"
 
 msgctxt "ttpBranches:"
 msgid "<b>Tracking State:\\t</b>$1 commit pushable, $2 commit behind"
@@ -11825,7 +11822,7 @@ msgstr "<b>追跡状態:\\t</b>同一"
 
 msgctxt "ttpBranches:"
 msgid "<b>\\t</b><col1>Tracking is configured in .git/config but the tracked branch is not present \\(any more\\)."
-msgstr "<b>\\t</b><col1>.git/config で追跡が設定されていますが、追跡されていたブランチはもうありません。"
+msgstr "<b>\\t</b><col1>.git/config で追跡が設定されていますが、追跡されているブランチはもう存在しません。"
 
 msgctxt "ttpBranches:"
 msgid "<col1>The pull requests contains new commits on the server. Refetch the pull request to fix.</col1>"
@@ -11837,7 +11834,7 @@ msgstr "<col1>プルリクエストの変更内容に競合が発生している
 
 msgctxt "ttpBranches:"
 msgid "<col1>Tracking is configured in .git/config but the tracked branch is not present \\(any more\\).</col1>"
-msgstr "<col1>追跡は.git/configで設定されていますが、追跡対象のブランチが見つかりません。</col1>"
+msgstr "<col1>.git/config で追跡が設定されていますが、追跡されているブランチはもう存在しません。</col1>"
 
 msgctxt "ttpBranches:"
 msgid "<col1>You may consider to invoke Stop Tracking to fix the configuration.</col1>"
@@ -11849,7 +11846,7 @@ msgstr "まだロードされていないか、プロバイダー サーバー�
 
 msgctxt "ttpBranches:"
 msgid "Pull from <b>$1</b> to <b>$2</b>"
-msgstr "<b>$1<\\/b> から <b>$2<\\/b> にプル"
+msgstr "<b>$1</b> から <b>$2</b> にプル"
 
 msgctxt "ttpClonePartialWarning:"
 msgid "<b>Warning!</b>"
@@ -11881,7 +11878,7 @@ msgstr "<b>コミット:\\t</b>$1"
 
 msgctxt "ttpRepositories:"
 msgid "<b>Git Repository:\\t</b>$1"
-msgstr "<b>Git リポジトリ:\\t$1"
+msgstr "<b>Git リポジトリ:\\t</b>$1"
 
 msgctxt "ttpRepositories:"
 msgid "<b>Incoming Changes:\\t</b>$1 commit to merge/rebase"
@@ -11933,7 +11930,7 @@ msgstr "<b>追跡ブランチ:\\t</b>origin/master"
 
 msgctxt "ttpRepositories:"
 msgid "<b>Tracking State:\\t</b>$1 commit behind"
-msgstr "<b>追跡状態:  $1 コミット遅れています</b>"
+msgstr "<b>追跡状態:\\t</b>$1 コミット遅れています"
 
 msgctxt "ttpRepositories:"
 msgid "<b>Tracking State:\\t</b>$1 commit pushable"
@@ -11965,7 +11962,7 @@ msgstr "<col1>リモート </col1>$1<b>\\t</b>$2"
 
 msgctxt "ttpRepositories:"
 msgid "<col1>Tracking is configured in .git/config but the tracked branch is not present \\(any more\\).</col1>"
-msgstr "<col1>追跡は.git/configで設定されていますが、追跡対象のブランチが見つかりません。</col1>"
+msgstr "<col1>.git/config で追跡が設定されていますが、追跡されているブランチはもう存在しません。</col1>"
 
 msgctxt "ttpRepositories:"
 msgid "<col1>You may consider to invoke Stop Tracking to fix the configuration.</col1>"
@@ -15005,7 +15002,7 @@ msgstr "ロック"
 
 msgctxt "wnd(Log|Project|Std|).mniLfsPrune"
 msgid "Prune"
-msgstr "プルーン\\(Prune\\)"
+msgstr "不要データの削除\\(Prune\\)"
 
 msgctxt "wnd(Log|Project|Std|).mniLfsTrack"
 msgid "Track"
@@ -15501,7 +15498,7 @@ msgstr "無効にする"
 
 msgctxt "wnd(Log|Project|Std|).mniSubmoduleDeinit"
 msgid "Deinit"
-msgstr "削除\\(Deinit\\)"
+msgstr "初期化解除\\(Deinit\\)"
 
 msgctxt "wnd(Log|Project|Std|).mniSubmoduleInit"
 msgid "Initialize"
@@ -15637,7 +15634,7 @@ msgstr "未変更ファイルの表示"
 
 msgctxt "wnd(Log|Project|Std|).mniViewUnchangedAssumed"
 msgid "Show Assume-Unchanged Files"
-msgstr "変更すべきでない\\(assume-unchanged\\)ファイルを表示"
+msgstr "変更を無視する\\(Assume-Unchanged設定の\\)ファイルを表示"
 
 msgctxt "wnd(Log|Project|Std|).mniViewUnversioned"
 msgid "Show Unversioned Files"
@@ -15721,7 +15718,7 @@ msgstr "ワークツリーを削除する"
 
 msgctxt "wnd(Log|Project|Std|).mnu:"
 msgid "Bisect"
-msgstr "問題箇所の特定\\(Bisect\\)"
+msgstr "不具合コミット特定\\(Bisect\\)"
 
 msgctxt "wnd(Log|Project|Std|).mnu:"
 msgid "Branch"
@@ -16213,7 +16210,7 @@ msgstr "ローカルの変更を破棄します"
 
 msgctxt "wnd(Log|Project|Std|).tbtFetch"
 msgid "Fetch commits from a remote repository and \\(optionally\\) integrate them with possible local commits."
-msgstr "リモートリポジトリからコミットを取得し、（オプションで）ローカルの可能なコミットと統合します。"
+msgstr "リモートリポジトリからコミットを取得し、\\(オプションで\\)ローカルのコミットと統合することができます。"
 
 msgctxt "wnd(Log|Project|Std|).tbtFlowContext"
 msgid "Finish a Git-Flow feature."
@@ -16361,7 +16358,7 @@ msgstr "ヒストリービューを表示する。"
 
 msgctxt "wnd(Log|Project|Std|).tbtStdSetModeWt"
 msgid "Show the local files of the repository \\(Working Tree\\)."
-msgstr "リポジトリのローカルファイル（作業ツリー）を表示します。"
+msgstr "リポジトリのローカルファイル\\(作業ツリー\\)を表示します。"
 
 msgctxt "wnd(Log|Project|Std|).tbtSync"
 msgid "Push local commits of the current branch and pull remote changes."
@@ -16393,7 +16390,7 @@ msgstr "スキップされたファイルが表示されます。"
 
 msgctxt "wnd(Log|Project|Std|).tbtViewStaged"
 msgid "If selected, files with staged \\(Index\\) changes and without working tree changes will be shown."
-msgstr "選択すると、ステージングされた（インデックス）変更があるファイルと、作業ツリーの変更がないファイルが表示されます。"
+msgstr "選択すると、ステージングされた\\(Index\\)変更があるファイルと、作業ツリーの変更がないファイルが表示されます。"
 
 msgctxt "wnd(Log|Project|Std|).tbtViewUnchanged"
 msgid "If selected, unchanged files will be shown."
