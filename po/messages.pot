@@ -16970,3 +16970,34 @@ msgctxt "wndStd.mni:"
 msgid "origin"
 msgstr ""
 
+# BUILD: 21125=========================================================================================
+#. opening smartgit.byA@443AF394:SmartGit 24.1 (smartgit.byA@93824EB)
+#. Performing 'newStandardWindow, Show Standard Window'
+#. opening smartgit.azT@31E22365:null (smartgit.azT@7EE2423)
+msgctxt "wndStd.tbr:"
+msgid "Fetch All"
+msgstr ""
+
+#. Performing ', Investigate'
+#. Performing ', Blame'
+#. Performing ', Log'
+#. Performing ', Apply Stash'
+#. Performing ', Ignore'
+#. Performing ', Remove'
+#. Performing ', Add Tag'
+#. Performing ', Add Branch'
+#. Performing ', Fetch All'
+#. Performing ', Fetch'
+msgctxt "wndStd.tbtRemoteFetchAll"
+msgid "Fetch commits from all remote repositories."
+msgstr ""
+
+#. opening smartgit.byA@7DD3981E:SmartGit 24.1 (smartgit.byA@77C1E611)
+#. Performing 'newStandardWindow, Show Standard Window'
+#. opening smartgit.azT@3BE46D9C:null (smartgit.azT@4DAC40B)
+#. Performing 'remoteFetchAll, Fetch All, Fetch commits from all remote repositories.'
+#. Showing dialog 0 (@229749F0) '@669580E2 - Passwords' (owner: @4DAC40B)
+#. Performing ', OK'
+msgctxt "pop:"
+msgid "Fetched nothing new"
+msgstr ""
