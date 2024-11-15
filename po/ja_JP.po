@@ -16607,3 +16607,7 @@ msgstr "$1"
 msgctxt "wndStd.mni:"
 msgid "origin"
 msgstr "origin"
+
+msgctxt "pop:"
+msgid "Fetched nothing new"
+msgstr "新しい取得項目はありません"
