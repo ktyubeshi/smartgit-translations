@@ -16494,117 +16494,116 @@ msgstr "マイ履歴で表示"
 
 msgctxt "dlgSgOutput.lbl:"
 msgid "Command Pull \\(Merge\\) failed!"
-msgstr ""
+msgstr "コマンド Pull \\(マージ\\) が失敗しました!"
 
 msgctxt "dlgStdFeatureConfigurationSimple.chk"
 msgid "Don't show again"
-msgstr ""
+msgstr "今後表示しない"
 
 msgctxt "dlgStdFeatureConfigurationSimple.fur"
 msgid "The 'main branch' represents the main development branch of your repository and serves as a foundation for releases. Usually it is named 'develop', 'master' or 'main'.\\n\\nBranches that are used to develop a single new feature, bugfix or other related changes \\(temporarily\\) isolated from the main branch are called 'feature branch' \\(or short 'feature'\\). They typically have a special name prefix, e.g. 'feature/'.\\n\\nNew features will be forked off from a main branch using 'Start'. For an existing feature, new changes from the main branch will be integrated using 'Integrate'. Once you have finished the feature, you can incorporate it into the main branch using 'Finish'.\\n\\nFor extended configuration options, invoke '\\u30d6\\u30e9\\u30f3\\u30c1 \\| \\u8a2d\\u5b9a'."
-msgstr ""
+msgstr "'メインブランチ'はリポジトリのメインの開発ブランチを表し、リリースの基盤となります。通常は'develop'、'master'、または'main'という名前が付けられます。\\n\\n単一の新機能、バグ修正、またはその他の関連する変更をメインブランチから\\(一時的に\\)分離して開発するために使用されるブランチは、'フィーチャーブランチ'\\(略して'フィーチャー'\\)と呼ばれます。通常、'feature/'などの特別な名前のプレフィックスが付きます。\\n\\n新しいフィーチャーは'開始'を使用してメインブランチから分岐します。既存のフィーチャーに対しては、メインブランチからの新しい変更を'統合'を使用して取り込みます。フィーチャーが完了したら、'完了'を使用してメインブランチに組み込むことができます。\\n\\n詳細な設定オプションについては、'\\u30d6\\u30e9\\u30f3\\u30c1 \\| \\u8a2d\\u5b9a'を実行してください。"
 
 msgctxt "dlgStdFeatureConfigurationSimple.hdl%2"
 msgid "'$1' has been configured as main branch and '$2' as feature-prefix."
-msgstr ""
+msgstr "'$1'がメインブランチとして、'$2'がフィーチャープレフィックスとして設定されました。"
 
 msgctxt "dlgStdFeatureConfigurationSimple.tle"
 msgid "Feature Configuration"
-msgstr ""
+msgstr "フィーチャー設定"
 
 msgctxt "dlgStdFeatureFinish.chk:"
 msgid "Create merge commit"
-msgstr ""
+msgstr "マージコミットを作成"
 
 msgctxt "dlgStdFeatureFinish.chk:"
 msgid "Delete feature branch"
-msgstr ""
+msgstr "フィーチャーブランチを削除"
 
 msgctxt "dlgStdFeatureFinish.edt:"
 msgid "Merge Message"
-msgstr ""
+msgstr "マージメッセージ"
 
 msgctxt "dlgStdFeatureFinish.hdl"
 msgid "Finish feature '$1'"
-msgstr ""
+msgstr "フィーチャー'$1'を完了"
 
 msgctxt "dlgStdFeatureFinish.inf:"
 msgid "Choose how to finish the feature branch '$1'. This operation will integrate the feature branch into the '$2' branch."
-msgstr ""
+msgstr "フィーチャーブランチ'$1'の完了方法を選択してください。この操作により、フィーチャーブランチが'$2'ブランチに統合されます。"
 
 msgctxt "dlgStdFeatureFinish.tle"
 msgid "Finish Feature"
-msgstr ""
+msgstr "フィーチャーを完了"
 
 msgctxt "dlgStdFeatureIntegrateProgress.chk:"
 msgid "Don't show again"
-msgstr ""
+msgstr "今後表示しない"
 
 msgctxt "dlgStdFeatureIntegrateProgress.fur:"
 msgid "The feature branch has been rebased onto 'master'.\\n\\nYou may now verify the branch."
-msgstr ""
+msgstr "フィーチャーブランチは'master'上にリベースされました。\\n\\nブランチを確認することができます。"
 
 msgctxt "dlgStdFeatureIntegrateProgress.hdl:"
 msgid "Verify integrated master changes."
-msgstr ""
+msgstr "統合されたmasterの変更を確認してください。"
 
 msgctxt "dlgStdFeatureIntegrateProgress.lbl:"
 msgid "Steps"
-msgstr ""
+msgstr "手順"
 
 msgctxt "dlgStdFeatureIntegrateProgress.tle"
 msgid "Integrate Main"
-msgstr ""
+msgstr "メインを統合"
 
 msgctxt "dlgStdFeatureStartEmptyRepository.fur"
 msgid "To start a feature, the main branch of your repository has to be created first. Usually, creating an initial commit with e.g. a 'README' file is a good idea."
-msgstr ""
+msgstr "フィーチャーを開始するには、まずリポジトリのメインブランチを作成する必要があります。通常、'README'ファイルなどで初期コミットを作成することをお勧めします。"
 
 msgctxt "dlgStdFeatureStartEmptyRepository.hdl"
 msgid "A feature can't be started in an empty repository."
-msgstr ""
+msgstr "空のリポジトリではフィーチャーを開始できません。"
 
 msgctxt "dlgStdFeatureStartEmptyRepository.tle"
 msgid "Start a new feature"
-msgstr ""
+msgstr "新しいフィーチャーを開始"
 
 msgctxt "pop:"
 msgid "Already up-to-date"
-msgstr ""
+msgstr "既に最新です"
 
 msgctxt "wndStd.hnt:"
 msgid "No files"
-msgstr ""
+msgstr "ファイルがありません"
 
 msgctxt "wndStd.hnt:"
 msgid "No graph roots selected."
-msgstr ""
+msgstr "グラフルートが選択されていません。"
 
 msgctxt "wndStd.hnt:"
 msgid "This repository has\\nno local branches yet."
-msgstr ""
+msgstr "このリポジトリには\\nまだローカルブランチがありません。"
 
 msgctxt "wndStd.mni:"
 msgid "Close Others"
-msgstr ""
+msgstr "他を閉じる"
 
 msgctxt "wndStd.mni:"
 msgid "Close to the Right"
-msgstr ""
+msgstr "右を閉じる"
 
 msgctxt "wndStd.mni:"
 msgid "Copy Path"
-msgstr ""
+msgstr "パスをコピー"
 
 msgctxt "wndStd.mni:"
 msgid "Open in GitHub"
-msgstr ""
+msgstr "GitHubで開く"
 
 msgctxt "wndStd.mni:"
 msgid "$1"
-msgstr ""
+msgstr "$1"
 
 msgctxt "wndStd.mni:"
 msgid "origin"
-msgstr ""
-
+msgstr "origin"
