@@ -11213,6 +11213,7 @@ msgctxt "dlgStdFeatureConfiguration.lbl:"
 msgid "Example: develop, release-.\\*"
 msgstr ""
 
+# 重複キー?
 msgctxt "dlgStdFeatureConfiguration.lbl:"
 msgid "The 'main branch' represents the main development branch of your repository and serves as a foundation for releases. Usually it is named 'develop', 'master' or 'main'.\\n\\nBranches that are used to develop a single new feature, bugfix or other related changes \\(temporarily\\) isolated from the main branch are called 'feature branch' \\(or short 'feature'\\). They typically have a special name prefix, e.g. 'feature/'.\\n\\nNew features will be forked off from a main branch using 'Start'. For an existing feature, new changes from the main branch will be integrated using 'Integrate'. Once you have finished the feature, you can incorporate it into the main branch using 'Finish'.\\n\\nFor extended configuration options, invoke '\\u30d6\\u30e9\\u30f3\\u30c1 \\| \\u8a2d\\u5b9a'."
 msgstr ""
@@ -16572,7 +16573,7 @@ msgstr ""
 #. Showing dialog 13 (@5CEF76A2) '@4D424AEA - Pull' (owner: @796F632B)
 #. Performing ', Save Stash'
 #. Showing dialog 14 (@41019F9D) '@307A0097 - Command Failed' (owner: @796F632B)
-msgctxt "dlgSgOutput.lbl\"Command Pull \\(Merge\\) failed!\""
+msgctxt "dlgSgOutput.lbl:"
 msgid "Command Pull \\(Merge\\) failed!"
 msgstr ""
 
@@ -16614,8 +16615,8 @@ msgstr ""
 #. Performing ', OK'
 #. Performing 'flowFeatureStart, Start Feature..., Start a new feature branch.'
 #. Showing dialog 34 (@6ED36C43) '@543CEDED - Feature Configuration' (owner: @7FCA1531)
-msgctxt "dlgStdFeatureConfigurationSimple.hdl"
-msgid "'master' has been configured as main branch and 'feature/' as feature-prefix."
+msgctxt "dlgStdFeatureConfigurationSimple.hdl%2"
+msgid "'$1' has been configured as main branch and '$2' as feature-prefix."
 msgstr ""
 
 #. Performing 'repositoryOpen, Open Repository'
@@ -16685,7 +16686,7 @@ msgstr ""
 #. Performing 'flowFeatureFinish, Finish Feature..., Finish the current feature branch.'
 #. Showing dialog 36 (@26C1F174) '@96CC46D - Finish Feature' (owner: @7FCA1531)
 msgctxt "dlgStdFeatureFinish.hdl"
-msgid "Finish feature 'feature/test'"
+msgid "Finish feature '$1'"
 msgstr ""
 
 #. Showing dialog 34 (@6ED36C43) '@543CEDED - Feature Configuration' (owner: @7FCA1531)
@@ -16699,7 +16700,7 @@ msgstr ""
 #. Performing 'flowFeatureFinish, Finish Feature..., Finish the current feature branch.'
 #. Showing dialog 36 (@26C1F174) '@96CC46D - Finish Feature' (owner: @7FCA1531)
 msgctxt "dlgStdFeatureFinish.inf:"
-msgid "Choose how to finish the feature branch 'feature/test'. This operation will integrate the feature branch into the 'master' branch."
+msgid "Choose how to finish the feature branch '$1'. This operation will integrate the feature branch into the '$2' branch."
 msgstr ""
 
 #. Performing 'flowFeatureStart, Start Feature..., Start a new feature branch.'
@@ -16740,7 +16741,7 @@ msgstr ""
 #. Performing 'integrateMain, Integrate Main, Integrate latest changes from the main branch into the current feature branch.'
 #. Performing 'integrateMain, Integrate Main, Integrate latest changes from the main branch into the current feature branch.'
 #. Showing dialog 37 (@461C6F) '@7B69204F - Integrate Main' (owner: @7FCA1531)
-msgctxt "dlgStdFeatureIntegrateProgress.fur\"The feature branch has been rebased onto 'master'.\\n\\nYou may now verify the branch.\""
+msgctxt "dlgStdFeatureIntegrateProgress.fur:"
 msgid "The feature branch has been rebased onto 'master'.\\n\\nYou may now verify the branch."
 msgstr ""
 
@@ -16880,7 +16881,7 @@ msgstr ""
 #. Performing ', Cancel'
 #. Performing ', Close Others'
 #. Performing 'repositoryOpen, Open Repository'
-msgctxt "wndStd.hnt\"This repository has\\nno local branches yet.\""
+msgctxt "wndStd.hnt:"
 msgid "This repository has\\nno local branches yet."
 msgstr ""
 
@@ -16951,8 +16952,8 @@ msgstr ""
 #. Showing dialog 31 (@3A183218) '@BD9C79E - Add or Create Repository' (owner: @7FCA1531)
 #. Performing ', Cancel'
 # ホスティングプロバイダ(変数)だけのmsgidになっているため、場合によってSmartGit側の修正が必要
-msgctxt "wndStd.mni\"github\\(AI\\)\""
-msgid "github\\(AI\\)"
+msgctxt "wndStd.mni:"
+msgid "$1"
 msgstr ""
 
 #. Performing 'repositoryOpen, Open Repository'
