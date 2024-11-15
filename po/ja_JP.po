@@ -16492,410 +16492,118 @@ msgctxt "wndStd.mniShowInMyHistory"
 msgid "Show in My History"
 msgstr "マイ履歴で表示"
 
-#. BUILD: 21125 ======================================================================================================================================
-#. Performing ', Push'
-#. Showing dialog 11 (@F11FE28) '@22479830 - Push' (owner: @796F632B)
-#. Performing ', Push'
-#. Performing '@smartgit.byI'
-#. Performing 'fetch, Pull..., Fetch commits from a remote repository and (optionally) integrate them with possible local commits.'
-#. Showing dialog 12 (@7D4A6213) '@A3A54D6 - Pull' (owner: @796F632B)
-#. Performing ', Pull'
-#. Showing dialog 13 (@5CEF76A2) '@4D424AEA - Pull' (owner: @796F632B)
-#. Performing ', Save Stash'
-#. Showing dialog 14 (@41019F9D) '@307A0097 - Command Failed' (owner: @796F632B)
 msgctxt "dlgSgOutput.lbl:"
 msgid "Command Pull \\(Merge\\) failed!"
 msgstr ""
 
-#. Performing 'flowFeatureStart, Start Feature..., Start a new feature branch.'
-#. Showing dialog 32 (@5A65E913) '@14605D0D - Start a new feature' (owner: @7FCA1531)
-#. Performing ', OK'
-#. Performing 'stdSetModeWt, Show Local Changes, Show the local files of the repository (Working Tree).'
-#. Performing ', エクスプローラで開く'
-#. Performing 'flowFeatureStart, Start Feature..., Start a new feature branch.'
-#. Showing dialog 33 (@15D0CD8C) '@76A0E2AF - Start a new feature' (owner: @7FCA1531)
-#. Performing ', OK'
-#. Performing 'flowFeatureStart, Start Feature..., Start a new feature branch.'
-#. Showing dialog 34 (@6ED36C43) '@543CEDED - Feature Configuration' (owner: @7FCA1531)
 msgctxt "dlgStdFeatureConfigurationSimple.chk"
 msgid "Don't show again"
 msgstr ""
 
-#. Performing 'flowFeatureStart, Start Feature..., Start a new feature branch.'
-#. Showing dialog 32 (@5A65E913) '@14605D0D - Start a new feature' (owner: @7FCA1531)
-#. Performing ', OK'
-#. Performing 'stdSetModeWt, Show Local Changes, Show the local files of the repository (Working Tree).'
-#. Performing ', エクスプローラで開く'
-#. Performing 'flowFeatureStart, Start Feature..., Start a new feature branch.'
-#. Showing dialog 33 (@15D0CD8C) '@76A0E2AF - Start a new feature' (owner: @7FCA1531)
-#. Performing ', OK'
-#. Performing 'flowFeatureStart, Start Feature..., Start a new feature branch.'
-#. Showing dialog 34 (@6ED36C43) '@543CEDED - Feature Configuration' (owner: @7FCA1531)
 msgctxt "dlgStdFeatureConfigurationSimple.fur"
 msgid "The 'main branch' represents the main development branch of your repository and serves as a foundation for releases. Usually it is named 'develop', 'master' or 'main'.\\n\\nBranches that are used to develop a single new feature, bugfix or other related changes \\(temporarily\\) isolated from the main branch are called 'feature branch' \\(or short 'feature'\\). They typically have a special name prefix, e.g. 'feature/'.\\n\\nNew features will be forked off from a main branch using 'Start'. For an existing feature, new changes from the main branch will be integrated using 'Integrate'. Once you have finished the feature, you can incorporate it into the main branch using 'Finish'.\\n\\nFor extended configuration options, invoke '\\u30d6\\u30e9\\u30f3\\u30c1 \\| \\u8a2d\\u5b9a'."
 msgstr ""
 
-#. Performing 'flowFeatureStart, Start Feature..., Start a new feature branch.'
-#. Showing dialog 32 (@5A65E913) '@14605D0D - Start a new feature' (owner: @7FCA1531)
-#. Performing ', OK'
-#. Performing 'stdSetModeWt, Show Local Changes, Show the local files of the repository (Working Tree).'
-#. Performing ', エクスプローラで開く'
-#. Performing 'flowFeatureStart, Start Feature..., Start a new feature branch.'
-#. Showing dialog 33 (@15D0CD8C) '@76A0E2AF - Start a new feature' (owner: @7FCA1531)
-#. Performing ', OK'
-#. Performing 'flowFeatureStart, Start Feature..., Start a new feature branch.'
-#. Showing dialog 34 (@6ED36C43) '@543CEDED - Feature Configuration' (owner: @7FCA1531)
 msgctxt "dlgStdFeatureConfigurationSimple.hdl%2"
 msgid "'$1' has been configured as main branch and '$2' as feature-prefix."
 msgstr ""
 
-#. Performing 'repositoryOpen, Open Repository'
-#. Performing 'flowFeatureStart, Start Feature..., Start a new feature branch.'
-#. Showing dialog 32 (@5A65E913) '@14605D0D - Start a new feature' (owner: @7FCA1531)
-#. Performing ', OK'
-#. Performing 'stdSetModeWt, Show Local Changes, Show the local files of the repository (Working Tree).'
-#. Performing ', エクスプローラで開く'
-#. Performing 'flowFeatureStart, Start Feature..., Start a new feature branch.'
-#. Showing dialog 33 (@15D0CD8C) '@76A0E2AF - Start a new feature' (owner: @7FCA1531)
-#. Performing ', OK'
-#. Performing 'flowFeatureStart, Start Feature..., Start a new feature branch.'
 msgctxt "dlgStdFeatureConfigurationSimple.tle"
 msgid "Feature Configuration"
 msgstr ""
 
-#. Showing dialog 34 (@6ED36C43) '@543CEDED - Feature Configuration' (owner: @7FCA1531)
-#. Performing ', OK'
-#. Showing dialog 35 (@4B6AF917) '@4F02391B - Start Feature' (owner: @7FCA1531)
-#. Performing ', Start'
-#. Performing 'integrateMain, Integrate Main, Integrate latest changes from the main branch into the current feature branch.'
-#. Performing 'stdSetModeWt, Show Local Changes, Show the local files of the repository (Working Tree).'
-#. Performing ', Open'
-#. Performing 'integrateMain, Integrate Main, Integrate latest changes from the main branch into the current feature branch.'
-#. Performing 'flowFeatureFinish, Finish Feature..., Finish the current feature branch.'
-#. Showing dialog 36 (@26C1F174) '@96CC46D - Finish Feature' (owner: @7FCA1531)
 msgctxt "dlgStdFeatureFinish.chk:"
 msgid "Create merge commit"
 msgstr ""
 
-#. Showing dialog 34 (@6ED36C43) '@543CEDED - Feature Configuration' (owner: @7FCA1531)
-#. Performing ', OK'
-#. Showing dialog 35 (@4B6AF917) '@4F02391B - Start Feature' (owner: @7FCA1531)
-#. Performing ', Start'
-#. Performing 'integrateMain, Integrate Main, Integrate latest changes from the main branch into the current feature branch.'
-#. Performing 'stdSetModeWt, Show Local Changes, Show the local files of the repository (Working Tree).'
-#. Performing ', Open'
-#. Performing 'integrateMain, Integrate Main, Integrate latest changes from the main branch into the current feature branch.'
-#. Performing 'flowFeatureFinish, Finish Feature..., Finish the current feature branch.'
-#. Showing dialog 36 (@26C1F174) '@96CC46D - Finish Feature' (owner: @7FCA1531)
 msgctxt "dlgStdFeatureFinish.chk:"
 msgid "Delete feature branch"
 msgstr ""
 
-#. Showing dialog 34 (@6ED36C43) '@543CEDED - Feature Configuration' (owner: @7FCA1531)
-#. Performing ', OK'
-#. Showing dialog 35 (@4B6AF917) '@4F02391B - Start Feature' (owner: @7FCA1531)
-#. Performing ', Start'
-#. Performing 'integrateMain, Integrate Main, Integrate latest changes from the main branch into the current feature branch.'
-#. Performing 'stdSetModeWt, Show Local Changes, Show the local files of the repository (Working Tree).'
-#. Performing ', Open'
-#. Performing 'integrateMain, Integrate Main, Integrate latest changes from the main branch into the current feature branch.'
-#. Performing 'flowFeatureFinish, Finish Feature..., Finish the current feature branch.'
-#. Showing dialog 36 (@26C1F174) '@96CC46D - Finish Feature' (owner: @7FCA1531)
 msgctxt "dlgStdFeatureFinish.edt:"
 msgid "Merge Message"
 msgstr ""
 
-#. Showing dialog 34 (@6ED36C43) '@543CEDED - Feature Configuration' (owner: @7FCA1531)
-#. Performing ', OK'
-#. Showing dialog 35 (@4B6AF917) '@4F02391B - Start Feature' (owner: @7FCA1531)
-#. Performing ', Start'
-#. Performing 'integrateMain, Integrate Main, Integrate latest changes from the main branch into the current feature branch.'
-#. Performing 'stdSetModeWt, Show Local Changes, Show the local files of the repository (Working Tree).'
-#. Performing ', Open'
-#. Performing 'integrateMain, Integrate Main, Integrate latest changes from the main branch into the current feature branch.'
-#. Performing 'flowFeatureFinish, Finish Feature..., Finish the current feature branch.'
-#. Showing dialog 36 (@26C1F174) '@96CC46D - Finish Feature' (owner: @7FCA1531)
 msgctxt "dlgStdFeatureFinish.hdl"
 msgid "Finish feature '$1'"
 msgstr ""
 
-#. Showing dialog 34 (@6ED36C43) '@543CEDED - Feature Configuration' (owner: @7FCA1531)
-#. Performing ', OK'
-#. Showing dialog 35 (@4B6AF917) '@4F02391B - Start Feature' (owner: @7FCA1531)
-#. Performing ', Start'
-#. Performing 'integrateMain, Integrate Main, Integrate latest changes from the main branch into the current feature branch.'
-#. Performing 'stdSetModeWt, Show Local Changes, Show the local files of the repository (Working Tree).'
-#. Performing ', Open'
-#. Performing 'integrateMain, Integrate Main, Integrate latest changes from the main branch into the current feature branch.'
-#. Performing 'flowFeatureFinish, Finish Feature..., Finish the current feature branch.'
-#. Showing dialog 36 (@26C1F174) '@96CC46D - Finish Feature' (owner: @7FCA1531)
 msgctxt "dlgStdFeatureFinish.inf:"
 msgid "Choose how to finish the feature branch '$1'. This operation will integrate the feature branch into the '$2' branch."
 msgstr ""
 
-#. Performing 'flowFeatureStart, Start Feature..., Start a new feature branch.'
-#. Showing dialog 34 (@6ED36C43) '@543CEDED - Feature Configuration' (owner: @7FCA1531)
-#. Performing ', OK'
-#. Showing dialog 35 (@4B6AF917) '@4F02391B - Start Feature' (owner: @7FCA1531)
-#. Performing ', Start'
-#. Performing 'integrateMain, Integrate Main, Integrate latest changes from the main branch into the current feature branch.'
-#. Performing 'stdSetModeWt, Show Local Changes, Show the local files of the repository (Working Tree).'
-#. Performing ', Open'
-#. Performing 'integrateMain, Integrate Main, Integrate latest changes from the main branch into the current feature branch.'
-#. Performing 'flowFeatureFinish, Finish Feature..., Finish the current feature branch.'
 msgctxt "dlgStdFeatureFinish.tle"
 msgid "Finish Feature"
 msgstr ""
 
-#. Performing 'integrateMain, Integrate Main, Integrate latest changes from the main branch into the current feature branch.'
-#. Performing 'stdSetModeWt, Show Local Changes, Show the local files of the repository (Working Tree).'
-#. Performing ', Open'
-#. Performing 'integrateMain, Integrate Main, Integrate latest changes from the main branch into the current feature branch.'
-#. Performing 'flowFeatureFinish, Finish Feature..., Finish the current feature branch.'
-#. Showing dialog 36 (@26C1F174) '@96CC46D - Finish Feature' (owner: @7FCA1531)
-#. Performing ', Finish'
-#. Performing 'integrateMain, Integrate Main, Integrate latest changes from the main branch into the current feature branch.'
-#. Performing 'integrateMain, Integrate Main, Integrate latest changes from the main branch into the current feature branch.'
-#. Showing dialog 37 (@461C6F) '@7B69204F - Integrate Main' (owner: @7FCA1531)
 msgctxt "dlgStdFeatureIntegrateProgress.chk:"
 msgid "Don't show again"
 msgstr ""
 
-#. Performing 'integrateMain, Integrate Main, Integrate latest changes from the main branch into the current feature branch.'
-#. Performing 'stdSetModeWt, Show Local Changes, Show the local files of the repository (Working Tree).'
-#. Performing ', Open'
-#. Performing 'integrateMain, Integrate Main, Integrate latest changes from the main branch into the current feature branch.'
-#. Performing 'flowFeatureFinish, Finish Feature..., Finish the current feature branch.'
-#. Showing dialog 36 (@26C1F174) '@96CC46D - Finish Feature' (owner: @7FCA1531)
-#. Performing ', Finish'
-#. Performing 'integrateMain, Integrate Main, Integrate latest changes from the main branch into the current feature branch.'
-#. Performing 'integrateMain, Integrate Main, Integrate latest changes from the main branch into the current feature branch.'
-#. Showing dialog 37 (@461C6F) '@7B69204F - Integrate Main' (owner: @7FCA1531)
 msgctxt "dlgStdFeatureIntegrateProgress.fur:"
 msgid "The feature branch has been rebased onto 'master'.\\n\\nYou may now verify the branch."
 msgstr ""
 
-#. Performing 'integrateMain, Integrate Main, Integrate latest changes from the main branch into the current feature branch.'
-#. Performing 'stdSetModeWt, Show Local Changes, Show the local files of the repository (Working Tree).'
-#. Performing ', Open'
-#. Performing 'integrateMain, Integrate Main, Integrate latest changes from the main branch into the current feature branch.'
-#. Performing 'flowFeatureFinish, Finish Feature..., Finish the current feature branch.'
-#. Showing dialog 36 (@26C1F174) '@96CC46D - Finish Feature' (owner: @7FCA1531)
-#. Performing ', Finish'
-#. Performing 'integrateMain, Integrate Main, Integrate latest changes from the main branch into the current feature branch.'
-#. Performing 'integrateMain, Integrate Main, Integrate latest changes from the main branch into the current feature branch.'
-#. Showing dialog 37 (@461C6F) '@7B69204F - Integrate Main' (owner: @7FCA1531)
 msgctxt "dlgStdFeatureIntegrateProgress.hdl:"
 msgid "Verify integrated master changes."
 msgstr ""
 
-#. Performing 'integrateMain, Integrate Main, Integrate latest changes from the main branch into the current feature branch.'
-#. Performing 'stdSetModeWt, Show Local Changes, Show the local files of the repository (Working Tree).'
-#. Performing ', Open'
-#. Performing 'integrateMain, Integrate Main, Integrate latest changes from the main branch into the current feature branch.'
-#. Performing 'flowFeatureFinish, Finish Feature..., Finish the current feature branch.'
-#. Showing dialog 36 (@26C1F174) '@96CC46D - Finish Feature' (owner: @7FCA1531)
-#. Performing ', Finish'
-#. Performing 'integrateMain, Integrate Main, Integrate latest changes from the main branch into the current feature branch.'
-#. Performing 'integrateMain, Integrate Main, Integrate latest changes from the main branch into the current feature branch.'
-#. Showing dialog 37 (@461C6F) '@7B69204F - Integrate Main' (owner: @7FCA1531)
 msgctxt "dlgStdFeatureIntegrateProgress.lbl:"
 msgid "Steps"
 msgstr ""
 
-#. Performing ', Start'
-#. Performing 'integrateMain, Integrate Main, Integrate latest changes from the main branch into the current feature branch.'
-#. Performing 'stdSetModeWt, Show Local Changes, Show the local files of the repository (Working Tree).'
-#. Performing ', Open'
-#. Performing 'integrateMain, Integrate Main, Integrate latest changes from the main branch into the current feature branch.'
-#. Performing 'flowFeatureFinish, Finish Feature..., Finish the current feature branch.'
-#. Showing dialog 36 (@26C1F174) '@96CC46D - Finish Feature' (owner: @7FCA1531)
-#. Performing ', Finish'
-#. Performing 'integrateMain, Integrate Main, Integrate latest changes from the main branch into the current feature branch.'
-#. Performing 'integrateMain, Integrate Main, Integrate latest changes from the main branch into the current feature branch.'
 msgctxt "dlgStdFeatureIntegrateProgress.tle"
 msgid "Integrate Main"
 msgstr ""
 
-#. Performing ', Cancel'
-#. Performing ', Close Others'
-#. Performing 'repositoryOpen, Open Repository'
-#. Performing 'flowFeatureStart, Start Feature..., Start a new feature branch.'
-#. Showing dialog 32 (@5A65E913) '@14605D0D - Start a new feature' (owner: @7FCA1531)
-#. Performing ', OK'
-#. Performing 'stdSetModeWt, Show Local Changes, Show the local files of the repository (Working Tree).'
-#. Performing ', エクスプローラで開く'
-#. Performing 'flowFeatureStart, Start Feature..., Start a new feature branch.'
-#. Showing dialog 33 (@15D0CD8C) '@76A0E2AF - Start a new feature' (owner: @7FCA1531)
 msgctxt "dlgStdFeatureStartEmptyRepository.fur"
 msgid "To start a feature, the main branch of your repository has to be created first. Usually, creating an initial commit with e.g. a 'README' file is a good idea."
 msgstr ""
 
-#. Performing ', Cancel'
-#. Performing ', Close Others'
-#. Performing 'repositoryOpen, Open Repository'
-#. Performing 'flowFeatureStart, Start Feature..., Start a new feature branch.'
-#. Showing dialog 32 (@5A65E913) '@14605D0D - Start a new feature' (owner: @7FCA1531)
-#. Performing ', OK'
-#. Performing 'stdSetModeWt, Show Local Changes, Show the local files of the repository (Working Tree).'
-#. Performing ', エクスプローラで開く'
-#. Performing 'flowFeatureStart, Start Feature..., Start a new feature branch.'
-#. Showing dialog 33 (@15D0CD8C) '@76A0E2AF - Start a new feature' (owner: @7FCA1531)
 msgctxt "dlgStdFeatureStartEmptyRepository.hdl"
 msgid "A feature can't be started in an empty repository."
 msgstr ""
 
-#. Showing dialog 31 (@3A183218) '@BD9C79E - Add or Create Repository' (owner: @7FCA1531)
-#. Performing ', Cancel'
-#. Performing ', Close Others'
-#. Performing 'repositoryOpen, Open Repository'
-#. Performing 'flowFeatureStart, Start Feature..., Start a new feature branch.'
-#. Showing dialog 32 (@5A65E913) '@14605D0D - Start a new feature' (owner: @7FCA1531)
-#. Performing ', OK'
-#. Performing 'stdSetModeWt, Show Local Changes, Show the local files of the repository (Working Tree).'
-#. Performing ', エクスプローラで開く'
-#. Performing 'flowFeatureStart, Start Feature..., Start a new feature branch.'
 msgctxt "dlgStdFeatureStartEmptyRepository.tle"
 msgid "Start a new feature"
 msgstr ""
 
-#. Showing dialog 35 (@4B6AF917) '@4F02391B - Start Feature' (owner: @7FCA1531)
-#. Performing ', Start'
-#. Performing 'integrateMain, Integrate Main, Integrate latest changes from the main branch into the current feature branch.'
-#. Performing 'stdSetModeWt, Show Local Changes, Show the local files of the repository (Working Tree).'
-#. Performing ', Open'
-#. Performing 'integrateMain, Integrate Main, Integrate latest changes from the main branch into the current feature branch.'
-#. Performing 'flowFeatureFinish, Finish Feature..., Finish the current feature branch.'
-#. Showing dialog 36 (@26C1F174) '@96CC46D - Finish Feature' (owner: @7FCA1531)
-#. Performing ', Finish'
-#. Performing 'integrateMain, Integrate Main, Integrate latest changes from the main branch into the current feature branch.'
 msgctxt "pop:"
 msgid "Already up-to-date"
 msgstr ""
 
-#. Performing ', Cancel'
-#. Performing 'repositoryAdd, Add or Create..., Add or create a new repository.'
-#. Showing dialog 31 (@3A183218) '@BD9C79E - Add or Create Repository' (owner: @7FCA1531)
-#. Performing ', Cancel'
-#. Performing ', Close Others'
-#. Performing 'repositoryOpen, Open Repository'
-#. Performing 'flowFeatureStart, Start Feature..., Start a new feature branch.'
-#. Showing dialog 32 (@5A65E913) '@14605D0D - Start a new feature' (owner: @7FCA1531)
-#. Performing ', OK'
-#. Performing 'stdSetModeWt, Show Local Changes, Show the local files of the repository (Working Tree).'
 msgctxt "wndStd.hnt:"
 msgid "No files"
 msgstr ""
 
-#. Showing dialog 26 (@11732DB2) '@7F6B2D9E - Feature Configuration' (owner: @7FCA1531)
-#. Performing ', Cancel'
-#. Performing 'repositoryAdd, Add or Create..., Add or create a new repository.'
-#. Showing dialog 27 (@76A34504) '@4B7CB8A0 - Add or Create Repository' (owner: @7FCA1531)
-#. Performing ', OK'
-#. Showing dialog 28 (@E321581) '@B0CE32D - Add or Create Repository' (owner: @76A34504)
-#. Performing ', Initialize'
-#. Performing ', Close'
-#. Performing 'repositoryOpen, Open Repository'
-#. Performing 'repositoryOpen, Open Repository'
 msgctxt "wndStd.hnt:"
 msgid "No graph roots selected."
 msgstr ""
 
-#. Performing 'repositoryClone, Clone..., Clone a new repository.'
-#. Showing dialog 29 (@6C78BB9A) '@32124A62 - Clone' (owner: @7FCA1531)
-#. Performing 'repositorySearch, Search for Repositories..., Search for existing repositories.'
-#. Showing dialog 30 (@33D3F5DF) '@401B14AC - Search for Repositories' (owner: @7FCA1531)
-#. Performing ', Cancel'
-#. Performing 'repositoryAdd, Add or Create..., Add or create a new repository.'
-#. Showing dialog 31 (@3A183218) '@BD9C79E - Add or Create Repository' (owner: @7FCA1531)
-#. Performing ', Cancel'
-#. Performing ', Close Others'
-#. Performing 'repositoryOpen, Open Repository'
 msgctxt "wndStd.hnt:"
 msgid "This repository has\\nno local branches yet."
 msgstr ""
 
-#. Performing 'repositoryOpen, Open Repository'
-#. Performing 'repositoryOpen, Open Repository'
-#. Performing 'repositoryClone, Clone..., Clone a new repository.'
-#. Showing dialog 29 (@6C78BB9A) '@32124A62 - Clone' (owner: @7FCA1531)
-#. Performing 'repositorySearch, Search for Repositories..., Search for existing repositories.'
-#. Showing dialog 30 (@33D3F5DF) '@401B14AC - Search for Repositories' (owner: @7FCA1531)
-#. Performing ', Cancel'
-#. Performing 'repositoryAdd, Add or Create..., Add or create a new repository.'
-#. Showing dialog 31 (@3A183218) '@BD9C79E - Add or Create Repository' (owner: @7FCA1531)
-#. Performing ', Cancel'
 msgctxt "wndStd.mni:"
 msgid "Close Others"
 msgstr ""
 
-#. Performing 'repositoryOpen, Open Repository'
-#. Performing 'repositoryOpen, Open Repository'
-#. Performing 'repositoryClone, Clone..., Clone a new repository.'
-#. Showing dialog 29 (@6C78BB9A) '@32124A62 - Clone' (owner: @7FCA1531)
-#. Performing 'repositorySearch, Search for Repositories..., Search for existing repositories.'
-#. Showing dialog 30 (@33D3F5DF) '@401B14AC - Search for Repositories' (owner: @7FCA1531)
-#. Performing ', Cancel'
-#. Performing 'repositoryAdd, Add or Create..., Add or create a new repository.'
-#. Showing dialog 31 (@3A183218) '@BD9C79E - Add or Create Repository' (owner: @7FCA1531)
-#. Performing ', Cancel'
 msgctxt "wndStd.mni:"
 msgid "Close to the Right"
 msgstr ""
 
-#. Performing 'repositoryOpen, Open Repository'
-#. Performing 'repositoryOpen, Open Repository'
-#. Performing 'repositoryClone, Clone..., Clone a new repository.'
-#. Showing dialog 29 (@6C78BB9A) '@32124A62 - Clone' (owner: @7FCA1531)
-#. Performing 'repositorySearch, Search for Repositories..., Search for existing repositories.'
-#. Showing dialog 30 (@33D3F5DF) '@401B14AC - Search for Repositories' (owner: @7FCA1531)
-#. Performing ', Cancel'
-#. Performing 'repositoryAdd, Add or Create..., Add or create a new repository.'
-#. Showing dialog 31 (@3A183218) '@BD9C79E - Add or Create Repository' (owner: @7FCA1531)
-#. Performing ', Cancel'
 msgctxt "wndStd.mni:"
 msgid "Copy Path"
 msgstr ""
 
-#. Performing 'repositoryOpen, Open Repository'
-#. Performing 'repositoryOpen, Open Repository'
-#. Performing 'repositoryClone, Clone..., Clone a new repository.'
-#. Showing dialog 29 (@6C78BB9A) '@32124A62 - Clone' (owner: @7FCA1531)
-#. Performing 'repositorySearch, Search for Repositories..., Search for existing repositories.'
-#. Showing dialog 30 (@33D3F5DF) '@401B14AC - Search for Repositories' (owner: @7FCA1531)
-#. Performing ', Cancel'
-#. Performing 'repositoryAdd, Add or Create..., Add or create a new repository.'
-#. Showing dialog 31 (@3A183218) '@BD9C79E - Add or Create Repository' (owner: @7FCA1531)
-#. Performing ', Cancel'
 msgctxt "wndStd.mni:"
 msgid "Open in GitHub"
 msgstr ""
 
-#. Performing 'repositoryOpen, Open Repository'
-#. Performing 'repositoryOpen, Open Repository'
-#. Performing 'repositoryClone, Clone..., Clone a new repository.'
-#. Showing dialog 29 (@6C78BB9A) '@32124A62 - Clone' (owner: @7FCA1531)
-#. Performing 'repositorySearch, Search for Repositories..., Search for existing repositories.'
-#. Showing dialog 30 (@33D3F5DF) '@401B14AC - Search for Repositories' (owner: @7FCA1531)
-#. Performing ', Cancel'
-#. Performing 'repositoryAdd, Add or Create..., Add or create a new repository.'
-#. Showing dialog 31 (@3A183218) '@BD9C79E - Add or Create Repository' (owner: @7FCA1531)
-#. Performing ', Cancel'
-# ホスティングプロバイダ(変数)だけのmsgidになっているため、場合によってSmartGit側の修正が必要
 msgctxt "wndStd.mni:"
 msgid "$1"
 msgstr ""
 
-#. Performing 'repositoryOpen, Open Repository'
-#. Performing 'repositoryOpen, Open Repository'
-#. Performing 'repositoryClone, Clone..., Clone a new repository.'
-#. Showing dialog 29 (@6C78BB9A) '@32124A62 - Clone' (owner: @7FCA1531)
-#. Performing 'repositorySearch, Search for Repositories..., Search for existing repositories.'
-#. Showing dialog 30 (@33D3F5DF) '@401B14AC - Search for Repositories' (owner: @7FCA1531)
-#. Performing ', Cancel'
-#. Performing 'repositoryAdd, Add or Create..., Add or create a new repository.'
-#. Showing dialog 31 (@3A183218) '@BD9C79E - Add or Create Repository' (owner: @7FCA1531)
-#. Performing ', Cancel'
 msgctxt "wndStd.mni:"
 msgid "origin"
 msgstr ""
