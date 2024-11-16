@@ -7445,8 +7445,8 @@ msgctxt "dlgSgProviderCredentialsAutoGeneratorSelector.edt:"
 msgid "Provider"
 msgstr ""
 
-msgctxt "dlgSgProviderCredentialsAutoGeneratorSelector.hdl"
-msgid "Select which GitLab account to use"
+msgctxt "dlgSgProviderCredentialsAutoGeneratorSelector.hdl%1"
+msgid "Select which $1 account to use"
 msgstr ""
 
 msgctxt "dlgSgProviderCredentialsAutoGeneratorSelector.inf%1"
