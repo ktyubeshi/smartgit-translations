@@ -15,13 +15,18 @@ Key Features:
   in the `msgid` are matched in the `msgstr`.
 - **HTML Tag Check**: Ensures that HTML tags (e.g., `<b>`, `</i>`) are consistently used
   between `msgid` and `msgstr`.
-- **Localization Support**: Output messages are available in English, Japanese, and Chinese.
-  The language can be specified via command-line arguments.
-- **Integration with sgpo**: Uses the `sgpo` library (an extension of `polib`) to read and
-  write PO files.
-- **Fuzzy Flagging**: Automatically adds the `fuzzy` flag to entries with inconsistencies.
-- **Translator Comments**: Adds or updates translator comments to provide detailed error
-  messages, prefixed with `[Checker]`.
+- **Fixed Flag Support**: Entries with the 'fixed' flag (case-insensitive) are skipped
+  from checking.
+- **Error Export**: Option to export problematic entries to a separate PO file
+  for review.
+- **Localization Support**: Output messages are available in English, Japanese,
+  and Chinese.
+- **Integration with sgpo**: Uses the `sgpo` library (an extension of `polib`)
+  to read and write PO files.
+- **Fuzzy Flagging**: Automatically adds the `fuzzy` flag to entries with
+  inconsistencies.
+- **Translator Comments**: Adds or updates translator comments to provide detailed
+  error messages, prefixed with `[Checker]`.
 
 Usage:
 1. **Running the Script**:
@@ -35,26 +40,16 @@ Usage:
    - `po_file`: Path to the PO file to check (optional).
    - `-l` or `--language`: Language code for output messages (`en`, `ja`, or `zh`).
      Defaults to `en` (English).
+   - `-e` or `--export`: Export problematic entries to a separate PO file.
+     The output file will be named with '_errors' suffix.
 
 3. **Output**:
-   - The script prints any inconsistencies found, indicating the entry number and issues.
-   - Updates the PO file by adding `fuzzy` flags and translator comments for problematic entries.
-
-4. **Example**:
-   - Checking a PO file with messages in Japanese:
-     ```
-     python po_checker.py -l ja
-     ```
-     This will prompt you to select a PO file and display messages in Japanese.
-
-Requirements:
-- **Python 3**: The script is compatible with Python 3.
-- **sgpo Library**: Ensure the `sgpo` library is installed and accessible.
-- **tkinter**: Used for the file selection dialog if no PO file is specified via command line.
-
-Notes:
-- **Backup**: It's recommended to backup your PO file before running the script, as it modifies the file.
-- **Extensibility**: The script can be extended to support additional languages by adding entries to the `languages` dictionary.
+   - The script prints any inconsistencies found, indicating the entry number
+     and issues.
+   - Updates the PO file by adding `fuzzy` flags and translator comments for
+     problematic entries.
+   - If export option is enabled, creates a new PO file containing only the
+     problematic entries.
 
 """
 
@@ -89,6 +84,7 @@ languages = {
         'file_not_selected': "No PO file was selected. Exiting the script.",
         'select_po_file': "Please select a PO file",
         'error_saving_file': "Error saving the PO file.",
+        'error_export': "Problematic entries have been exported to: {filepath}",
     },
     'ja': {
         'missing': "・不足している{item_type}: '{seq}' が {count} 個",
@@ -104,6 +100,7 @@ languages = {
         'file_not_selected': "POファイルが選択されませんでした。スクリプトを終了します。",
         'select_po_file': "POファイルを選択してください",
         'error_saving_file': "POファイルの保存中にエラーが発生しました。",
+        'error_export': "問題のあるエントリーを以下のファイルにエクスポートしました: {filepath}",
     },
     'zh': {
         'missing': " - 缺少的{item_type}: '{seq}' （{count} 次）",
@@ -119,6 +116,7 @@ languages = {
         'file_not_selected': "未选择PO文件。脚本退出。",
         'select_po_file': "请选择一个PO文件",
         'error_saving_file': "保存PO文件时出错。",
+        'error_export': "有问题的条目已导出至：{filepath}",
     }
 }
 
@@ -195,12 +193,12 @@ def remove_checker_comments(tcomment, prefix):
     filtered_lines = [line for line in lines if not line.startswith(prefix)]
     return '\n'.join(filtered_lines)
 
-def process_po_file(po_filepath, lang_code):
+def process_po_file(po_filepath, lang_code, export_errors=False):
     """Process the PO file, report errors, and update entries with fuzzy flags and translator comments."""
     po = sgpo.pofile(po_filepath)
-
+    error_entries = []  # エラーのあるエントリを保存するリスト
     errors_found = False
-    checker_prefix = '[Checker] '  # Prefix to identify comments added by the checker
+    checker_prefix = '[Checker] '
 
     lang = languages.get(lang_code, languages['en'])
 
@@ -210,25 +208,33 @@ def process_po_file(po_filepath, lang_code):
             msgstr = entry.msgstr
             error = check_pot_entry(msgid, msgstr, lang, entry)
 
-            # Remove existing checker comments
             entry.tcomment = remove_checker_comments(entry.tcomment, checker_prefix)
 
             if error:
                 errors_found = True
                 print(f"{lang['entry_issue'].format(linenum=entry.linenum)}\n{error}\n")
-                # Add fuzzy flag
                 if 'fuzzy' not in entry.flags:
                     entry.flags.append('fuzzy')
-                # Add error message to translator comments with prefix
                 error_with_prefix = '\n'.join([checker_prefix + line for line in error.split('\n')])
                 if entry.tcomment:
                     entry.tcomment += f"\n{error_with_prefix}"
                 else:
                     entry.tcomment = error_with_prefix
-        # Save the PO file
+                
+                if export_errors:
+                    error_entries.append(entry)
+
         po.save()
+        
         if errors_found:
             print(lang['error_detected'])
+            if export_errors and error_entries:
+                # エラーエントリを新しいPOファイルに保存
+                error_po = sgpo.POFile()
+                error_po.extend(error_entries)
+                export_path = os.path.splitext(po_filepath)[0] + '_errors.po'
+                error_po.save(export_path)
+                print(lang['error_export'].format(filepath=export_path))
         else:
             print(lang['no_errors'])
     except Exception as e:
@@ -236,9 +242,21 @@ def process_po_file(po_filepath, lang_code):
         sys.exit(1)
 
 def main():
-    parser = argparse.ArgumentParser(description='A script to check escape sequences and HTML tags in PO files.')
+    parser = argparse.ArgumentParser(
+        description='A script to check escape sequences and HTML tags in PO files.'
+    )
     parser.add_argument('po_file', nargs='?', help='Path to the PO file to check')
-    parser.add_argument('-l', '--language', choices=['en', 'ja', 'zh'], default='ja', help='Language for output messages (default: en)')
+    parser.add_argument(
+        '-l', '--language',
+        choices=['en', 'ja', 'zh'],
+        default='ja',
+        help='Language for output messages (default: en)'
+    )
+    parser.add_argument(
+        '-e', '--export',
+        action='store_true',
+        help='Export problematic entries to a separate PO file'
+    )
     args = parser.parse_args()
 
     po_filepath = args.po_file
@@ -246,9 +264,8 @@ def main():
     lang = languages.get(lang_code, languages['en'])
 
     if not po_filepath:
-        # No command-line argument; show file dialog
         root = Tk()
-        root.withdraw()  # Hide the main window
+        root.withdraw()
         po_filepath = filedialog.askopenfilename(
             title=lang['select_po_file'],
             filetypes=[('PO files', '*.po'), ('All files', '*.*')]
@@ -264,7 +281,7 @@ def main():
         print(lang['file_not_found'].format(filepath=po_filepath))
         sys.exit(1)
 
-    process_po_file(po_filepath, lang_code)
+    process_po_file(po_filepath, lang_code, args.export)
 
 if __name__ == "__main__":
     main()
