@@ -151,10 +151,14 @@ def format_error_message(missing, extra, item_type, lang):
             messages.append(lang['extra'].format(item_type=item_type, seq=seq, count=count))
     return '\n'.join(messages)
 
-def check_pot_entry(msgid, msgstr, lang):
+def check_pot_entry(msgid, msgstr, lang, entry):
     """Check escape sequences and HTML tags in a POT entry."""
     # Skip if msgstr is empty or whitespace only
     if not msgstr.strip():
+        return None
+
+    # Skip if the entry has a [Fixed] comment
+    if hasattr(entry, 'tcomment') and entry.tcomment and '[Fixed]' in entry.tcomment:
         return None
 
     error_messages = []
@@ -204,7 +208,7 @@ def process_po_file(po_filepath, lang_code):
         for entry in po:
             msgid = entry.msgid
             msgstr = entry.msgstr
-            error = check_pot_entry(msgid, msgstr, lang)
+            error = check_pot_entry(msgid, msgstr, lang, entry)
 
             # Remove existing checker comments
             entry.tcomment = remove_checker_comments(entry.tcomment, checker_prefix)
@@ -234,7 +238,7 @@ def process_po_file(po_filepath, lang_code):
 def main():
     parser = argparse.ArgumentParser(description='A script to check escape sequences and HTML tags in PO files.')
     parser.add_argument('po_file', nargs='?', help='Path to the PO file to check')
-    parser.add_argument('-l', '--language', choices=['en', 'ja', 'zh'], default='en', help='Language for output messages (default: en)')
+    parser.add_argument('-l', '--language', choices=['en', 'ja', 'zh'], default='ja', help='Language for output messages (default: en)')
     args = parser.parse_args()
 
     po_filepath = args.po_file
