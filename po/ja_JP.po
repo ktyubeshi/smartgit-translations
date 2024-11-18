@@ -323,7 +323,7 @@ msgstr "実行ファイルを確認中"
 
 msgctxt "dlgQBugFileSendingFailed.fur%1"
 msgid "Maybe you need to configure a proxy or our server is temporarily down.\\nDetails: $1"
-msgstr "プロキシの設定が必要なのか、サーバーが一時的にダウンしているのかもしれません。'$1'"
+msgstr "プロキシの設定が必要か、サーバーが一時的に利用できない状態になっています。\\n詳細: $1"
 
 msgctxt "dlgQBugFileSendingFailed.hdl%1"
 msgid "Could not send the crash logs to $1"
@@ -353,6 +353,7 @@ msgctxt "dlgQBugReportSend.btn:"
 msgid "Report Bug"
 msgstr "バグを報告"
 
+#, fixed
 msgctxt "dlgQBugReportSend.edt:"
 msgid "Comments or Steps to Reproduce"
 msgstr "コメントまたは再現のための手順\\(英語で記述してください\\)"
@@ -1035,7 +1036,7 @@ msgstr "強制終了"
 
 msgctxt "dlgScDialogAssertionHandlerLinkageError.lbl:"
 msgid "SmartGit has detected inconsistencies within its installation files \\(JAR files\\), what has most likely been caused by a faulty installation.\\n\\nPlease uninstall SmartGit completely, make sure there are no more installation files left \\(especially JAR files\\), then reinstall.\\n\\nIf the problem persists, send following log file as an attachment to smartgit@syntevo.com."
-msgstr "SmartGit のインストール ファイル (JAR ファイル) に不整合があることが判明しました。\\n\\nSmartGit を完全にアンインストールし、インストール ファイル (特に JAR ファイル) が残っていないことを確認してから、再インストールしてください。\\n\\n問題が解決しない場合は、次のログ ファイルを smartgit@syntevo.com に添付して送信してください。"
+msgstr "SmartGit のインストール ファイル \\(JAR ファイル\\) に不整合があることが判明しました。\\n\\nSmartGit を完全にアンインストールし、インストール ファイル \\(特に JAR ファイル\\) が残っていないことを確認してから、再インストールしてください。\\n\\n問題が解決しない場合は、次のログ ファイルを smartgit@syntevo.com に添付して送信してください。"
 
 msgctxt "dlgScDialogAssertionHandlerLinkageError.tle"
 msgid "Internal Error"
@@ -1047,7 +1048,7 @@ msgstr "強制終了"
 
 msgctxt "dlgScDialogAssertionHandlerOutOfMemory.fur%1"
 msgid "It is strongly recommended to restart SmartGit.\\n\\nTo increase the maximum memory limit edit $1, increase the value of the -Xmx option, for example to -Xmx1024m \\(or add it if not yet existing\\) and restart SmartGit."
-msgstr "SmartGit を再起動することを強くお勧めします。\\n\\n最大メモリ制限を増やすには、$1 を編集し、-Xmx オプションの値を増やします。例えば、-Xmx1024m を設定し（まだ存在していない場合は追加し）、SmartGit を再起動してください。"
+msgstr "SmartGit を再起動することを強くお勧めします。\\n\\n最大メモリ制限を増やすには、$1 を編集し、-Xmx オプションの値を増やします。例えば、-Xmx1024m を設定し\\(まだ存在していない場合は追加し\\)、SmartGit を再起動してください。"
 
 msgctxt "dlgScDialogAssertionHandlerOutOfMemory.hdl"
 msgid "SmartGit ran out of memory!"
@@ -1139,7 +1140,7 @@ msgstr "ファイルパターン"
 
 msgctxt "dlgScFileComparator(Add|Edit).inf"
 msgid "Define the file pattern \\(e.g. \\*.png\\) and select the compare command which should be used to compare files matching the file pattern."
-msgstr "ファイルパターン（例：*.png）を定義し、ファイルパターンに一致するファイルを比較するために使用する比較コマンドを選択します。"
+msgstr "ファイルパターン\\(例：\\*.png\\)を定義し、ファイルパターンに一致するファイルを比較するために使用する比較コマンドを選択します。"
 
 msgctxt "dlgScFileComparator(Add|Edit).lbl:"
 msgid "Valid wildcards are ?\\u00a0\\(one arbitrary character\\) and \\*\\u00a0\\(any number of arbitrary characters\\). Separate multiple patterns by comma. Example:\\u00a0\\*.txt,\\u00a0\\*.html"
@@ -2199,7 +2200,7 @@ msgstr "最初のバッドコミットを特定しました。"
 
 msgctxt "dlgSgBisectResult.tle"
 msgid "Bisect Finished"
-msgstr "問題箇所の特定を終了"
+msgstr "不具合コミット特定を終了"
 
 msgctxt "dlgSgBisectStartConfirm.btn:"
 msgid "Start Bisect with Bad HEAD"
@@ -8053,7 +8054,7 @@ msgstr "「ブランチ」 ビューの 「Recyclable Commits」 を選択する
 
 msgctxt "dlgSgRebaseConfirmUnreachable.hdl%1"
 msgid "The Commit $1 would become unreachable by refs."
-msgstr "コミット $1 は参照\\(refs\\)によって到達不能になります。"
+msgstr "コミット $1 は参照から到達できなくなります。"
 
 msgctxt "dlgSgRebaseConfirmUnreachable.tle"
 msgid "Rebase"
@@ -9235,9 +9236,11 @@ msgctxt "dlgSgResolve.hdl"
 msgid "Resolve Conflict"
 msgstr "競合を解決する"
 
+# 複数形のsは無視します。
+#, fixed
 msgctxt "dlgSgResolve.inf"
 msgid "Select which content to use for the resolved file\\(s\\)."
-msgstr "解決されたファイルに使用するコンテンツを選択します。"
+msgstr "解決済みのファイルに使用する内容を選択してください。"
 
 msgctxt "dlgSgResolve.rbt:"
 msgid "Leave as is"
@@ -9939,6 +9942,7 @@ msgctxt "dlgSgSetup.rbt:"
 msgid "Commits \\(Log History\\)"
 msgstr "コミット \\(ログ履歴\\)"
 
+#, fixed
 msgctxt "dlgSgSetup.rbt:"
 msgid "Free SmartGit evaluation for commercial use"
 msgstr "SmartGitの無償評価版 \\(商用利用可\\)"
@@ -13088,6 +13092,7 @@ msgctxt "wndDeepgit.tbtPerspectiveHistory"
 msgid "Investigate Diff between file's revisions."
 msgstr "ファイルのリビジョン間の差分を調査します。"
 
+#, fixed
 msgctxt "wndDeepgit.tbtPerspectiveOrigins"
 msgid "Find out what else happened where the line originates from.\\n\\nIn order to inspect available Origins, they have to be evaluated first. First, select the file you want to investigate using File\\|Open and select a line in it. Then wait until the calculation of possible Origins has finished."
 msgstr "その行が発生した場所で他に何が起こったのかを調査します。\\n\\n候補となるOriginを調べるには、まずそれらを評価する必要があります。まず、\\[ファイル\\]→\\[開く\\] で調査対象のファイルを選択し、その中の行を選択します。そして、可能性のあるOriginの計算が完了するまで待ちます。"
@@ -14100,10 +14105,12 @@ msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "Author Avatar"
 msgstr "作者のアバター"
 
+#, fixed
 msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "Author with Full Name and Email"
 msgstr "作者\\(フルネーム\\)とEメール"
 
+#, fixed
 msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "Author with Full Name"
 msgstr "作者\\(フルネーム\\)"
@@ -14180,10 +14187,12 @@ msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "Committer Avatar"
 msgstr "コミッターのアバター"
 
+#, fixed
 msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "Committer with Full Name and Email"
 msgstr "コミッター\\(フルネームとメールアドレス\\)"
 
+#, fixed
 msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "Committer with Full Name"
 msgstr "コミッター\\(フルネーム\\)"
@@ -14524,10 +14533,12 @@ msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "Push, then Pull"
 msgstr "プッシュ→プル"
 
+#, fixed
 msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "Quick Stash All"
 msgstr "クイックスタッシュ\\(全て\\)"
 
+#, fixed
 msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "Quick Stash Selection"
 msgstr "クイックスタッシュ\\(選択項目\\)"
@@ -14648,6 +14659,7 @@ msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "Set '$1' to $2"
 msgstr "'$1' を $2 に設定"
 
+#, fixed
 msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "Show All Refs"
 msgstr "すべての参照\\(Refs\\)を表示"
@@ -15192,6 +15204,7 @@ msgctxt "wnd(Log|Project|Std|).mniLfsLock"
 msgid "Lock"
 msgstr "ロック"
 
+#, fixed
 msgctxt "wnd(Log|Project|Std|).mniLfsPrune"
 msgid "Prune"
 msgstr "不要データの削除\\(Prune\\)"
@@ -15688,6 +15701,7 @@ msgctxt "wnd(Log|Project|Std|).mniSubmoduleDeactivate"
 msgid "Deactivate"
 msgstr "無効にする"
 
+#, fixed
 msgctxt "wnd(Log|Project|Std|).mniSubmoduleDeinit"
 msgid "Deinit"
 msgstr "初期化解除\\(Deinit\\)"
@@ -15824,6 +15838,7 @@ msgctxt "wnd(Log|Project|Std|).mniViewUnchanged"
 msgid "Show Unchanged Files"
 msgstr "未変更ファイルの表示"
 
+#, fixed
 msgctxt "wnd(Log|Project|Std|).mniViewUnchangedAssumed"
 msgid "Show Assume-Unchanged Files"
 msgstr "変更を無視する\\(Assume-Unchanged設定の\\)ファイルを表示"
@@ -15908,6 +15923,7 @@ msgctxt "wnd(Log|Project|Std|).mniWorktreeRemove"
 msgid "Remove Worktree"
 msgstr "ワークツリーを削除する"
 
+#, fixed
 msgctxt "wnd(Log|Project|Std|).mnu:"
 msgid "Bisect"
 msgstr "不具合コミット特定\\(Bisect\\)"
@@ -16588,6 +16604,7 @@ msgctxt "wnd(Log|Project|Std|).tbtViewUnchanged"
 msgid "If selected, unchanged files will be shown."
 msgstr "選択すると、変更されていないファイルが表示されます。"
 
+#, fixed
 msgctxt "wnd(Log|Project|Std|).tbtViewUnchangedAssumed"
 msgid "If selected, files having the 'assume-unchanged' flag will be shown."
 msgstr "変更すべきでない\\(assume-unchanged\\)フラグが設定されたファイルが表示されます。"
