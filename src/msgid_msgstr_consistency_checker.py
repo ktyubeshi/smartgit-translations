@@ -40,8 +40,7 @@ Usage:
    - `po_file`: Path to the PO file to check (optional).
    - `-l` or `--language`: Language code for output messages (`en`, `ja`, or `zh`).
      Defaults to `en` (English).
-   - `-e` or `--export`: Export problematic entries to a separate PO file.
-     The output file will be named with '_errors' suffix.
+   - `--no-export`: Do not export problematic entries to a separate PO file.
 
 3. **Output**:
    - The script prints any inconsistencies found, indicating the entry number
@@ -253,9 +252,10 @@ def main():
         help='Language for output messages (default: en)'
     )
     parser.add_argument(
-        '-e', '--export',
+        '--no-export',
         action='store_true',
-        help='Export problematic entries to a separate PO file'
+        default=False,
+        help='Do not export problematic entries to a separate PO file'
     )
     args = parser.parse_args()
 
@@ -281,7 +281,7 @@ def main():
         print(lang['file_not_found'].format(filepath=po_filepath))
         sys.exit(1)
 
-    process_po_file(po_filepath, lang_code, args.export)
+    process_po_file(po_filepath, lang_code, not args.no_export)
 
 if __name__ == "__main__":
     main()
