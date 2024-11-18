@@ -157,8 +157,8 @@ def check_pot_entry(msgid, msgstr, lang, entry):
     if not msgstr.strip():
         return None
 
-    # Skip if the entry has a [Fixed] comment
-    if hasattr(entry, 'tcomment') and entry.tcomment and '[Fixed]' in entry.tcomment:
+    # Skip if the entry has a 'fixed' flag (case-insensitive)
+    if hasattr(entry, 'flags') and any(flag.lower() == 'fixed' for flag in entry.flags):
         return None
 
     error_messages = []
