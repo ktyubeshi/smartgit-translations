@@ -59,7 +59,7 @@ msgstr "次に、グループに残っているリファレンス\\(refs\\)の�
 
 msgctxt "(dlgSgPreferences|dlgSgRepositorySettings).ttpGroupPatterns:"
 msgid "Patterns will be matched against the full ref-name, including the <tt>refs</tt>-prefix. For a matching ref, its name will be shortened to the last path-segment \\('\\\\/'\\). For example, <tt>refs/tags/build-.\\*</tt> will match a tag <tt>refs/tags/build-123</tt> and its name will be shortened to <tt>build-123</tt>. You may add a <i>named regex capturing group</i> called <tt>name</tt> to further customize the name extraction. For example, <tt>refs/tags/build-\\(?&lt;name&gt;.\\*\\)</tt> will match <tt>refs/tags/build-123</tt> and its name will be shortened to <tt>123</tt>."
-msgstr "パターンは、'refs' プレフィックスを含むフル リファレンス名に対してマッチングされます。マッチングしたリファレンス名は、最後のパス セグメント（'/'） までを短縮形で表示します。たとえば、<tt>refs/tags/build-.\\*<\\/tt> はタグ <tt>refs/tags/build-123<\\/tt> にマッチし、その名前が <tt>build-123<\\/tt> に短縮されます。また、<tt>name<\\/tt> という名前の <i>named regex capturing group<\\/i> を追加することで、名前の取り出しをさらにカスタマイズすることができます。たとえば、<tt>refs/tags/build-\\\\(?&lt;name&gt;.\\*\\\\)<\\/tt> は <tt>refs/tags/build-123<\\/tt> にマッチし、その名前が <tt>123<\\/tt> に短縮されます。"
+msgstr "パターンは、<tt>refs</tt>プレフィックスを含むフル リファレンス名に対してマッチングされます。マッチングしたリファレンス名は、最後のパス セグメント \\('\\\\/'\\) までを短縮形で表示します。たとえば、<tt>refs/tags/build-.\\*</tt> はタグ <tt>refs/tags/build-123</tt> にマッチし、その名前が <tt>build-123</tt> に短縮されます。また、<tt>name</tt> という名前の <i>named regex capturing group</i> を追加することで、名前の取り出しをさらにカスタマイズすることができます。たとえば、<tt>refs/tags/build-\\(?&lt;name&gt;.\\*\\)</tt> は <tt>refs/tags/build-123</tt> にマッチし、その名前が <tt>123</tt> に短縮されます。"
 
 msgctxt "(dlgSgPreferences|dlgSgRepositorySettings).ttpGroupPatterns:"
 msgid "Refs will be categorized into groups: when traversing the repository root log, refs will first be assigned to matching groups. Every group will store only the most recently encountered ref, i.e. if a new ref is encountered, it will replace all existing refs in the current group."
@@ -766,9 +766,10 @@ msgctxt "dlgScConflictSolver(Add|Edit).inf"
 msgid "Define the file pattern \\(e.g. \\*.txt\\) and select the merge tool which should be used to resolve conflicting files matching this pattern."
 msgstr "ファイルパターン\\(例: \\*.txt\\)を定義し、このパターンに一致するファイルの競合を解決するために使用するマージツールを選択します。"
 
+#, fixed
 msgctxt "dlgScConflictSolver(Add|Edit).lbl:"
 msgid "Valid wildcards are ?\\u00a0\\(one arbitrary character\\) and \\*\\u00a0\\(any number of arbitrary characters\\). Separate multiple patterns by comma. Example:\\u00a0\\*.txt,\\u00a0\\*.html"
-msgstr "有効なワイルドカードは下記のとおりです。複数のパターンはコンマで区切ります。\\r例：*.txt,*.html \\r ? (任意の1文字) \\r * (任意の数の任意の文字)"
+msgstr "有効なワイルドカードは ?\\u00a0\\(任意の1文字\\) および \\*\\u00a0\\(任意の数の任意の文字\\) です。\\n複数のパターンはコンマで区切ります。例:\\u00a0\\*.txt,\\u00a0\\*.html"
 
 msgctxt "dlgScConflictSolver(Add|Edit).lbl:"
 msgid "You must use the variables \\$\\{leftFile\\}, \\$\\{rightFile\\} and \\$\\{mergedFile\\}."
@@ -1142,9 +1143,10 @@ msgctxt "dlgScFileComparator(Add|Edit).inf"
 msgid "Define the file pattern \\(e.g. \\*.png\\) and select the compare command which should be used to compare files matching the file pattern."
 msgstr "ファイルパターン\\(例：\\*.png\\)を定義し、ファイルパターンに一致するファイルを比較するために使用する比較コマンドを選択します。"
 
+#, fixed
 msgctxt "dlgScFileComparator(Add|Edit).lbl:"
 msgid "Valid wildcards are ?\\u00a0\\(one arbitrary character\\) and \\*\\u00a0\\(any number of arbitrary characters\\). Separate multiple patterns by comma. Example:\\u00a0\\*.txt,\\u00a0\\*.html"
-msgstr "有効なワイルドカードは下記のとおりです。複数のパターンはコンマで区切ります。\\r例：*.txt,*.html \\r ? (任意の1文字) \\r * (任意の数の任意の文字)"
+msgstr "有効なワイルドカードは ?\\u00a0\\(任意の1文字\\) および\\*\\u00a0\\(任意の数の任意の文字\\) です。\\n複数のパターンはコンマで区切ります。例:\\u00a0\\*.txt,\\u00a0\\*.html"
 
 msgctxt "dlgScFileComparator(Add|Edit).mni:"
 msgid "File"
@@ -1254,9 +1256,10 @@ msgctxt "dlgScFilePatternsEdit.inf"
 msgid "File patterns are used to determine file language, which is used for syntax coloring."
 msgstr "ファイルパターンは、ファイル言語を決定するために使用され、シンタックスカラーリングに使用されます。"
 
+#, fixed
 msgctxt "dlgScFilePatternsEdit.lbl:"
 msgid "Valid wildcards are ?\\u00a0\\(one arbitrary character\\) and \\*\\u00a0\\(any number of arbitrary characters\\). Separate multiple patterns by comma. Example:\\u00a0\\*.txt,\\u00a0\\*.html"
-msgstr "有効なワイルドカードは下記のとおりです。複数のパターンはコンマで区切ります。\\r例：*.txt,*.html \\r ? (任意の1文字) \\r * (任意の数の任意の文字)"
+msgstr "有効なワイルドカードは ?\\u00a0\\(任意の1文字\\) および \\*\\u00a0\\(任意の数の任意の文字\\) です。\\n複数のパターンはコンマで区切ります。例:\\u00a0\\*.txt,\\u00a0\\*.html"
 
 msgctxt "dlgScFilePatternsEdit.tle"
 msgid "File Patterns"
@@ -1738,9 +1741,10 @@ msgctxt "dlgScTextFinderFindFromStart.tle"
 msgid "Find Text"
 msgstr "テキストの検索"
 
+#, fixed
 msgctxt "dlgScTextFinderNothingFound.hdl"
 msgid "No \\(more\\) occurrences have been found."
-msgstr "見つかりませんでした。"
+msgstr "これ以上の一致項目は見つかりませんでした。"
 
 msgctxt "dlgScTextFinderNothingFound.tle"
 msgid "Find Text"
@@ -1806,6 +1810,7 @@ msgctxt "dlgScTextSettings.chk:"
 msgid "Split leading/trailing added or removed lines into separate blocks"
 msgstr "追加・削除された行の先頭・末尾を別のブロックに分割する"
 
+#, fixed
 msgctxt "dlgScTextSettings.chk:"
 msgid "Trim equal start/end of Inner-Line changes"
 msgstr "行内変更の開始\\/終了を均等にトリム"
@@ -2490,6 +2495,7 @@ msgctxt "dlgSgBugReportSettings.chk:"
 msgid "Send 'crash footprints' after an internal error has occurred"
 msgstr "内部エラー発生後の「クラッシュフットプリント」の送信"
 
+#, fixed
 msgctxt "dlgSgBugReportSettings.err:"
 msgid "Sending 'crash footprints' is required for preview builds, because their main purposes is to get as much as possible bugs reported and fixed before release."
 msgstr "プレビュービルドには「クラッシュフットプリント」を送信する必要があります。\\rこれは、プレビュービルドの主な目的が、リリース前にできるだけ多くのバグを報告して修正することであるためです。"
@@ -3044,7 +3050,7 @@ msgstr "SmartGit を Credential-Helper として設定する"
 
 msgctxt "dlgSgCloneSetCredentialHelper.fur"
 msgid "If selected, SmartGit will be set as `credential.helper` in the `.git\\\\/config` of newly cloned repositories that are cloned directly from a configured Hosting Provider. Executing remote Git commands \\(e.g. \\*pull\\* or \\*push\\*\\) in the terminal or a shell script will then use the credentials known to SmartGit.\\n\\nThis repository setting will only affect new clones and takes precedence over any `credential.helper` configuration in your user `~\\\\/.gitconfig`.\\n\\nFor already cloned repositories the setting \\*Use SmartGit as credential helper\\* can be changed in \\*Repository \\| Settings\\*.\\n\\n\\*When to select?\\*\\nIf you solely use SmartGit as your GUI client and you use Git from the command line, we suggest selecting this option. It will simplify the authentication process when accessing platforms like GitHub.\\n\\n\\*When not to set?\\*\\nIf you also use other GUI clients, adding this configuration may disrupt the authentication of these tools and should be avoided.\\n\\nIf you do not use Git on command line or other GUI clients, selecting this option serves no purpose and is not recommended."
-msgstr "選択した場合、設定済みのホスティングプロバイダーから直接クローンされた新しいリポジトリの `.git/config` に、SmartGit が `credential.helper` として設定されます。ターミナルまたはシェルスクリプトでリモート Git コマンド (例: *pull* または *push*) を実行すると、SmartGit に認識されている資格情報が使用されます。\\n\\nこのリポジトリ設定は、新しいクローンにのみ影響し、ユーザーの `~/.gitconfig` にある `credential.helper` 設定よりも優先されます。\\n\\n既にクローンされているリポジトリの場合、*SmartGit を認証ヘルパーとして使用する* 設定は、*リポジトリ | 設定* で変更できます。\\n\\n*いつ選択するか？*\\nSmartGit のみを GUI クライアントとして使用し、コマンドラインから Git を使用する場合は、このオプションを選択することをお勧めします。GitHub などのプラットフォームにアクセスする際の認証プロセスが簡素化されます。\\n\\n*いつ設定しないか？*\\n他の GUI クライアントも使用している場合、この設定を追加すると、これらのツールの認証が中断される可能性があるため、避ける必要があります。\\n\\nコマンドラインまたは他の GUI クライアントで Git を使用しない場合、このオプションを選択しても意味がないため、推奨されません。"
+msgstr "選択すると、SmartGit は設定済みのホスティングプロバイダーから直接クローンされた新しいリポジトリの `.git\\\\/config` において `credential.helper` として設定されます。ターミナルまたはシェルスクリプトでリモート Git コマンド \\(例: \\*pull\\* または \\*push\\*\\) を実行すると、SmartGit に認識されている資格情報が使用されます。\\n\\nこのリポジトリ設定は、新しいクローンにのみ影響し、ユーザーの `~\\\\/.gitconfig` にある `credential.helper` 設定よりも優先されます。\\n\\n既にクローンされているリポジトリの場合、\\*SmartGit を認証ヘルパーとして使用する\\* 設定は、\\*リポジトリ \\| 設定\\* で変更できます。\\n\\n\\*いつ選択するか？\\*\\nSmartGit のみを GUI クライアントとして使用し、コマンドラインから Git を使用する場合は、このオプションを選択することをお勧めします。GitHub などのプラットフォームにアクセスする際の認証プロセスが簡素化されます。\\n\\n\\*いつ設定しないか？\\*\\n他の GUI クライアントも使用している場合、この設定を追加すると、これらのツールの認証が中断される可能性があるため、避ける必要があります。\\n\\nコマンドラインまたは他の GUI クライアントで Git を使用しない場合、このオプションを選択しても意味がないため、推奨されません。"
 
 msgctxt "dlgSgCloneSetCredentialHelper.hdl"
 msgid "Do you want to configure SmartGit as credential helper?"
@@ -7228,10 +7234,12 @@ msgctxt "dlgSgPreferences.rbt:"
 msgid "Don't use a proxy"
 msgstr "プロキシを使わない"
 
+#, Fixed
 msgctxt "dlgSgPreferences.rbt:"
 msgid "Exact case \\('Foo' will match 'Foo', but not 'foo'\\)"
 msgstr "大文字小文字を区別する"
 
+#, Fixed
 msgctxt "dlgSgPreferences.rbt:"
 msgid "Ignore case \\('Foo' will match 'Foo' and 'foo'\\)"
 msgstr "大文字小文字を区別しない"
@@ -7384,6 +7392,7 @@ msgctxt "dlgSgPreferences.ttpSmartGitAsCredentialHelper:"
 msgid "<b>When to select?</b>"
 msgstr "<b>設定が推奨される場合</b>"
 
+#, fixed
 msgctxt "dlgSgPreferences.ttpSmartGitAsCredentialHelper:"
 msgid "For already cloned repositories the setting <b>Use SmartGit as credential helper</b> can be changed in <b>Repository \\| Settings</b>."
 msgstr "既にクローンされているリポジトリの場合、設定 <b>SmartGit を認証ヘルパーとして使用する</b> は、<b>[リポジトリ]→[設定]</b> で変更できます。"
@@ -7924,9 +7933,10 @@ msgctxt "dlgSgPushToRef.hdl:"
 msgid "Push '$1' to remote '$2'"
 msgstr "'$1' をリモート '$2' にプッシュする"
 
+#, fixed
 msgctxt "dlgSgPushToRef.inf"
 msgid "Select the target repository where to push the ref\\(s\\)."
-msgstr "参照\\(Ref\\(s)\\)をプッシュするターゲット リポジトリを選択します。"
+msgstr "参照\\(Ref\\(s\\)\\)をプッシュするターゲット リポジトリを選択します。"
 
 msgctxt "dlgSgPushToRef.rbt:"
 msgid "Custom Ref:"
@@ -7960,6 +7970,7 @@ msgctxt "dlgSgPushToRemote.hdl%1"
 msgid "Push '$1' branches to another remote"
 msgstr "別のリモートに '$1' ブランチをプッシュする"
 
+#, fixed
 msgctxt "dlgSgPushToRemote.inf%1"
 msgid "All branches of '$1' \\(as locally represented by the corresponding remote branches\\) will be pushed to the target repository."
 msgstr "'$1' のすべてのブランチがターゲットリポジトリにプッシュされます。\\r\\(リモートにローカルと対応するブランチが作成されます。\\)"
@@ -9588,7 +9599,7 @@ msgstr "プルリクエストの割り当て"
 
 msgctxt "dlgSgReviewPullRequestState.inf"
 msgid "Enter the user\\(s\\) to which the Pull Request should be assigned to."
-msgstr "プルリクエストを割り当てるユーザーを入力してください。"
+msgstr "プルリクエストの担当者\(複数可\)を入力してください。"
 
 msgctxt "dlgSgReviewPullRequestState.tle"
 msgid "Assign"
@@ -9993,7 +10004,7 @@ msgstr "スタンダードウィンドウを使用する"
 
 msgctxt "dlgSgSetupStdWnd.fur"
 msgid "We recommend the Standard window for \\*new or less experienced Git users\\*.\\n\\nIf you have used older SmartGit versions, you might be surprised that the Standard window \\*looks different\\* than you are used to. In case you want to get the previous experience, consider to select the \\*Log Graph\\* or \\*Working Tree\\* window instead."
-msgstr "初めてのGitユーザーまたは経験の浅い方には、スタンダードウィンドウをおすすめします。\\n\\n以前にSmartGitの古いバージョンを使用していた場合、スタンダードウィンドウが従来のものとは\\*異なる見た目\\*になっていることに驚かれるかもしれません。\\n\\n以前のバージョンと同様の体験をしたい場合は、\\*ロググラフ\\* ウィンドウまたは \\*作業ツリー\\* ウィンドウを選択してみてください。"
+msgstr "\\*新規または経験の浅いGitユーザー\\*には、スタンダードウィンドウをおすすめします。\\n\\n以前のバージョンのSmartGitを使用していた場合、スタンダードウィンドウが\\*見た目が異なる\\*ことに驚かれるかもしれません。以前と同様の使用感をお求めの場合は、代わりに\\*ロググラフ\\*または\\*作業ツリー\\*ウィンドウの選択をご検討ください。"
 
 msgctxt "dlgSgSetupStdWnd.hdl"
 msgid "Do you want to use the Standard Window?"
@@ -10977,7 +10988,7 @@ msgstr "メニュー項目名"
 
 msgctxt "dlgSgTool(Add|Edit).inf"
 msgid "Define the name of the tool menu item, the command which should be executed and configure its arguments. The used variables define on what selection the tool may be used."
-msgstr "ツールメニューの項目名、実行するコマンド、その引数を定義します。\\r引数は、そのツールをどの選択項目に対して使用するかを定義します。"
+msgstr "ツールメニューの表示名、実行するコマンド、引数を設定します。変数を使って、ツールの適用対象を指定します。"
 
 msgctxt "dlgSgTool(Add|Edit).lbl:"
 msgid "Valid wildcards are ?\\u00a0\\(one arbitrary character\\) and \\*\\u00a0\\(any number of arbitrary characters\\). Separate multiple patterns by comma. Example:\\u00a0\\*.txt,\\u00a0\\*.html"
@@ -11107,6 +11118,7 @@ msgctxt "dlgSgWelcome.hdl"
 msgid "What do you want to do?"
 msgstr "何をしますか？"
 
+#, fixed
 msgctxt "dlgSgWelcome.inf"
 msgid "Select whether to open a new, local repository, clone a \\(remote\\) repository or open an existing repository."
 msgstr "新規リポジトリの作成、リモートリポジトリのクローン、既存リポジトリを開くのいずれかを選択してください。"
@@ -11858,7 +11870,7 @@ msgstr "1回目のコミットで不要な変更をアンステージし、コ�
 
 msgctxt "ttpBranches:"
 msgid "<b>$1</b> <col1>approved</col1> on <b>$2</b>:"
-msgstr "<b>$1</b> は <col1>$2</col1> で承認されました:"
+msgstr "<b>$1</b> は <b>$2</b> で <col1>承認</col1>されました:"
 
 msgctxt "ttpBranches:"
 msgid "<b>Author:\\t</b>$1"
@@ -11972,6 +11984,7 @@ msgctxt "ttpBranches:"
 msgid "<b>Tracking State:\\t</b>identical"
 msgstr "<b>追跡状態:\\t</b>同一"
 
+#, fixed
 msgctxt "ttpBranches:"
 msgid "<b>\\t</b><col1>Tracking is configured in .git/config but the tracked branch is not present \\(any more\\)."
 msgstr "<b>\\t</b><col1>.git/config で追跡が設定されていますが、追跡されているブランチはもう存在しません。"
@@ -11984,6 +11997,7 @@ msgctxt "ttpBranches:"
 msgid "<col1>The pull requests is conflicting; changes won't be displayed. First, the pull request has to be fixed to become mergable. After that, you can refetch the pull request.</col1>"
 msgstr "<col1>プルリクエストの変更内容に競合が発生しているため、変更が表示されません。まず、プルリクエストを修正してマージ可能にする必要があります。その後、プルリクエストを再取得できます。</col1>"
 
+#, fixed
 msgctxt "ttpBranches:"
 msgid "<col1>Tracking is configured in .git/config but the tracked branch is not present \\(any more\\).</col1>"
 msgstr "<col1>.git/config で追跡が設定されていますが、追跡されているブランチはもう存在しません。</col1>"
@@ -12112,6 +12126,7 @@ msgctxt "ttpRepositories:"
 msgid "<col1>Remote </col1>$1<b>\\t</b>$2"
 msgstr "<col1>リモート </col1>$1<b>\\t</b>$2"
 
+#, fixed
 msgctxt "ttpRepositories:"
 msgid "<col1>Tracking is configured in .git/config but the tracked branch is not present \\(any more\\).</col1>"
 msgstr "<col1>.git/config で追跡が設定されていますが、追跡されているブランチはもう存在しません。</col1>"
@@ -12348,6 +12363,7 @@ msgctxt "wndCompare.mniView-layout-left-beside-right"
 msgid "Left Beside Right"
 msgstr "左右に並べて表示"
 
+#, fixed
 msgctxt "wndCompare.mniView-layout-left-over-right"
 msgid "Left Above Right"
 msgstr "上下に並べて表示\\(上にLeft,下にRight\\)"
