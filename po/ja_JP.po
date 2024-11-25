@@ -57,9 +57,10 @@ msgctxt "(dlgSgPreferences|dlgSgRepositorySettings).ttpGroupPatterns:"
 msgid "Next, the refs remaining in the group will be passed on from child to parent commit. Now, once again they will be assigned to matching groups, possibly replacing other refs or possibly becoming replaced by more recent refs."
 msgstr "次に、グループに残っているリファレンス\\(refs\\)のうち、子コミットから親コミットへと渡されるものがあります。 これらのリファレンスは、再びマッチンググループに割り当てられ、他のリファレンスに置き換えられる場合もあれば、更新されたリファレンスに置き換えられる場合もあります。"
 
+#, fuzzy
 msgctxt "(dlgSgPreferences|dlgSgRepositorySettings).ttpGroupPatterns:"
 msgid "Patterns will be matched against the full ref-name, including the <tt>refs</tt>-prefix. For a matching ref, its name will be shortened to the last path-segment \\('\\\\/'\\). For example, <tt>refs/tags/build-.\\*</tt> will match a tag <tt>refs/tags/build-123</tt> and its name will be shortened to <tt>build-123</tt>. You may add a <i>named regex capturing group</i> called <tt>name</tt> to further customize the name extraction. For example, <tt>refs/tags/build-\\(?&lt;name&gt;.\\*\\)</tt> will match <tt>refs/tags/build-123</tt> and its name will be shortened to <tt>123</tt>."
-msgstr "パターンは、<tt>refs</tt>プレフィックスを含むフル リファレンス名に対してマッチングされます。マッチングしたリファレンス名は、最後のパス セグメント \\('\\\\/'\\) までを短縮形で表示します。たとえば、<tt>refs/tags/build-.\\*</tt> はタグ <tt>refs/tags/build-123</tt> にマッチし、その名前が <tt>build-123</tt> に短縮されます。また、<tt>name</tt> という名前の <i>named regex capturing group</i> を追加することで、名前の取り出しをさらにカスタマイズすることができます。たとえば、<tt>refs/tags/build-\\(?&lt;name&gt;.\\*\\)</tt> は <tt>refs/tags/build-123</tt> にマッチし、その名前が <tt>123</tt> に短縮されます。"
+msgstr "パターンは<tt>refs</tt>プレフィックスを含む完全な参照名に対してマッチングされます。マッチした参照の名前は、最後のパスセグメント\\('\\\\/'\\)に短縮されます。例えば、<tt>refs/tags/build-.\\*</tt>は<tt>refs/tags/build-123</tt>というタグにマッチし、その名前は<tt>build-123</tt>に短縮されます。名前の抽出をさらにカスタマイズするには、<tt>name</tt>という<i>名前付き正規表現キャプチャグループ</i>を追加できます。例えば、<tt>refs/tags/build-\\(?&lt;name&gt;.\\*\\)</tt>は<tt>refs/tags/build-123</tt>にマッチし、その名前は<tt>123</tt>に短縮されます。"
 
 msgctxt "(dlgSgPreferences|dlgSgRepositorySettings).ttpGroupPatterns:"
 msgid "Refs will be categorized into groups: when traversing the repository root log, refs will first be assigned to matching groups. Every group will store only the most recently encountered ref, i.e. if a new ref is encountered, it will replace all existing refs in the current group."
@@ -353,7 +354,6 @@ msgctxt "dlgQBugReportSend.btn:"
 msgid "Report Bug"
 msgstr "バグを報告"
 
-#, fixed
 msgctxt "dlgQBugReportSend.edt:"
 msgid "Comments or Steps to Reproduce"
 msgstr "コメントまたは再現のための手順\\(英語で記述してください\\)"
@@ -766,10 +766,22 @@ msgctxt "dlgScConflictSolver(Add|Edit).inf"
 msgid "Define the file pattern \\(e.g. \\*.txt\\) and select the merge tool which should be used to resolve conflicting files matching this pattern."
 msgstr "ファイルパターン\\(例: \\*.txt\\)を定義し、このパターンに一致するファイルの競合を解決するために使用するマージツールを選択します。"
 
-#, fixed
+# [Checker] エスケープ文字に問題があります。
+# [Checker] ・不足しているエスケープ文字: '\u' が 4 個
+# [Checker] ・不足しているエスケープ文字: '\(' が 2 個
+# [Checker] ・不足しているエスケープ文字: '\)' が 2 個
+# [Checker] ・不足しているエスケープ文字: '\*' が 3 個
+# [Checker] ・余分なエスケープ文字: '\r' が 3 個
+# [Checker] エスケープ文字に問題があります。
+# [Checker] ・不足しているエスケープ文字: '\u' が 4 個
+# [Checker] ・不足しているエスケープ文字: '\(' が 2 個
+# [Checker] ・不足しているエスケープ文字: '\)' が 2 個
+# [Checker] ・不足しているエスケープ文字: '\*' が 3 個
+# [Checker] ・余分なエスケープ文字: '\r' が 3 個
+#, fuzzy
 msgctxt "dlgScConflictSolver(Add|Edit).lbl:"
 msgid "Valid wildcards are ?\\u00a0\\(one arbitrary character\\) and \\*\\u00a0\\(any number of arbitrary characters\\). Separate multiple patterns by comma. Example:\\u00a0\\*.txt,\\u00a0\\*.html"
-msgstr "有効なワイルドカードは ?\\u00a0\\(任意の1文字\\) および \\*\\u00a0\\(任意の数の任意の文字\\) です。\\n複数のパターンはコンマで区切ります。例:\\u00a0\\*.txt,\\u00a0\\*.html"
+msgstr "有効なワイルドカードは下記のとおりです。複数のパターンはコンマで区切ります。\\r例：*.txt,*.html \\r ? (任意の1文字) \\r * (任意の数の任意の文字)"
 
 msgctxt "dlgScConflictSolver(Add|Edit).lbl:"
 msgid "You must use the variables \\$\\{leftFile\\}, \\$\\{rightFile\\} and \\$\\{mergedFile\\}."
@@ -1143,10 +1155,22 @@ msgctxt "dlgScFileComparator(Add|Edit).inf"
 msgid "Define the file pattern \\(e.g. \\*.png\\) and select the compare command which should be used to compare files matching the file pattern."
 msgstr "ファイルパターン\\(例：\\*.png\\)を定義し、ファイルパターンに一致するファイルを比較するために使用する比較コマンドを選択します。"
 
-#, fixed
+# [Checker] エスケープ文字に問題があります。
+# [Checker] ・不足しているエスケープ文字: '\u' が 4 個
+# [Checker] ・不足しているエスケープ文字: '\(' が 2 個
+# [Checker] ・不足しているエスケープ文字: '\)' が 2 個
+# [Checker] ・不足しているエスケープ文字: '\*' が 3 個
+# [Checker] ・余分なエスケープ文字: '\r' が 3 個
+# [Checker] エスケープ文字に問題があります。
+# [Checker] ・不足しているエスケープ文字: '\u' が 4 個
+# [Checker] ・不足しているエスケープ文字: '\(' が 2 個
+# [Checker] ・不足しているエスケープ文字: '\)' が 2 個
+# [Checker] ・不足しているエスケープ文字: '\*' が 3 個
+# [Checker] ・余分なエスケープ文字: '\r' が 3 個
+#, fuzzy
 msgctxt "dlgScFileComparator(Add|Edit).lbl:"
 msgid "Valid wildcards are ?\\u00a0\\(one arbitrary character\\) and \\*\\u00a0\\(any number of arbitrary characters\\). Separate multiple patterns by comma. Example:\\u00a0\\*.txt,\\u00a0\\*.html"
-msgstr "有効なワイルドカードは ?\\u00a0\\(任意の1文字\\) および\\*\\u00a0\\(任意の数の任意の文字\\) です。\\n複数のパターンはコンマで区切ります。例:\\u00a0\\*.txt,\\u00a0\\*.html"
+msgstr "有効なワイルドカードは下記のとおりです。複数のパターンはコンマで区切ります。\\r例：*.txt,*.html \\r ? (任意の1文字) \\r * (任意の数の任意の文字)"
 
 msgctxt "dlgScFileComparator(Add|Edit).mni:"
 msgid "File"
@@ -1256,10 +1280,22 @@ msgctxt "dlgScFilePatternsEdit.inf"
 msgid "File patterns are used to determine file language, which is used for syntax coloring."
 msgstr "ファイルパターンは、ファイル言語を決定するために使用され、シンタックスカラーリングに使用されます。"
 
-#, fixed
+# [Checker] エスケープ文字に問題があります。
+# [Checker] ・不足しているエスケープ文字: '\u' が 4 個
+# [Checker] ・不足しているエスケープ文字: '\(' が 2 個
+# [Checker] ・不足しているエスケープ文字: '\)' が 2 個
+# [Checker] ・不足しているエスケープ文字: '\*' が 3 個
+# [Checker] ・余分なエスケープ文字: '\r' が 3 個
+# [Checker] エスケープ文字に問題があります。
+# [Checker] ・不足しているエスケープ文字: '\u' が 4 個
+# [Checker] ・不足しているエスケープ文字: '\(' が 2 個
+# [Checker] ・不足しているエスケープ文字: '\)' が 2 個
+# [Checker] ・不足しているエスケープ文字: '\*' が 3 個
+# [Checker] ・余分なエスケープ文字: '\r' が 3 個
+#, fuzzy
 msgctxt "dlgScFilePatternsEdit.lbl:"
 msgid "Valid wildcards are ?\\u00a0\\(one arbitrary character\\) and \\*\\u00a0\\(any number of arbitrary characters\\). Separate multiple patterns by comma. Example:\\u00a0\\*.txt,\\u00a0\\*.html"
-msgstr "有効なワイルドカードは ?\\u00a0\\(任意の1文字\\) および \\*\\u00a0\\(任意の数の任意の文字\\) です。\\n複数のパターンはコンマで区切ります。例:\\u00a0\\*.txt,\\u00a0\\*.html"
+msgstr "有効なワイルドカードは下記のとおりです。複数のパターンはコンマで区切ります。\\r例：*.txt,*.html \\r ? (任意の1文字) \\r * (任意の数の任意の文字)"
 
 msgctxt "dlgScFilePatternsEdit.tle"
 msgid "File Patterns"
@@ -1341,6 +1377,15 @@ msgctxt "dlgScJiraCommitMessageSelect.inf"
 msgid "The selected issue summary will be used as commit message."
 msgstr "選択された課題の概要がコミットメッセージとして使用されます。"
 
+# [Checker] エスケープ文字に問題があります。
+# [Checker] ・不足しているエスケープ文字: '\(' が 1 個
+# [Checker] ・不足しているエスケープ文字: '\)' が 1 個
+# [Checker] ・余分なエスケープ文字: '\n' が 1 個
+# [Checker] エスケープ文字に問題があります。
+# [Checker] ・不足しているエスケープ文字: '\(' が 1 個
+# [Checker] ・不足しているエスケープ文字: '\)' が 1 個
+# [Checker] ・余分なエスケープ文字: '\n' が 1 個
+#, fuzzy
 msgctxt "dlgScJiraCommitMessageSelect.lbl:"
 msgid "Enter the JQL-Queries which will be loaded in the specified order: every query on a new line, \\$\\{projects\\} will be substituted by the JIRA project key\\(s\\) which is derived or explicitly specified in your .gitbugtraq file.\\n\\nYou can compose a JQL query directly in JIRA, using Issues\\|Search and go to Advanced view there."
 msgstr "指定した順序でロードされるJQLクエリーを、クエリごとに改行して入力します。\\n\\$\\{projects\\} は、.gitbugtraq ファイルの内容に従って導出または明示的に指定されたJIRAプロジェクトキーによって置き換えられます。\\n\\nJIRA で直接 JQL クエリを作成するには、課題\\|検索 で \"JQLに切り替え\"を開きます。"
@@ -1677,6 +1722,11 @@ msgctxt "dlgScSpellCheckDictionary(Add|Edit).edt:"
 msgid "Name"
 msgstr "名前"
 
+# [Checker] エスケープ文字に問題があります。
+# [Checker] ・不足しているエスケープ文字: '\*' が 1 個
+# [Checker] ・不足しているエスケープ文字: '\)' が 1 個
+# [Checker] ・余分なエスケープ文字: '\r' が 1 個
+#, fuzzy
 msgctxt "dlgScSpellCheckDictionary(Add|Edit).inf"
 msgid "Specify the MySpell dictionary file to use, e.g. \\*.dic from Mozilla Firefox' or Thunderbird's \"dictionary\" directory\\). The name is used when switching between different dictionaries."
 msgstr "使用するMySpell辞書ファイルを指定します（例：Mozilla FirefoxまたはThunderbirdの「辞書」ディレクトリにある*.dic）\\r名前は、異なる辞書を切り替える際に使用されます。"
@@ -1741,10 +1791,13 @@ msgctxt "dlgScTextFinderFindFromStart.tle"
 msgid "Find Text"
 msgstr "テキストの検索"
 
-#, fixed
+# [Checker] エスケープ文字に問題があります。
+# [Checker] ・不足しているエスケープ文字: '\(' が 1 個
+# [Checker] ・不足しているエスケープ文字: '\)' が 1 個
+#, fuzzy
 msgctxt "dlgScTextFinderNothingFound.hdl"
 msgid "No \\(more\\) occurrences have been found."
-msgstr "これ以上の一致項目は見つかりませんでした。"
+msgstr "見つかりませんでした。"
 
 msgctxt "dlgScTextFinderNothingFound.tle"
 msgid "Find Text"
@@ -1810,7 +1863,9 @@ msgctxt "dlgScTextSettings.chk:"
 msgid "Split leading/trailing added or removed lines into separate blocks"
 msgstr "追加・削除された行の先頭・末尾を別のブロックに分割する"
 
-#, fixed
+# [Checker] エスケープ文字に問題があります。
+# [Checker] ・余分なエスケープ文字: '\/' が 1 個
+#, fuzzy
 msgctxt "dlgScTextSettings.chk:"
 msgid "Trim equal start/end of Inner-Line changes"
 msgstr "行内変更の開始\\/終了を均等にトリム"
@@ -1955,9 +2010,16 @@ msgctxt "dlgSgAbortBisectingConfirm.btn:"
 msgid "Abort Bisect"
 msgstr "問題箇所の特定('bisect')を中止"
 
+# [Checker] エスケープ文字に問題があります。
+# [Checker] ・余分なエスケープ文字: '\(' が 1 個
+# [Checker] ・余分なエスケープ文字: '\)' が 1 個
+# [Checker] エスケープ文字に問題があります。
+# [Checker] ・余分なエスケープ文字: '\(' が 1 個
+# [Checker] ・余分なエスケープ文字: '\)' が 1 個
+#, fuzzy
 msgctxt "dlgSgAbortBisectingConfirm.fur"
 msgid "Your working tree is in 'bisecting' state. You may abort it to get out of this state.\\n\\nAborting will checkout the branch or commit before starting bisect."
-msgstr "作業ツリーは「問題箇所の特定中」の状態になっています。\\n\\n中止すると、問題箇所の特定\\('bisect'\\) を開始する前のブランチまたはコミットがチェックアウトされます。"
+msgstr "作業ツリーは現在不具合コミット特定中\\(bisectの実行中\\)です。この処理を中止して通常の状態に戻すことができます。\\n\\n中止した場合、不具合コミット特定を開始する前のブランチまたはコミットの状態に戻ります。"
 
 msgctxt "dlgSgAbortBisectingConfirm.hdl"
 msgid "Do you want to reset your working tree?"
@@ -2003,6 +2065,13 @@ msgctxt "dlgSgAbortRebasingConfirm.btn:"
 msgid "Abort Rebase"
 msgstr "リベースを中止"
 
+# [Checker] エスケープ文字に問題があります。
+# [Checker] ・不足しているエスケープ文字: '\|' が 2 個
+# [Checker] ・不足しているエスケープ文字: '\)' が 1 個
+# [Checker] ・余分なエスケープ文字: '\[' が 3 個
+# [Checker] ・余分なエスケープ文字: '\]' が 3 個
+# [Checker] ・余分なエスケープ文字: '\）' が 1 個
+#, fuzzy
 msgctxt "dlgSgAbortRebasingConfirm.fur"
 msgid "Your working tree is in 'rebasing' state. You may abort rebasing; if you just want to skip the current patch, use Branch \\| Rebase \\| Rebase instead.\\n\\nAborting will clean any local modification \\(by invoking 'git rebase --abort'\\)!"
 msgstr "作業ツリーは「リベース中」の状態です。リベースを中止できます。現在のパッチをスキップしたい場合は、代わりに\\[ブランチ\\]→\\[リベース\\]→\\[リベース HEAD to\\] を使用してください。\\n\\n中止すると、ローカルの変更を消去することができます。\\('git reset --hard' の実行\\）"
@@ -2189,11 +2258,11 @@ msgstr "Azure DevOps"
 
 msgctxt "dlgSgBisectResult.btn:"
 msgid "Continue Bisect"
-msgstr "問題箇所の特定を続行"
+msgstr "不具合コミット特定を続行"
 
 msgctxt "dlgSgBisectResult.btn:"
 msgid "Leave Bisect"
-msgstr "問題箇所の特定をやめる"
+msgstr "不具合コミット特定をやめる"
 
 msgctxt "dlgSgBisectResult.fur%1"
 msgid "$1"
@@ -2213,7 +2282,7 @@ msgstr "ヘッドを 'bad' とマークして問題箇所の特定を開始"
 
 msgctxt "dlgSgBisectStartConfirm.btn:"
 msgid "Start Bisect"
-msgstr "問題箇所の特定を開始"
+msgstr "不具合コミット特定を開始"
 
 msgctxt "dlgSgBisectStartConfirm.fur"
 msgid "You need to mark 1 commit as good and 1 commit as bad before Git can start the binary search."
@@ -2223,9 +2292,11 @@ msgctxt "dlgSgBisectStartConfirm.hdl"
 msgid "Should the bisect be started with a bad commit?"
 msgstr "バッドコミットで問題箇所の特定を開始する必要がありますか?"
 
+# [Checker] エスケープ文字に問題があります。# [Checker] ・余分なエスケープ文字: '\(' が 1 個# [Checker] ・余分なエスケープ文字: '\)' が 1 個# [Checker] エスケープ文字に問題があります。# [Checker] ・余分なエスケープ文字: '\(' が 1 個# [Checker] ・余分なエスケープ文字: '\)' が 1 個#, fuzzy
+# [Checker] エスケープ文字に問題があります。# [Checker] ・余分なエスケープ文字: '\(' が 1 個# [Checker] ・余分なエスケープ文字: '\)' が 1 個# [Checker] エスケープ文字に問題があります。# [Checker] ・余分なエスケープ文字: '\(' が 1 個# [Checker] ・余分なエスケープ文字: '\)' が 1 個#, fuzzy
 msgctxt "dlgSgBisectStartConfirm.tle"
 msgid "Start Bisect"
-msgstr "問題箇所の特定\\(bisect\\)を開始"
+msgstr "不具合コミット特定\\(Bisect\\)を開始"
 
 msgctxt "dlgSgBitbucketGenerateToken.edt:"
 msgid "Code"
@@ -2359,6 +2430,10 @@ msgctxt "dlgSgBranchDeleteLocalConfirmMultiple.fur:"
 msgid "It might be complicated to restore deleted branches.\\n\\nYou may only delete a branch from your local list of remote branches, but this may bring back the branch with the next fetch."
 msgstr "削除されたブランチを復元するのは複雑な作業になる可能性があります。\\n\\nローカルにあるリモートブランチ一覧からブランチを削除することはできますが、次のフェッチでブランチが再び現れる可能性があります。"
 
+# [Checker] エスケープ文字に問題があります。
+# [Checker] ・不足しているエスケープ文字: '\(' が 1 個
+# [Checker] ・不足しているエスケープ文字: '\)' が 1 個
+#, fuzzy
 msgctxt "dlgSgBranchDeleteLocalConfirmMultiple.fur:"
 msgid "You may lose unpushed changes or it might be complicated to restore the branch\\(es\\)!"
 msgstr "プッシュされていない変更が失われたり、ブランチの復元が困難になる可能性があります!"
@@ -2395,6 +2470,10 @@ msgctxt "dlgSgBranchDeleteLocalConfirmSingle.fur:"
 msgid "It might be complicated to restore deleted branches."
 msgstr "削除されたブランチを復元するのは困難な場合があります。"
 
+# [Checker] エスケープ文字に問題があります。
+# [Checker] ・不足しているエスケープ文字: '\(' が 1 個
+# [Checker] ・不足しているエスケープ文字: '\)' が 1 個
+#, fuzzy
 msgctxt "dlgSgBranchDeleteLocalConfirmSingle.fur:"
 msgid "You may lose unpushed changes or it might be complicated to restore the branch\\(es\\)!"
 msgstr "プッシュされていない変更が失われたり、ブランチの復元が困難になる可能性があります!"
@@ -2495,7 +2574,9 @@ msgctxt "dlgSgBugReportSettings.chk:"
 msgid "Send 'crash footprints' after an internal error has occurred"
 msgstr "内部エラー発生後の「クラッシュフットプリント」の送信"
 
-#, fixed
+# [Checker] エスケープ文字に問題があります。
+# [Checker] ・余分なエスケープ文字: '\r' が 1 個
+#, fuzzy
 msgctxt "dlgSgBugReportSettings.err:"
 msgid "Sending 'crash footprints' is required for preview builds, because their main purposes is to get as much as possible bugs reported and fixed before release."
 msgstr "プレビュービルドには「クラッシュフットプリント」を送信する必要があります。\\rこれは、プレビュービルドの主な目的が、リリース前にできるだけ多くのバグを報告して修正することであるためです。"
@@ -2508,6 +2589,11 @@ msgctxt "dlgSgBugReportSettings.inf"
 msgid "Please help to improve SmartGit's quality by automatically sending 'crash footprints'."
 msgstr "「クラッシュ フットプリント」と使用状況統計を自動的に送信することで、SmartGit の品質向上にご協力ください。 \" このオプションは、後で [環境設定] で変更できます。"
 
+# [Checker] エスケープ文字に問題があります。
+# [Checker] ・不足しているエスケープ文字: '\(' が 1 個
+# [Checker] ・不足しているエスケープ文字: '\)' が 1 個
+# [Checker] ・不足しているエスケープ文字: '\n' が 2 個
+#, fuzzy
 msgctxt "dlgSgBugReportSettings.lbl:"
 msgid "A 'crash footprint' contains details about your machine \\(e.g. version of operating system\\), SmartGit's version/build number, the JVM state and where the internal error occurred.\\n\\nIt contains NO POTENTIALLY SENSITIVE INFORMATION like user names, email addresses, file contents, file paths or server names."
 msgstr "クラッシュフットプリント」には、お客様のマシンの詳細（オペレーティングシステムのバージョンなど）、SmartGitのバージョン/ビルド番号、JVMの状態、内部エラーが発生した場所などが含まれていますが、ユーザー名、メールアドレス、ファイルの内容、ファイルパス、サーバー名などの機密情報は含まれていません。"
@@ -3048,9 +3134,16 @@ msgctxt "dlgSgCloneSetCredentialHelper.btn:"
 msgid "Set SmartGit as Credential-Helper"
 msgstr "SmartGit を Credential-Helper として設定する"
 
+# [Checker] エスケープ文字に問題があります。
+# [Checker] ・不足しているエスケープ文字: '\\' が 2 個
+# [Checker] ・不足しているエスケープ文字: '\(' が 1 個
+# [Checker] ・不足しているエスケープ文字: '\*' が 12 個
+# [Checker] ・不足しているエスケープ文字: '\)' が 1 個
+# [Checker] ・不足しているエスケープ文字: '\|' が 1 個
+#, fuzzy
 msgctxt "dlgSgCloneSetCredentialHelper.fur"
 msgid "If selected, SmartGit will be set as `credential.helper` in the `.git\\\\/config` of newly cloned repositories that are cloned directly from a configured Hosting Provider. Executing remote Git commands \\(e.g. \\*pull\\* or \\*push\\*\\) in the terminal or a shell script will then use the credentials known to SmartGit.\\n\\nThis repository setting will only affect new clones and takes precedence over any `credential.helper` configuration in your user `~\\\\/.gitconfig`.\\n\\nFor already cloned repositories the setting \\*Use SmartGit as credential helper\\* can be changed in \\*Repository \\| Settings\\*.\\n\\n\\*When to select?\\*\\nIf you solely use SmartGit as your GUI client and you use Git from the command line, we suggest selecting this option. It will simplify the authentication process when accessing platforms like GitHub.\\n\\n\\*When not to set?\\*\\nIf you also use other GUI clients, adding this configuration may disrupt the authentication of these tools and should be avoided.\\n\\nIf you do not use Git on command line or other GUI clients, selecting this option serves no purpose and is not recommended."
-msgstr "選択すると、SmartGit は設定済みのホスティングプロバイダーから直接クローンされた新しいリポジトリの `.git\\\\/config` において `credential.helper` として設定されます。ターミナルまたはシェルスクリプトでリモート Git コマンド \\(例: \\*pull\\* または \\*push\\*\\) を実行すると、SmartGit に認識されている資格情報が使用されます。\\n\\nこのリポジトリ設定は、新しいクローンにのみ影響し、ユーザーの `~\\\\/.gitconfig` にある `credential.helper` 設定よりも優先されます。\\n\\n既にクローンされているリポジトリの場合、\\*SmartGit を認証ヘルパーとして使用する\\* 設定は、\\*リポジトリ \\| 設定\\* で変更できます。\\n\\n\\*いつ選択するか？\\*\\nSmartGit のみを GUI クライアントとして使用し、コマンドラインから Git を使用する場合は、このオプションを選択することをお勧めします。GitHub などのプラットフォームにアクセスする際の認証プロセスが簡素化されます。\\n\\n\\*いつ設定しないか？\\*\\n他の GUI クライアントも使用している場合、この設定を追加すると、これらのツールの認証が中断される可能性があるため、避ける必要があります。\\n\\nコマンドラインまたは他の GUI クライアントで Git を使用しない場合、このオプションを選択しても意味がないため、推奨されません。"
+msgstr "選択した場合、設定済みのホスティングプロバイダーから直接クローンされた新しいリポジトリの `.git/config` に、SmartGit が `credential.helper` として設定されます。ターミナルまたはシェルスクリプトでリモート Git コマンド (例: *pull* または *push*) を実行すると、SmartGit に認識されている資格情報が使用されます。\\n\\nこのリポジトリ設定は、新しいクローンにのみ影響し、ユーザーの `~/.gitconfig` にある `credential.helper` 設定よりも優先されます。\\n\\n既にクローンされているリポジトリの場合、*SmartGit を認証ヘルパーとして使用する* 設定は、*リポジトリ | 設定* で変更できます。\\n\\n*いつ選択するか？*\\nSmartGit のみを GUI クライアントとして使用し、コマンドラインから Git を使用する場合は、このオプションを選択することをお勧めします。GitHub などのプラットフォームにアクセスする際の認証プロセスが簡素化されます。\\n\\n*いつ設定しないか？*\\n他の GUI クライアントも使用している場合、この設定を追加すると、これらのツールの認証が中断される可能性があるため、避ける必要があります。\\n\\nコマンドラインまたは他の GUI クライアントで Git を使用しない場合、このオプションを選択しても意味がないため、推奨されません。"
 
 msgctxt "dlgSgCloneSetCredentialHelper.hdl"
 msgid "Do you want to configure SmartGit as credential helper?"
@@ -3064,6 +3157,10 @@ msgctxt "dlgSgCloneSetCredentialHelper.tle"
 msgid "Clone"
 msgstr "クローン"
 
+# [Checker] エスケープ文字に問題があります。
+# [Checker] ・不足しているエスケープ文字: '\(' が 1 個
+# [Checker] ・不足しているエスケープ文字: '\)' が 1 個
+#, fuzzy
 msgctxt "dlgSgCloneSvnDetachedHeadSuccess.fur"
 msgid "SmartGit now continues to fetch all other revisions in the background. You may safely start working with the repository now; only log-related operations will be affected by this intermediate state.\\n\\nOnce SmartGit has finished the background part of the clone, it will let you know in the notifications area \\(status bar\\) and you can complete the clone there."
 msgstr "SmartGit は現在、バックグラウンドで他のすべてのリビジョンの取得を続けています。ログ関連の操作だけが、この中間状態の影響を受けます。\\n\\nSmartGit がバックグラウンドでのクローンを完了すると、通知領域でそれを知らせますので、そこでクローンを完了することができます。"
@@ -3204,6 +3301,9 @@ msgctxt "dlgSgCommitAmendAlreadyPushedCommit.btn:"
 msgid "Amend"
 msgstr "修正する"
 
+# [Checker] エスケープ文字に問題があります。
+# [Checker] ・余分なエスケープ文字: '\r' が 1 個
+#, fuzzy
 msgctxt "dlgSgCommitAmendAlreadyPushedCommit.fur"
 msgid "If you amend a pushed commit, you will need to force-push it later. This might overwrite other users' changes."
 msgstr "プッシュしたコミットを修正した場合、後で強制的にプッシュする必要があります。\\rこの場合、他のユーザーの変更を上書きしてしまう可能性があります。"
@@ -3440,6 +3540,11 @@ msgctxt "dlgSgCommitToDetachedHead.btn:"
 msgid "Commit Anyway"
 msgstr "とにかくコミットする"
 
+# [Checker] エスケープ文字に問題があります。
+# [Checker] ・不足しているエスケープ文字: '\(' が 1 個
+# [Checker] ・不足しているエスケープ文字: '\)' が 1 個
+# [Checker] ・不足しているエスケープ文字: '\n' が 2 個
+#, fuzzy
 msgctxt "dlgSgCommitToDetachedHead.fur"
 msgid "The repository HEAD currently does not point to a branch, but directly refers to a commit \\(SHA\\). When committing, the newly created commit will only be reachable by its SHA and hence may get lost easily.\\n\\nInstead of committing now, you should first create a branch for your current HEAD and commit afterwards."
 msgstr "リポジトリの HEAD は現在、ブランチを指しておらず、コミット(SHA)を直接参照しています。コミットする際に、新しく作成したコミットはSHAでしか到達できないため、簡単に見失ってしまう可能性があります。今すぐコミットするのではなく、まず現在のHEADにブランチを作成し、その後にコミットしてください。"
@@ -3508,6 +3613,9 @@ msgctxt "dlgSgConflictSolverMarkResolved.btn:"
 msgid "Mark Resolved"
 msgstr "解決済みとしてマーク"
 
+# [Checker] エスケープ文字に問題があります。
+# [Checker] ・余分なエスケープ文字: '\n' が 1 個
+#, fuzzy
 msgctxt "dlgSgConflictSolverMarkResolved.fur"
 msgid "To complete a conflict resolution, the file needs to be marked as resolved \\(git stage\\). Until marked as resolved, the file remains in conflicted state and you can try other conflict resolutions."
 msgstr "競合の解決を完了するには、そのファイルを解決済みとしてマークする必要があります。 \\(git stage\\)\\n 解決済みとマークされるまでは、ファイルは競合状態のままであり、他の競合解決を試すことができます。"
@@ -3826,6 +3934,11 @@ msgctxt "dlgSgFileCompareNoChanges.chk"
 msgid "Don't show again"
 msgstr "次回から表示しない"
 
+# [Checker] エスケープ文字に問題があります。
+# [Checker] ・不足しているエスケープ文字: '\n' が 1 個
+# [Checker] エスケープ文字に問題があります。
+# [Checker] ・不足しているエスケープ文字: '\n' が 1 個
+#, fuzzy
 msgctxt "dlgSgFileCompareNoChanges.fur"
 msgid "Both file contents are byte-wise equal.\\nTo see the file contents anyway, click 'Open'."
 msgstr "ファイルの内容を確認するには、「開く」をクリックしてください。"
@@ -3850,6 +3963,11 @@ msgctxt "dlgSgFlowBranchDivergedHandlerFastForward.btn:"
 msgid "Fast-Forward"
 msgstr "ファストフォワード"
 
+# [Checker] エスケープ文字に問題があります。
+# [Checker] ・余分なエスケープ文字: '\n' が 1 個
+# [Checker] エスケープ文字に問題があります。
+# [Checker] ・余分なエスケープ文字: '\n' が 1 個
+#, fuzzy
 msgctxt "dlgSgFlowBranchDivergedHandlerFastForward.fur%3"
 msgid "The local branch '$1' is behind its tracked branch '$2'. You may fast-forward now or do it manually later, e.g. by checking out the branch '$3'."
 msgstr "ローカル ブランチ '$1' は、追跡されているブランチ '$2' の後ろにあります。ここでファストフォワードすることも、後で手動で行うこともできます。\\nたとえば、ブランチ '$3' をチェックアウトするなど、手動で行っても良いでしょう。"
@@ -4330,6 +4448,13 @@ msgctxt "dlgSgGarbageCollector.chk:"
 msgid "Also prune recently created objects"
 msgstr "最近作成されたオブジェクトのプルーニングも実施"
 
+# [Checker] エスケープ文字に問題があります。
+# [Checker] ・不足しているエスケープ文字: '\(' が 1 個
+# [Checker] ・不足しているエスケープ文字: '\)' が 1 個
+# [Checker] エスケープ文字に問題があります。
+# [Checker] ・不足しているエスケープ文字: '\(' が 1 個
+# [Checker] ・不足しているエスケープ文字: '\)' が 1 個
+#, fuzzy
 msgctxt "dlgSgGarbageCollector.chk:"
 msgid "Expire reflog now \\(will also delete stashes!\\)"
 msgstr "今すぐ'reflog'を失効させる（スタッシュも削除されます）"
@@ -4342,6 +4467,11 @@ msgctxt "dlgSgGarbageCollector.hdl"
 msgid "Run Garbage Collector"
 msgstr "ガベージコレクタ"
 
+# [Checker] エスケープ文字に問題があります。
+# [Checker] ・余分なエスケープ文字: '\r' が 1 個
+# [Checker] エスケープ文字に問題があります。
+# [Checker] ・余分なエスケープ文字: '\r' が 1 個
+#, fuzzy
 msgctxt "dlgSgGarbageCollector.inf"
 msgid "Running the Git garbage collector will prune unreachable objects and optimize the local repository in order to reduce disk space and increase performance."
 msgstr "Gitガベージコレクタを実行すると、到達できないオブジェクトが削除され、ローカルリポジトリが最適化されます。\\rディスク消費量が削減され、パフォーマンスが向上します。"
@@ -4414,6 +4544,11 @@ msgctxt "dlgSgGitHubPullRequestCreate.btn:"
 msgid "Create"
 msgstr "作成"
 
+# [Checker] エスケープ文字に問題があります。
+# [Checker] ・不足しているエスケープ文字: '\(' が 1 個
+# [Checker] ・不足しているエスケープ文字: '\'' が 1 個
+# [Checker] ・不足しているエスケープ文字: '\)' が 1 個
+#, fuzzy
 msgctxt "dlgSgGitHubPullRequestCreate.chk:"
 msgid "Draft \\(don\\'t notify code owners yet\\)"
 msgstr "ドラフト （コード所有者にはまだ通知しないでください）"
@@ -4780,6 +4915,9 @@ msgctxt "dlgSgHistoryPushedCommitsModifyPushedCommits.btn:"
 msgid "Modify Pushed Commits"
 msgstr "既にプッシュされたコミットを修正する"
 
+# [Checker] エスケープ文字に問題があります。
+# [Checker] ・余分なエスケープ文字: '\r' が 1 個
+#, fuzzy
 msgctxt "dlgSgHistoryPushedCommitsModifyPushedCommits.fur"
 msgid "Commits which are already pushed are known to other users and may have been used by them to build theirs commits upon. When modifying such commits, these users may run into unexpected conflicts later."
 msgstr "既にプッシュされているコミットは、他のユーザーにも知られており、そのユーザーが自分のコミットを構築する際に使用されている可能性があります。\\rこのようなコミットを変更すると、後で予期せぬ衝突が起こる可能性があります。"
@@ -4892,6 +5030,10 @@ msgctxt "dlgSgHostingProviderAdd.btn:"
 msgid "Generate Token"
 msgstr "トークンを生成"
 
+# [Checker] エスケープ文字に問題があります。
+# [Checker] ・不足しているエスケープ文字: '\(' が 1 個
+# [Checker] ・不足しているエスケープ文字: '\)' が 1 個
+#, fuzzy
 msgctxt "dlgSgHostingProviderAdd.chk:"
 msgid "Use OAuth token for repository authentication \\(instead of password\\)"
 msgstr "リポジトリの認証に（パスワードではなく）OAuthトークンを使用する"
@@ -4900,6 +5042,10 @@ msgctxt "dlgSgHostingProviderAdd.chk:"
 msgid "Use SSH instead of HTTPS to access repositories"
 msgstr "リポジトリへのアクセスにHTTPSではなくSSHを使用する"
 
+# [Checker] エスケープ文字に問題があります。
+# [Checker] ・不足しているエスケープ文字: '\(' が 1 個
+# [Checker] ・不足しているエスケープ文字: '\)' が 1 個
+#, fuzzy
 msgctxt "dlgSgHostingProviderAdd.chk:"
 msgid "Use SSL client certificates \\(usually not required\\)"
 msgstr "SSLクライアント証明書の使用（通常は必要ありません）"
@@ -4990,18 +5136,35 @@ msgctxt "dlgSgHostingProviderAdd.lbl:"
 msgid "SSL Client Certificate \\(optional\\)"
 msgstr "SSL クライアント証明書 \\(オプション\\)"
 
+# [Checker] エスケープ文字に問題があります。
+# [Checker] ・不足しているエスケープ文字: '\(' が 1 個
+# [Checker] ・不足しているエスケープ文字: '\)' が 1 個
+# [Checker] ・余分なエスケープ文字: '\r' が 1 個
+#, fuzzy
 msgctxt "dlgSgHostingProviderAdd.lbl:"
 msgid "The \\(API\\) token is a special auto-generated credential which SmartGit will use to authenticate at GitHub. It adds another layer of security, as you can easily revoke access by removing the token from the GitHub front-end."
 msgstr "APIトークンとは、SmartGitがGitHubでの認証に使用する、自動生成された特別なクレデンシャルです。\\rこのトークンを GitHub のフロントエンドから削除すれば、簡単にアクセスを取り消すことができるので、もうひとつのセキュリティ層となります。"
 
+# [Checker] エスケープ文字に問題があります。
+# [Checker] ・不足しているエスケープ文字: '\(' が 1 個
+# [Checker] ・不足しているエスケープ文字: '\)' が 1 個
+#, fuzzy
 msgctxt "dlgSgHostingProviderAdd.lbl:"
 msgid "The token may either be an autogenerated OAuth-token \\(use 'Generate Token' below\\) or a 'personal access token' which you can generate yourself in your Azure DevOps account settings."
 msgstr "トークンは、自動生成されたOAuthトークン（下記の「トークンの生成」を使用）か、Azure DevOpsのアカウント設定で自分で生成できる「パーソナルアクセストークン」のどちらかを使用します。"
 
+# [Checker] エスケープ文字に問題があります。
+# [Checker] ・不足しているエスケープ文字: '\(' が 1 個
+# [Checker] ・不足しているエスケープ文字: '\)' が 1 個
+#, fuzzy
 msgctxt "dlgSgHostingProviderAdd.lbl:"
 msgid "The token may either be an autogenerated OAuth-token \\(use 'Generate Token' below\\) or a 'personal access token' which you can generate yourself in your GitHub account settings."
 msgstr "トークンには、自動生成された OAuth トークン (以下の 'トークンを生成' を使用します) か、あるいは GitHub のアカウント設定で自分で生成した 'personal access token' を使用します。"
 
+# [Checker] エスケープ文字に問題があります。
+# [Checker] ・不足しているエスケープ文字: '\(' が 1 個
+# [Checker] ・不足しているエスケープ文字: '\)' が 1 個
+#, fuzzy
 msgctxt "dlgSgHostingProviderAdd.lbl:"
 msgid "The token may either be an autogenerated OAuth-token \\(use 'Generate Token' below\\) or a 'personal access token' which you can generate yourself in your GitLab account settings."
 msgstr "トークンには、自動生成された OAuth トークン (以下の 'トークンを生成' を使用します) か、あるいは GitLab のアカウント設定で自分で生成した 'personal access token' を使用します。"
@@ -5050,6 +5213,10 @@ msgctxt "dlgSgHostingProviderEdit.btn:"
 msgid "Generate Token"
 msgstr "トークンを生成"
 
+# [Checker] エスケープ文字に問題があります。
+# [Checker] ・不足しているエスケープ文字: '\(' が 1 個
+# [Checker] ・不足しているエスケープ文字: '\)' が 1 個
+#, fuzzy
 msgctxt "dlgSgHostingProviderEdit.chk:"
 msgid "Use OAuth token for repository authentication \\(instead of password\\)"
 msgstr "リポジトリの認証に（パスワードではなく）OAuthトークンを使用する"
@@ -5058,6 +5225,10 @@ msgctxt "dlgSgHostingProviderEdit.chk:"
 msgid "Use SSH instead of HTTPS to access repositories"
 msgstr "リポジトリへのアクセスにHTTPSではなくSSHを使用する"
 
+# [Checker] エスケープ文字に問題があります。
+# [Checker] ・不足しているエスケープ文字: '\(' が 1 個
+# [Checker] ・不足しているエスケープ文字: '\)' が 1 個
+#, fuzzy
 msgctxt "dlgSgHostingProviderEdit.chk:"
 msgid "Use SSL client certificates \\(usually not required\\)"
 msgstr "SSLクライアント証明書の使用（通常は必要ありません）"
@@ -5158,18 +5329,35 @@ msgctxt "dlgSgHostingProviderEdit.lbl:"
 msgid "SSL Client Certificate \\(optional\\)"
 msgstr "SSL クライアント証明書 \\(オプション\\)"
 
+# [Checker] エスケープ文字に問題があります。
+# [Checker] ・不足しているエスケープ文字: '\(' が 1 個
+# [Checker] ・不足しているエスケープ文字: '\)' が 1 個
+# [Checker] ・余分なエスケープ文字: '\r' が 1 個
+#, fuzzy
 msgctxt "dlgSgHostingProviderEdit.lbl:"
 msgid "The \\(API\\) token is a special auto-generated credential which SmartGit will use to authenticate at GitHub. It adds another layer of security, as you can easily revoke access by removing the token from the GitHub front-end."
 msgstr "APIトークンとは、SmartGitがGitHubでの認証に使用する、自動生成された特別なクレデンシャルです。\\rこのトークンを GitHub のフロントエンドから削除すれば、簡単にアクセスを取り消すことができるので、もうひとつのセキュリティ層となります。"
 
+# [Checker] エスケープ文字に問題があります。
+# [Checker] ・不足しているエスケープ文字: '\(' が 1 個
+# [Checker] ・不足しているエスケープ文字: '\)' が 1 個
+#, fuzzy
 msgctxt "dlgSgHostingProviderEdit.lbl:"
 msgid "The token may either be an autogenerated OAuth-token \\(use 'Generate Token' below\\) or a 'personal access token' which you can generate yourself in your Azure DevOps account settings."
 msgstr "トークンは、自動生成されたOAuthトークン（下記の「トークンの生成」を使用）か、Azure DevOpsのアカウント設定で自分で生成できる「パーソナルアクセストークン」のどちらかを使用します。"
 
+# [Checker] エスケープ文字に問題があります。
+# [Checker] ・不足しているエスケープ文字: '\(' が 1 個
+# [Checker] ・不足しているエスケープ文字: '\)' が 1 個
+#, fuzzy
 msgctxt "dlgSgHostingProviderEdit.lbl:"
 msgid "The token may either be an autogenerated OAuth-token \\(use 'Generate Token' below\\) or a 'personal access token' which you can generate yourself in your GitHub account settings."
 msgstr "トークンには、自動生成された OAuth トークン (以下の 'トークンを生成' を使用します) か、あるいは GitHub のアカウント設定で自分で生成した 'personal access token' を使用します。"
 
+# [Checker] エスケープ文字に問題があります。
+# [Checker] ・不足しているエスケープ文字: '\(' が 1 個
+# [Checker] ・不足しているエスケープ文字: '\)' が 1 個
+#, fuzzy
 msgctxt "dlgSgHostingProviderEdit.lbl:"
 msgid "The token may either be an autogenerated OAuth-token \\(use 'Generate Token' below\\) or a 'personal access token' which you can generate yourself in your GitLab account settings."
 msgstr "トークンには、自動生成された OAuth トークン (以下の 'トークンを生成' を使用します) か、あるいは GitLab のアカウント設定で自分で生成した 'personal access token' を使用します。"
@@ -5402,10 +5590,18 @@ msgctxt "dlgSgIgnoreFile.hdl"
 msgid "Mark files to be ignored"
 msgstr "無視するファイルを指定する"
 
+# [Checker] エスケープ文字に問題があります。
+# [Checker] ・不足しているエスケープ文字: '\(' が 1 個
+# [Checker] ・不足しているエスケープ文字: '\)' が 1 個
+# [Checker] ・余分なエスケープ文字: '\r' が 1 個
+#, fuzzy
 msgctxt "dlgSgIgnoreFile.inf"
 msgid "Choose whether to ignore only the selected file or all files matching the specified pattern. Tracked files will be removed \\(stopped from tracking\\)."
 msgstr "選択したファイルだけを無視するか、指定したパターンに一致するすべてのファイルを無視するかを選択します。\\r追跡されたファイルは以降のバージョン管理の対象から除外されます。"
 
+# [Checker] エスケープ文字に問題があります。
+# [Checker] ・不足しているエスケープ文字: '\*' が 1 個
+#, fuzzy
 msgctxt "dlgSgIgnoreFile.lbl:"
 msgid "Use ? to match a single or \\* to match multiple arbitrary characters. The pattern will be saved in the .gitignore file of the same directory."
 msgstr "単一の文字にマッチする場合は ? を、複数の任意の文字にマッチする場合は * を使用します。このパターンは、同じディレクトリの .gitignore ファイルに保存されます。"
@@ -5738,6 +5934,10 @@ msgctxt "dlgSgLogRefActionsDeleteConfirm.btn:"
 msgid "Delete Branch"
 msgstr "ブランチを削除"
 
+# [Checker] エスケープ文字に問題があります。
+# [Checker] ・不足しているエスケープ文字: '\(' が 1 個
+# [Checker] ・不足しているエスケープ文字: '\)' が 1 個
+#, fuzzy
 msgctxt "dlgSgLogRefActionsDeleteConfirm.fur"
 msgid "You may lose unpushed changes or it might be complicated to restore the branch\\(es\\)!"
 msgstr "プッシュされていない変更が失われたり、ブランチの復元が困難になる可能性があります。"
@@ -5814,6 +6014,10 @@ msgctxt "dlgSgMergeConfirmNoCommit.btn:"
 msgid "Merge"
 msgstr "マージ"
 
+# [Checker] エスケープ文字に問題があります。
+# [Checker] ・不足しているエスケープ文字: '\(' が 1 個
+# [Checker] ・不足しているエスケープ文字: '\)' が 1 個
+#, fuzzy
 msgctxt "dlgSgMergeConfirmNoCommit.fur"
 msgid "The selected revisions\\(s\\) will be merged to the working tree.\\n\\nNote that merging directly to the GitFlow-master branch is not recommended. Instead, you should start a hotfix."
 msgstr "選択したリビジョンが作業ツリーにマージされます。\\n\\nGitFlow-master ブランチに直接マージすることは推奨されないことに注意してください。代わりに、hotfix を開始する必要があります。"
@@ -6374,6 +6578,10 @@ msgctxt "dlgSgPreferences.chk:"
 msgid "Automatically send 'crash footprints' after an internal error has occurred"
 msgstr "内部エラー発生後、自動的に「クラッシュフットプリント」を送信"
 
+# [Checker] エスケープ文字に問題があります。
+# [Checker] ・不足しているエスケープ文字: '\)' が 1 個
+# [Checker] ・余分なエスケープ文字: '\）' が 1 個
+#, fuzzy
 msgctxt "dlgSgPreferences.chk:"
 msgid "Automatically set up tracking for new branches \\(requires push.default to be unset\\)"
 msgstr "新しいブランチの追跡を自動的に設定する\\(push.defaultが未設定の必要があります。\\）"
@@ -6406,6 +6614,10 @@ msgctxt "dlgSgPreferences.chk:"
 msgid "Detect remote changes"
 msgstr "リモートの変更の検出"
 
+# [Checker] エスケープ文字に問題があります。
+# [Checker] ・不足しているエスケープ文字: '\(' が 1 個
+# [Checker] ・余分なエスケープ文字: '\コ' が 1 個
+#, fuzzy
 msgctxt "dlgSgPreferences.chk:"
 msgid "Detect renames \\(for added and removed files, as command line Git does\\)"
 msgstr "リネームの検出\\コマンドラインGitと同様に、追加されたファイルと削除されたファイルの検出\\)"
@@ -6882,6 +7094,9 @@ msgctxt "dlgSgPreferences.lbl:"
 msgid "Built-in file compare"
 msgstr "内蔵の比較ツール"
 
+# [Checker] エスケープ文字に問題があります。
+# [Checker] ・余分なエスケープ文字: '\r' が 2 個
+#, fuzzy
 msgctxt "dlgSgPreferences.lbl:"
 msgid "Changing these low-level properties can be harmful to the stability or performance of SmartGit. You should only continue if you are sure of what you are doing. Changed properties with a trailing \\* need a restart to be applied."
 msgstr "ローレベルのプロパティを変更すると、SmartGitの安定性や性能に悪影響を及ぼす可能性があります。\\r自分が何をしているのか確信が持てる場合のみ、作業を続行するべきです。\\r変更したプロパティの末尾に\\*が付いている場合は、再起動が必要です。"
@@ -6998,10 +7213,16 @@ msgctxt "dlgSgPreferences.lbl:"
 msgid "To manually update in-place use the '...' button located next to the version number in the About dialog."
 msgstr "手動でインプレースアップデートするには、バージョン情報ダイアログのバージョン番号の横にある「...」ボタンを使用します。"
 
+# [Checker] エスケープ文字に問題があります。
+# [Checker] ・余分なエスケープ文字: '\r' が 1 個
+#, fuzzy
 msgctxt "dlgSgPreferences.lbl:"
 msgid "When comparing files, this list is searched from top to bottom to find a matching diff tool. If none is found, the built-in file compare is used for text files."
 msgstr "ファイルを比較する際、このリストを上から下に検索して一致する差分比較ツールを探します。\\r一致するものが見つからない場合は、テキストファイルに対して内蔵の比較ツールが使用されます。"
 
+# [Checker] エスケープ文字に問題があります。
+# [Checker] ・余分なエスケープ文字: '\r' が 1 個
+#, fuzzy
 msgctxt "dlgSgPreferences.lbl:"
 msgid "When invoking the Conflict Solver feature, this list is searched from top to bottom to find a matching entry. If none is found, the built-in Conflict Solver is used for text files."
 msgstr "コンフリクト解決機能を使用する際、このリストを上から下に向かって検索して一致するエントリーを探します。\\r一致するものが見つからない場合は、テキストファイルに対して内蔵のコンフリクトソルバーが使用されます。"
@@ -7234,12 +7455,18 @@ msgctxt "dlgSgPreferences.rbt:"
 msgid "Don't use a proxy"
 msgstr "プロキシを使わない"
 
-#, Fixed
+# [Checker] エスケープ文字に問題があります。
+# [Checker] ・不足しているエスケープ文字: '\(' が 1 個
+# [Checker] ・不足しているエスケープ文字: '\)' が 1 個
+#, fuzzy
 msgctxt "dlgSgPreferences.rbt:"
 msgid "Exact case \\('Foo' will match 'Foo', but not 'foo'\\)"
 msgstr "大文字小文字を区別する"
 
-#, Fixed
+# [Checker] エスケープ文字に問題があります。
+# [Checker] ・不足しているエスケープ文字: '\(' が 1 個
+# [Checker] ・不足しているエスケープ文字: '\)' が 1 個
+#, fuzzy
 msgctxt "dlgSgPreferences.rbt:"
 msgid "Ignore case \\('Foo' will match 'Foo' and 'foo'\\)"
 msgstr "大文字小文字を区別しない"
@@ -7392,7 +7619,9 @@ msgctxt "dlgSgPreferences.ttpSmartGitAsCredentialHelper:"
 msgid "<b>When to select?</b>"
 msgstr "<b>設定が推奨される場合</b>"
 
-#, fixed
+# [Checker] エスケープ文字に問題があります。
+# [Checker] ・不足しているエスケープ文字: '\|' が 1 個
+#, fuzzy
 msgctxt "dlgSgPreferences.ttpSmartGitAsCredentialHelper:"
 msgid "For already cloned repositories the setting <b>Use SmartGit as credential helper</b> can be changed in <b>Repository \\| Settings</b>."
 msgstr "既にクローンされているリポジトリの場合、設定 <b>SmartGit を認証ヘルパーとして使用する</b> は、<b>[リポジトリ]→[設定]</b> で変更できます。"
@@ -7933,10 +8162,12 @@ msgctxt "dlgSgPushToRef.hdl:"
 msgid "Push '$1' to remote '$2'"
 msgstr "'$1' をリモート '$2' にプッシュする"
 
-#, fixed
+# [Checker] エスケープ文字に問題があります。
+# [Checker] ・余分なエスケープ文字: '\(' が 1 個
+#, fuzzy
 msgctxt "dlgSgPushToRef.inf"
 msgid "Select the target repository where to push the ref\\(s\\)."
-msgstr "参照\\(Ref\\(s\\)\\)をプッシュするターゲット リポジトリを選択します。"
+msgstr "参照\\(Ref\\(s)\\)をプッシュするターゲット リポジトリを選択します。"
 
 msgctxt "dlgSgPushToRef.rbt:"
 msgid "Custom Ref:"
@@ -7970,7 +8201,9 @@ msgctxt "dlgSgPushToRemote.hdl%1"
 msgid "Push '$1' branches to another remote"
 msgstr "別のリモートに '$1' ブランチをプッシュする"
 
-#, fixed
+# [Checker] エスケープ文字に問題があります。
+# [Checker] ・余分なエスケープ文字: '\r' が 1 個
+#, fuzzy
 msgctxt "dlgSgPushToRemote.inf%1"
 msgid "All branches of '$1' \\(as locally represented by the corresponding remote branches\\) will be pushed to the target repository."
 msgstr "'$1' のすべてのブランチがターゲットリポジトリにプッシュされます。\\r\\(リモートにローカルと対応するブランチが作成されます。\\)"
@@ -8435,6 +8668,13 @@ msgctxt "dlgSgRebasingAbortConfirm.btn:"
 msgid "Abort Rebase"
 msgstr "リベースを中止"
 
+# [Checker] エスケープ文字に問題があります。
+# [Checker] ・不足しているエスケープ文字: '\|' が 2 個
+# [Checker] ・不足しているエスケープ文字: '\)' が 1 個
+# [Checker] ・余分なエスケープ文字: '\[' が 3 個
+# [Checker] ・余分なエスケープ文字: '\]' が 3 個
+# [Checker] ・余分なエスケープ文字: '\）' が 1 個
+#, fuzzy
 msgctxt "dlgSgRebasingAbortConfirm.fur"
 msgid "Your working tree is in 'rebasing' state. You may abort rebasing; if you just want to skip the current patch, use Branch \\| Rebase \\| Rebase HEAD To instead.\\n\\nAborting will clean any local modification \\(by invoking 'git reset --hard'\\)!"
 msgstr "作業ツリーは「リベース中」の状態です。リベースを中止できます。現在のパッチをスキップしたい場合は、代わりに\\[ブランチ\\]→\\[リベース\\]→\\[リベース HEAD to\\] を使用してください。\\n\\n中止すると、ローカルの変更を消去することができます。\\('git reset --hard' の実行\\）"
@@ -9333,6 +9573,9 @@ msgctxt "dlgSgRevealCommitLocalOrTracked.chk"
 msgid "Always reveal local branch"
 msgstr "常にローカルブランチを表示する"
 
+# [Checker] エスケープ文字に問題があります。
+# [Checker] ・余分なエスケープ文字: '\r' が 2 個
+#, fuzzy
 msgctxt "dlgSgRevealCommitLocalOrTracked.fur%2"
 msgid "Select whether to reveal '$1' or '$2'."
 msgstr "どちらを表示するかを選択してください。\\r'$1'\\r'$2'"
@@ -9597,9 +9840,10 @@ msgctxt "dlgSgReviewPullRequestState.hdl"
 msgid "Assign Pull Request"
 msgstr "プルリクエストの割り当て"
 
+#, fixed
 msgctxt "dlgSgReviewPullRequestState.inf"
 msgid "Enter the user\\(s\\) to which the Pull Request should be assigned to."
-msgstr "プルリクエストの担当者\(複数可\)を入力してください。"
+msgstr "プルリクエストを割り当てるユーザーを入力してください。"
 
 msgctxt "dlgSgReviewPullRequestState.tle"
 msgid "Assign"
@@ -10002,9 +10246,10 @@ msgctxt "dlgSgSetupStdWnd.btn:"
 msgid "Use Standard Window"
 msgstr "スタンダードウィンドウを使用する"
 
+#, fixed
 msgctxt "dlgSgSetupStdWnd.fur"
 msgid "We recommend the Standard window for \\*new or less experienced Git users\\*.\\n\\nIf you have used older SmartGit versions, you might be surprised that the Standard window \\*looks different\\* than you are used to. In case you want to get the previous experience, consider to select the \\*Log Graph\\* or \\*Working Tree\\* window instead."
-msgstr "\\*新規または経験の浅いGitユーザー\\*には、スタンダードウィンドウをおすすめします。\\n\\n以前のバージョンのSmartGitを使用していた場合、スタンダードウィンドウが\\*見た目が異なる\\*ことに驚かれるかもしれません。以前と同様の使用感をお求めの場合は、代わりに\\*ロググラフ\\*または\\*作業ツリー\\*ウィンドウの選択をご検討ください。"
+msgstr "初めてのGitユーザーまたは経験の浅い方には、スタンダードウィンドウをおすすめします。\\n\\n以前にSmartGitの古いバージョンを使用していた場合、スタンダードウィンドウが従来のものとは\\*異なる見た目\\*になっていることに驚かれるかもしれません。\\n\\n以前のバージョンと同様の体験をしたい場合は、\\*ロググラフ\\* ウィンドウまたは \\*作業ツリー\\* ウィンドウを選択してみてください。"
 
 msgctxt "dlgSgSetupStdWnd.hdl"
 msgid "Do you want to use the Standard Window?"
@@ -10526,6 +10771,7 @@ msgctxt "dlgSgSubmoduleAdd.tle"
 msgid "Add Submodule"
 msgstr "サブモジュールを追加"
 
+#, fixed
 msgctxt "dlgSgSubmoduleDeinitConfirm.btn:"
 msgid "Deinit"
 msgstr "初期化解除\\(Deinit\\)"
@@ -10814,6 +11060,9 @@ msgctxt "dlgSgSyncConfirm.chk"
 msgid "Don't show again"
 msgstr "次回から表示しない"
 
+# [Checker] エスケープ文字に問題があります。
+# [Checker] ・余分なエスケープ文字: '\r' が 1 個
+#, fuzzy
 msgctxt "dlgSgSyncConfirm.fur"
 msgid "First, local changes will be pushed, then possible remote changes pulled. The advantage over a normal push is that if it fails because of remote changes, they will be pulled automatically."
 msgstr "まず、ローカルの変更がプッシュされ、次に可能性のあるリモートの変更がプルされます。\\r通常のプッシュに比べて優れているのは、リモートの変更が原因で失敗した場合、それらが自動的にプルされることです。"
@@ -10986,9 +11235,12 @@ msgctxt "dlgSgTool(Add|Edit).edt:"
 msgid "Menu Item Name"
 msgstr "メニュー項目名"
 
+# [Checker] エスケープ文字に問題があります。
+# [Checker] ・余分なエスケープ文字: '\r' が 1 個
+#, fuzzy
 msgctxt "dlgSgTool(Add|Edit).inf"
 msgid "Define the name of the tool menu item, the command which should be executed and configure its arguments. The used variables define on what selection the tool may be used."
-msgstr "ツールメニューの表示名、実行するコマンド、引数を設定します。変数を使って、ツールの適用対象を指定します。"
+msgstr "ツールメニューの項目名、実行するコマンド、その引数を定義します。\\r引数は、そのツールをどの選択項目に対して使用するかを定義します。"
 
 msgctxt "dlgSgTool(Add|Edit).lbl:"
 msgid "Valid wildcards are ?\\u00a0\\(one arbitrary character\\) and \\*\\u00a0\\(any number of arbitrary characters\\). Separate multiple patterns by comma. Example:\\u00a0\\*.txt,\\u00a0\\*.html"
@@ -11118,7 +11370,10 @@ msgctxt "dlgSgWelcome.hdl"
 msgid "What do you want to do?"
 msgstr "何をしますか？"
 
-#, fixed
+# [Checker] エスケープ文字に問題があります。
+# [Checker] ・不足しているエスケープ文字: '\(' が 1 個
+# [Checker] ・不足しているエスケープ文字: '\)' が 1 個
+#, fuzzy
 msgctxt "dlgSgWelcome.inf"
 msgid "Select whether to open a new, local repository, clone a \\(remote\\) repository or open an existing repository."
 msgstr "新規リポジトリの作成、リモートリポジトリのクローン、既存リポジトリを開くのいずれかを選択してください。"
@@ -11868,9 +12123,12 @@ msgctxt "pop:"
 msgid "Unstage unwanted changes for the 1st commit, and commit."
 msgstr "1回目のコミットで不要な変更をアンステージし、コミットします。"
 
+# [Checker] HTMLタグに問題があります。
+# [Checker] ・不足しているHTMLタグ: 'b' が 2 個
+#, fuzzy
 msgctxt "ttpBranches:"
 msgid "<b>$1</b> <col1>approved</col1> on <b>$2</b>:"
-msgstr "<b>$1</b> は <b>$2</b> で <col1>承認</col1>されました:"
+msgstr "<b>$1</b> は <col1>$2</col1> で承認されました:"
 
 msgctxt "ttpBranches:"
 msgid "<b>Author:\\t</b>$1"
@@ -11984,7 +12242,10 @@ msgctxt "ttpBranches:"
 msgid "<b>Tracking State:\\t</b>identical"
 msgstr "<b>追跡状態:\\t</b>同一"
 
-#, fixed
+# [Checker] エスケープ文字に問題があります。
+# [Checker] ・不足しているエスケープ文字: '\(' が 1 個
+# [Checker] ・不足しているエスケープ文字: '\)' が 1 個
+#, fuzzy
 msgctxt "ttpBranches:"
 msgid "<b>\\t</b><col1>Tracking is configured in .git/config but the tracked branch is not present \\(any more\\)."
 msgstr "<b>\\t</b><col1>.git/config で追跡が設定されていますが、追跡されているブランチはもう存在しません。"
@@ -11997,7 +12258,10 @@ msgctxt "ttpBranches:"
 msgid "<col1>The pull requests is conflicting; changes won't be displayed. First, the pull request has to be fixed to become mergable. After that, you can refetch the pull request.</col1>"
 msgstr "<col1>プルリクエストの変更内容に競合が発生しているため、変更が表示されません。まず、プルリクエストを修正してマージ可能にする必要があります。その後、プルリクエストを再取得できます。</col1>"
 
-#, fixed
+# [Checker] エスケープ文字に問題があります。
+# [Checker] ・不足しているエスケープ文字: '\(' が 1 個
+# [Checker] ・不足しているエスケープ文字: '\)' が 1 個
+#, fuzzy
 msgctxt "ttpBranches:"
 msgid "<col1>Tracking is configured in .git/config but the tracked branch is not present \\(any more\\).</col1>"
 msgstr "<col1>.git/config で追跡が設定されていますが、追跡されているブランチはもう存在しません。</col1>"
@@ -12126,7 +12390,10 @@ msgctxt "ttpRepositories:"
 msgid "<col1>Remote </col1>$1<b>\\t</b>$2"
 msgstr "<col1>リモート </col1>$1<b>\\t</b>$2"
 
-#, fixed
+# [Checker] エスケープ文字に問題があります。
+# [Checker] ・不足しているエスケープ文字: '\(' が 1 個
+# [Checker] ・不足しているエスケープ文字: '\)' が 1 個
+#, fuzzy
 msgctxt "ttpRepositories:"
 msgid "<col1>Tracking is configured in .git/config but the tracked branch is not present \\(any more\\).</col1>"
 msgstr "<col1>.git/config で追跡が設定されていますが、追跡されているブランチはもう存在しません。</col1>"
@@ -12313,7 +12580,7 @@ msgstr "現在の行の履歴"
 
 msgctxt "wndAnnotate.tle:"
 msgid "$1 - Blame"
-msgstr "$1 - ブレーム"
+msgstr "$1 - ブレイム"
 
 msgctxt "wndCompare.lbl:"
 msgid "Force Compare"
@@ -12363,7 +12630,10 @@ msgctxt "wndCompare.mniView-layout-left-beside-right"
 msgid "Left Beside Right"
 msgstr "左右に並べて表示"
 
-#, fixed
+# [Checker] エスケープ文字に問題があります。
+# [Checker] ・余分なエスケープ文字: '\(' が 1 個
+# [Checker] ・余分なエスケープ文字: '\)' が 1 個
+#, fuzzy
 msgctxt "wndCompare.mniView-layout-left-over-right"
 msgid "Left Above Right"
 msgstr "上下に並べて表示\\(上にLeft,下にRight\\)"
@@ -12580,6 +12850,10 @@ msgctxt "wndDeepgit.ihp:"
 msgid "This view shows the blame for the selected file\\\\/commit from the \\*Navigation\\* tree. When selecting a line DeepGit will start searching for the origin of this line and show results in the \\*Origin Candidates\\* view \\(only available in the \\*Blame+Origins\\* perspective\\). The best origin candidate will be selected and highlighted. DeepGit will follow across line moves and file renames and taking into account the line's vicinity, so origin candidates will usually be blocks, not just single lines."
 msgstr "このビューには、\\*ナビゲーション\\* ツリーから選択したファイル\\\\/コミットに対するブレーム結果が表示されます。行を選択すると、DeepGit はこの行の起源の検索を開始し、\\*Origin候補\\* ビューに結果を表示します \\(\\*ブレーム+Origins\\* パースペクティブでのみ使用できます\\)。最適なOrigin候補が選択され、ハイライトされます。DeepGit は、行の移動とファイル名の変更を追跡し、行の周辺を考慮するため、Origin候補は通常、1 行だけでなくブロックになります。"
 
+# [Checker] エスケープ文字に問題があります。
+# [Checker] ・余分なエスケープ文字: '\(' が 1 個
+# [Checker] ・余分なエスケープ文字: '\)' が 1 個
+#, fuzzy
 msgctxt "wndDeepgit.ihp:"
 msgid "This view shows the diff for the selected file from the above \\*Files\\* view."
 msgstr "このビュー\\(差分ビュー\\)は、上記の \\*Files\\* ビューから選択したファイルの差分を表示します。"
@@ -12598,11 +12872,11 @@ msgstr "類似性検出は単一行に対してのみ実行されました。一
 
 msgctxt "wndDeepgit.lblBlameHeader:"
 msgid "Blame \\(in progress...\\)"
-msgstr "ブレーム\\(処理中…\\)"
+msgstr "ブレイム\\(処理中…\\)"
 
 msgctxt "wndDeepgit.lblBlameHeader:"
 msgid "Blame for"
-msgstr "ブレーム"
+msgstr "ブレイム"
 
 msgctxt "wndDeepgit.lblBlameMatchPopup:"
 msgid "Appeared here"
@@ -12680,6 +12954,10 @@ msgctxt "wndDeepgit.lblOriginCandidate:"
 msgid "Similarity detection was only performed for single lines, some results may be omitted \\(View\\|Extend Lines to Blocks\\)"
 msgstr "類似性検出は単一行に対してのみ実行されました。一部の結果は省略される場合があります \\(表示\\|行をブロックに拡張\\)"
 
+# [Checker] エスケープ文字に問題があります。
+# [Checker] ・余分なエスケープ文字: '\(' が 1 個
+# [Checker] ・余分なエスケープ文字: '\)' が 1 個
+#, fuzzy
 msgctxt "wndDeepgit.lblOriginCandidate:"
 msgid "as 'git diff' sees it"
 msgstr "\\(git diff が見ているように\\)"
@@ -12700,6 +12978,10 @@ msgctxt "wndDeepgit.lblOriginCandidate:"
 msgid "of"
 msgstr "of"
 
+# [Checker] エスケープ文字に問題があります。
+# [Checker] ・余分なエスケープ文字: '\(' が 1 個
+# [Checker] ・余分なエスケープ文字: '\)' が 1 個
+#, fuzzy
 msgctxt "wndDeepgit.lblOriginCandidate:"
 msgid "over from somewhere else"
 msgstr "\\(別の場所から\\)"
@@ -12866,11 +13148,11 @@ msgstr "Optimize 'Appeared Here' Origins"
 
 msgctxt "wndDeepgit.mniDgPerspectiveBlameOrigin"
 msgid "Blame+Origins Perspective"
-msgstr "ブレーム+Origins パースペクティブ"
+msgstr "ブレイム+Origins パースペクティブ"
 
 msgctxt "wndDeepgit.mniDgPerspectiveBlameSimple"
 msgid "Blame Perspective"
-msgstr "ブレームパースペクティブ"
+msgstr "ブレイムパースペクティブ"
 
 msgctxt "wndDeepgit.mniDgPerspectiveCommit"
 msgid "Log Perspective"
@@ -13026,11 +13308,11 @@ msgstr "戻る"
 
 msgctxt "wndDeepgit.tbr:"
 msgid "Blame"
-msgstr "ブレーム"
+msgstr "ブレイム"
 
 msgctxt "wndDeepgit.tbr:"
 msgid "Blame+Origins"
-msgstr "ブレーム+Origins"
+msgstr "ブレイム+Origins"
 
 msgctxt "wndDeepgit.tbr:"
 msgid "Diff"
@@ -13084,6 +13366,7 @@ msgctxt "wndDeepgit.tbtDgPerspectiveHistory"
 msgid "Investigate Diff between file's revisions."
 msgstr "ファイルのリビジョン間の差分を調査します。"
 
+#, fixed
 msgctxt "wndDeepgit.tbtDgPerspectiveOrigins"
 msgid "Find out what else happened where the line originates from.\\n\\nIn order to inspect available Origins, they have to be evaluated first. First, select the file you want to investigate using File\\|Open and select a line in it. Then wait until the calculation of possible Origins has finished."
 msgstr "その行が発生した場所で他に何が起こったのかを調査します。\\n\\n候補となるOriginを調べるには、まずそれらを評価する必要があります。まず、\\[ファイル\\]→\\[開く\\] で調査対象のファイルを選択し、その中の行を選択します。そして、可能性のあるOriginの計算が完了するまで待ちます。"
@@ -14826,7 +15109,7 @@ msgstr "追加"
 
 msgctxt "wnd(Log|Project|Std|).mniAnnotate"
 msgid "Blame"
-msgstr "ブレーム"
+msgstr "ブレイム"
 
 msgctxt "wnd(Log|Project|Std|).mniAssume-unchanged-toggle"
 msgid "Toggle 'Assume Unchanged'"
@@ -15939,7 +16222,6 @@ msgctxt "wnd(Log|Project|Std|).mniWorktreeRemove"
 msgid "Remove Worktree"
 msgstr "ワークツリーを削除する"
 
-#, fixed
 msgctxt "wnd(Log|Project|Std|).mnu:"
 msgid "Bisect"
 msgstr "不具合コミット特定\\(Bisect\\)"
@@ -16158,7 +16440,7 @@ msgstr "スタッシュを適用"
 
 msgctxt "wnd(Log|Project|Std|).tbr:"
 msgid "Blame"
-msgstr "ブレーム"
+msgstr "ブレイム"
 
 msgctxt "wnd(Log|Project|Std|).tbr:"
 msgid "Branch"
