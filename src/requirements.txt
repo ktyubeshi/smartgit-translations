@@ -2,3 +2,4 @@ pytest
 pyparsing
 polib
 openai
+PySide6==6.8.11

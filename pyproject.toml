@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "po-file-editor"
+version = "0.1.0"
+description = "PO File Editor Tool"
+authors = ["Your Name <your.email@example.com>"]
+readme = "README.md"
+packages = [
+    {include = "src"},
+    {include = "src/sgpo"}
+]
+
+[tool.poetry.scripts]
+po-editor = "po_editor_gui:main"
+delete-comments = "delete_extracted_comments:main"
+format-po = "format_po_files:main"
+import-mismatch = "import_mismatch:main"
+import-unknown = "import_unknown:main"
+import-pot = "import_pot:main"
+
+[tool.poetry.dependencies]
+python = ">=3.12,<3.13"
+pytest = "^8.0.0"
+pyparsing = "^3.2.1"
+polib = "^1.2.0"
+openai = "^1.59.7"
+pyside6 = "6.8.1.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
