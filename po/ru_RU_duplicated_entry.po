@@ -1,0 +1,172 @@
+
+msgctxt "dlgSgFlowHotfixFinish.hdl"
+msgid "Finish current hotfix"
+msgstr "Завершение работы над текущим хотфиксом"
+
+msgctxt "dlgSgFlowHotfixFinish.inf:"
+msgid "Choose how to finish the current hotfix."
+msgstr "Выберите как завершить текущий хотфикс."
+
+msgctxt "dlgSgFlowReleaseStart.chk:"
+msgid "Fetch from '$1' branch"
+msgstr "Получить из ветки '$1'"
+
+msgctxt "dlgSgFlowReleaseFinish.hdl"
+msgid "Finish current release"
+msgstr "Завершение работы над текущим релизом"
+
+msgctxt "dlgSgFlowReleaseFinish.inf:"
+msgid "Choose how to finish the current release. This operation will merge the current release into the '$1' and '$2' branches."
+msgstr "Выберите как завершить текущий релиз. После завершения, изменения попадут в ветки '$1' и '$2'."
+
+msgctxt "dlgSgFlowReleaseFinish.edt:"
+msgid "Commit/Tag Message"
+msgstr "Сообщение коммита/метки"
+
+msgctxt "dlgSgFlowSupportStart.edt:"
+msgid "Base"
+msgstr "Базовая"
+
+msgctxt "dlgSgFlowSupportStart.chk:"
+msgid "Fetch from base branch"
+msgstr "Получить из базовой ветки"
+
+msgctxt "dlgSgCommitSelectMessageFromLog.tbt:"
+msgid "Interpret the search pattern as regular expression."
+msgstr "Интерпретировать строку поиска как регулярное выражение."
+
+msgctxt "dlgSgClone.err:"
+msgid "The specified directory is not the root of a repository."
+msgstr "Указанный путь не является корнем каталога локального репозитория."
+
+msgctxt "dlgSgClone.hdl:"
+msgid "Repository"
+msgstr "Выбор репозитория"
+
+msgctxt "dlgSgClone.hdl:"
+msgid "Selection"
+msgstr "Настройки клонирования"
+
+msgctxt "dlgSgClone.hdl:"
+msgid "Local Directory"
+msgstr "Выбор локального каталога"
+
+msgctxt "dlgSgHostingProviderAdd.inf"
+msgid "Set or select the options according to your account."
+msgstr "Установите или выберите настройки своего аккаунта"
+
+msgctxt "dlgSgHostingProviderAdd.hdl"
+msgid "Add GitHub account"
+msgstr "Добавить аккаут"
+
+msgctxt "dlgProgress.tle:"
+msgid "Searching Repositories"
+msgstr "Поиск репозиториев"
+
+msgctxt "dlgSgPreferences.lbl:"
+msgid "Refs"
+msgstr "Ссылки"
+
+msgctxt "dlgSgPreferences.lbl:"
+msgid "Commits"
+msgstr "Коммиты"
+
+msgctxt "dlgSgPreferences.lbl:"
+msgid "Refs/Commits"
+msgstr "Ссылки/Коммиты"
+
+msgctxt "dlgSgPreferences.lbl:"
+msgid "Viewer:"
+msgstr "Просмотрщ:"
+
+msgctxt "ttpBranches:"
+msgid "<b>Tag Date:\\t</b>$1"
+msgstr "<b>Дата метки:\\t</b>$1"
+
+msgctxt "ttpBranches:"
+msgid "<b>Tagger:\\t</b>$1"
+msgstr "<b>Автор метки:\\t</b>$1"
+
+msgctxt "ttpBranches:"
+msgid "<b>Tag Message:\\t</b>$1"
+msgstr "<b>Сообщение метки:\\t</b>$1"
+
+msgctxt "dlgSgPushToRef.hdl:"
+msgid "Push local commits to a remote repository"
+msgstr "Отправка изменений во внешний репозиторий"
+
+msgctxt "dlgSgRevealCommitLocalOrTracked.tle"
+msgid "Compare with Selected Commit"
+msgstr "Сравнение с выбранным коммитом"
+
+msgctxt "dlgSgBranchDeleteLocalConfirmMultiple.chk:"
+msgid "Delete branch '$1' from remote repository '$2'"
+msgstr "Удалить ветку '$1' во внешнем репозитории '$2'"
+
+msgctxt "dlgSgBranchDeleteRemoteConfirmMultiple.tle"
+msgid "Delete"
+msgstr "Удаление"
+
+msgctxt "dlgSgBranchDeleteRemoteConfirmMultiple.btn:"
+msgid "Delete"
+msgstr "Удалить"
+
+msgctxt "dlgSgResetAdv.inf"
+msgid "Reset the current branch (HEAD) to the selected commit and optionally update Index and working tree."
+msgstr "Сброс состояния текущей ветки до выбранного коммита и, при необходимости, обновление индекса и рабочего каталога."
+
+msgctxt "dlgSgAbortRevertingConfirm.hdl"
+msgid "Do you want to abort the current revert?"
+msgstr "Вы хотите прервать откат изменений?"
+
+msgctxt "dlgSgAbortRevertingConfirm.tle"
+msgid "Abort"
+msgstr "Прерывание операции"
+
+msgctxt "wnd(Log|Project|Std|).tbr:"
+msgid "Apply"
+msgstr "Применить спрятанное"
+
+msgctxt "dlgScSetupLicense.btn:"
+msgid "Purchase"
+msgstr "Запросить"
+
+msgctxt "dlgSgBranchDeleteRemoteConfirmSingle.hdl%1"
+msgid "Do you want to delete the branch '$1'?"
+msgstr "Хотите удалить ветку '$1'?"
+
+msgctxt "wnd(Log|Project|Std|).mni:"
+msgid "Unstage Inner-line Change"
+msgstr "Убрать из индексированных"
+
+msgctxt "wnd(Log|Project|Std|).mni:"
+msgid "Revert Inner-Line Change"
+msgstr "Откатить изменение"
+
+msgctxt "wnd(Log|Project|Std|).mni:"
+msgid "Revert Line"
+msgstr "Откатить строку"
+
+msgctxt "wnd(Log|Project|Std|).mni:"
+msgid "Revert Selection"
+msgstr "Откатить выделенное"
+
+msgctxt "wnd(Log|Project|Std|).mni:"
+msgid "Revert Hunk"
+msgstr "Откатить блок"
+
+msgctxt "wnd(Log|Project|Std|).mni:"
+msgid "Stage Inner-line Change"
+msgstr "Проиндексировать изменение"
+
+msgctxt "wnd(Log|Project|Std|).mni:"
+msgid "Stage Line"
+msgstr "Проиндексировать строку"
+
+msgctxt "wnd(Log|Project|Std|).mni:"
+msgid "Stage Selection"
+msgstr "Проиндексировать выделенное"
+
+msgctxt "wnd(Log|Project|Std|).mni:"
+msgid "Stage Hunk"
+msgstr "Проиндексировать блок"
