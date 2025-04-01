@@ -11925,6 +11925,22 @@ msgctxt "ttpRepositories:"
 msgid "The remote repository contains new commits."
 msgstr ""
 
+msgctxt "wnd.mni:"
+msgid "About SmartGit"
+msgstr ""
+
+msgctxt "wnd.mni:"
+msgid "Contact Support"
+msgstr ""
+
+msgctxt "wnd.mni:"
+msgid "License Agreement"
+msgstr ""
+
+msgctxt "wnd.mni:"
+msgid "SmartGit Website"
+msgstr ""
+
 msgctxt "wndAnnotate.cmb:"
 msgid "Age"
 msgstr ""
