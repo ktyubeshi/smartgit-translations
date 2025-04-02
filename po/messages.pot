@@ -2841,6 +2841,14 @@ msgctxt "dlgSgClone.btn:"
 msgid "Configure"
 msgstr ""
 
+msgctxt "dlgSgClone.btn:"
+msgid "Continue"
+msgstr ""
+
+msgctxt "dlgSgClone.btn:"
+msgid "Go Back"
+msgstr ""
+
 msgctxt "dlgSgClone.chk:"
 msgid "Create upstream remote"
 msgstr ""
@@ -2951,6 +2959,13 @@ msgstr ""
 
 msgctxt "dlgSgClone.hnt:"
 msgid "Searching ..."
+msgstr ""
+
+#. opening smartgit.byC@4409CAE6:SmartGit 24.1.3 (smartgit.byC@6BA060F3)
+#. Performing 'repositoryClone, Clone…, Clone a new repository.'
+#. Showing dialog 0 (@15AC02D5) '@505F45CC - Clone' (owner: @6BA060F3)
+msgctxt "dlgSgClone.hnt\"Searching \\u2026\""
+msgid "Searching \\u2026"
 msgstr ""
 
 msgctxt "dlgSgClone.inf:"
