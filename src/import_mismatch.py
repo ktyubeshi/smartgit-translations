@@ -1,5 +1,5 @@
-from path_finder import PoPathFinder
 import sgpo
+from path_finder import PoPathFinder
 
 
 def main():
