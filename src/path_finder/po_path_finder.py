@@ -1,5 +1,5 @@
-import os
 import glob
+import os
 from typing import AnyStr
 
 
@@ -39,7 +39,7 @@ class PoPathFinder:
 
 
 def get_repository_root() -> str:
-    return dirname(dirname(dirname(os.path.abspath(__file__))))
+    return os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 
 def dirname(p: os.PathLike[AnyStr]) -> AnyStr:

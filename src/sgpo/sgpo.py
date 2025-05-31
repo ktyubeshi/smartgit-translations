@@ -3,6 +3,7 @@ from __future__ import annotations
 import os
 import re
 from collections import namedtuple
+from typing import ClassVar
 
 import polib
 
@@ -18,7 +19,7 @@ def pofile_from_text(text: str) -> SgPo:
 
 
 class SgPo(polib.POFile):
-    META_DATA_BASE_DICT = {
+    META_DATA_BASE_DICT: ClassVar[dict[str, str]] = {
         'Project-Id-Version': 'SmartGit',
         'Report-Msgid-Bugs-To': 'https://github.com/syntevo/smartgit-translations',
         'POT-Creation-Date': '',
@@ -67,24 +68,24 @@ class SgPo(polib.POFile):
 
             if my_entry is not None:
                 if my_entry.msgid == unknown_entry.msgid:
-                    print(f'\nAlready exists.(Skipped)')
+                    print('\nAlready exists.(Skipped)')
                     print(f'\t\tmsgctxt "{unknown_entry.msgctxt}"')
                     print(f'\t\tmsgid "{unknown_entry.msgid}"')
                 else:
-                    print(f'\nAlready exists. but,msgid has been changed.(Skipped)')
+                    print('\nAlready exists. but,msgid has been changed.(Skipped)')
                     print(f'\t\t#| msgid "{my_entry.msgid}"')
                     print(f'\t\tmsgctxt "{unknown_entry.msgctxt}"')
                     print(f'\t\tmsgid "{unknown_entry.msgid}"')
             else:
                 try:
                     self.append(unknown_entry)
-                    print(f'\nNew entry added.')
+                    print('\nNew entry added.')
                     print(f'\t\tmsgctxt "{unknown_entry.msgctxt}')
                     print(f'\t\tmsgid "{unknown_entry.msgid}')
                     success_count += 1
                 except ValueError as e:
                     print(e)
-                except IOError as e:
+                except OSError as e:
                     print(e)
 
         print(f'{success_count} entries added.')
@@ -100,12 +101,12 @@ class SgPo(polib.POFile):
 
             if my_entry is not None:
                 if my_entry.msgid == mismatch_entry.msgid:
-                    print(f'\nAlready exists.(Skipped)')
+                    print('\nAlready exists.(Skipped)')
                     print(f'\t\t#| msgid "{my_entry.previous_msgid}"')
                     print(f'\t\tmsgctxt "{my_entry.msgctxt}"')
                     print(f'\t\tmsgid "{my_entry.msgid}"')
                 else:
-                    print(f'\nmsgid has been changed.')
+                    print('\nmsgid has been changed.')
                     print(f'\t\t#| msgid "{my_entry.msgid}"')
                     print(f'\t\tmsgctxt "{mismatch_entry.msgctxt}"')
                     print(f'\t\tmsgid "{mismatch_entry.msgid}"')
@@ -115,13 +116,13 @@ class SgPo(polib.POFile):
             else:
                 try:
                     self.append(mismatch_entry)
-                    print(f'\nNew entry added.')
+                    print('\nNew entry added.')
                     print(f'\t\tmsgctxt "{mismatch_entry.msgctxt}"')
                     print(f'\t\tmsgid "{mismatch_entry.msgid}"')
                     new_entry_count += 1
                 except ValueError as e:
                     print(e)
-                except IOError as e:
+                except OSError as e:
                     print(e)
 
         print(f'{new_entry_count} entries added.')
@@ -142,7 +143,9 @@ class SgPo(polib.POFile):
             print(f'msgctxt:\t"{key.msgctxt}"\n'
                   f'  msgid:\t"{key.msgid}"\n')
 
-            self.append(pot.find_by_key(key.msgctxt, key.msgid))
+            pot_entry = pot.find_by_key(key.msgctxt, key.msgid)
+            if pot_entry:
+                self.append(pot_entry)
             new_entry_count += 1
 
         # Remove obsolete entry
@@ -152,12 +155,13 @@ class SgPo(polib.POFile):
                   f'  msgid:\t"{key.msgid}"\n')
 
             entry = self.find_by_key(key.msgctxt, key.msgid)
-            entry.obsolete = True
+            if entry:
+                entry.obsolete = True
 
         # Modified entry
         for my_entry in self:
             if not my_entry.msgctxt.endswith(':'):
-                pot_entry = pot.find_by_key(my_entry.msgctxt, None)
+                pot_entry = pot.find_by_key(my_entry.msgctxt, "")
 
                 if pot_entry and (my_entry.msgid != pot_entry.msgid):
                     print(f'msgctxt:\t{my_entry.msgctxt}\n'
@@ -177,9 +181,9 @@ class SgPo(polib.POFile):
         """
         for entry in self:
             if entry.comment:
-                entry.comment = None
+                entry.comment = ""
 
-    def find_by_key(self, msgctxt: str, msgid: str) -> polib.POEntry:
+    def find_by_key(self, msgctxt: str, msgid: str) -> polib.POEntry | None:
         for entry in self:
             # If the msgctxt ends with ':', the combination of msgid and
             # msgctxt becomes the key that identifies the entry.

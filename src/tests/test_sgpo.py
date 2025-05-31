@@ -3,7 +3,7 @@ import unittest
 
 import sgpo
 from path_finder import get_repository_root
-from sgpo.sgpo import SgPo, Key_tuple
+from sgpo.sgpo import Key_tuple, SgPo
 
 
 def get_test_data_dir() -> str:
@@ -45,6 +45,7 @@ class TestSgpo(unittest.TestCase):
         print(f"\n{result}")
 
         self.assertIsNotNone(result)
+        assert result is not None  # Type narrowing for pyright
         self.assertEqual(expected_msgstr, result.msgstr)
 
     def test_find_by_key_sgpo_key_type2(self):
@@ -58,6 +59,7 @@ class TestSgpo(unittest.TestCase):
         print(f"\n{result}")
 
         self.assertIsNotNone(result)
+        assert result is not None  # Type narrowing for pyright
         self.assertEqual(expected_msgstr, result.msgstr)
 
     def test_sort_sgpo(self):
