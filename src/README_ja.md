@@ -13,92 +13,91 @@ poファイルフォーマットはGNU gettext に由来するファイルフォ
 
 ## Scripts
 
-### Scripts for po file operations
+各スクリプトの詳細については [_docs/ja/scripts.md](_docs/ja/scripts.md) を参照してください。
 
-#### import_unknown.py
-'unknown.*' の内容を 'messages.pot' に取り込みます。
+### 主なスクリプト
 
-#### import_mismatch.py
-'mismatch.*' の内容を 'messages.pot' に取り込みます。
-
-#### delete_extracted_comments.py
-'messages.pot' に含まれる extracted-comments を全て削除します。
-extracted-comments には未知のキーが検出される直前の操作履歴が含まれています。
-
-#### import_pot.py
-'messages.pot' の内容を 全ての'&lt;locale_code&gt;.po' に取り込みます。
-
-#### format_po_files.py
-'&lt;locale_code&gt;.po' のフォーマットを修正します。
-
-### Script for migration from legacy format to po format
-
-#### locale2po.py
-
-SmartGit 23.1 用のmappingファイル(mapping,mapping.dev,mapping.state)をpoファイルフォーマットへ変換します。
-変換対象のファイルと出力先はスクリプトの配置先からの相対位置で自動的に指定され、全ての言語が自動的に処理されます。
-コマンドライン引数などは必要ありません。
-
-入力ファイルはRepositoryのルートにある'mapping'と、ローケルのフォルダにある'mapping.dev','mapping.state'です。
-変換されたファイルは、以下の場所に出力されます。
-
-&lt;repository root&gt;/po/&lt;locale code&gt;.po
-
-&lt;locale code&gt; は ja_JP、zh_CN.po などのローケルコードです。 
-
-#### master2pot.py
-
-SmartGit 23.1 用のリポジトリのルートにあるmappingファイル(原文が格納されているmaster mappingファイル)をpotファイルフォーマットへ変換します。
-変換対象のファイルと出力先はスクリプトの配置先から相対位置で自動的に指定されます。
-コマンドライン引数などは必要ありません。
-
-入力ファイルはRepositoryのルートにある'mapping' です。
-変換されたファイルは以下の場所に出力されます。
-
-&lt;repository root&gt;/po/messages.pot 
+- **format-po**: POファイルのフォーマットを整形
+- **import-pot**: POTファイルの内容を各言語のPOファイルに反映
+- **import-unknown**: 未知のキーをPOTファイルに取り込み
+- **import-mismatch**: ミスマッチしたキーをPOTファイルに取り込み
+- **delete-extracted-comments**: 抽出されたコメントを削除
 
 
-## initial setup
+## セットアップ
 
-このスクリプトは標準的な方法でインストールされたPythonとvenvを組み合わせた環境での使用を想定しています。
-Anaconda などを使用した環境での検証はしていません。
+このプロジェクトは以下の2つの方法でセットアップできます：
+* uvを使用する方法（推奨：一度初期設定をすれば以降の運用が簡単になります）
+* Python標準のvenvを使用する方法
 
-1. Install Python
-    
-    Python を公式ページからダウンロード、インストールしてください。
-    動作確認はWindows版のPython 3.10 で行われています。
+### 方法1: uvを使用
 
-    https://www.python.org/
+[uv](https://docs.astral.sh/uv/)は高速なPythonパッケージマネージャーです。
 
-1. Setup venv
-    
-    以下のbatファイルを実行してください。
-    自動的にvenv による仮想環境の作成、venvのアクティベーション、依存関係ライブラリのインストールなどが行われます。
-    その後、venvをアクティーベション済みのコマンドプロンプトが開き、ユーザが任意のスクリプトを実行できるようになります。
-    ```
-    <Repository_root>/src/setup_venv.bat
-    ```
-    依存関係のライブラリは `requirements.txt` に記述されたものがインストールされます。
+uvのインストール（macOS/Linux）:
+```bash
+curl -LsSf https://astral.sh/uv/install.sh | sh
+```
 
-  > [!NOTE]
-  > システムに複数のバージョンのPythonがインストールされている場合、システムのデフォルトのバージョンが使用されます。 
-  > 変更したい場合はbatファイルの2行目にある以下の行を `PYTHON=py -3.11` のように変更します。
-  > 利用可能なバージョンは、コマンドプロンプトなどで`py -0`を実行することで確認できます。
-  > 
-  >Before
-  > ```bat
-  >     if "%PYTHON%"=="" set PYTHON=python
-  > ```
-  > After
-  > ```bat
-  >     if "%PYTHON%"=="" set PYTHON=py -3.11
-  > ```
+uvのインストール（Windows）:
+```bash
+powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
+```
 
-## How to use
+セットアップ:
+```bash
+cd <Repository_root>/src
+uv sync
+```
 
-初期セットアップと同様に`setup_venv.bat`を実行し、venvをアクティーベション済のコマンドプロンプトを開きます。
+詳細は → [uvを使用したセットアップ](_docs/ja/setup_uv.md)
 
-コマンドプロンプトでそのまま `python locale2po.py` などのようにスクリプトを実行します。
+### 方法2: Python標準のvenvを使用
+
+従来のPython仮想環境を使用する方法です。
+
+```bash
+cd <Repository_root>/src
+python -m venv .venv
+```
+
+仮想環境のアクティベート（macOS/Linux）:
+```bash
+source .venv/bin/activate
+```
+
+仮想環境のアクティベート（Windows）:
+```bash
+.venv\Scripts\activate
+```
+
+パッケージのインストール:
+```bash
+pip install -e .
+```
+
+詳細は → [venvを使用したセットアップ](_docs/ja/setup_venv.md)
+
+## How to Use
+
+### uvでセットアップした場合
+
+```bash
+uv run format-po
+```
+
+### venvでセットアップした場合
+
+仮想環境をアクティベート後:
+```bash
+format-po
+```
+
+使用方法の詳細は [_docs/ja/usage.md](_docs/ja/usage.md) を参照してください。
+
+## 開発
+
+開発ガイドライン、テスト、コード品質ツールについては [開発ガイド](_docs/ja/development.md) を参照してください。
 
 
 
