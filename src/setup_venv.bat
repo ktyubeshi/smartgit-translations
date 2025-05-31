@@ -4,7 +4,7 @@ if not exist "%VENV%\Scripts\activate" %PYTHON% -m venv %VENV%
 call %VENV%\Scripts\activate
 
 python -m pip install --upgrade pip
-pip install -r .\requirements.txt
+pip install -e .
 
 set PATH=%cd%;%PATH%
 set PYTHONPATH=%cd%;%PYTHONPATH%
