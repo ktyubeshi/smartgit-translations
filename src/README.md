@@ -13,85 +13,75 @@ Translation support tools such as Poedit, Virtaal, and Lokalize are expected to 
 
 ## Scripts
 
-### Scripts for po file operations
+For detailed information about each script, see [_docs/en/scripts.md](_docs/en/scripts.md).
 
-#### import_unknown.py
-Imports the content of 'unknown.*' into 'messages.pot'.
+### Main Scripts
 
-#### import_mismatch.py
-Imports the content of 'mismatch.*' into 'messages.pot'.
-
-#### delete_extracted_comments.py
-Deletes all extracted-comments included in 'messages.pot'.
-These extracted-comments contain the operation history just before unknown keys are detected.
-
-#### import_pot.py
-Imports the content of 'messages.pot' into all '&lt;locale_code&gt;.po'.
-
-#### format_po_files.py
-Corrects the format of '&lt;locale_code&gt;.po'.
-
-### Script for migration from legacy format to po format
-
-#### locale2po.py
-
-Converts the mapping file (mapping, mapping.dev, mapping.state) for SmartGit 23.1 to the PO file format. The files to be converted and the destination are automatically specified by the relative reference from where the script is placed, and all languages are automatically processed. No command line arguments are required.
-
-The input files are 'mapping' at the root of the repository, and 'mapping.dev','mapping.state' in the locale folder.
-The converted files are output to the following location:
-
-&lt;repository root&gt;/po/&lt;locale code&gt;.po
-
-&lt;locale code&gt; is a locale code such as ja_JP, zh_CN.po.
-
-#### master2pot.py
-
-Converts the mapping file at the root of the repository (master mapping file where the original sentences are stored) for SmartGit 23.1 to the POT file format.
-The files to be converted and the destination are automatically specified by the relative reference from where the script is placed. No command line arguments are required.
-
-The input file is 'mapping' at the root of the repository.
-The converted file is output to the following location:
-
-&lt;repository root&gt;/po/messages.pot
+- **format-po**: Format PO files
+- **import-pot**: Import POT file content to all language PO files
+- **import-unknown**: Import unknown keys to POT file
+- **import-mismatch**: Import mismatched keys to POT file
+- **delete-extracted-comments**: Delete extracted comments
 
 
-## initial setup
+## Setup
 
-These scripts are designed for use in environments that use Python installed in the standard way and the combined venv. We have not verified the environment using Anaconda and others.
+This project can be set up in two ways:
+* Using uv (recommended: fast and easy management after initial setup)
+* Using Python standard venv
 
-1. Install Python
-    
-    Please download and install Python from the official page.
-    Verification has been performed with the Windows version of Python 3.10.
+### Method 1: Using uv
 
-    https://www.python.org/
+[uv](https://docs.astral.sh/uv/) is a fast Python package manager.
 
-1. Setup venv
-    
-    Please run the bat file below.
-    This will automatically create a venv virtual environment, activate venv, install dependency libraries, etc. 
-    Then, a command prompt with activated venv will open, and the user will be able to execute any script.
-    ```
-    <Repository_root>/src/setup_venv.bat
-    ```
-    The dependent libraries to be installed are described in `requirements.txt`.
+Install uv (macOS/Linux):
+```bash
+curl -LsSf https://astral.sh/uv/install.sh | sh
+```
 
-  > [!NOTE]
-  > If multiple versions of Python are installed on the system, the system's default version will be used.
-  > If you want to change, please change the following line on the second line of the bat file to `PYTHON=py -3.11`.
-  > Available versions can be confirmed by running `py -0` in command prompts etc.
-  > 
-  >Before
-  > ```bat
-  >     if "%PYTHON%"=="" set PYTHON=python
-  > ```
-  > After
-  > ```bat
-  >     if "%PYTHON%"=="" set PYTHON=py -3.11
-  > ```
+Install uv (Windows):
+```bash
+powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
+```
 
-## How to use
+Setup:
+```bash
+cd <Repository_root>/src
+uv sync
+```
 
-Just like the initial setup, run `setup_venv.bat`, and open a command prompt with activated venv.
+For details → [Setup with uv](_docs/en/setup_uv.md)
 
-In the command prompt, simply execute `python locale2po.py` or `python master2pot.py`. 
+### Method 2: Using Python standard venv
+
+Traditional method using Python virtual environment.
+
+```bash
+cd <Repository_root>/src
+python -m venv .venv
+```
+
+Activate virtual environment (macOS/Linux):
+```bash
+source .venv/bin/activate
+```
+
+Activate virtual environment (Windows):
+```bash
+.venv\Scripts\activate
+```
+
+Install package:
+```bash
+pip install -e .
+```
+
+For details → [Setup with venv](_docs/en/setup_venv.md)
+
+## How to Use
+
+For detailed usage instructions → [_docs/en/usage.md](_docs/en/usage.md)
+
+## Development
+
+For development guidelines, testing, and code quality tools, see [Development Guide](_docs/en/development.md). 
