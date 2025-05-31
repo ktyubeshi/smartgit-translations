@@ -1,0 +1,27 @@
+[project]
+name = "smartgit-translations-maintenance-scripts"
+version = "0.1.0"
+description = "Maintenance scripts for SmartGit translation po/pot files"
+authors = [
+    {name = "SmartGit Translation Community"},
+]
+requires-python = ">=3.12"
+dependencies = [
+    "openai>=1.82.1",
+    "polib>=1.2.0",
+    "pyparsing>=3.2.3",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.3.5",
+]
+
+[project.scripts]
+delete-extracted-comments = "delete_extracted_comments:main"
+format-po = "format_po_files:main"
+import-mismatch = "import_mismatch:main"
+import-pot = "import_pot:main"
+import-unknown = "import_unknown:main"
+locale2po = "locale2po:main"
+master2pot = "master2pot:main"
