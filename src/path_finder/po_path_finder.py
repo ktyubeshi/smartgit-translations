@@ -1,6 +1,4 @@
-import glob
-import os
-from typing import AnyStr
+from pathlib import Path
 
 
 class PoPathFinder:
@@ -17,37 +15,31 @@ class PoPathFinder:
             self.root_dir = repository_root_dir
 
     def get_po_files(self, translation_file_only=True) -> list:
+        po_dir = Path(self.get_po_file_dir())
         if translation_file_only:
-            pathname = os.path.join(self.get_po_file_dir(), '??_??.po')
+            pattern = '??_??.po'
         else:
-            pathname = os.path.join(self.get_po_file_dir(), '*.po')
-        po_files = glob.glob(pathname)
+            pattern = '*.po'
+        po_files = [str(p) for p in po_dir.glob(pattern)]
 
         return po_files
 
     def get_pot_file(self) -> str:
-        return os.path.join(self.get_po_file_dir(), 'messages.pot')
+        return str(Path(self.get_po_file_dir()) / 'messages.pot')
 
     def get_po_file_dir(self) -> str:
-        return os.path.join(self.root_dir, 'po')
+        return str(Path(self.root_dir) / 'po')
 
     def get_mismatch_file(self) -> str:
-        return os.path.join(self.get_po_file_dir(), f'mismatch.{self.version}')
+        return str(Path(self.get_po_file_dir()) / f'mismatch.{self.version}')
 
     def get_unknown_file(self) -> str:
-        return os.path.join(self.get_po_file_dir(), f'unknown.{self.version}')
+        return str(Path(self.get_po_file_dir()) / f'unknown.{self.version}')
 
 
 def get_repository_root() -> str:
-    return os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-
-
-def dirname(p: os.PathLike[AnyStr]) -> AnyStr:
-    """
-    Alias for os.path.dirname()
-    """
-
-    return os.path.dirname(p)
+    """Get the repository root directory (3 levels up from this file)."""
+    return str(Path(__file__).resolve().parent.parent.parent)
 
 
 def main():

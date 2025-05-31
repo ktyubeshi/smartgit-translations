@@ -1,4 +1,4 @@
-import os
+from pathlib import Path
 
 import polib
 
@@ -20,8 +20,10 @@ def optimize_po_entry(po_entry: polib.POEntry) -> polib.POEntry:
     return new_po_entry
 
 def get_repository_root() -> str:
-    return os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+    """Get the repository root directory (3 levels up from this file)."""
+    return str(Path(__file__).resolve().parent.parent.parent)
 
 def get_po_dir(base_dir: str) -> str:
-    return os.path.normpath(os.path.join(base_dir, "po"))
+    """Get the po directory path from the base directory."""
+    return str(Path(base_dir) / "po")
 
