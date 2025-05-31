@@ -42,6 +42,11 @@ def get_repository_root() -> str:
     return str(Path(__file__).resolve().parent.parent.parent)
 
 
+def get_po_dir(base_dir: str) -> str:
+    """Get the po directory path from the base directory."""
+    return str(Path(base_dir) / "po")
+
+
 def main():
     path_finder = PoPathFinder()
     pot_file = path_finder.get_pot_file()
