@@ -285,7 +285,7 @@ wheels = [
 [[package]]
 name = "smartgit-translations-maintenance-scripts"
 version = "0.1.0"
-source = { virtual = "." }
+source = { editable = "." }
 dependencies = [
     { name = "openai" },
     { name = "polib" },
@@ -293,6 +293,11 @@ dependencies = [
 ]
 
 [package.optional-dependencies]
+dev = [
+    { name = "pytest" },
+]
+
+[package.dev-dependencies]
 dev = [
     { name = "pytest" },
 ]
@@ -305,6 +310,9 @@ requires-dist = [
     { name = "pytest", marker = "extra == 'dev'", specifier = ">=8.3.5" },
 ]
 provides-extras = ["dev"]
+
+[package.metadata.requires-dev]
+dev = [{ name = "pytest", specifier = ">=8.3.5" }]
 
 [[package]]
 name = "sniffio"

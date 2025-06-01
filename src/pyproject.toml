@@ -1,3 +1,7 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
 [project]
 name = "smartgit-translations-maintenance-scripts"
 version = "0.1.0"
@@ -23,3 +27,13 @@ format-po = "format_po_files:main"
 import-mismatch = "import_mismatch:main"
 import-pot = "import_pot:main"
 import-unknown = "import_unknown:main"
+robust-format-po = "robust_format_po_files:main"
+
+[dependency-groups]
+dev = [
+    "pytest>=8.3.5",
+]
+
+[tool.setuptools]
+packages = ["sgpo", "path_finder"]
+py-modules = ["delete_extracted_comments", "format_po_files", "import_mismatch", "import_pot", "import_unknown", "robust_format_po_files"]

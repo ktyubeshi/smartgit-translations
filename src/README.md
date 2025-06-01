@@ -84,4 +84,20 @@ For detailed usage instructions → [_docs/en/usage.md](_docs/en/usage.md)
 
 ## Development
 
-For development guidelines, testing, and code quality tools, see [Development Guide](_docs/en/development.md). 
+When editing scripts or running tests, install development dependencies:
+
+### Using uv (recommended):
+```bash
+cd <Repository_root>/src
+uv sync --group dev
+```
+
+### Using pip:
+```bash
+cd <Repository_root>/src
+pip install -e ".[dev]"
+```
+
+**Note**: Development dependencies are defined in both `[project.optional-dependencies]` (for pip compatibility) and `[dependency-groups]` (for uv). This allows the project to work with both package managers.
+
+For detailed development guidelines, testing, and code quality tools, see [Development Guide](_docs/en/development.md). 

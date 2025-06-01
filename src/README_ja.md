@@ -97,6 +97,22 @@ format-po
 
 ## 開発
 
+スクリプトを編集したり、テストを実行する場合は、開発用の依存関係をインストールしてください：
+
+### uvを使用する場合（推奨）:
+```bash
+cd <Repository_root>/src
+uv sync --group dev
+```
+
+### pipを使用する場合:
+```bash
+cd <Repository_root>/src
+pip install -e ".[dev]"
+```
+
+**注意**: 開発用の依存関係は `[project.optional-dependencies]`（pip互換性のため）と `[dependency-groups]`（uv用）の両方に定義されています。これにより、両方のパッケージマネージャーで動作します。
+
 開発ガイドライン、テスト、コード品質ツールについては [開発ガイド](_docs/ja/development.md) を参照してください。
 
 
