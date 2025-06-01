@@ -1,0 +1,103 @@
+name: Format PO Files
+
+on:
+  push:
+    paths:
+      - 'po/*.po'
+      - 'po/*.pot'
+  pull_request:
+    paths:
+      - 'po/*.po'
+      - 'po/*.pot'
+  workflow_dispatch:
+
+jobs:
+  format:
+    runs-on: ubuntu-latest
+    
+    permissions:
+      contents: write
+      pull-requests: write
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        fetch-depth: 0
+    
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.12'
+    
+    - name: Install gettext tools
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y gettext
+    
+    - name: Install Python dependencies
+      run: |
+        cd src
+        pip install -e .
+    
+    - name: Format PO files
+      id: format
+      run: |
+        cd src
+        python robust_format_po_files.py
+        FORMAT_EXIT_CODE=$?
+        
+        # Check if any files were modified
+        cd ..
+        if [[ -n $(git status --porcelain po/) ]]; then
+          echo "changes=true" >> $GITHUB_OUTPUT
+        else
+          echo "changes=false" >> $GITHUB_OUTPUT
+        fi
+        
+        exit $FORMAT_EXIT_CODE
+    
+    - name: Create commit message
+      if: steps.format.outputs.changes == 'true'
+      id: commit_msg
+      run: |
+        # Get list of modified files
+        MODIFIED_FILES=$(git diff --name-only po/ | grep -E '\.(po|pot)$' | wc -l)
+        
+        if [ "$MODIFIED_FILES" -eq 1 ]; then
+          FILE_NAME=$(git diff --name-only po/ | grep -E '\.(po|pot)$' | head -1 | xargs basename)
+          echo "message=Format PO file: $FILE_NAME" >> $GITHUB_OUTPUT
+        else
+          echo "message=Format $MODIFIED_FILES PO files" >> $GITHUB_OUTPUT
+        fi
+    
+    - name: Commit changes
+      if: steps.format.outputs.changes == 'true' && github.event_name == 'push'
+      run: |
+        git config user.name "github-actions[bot]"
+        git config user.email "github-actions[bot]@users.noreply.github.com"
+        
+        git add po/*.po po/*.pot
+        git commit -m "${{ steps.commit_msg.outputs.message }}"
+        git push
+    
+    - name: Comment on PR
+      if: steps.format.outputs.changes == 'true' && github.event_name == 'pull_request'
+      uses: actions/github-script@v7
+      with:
+        script: |
+          const message = `🤖 PO files have been automatically formatted. Please pull the latest changes.`;
+          
+          github.rest.issues.createComment({
+            issue_number: context.issue.number,
+            owner: context.repo.owner,
+            repo: context.repo.repo,
+            body: message
+          })
+    
+    - name: Format check for PR
+      if: steps.format.outputs.changes == 'true' && github.event_name == 'pull_request'
+      run: |
+        echo "::warning::PO files need formatting. Run 'python src/robust_format_po_files.py' locally and commit the changes."
+        exit 1
