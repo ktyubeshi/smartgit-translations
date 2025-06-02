@@ -41,8 +41,76 @@ jobs:
         cd src
         pip install -e .
     
+    - name: Check PO files syntax with msgfmt
+      id: syntax_check
+      run: |
+        echo "## PO Files Syntax Check Results" >> $GITHUB_STEP_SUMMARY
+        echo "" >> $GITHUB_STEP_SUMMARY
+        
+        # Initialize variables
+        ERRORS_FOUND=false
+        ERROR_COUNT=0
+        ERROR_DETAILS=""
+        
+        # Check all PO and POT files
+        for po_file in po/*.po po/*.pot; do
+          if [ -f "$po_file" ]; then
+            echo "Checking: $po_file"
+            
+            # Run msgfmt check and capture output
+            msgfmt -c "$po_file" > msgfmt_output.txt 2>&1
+            MSGFMT_EXIT_CODE=$?
+            
+            if [ $MSGFMT_EXIT_CODE -ne 0 ]; then
+              ERRORS_FOUND=true
+              ((ERROR_COUNT++))
+              
+              # Get the error details
+              ERROR_MSG=$(cat msgfmt_output.txt)
+              ERROR_DETAILS="${ERROR_DETAILS}\n### ❌ ${po_file}\n\`\`\`\n${ERROR_MSG}\n\`\`\`\n"
+              
+              # Extract specific error line for GitHub annotation
+              ERROR_LINE=$(echo "$ERROR_MSG" | grep -oE '[0-9]+:' | head -1 | tr -d ':')
+              if [ -n "$ERROR_LINE" ]; then
+                echo "::error file=${po_file},line=${ERROR_LINE}::${ERROR_MSG}"
+              else
+                echo "::error file=${po_file}::${ERROR_MSG}"
+              fi
+              
+              echo "❌ ${po_file} - Syntax errors found:"
+              cat msgfmt_output.txt
+            else
+              echo "✓ ${po_file} - No syntax errors"
+            fi
+          fi
+        done
+        
+        # Write summary
+        if [ "$ERRORS_FOUND" = true ]; then
+          echo "### ⚠️ Syntax Errors Found" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "Found syntax errors in **${ERROR_COUNT}** file(s):" >> $GITHUB_STEP_SUMMARY
+          echo -e "${ERROR_DETAILS}" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "**Action Required:** Fix the syntax errors before the formatter can run." >> $GITHUB_STEP_SUMMARY
+          
+          # Set output
+          echo "syntax_errors=true" >> $GITHUB_OUTPUT
+          echo "error_count=${ERROR_COUNT}" >> $GITHUB_OUTPUT
+          
+          # Don't exit with error yet - we want to show all errors
+        else
+          echo "### ✅ All PO files passed syntax check" >> $GITHUB_STEP_SUMMARY
+          echo "syntax_errors=false" >> $GITHUB_OUTPUT
+          echo "error_count=0" >> $GITHUB_OUTPUT
+        fi
+        
+        # Clean up
+        rm -f msgfmt_output.txt
+    
     - name: Format PO files
       id: format
+      if: steps.syntax_check.outputs.syntax_errors != 'true'
       run: |
         cd src
         python robust_format_po_files.py
@@ -57,6 +125,12 @@ jobs:
         fi
         
         exit $FORMAT_EXIT_CODE
+    
+    - name: Fail if syntax errors found
+      if: steps.syntax_check.outputs.syntax_errors == 'true'
+      run: |
+        echo "::error::Found syntax errors in ${{ steps.syntax_check.outputs.error_count }} PO file(s). Please check the job summary for details."
+        exit 1
     
     - name: Create commit message
       if: steps.format.outputs.changes == 'true'
