@@ -1,0 +1,173 @@
+# Chinese translation for PO Consistency Checker GUI
+# Copyright (C) 2025 SmartGit Translation Community
+# This file is distributed under the same license as the PO Consistency Checker package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PO Consistency Checker 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-05-31 12:00+0000\n"
+"PO-Revision-Date: 2025-05-31 12:00+0000\n"
+"Last-Translator: Auto Generated\n"
+"Language-Team: Chinese (Simplified)\n"
+"Language: zh\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "PO File Consistency Checker"
+msgstr "PO文件一致性检查器"
+
+msgid "File(&F)"
+msgstr "文件(&F)"
+
+msgid "Open(&O)..."
+msgstr "打开(&O)..."
+
+msgid "Exit(&X)"
+msgstr "退出(&X)"
+
+msgid "Settings(&S)"
+msgstr "设置(&S)"
+
+msgid "Language(&L)"
+msgstr "语言(&L)"
+
+msgid "Settings"
+msgstr "设置"
+
+msgid "Summary"
+msgstr "摘要"
+
+msgid "Details"
+msgstr "详情"
+
+msgid "File Selection"
+msgstr "文件选择"
+
+msgid "No file selected"
+msgstr "未选择文件"
+
+msgid "Browse..."
+msgstr "浏览..."
+
+msgid "Start Check"
+msgstr "开始检查"
+
+msgid "Remove [Checker] Comments"
+msgstr "删除[Checker]注释"
+
+msgid "Check Level"
+msgstr "检查级别"
+
+msgid "Normal (Normal)"
+msgstr "正常 (Normal)"
+
+msgid "Strict (Strict)"
+msgstr "严格 (Strict)"
+
+msgid "Lenient (Lenient)"
+msgstr "宽松 (Lenient)"
+
+msgid "Check Items"
+msgstr "检查项目"
+
+msgid "Escape Characters"
+msgstr "转义字符"
+
+msgid "HTML Tags"
+msgstr "HTML标签"
+
+msgid "Placeholders"
+msgstr "占位符"
+
+msgid "PO File Update Settings"
+msgstr "PO文件更新设置"
+
+msgid "Add check results to PO file"
+msgstr "将检查结果添加到PO文件"
+
+msgid "Add fuzzy flag"
+msgstr "添加fuzzy标记"
+
+msgid "Add error comments"
+msgstr "添加错误注释"
+
+msgid "Export Settings"
+msgstr "导出设置"
+
+msgid "Export entries with errors to separate file"
+msgstr "将有错误的条目导出到单独文件"
+
+msgid "Warning"
+msgstr "警告"
+
+msgid "No PO file selected."
+msgstr "未选择PO文件。"
+
+msgid "Confirm Removal"
+msgstr "确认删除"
+
+msgid "Also remove fuzzy flags"
+msgstr "同时删除fuzzy标记"
+
+msgid "Complete"
+msgstr "完成"
+
+msgid "Error"
+msgstr "错误"
+
+msgid "Line"
+msgstr "行"
+
+msgid "msgctxt"
+msgstr "msgctxt"
+
+msgid "msgid (excerpt)"
+msgstr "msgid (摘录)"
+
+msgid "Problem Type"
+msgstr "问题类型"
+
+msgid "Ready"
+msgstr "就绪"
+
+msgid "Select PO File"
+msgstr "选择PO文件"
+
+msgid "PO Files"
+msgstr "PO文件"
+
+msgid "All Files"
+msgstr "所有文件"
+
+msgid "Checking..."
+msgstr "检查中..."
+
+msgid "(none)"
+msgstr "(无)"
+
+msgid "Please wait."
+msgstr "请稍候。"
+
+msgid "Check Results"
+msgstr "检查结果"
+
+msgid "Detected problems:"
+msgstr "检测到的问题:"
+
+msgid "Errors:"
+msgstr "错误:"
+
+msgid "Warnings:"
+msgstr "警告:"
+
+msgid "Action:"
+msgstr "操作:"
+
+msgid "✓ No errors found."
+msgstr "✓ 未发现错误。"
+
+msgid "SmartGit Translation Community"
+msgstr "SmartGit Translation Community"

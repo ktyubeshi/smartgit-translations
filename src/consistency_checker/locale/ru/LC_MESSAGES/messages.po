@@ -1,0 +1,173 @@
+# Russian translation for PO Consistency Checker GUI
+# Copyright (C) 2025 SmartGit Translation Community
+# This file is distributed under the same license as the PO Consistency Checker package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PO Consistency Checker 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-05-31 12:00+0000\n"
+"PO-Revision-Date: 2025-05-31 12:00+0000\n"
+"Last-Translator: Auto Generated\n"
+"Language-Team: Russian\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "PO File Consistency Checker"
+msgstr "Проверка согласованности PO-файлов"
+
+msgid "File(&F)"
+msgstr "Файл(&F)"
+
+msgid "Open(&O)..."
+msgstr "Открыть(&O)..."
+
+msgid "Exit(&X)"
+msgstr "Выход(&X)"
+
+msgid "Settings(&S)"
+msgstr "Настройки(&S)"
+
+msgid "Language(&L)"
+msgstr "Язык(&L)"
+
+msgid "Settings"
+msgstr "Настройки"
+
+msgid "Summary"
+msgstr "Сводка"
+
+msgid "Details"
+msgstr "Подробности"
+
+msgid "File Selection"
+msgstr "Выбор файла"
+
+msgid "No file selected"
+msgstr "Файл не выбран"
+
+msgid "Browse..."
+msgstr "Обзор..."
+
+msgid "Start Check"
+msgstr "Начать проверку"
+
+msgid "Remove [Checker] Comments"
+msgstr "Удалить комментарии [Checker]"
+
+msgid "Check Level"
+msgstr "Уровень проверки"
+
+msgid "Normal (Normal)"
+msgstr "Нормальный (Normal)"
+
+msgid "Strict (Strict)"
+msgstr "Строгий (Strict)"
+
+msgid "Lenient (Lenient)"
+msgstr "Мягкий (Lenient)"
+
+msgid "Check Items"
+msgstr "Элементы проверки"
+
+msgid "Escape Characters"
+msgstr "Экранирующие символы"
+
+msgid "HTML Tags"
+msgstr "HTML-теги"
+
+msgid "Placeholders"
+msgstr "Заполнители"
+
+msgid "PO File Update Settings"
+msgstr "Настройки обновления PO-файла"
+
+msgid "Add check results to PO file"
+msgstr "Добавить результаты проверки в PO-файл"
+
+msgid "Add fuzzy flag"
+msgstr "Добавить флаг fuzzy"
+
+msgid "Add error comments"
+msgstr "Добавить комментарии об ошибках"
+
+msgid "Export Settings"
+msgstr "Настройки экспорта"
+
+msgid "Export entries with errors to separate file"
+msgstr "Экспортировать записи с ошибками в отдельный файл"
+
+msgid "Warning"
+msgstr "Предупреждение"
+
+msgid "No PO file selected."
+msgstr "PO-файл не выбран."
+
+msgid "Confirm Removal"
+msgstr "Подтвердить удаление"
+
+msgid "Also remove fuzzy flags"
+msgstr "Также удалить флаги fuzzy"
+
+msgid "Complete"
+msgstr "Готово"
+
+msgid "Error"
+msgstr "Ошибка"
+
+msgid "Line"
+msgstr "Строка"
+
+msgid "msgctxt"
+msgstr "msgctxt"
+
+msgid "msgid (excerpt)"
+msgstr "msgid (выдержка)"
+
+msgid "Problem Type"
+msgstr "Тип проблемы"
+
+msgid "Ready"
+msgstr "Готов"
+
+msgid "Select PO File"
+msgstr "Выберите PO-файл"
+
+msgid "PO Files"
+msgstr "PO-файлы"
+
+msgid "All Files"
+msgstr "Все файлы"
+
+msgid "Checking..."
+msgstr "Проверка..."
+
+msgid "(none)"
+msgstr "(нет)"
+
+msgid "Please wait."
+msgstr "Пожалуйста, подождите."
+
+msgid "Check Results"
+msgstr "Результаты проверки"
+
+msgid "Detected problems:"
+msgstr "Обнаруженные проблемы:"
+
+msgid "Errors:"
+msgstr "Ошибки:"
+
+msgid "Warnings:"
+msgstr "Предупреждения:"
+
+msgid "Action:"
+msgstr "Действие:"
+
+msgid "✓ No errors found."
+msgstr "✓ Ошибки не найдены."
+
+msgid "SmartGit Translation Community"
+msgstr "SmartGit Translation Community"
