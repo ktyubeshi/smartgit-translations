@@ -9171,6 +9171,20 @@ msgctxt "dlgSgRepositorySettings.ttpGroupPatterns:"
 msgid "Patterns will show up in the GUI using auto-generated labels which are derived from their regular expression. You can assign a custom label <tt>label</tt> to a pattern by prefixing it by <tt>label:</tt>; a label may only contain letters, digits and '_'."
 msgstr ""
 
+#. Performing 'checkout, Check Out..., Check out an existing commit.'
+#. Showing dialog 10 (@AF94B0B) '@37A0FC8C - Check Out' (owner: @1E1B061)
+#. Performing ', Cancel'
+#. Performing 'editFile, Edit File'
+#. opening smartgit.cau@1B5623B4:messages.pot - [~/Git-projects/smartgit-translations/po] - Editor (smartgit.cau@63C6C5E5)
+#. Performing 'file-save, Save, Save file modifications.'
+#. Showing dialog 11 (@73417494) '@AD585FB - Commit' (owner: @1E1B061)
+#. Performing ', Confirm Email'
+#. Performing 'repositorySettings, Settings...'
+#. Showing dialog 12 (@69C51FDB) '@63053B71 - Repository Settings' (owner: @1E1B061)
+msgctxt "dlgSgRepositorySettings.wrn:"
+msgid "It is recommended to set an email address used for committing."
+msgstr ""
+
 msgctxt "dlgSgRepositorySettings.wrn:"
 msgid "The entered email address does not look like a valid one."
 msgstr ""
