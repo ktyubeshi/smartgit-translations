@@ -16340,3 +16340,30 @@ msgstr ""
 msgctxt "wnd(Log|Project|Std|).tle:"
 msgid "$1 \\[$2\\] - Log for $3"
 msgstr ""
+
+#. opening smartgit.byC@34F7B44F:SmartGit 24.1.3 Evaluation until Jun 27 (smartgit.byC@44A085E5)
+#. Showing dialog 0 (@305B43CA) '@D108406 - Passwords' (owner: null)
+#. Performing ', OK'
+#. Performing 'about, About SmartGit'
+#. Showing dialog 1 (@51D8F2F2) '@72FB989B - About SmartGit' (owner: @44A085E5)
+msgctxt "dlgSgAbout.btn:"
+msgid "Copy Evaluation-ID"
+msgstr ""
+
+#. opening smartgit.byC@34F7B44F:SmartGit 24.1.3 Evaluation until Jun 27 (smartgit.byC@44A085E5)
+#. Showing dialog 0 (@305B43CA) '@D108406 - Passwords' (owner: null)
+#. Performing ', OK'
+#. Performing 'about, About SmartGit'
+#. Showing dialog 1 (@51D8F2F2) '@72FB989B - About SmartGit' (owner: @44A085E5)
+msgctxt "dlgSgAbout.edt:"
+msgid "Demo Until"
+msgstr ""
+
+#. opening smartgit.byC@34F7B44F:SmartGit 24.1.3 Evaluation until Jun 27 (smartgit.byC@44A085E5)
+#. Showing dialog 0 (@305B43CA) '@D108406 - Passwords' (owner: null)
+#. Performing ', OK'
+#. Performing 'about, About SmartGit'
+#. Showing dialog 1 (@51D8F2F2) '@72FB989B - About SmartGit' (owner: @44A085E5)
+msgctxt "dlgSgAbout.edt:"
+msgid "Valid Until"
+msgstr ""
