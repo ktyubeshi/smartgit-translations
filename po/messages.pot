@@ -16389,3 +16389,14 @@ msgstr ""
 msgctxt "dlgSgRepositorySettings.wrn:"
 msgid "It is recommended to set an email address used for committing."
 msgstr ""
+
+#. opening smartgit.byM@7A1371:SmartGit 24.1.3 Evaluation until Jun 27 (smartgit.byM@60C73E58)
+#. Performing 'worktreeAdd, Add Worktree...'
+#. Showing dialog 0 (@4FA8BEBB) '@18D610E1 - Add Worktree' (owner: @60C73E58)
+#. Performing ', OK'
+#. opening smartgit.byM@3CE7490A:SmartGit 24.1.3 Evaluation until Jun 27 (smartgit.byM@2F99D8C)
+#. Performing ', Rename...'
+#. Showing dialog 1 (@40AC0A56) '@2B6B487C - Rename' (owner: @2F99D8C)
+msgctxt "dlgSgRenameBranch.err:"
+msgid "The name must not end with a slash or dot."
+msgstr ""
