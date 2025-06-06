@@ -9268,8 +9268,16 @@ msgctxt "dlgSgRepositorySettings.hdl"
 msgid "Edit the repository settings"
 msgstr ""
 
+#. opening smartgit.byM@49D42FAF:SmartGit 24.1.3 Evaluation until Jun 27 (smartgit.byM@E280403)
+#. Performing 'about, About SmartGit'
+#. Showing dialog 0 (@C0013B8) '@6FC0E448 - About SmartGit' (owner: @E280403)
+#. Showing dialog 1 (@78E387D6) '@1BE3F8F8 - Passwords' (owner: null)
+#. Performing ', OK'
+#. Performing 'repositorySettings, Settings...'
+#. Showing dialog 2 (@510E4D79) '@4EF31221 - Repository Settings' (owner: @E280403)
+#| msgid "Here you can edit the Git settings for the repository. The default settings can be found in the preferences."
 msgctxt "dlgSgRepositorySettings.inf"
-msgid "Here you can edit the Git settings for the repository. The default settings can be found in the preferences."
+msgid "Here you can edit the Git settings for the repository. The default settings can be found in the Preferences."
 msgstr ""
 
 msgctxt "dlgSgRepositorySettings.lbl:"
@@ -15006,8 +15014,9 @@ msgctxt "wnd(Log|Project|Std|).mniFixup"
 msgid "Use Message for Commit"
 msgstr ""
 
+#| msgid "Configure"
 msgctxt "wnd(Log|Project|Std|).mniFlowConfigure"
-msgid "Configure"
+msgid "Configure Features"
 msgstr ""
 
 msgctxt "wnd(Log|Project|Std|).mniFlowConfigure:"
@@ -15194,8 +15203,9 @@ msgctxt "wnd(Log|Project|Std|).mniNewWindow"
 msgid "New Window"
 msgstr ""
 
+#| msgid "Open from Working Tree"
 msgctxt "wnd(Log|Project|Std|).mniOpen"
-msgid "Open from Working Tree"
+msgid "Open"
 msgstr ""
 
 msgctxt "wnd(Log|Project|Std|).mniOpen:"
