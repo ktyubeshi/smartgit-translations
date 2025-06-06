@@ -8901,6 +8901,20 @@ msgctxt "dlgSgRepositoryClose.btn:"
 msgid "Force Close"
 msgstr ""
 
+#. Performing 'repositoryAddGroup, Add Group...'
+#. Showing dialog 3 (@79BA0285) '@46A388CC - Add Group' (owner: @1E1B061)
+#. Performing ', Add'
+#. Performing '@smartgit.byU'
+#. Performing 'fetch, Pull..., Fetch commits from a remote repository and (optionally) integrate them with possible local commits.'
+#. Showing dialog 4 (@7B3085A3) '@5D5574C7 - Pull' (owner: @1E1B061)
+#. Performing ', Pull'
+#. Showing dialog 5 (@70EE9D31) '@1A01FFFF - Passwords' (owner: null)
+#. Performing ', OK'
+#. Showing dialog 6 (@4C8D45CF) '@1C58D7BE - Exit' (owner: @1E1B061)
+msgctxt "dlgSgRepositoryClose.btn:"
+msgid "Force Exit"
+msgstr ""
+
 msgctxt "dlgSgRepositoryClose.fur"
 msgid "Note that currently running Git processes might not be interrupted."
 msgstr ""
