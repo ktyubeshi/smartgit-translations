@@ -16772,3 +16772,47 @@ msgstr ""
 msgctxt "wndLog.tab\"Graph \\(Initializing Subtree-Cache\\u2026\\)\""
 msgid "Graph \\(Initializing Subtree-Cache\\u2026\\)"
 msgstr ""
+
+#. Performing ', Push'
+#. Showing dialog 12 (@2AD80CF6) '@4E212F46 - Push To' (owner: @79D3473E)
+#. Performing ', Push'
+#. Performing ',   po_formatter'
+#. Performing ',   po_formatter'
+#. Performing 'editFile, Edit File'
+#. opening smartgit.cau@7A0DF38E:messages.pot - [~/Git-projects/smartgit-translations/po] - Editor (smartgit.cau@6A175162)
+#. Performing ',   po_formatter'
+#. Performing 'repositoryClone, Clone…, Clone a new repository.'
+#. Showing dialog 13 (@35FD03D9) '@6B6CF3C1 - Clone' (owner: @79D3473E)
+msgctxt "dlgSgClone.btn:"
+msgid "Continue"
+msgstr ""
+
+#. Performing ', Push'
+#. Showing dialog 12 (@2AD80CF6) '@4E212F46 - Push To' (owner: @79D3473E)
+#. Performing ', Push'
+#. Performing ',   po_formatter'
+#. Performing ',   po_formatter'
+#. Performing 'editFile, Edit File'
+#. opening smartgit.cau@7A0DF38E:messages.pot - [~/Git-projects/smartgit-translations/po] - Editor (smartgit.cau@6A175162)
+#. Performing ',   po_formatter'
+#. Performing 'repositoryClone, Clone…, Clone a new repository.'
+#. Showing dialog 13 (@35FD03D9) '@6B6CF3C1 - Clone' (owner: @79D3473E)
+msgctxt "dlgSgClone.btn:"
+msgid "Go Back"
+msgstr ""
+
+# [decode] msgctxt "dlgSgClone.hnt"Searching …""
+# [decode] msgid "Searching …"
+#. Performing ', Push'
+#. Showing dialog 12 (@2AD80CF6) '@4E212F46 - Push To' (owner: @79D3473E)
+#. Performing ', Push'
+#. Performing ',   po_formatter'
+#. Performing ',   po_formatter'
+#. Performing 'editFile, Edit File'
+#. opening smartgit.cau@7A0DF38E:messages.pot - [~/Git-projects/smartgit-translations/po] - Editor (smartgit.cau@6A175162)
+#. Performing ',   po_formatter'
+#. Performing 'repositoryClone, Clone…, Clone a new repository.'
+#. Showing dialog 13 (@35FD03D9) '@6B6CF3C1 - Clone' (owner: @79D3473E)
+msgctxt "dlgSgClone.hnt\"Searching \\u2026\""
+msgid "Searching \\u2026"
+msgstr ""
