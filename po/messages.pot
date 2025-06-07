@@ -16432,3 +16432,336 @@ msgstr ""
 msgctxt "wnd(Log|Project|Std|).tle:"
 msgid "$1 \\[$2\\] - Log for $3"
 msgstr ""
+
+#. Performing ', Close'
+#. Performing 'checkForLatestBuild, Check for Latest Build…'
+#. Showing dialog 1 (@7D12429) '@534762ED - Check for Latest Build' (owner: @16132F21)
+#. Performing ', Get Latest Build'
+#. Showing dialog 2 (@6E364F1F) '@1A7D0C9F - Check for Latest Build' (owner: @16132F21)
+#. Performing ', OK'
+#. opening smartgit.byM@5D800A56:SmartGit 24.1.3 (smartgit.byM@5F6A8EFE)
+#. Showing dialog 3 (@53E28097) '@6E794F53 - Welcome to SmartGit' (owner: @5F6A8EFE)
+#. Performing ', OK'
+#. Showing dialog 4 (@716AE973) '@7B3C2AE0 - Internal Error' (owner: null)
+msgctxt "dlgScDialogAssertionHandlerLinkageError.btn:"
+msgid "Just Exit"
+msgstr ""
+
+#. Performing ', Close'
+#. Performing 'checkForLatestBuild, Check for Latest Build…'
+#. Showing dialog 1 (@7D12429) '@534762ED - Check for Latest Build' (owner: @16132F21)
+#. Performing ', Get Latest Build'
+#. Showing dialog 2 (@6E364F1F) '@1A7D0C9F - Check for Latest Build' (owner: @16132F21)
+#. Performing ', OK'
+#. opening smartgit.byM@5D800A56:SmartGit 24.1.3 (smartgit.byM@5F6A8EFE)
+#. Showing dialog 3 (@53E28097) '@6E794F53 - Welcome to SmartGit' (owner: @5F6A8EFE)
+#. Performing ', OK'
+#. Showing dialog 4 (@716AE973) '@7B3C2AE0 - Internal Error' (owner: null)
+msgctxt "dlgScDialogAssertionHandlerLinkageError.lbl:"
+msgid "Your SmartGit-installation seems to be damaged."
+msgstr ""
+
+# [decode] msgctxt "dlgSgSubmoduleAdd.hnt"Searching …""
+# [decode] msgid "Searching …"
+#. Showing dialog 6 (@6C1A63F7) '@34E9DE8D - Add Submodule' (owner: @575C23F1)
+#. Showing dialog 7 (@34D72F06) '@1E466D - Passwords' (owner: @6C1A63F7)
+#. Performing ', OK'
+#. Performing ', Finish'
+#. Performing 'remoteAdd, Add…'
+#. Showing dialog 8 (@7B6854B5) '@58945295 - Add Remote Repository' (owner: @575C23F1)
+#. Performing ', Provider'
+#. Performing ', Cancel'
+#. Performing 'submoduleRegister, Add…'
+#. Showing dialog 9 (@6F7241C2) '@32245B66 - Add Submodule' (owner: @575C23F1)
+msgctxt "dlgSgSubmoduleAdd.hnt\"Searching \\u2026\""
+msgid "Searching \\u2026"
+msgstr ""
+
+#. Showing dialog 8 (@7B6854B5) '@58945295 - Add Remote Repository' (owner: @575C23F1)
+#. Performing ', Provider'
+#. Performing ', Cancel'
+#. Performing 'submoduleRegister, Add…'
+#. Showing dialog 9 (@6F7241C2) '@32245B66 - Add Submodule' (owner: @575C23F1)
+#. Performing ', Finish'
+#. Performing ',   Reveal in Finder'
+#. Performing '@smartgit.byU'
+#. Performing 'subtreeAdd, Add…'
+#. Showing dialog 10 (@35FAC3BA) '@8AA1562 - Add Subtree' (owner: @575C23F1)
+msgctxt "dlgSgSubtreeAdd.btn:"
+msgid "Configure"
+msgstr ""
+
+#. Performing ', Provider'
+#. Performing ', Cancel'
+#. Performing 'submoduleRegister, Add…'
+#. Showing dialog 9 (@6F7241C2) '@32245B66 - Add Submodule' (owner: @575C23F1)
+#. Performing ', Finish'
+#. Performing ',   Reveal in Finder'
+#. Performing '@smartgit.byU'
+#. Performing 'subtreeAdd, Add…'
+#. Showing dialog 10 (@35FAC3BA) '@8AA1562 - Add Subtree' (owner: @575C23F1)
+#. Performing ', Go Back'
+msgctxt "dlgSgSubtreeAdd.btn:"
+msgid "Continue"
+msgstr ""
+
+#. Showing dialog 8 (@7B6854B5) '@58945295 - Add Remote Repository' (owner: @575C23F1)
+#. Performing ', Provider'
+#. Performing ', Cancel'
+#. Performing 'submoduleRegister, Add…'
+#. Showing dialog 9 (@6F7241C2) '@32245B66 - Add Submodule' (owner: @575C23F1)
+#. Performing ', Finish'
+#. Performing ',   Reveal in Finder'
+#. Performing '@smartgit.byU'
+#. Performing 'subtreeAdd, Add…'
+#. Showing dialog 10 (@35FAC3BA) '@8AA1562 - Add Subtree' (owner: @575C23F1)
+msgctxt "dlgSgSubtreeAdd.btn:"
+msgid "Go Back"
+msgstr ""
+
+#. Showing dialog 8 (@7B6854B5) '@58945295 - Add Remote Repository' (owner: @575C23F1)
+#. Performing ', Provider'
+#. Performing ', Cancel'
+#. Performing 'submoduleRegister, Add…'
+#. Showing dialog 9 (@6F7241C2) '@32245B66 - Add Submodule' (owner: @575C23F1)
+#. Performing ', Finish'
+#. Performing ',   Reveal in Finder'
+#. Performing '@smartgit.byU'
+#. Performing 'subtreeAdd, Add…'
+#. Showing dialog 10 (@35FAC3BA) '@8AA1562 - Add Subtree' (owner: @575C23F1)
+msgctxt "dlgSgSubtreeAdd.edt:"
+msgid "Relative Path"
+msgstr ""
+
+#. Showing dialog 8 (@7B6854B5) '@58945295 - Add Remote Repository' (owner: @575C23F1)
+#. Performing ', Provider'
+#. Performing ', Cancel'
+#. Performing 'submoduleRegister, Add…'
+#. Showing dialog 9 (@6F7241C2) '@32245B66 - Add Submodule' (owner: @575C23F1)
+#. Performing ', Finish'
+#. Performing ',   Reveal in Finder'
+#. Performing '@smartgit.byU'
+#. Performing 'subtreeAdd, Add…'
+#. Showing dialog 10 (@35FAC3BA) '@8AA1562 - Add Subtree' (owner: @575C23F1)
+msgctxt "dlgSgSubtreeAdd.err:"
+msgid "Directory '/Users/tomohiro/Git-projects/sgpo-tools-cli-WorkSpace/sgpo-tools-cli' already exists."
+msgstr ""
+
+#. Showing dialog 8 (@7B6854B5) '@58945295 - Add Remote Repository' (owner: @575C23F1)
+#. Performing ', Provider'
+#. Performing ', Cancel'
+#. Performing 'submoduleRegister, Add…'
+#. Showing dialog 9 (@6F7241C2) '@32245B66 - Add Submodule' (owner: @575C23F1)
+#. Performing ', Finish'
+#. Performing ',   Reveal in Finder'
+#. Performing '@smartgit.byU'
+#. Performing 'subtreeAdd, Add…'
+#. Showing dialog 10 (@35FAC3BA) '@8AA1562 - Add Subtree' (owner: @575C23F1)
+msgctxt "dlgSgSubtreeAdd.err:"
+msgid "Please enter a valid relative path. The submodule will be created at this path inside the repository."
+msgstr ""
+
+#. Showing dialog 8 (@7B6854B5) '@58945295 - Add Remote Repository' (owner: @575C23F1)
+#. Performing ', Provider'
+#. Performing ', Cancel'
+#. Performing 'submoduleRegister, Add…'
+#. Showing dialog 9 (@6F7241C2) '@32245B66 - Add Submodule' (owner: @575C23F1)
+#. Performing ', Finish'
+#. Performing ',   Reveal in Finder'
+#. Performing '@smartgit.byU'
+#. Performing 'subtreeAdd, Add…'
+#. Showing dialog 10 (@35FAC3BA) '@8AA1562 - Add Subtree' (owner: @575C23F1)
+msgctxt "dlgSgSubtreeAdd.hdl:"
+msgid "Path"
+msgstr ""
+
+#. Performing ', Provider'
+#. Performing ', Cancel'
+#. Performing 'submoduleRegister, Add…'
+#. Showing dialog 9 (@6F7241C2) '@32245B66 - Add Submodule' (owner: @575C23F1)
+#. Performing ', Finish'
+#. Performing ',   Reveal in Finder'
+#. Performing '@smartgit.byU'
+#. Performing 'subtreeAdd, Add…'
+#. Showing dialog 10 (@35FAC3BA) '@8AA1562 - Add Subtree' (owner: @575C23F1)
+#. Performing ', Go Back'
+msgctxt "dlgSgSubtreeAdd.hdl:"
+msgid "Repository"
+msgstr ""
+
+# [decode] msgctxt "dlgSgSubtreeAdd.hnt"Searching …""
+# [decode] msgid "Searching …"
+#. Showing dialog 8 (@7B6854B5) '@58945295 - Add Remote Repository' (owner: @575C23F1)
+#. Performing ', Provider'
+#. Performing ', Cancel'
+#. Performing 'submoduleRegister, Add…'
+#. Showing dialog 9 (@6F7241C2) '@32245B66 - Add Submodule' (owner: @575C23F1)
+#. Performing ', Finish'
+#. Performing ',   Reveal in Finder'
+#. Performing '@smartgit.byU'
+#. Performing 'subtreeAdd, Add…'
+#. Showing dialog 10 (@35FAC3BA) '@8AA1562 - Add Subtree' (owner: @575C23F1)
+msgctxt "dlgSgSubtreeAdd.hnt\"Searching \\u2026\""
+msgid "Searching \\u2026"
+msgstr ""
+
+#. Performing ', Provider'
+#. Performing ', Cancel'
+#. Performing 'submoduleRegister, Add…'
+#. Showing dialog 9 (@6F7241C2) '@32245B66 - Add Submodule' (owner: @575C23F1)
+#. Performing ', Finish'
+#. Performing ',   Reveal in Finder'
+#. Performing '@smartgit.byU'
+#. Performing 'subtreeAdd, Add…'
+#. Showing dialog 10 (@35FAC3BA) '@8AA1562 - Add Subtree' (owner: @575C23F1)
+#. Performing ', Go Back'
+msgctxt "dlgSgSubtreeAdd.inf\"Specify the repository to clone as subtree.\\nTo configure multiple accounts of the same hosting provider, use the Preferences.\""
+msgid "Specify the repository to clone as subtree.\\nTo configure multiple accounts of the same hosting provider, use the Preferences."
+msgstr ""
+
+#. Showing dialog 8 (@7B6854B5) '@58945295 - Add Remote Repository' (owner: @575C23F1)
+#. Performing ', Provider'
+#. Performing ', Cancel'
+#. Performing 'submoduleRegister, Add…'
+#. Showing dialog 9 (@6F7241C2) '@32245B66 - Add Submodule' (owner: @575C23F1)
+#. Performing ', Finish'
+#. Performing ',   Reveal in Finder'
+#. Performing '@smartgit.byU'
+#. Performing 'subtreeAdd, Add…'
+#. Showing dialog 10 (@35FAC3BA) '@8AA1562 - Add Subtree' (owner: @575C23F1)
+msgctxt "dlgSgSubtreeAdd.lbl:"
+msgid "Steps"
+msgstr ""
+
+#. opening smartgit.byM@1FD37440:SmartGit 24.1.3 (smartgit.byM@3B98B809)
+msgctxt "ntmFollowUsOnX:"
+msgid "<link1>Bluesky</link1>: news, polls, discussions"
+msgstr ""
+
+msgctxt "wnd.mni:"
+msgid "About SmartGit"
+msgstr ""
+
+msgctxt "wnd.mni:"
+msgid "Contact Support"
+msgstr ""
+
+msgctxt "wnd.mni:"
+msgid "Cursor"
+msgstr ""
+
+msgctxt "wnd.mni:"
+msgid "Import mismatch"
+msgstr ""
+
+msgctxt "wnd.mni:"
+msgid "Import unknown"
+msgstr ""
+
+msgctxt "wnd.mni:"
+msgid "License Agreement"
+msgstr ""
+
+msgctxt "wnd.mni:"
+msgid "Open File"
+msgstr ""
+
+msgctxt "wnd.mni:"
+msgid "Open in Terminal"
+msgstr ""
+
+msgctxt "wnd.mni:"
+msgid "PyCharm"
+msgstr ""
+
+msgctxt "wnd.mni:"
+msgid "Reveal in Finder"
+msgstr ""
+
+msgctxt "wnd.mni:"
+msgid "SmartGit Website"
+msgstr ""
+
+msgctxt "wnd.mni:"
+msgid "Tabby"
+msgstr ""
+
+msgctxt "wnd.mni:"
+msgid "Windsurf"
+msgstr ""
+
+msgctxt "wnd.mni:"
+msgid "po_formatter"
+msgstr ""
+
+msgctxt "wnd.mniBisectTryCommit"
+msgid "Try Commit"
+msgstr ""
+
+msgctxt "wnd.mniFixCaseChange"
+msgid "Fix Case-Change"
+msgstr ""
+
+msgctxt "wnd.mniIntegrateMain"
+msgid "Integrate Main"
+msgstr ""
+
+msgctxt "wnd.mniShowInMyHistory"
+msgid "Show in My History"
+msgstr ""
+
+msgctxt "wnd.mniWindow-maximize"
+msgid "Zoom"
+msgstr ""
+
+msgctxt "wnd.mniWindowMaximizeRestore"
+msgid "Maximize View"
+msgstr ""
+
+# [decode] msgctxt "wndLog.tab"Graph \(Loading…\)""
+# [decode] msgid "Graph \(Loading…\)"
+#. Performing 'viewUnversioned, Show Unversioned Files, If selected, not yet version controlled files will be shown.'
+#. Performing 'viewIgnored, Show Ignored Files, If selected, ignored files will be shown.'
+#. Performing 'delete, Delete…, Delete the selected local files or directory.'
+#. Showing dialog 0 (@69F3E556) '@43B4EC0C - Delete' (owner: @3B98B809)
+#. Performing ', Delete'
+#. Performing 'viewUnchanged, Show Unchanged Files, If selected, unchanged files will be shown.'
+#. Performing 'viewIgnored, Show Ignored Files, If selected, ignored files will be shown.'
+#. Performing 'viewUnversioned, Show Unversioned Files, If selected, not yet version controlled files will be shown.'
+#. Performing ',   Import mismatch'
+#. Performing 'stage, Stage, Store working tree files in the index to prepare the next commit.'
+msgctxt "wndLog.tab\"Graph \\(Loading\\u2026\\)\""
+msgid "Graph \\(Loading\\u2026\\)"
+msgstr ""
+
+# [decode] msgctxt "wndLog.tab"Graph \(Running log…\)""
+# [decode] msgid "Graph \(Running log…\)"
+#. Performing 'viewUnversioned, Show Unversioned Files, If selected, not yet version controlled files will be shown.'
+#. Performing 'viewIgnored, Show Ignored Files, If selected, ignored files will be shown.'
+#. Performing 'delete, Delete…, Delete the selected local files or directory.'
+#. Showing dialog 0 (@69F3E556) '@43B4EC0C - Delete' (owner: @3B98B809)
+#. Performing ', Delete'
+#. Performing 'viewUnchanged, Show Unchanged Files, If selected, unchanged files will be shown.'
+#. Performing 'viewIgnored, Show Ignored Files, If selected, ignored files will be shown.'
+#. Performing 'viewUnversioned, Show Unversioned Files, If selected, not yet version controlled files will be shown.'
+#. Performing ',   Import mismatch'
+#. Performing 'stage, Stage, Store working tree files in the index to prepare the next commit.'
+msgctxt "wndLog.tab\"Graph \\(Running log\\u2026\\)\""
+msgid "Graph \\(Running log\\u2026\\)"
+msgstr ""
+
+# [decode] msgctxt "wndLog.tab"Graph \(Scanning WT…\)""
+# [decode] msgid "Graph \(Scanning WT…\)"
+#. Performing 'viewUnversioned, Show Unversioned Files, If selected, not yet version controlled files will be shown.'
+#. Performing 'viewUnversioned, Show Unversioned Files, If selected, not yet version controlled files will be shown.'
+#. Performing 'viewIgnored, Show Ignored Files, If selected, ignored files will be shown.'
+#. Performing 'delete, Delete…, Delete the selected local files or directory.'
+#. Showing dialog 0 (@69F3E556) '@43B4EC0C - Delete' (owner: @3B98B809)
+#. Performing ', Delete'
+#. Performing 'viewUnchanged, Show Unchanged Files, If selected, unchanged files will be shown.'
+#. Performing 'viewIgnored, Show Ignored Files, If selected, ignored files will be shown.'
+#. Performing 'viewUnversioned, Show Unversioned Files, If selected, not yet version controlled files will be shown.'
+#. Performing ',   Import mismatch'
+msgctxt "wndLog.tab\"Graph \\(Scanning WT\\u2026\\)\""
+msgid "Graph \\(Scanning WT\\u2026\\)"
+msgstr ""
