@@ -16765,3 +16765,10 @@ msgstr ""
 msgctxt "wndLog.tab\"Graph \\(Scanning WT\\u2026\\)\""
 msgid "Graph \\(Scanning WT\\u2026\\)"
 msgstr ""
+
+# [decode] msgctxt "wndLog.tab"Graph \(Initializing Subtree-Cache…\)""
+# [decode] msgid "Graph \(Initializing Subtree-Cache…\)"
+#. opening smartgit.byM@135E49B2:SmartGit 24.1.3 (smartgit.byM@79D3473E)
+msgctxt "wndLog.tab\"Graph \\(Initializing Subtree-Cache\\u2026\\)\""
+msgid "Graph \\(Initializing Subtree-Cache\\u2026\\)"
+msgstr ""
