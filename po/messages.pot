@@ -2005,8 +2005,20 @@ msgctxt "dlgSgAbortRebasingConfirm.btn:"
 msgid "Abort Rebase"
 msgstr ""
 
+# [decode] msgid "Your working tree is in 'rebasing' state. You may abort rebasing; if you just want to skip the current patch, use ブランチ \| リベース \| リベース instead.\n\nAborting will clean any local modification \(by invoking 'git rebase --abort'\)!"
+#. Performing ', Rebase 1 commit from 'feature/consistency_checker' to '5a37a63f''
+#. Showing dialog 278 (@21234362) '@625817A3 - Command Output' (owner: @6EA37416)
+#. Performing ', Close'
+#. Performing ', Continue'
+#. Performing 'branchContinue, Continue'
+#. Showing dialog 279 (@6F1E6451) '@5AAE00DE - Rebase' (owner: @6EA37416)
+#. Performing ', Cancel'
+#. Performing ', Abort'
+#. Performing 'branchAbort, Abort'
+#. Showing dialog 280 (@23880B4E) '@1C322DB7 - Abort' (owner: @6EA37416)
+#| msgid "Your working tree is in 'rebasing' state. You may abort rebasing; if you just want to skip the current patch, use Branch \\| Rebase \\| Rebase instead.\\n\\nAborting will clean any local modification \\(by invoking 'git rebase --abort'\\)!"
 msgctxt "dlgSgAbortRebasingConfirm.fur"
-msgid "Your working tree is in 'rebasing' state. You may abort rebasing; if you just want to skip the current patch, use Branch \\| Rebase \\| Rebase instead.\\n\\nAborting will clean any local modification \\(by invoking 'git rebase --abort'\\)!"
+msgid "Your working tree is in 'rebasing' state. You may abort rebasing; if you just want to skip the current patch, use \\u30d6\\u30e9\\u30f3\\u30c1 \\| \\u30ea\\u30d9\\u30fc\\u30b9 \\| \\u30ea\\u30d9\\u30fc\\u30b9 instead.\\n\\nAborting will clean any local modification \\(by invoking 'git rebase --abort'\\)!"
 msgstr ""
 
 msgctxt "dlgSgAbortRebasingConfirm.hdl"
@@ -3769,8 +3781,19 @@ msgctxt "dlgSgDiscardRevertTo(Head|Index).tle"
 msgid "Discard"
 msgstr ""
 
+#. Performing ', Generate Token'
+#. Showing dialog 222 (@4D44C9B) '@74BD4A9E - Generate API Token' (owner: @791B0C15)
+#. Showing dialog 223 (@25CCFA37) '@3BBBADAA - GitLab OAuth Authorization' (owner: @4D44C9B)
+#. Performing ', OK'
+#. Performing ', Cancel'
+#. Performing ', Generate Token'
+#. Showing dialog 224 (@5D90648E) '@4F46FE09 - Generate API Token' (owner: @791B0C15)
+#. Performing ', Add'
+#. Showing dialog 225 (@1AC32FBF) '@70DB218C - Checking connectivity' (owner: @791B0C15)
+#. Showing dialog 226 (@3B8BAC92) '@66C91717 - Command Failed' (owner: @791B0C15)
+#| msgid "Server returned HTTP response code: 400 for URL: https://gitlab.com/oauth/token"
 msgctxt "dlgSgErrorUtilsClientException.fur"
-msgid "Server returned HTTP response code: 400 for URL: https://gitlab.com/oauth/token"
+msgid "Server returned HTTP response code: 401 for URL: https://gitlab.com/api/v4/user:\\n\\nToken was revoked. You have to re-authorize from the user."
 msgstr ""
 
 msgctxt "dlgSgErrorUtilsClientException.fur:"
@@ -4641,8 +4664,19 @@ msgctxt "dlgSgHeadMessageListenerReplaceMessage.tle"
 msgid "Commit"
 msgstr ""
 
+#. Performing ', Continue'
+#. Performing 'branchContinue, Continue'
+#. Showing dialog 283 (@4AA08627) '@65E0BC97 - Command Failed' (owner: @6EA37416)
+#. Performing ', Close'
+#. Performing ', Abort'
+#. Performing 'branchAbort, Abort'
+#. Showing dialog 284 (@72E20A82) '@3DDF48B5 - Abort' (owner: @6EA37416)
+#. Performing ', Abort Cherry-Pick'
+#. Performing 'splitCommit, Split…'
+#. Showing dialog 285 (@7116D483) '@65C4B93B - Split Commit' (owner: @6EA37416)
+#| msgid "At least one of the affected commits is not part of your HEAD's first-parent history."
 msgctxt "dlgSgHistoryCommitCantBeModified.fur"
-msgid "At least one of the affected commits is not part of your HEAD's first-parent history."
+msgid "To modify commits of a different branch, you need to first check out this branch."
 msgstr ""
 
 msgctxt "dlgSgHistoryCommitCantBeModified.hdl"
@@ -7833,8 +7867,19 @@ msgctxt "dlgSgPushForced.fur"
 msgid "Pushing to the remote branch is not fast-forward, so the push has to be forced. The commits in the remote branch will be lost."
 msgstr ""
 
+#. Performing ', Modify Pushed Commits'
+#. Showing dialog 253 (@3F9AA30D) '@55F8871C - Edit Message' (owner: @7AF04593)
+#. Performing ', Set Message'
+#. Performing ', Push'
+#. Showing dialog 254 (@5CDA6688) '@2EF3A5D7 - Push' (owner: @7AF04593)
+#. Performing ', Cancel'
+#. Performing ', Push'
+#. Showing dialog 255 (@7FB2FF46) '@3867F8C9 - Push' (owner: @7AF04593)
+#. Performing ', Push'
+#. Showing dialog 256 (@3B6108C2) '@5CFBD4F4 - Push' (owner: @7AF04593)
+#| msgid "Do you want to force-push \\(replace\\) the remote branch?"
 msgctxt "dlgSgPushForced.hdl"
-msgid "Do you want to force-push \\(replace\\) the remote branch?"
+msgid "Do you want to force-push \\(replace\\) the remote branch 'feature/migrate-to-astral-uv'?"
 msgstr ""
 
 msgctxt "dlgSgPushForced.tle"
@@ -9089,8 +9134,19 @@ msgctxt "dlgSgRepositorySettings.hdl"
 msgid "Edit the repository settings"
 msgstr ""
 
+#. Performing ', Move to Trash'
+#. Performing 'fetch, Pull…, Fetch commits from a remote repository and (optionally) integrate them with possible local commits.'
+#. Showing dialog 268 (@41AE2ECF) '@2381ECC3 - Pull' (owner: @687BDD05)
+#. Performing ', Fetch Only'
+#. Showing dialog 269 (@52CDBA25) '@6D7BE345 - Login' (owner: null)
+#. Performing ', Cancel'
+#. Showing dialog 270 (@56C46703) '@1DD9E4F2 - Command Output' (owner: @687BDD05)
+#. Performing ', Close'
+#. Performing 'repositorySettings, Settings…'
+#. Showing dialog 271 (@5C968686) '@34AAA773 - Repository Settings' (owner: @687BDD05)
+#| msgid "Here you can edit the Git settings for the repository. The default settings can be found in the preferences."
 msgctxt "dlgSgRepositorySettings.inf"
-msgid "Here you can edit the Git settings for the repository. The default settings can be found in the preferences."
+msgid "Here you can edit the Git settings for the repository. The default settings can be found in the Preferences."
 msgstr ""
 
 msgctxt "dlgSgRepositorySettings.lbl:"
@@ -10333,8 +10389,19 @@ msgctxt "dlgSgStashOnDemandConfirmation.tle:"
 msgid "Pull"
 msgstr ""
 
+#. Showing dialog 144 (@54515437) '@2CDEF2A8 - Push' (owner: @20A7953C)
+#. Performing ', Push'
+#. Showing dialog 145 (@F76C2F6) '@1F14BB95 - Push' (owner: @20A7953C)
+#. Performing ', Force Push'
+#. Performing ', Move Commit'
+#. Showing dialog 146 (@2E7ACB5F) '@2539352C - Move and Squash Commit' (owner: @20A7953C)
+#. Performing ', Modify Pushed Commits'
+#. Showing dialog 147 (@3C850560) '@22DA866C - Reorder Commits' (owner: @20A7953C)
+#. Performing ', Save Stash'
+#. Showing dialog 148 (@7F92DEFB) '@5F25C2D4 - Reorder Commits' (owner: @20A7953C)
+#| msgid "Once you have concluded the Pull, you should manually apply the latest stash to get your local changes back into the working tree."
 msgctxt "dlgSgStashOnDemandLocalChangesCantBeReapplied.fur"
-msgid "Once you have concluded the Pull, you should manually apply the latest stash to get your local changes back into the working tree."
+msgid "Once you have concluded the Reorder Commits, you should manually apply the latest stash to get your local changes back into the working tree."
 msgstr ""
 
 msgctxt "dlgSgStashOnDemandLocalChangesCantBeReapplied.hdl"
@@ -11205,8 +11272,19 @@ msgctxt "dlgTxtEditor.fileModified.fur"
 msgid "Unless you want to see the old file state, it is recommended to reload."
 msgstr ""
 
+#. Performing ', Cancel'
+#. Performing ', Copy'
+#. Performing 'editFile, Edit File'
+#. opening smartgit.caj@6B7FF02A:messages.pot - [~/Git-projects/smartgit-translations/po] - Editor (smartgit.caj@66579498)
+#. Performing 'file-save, Save, Save file modifications.'
+#. Performing ',   po_formatter'
+#. Performing 'repositoryClone, Clone…, Clone a new repository.'
+#. Showing dialog 37 (@1FE2DA60) '@6E1ECE3D - Clone' (owner: @53ED80D3)
+#. Performing ', Cancel'
+#. Showing dialog 38 (@41DA4BE8) '@23B05E58 - Editor' (owner: @66579498)
+#| msgid "The file config was changed. Reload it?"
 msgctxt "dlgTxtEditor.fileModified.hdl"
-msgid "The file config was changed. Reload it?"
+msgid "The file messages.pot was changed. Reload it?"
 msgstr ""
 
 msgctxt "dlgTxtEditor.fileModified.tle"
@@ -13233,12 +13311,24 @@ msgctxt "wnd(Annotate|Compare|ConflictSolver|Deepgit|Git.indexEditor|Editor|Log|
 msgid "Ready"
 msgstr ""
 
+#| msgid "Full Screen"
 msgctxt "wnd(Annotate|Compare|ConflictSolver|Deepgit|Git.indexEditor|Editor|Log|Project|Std|).mniWindow-fullScreen"
-msgid "Full Screen"
+msgid "Enter Full Screen"
 msgstr ""
 
+#. Performing ',   Cursor'
+#. Performing '@smartgit.byU'
+#. Performing '@smartgit.byU'
+#. Performing '@smartgit.byU'
+#. Performing '@smartgit.byU'
+#. Performing 'discard, Discard…, Discard local changes.'
+#. Showing dialog 17 (@363751F2) '@5297030E - Discard' (owner: @575C23F1)
+#. Performing ', Discard'
+#. Performing 'editFile, Edit File'
+#. opening smartgit.cau@FBC1DE9:unknown.24_1 - [~/Git-projects/sgpo-tools-cli-WorkSpace/smartgit-translations/po] - Editor (smartgit.cau@6BD2C51D)
+#| msgid "Maximize"
 msgctxt "wnd(Annotate|Compare|ConflictSolver|Deepgit|Git.indexEditor|Editor|Log|Project|Std|).mniWindow-maximizeMaximize"
-msgid "Maximize"
+msgid "Zoom"
 msgstr ""
 
 msgctxt "wnd(Annotate|Compare|ConflictSolver|Deepgit|Git.indexEditor|Editor|Log|Project|Std|).mniWindow-maximizeRestore"
@@ -14813,8 +14903,9 @@ msgctxt "wnd(Log|Project|Std|).mniFixup"
 msgid "Use Message for Commit"
 msgstr ""
 
+#| msgid "Configure"
 msgctxt "wnd(Log|Project|Std|).mniFlowConfigure"
-msgid "Configure"
+msgid "Configure Features"
 msgstr ""
 
 msgctxt "wnd(Log|Project|Std|).mniFlowConfigure:"
@@ -15001,8 +15092,9 @@ msgctxt "wnd(Log|Project|Std|).mniNewWindow"
 msgid "New Window"
 msgstr ""
 
+#| msgid "Open from Working Tree"
 msgctxt "wnd(Log|Project|Std|).mniOpen"
-msgid "Open from Working Tree"
+msgid "Open"
 msgstr ""
 
 msgctxt "wnd(Log|Project|Std|).mniOpen:"
