@@ -16765,3 +16765,126 @@ msgstr ""
 msgctxt "wndLog.tab\"Graph \\(Scanning WT\\u2026\\)\""
 msgid "Graph \\(Scanning WT\\u2026\\)"
 msgstr ""
+
+# [decode] msgctxt "wndLog.tab"Graph \(Initializing Subtree-Cache…\)""
+# [decode] msgid "Graph \(Initializing Subtree-Cache…\)"
+#. opening smartgit.byM@135E49B2:SmartGit 24.1.3 (smartgit.byM@79D3473E)
+msgctxt "wndLog.tab\"Graph \\(Initializing Subtree-Cache\\u2026\\)\""
+msgid "Graph \\(Initializing Subtree-Cache\\u2026\\)"
+msgstr ""
+
+#. Performing ', Push'
+#. Showing dialog 12 (@2AD80CF6) '@4E212F46 - Push To' (owner: @79D3473E)
+#. Performing ', Push'
+#. Performing ',   po_formatter'
+#. Performing ',   po_formatter'
+#. Performing 'editFile, Edit File'
+#. opening smartgit.cau@7A0DF38E:messages.pot - [~/Git-projects/smartgit-translations/po] - Editor (smartgit.cau@6A175162)
+#. Performing ',   po_formatter'
+#. Performing 'repositoryClone, Clone…, Clone a new repository.'
+#. Showing dialog 13 (@35FD03D9) '@6B6CF3C1 - Clone' (owner: @79D3473E)
+msgctxt "dlgSgClone.btn:"
+msgid "Continue"
+msgstr ""
+
+#. Performing ', Push'
+#. Showing dialog 12 (@2AD80CF6) '@4E212F46 - Push To' (owner: @79D3473E)
+#. Performing ', Push'
+#. Performing ',   po_formatter'
+#. Performing ',   po_formatter'
+#. Performing 'editFile, Edit File'
+#. opening smartgit.cau@7A0DF38E:messages.pot - [~/Git-projects/smartgit-translations/po] - Editor (smartgit.cau@6A175162)
+#. Performing ',   po_formatter'
+#. Performing 'repositoryClone, Clone…, Clone a new repository.'
+#. Showing dialog 13 (@35FD03D9) '@6B6CF3C1 - Clone' (owner: @79D3473E)
+msgctxt "dlgSgClone.btn:"
+msgid "Go Back"
+msgstr ""
+
+# [decode] msgctxt "dlgSgClone.hnt"Searching …""
+# [decode] msgid "Searching …"
+#. Performing ', Push'
+#. Showing dialog 12 (@2AD80CF6) '@4E212F46 - Push To' (owner: @79D3473E)
+#. Performing ', Push'
+#. Performing ',   po_formatter'
+#. Performing ',   po_formatter'
+#. Performing 'editFile, Edit File'
+#. opening smartgit.cau@7A0DF38E:messages.pot - [~/Git-projects/smartgit-translations/po] - Editor (smartgit.cau@6A175162)
+#. Performing ',   po_formatter'
+#. Performing 'repositoryClone, Clone…, Clone a new repository.'
+#. Showing dialog 13 (@35FD03D9) '@6B6CF3C1 - Clone' (owner: @79D3473E)
+msgctxt "dlgSgClone.hnt\"Searching \\u2026\""
+msgid "Searching \\u2026"
+msgstr ""
+
+#. Performing ',   Cursor'
+#. Performing 'fetch, Pull…, Fetch commits from a remote repository and (optionally) integrate them with possible local commits.'
+#. Showing dialog 3 (@3A13F663) '@7381D6F0 - Pull' (owner: @7FAD214A)
+#. Performing ', Pull'
+#. Performing 'fetch, Pull…, Fetch commits from a remote repository and (optionally) integrate them with possible local commits.'
+#. Showing dialog 4 (@4040CCAE) '@15BB8ED5 - Pull' (owner: @7FAD214A)
+#. Performing ', Pull'
+#. Showing dialog 5 (@3FE24670) '@7D6019D5 - Pull' (owner: @7FAD214A)
+#. Performing ', Save Stash'
+#. Showing dialog 6 (@3883B5E9) '@7D70BA18 - Command Failed' (owner: @7FAD214A)
+msgctxt "dlgSgOutput.lbl\"Command Pull \\(Merge\\) failed!\""
+msgid "Command Pull \\(Merge\\) failed!"
+msgstr ""
+
+# [decode] msgctxt "wndStd.hnt"Loading …""
+# [decode] msgid "Loading …"
+#. Showing dialog 17 (@1A865EBF) '@6B3D3E57 - Ignore' (owner: @14B9817B)
+#. Performing ', Ignore'
+#. Performing '@smartgit.byU'
+#. Performing 'copyCommitId, Copy ID'
+#. Performing 'newStandardWindow, Show Standard Window'
+#. opening smartgit.azY@36117F63:null (smartgit.azY@46199519)
+#. Performing 'repositoryOpen, Open Repository'
+#. Performing 'repositoryOpen, Open Repository'
+#. Performing 'repositoryOpen, Open Repository'
+#. Performing 'repositoryOpen, Open Repository'
+msgctxt "wndStd.hnt\"Loading \\u2026\""
+msgid "Loading \\u2026"
+msgstr ""
+
+#. Showing dialog 19 (@73D7B6B0) '@3A96B5A1 - Rename' (owner: @46199519)
+#. Performing ', Rename'
+#. Performing 'branchRename, Rename…'
+#. Showing dialog 20 (@13A34A70) '@2929EF51 - Rename' (owner: @46199519)
+#. Performing ', Rename'
+#. Performing '@smartgit.aCg'
+#. Performing 'checkout, Check Out…, Check out an existing commit.'
+#. Performing 'stdSetModeWt, Show Local Changes, Show the local files of the repository (Working Tree).'
+#. Performing ', All files, excl. ignored'
+#. Performing ', All files, incl. ignored'
+msgctxt "wndStd.mni:"
+msgid "Open"
+msgstr ""
+
+#. Performing 'stdSetModeWt, Show Local Changes, Show the local files of the repository (Working Tree).'
+#. Performing 'stdSetModeHistory, Show History, Show the history view.'
+#. Performing 'stdSetModeWt, Show Local Changes, Show the local files of the repository (Working Tree).'
+#. Performing 'stdSetModeHistory, Show History, Show the history view.'
+#. Performing 'branchAdd, Add Branch…, Add a new branch for the current commit.'
+#. Showing dialog 18 (@70B716A8) '@74E8EF59 - Add Branch' (owner: @46199519)
+#. Performing ', Add Branch'
+#. Performing 'branchRename, Rename…'
+#. Showing dialog 19 (@73D7B6B0) '@3A96B5A1 - Rename' (owner: @46199519)
+#. Performing ', Rename'
+msgctxt "wndStd.mniStdCiResultOpenInBrowser"
+msgid "Open CI Result"
+msgstr ""
+
+#. Showing dialog 18 (@70B716A8) '@74E8EF59 - Add Branch' (owner: @46199519)
+#. Performing ', Add Branch'
+#. Performing 'branchRename, Rename…'
+#. Showing dialog 19 (@73D7B6B0) '@3A96B5A1 - Rename' (owner: @46199519)
+#. Performing ', Rename'
+#. Performing 'branchRename, Rename…'
+#. Showing dialog 20 (@13A34A70) '@2929EF51 - Rename' (owner: @46199519)
+#. Performing ', Rename'
+#. Performing '@smartgit.aCg'
+#. Performing 'checkout, Check Out…, Check out an existing commit.'
+msgctxt "wndStd.mniStdProviderOpenInBrowser"
+msgid "Open in GitHub"
+msgstr ""
