@@ -16888,3 +16888,45 @@ msgstr ""
 msgctxt "wndStd.mniStdProviderOpenInBrowser"
 msgid "Open in GitHub"
 msgstr ""
+
+#. Performing ', Check Out'
+#. Showing dialog 22 (@52C94E6D) '@7057C234 - Check Out' (owner: @53E7EF2D)
+#. Performing ', Checkout'
+#. Performing ', Check Out'
+#. Showing dialog 23 (@B6630A) '@46B9A780 - Check Out' (owner: @53E7EF2D)
+#. Performing ', Cancel'
+#. Performing ', Reset HEAD to 'feature/forceinclude''
+#. Showing dialog 24 (@55E492ED) '@5BA6BD91 - Reset' (owner: @53E7EF2D)
+#. Performing ', Discard'
+#. Showing dialog 25 (@7C2F7667) '@30EB1FD2 - Reset' (owner: @55E492ED)
+msgctxt "dlgSgStashOnDemandDiscardConfirmation.btn:"
+msgid "Discard"
+msgstr ""
+
+#. Performing ', Check Out'
+#. Showing dialog 22 (@52C94E6D) '@7057C234 - Check Out' (owner: @53E7EF2D)
+#. Performing ', Checkout'
+#. Performing ', Check Out'
+#. Showing dialog 23 (@B6630A) '@46B9A780 - Check Out' (owner: @53E7EF2D)
+#. Performing ', Cancel'
+#. Performing ', Reset HEAD to 'feature/forceinclude''
+#. Showing dialog 24 (@55E492ED) '@5BA6BD91 - Reset' (owner: @53E7EF2D)
+#. Performing ', Discard'
+#. Showing dialog 25 (@7C2F7667) '@30EB1FD2 - Reset' (owner: @55E492ED)
+msgctxt "dlgSgStashOnDemandDiscardConfirmation.fur"
+msgid "It might be hard or impossible to restore them!"
+msgstr ""
+
+#. Performing ', Check Out'
+#. Showing dialog 22 (@52C94E6D) '@7057C234 - Check Out' (owner: @53E7EF2D)
+#. Performing ', Checkout'
+#. Performing ', Check Out'
+#. Showing dialog 23 (@B6630A) '@46B9A780 - Check Out' (owner: @53E7EF2D)
+#. Performing ', Cancel'
+#. Performing ', Reset HEAD to 'feature/forceinclude''
+#. Showing dialog 24 (@55E492ED) '@5BA6BD91 - Reset' (owner: @53E7EF2D)
+#. Performing ', Discard'
+#. Showing dialog 25 (@7C2F7667) '@30EB1FD2 - Reset' (owner: @55E492ED)
+msgctxt "dlgSgStashOnDemandDiscardConfirmation.hdl"
+msgid "Do you really want to discard the local changes?"
+msgstr ""
