@@ -2005,8 +2005,19 @@ msgctxt "dlgSgAbortRebasingConfirm.btn:"
 msgid "Abort Rebase"
 msgstr ""
 
+#. Performing ', Modify Pushed Commits'
+#. Showing dialog 10 (@277BC3A5) '@214FBA74 - Edit Message' (owner: @77AB22BE)
+#. Performing ', From Failed Command'
+#. Showing dialog 11 (@20890A1A) '@70A24F9 - Edit Message' (owner: @77AB22BE)
+#. Performing ', Set Message'
+#. Showing dialog 12 (@F76872F) '@2D4E99DE - Command Failed' (owner: @77AB22BE)
+#. Performing ', Close'
+#. Performing ', Abort'
+#. Performing 'branchAbort, Abort'
+#. Showing dialog 13 (@1851C7D2) '@38DBEB39 - Abort' (owner: @77AB22BE)
+#| msgid "Your working tree is in 'rebasing' state. You may abort rebasing; if you just want to skip the current patch, use Branch \\| Rebase \\| Rebase instead.\\n\\nAborting will clean any local modification \\(by invoking 'git rebase --abort'\\)!"
 msgctxt "dlgSgAbortRebasingConfirm.fur"
-msgid "Your working tree is in 'rebasing' state. You may abort rebasing; if you just want to skip the current patch, use Branch \\| Rebase \\| Rebase instead.\\n\\nAborting will clean any local modification \\(by invoking 'git rebase --abort'\\)!"
+msgid "Your working tree is in 'rebasing' state. You may abort rebasing; if you just want to skip the current patch, use \\u30d6\\u30e9\\u30f3\\u30c1 \\| \\u30ea\\u30d9\\u30fc\\u30b9 \\| \\u30ea\\u30d9\\u30fc\\u30b9 instead.\\n\\nAborting will clean any local modification \\(by invoking 'git rebase --abort'\\)!"
 msgstr ""
 
 msgctxt "dlgSgAbortRebasingConfirm.hdl"
@@ -7943,8 +7954,19 @@ msgctxt "dlgSgPushForced.fur"
 msgid "Pushing to the remote branch is not fast-forward, so the push has to be forced. The commits in the remote branch will be lost."
 msgstr ""
 
+#. Performing ', Continue Rebase'
+#. Performing 'copyCommitId, Copy ID'
+#. Performing ', Reset HEAD to 3c2f08c6'
+#. Performing 'repositorySettings, Settings...'
+#. Showing dialog 19 (@40A28BDA) '@592CB470 - Repository Settings' (owner: @77AB22BE)
+#. Performing ', OK'
+#. Performing ', Push'
+#. Showing dialog 20 (@340FC1AA) '@34A33343 - Push' (owner: @77AB22BE)
+#. Performing ', Push'
+#. Showing dialog 21 (@275902E1) '@1C788D08 - Push' (owner: @77AB22BE)
+#| msgid "Do you want to force-push \\(replace\\) the remote branch?"
 msgctxt "dlgSgPushForced.hdl"
-msgid "Do you want to force-push \\(replace\\) the remote branch?"
+msgid "Do you want to force-push \\(replace\\) the remote branch 'main'?"
 msgstr ""
 
 msgctxt "dlgSgPushForced.tle"
@@ -9263,8 +9285,19 @@ msgctxt "dlgSgRepositorySettings.hdl"
 msgid "Edit the repository settings"
 msgstr ""
 
+#. Showing dialog 17 (@704C3BDF) '@37986DAF - Command Failed' (owner: @77AB22BE)
+#. Performing ', Close'
+#. Performing ', Continue'
+#. Performing 'branchContinue, Continue'
+#. Showing dialog 18 (@324E8BAA) '@1488A861 - Rebase' (owner: @77AB22BE)
+#. Performing ', Continue Rebase'
+#. Performing 'copyCommitId, Copy ID'
+#. Performing ', Reset HEAD to 3c2f08c6'
+#. Performing 'repositorySettings, Settings...'
+#. Showing dialog 19 (@40A28BDA) '@592CB470 - Repository Settings' (owner: @77AB22BE)
+#| msgid "Here you can edit the Git settings for the repository. The default settings can be found in the preferences."
 msgctxt "dlgSgRepositorySettings.inf"
-msgid "Here you can edit the Git settings for the repository. The default settings can be found in the preferences."
+msgid "Here you can edit the Git settings for the repository. The default settings can be found in the Preferences."
 msgstr ""
 
 msgctxt "dlgSgRepositorySettings.lbl:"
@@ -10537,8 +10570,19 @@ msgctxt "dlgSgStashOnDemandConfirmation.hdl:"
 msgid "What to do with the working tree or Index changes?"
 msgstr ""
 
+#. Performing ', Copy...'
+#. Showing dialog 11 (@26C1F3EB) '@79982BCC - Add' (owner: @2E1C5D1F)
+#. Performing ', OK'
+#. Performing ', OK'
+#. Performing '@smartgit.byU'
+#. Performing 'editCommitMessage, Edit Message...'
+#. Showing dialog 12 (@727E61ED) '@2ECD2AA4 - Edit Message' (owner: @3A8D467E)
+#. Performing ', Modify Pushed Commits'
+#. Showing dialog 13 (@1360EF8D) '@4A1C14A6 - Edit Message' (owner: @3A8D467E)
+#. Performing ', Set Message'
+#| msgid "Reset"
 msgctxt "dlgSgStashOnDemandConfirmation.tle"
-msgid "Reset"
+msgid "Edit Message"
 msgstr ""
 
 msgctxt "dlgSgStashOnDemandConfirmation.tle:"
@@ -15029,8 +15073,9 @@ msgctxt "wnd(Log|Project|Std|).mniFixup"
 msgid "Use Message for Commit"
 msgstr ""
 
+#| msgid "Configure"
 msgctxt "wnd(Log|Project|Std|).mniFlowConfigure"
-msgid "Configure"
+msgid "Configure Features"
 msgstr ""
 
 msgctxt "wnd(Log|Project|Std|).mniFlowConfigure:"
@@ -15217,8 +15262,9 @@ msgctxt "wnd(Log|Project|Std|).mniNewWindow"
 msgid "New Window"
 msgstr ""
 
+#| msgid "Open from Working Tree"
 msgctxt "wnd(Log|Project|Std|).mniOpen"
-msgid "Open from Working Tree"
+msgid "Open"
 msgstr ""
 
 msgctxt "wnd(Log|Project|Std|).mniOpen:"
