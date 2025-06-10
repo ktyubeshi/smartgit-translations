@@ -8012,19 +8012,19 @@ msgctxt "dlgSgPushForced.fur"
 msgid "Pushing to the remote branch is not fast-forward, so the push has to be forced. The commits in the remote branch will be lost."
 msgstr ""
 
-#. opening smartgit.byM@5C573229:SmartGit 24.1.3 Evaluation until Jun 27 (smartgit.byM@2CEEE4B6)
-#. Performing ', Move Commit'
-#. Showing dialog 0 (@38E46765) '@35CEEC81 - Move and Squash Commit' (owner: @2CEEE4B6)
-#. Showing dialog 1 (@6D31F14) '@25216999 - Passwords' (owner: null)
-#. Performing ', OK'
+#. Performing ', Pull'
+#. Performing 'editCommitAuthor, Edit Author...'
+#. Showing dialog 27 (@6F51C04F) '@69A377B6 - Edit Author' (owner: @7793B55D)
 #. Performing ', Modify Pushed Commits'
+#. Showing dialog 28 (@451426AC) '@24A170E0 - Edit Author' (owner: @7793B55D)
+#. Performing ', Set Author'
 #. Performing ', Push'
-#. Showing dialog 2 (@275902E1) '@45B8BBBF - Push' (owner: @2CEEE4B6)
+#. Showing dialog 29 (@6B55832A) '@28A186E4 - Push' (owner: @7793B55D)
 #. Performing ', Push'
-#. Showing dialog 3 (@2374452A) '@6FFC6EA7 - Push' (owner: @2CEEE4B6)
-#| msgid "Do you want to force-push \\(replace\\) the remote branch?"
+#. Showing dialog 30 (@BD9F0D0) '@D67E1C5 - Push' (owner: @7793B55D)
+#| msgid "Do you want to force-push \\(replace\\) the remote branch 'pot-wip/24.1_windows'?"
 msgctxt "dlgSgPushForced.hdl"
-msgid "Do you want to force-push \\(replace\\) the remote branch 'pot-wip/24.1_windows'?"
+msgid "Do you want to force-push \\(replace\\) the remote branch 'main'?"
 msgstr ""
 
 msgctxt "dlgSgPushForced.tle"
@@ -15039,9 +15039,9 @@ msgctxt "wnd(Log|Project|Std|).mniFixup"
 msgid "Use Message for Commit"
 msgstr ""
 
-#| msgid "Configure Features"
+#| msgid "Configure"
 msgctxt "wnd(Log|Project|Std|).mniFlowConfigure"
-msgid "Configure"
+msgid "Configure Features"
 msgstr ""
 
 msgctxt "wnd(Log|Project|Std|).mniFlowConfigure:"
@@ -15228,9 +15228,9 @@ msgctxt "wnd(Log|Project|Std|).mniNewWindow"
 msgid "New Window"
 msgstr ""
 
-#| msgid "Open"
+#| msgid "Open from Working Tree"
 msgctxt "wnd(Log|Project|Std|).mniOpen"
-msgid "Open from Working Tree"
+msgid "Open"
 msgstr ""
 
 msgctxt "wnd(Log|Project|Std|).mniOpen:"
