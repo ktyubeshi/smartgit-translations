@@ -3781,19 +3781,19 @@ msgctxt "dlgSgDiscardRevertTo(Head|Index).tle"
 msgid "Discard"
 msgstr ""
 
-#. Performing ', Generate Token'
-#. Showing dialog 222 (@4D44C9B) '@74BD4A9E - Generate API Token' (owner: @791B0C15)
-#. Showing dialog 223 (@25CCFA37) '@3BBBADAA - GitLab OAuth Authorization' (owner: @4D44C9B)
+#. Performing 'worktreePrune, Prune Obsolete Worktrees…'
+#. Showing dialog 44 (@60B65A4A) '@756FD0AA - Prune Obsolete Worktrees' (owner: @4BC39640)
+#. Performing ', Prune Worktrees'
+#. Performing 'worktreeAdd, Add Worktree…'
+#. Showing dialog 45 (@939F06) '@70E75151 - Add Worktree' (owner: @4BC39640)
 #. Performing ', OK'
-#. Performing ', Cancel'
-#. Performing ', Generate Token'
-#. Showing dialog 224 (@5D90648E) '@4F46FE09 - Generate API Token' (owner: @791B0C15)
-#. Performing ', Add'
-#. Showing dialog 225 (@1AC32FBF) '@70DB218C - Checking connectivity' (owner: @791B0C15)
-#. Showing dialog 226 (@3B8BAC92) '@66C91717 - Command Failed' (owner: @791B0C15)
-#| msgid "Server returned HTTP response code: 400 for URL: https://gitlab.com/oauth/token"
+#. Performing '@smartgit.byU'
+#. Performing '@smartgit.byU'
+#. Performing 'worktreePrune, Prune Obsolete Worktrees…'
+#. Showing dialog 46 (@258FE58C) '@64F8EF03 - Command Failed' (owner: @4BC39640)
+#| msgid "Server returned HTTP response code: 401 for URL: https://gitlab.com/api/v4/user:\\n\\nToken was revoked. You have to re-authorize from the user."
 msgctxt "dlgSgErrorUtilsClientException.fur"
-msgid "Server returned HTTP response code: 401 for URL: https://gitlab.com/api/v4/user:\\n\\nToken was revoked. You have to re-authorize from the user."
+msgid "No valid worktree state of the repository."
 msgstr ""
 
 msgctxt "dlgSgErrorUtilsClientException.fur:"
@@ -7867,19 +7867,19 @@ msgctxt "dlgSgPushForced.fur"
 msgid "Pushing to the remote branch is not fast-forward, so the push has to be forced. The commits in the remote branch will be lost."
 msgstr ""
 
-#. Performing ', Modify Pushed Commits'
-#. Showing dialog 253 (@3F9AA30D) '@55F8871C - Edit Message' (owner: @7AF04593)
-#. Performing ', Set Message'
-#. Performing ', Push'
-#. Showing dialog 254 (@5CDA6688) '@2EF3A5D7 - Push' (owner: @7AF04593)
 #. Performing ', Cancel'
+#. Performing 'editCommitAuthor, Edit Author…'
+#. Showing dialog 65 (@443410B0) '@7C20CE5F - Edit Author' (owner: @4BC39640)
+#. Performing ', Modify Pushed Commits'
+#. Showing dialog 66 (@59A630D4) '@5AA1BA39 - Edit Author' (owner: @4BC39640)
+#. Performing ', Set Author'
 #. Performing ', Push'
-#. Showing dialog 255 (@7FB2FF46) '@3867F8C9 - Push' (owner: @7AF04593)
+#. Showing dialog 67 (@1E786C08) '@1CAD68CA - Push' (owner: @4BC39640)
 #. Performing ', Push'
-#. Showing dialog 256 (@3B6108C2) '@5CFBD4F4 - Push' (owner: @7AF04593)
-#| msgid "Do you want to force-push \\(replace\\) the remote branch?"
+#. Showing dialog 68 (@142E0283) '@E1AFFE8 - Push' (owner: @4BC39640)
+#| msgid "Do you want to force-push \\(replace\\) the remote branch 'feature/migrate-to-astral-uv'?"
 msgctxt "dlgSgPushForced.hdl"
-msgid "Do you want to force-push \\(replace\\) the remote branch 'feature/migrate-to-astral-uv'?"
+msgid "Do you want to force-push \\(replace\\) the remote branch 'main'?"
 msgstr ""
 
 msgctxt "dlgSgPushForced.tle"
@@ -14903,9 +14903,9 @@ msgctxt "wnd(Log|Project|Std|).mniFixup"
 msgid "Use Message for Commit"
 msgstr ""
 
-#| msgid "Configure Features"
+#| msgid "Configure"
 msgctxt "wnd(Log|Project|Std|).mniFlowConfigure"
-msgid "Configure"
+msgid "Configure Features"
 msgstr ""
 
 msgctxt "wnd(Log|Project|Std|).mniFlowConfigure:"
@@ -15092,9 +15092,9 @@ msgctxt "wnd(Log|Project|Std|).mniNewWindow"
 msgid "New Window"
 msgstr ""
 
-#| msgid "Open"
+#| msgid "Open from Working Tree"
 msgctxt "wnd(Log|Project|Std|).mniOpen"
-msgid "Open from Working Tree"
+msgid "Open"
 msgstr ""
 
 msgctxt "wnd(Log|Project|Std|).mniOpen:"
