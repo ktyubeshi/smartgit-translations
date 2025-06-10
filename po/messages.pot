@@ -1089,6 +1089,90 @@ msgctxt "dlgScExternalFileStarterCommandInvocationFailed.tle%1"
 msgid "\\[$1\\] - Conflict Solver"
 msgstr ""
 
+#. Performing 'goto-next-diff, Next Change, Go to next change.'
+#. Performing 'preferences, Preferences'
+#. Showing dialog 13 (@16160A37) '@65CF8DA0 - Preferences' (owner: @27ABB6CA)
+#. Performing ', Edit...'
+#. Showing dialog 14 (@6C2063E0) '@5BB7FC38 - Edit' (owner: @16160A37)
+#. Performing ', OK'
+#. Showing dialog 15 (@31406EAB) '@1DE83BE1 - Input Validation' (owner: @6C2063E0)
+#. Performing ', OK'
+#. Performing ', OK'
+#. Showing dialog 16 (@454F6CC5) '@3956DF0A - Input Validation' (owner: @6C2063E0)
+msgctxt "dlgScExternalFileStarterCommandNoFile.fur"
+msgid "Be sure to add arguments to the appropriate input field."
+msgstr ""
+
+#. Performing 'goto-next-diff, Next Change, Go to next change.'
+#. Performing 'preferences, Preferences'
+#. Showing dialog 13 (@16160A37) '@65CF8DA0 - Preferences' (owner: @27ABB6CA)
+#. Performing ', Edit...'
+#. Showing dialog 14 (@6C2063E0) '@5BB7FC38 - Edit' (owner: @16160A37)
+#. Performing ', OK'
+#. Showing dialog 15 (@31406EAB) '@1DE83BE1 - Input Validation' (owner: @6C2063E0)
+#. Performing ', OK'
+#. Performing ', OK'
+#. Showing dialog 16 (@454F6CC5) '@3956DF0A - Input Validation' (owner: @6C2063E0)
+msgctxt "dlgScExternalFileStarterCommandNoFile.hdl"
+msgid "The specified command is no file."
+msgstr ""
+
+#. Performing 'goto-previous-diff, Previous Change, Go to previous change.'
+#. Performing 'goto-next-diff, Next Change, Go to next change.'
+#. Performing 'preferences, Preferences'
+#. Showing dialog 13 (@16160A37) '@65CF8DA0 - Preferences' (owner: @27ABB6CA)
+#. Performing ', Edit...'
+#. Showing dialog 14 (@6C2063E0) '@5BB7FC38 - Edit' (owner: @16160A37)
+#. Performing ', OK'
+#. Showing dialog 15 (@31406EAB) '@1DE83BE1 - Input Validation' (owner: @6C2063E0)
+#. Performing ', OK'
+#. Performing ', OK'
+msgctxt "dlgScExternalFileStarterCommandNoFile.tle"
+msgid "Input Validation"
+msgstr ""
+
+#. Performing 'goto-next-diff, Next Change, Go to next change.'
+#. Performing 'goto-next-diff, Next Change, Go to next change.'
+#. Performing 'goto-previous-diff, Previous Change, Go to previous change.'
+#. Performing 'goto-next-diff, Next Change, Go to next change.'
+#. Performing 'preferences, Preferences'
+#. Showing dialog 13 (@16160A37) '@65CF8DA0 - Preferences' (owner: @27ABB6CA)
+#. Performing ', Edit...'
+#. Showing dialog 14 (@6C2063E0) '@5BB7FC38 - Edit' (owner: @16160A37)
+#. Performing ', OK'
+#. Showing dialog 15 (@31406EAB) '@1DE83BE1 - Input Validation' (owner: @6C2063E0)
+msgctxt "dlgScExternalFileStarterEmptyCommand.fur"
+msgid "Select the command which should be invoked."
+msgstr ""
+
+#. Performing 'goto-next-diff, Next Change, Go to next change.'
+#. Performing 'goto-next-diff, Next Change, Go to next change.'
+#. Performing 'goto-previous-diff, Previous Change, Go to previous change.'
+#. Performing 'goto-next-diff, Next Change, Go to next change.'
+#. Performing 'preferences, Preferences'
+#. Showing dialog 13 (@16160A37) '@65CF8DA0 - Preferences' (owner: @27ABB6CA)
+#. Performing ', Edit...'
+#. Showing dialog 14 (@6C2063E0) '@5BB7FC38 - Edit' (owner: @16160A37)
+#. Performing ', OK'
+#. Showing dialog 15 (@31406EAB) '@1DE83BE1 - Input Validation' (owner: @6C2063E0)
+msgctxt "dlgScExternalFileStarterEmptyCommand.hdl"
+msgid "The Command input field must not be empty!"
+msgstr ""
+
+#. Performing 'goto-next-diff, Next Change, Go to next change.'
+#. Performing 'goto-next-diff, Next Change, Go to next change.'
+#. Performing 'goto-next-diff, Next Change, Go to next change.'
+#. Performing 'goto-previous-diff, Previous Change, Go to previous change.'
+#. Performing 'goto-next-diff, Next Change, Go to next change.'
+#. Performing 'preferences, Preferences'
+#. Showing dialog 13 (@16160A37) '@65CF8DA0 - Preferences' (owner: @27ABB6CA)
+#. Performing ', Edit...'
+#. Showing dialog 14 (@6C2063E0) '@5BB7FC38 - Edit' (owner: @16160A37)
+#. Performing ', OK'
+msgctxt "dlgScExternalFileStarterEmptyCommand.tle"
+msgid "Input Validation"
+msgstr ""
+
 msgctxt "dlgScFileComparatorAdd.hdl"
 msgid "Add external diff tool"
 msgstr ""
