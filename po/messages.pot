@@ -15073,9 +15073,9 @@ msgctxt "wnd(Log|Project|Std|).mniFixup"
 msgid "Use Message for Commit"
 msgstr ""
 
-#| msgid "Configure"
+#| msgid "Configure Features"
 msgctxt "wnd(Log|Project|Std|).mniFlowConfigure"
-msgid "Configure Features"
+msgid "Configure"
 msgstr ""
 
 msgctxt "wnd(Log|Project|Std|).mniFlowConfigure:"
@@ -15262,9 +15262,9 @@ msgctxt "wnd(Log|Project|Std|).mniNewWindow"
 msgid "New Window"
 msgstr ""
 
-#| msgid "Open from Working Tree"
+#| msgid "Open"
 msgctxt "wnd(Log|Project|Std|).mniOpen"
-msgid "Open"
+msgid "Open from Working Tree"
 msgstr ""
 
 msgctxt "wnd(Log|Project|Std|).mniOpen:"
