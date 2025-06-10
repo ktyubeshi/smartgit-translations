@@ -4705,6 +4705,76 @@ msgctxt "dlgSgHistoryEditAuthor.tle"
 msgid "Edit Author"
 msgstr ""
 
+#. Showing dialog 12 (@F76872F) '@2D4E99DE - Command Failed' (owner: @77AB22BE)
+#. Performing ', Close'
+#. Performing ', Abort'
+#. Performing 'branchAbort, Abort'
+#. Showing dialog 13 (@1851C7D2) '@38DBEB39 - Abort' (owner: @77AB22BE)
+#. Performing ', Abort Rebase'
+#. Performing 'editCommitMessage, Edit Message...'
+#. Showing dialog 14 (@269308CC) '@177DDD24 - Edit Message' (owner: @77AB22BE)
+#. Performing ', Modify Pushed Commits'
+#. Showing dialog 15 (@2C0DCA15) '@5560B64D - Edit Message' (owner: @77AB22BE)
+msgctxt "dlgSgHistoryEditChooseCommitMessage.btn:"
+msgid "From Commit"
+msgstr ""
+
+#. Showing dialog 12 (@F76872F) '@2D4E99DE - Command Failed' (owner: @77AB22BE)
+#. Performing ', Close'
+#. Performing ', Abort'
+#. Performing 'branchAbort, Abort'
+#. Showing dialog 13 (@1851C7D2) '@38DBEB39 - Abort' (owner: @77AB22BE)
+#. Performing ', Abort Rebase'
+#. Performing 'editCommitMessage, Edit Message...'
+#. Showing dialog 14 (@269308CC) '@177DDD24 - Edit Message' (owner: @77AB22BE)
+#. Performing ', Modify Pushed Commits'
+#. Showing dialog 15 (@2C0DCA15) '@5560B64D - Edit Message' (owner: @77AB22BE)
+msgctxt "dlgSgHistoryEditChooseCommitMessage.btn:"
+msgid "From Failed Command"
+msgstr ""
+
+#. Showing dialog 12 (@F76872F) '@2D4E99DE - Command Failed' (owner: @77AB22BE)
+#. Performing ', Close'
+#. Performing ', Abort'
+#. Performing 'branchAbort, Abort'
+#. Showing dialog 13 (@1851C7D2) '@38DBEB39 - Abort' (owner: @77AB22BE)
+#. Performing ', Abort Rebase'
+#. Performing 'editCommitMessage, Edit Message...'
+#. Showing dialog 14 (@269308CC) '@177DDD24 - Edit Message' (owner: @77AB22BE)
+#. Performing ', Modify Pushed Commits'
+#. Showing dialog 15 (@2C0DCA15) '@5560B64D - Edit Message' (owner: @77AB22BE)
+msgctxt "dlgSgHistoryEditChooseCommitMessage.fur"
+msgid "A previous Edit Message command invocation failed for this commit. Decide whether to use the commit message from the failed run or the commit's message."
+msgstr ""
+
+#. Showing dialog 12 (@F76872F) '@2D4E99DE - Command Failed' (owner: @77AB22BE)
+#. Performing ', Close'
+#. Performing ', Abort'
+#. Performing 'branchAbort, Abort'
+#. Showing dialog 13 (@1851C7D2) '@38DBEB39 - Abort' (owner: @77AB22BE)
+#. Performing ', Abort Rebase'
+#. Performing 'editCommitMessage, Edit Message...'
+#. Showing dialog 14 (@269308CC) '@177DDD24 - Edit Message' (owner: @77AB22BE)
+#. Performing ', Modify Pushed Commits'
+#. Showing dialog 15 (@2C0DCA15) '@5560B64D - Edit Message' (owner: @77AB22BE)
+msgctxt "dlgSgHistoryEditChooseCommitMessage.hdl"
+msgid "Which commit message you like to use?"
+msgstr ""
+
+#. Performing ', Set Message'
+#. Showing dialog 12 (@F76872F) '@2D4E99DE - Command Failed' (owner: @77AB22BE)
+#. Performing ', Close'
+#. Performing ', Abort'
+#. Performing 'branchAbort, Abort'
+#. Showing dialog 13 (@1851C7D2) '@38DBEB39 - Abort' (owner: @77AB22BE)
+#. Performing ', Abort Rebase'
+#. Performing 'editCommitMessage, Edit Message...'
+#. Showing dialog 14 (@269308CC) '@177DDD24 - Edit Message' (owner: @77AB22BE)
+#. Performing ', Modify Pushed Commits'
+msgctxt "dlgSgHistoryEditChooseCommitMessage.tle"
+msgid "Edit Message"
+msgstr ""
+
 msgctxt "dlgSgHistoryEditMessage.btn:"
 msgid "JIRA"
 msgstr ""
@@ -6065,6 +6135,20 @@ msgctxt "dlgSgOutput.lbl:"
 msgid "Command Discard failed!"
 msgstr ""
 
+#. Showing dialog 13 (@1851C7D2) '@38DBEB39 - Abort' (owner: @77AB22BE)
+#. Performing ', Abort Rebase'
+#. Performing 'editCommitMessage, Edit Message...'
+#. Showing dialog 14 (@269308CC) '@177DDD24 - Edit Message' (owner: @77AB22BE)
+#. Performing ', Modify Pushed Commits'
+#. Showing dialog 15 (@2C0DCA15) '@5560B64D - Edit Message' (owner: @77AB22BE)
+#. Performing ', From Commit'
+#. Showing dialog 16 (@52856FF9) '@5AA7CFDF - Edit Message' (owner: @77AB22BE)
+#. Performing ', Set Message'
+#. Showing dialog 17 (@704C3BDF) '@37986DAF - Command Failed' (owner: @77AB22BE)
+msgctxt "dlgSgOutput.lbl:"
+msgid "Command Edit Message failed!"
+msgstr ""
+
 msgctxt "dlgSgOutput.lbl:"
 msgid "Command Fetch Pull Request produced warnings."
 msgstr ""
@@ -6091,6 +6175,20 @@ msgstr ""
 
 msgctxt "dlgSgOutput.lbl:"
 msgid "Command Move produced warnings."
+msgstr ""
+
+#. Performing '@smartgit.byU'
+#. Performing 'editCommitMessage, Edit Message...'
+#. Showing dialog 15 (@66AB3716) '@103A1AD3 - Edit Message' (owner: @3A8D467E)
+#. Performing ', Modify Pushed Commits'
+#. Showing dialog 16 (@530EE11A) '@54D116D5 - Edit Message' (owner: @3A8D467E)
+#. Performing ', Set Message'
+#. Performing 'fetch, Pull..., Fetch commits from a remote repository and (optionally) integrate them with possible local commits.'
+#. Showing dialog 17 (@5180F430) '@FD07138 - Pull' (owner: @3A8D467E)
+#. Performing ', Pull'
+#. Showing dialog 18 (@643BEF2A) '@7225583D - Command Failed' (owner: @3A8D467E)
+msgctxt "dlgSgOutput.lbl\"Command Pull \\(Merge\\) failed!\""
+msgid "Command Pull \\(Merge\\) failed!"
 msgstr ""
 
 msgctxt "dlgSgOutput.lbl:"
@@ -8752,6 +8850,17 @@ msgctxt "dlgSgRenameBranch.err:"
 msgid "The name must not end with a slash or dot."
 msgstr ""
 
+#. opening smartgit.byM@7A1371:SmartGit 24.1.3 Evaluation until Jun 27 (smartgit.byM@60C73E58)
+#. Performing 'worktreeAdd, Add Worktree...'
+#. Showing dialog 0 (@4FA8BEBB) '@18D610E1 - Add Worktree' (owner: @60C73E58)
+#. Performing ', OK'
+#. opening smartgit.byM@3CE7490A:SmartGit 24.1.3 Evaluation until Jun 27 (smartgit.byM@2F99D8C)
+#. Performing ', Rename...'
+#. Showing dialog 1 (@40AC0A56) '@2B6B487C - Rename' (owner: @2F99D8C)
+msgctxt "dlgSgRenameBranch.err:"
+msgid "The name must not end with a slash or dot."
+msgstr ""
+
 msgctxt "dlgSgRenameBranch.hdl"
 msgid "Rename branch"
 msgstr ""
@@ -8910,6 +9019,20 @@ msgstr ""
 
 msgctxt "dlgSgRepositoryClose.btn:"
 msgid "Force Close"
+msgstr ""
+
+#. Performing 'repositoryAddGroup, Add Group...'
+#. Showing dialog 3 (@79BA0285) '@46A388CC - Add Group' (owner: @1E1B061)
+#. Performing ', Add'
+#. Performing '@smartgit.byU'
+#. Performing 'fetch, Pull..., Fetch commits from a remote repository and (optionally) integrate them with possible local commits.'
+#. Showing dialog 4 (@7B3085A3) '@5D5574C7 - Pull' (owner: @1E1B061)
+#. Performing ', Pull'
+#. Showing dialog 5 (@70EE9D31) '@1A01FFFF - Passwords' (owner: null)
+#. Performing ', OK'
+#. Showing dialog 6 (@4C8D45CF) '@1C58D7BE - Exit' (owner: @1E1B061)
+msgctxt "dlgSgRepositoryClose.btn:"
+msgid "Force Exit"
 msgstr ""
 
 #. Performing 'repositoryAddGroup, Add Group...'
@@ -9194,6 +9317,20 @@ msgstr ""
 
 msgctxt "dlgSgRepositorySettings.ttpGroupPatterns:"
 msgid "Patterns will show up in the GUI using auto-generated labels which are derived from their regular expression. You can assign a custom label <tt>label</tt> to a pattern by prefixing it by <tt>label:</tt>; a label may only contain letters, digits and '_'."
+msgstr ""
+
+#. Performing 'checkout, Check Out..., Check out an existing commit.'
+#. Showing dialog 10 (@AF94B0B) '@37A0FC8C - Check Out' (owner: @1E1B061)
+#. Performing ', Cancel'
+#. Performing 'editFile, Edit File'
+#. opening smartgit.cau@1B5623B4:messages.pot - [~/Git-projects/smartgit-translations/po] - Editor (smartgit.cau@63C6C5E5)
+#. Performing 'file-save, Save, Save file modifications.'
+#. Showing dialog 11 (@73417494) '@AD585FB - Commit' (owner: @1E1B061)
+#. Performing ', Confirm Email'
+#. Performing 'repositorySettings, Settings...'
+#. Showing dialog 12 (@69C51FDB) '@63053B71 - Repository Settings' (owner: @1E1B061)
+msgctxt "dlgSgRepositorySettings.wrn:"
+msgid "It is recommended to set an email address used for committing."
 msgstr ""
 
 #. Performing 'checkout, Check Out..., Check out an existing commit.'
