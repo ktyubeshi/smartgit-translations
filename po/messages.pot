@@ -16888,3 +16888,95 @@ msgstr ""
 msgctxt "wndStd.mniStdProviderOpenInBrowser"
 msgid "Open in GitHub"
 msgstr ""
+
+# [decode] msgctxt "dlgProgress.lbl"Please wait …""
+# [decode] msgid "Please wait …"
+#. Performing 'discard, Discard…, Discard local changes.'
+#. Showing dialog 20 (@35067738) '@1A420390 - Reset Submodule' (owner: @4BC39640)
+#. Performing ', Reset'
+#. Performing 'clean, Clean Working Tree…'
+#. Showing dialog 21 (@64F514D2) '@60019F4B - Clean Working Tree' (owner: @4BC39640)
+#. Performing ', Clean Working Tree'
+#. Showing dialog 22 (@257A59C) '@4C4A8FFE - Clean Working Tree' (owner: @4BC39640)
+#. Performing ', Delete Files'
+#. Performing '@smartgit.bvG'
+#. Showing dialog 23 (@6DBCB435) '@78A3023F - Reveal Commit' (owner: @4BC39640)
+msgctxt "dlgProgress.lbl\"Please wait \\u2026\""
+msgid "Please wait \\u2026"
+msgstr ""
+
+#. Performing ', OK'
+#. Performing ', Check Out'
+#. Showing dialog 49 (@26F5C508) '@10A55EDC - Check Out' (owner: @4BC39640)
+#. Performing ', Checkout'
+#. Showing dialog 50 (@7AEB3664) '@108B47B4 - Confirm Checkout' (owner: @4BC39640)
+#. Performing ', Checkout'
+#. Performing ', Check Out'
+#. Showing dialog 51 (@53222524) '@1894071 - Check Out' (owner: @4BC39640)
+#. Performing ', Checkout'
+#. Showing dialog 52 (@34327638) '@6FC1A561 - Confirm Checkout' (owner: @4BC39640)
+msgctxt "dlgSgCheckoutSubmoduleChangeConfirm.btn:"
+msgid "Checkout"
+msgstr ""
+
+#. Performing ', OK'
+#. Performing ', Check Out'
+#. Showing dialog 49 (@26F5C508) '@10A55EDC - Check Out' (owner: @4BC39640)
+#. Performing ', Checkout'
+#. Showing dialog 50 (@7AEB3664) '@108B47B4 - Confirm Checkout' (owner: @4BC39640)
+#. Performing ', Checkout'
+#. Performing ', Check Out'
+#. Showing dialog 51 (@53222524) '@1894071 - Check Out' (owner: @4BC39640)
+#. Performing ', Checkout'
+#. Showing dialog 52 (@34327638) '@6FC1A561 - Confirm Checkout' (owner: @4BC39640)
+msgctxt "dlgSgCheckoutSubmoduleChangeConfirm.fur"
+msgid "The target branch has a different submodules configuration \\(.gitmodules\\). If you were expecting this change, you can proceed as usual.\\n\\nOtherwise, be aware that significant changes to your submodule configuration can lead to complex working tree states. In some cases, it might be simpler to perform a fresh clone of the target branch."
+msgstr ""
+
+#. Performing ', OK'
+#. Performing ', Check Out'
+#. Showing dialog 49 (@26F5C508) '@10A55EDC - Check Out' (owner: @4BC39640)
+#. Performing ', Checkout'
+#. Showing dialog 50 (@7AEB3664) '@108B47B4 - Confirm Checkout' (owner: @4BC39640)
+#. Performing ', Checkout'
+#. Performing ', Check Out'
+#. Showing dialog 51 (@53222524) '@1894071 - Check Out' (owner: @4BC39640)
+#. Performing ', Checkout'
+#. Showing dialog 52 (@34327638) '@6FC1A561 - Confirm Checkout' (owner: @4BC39640)
+msgctxt "dlgSgCheckoutSubmoduleChangeConfirm.hdl"
+msgid "Do you want to check out branch 'main'?"
+msgstr ""
+
+#. Performing ', Cancel'
+#. Performing 'sync, Synchronize…, Push local commits of the current branch and pull remote changes.'
+#. Showing dialog 31 (@4AF2F991) '@4B5D2A4C - Synchronize' (owner: @4BC39640)
+#. Performing ', Cancel'
+#. Performing 'fetch, Pull…, Fetch commits from a remote repository and (optionally) integrate them with possible local commits.'
+#. Showing dialog 32 (@76928BE0) '@D367D7D - Pull' (owner: @4BC39640)
+#. Performing ', Pull'
+#. Performing '@smartgit.byU'
+#. Performing 'worktreeRemove, Remove Worktree…'
+#. Showing dialog 33 (@213488E6) '@B7E20F2 - Command Failed' (owner: @4BC39640)
+msgctxt "dlgSgOutput.lbl:"
+msgid "Command Remove Worktree failed!"
+msgstr ""
+
+# [decode] msgctxt "dlgSgPreferences.cmb"Custom…""
+# [decode] msgid "Custom…"
+#. Performing ', Push'
+#. Showing dialog 67 (@1E786C08) '@1CAD68CA - Push' (owner: @4BC39640)
+#. Performing ', Push'
+#. Showing dialog 68 (@142E0283) '@E1AFFE8 - Push' (owner: @4BC39640)
+#. Performing ', Force Push'
+#. Performing '@smartgit.byU'
+#. Performing 'stage, Stage, Store working tree files in the index to prepare the next commit.'
+#. Performing '@smartgit.byU'
+#. Performing '@smartgit.bKo'
+#. Showing dialog 69 (@503D5F4F) '@738FB8E8 - Preferences' (owner: null)
+msgctxt "dlgSgPreferences.cmb\"Custom\\u2026\""
+msgid "Custom\\u2026"
+msgstr ""
+
+msgctxt "wnd.mni:"
+msgid "Format"
+msgstr ""
