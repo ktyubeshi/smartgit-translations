@@ -5006,6 +5006,20 @@ msgctxt "dlgSgHistoryPushedCommitsModifyPushedCommits.hdl"
 msgid "Do you want to modify commits which are already pushed?"
 msgstr ""
 
+#. Performing ', Push'
+#. Showing dialog 25 (@1812BA7F) '@16704703 - Push' (owner: @7793B55D)
+#. Performing ', Force Push'
+#. Performing 'goto-next-diff, Next Change, Go to next change.'
+#. Performing 'goto-next-diff, Next Change, Go to next change.'
+#. Performing '@smartgit.byU'
+#. Performing 'fetch, Pull..., Fetch commits from a remote repository and (optionally) integrate them with possible local commits.'
+#. Showing dialog 26 (@36AB2C76) '@16A151BA - Pull' (owner: @7793B55D)
+#. Performing ', Pull'
+#. Performing 'editCommitAuthor, Edit Author...'
+msgctxt "dlgSgHistoryPushedCommitsModifyPushedCommits.tle:"
+msgid "Edit Author"
+msgstr ""
+
 msgctxt "dlgSgHistoryPushedCommitsModifyPushedCommits.tle:"
 msgid "Edit Message"
 msgstr ""
