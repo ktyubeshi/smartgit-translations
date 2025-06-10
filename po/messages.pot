@@ -2042,6 +2042,10 @@ msgid "Discard"
 msgstr ""
 
 msgctxt "dlgSgAbout.btn:"
+msgid "Copy Evaluation-ID"
+msgstr ""
+
+msgctxt "dlgSgAbout.btn:"
 msgid "Register"
 msgstr ""
 
@@ -2055,6 +2059,10 @@ msgstr ""
 
 msgctxt "dlgSgAbout.edt:"
 msgid "Build Date"
+msgstr ""
+
+msgctxt "dlgSgAbout.edt:"
+msgid "Demo Until"
 msgstr ""
 
 msgctxt "dlgSgAbout.edt:"
@@ -2091,6 +2099,10 @@ msgstr ""
 
 msgctxt "dlgSgAbout.edt:"
 msgid "User Count"
+msgstr ""
+
+msgctxt "dlgSgAbout.edt:"
+msgid "Valid Until"
 msgstr ""
 
 msgctxt "dlgSgAbout.edt:"
