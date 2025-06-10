@@ -3028,6 +3028,48 @@ msgctxt "dlgSgClone.mni:"
 msgid "Add Hosting Provider"
 msgstr ""
 
+#. Performing 'preferences, Preferences'
+#. Showing dialog 8 (@66B62332) '@1822A61B - Preferences' (owner: @73958426)
+#. Performing ', Add...'
+#. Showing dialog 9 (@47FBF95E) '@6CE8BF64 - Add' (owner: @66B62332)
+#. Performing ', Variables'
+#. Performing ', Cancel'
+#. Performing ', Cancel'
+#. Performing 'repositoryClone, Clone..., Clone a new repository.'
+#. Showing dialog 10 (@2003EDF) '@7E5C8C80 - Clone' (owner: @73958426)
+#. Performing ', Text'
+msgctxt "dlgSgClone.mni:"
+msgid "Own Repositories"
+msgstr ""
+
+#. Performing 'preferences, Preferences'
+#. Showing dialog 8 (@66B62332) '@1822A61B - Preferences' (owner: @73958426)
+#. Performing ', Add...'
+#. Showing dialog 9 (@47FBF95E) '@6CE8BF64 - Add' (owner: @66B62332)
+#. Performing ', Variables'
+#. Performing ', Cancel'
+#. Performing ', Cancel'
+#. Performing 'repositoryClone, Clone..., Clone a new repository.'
+#. Showing dialog 10 (@2003EDF) '@7E5C8C80 - Clone' (owner: @73958426)
+#. Performing ', Text'
+msgctxt "dlgSgClone.mni:"
+msgid "Starred Repositories"
+msgstr ""
+
+#. Performing 'preferences, Preferences'
+#. Showing dialog 8 (@66B62332) '@1822A61B - Preferences' (owner: @73958426)
+#. Performing ', Add...'
+#. Showing dialog 9 (@47FBF95E) '@6CE8BF64 - Add' (owner: @66B62332)
+#. Performing ', Variables'
+#. Performing ', Cancel'
+#. Performing ', Cancel'
+#. Performing 'repositoryClone, Clone..., Clone a new repository.'
+#. Showing dialog 10 (@2003EDF) '@7E5C8C80 - Clone' (owner: @73958426)
+#. Performing ', Text'
+msgctxt "dlgSgClone.mni:"
+msgid "Top Repositories"
+msgstr ""
+
 msgctxt "dlgSgClone.rbt:"
 msgid "Clone all revisions \\(recommended\\)"
 msgstr ""
