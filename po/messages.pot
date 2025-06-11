@@ -8355,6 +8355,146 @@ msgctxt "dlgSgRebaseContinueNothingToCommitContinue.tle"
 msgid "Rebase"
 msgstr ""
 
+#. Performing ', Cancel'
+#. Performing 'stage, Stage, Store working tree files in the index to prepare the next commit.'
+#. Performing 'fixup, Use Message for Commit'
+#. Performing ', Step'
+#. Performing 'rebaseStep, Step'
+#. Showing dialog 6 (@4AE6451D) '@5F32AB17 - Modify Commit' (owner: @1319BC2A)
+#. Performing ', Cancel'
+#. Performing ', Continue'
+#. Performing 'branchContinue, Continue'
+#. Showing dialog 7 (@2C1A95A2) '@1ADF387E - Modify Commit' (owner: @1319BC2A)
+msgctxt "dlgSgRebaseContinueNothingToCommitModifyContinue.btn\"Continue \\(Resume\\)\""
+msgid "Continue \\(Resume\\)"
+msgstr ""
+
+#. Performing ', Cancel'
+#. Performing 'stage, Stage, Store working tree files in the index to prepare the next commit.'
+#. Performing 'fixup, Use Message for Commit'
+#. Performing ', Step'
+#. Performing 'rebaseStep, Step'
+#. Showing dialog 6 (@4AE6451D) '@5F32AB17 - Modify Commit' (owner: @1319BC2A)
+#. Performing ', Cancel'
+#. Performing ', Continue'
+#. Performing 'branchContinue, Continue'
+#. Showing dialog 7 (@2C1A95A2) '@1ADF387E - Modify Commit' (owner: @1319BC2A)
+msgctxt "dlgSgRebaseContinueNothingToCommitModifyContinue.chk"
+msgid "Don't show again"
+msgstr ""
+
+#. Performing ', Cancel'
+#. Performing 'stage, Stage, Store working tree files in the index to prepare the next commit.'
+#. Performing 'fixup, Use Message for Commit'
+#. Performing ', Step'
+#. Performing 'rebaseStep, Step'
+#. Showing dialog 6 (@4AE6451D) '@5F32AB17 - Modify Commit' (owner: @1319BC2A)
+#. Performing ', Cancel'
+#. Performing ', Continue'
+#. Performing 'branchContinue, Continue'
+#. Showing dialog 7 (@2C1A95A2) '@1ADF387E - Modify Commit' (owner: @1319BC2A)
+msgctxt "dlgSgRebaseContinueNothingToCommitModifyContinue.fur"
+msgid "Clicking 'Continue' will resume the rebase, e.g. to finish after having modified the commit\\(s\\)."
+msgstr ""
+
+#. Performing ', Cancel'
+#. Performing 'stage, Stage, Store working tree files in the index to prepare the next commit.'
+#. Performing 'fixup, Use Message for Commit'
+#. Performing ', Step'
+#. Performing 'rebaseStep, Step'
+#. Showing dialog 6 (@4AE6451D) '@5F32AB17 - Modify Commit' (owner: @1319BC2A)
+#. Performing ', Cancel'
+#. Performing ', Continue'
+#. Performing 'branchContinue, Continue'
+#. Showing dialog 7 (@2C1A95A2) '@1ADF387E - Modify Commit' (owner: @1319BC2A)
+msgctxt "dlgSgRebaseContinueNothingToCommitModifyContinue.hdl"
+msgid "Do you want to continue the modify-commit-rebase?"
+msgstr ""
+
+#. Showing dialog 5 (@6F430EA8) '@771AFDD5 - Commit' (owner: @1319BC2A)
+#. Performing ', Cancel'
+#. Performing 'stage, Stage, Store working tree files in the index to prepare the next commit.'
+#. Performing 'fixup, Use Message for Commit'
+#. Performing ', Step'
+#. Performing 'rebaseStep, Step'
+#. Showing dialog 6 (@4AE6451D) '@5F32AB17 - Modify Commit' (owner: @1319BC2A)
+#. Performing ', Cancel'
+#. Performing ', Continue'
+#. Performing 'branchContinue, Continue'
+msgctxt "dlgSgRebaseContinueNothingToCommitModifyContinue.tle"
+msgid "Modify Commit"
+msgstr ""
+
+#. Performing 'rebaseStep, Step'
+#. Showing dialog 18 (@14144CC9) '@259647F2 - Modify Commit' (owner: @1319BC2A)
+#. Performing ', Step'
+#. Performing ', Step'
+#. Performing 'rebaseStep, Step'
+#. Showing dialog 19 (@76958827) '@495CAC83 - Modify Commit' (owner: @1319BC2A)
+#. Performing ', Step'
+#. Performing ', Step'
+#. Performing 'rebaseStep, Step'
+#. Showing dialog 20 (@72161DBB) '@69CA71B3 - Modify Commit' (owner: @1319BC2A)
+msgctxt "dlgSgRebaseContinueNothingToCommitModifyStep.btn:"
+msgid "Step"
+msgstr ""
+
+#. Performing 'rebaseStep, Step'
+#. Showing dialog 18 (@14144CC9) '@259647F2 - Modify Commit' (owner: @1319BC2A)
+#. Performing ', Step'
+#. Performing ', Step'
+#. Performing 'rebaseStep, Step'
+#. Showing dialog 19 (@76958827) '@495CAC83 - Modify Commit' (owner: @1319BC2A)
+#. Performing ', Step'
+#. Performing ', Step'
+#. Performing 'rebaseStep, Step'
+#. Showing dialog 20 (@72161DBB) '@69CA71B3 - Modify Commit' (owner: @1319BC2A)
+msgctxt "dlgSgRebaseContinueNothingToCommitModifyStep.chk"
+msgid "Don't show again"
+msgstr ""
+
+#. Performing 'rebaseStep, Step'
+#. Showing dialog 18 (@14144CC9) '@259647F2 - Modify Commit' (owner: @1319BC2A)
+#. Performing ', Step'
+#. Performing ', Step'
+#. Performing 'rebaseStep, Step'
+#. Showing dialog 19 (@76958827) '@495CAC83 - Modify Commit' (owner: @1319BC2A)
+#. Performing ', Step'
+#. Performing ', Step'
+#. Performing 'rebaseStep, Step'
+#. Showing dialog 20 (@72161DBB) '@69CA71B3 - Modify Commit' (owner: @1319BC2A)
+msgctxt "dlgSgRebaseContinueNothingToCommitModifyStep.fur"
+msgid "Clicking 'Step' will continue the rebase and stop at the next commit. Use it to step through all pending commits, e.g. to verify whether they successfully build."
+msgstr ""
+
+#. Performing 'rebaseStep, Step'
+#. Showing dialog 18 (@14144CC9) '@259647F2 - Modify Commit' (owner: @1319BC2A)
+#. Performing ', Step'
+#. Performing ', Step'
+#. Performing 'rebaseStep, Step'
+#. Showing dialog 19 (@76958827) '@495CAC83 - Modify Commit' (owner: @1319BC2A)
+#. Performing ', Step'
+#. Performing ', Step'
+#. Performing 'rebaseStep, Step'
+#. Showing dialog 20 (@72161DBB) '@69CA71B3 - Modify Commit' (owner: @1319BC2A)
+msgctxt "dlgSgRebaseContinueNothingToCommitModifyStep.hdl"
+msgid "Do you want to step to the next commit?"
+msgstr ""
+
+#. Performing ', Step'
+#. Performing 'rebaseStep, Step'
+#. Showing dialog 18 (@14144CC9) '@259647F2 - Modify Commit' (owner: @1319BC2A)
+#. Performing ', Step'
+#. Performing ', Step'
+#. Performing 'rebaseStep, Step'
+#. Showing dialog 19 (@76958827) '@495CAC83 - Modify Commit' (owner: @1319BC2A)
+#. Performing ', Step'
+#. Performing ', Step'
+#. Performing 'rebaseStep, Step'
+msgctxt "dlgSgRebaseContinueNothingToCommitModifyStep.tle"
+msgid "Modify Commit"
+msgstr ""
+
 msgctxt "dlgSgRebaseContinueNothingToCommitSkip.btn:"
 msgid "Skip Commit"
 msgstr ""
