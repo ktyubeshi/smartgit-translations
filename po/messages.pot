@@ -2005,6 +2005,7 @@ msgctxt "dlgSgAbortRebasingConfirm.btn:"
 msgid "Abort Rebase"
 msgstr ""
 
+# Issue
 #. Performing ', Modify Pushed Commits'
 #. Showing dialog 10 (@277BC3A5) '@214FBA74 - Edit Message' (owner: @77AB22BE)
 #. Performing ', From Failed Command'
@@ -6232,6 +6233,8 @@ msgctxt "dlgSgOutput.lbl:"
 msgid "Command Push failed!"
 msgstr ""
 
+# Needs review (Place holder)
+# msgid "Command Rebase HEAD \\(pot-wip/v24.1-wsl\\) to 4d7f618e failed!"
 #. Performing ', Abort Rebase'
 #. Performing 'rebaseHeadTo, Rebase..., Apply commits from your current branch to the selected commit.'
 #. Showing dialog 41 (@718DF0C7) '@3C4570F4 - Rebase HEAD to Selected Commit' (owner: @16A35BD)
@@ -6243,7 +6246,7 @@ msgstr ""
 #. Performing ', Rebase HEAD to'
 #. Showing dialog 44 (@747F6990) '@62ECECB1 - Command Failed' (owner: @16A35BD)
 msgctxt "dlgSgOutput.lbl:"
-msgid "Command Rebase HEAD \\(pot-wip/v24.1-wsl\\) to 4d7f618e failed!"
+msgid "Command Rebase HEAD \\($1\\) to $2 failed!"
 msgstr ""
 
 #. Showing dialog 39 (@169043E3) '@2A428E3B - Command Failed' (owner: @16A35BD)
@@ -8010,6 +8013,8 @@ msgctxt "dlgSgPushForced.fur"
 msgid "Pushing to the remote branch is not fast-forward, so the push has to be forced. The commits in the remote branch will be lost."
 msgstr ""
 
+# Needs review (Place holder)
+# msgid "Do you want to force-push \\(replace\\) the remote branch 'main'?"
 #. Performing ', Continue Rebase'
 #. Performing 'copyCommitId, Copy ID'
 #. Performing ', Reset HEAD to 3c2f08c6'
@@ -8022,7 +8027,7 @@ msgstr ""
 #. Showing dialog 21 (@275902E1) '@1C788D08 - Push' (owner: @77AB22BE)
 #| msgid "Do you want to force-push \\(replace\\) the remote branch?"
 msgctxt "dlgSgPushForced.hdl"
-msgid "Do you want to force-push \\(replace\\) the remote branch 'main'?"
+msgid "Do you want to force-push \\(replace\\) the remote branch '$1'?"
 msgstr ""
 
 msgctxt "dlgSgPushForced.tle"
