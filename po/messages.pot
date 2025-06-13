@@ -6228,7 +6228,7 @@ msgstr ""
 #. Showing dialog 43 (@2D583F20) '@3E971BD5 - Rebase HEAD to Selected Commit' (owner: @16A35BD)
 #. Performing ', Rebase HEAD to'
 #. Showing dialog 44 (@747F6990) '@62ECECB1 - Command Failed' (owner: @16A35BD)
-msgctxt "dlgSgOutput.lbl\"Command Rebase HEAD \\(pot-wip/v24.1-wsl\\) to 4d7f618e failed!\""
+msgctxt "dlgSgOutput.lbl:"
 msgid "Command Rebase HEAD \\(pot-wip/v24.1-wsl\\) to 4d7f618e failed!"
 msgstr ""
 
@@ -6242,7 +6242,7 @@ msgstr ""
 #. Showing dialog 41 (@718DF0C7) '@3C4570F4 - Rebase HEAD to Selected Commit' (owner: @16A35BD)
 #. Performing ', Rebase HEAD to'
 #. Showing dialog 42 (@39D602D8) '@128C81EF - Command Output' (owner: @16A35BD)
-msgctxt "dlgSgOutput.lbl\"Command Rebase HEAD \\(pot-wip/v24.1-wsl\\) to 79193904 produced warnings.\""
+msgctxt "dlgSgOutput.lbl:"
 msgid "Command Rebase HEAD \\(pot-wip/v24.1-wsl\\) to 79193904 produced warnings."
 msgstr ""
 
@@ -6256,7 +6256,7 @@ msgstr ""
 #. Showing dialog 47 (@15317DC9) '@6E0D9D4A - Rebase HEAD to Selected Commit' (owner: @16A35BD)
 #. Performing ', Rebase HEAD to'
 #. Showing dialog 48 (@1D38FD4A) '@51C26394 - Command Failed' (owner: @16A35BD)
-msgctxt "dlgSgOutput.lbl\"Command Rebase HEAD \\(pot-wip/v24.1-wsl\\) to ed29fdd3 failed!\""
+msgctxt "dlgSgOutput.lbl:"
 msgid "Command Rebase HEAD \\(pot-wip/v24.1-wsl\\) to ed29fdd3 failed!"
 msgstr ""
 
@@ -12181,7 +12181,7 @@ msgstr ""
 #. Performing '@smartgit.byU'
 #. Performing '@smartgit.byU'
 #. Performing '@smartgit.byU'
-msgctxt "ttpRepositories\"<b>Tracked Branch:\\t</b>origin/work_space\""
+msgctxt "ttpRepositories:"
 msgid "<b>Tracked Branch:\\t</b>origin/work_space"
 msgstr ""
 
