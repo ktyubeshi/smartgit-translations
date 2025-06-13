@@ -6249,6 +6249,8 @@ msgctxt "dlgSgOutput.lbl:"
 msgid "Command Rebase HEAD \\($1\\) to $2 failed!"
 msgstr ""
 
+# Needs review (Place holder)
+# msgid "Command Rebase HEAD \\(pot-wip/v24.1-wsl\\) to 79193904 produced warnings."
 #. Showing dialog 39 (@169043E3) '@2A428E3B - Command Failed' (owner: @16A35BD)
 #. Performing ', Close'
 #. Performing ', Abort'
@@ -6260,7 +6262,7 @@ msgstr ""
 #. Performing ', Rebase HEAD to'
 #. Showing dialog 42 (@39D602D8) '@128C81EF - Command Output' (owner: @16A35BD)
 msgctxt "dlgSgOutput.lbl:"
-msgid "Command Rebase HEAD \\(pot-wip/v24.1-wsl\\) to 79193904 produced warnings."
+msgid "Command Rebase HEAD \\($1\\) to $2 produced warnings."
 msgstr ""
 
 msgctxt "dlgSgOutput.lbl:"
