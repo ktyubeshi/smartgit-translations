@@ -1089,6 +1089,30 @@ msgctxt "dlgScExternalFileStarterCommandInvocationFailed.tle%1"
 msgid "\\[$1\\] - Conflict Solver"
 msgstr ""
 
+msgctxt "dlgScExternalFileStarterCommandNoFile.fur"
+msgid "Be sure to add arguments to the appropriate input field."
+msgstr ""
+
+msgctxt "dlgScExternalFileStarterCommandNoFile.hdl"
+msgid "The specified command is no file."
+msgstr ""
+
+msgctxt "dlgScExternalFileStarterCommandNoFile.tle"
+msgid "Input Validation"
+msgstr ""
+
+msgctxt "dlgScExternalFileStarterEmptyCommand.fur"
+msgid "Select the command which should be invoked."
+msgstr ""
+
+msgctxt "dlgScExternalFileStarterEmptyCommand.hdl"
+msgid "The Command input field must not be empty!"
+msgstr ""
+
+msgctxt "dlgScExternalFileStarterEmptyCommand.tle"
+msgid "Input Validation"
+msgstr ""
+
 msgctxt "dlgScFileComparatorAdd.hdl"
 msgid "Add external diff tool"
 msgstr ""
@@ -3001,6 +3025,18 @@ msgctxt "dlgSgClone.mni:"
 msgid "Add Hosting Provider"
 msgstr ""
 
+msgctxt "dlgSgClone.mni:"
+msgid "Own Repositories"
+msgstr ""
+
+msgctxt "dlgSgClone.mni:"
+msgid "Starred Repositories"
+msgstr ""
+
+msgctxt "dlgSgClone.mni:"
+msgid "Top Repositories"
+msgstr ""
+
 msgctxt "dlgSgClone.rbt:"
 msgid "Clone all revisions \\(recommended\\)"
 msgstr ""
@@ -4851,6 +4887,10 @@ msgstr ""
 
 msgctxt "dlgSgHistoryPushedCommitsModifyPushedCommits.hdl"
 msgid "Do you want to modify commits which are already pushed?"
+msgstr ""
+
+msgctxt "dlgSgHistoryPushedCommitsModifyPushedCommits.tle:"
+msgid "Edit Author"
 msgstr ""
 
 msgctxt "dlgSgHistoryPushedCommitsModifyPushedCommits.tle:"
@@ -7845,8 +7885,9 @@ msgctxt "dlgSgPushForced.fur"
 msgid "Pushing to the remote branch is not fast-forward, so the push has to be forced. The commits in the remote branch will be lost."
 msgstr ""
 
+#| msgid "Do you want to force-push \\(replace\\) the remote branch 'pot-wip/24.1_windows'?"
 msgctxt "dlgSgPushForced.hdl"
-msgid "Do you want to force-push \\(replace\\) the remote branch?"
+msgid "Do you want to force-push \\(replace\\) the remote branch '$1'?"
 msgstr ""
 
 msgctxt "dlgSgPushForced.tle"
@@ -8175,6 +8216,46 @@ msgstr ""
 
 msgctxt "dlgSgRebaseContinueNothingToCommitContinue.tle"
 msgid "Rebase"
+msgstr ""
+
+msgctxt "dlgSgRebaseContinueNothingToCommitModifyContinue.btn\"Continue \\(Resume\\)\""
+msgid "Continue \\(Resume\\)"
+msgstr ""
+
+msgctxt "dlgSgRebaseContinueNothingToCommitModifyContinue.chk"
+msgid "Don't show again"
+msgstr ""
+
+msgctxt "dlgSgRebaseContinueNothingToCommitModifyContinue.fur"
+msgid "Clicking 'Continue' will resume the rebase, e.g. to finish after having modified the commit\\(s\\)."
+msgstr ""
+
+msgctxt "dlgSgRebaseContinueNothingToCommitModifyContinue.hdl"
+msgid "Do you want to continue the modify-commit-rebase?"
+msgstr ""
+
+msgctxt "dlgSgRebaseContinueNothingToCommitModifyContinue.tle"
+msgid "Modify Commit"
+msgstr ""
+
+msgctxt "dlgSgRebaseContinueNothingToCommitModifyStep.btn:"
+msgid "Step"
+msgstr ""
+
+msgctxt "dlgSgRebaseContinueNothingToCommitModifyStep.chk"
+msgid "Don't show again"
+msgstr ""
+
+msgctxt "dlgSgRebaseContinueNothingToCommitModifyStep.fur"
+msgid "Clicking 'Step' will continue the rebase and stop at the next commit. Use it to step through all pending commits, e.g. to verify whether they successfully build."
+msgstr ""
+
+msgctxt "dlgSgRebaseContinueNothingToCommitModifyStep.hdl"
+msgid "Do you want to step to the next commit?"
+msgstr ""
+
+msgctxt "dlgSgRebaseContinueNothingToCommitModifyStep.tle"
+msgid "Modify Commit"
 msgstr ""
 
 msgctxt "dlgSgRebaseContinueNothingToCommitSkip.btn:"
@@ -8901,16 +8982,6 @@ msgctxt "dlgSgRepositoryClose.btn:"
 msgid "Force Close"
 msgstr ""
 
-#. Performing 'repositoryAddGroup, Add Group...'
-#. Showing dialog 3 (@79BA0285) '@46A388CC - Add Group' (owner: @1E1B061)
-#. Performing ', Add'
-#. Performing '@smartgit.byU'
-#. Performing 'fetch, Pull..., Fetch commits from a remote repository and (optionally) integrate them with possible local commits.'
-#. Showing dialog 4 (@7B3085A3) '@5D5574C7 - Pull' (owner: @1E1B061)
-#. Performing ', Pull'
-#. Showing dialog 5 (@70EE9D31) '@1A01FFFF - Passwords' (owner: null)
-#. Performing ', OK'
-#. Showing dialog 6 (@4C8D45CF) '@1C58D7BE - Exit' (owner: @1E1B061)
 msgctxt "dlgSgRepositoryClose.btn:"
 msgid "Force Exit"
 msgstr ""
@@ -9115,8 +9186,9 @@ msgctxt "dlgSgRepositorySettings.hdl"
 msgid "Edit the repository settings"
 msgstr ""
 
+#| msgid "Here you can edit the Git settings for the repository. The default settings can be found in the preferences."
 msgctxt "dlgSgRepositorySettings.inf"
-msgid "Here you can edit the Git settings for the repository. The default settings can be found in the preferences."
+msgid "Here you can edit the Git settings for the repository. The default settings can be found in the Preferences."
 msgstr ""
 
 msgctxt "dlgSgRepositorySettings.lbl:"
@@ -9171,16 +9243,6 @@ msgctxt "dlgSgRepositorySettings.ttpGroupPatterns:"
 msgid "Patterns will show up in the GUI using auto-generated labels which are derived from their regular expression. You can assign a custom label <tt>label</tt> to a pattern by prefixing it by <tt>label:</tt>; a label may only contain letters, digits and '_'."
 msgstr ""
 
-#. Performing 'checkout, Check Out..., Check out an existing commit.'
-#. Showing dialog 10 (@AF94B0B) '@37A0FC8C - Check Out' (owner: @1E1B061)
-#. Performing ', Cancel'
-#. Performing 'editFile, Edit File'
-#. opening smartgit.cau@1B5623B4:messages.pot - [~/Git-projects/smartgit-translations/po] - Editor (smartgit.cau@63C6C5E5)
-#. Performing 'file-save, Save, Save file modifications.'
-#. Showing dialog 11 (@73417494) '@AD585FB - Commit' (owner: @1E1B061)
-#. Performing ', Confirm Email'
-#. Performing 'repositorySettings, Settings...'
-#. Showing dialog 12 (@69C51FDB) '@63053B71 - Repository Settings' (owner: @1E1B061)
 msgctxt "dlgSgRepositorySettings.wrn:"
 msgid "It is recommended to set an email address used for committing."
 msgstr ""
@@ -14853,8 +14915,9 @@ msgctxt "wnd(Log|Project|Std|).mniFixup"
 msgid "Use Message for Commit"
 msgstr ""
 
+#| msgid "Configure"
 msgctxt "wnd(Log|Project|Std|).mniFlowConfigure"
-msgid "Configure"
+msgid "Configure Features"
 msgstr ""
 
 msgctxt "wnd(Log|Project|Std|).mniFlowConfigure:"
@@ -15041,8 +15104,9 @@ msgctxt "wnd(Log|Project|Std|).mniNewWindow"
 msgid "New Window"
 msgstr ""
 
+#| msgid "Open from Working Tree"
 msgctxt "wnd(Log|Project|Std|).mniOpen"
-msgid "Open from Working Tree"
+msgid "Open"
 msgstr ""
 
 msgctxt "wnd(Log|Project|Std|).mniOpen:"
