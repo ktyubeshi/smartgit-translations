@@ -6198,7 +6198,7 @@ msgstr ""
 #. Showing dialog 17 (@5180F430) '@FD07138 - Pull' (owner: @3A8D467E)
 #. Performing ', Pull'
 #. Showing dialog 18 (@643BEF2A) '@7225583D - Command Failed' (owner: @3A8D467E)
-msgctxt "dlgSgOutput.lbl\"Command Pull \\(Merge\\) failed!\""
+msgctxt "dlgSgOutput.lbl:"
 msgid "Command Pull \\(Merge\\) failed!"
 msgstr ""
 
@@ -7050,7 +7050,7 @@ msgctxt "dlgSgPreferences.lbl:"
 msgid "Changing these low-level properties can be harmful to the stability or performance of SmartGit. You should only continue if you are sure of what you are doing. Changed properties with a trailing \\* need a restart to be applied."
 msgstr ""
 
-msgctxt "dlgSgPreferences.lbl\"Checkout \\(Switch branch\\)\""
+msgctxt "dlgSgPreferences.lbl:"
 msgid "Checkout \\(Switch branch\\)"
 msgstr ""
 
@@ -7298,7 +7298,7 @@ msgctxt "dlgSgPreferences.mni:"
 msgid "GitHub"
 msgstr ""
 
-msgctxt "dlgSgPreferences.mni\"GitLab \\(Self Hosted\\)\""
+msgctxt "dlgSgPreferences.mni:"
 msgid "GitLab \\(Self Hosted\\)"
 msgstr ""
 
