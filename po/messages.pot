@@ -1069,6 +1069,14 @@ msgctxt "dlgScEvaluationReminderContinue.btn:"
 msgid "Register"
 msgstr ""
 
+#. Showing dialog 0 (@526B2F3E) '@32E652B6 - Passwords' (owner: null)
+#. Performing ', OK'
+#. opening smartgit.byM@44CCD75C:SmartGit 24.1.3 Evaluation until Jun 27 (smartgit.byM@51AB1EE3)
+#. Showing dialog 1 (@62B0BF85) '@68E47E7 - Evaluation' (owner: @51AB1EE3)
+msgctxt "dlgScEvaluationReminderContinue.fur"
+msgid "To use SmartGit, you will have to register a license file.\\n\\nIn a commercial environment you need to \\[https://www.syntevo.com/smartgit/purchase?evaluationReminderNotification purchase a license\\].\\n\\nFor \\[https://www.syntevo.com/register-non-commercial/?evaluationReminderNotification certain uses\\] we grant free licenses."
+msgstr ""
+
 msgctxt "dlgScEvaluationReminderContinue.fur%2"
 msgid "To use SmartGit in a commercial environment, you will have to \\[$1 purchase a license\\].\\n\\nFor \\[$2 certain uses\\] we grant free licenses."
 msgstr ""
@@ -6159,6 +6167,20 @@ msgstr ""
 
 msgctxt "dlgSgOutput.lbl:"
 msgid "Command Discard failed!"
+msgstr ""
+
+#. Performing '@smartgit.byU'
+#. Performing '@smartgit.byU'
+#. Performing '@smartgit.byU'
+#. Performing ', Check Out'
+#. Showing dialog 11 (@5FBBE7AA) '@7046BEA1 - Check Out' (owner: @5A034157)
+#. Performing ', Checkout'
+#. Performing 'discard, Discard..., Discard local changes.'
+#. Showing dialog 12 (@76C7D221) '@5FFA7938 - Discard' (owner: @5A034157)
+#. Performing ', Discard'
+#. Showing dialog 13 (@617FF78F) '@25EBBB3E - Command Output' (owner: @5A034157)
+msgctxt "dlgSgOutput.lbl:"
+msgid "Command Discard produced warnings."
 msgstr ""
 
 #. Showing dialog 13 (@1851C7D2) '@38DBEB39 - Abort' (owner: @77AB22BE)
