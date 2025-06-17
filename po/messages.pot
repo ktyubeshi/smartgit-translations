@@ -2517,8 +2517,9 @@ msgctxt "dlgSgBranchTrackingResetConfirm.tle"
 msgid "Stop Tracking"
 msgstr ""
 
+#| msgid "Configure"
 msgctxt "dlgSgBranchTrackingSetConfirm.btn:"
-msgid "Configure"
+msgid "Configure Features"
 msgstr ""
 
 msgctxt "dlgSgBranchTrackingSetConfirm.fur"
@@ -2749,8 +2750,19 @@ msgctxt "dlgSgCherryPickConfirmation.chk"
 msgid "Append source commit ID to commit message"
 msgstr ""
 
+#. Performing ',   sgpo_Format po file'
+#. Performing 'viewUnchanged, Show Unchanged Files, If selected, unchanged files will be shown.'
+#. Performing 'unstage, Unstage, Remove staged changes from index.'
+#. Performing 'discard, Discard..., Discard local changes.'
+#. Showing dialog 3 (@2FCE8243) '@52FE87E0 - Discard' (owner: @5A034157)
+#. Performing ', Discard'
+#. Performing 'viewUnchanged, Show Unchanged Files, If selected, unchanged files will be shown.'
+#. Performing ',   sgpo_Format po file'
+#. Performing 'cherryPick, Cherry-Pick..., Cherry-pick commits from other branches.'
+#. Showing dialog 4 (@20276412) '@A70DAF4 - Cherry-Pick' (owner: @5A034157)
+#| msgid "This will cherry-pick the selected commit into the Working Tree."
 msgctxt "dlgSgCherryPickConfirmation.fur"
-msgid "This will cherry-pick the selected commit into the Working Tree."
+msgid "This will cherry-pick the selected commits into the Working Tree."
 msgstr ""
 
 msgctxt "dlgSgCherryPickConfirmation.hdl"
@@ -15294,9 +15306,9 @@ msgctxt "wnd(Log|Project|Std|).mniNewWindow"
 msgid "New Window"
 msgstr ""
 
-#| msgid "Open"
+#| msgid "Open from Working Tree"
 msgctxt "wnd(Log|Project|Std|).mniOpen"
-msgid "Open from Working Tree"
+msgid "Open"
 msgstr ""
 
 msgctxt "wnd(Log|Project|Std|).mniOpen:"
