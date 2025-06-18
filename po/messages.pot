@@ -10066,12 +10066,27 @@ msgctxt "dlgSgSetup.chk:"
 msgid "Send usage statistics"
 msgstr ""
 
+#. Showing dialog 0 (@38830EA) '@1F67761B - Setup SmartGit 24.1.3' (owner: null)
+msgctxt "dlgSgSetup.chk\"Use SmartGit for authentication \\(ignoring your current credential.helper configuration\\)\""
+msgid "Use SmartGit for authentication \\(ignoring your current credential.helper configuration\\)"
+msgstr ""
+
 msgctxt "dlgSgSetup.chk:"
 msgid "Use gravatar.com to show images for the users"
 msgstr ""
 
 msgctxt "dlgSgSetup.edt:"
 msgid "Email"
+msgstr ""
+
+#. Showing dialog 0 (@38830EA) '@1F67761B - Setup SmartGit 24.1.3' (owner: null)
+msgctxt "dlgSgSetup.edt:"
+msgid "Full Name"
+msgstr ""
+
+#. Showing dialog 0 (@38830EA) '@1F67761B - Setup SmartGit 24.1.3' (owner: null)
+msgctxt "dlgSgSetup.edt:"
+msgid "Git Email"
 msgstr ""
 
 msgctxt "dlgSgSetup.edt:"
@@ -10094,8 +10109,67 @@ msgctxt "dlgSgSetup.edt:"
 msgid "User Name"
 msgstr ""
 
+#. Showing dialog 0 (@38830EA) '@1F67761B - Setup SmartGit 24.1.3' (owner: null)
+#. Performing ', Next >'
+#. Showing dialog 1 (@3B95A6DB) '@3BA0AE41 - Setup SmartGit 24.1.3' (owner: @38830EA)
+#. Performing ', Cancel'
+#. Performing ', Next >'
+msgctxt "dlgSgSetup.hdl:"
+msgid "Git Executable"
+msgstr ""
+
+#. Showing dialog 0 (@38830EA) '@1F67761B - Setup SmartGit 24.1.3' (owner: null)
+#. Performing ', Next >'
+#. Showing dialog 1 (@3B95A6DB) '@3BA0AE41 - Setup SmartGit 24.1.3' (owner: @38830EA)
+#. Performing ', Cancel'
+#. Performing ', Next >'
+#. Performing ', Next >'
+#. Performing ', Next >'
+msgctxt "dlgSgSetup.hdl:"
+msgid "License"
+msgstr ""
+
+#. Showing dialog 0 (@38830EA) '@1F67761B - Setup SmartGit 24.1.3' (owner: null)
+#. Performing ', Next >'
+#. Showing dialog 1 (@3B95A6DB) '@3BA0AE41 - Setup SmartGit 24.1.3' (owner: @38830EA)
+#. Performing ', Cancel'
+#. Performing ', Next >'
+#. Performing ', Next >'
+#. Performing ', Next >'
+#. Performing ', Next >'
+msgctxt "dlgSgSetup.hdl:"
+msgid "Privacy"
+msgstr ""
+
+#. Showing dialog 0 (@38830EA) '@1F67761B - Setup SmartGit 24.1.3' (owner: null)
+msgctxt "dlgSgSetup.hdl:"
+msgid "Style"
+msgstr ""
+
+#. Showing dialog 0 (@38830EA) '@1F67761B - Setup SmartGit 24.1.3' (owner: null)
+#. Performing ', Next >'
+#. Showing dialog 1 (@3B95A6DB) '@3BA0AE41 - Setup SmartGit 24.1.3' (owner: @38830EA)
+#. Performing ', Cancel'
+#. Performing ', Next >'
+#. Performing ', Next >'
+msgctxt "dlgSgSetup.hdl:"
+msgid "User Information"
+msgstr ""
+
 msgctxt "dlgSgSetup.inf:"
 msgid "If you are using SSH to connect to other Git repositories, select what SSH client to use. You can change it later in the Preferences."
+msgstr ""
+
+#. Showing dialog 0 (@38830EA) '@1F67761B - Setup SmartGit 24.1.3' (owner: null)
+#. Performing ', Next >'
+#. Showing dialog 1 (@3B95A6DB) '@3BA0AE41 - Setup SmartGit 24.1.3' (owner: @38830EA)
+#. Performing ', Cancel'
+#. Performing ', Next >'
+#. Performing ', Next >'
+#. Performing ', Next >'
+#. Performing ', Next >'
+msgctxt "dlgSgSetup.inf:"
+msgid "Please review the following privacy options. You can change them later in the Preferences."
 msgstr ""
 
 msgctxt "dlgSgSetup.inf:"
@@ -10112,6 +10186,16 @@ msgstr ""
 
 msgctxt "dlgSgSetup.inf:"
 msgid "User name and email will be stored as part of your commits. Here you can configure the default values which are stored in .gitconfig."
+msgstr ""
+
+#. Showing dialog 0 (@38830EA) '@1F67761B - Setup SmartGit 24.1.3' (owner: null)
+#. Performing ', Next >'
+#. Showing dialog 1 (@3B95A6DB) '@3BA0AE41 - Setup SmartGit 24.1.3' (owner: @38830EA)
+#. Performing ', Cancel'
+#. Performing ', Next >'
+#. Performing ', Next >'
+msgctxt "dlgSgSetup.inf:"
+msgid "User name and email will be stored as part of your commits. Here you can configure the default values which are stored in ~/.gitconfig."
 msgstr ""
 
 msgctxt "dlgSgSetup.inf:"
@@ -10178,6 +10262,11 @@ msgctxt "dlgSgSetup.lbl:"
 msgid "may be harder to configure and use for new users, but is more flexible"
 msgstr ""
 
+#. Showing dialog 0 (@38830EA) '@1F67761B - Setup SmartGit 24.1.3' (owner: null)
+msgctxt "dlgSgSetup.rbt:"
+msgid "Bundled Git"
+msgstr ""
+
 msgctxt "dlgSgSetup.rbt:"
 msgid "Commits \\(Log History\\)"
 msgstr ""
@@ -10192,6 +10281,11 @@ msgstr ""
 
 msgctxt "dlgSgSetup.rbt:"
 msgid "Non-commercial use only \\(most features, no support\\)"
+msgstr ""
+
+#. Showing dialog 0 (@38830EA) '@1F67761B - Setup SmartGit 24.1.3' (owner: null)
+msgctxt "dlgSgSetup.rbt:"
+msgid "Other Git Executable:"
 msgstr ""
 
 msgctxt "dlgSgSetup.rbt:"
@@ -10216,6 +10310,10 @@ msgstr ""
 
 msgctxt "dlgSgSetup.rbt:"
 msgid "Working tree \\(file oriented\\)"
+msgstr ""
+
+msgctxt "dlgSgSetup.tle"
+msgid "Setup SmartGit 24.1.3"
 msgstr ""
 
 msgctxt "dlgSgSetup.tle:"
