@@ -6221,6 +6221,20 @@ msgctxt "dlgSgOutput.lbl:"
 msgid "Command Discard produced warnings."
 msgstr ""
 
+#. Performing 'submoduleRegister, Add...'
+#. Showing dialog 10 (@49654A35) '@5169DB2F - Add Submodule' (owner: @36AA52D2)
+#. Performing ', Finish'
+#. Performing 'repositorySettings, Settings...'
+#. Showing dialog 11 (@7BF16972) '@EEE26BD - Repository Settings' (owner: @36AA52D2)
+#. Performing ', OK'
+#. Performing 'editCommitAuthor, Edit Author...'
+#. Showing dialog 12 (@6DDBBFBB) '@3F22CE2A - Edit Author' (owner: @36AA52D2)
+#. Performing ', Set Author'
+#. Showing dialog 13 (@4281A26F) '@726E29D - Command Output' (owner: @36AA52D2)
+msgctxt "dlgSgOutput.lbl:"
+msgid "Command Edit Author produced warnings."
+msgstr ""
+
 #. Showing dialog 13 (@1851C7D2) '@38DBEB39 - Abort' (owner: @77AB22BE)
 #. Performing ', Abort Rebase'
 #. Performing 'editCommitMessage, Edit Message...'
