@@ -3819,8 +3819,19 @@ msgctxt "dlgSgDiscardRevertTo(Head|Index).tle"
 msgid "Discard"
 msgstr ""
 
+#. Performing 'submoduleRegister, Add...'
+#. Showing dialog 4 (@37F71C05) '@5BD3CA3C - Add Submodule' (owner: @36AA52D2)
+#. Performing ', Next >'
+#. Performing ', Finish'
+#. Showing dialog 5 (@4449A60B) '@DA5D5E1 - Command Failed' (owner: @36AA52D2)
+#. Performing ', Close'
+#. Performing 'submoduleRegister, Add...'
+#. Showing dialog 6 (@49E62B17) '@288409F0 - Add Submodule' (owner: @36AA52D2)
+#. Performing ', Next >'
+#. Showing dialog 7 (@2B9D4B0) '@4F541E67 - Command Failed' (owner: @49E62B17)
+#| msgid "Server returned HTTP response code: 400 for URL: https://gitlab.com/oauth/token"
 msgctxt "dlgSgErrorUtilsClientException.fur"
-msgid "Server returned HTTP response code: 400 for URL: https://gitlab.com/oauth/token"
+msgid "Repository '../mcp-server-gen2' is not valid."
 msgstr ""
 
 msgctxt "dlgSgErrorUtilsClientException.fur:"
@@ -7923,8 +7934,9 @@ msgctxt "dlgSgPull.tle"
 msgid "Pull"
 msgstr ""
 
+#| msgid "Configure"
 msgctxt "dlgSgPullConfiguration.btn:"
-msgid "Configure"
+msgid "Configure Features"
 msgstr ""
 
 msgctxt "dlgSgPullConfiguration.chk:"
@@ -15514,17 +15526,13 @@ msgctxt "wnd(Log|Project|Std|).mniNewWindow"
 msgid "New Window"
 msgstr ""
 
-#| msgid "Open from Working Tree"
+#| msgid "Open"
 msgctxt "wnd(Log|Project|Std|).mniOpen"
-msgid "Open"
-msgstr ""
-
-msgctxt "wnd(Log|Project|Std|).mniOpen:"
 msgid "Open from Working Tree"
 msgstr ""
 
 msgctxt "wnd(Log|Project|Std|).mniOpen:"
-msgid "Open"
+msgid "Open from Working Tree"
 msgstr ""
 
 msgctxt "wnd(Log|Project|Std|).mniOpenDocumentation"
