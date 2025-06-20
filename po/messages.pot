@@ -2891,6 +2891,13 @@ msgctxt "dlgSgClone.btn:"
 msgid "Configure Features"
 msgstr ""
 
+#. opening smartgit.byM@BF2AA32:SmartGit 24.1.3 Evaluation until Jul 18 (smartgit.byM@BA17BE6)
+#. Performing 'repositoryClone, Clone..., Clone a new repository.'
+#. Showing dialog 0 (@63C99F7) '@3C07E830 - Clone' (owner: @BA17BE6)
+msgctxt "dlgSgClone.btn:"
+msgid "Configure"
+msgstr ""
+
 msgctxt "dlgSgClone.chk:"
 msgid "Create upstream remote"
 msgstr ""
@@ -3924,6 +3931,20 @@ msgstr ""
 #| msgid "Open"
 msgctxt "dlgSgFileCompareNoChanges.btn:"
 msgid "Open from Working Tree"
+msgstr ""
+
+#. Performing '@smartgit.byU'
+#. Performing '@smartgit.byU'
+#. Performing '@smartgit.byU'
+#. Performing 'fetch, Pull..., Fetch commits from a remote repository and (optionally) integrate them with possible local commits.'
+#. Showing dialog 0 (@704C3BDF) '@43FD77D8 - Pull' (owner: @1E3E1014)
+#. Performing ', Pull'
+#. Showing dialog 1 (@5AF38A4A) '@1BE77A76 - Passwords' (owner: null)
+#. Performing ', OK'
+#. Performing 'showChanges, Show Changes, Open the file compare for the selected file.'
+#. Showing dialog 2 (@4D065E1A) '@6DBBDF92 - File Compare' (owner: @1E3E1014)
+msgctxt "dlgSgFileCompareNoChanges.btn:"
+msgid "Open"
 msgstr ""
 
 msgctxt "dlgSgFileCompareNoChanges.chk"
