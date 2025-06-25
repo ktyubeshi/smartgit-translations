@@ -1069,6 +1069,12 @@ msgctxt "dlgScEvaluationReminderContinue.btn:"
 msgid "Register"
 msgstr ""
 
+#. opening smartgit.byM@52B30054:SmartGit 24.1.3 Evaluation until Jun 27 (smartgit.byM@F9CAB00)
+#. Showing dialog 0 (@44EB2452) '@402D6012 - Evaluation' (owner: @F9CAB00)
+msgctxt "dlgScEvaluationReminderContinue.fur"
+msgid "To use SmartGit, you will have to register a license file.\\n\\nIn a commercial environment you need to \\[https://www.syntevo.com/smartgit/purchase?evaluationReminderNotification purchase a license\\].\\n\\nFor \\[https://www.syntevo.com/register-non-commercial/?evaluationReminderNotification certain uses\\] we grant free licenses."
+msgstr ""
+
 msgctxt "dlgScEvaluationReminderContinue.fur%2"
 msgid "To use SmartGit in a commercial environment, you will have to \\[$1 purchase a license\\].\\n\\nFor \\[$2 certain uses\\] we grant free licenses."
 msgstr ""
