@@ -161,6 +161,48 @@ msgctxt "dlgCommitInvisibleIndex.tle"
 msgid "Commit"
 msgstr ""
 
+#. Performing 'about, About SmartGit'
+#. Showing dialog 2 (@5CA8C904) '@2AE4C424 - About SmartGit' (owner: @1D06F16F)
+#. Performing ', Register..., Enter registration data.'
+#. Showing dialog 3 (@66130C3B) '@44E4CF8A - SmartGit License' (owner: @5CA8C904)
+#. Performing ', Cancel'
+#. Performing ', Close'
+#. Performing '@smartgit.byU'
+#. Performing '@smartgit.byU'
+#. Performing 'stage, Stage, Store working tree files in the index to prepare the next commit.'
+#. Showing dialog 4 (@6C2BE147) '@DDDCD91 - Commit' (owner: @1D06F16F)
+msgctxt "dlgCommitNoEmailConfigured.fur"
+msgid "Before committing you will have to configure your name and email, e.g. in the SmartGit Preferences."
+msgstr ""
+
+#. Performing 'about, About SmartGit'
+#. Showing dialog 2 (@5CA8C904) '@2AE4C424 - About SmartGit' (owner: @1D06F16F)
+#. Performing ', Register..., Enter registration data.'
+#. Showing dialog 3 (@66130C3B) '@44E4CF8A - SmartGit License' (owner: @5CA8C904)
+#. Performing ', Cancel'
+#. Performing ', Close'
+#. Performing '@smartgit.byU'
+#. Performing '@smartgit.byU'
+#. Performing 'stage, Stage, Store working tree files in the index to prepare the next commit.'
+#. Showing dialog 4 (@6C2BE147) '@DDDCD91 - Commit' (owner: @1D06F16F)
+msgctxt "dlgCommitNoEmailConfigured.hdl"
+msgid "Please configure the email for commit."
+msgstr ""
+
+#. Performing ', Push'
+#. Performing 'about, About SmartGit'
+#. Showing dialog 2 (@5CA8C904) '@2AE4C424 - About SmartGit' (owner: @1D06F16F)
+#. Performing ', Register..., Enter registration data.'
+#. Showing dialog 3 (@66130C3B) '@44E4CF8A - SmartGit License' (owner: @5CA8C904)
+#. Performing ', Cancel'
+#. Performing ', Close'
+#. Performing '@smartgit.byU'
+#. Performing '@smartgit.byU'
+#. Performing 'stage, Stage, Store working tree files in the index to prepare the next commit.'
+msgctxt "dlgCommitNoEmailConfigured.tle"
+msgid "Commit"
+msgstr ""
+
 msgctxt "dlgCommitView.hiddenOptions.chk"
 msgid "Don't show again"
 msgstr ""
