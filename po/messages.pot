@@ -1109,6 +1109,20 @@ msgctxt "dlgScEvaluationReminderExpiredGrace.btn:"
 msgid "&Continue"
 msgstr ""
 
+#. Showing dialog 0 (@59A2D756) '@3E28DC96 - Evaluation' (owner: @7235F92B)
+#. Showing dialog 1 (@6CE2E079) '@131BA005 - Passwords' (owner: @59A2D756)
+#. Performing ', OK'
+#. Performing ', Register'
+#. Showing dialog 2 (@27502E5C) '@4B343B6D - SmartGit License' (owner: @59A2D756)
+#. Performing ', Cancel'
+#. Performing ', Continue'
+#. Performing 'newStandardWindow, Show Standard Window'
+#. opening smartgit.azY@29AA4BC9:null (smartgit.azY@20C3B34B)
+#. Showing dialog 3 (@4E7EBA9F) '@2DF71BE0 - Evaluation' (owner: @20C3B34B)
+msgctxt "dlgScEvaluationReminderExpiredGrace.btn\"Continue \\(45\\)\""
+msgid "Continue \\(45\\)"
+msgstr ""
+
 #. opening smartgit.byM@467AF68C:SmartGit 24.1.3 Evaluation until Jun 27 (smartgit.byM@1A256D80)
 #. Showing dialog 0 (@1BE8C122) '@7E81617A - Evaluation' (owner: @1A256D80)
 msgctxt "dlgScEvaluationReminderExpiredGrace.btn:"
@@ -1808,6 +1822,76 @@ msgid "Please provide your SmartGit license file you've received by email after 
 msgstr ""
 
 msgctxt "dlgScSetupLicense.tle"
+msgid "SmartGit License"
+msgstr ""
+
+#. Performing ', Cancel'
+#. Performing '@smartgit.byU'
+#. Performing 'about, About SmartGit'
+#. Showing dialog 5 (@603C2DEE) '@3F6906F4 - About SmartGit' (owner: @7235F92B)
+#. Performing ', Register..., Enter registration data.'
+#. Showing dialog 6 (@114BADF0) '@19E8FE55 - SmartGit License' (owner: @603C2DEE)
+#. Performing ', Register'
+#. Showing dialog 7 (@29EA5E0) '@3D7314B3 - SmartGit License' (owner: @114BADF0)
+#. Performing ', OK'
+#. Showing dialog 8 (@CA60688) '@33568E26 - SmartGit License' (owner: @114BADF0)
+msgctxt "dlgScSetupLicenseNeedsRestart.btn:"
+msgid "Exit Later"
+msgstr ""
+
+#. Performing ', Cancel'
+#. Performing '@smartgit.byU'
+#. Performing 'about, About SmartGit'
+#. Showing dialog 5 (@603C2DEE) '@3F6906F4 - About SmartGit' (owner: @7235F92B)
+#. Performing ', Register..., Enter registration data.'
+#. Showing dialog 6 (@114BADF0) '@19E8FE55 - SmartGit License' (owner: @603C2DEE)
+#. Performing ', Register'
+#. Showing dialog 7 (@29EA5E0) '@3D7314B3 - SmartGit License' (owner: @114BADF0)
+#. Performing ', OK'
+#. Showing dialog 8 (@CA60688) '@33568E26 - SmartGit License' (owner: @114BADF0)
+msgctxt "dlgScSetupLicenseNeedsRestart.btn:"
+msgid "Restart Now"
+msgstr ""
+
+#. Performing ', Cancel'
+#. Performing '@smartgit.byU'
+#. Performing 'about, About SmartGit'
+#. Showing dialog 5 (@603C2DEE) '@3F6906F4 - About SmartGit' (owner: @7235F92B)
+#. Performing ', Register..., Enter registration data.'
+#. Showing dialog 6 (@114BADF0) '@19E8FE55 - SmartGit License' (owner: @603C2DEE)
+#. Performing ', Register'
+#. Showing dialog 7 (@29EA5E0) '@3D7314B3 - SmartGit License' (owner: @114BADF0)
+#. Performing ', OK'
+#. Showing dialog 8 (@CA60688) '@33568E26 - SmartGit License' (owner: @114BADF0)
+msgctxt "dlgScSetupLicenseNeedsRestart.fur"
+msgid "You can do that now or manually later."
+msgstr ""
+
+#. Performing ', Cancel'
+#. Performing '@smartgit.byU'
+#. Performing 'about, About SmartGit'
+#. Showing dialog 5 (@603C2DEE) '@3F6906F4 - About SmartGit' (owner: @7235F92B)
+#. Performing ', Register..., Enter registration data.'
+#. Showing dialog 6 (@114BADF0) '@19E8FE55 - SmartGit License' (owner: @603C2DEE)
+#. Performing ', Register'
+#. Showing dialog 7 (@29EA5E0) '@3D7314B3 - SmartGit License' (owner: @114BADF0)
+#. Performing ', OK'
+#. Showing dialog 8 (@CA60688) '@33568E26 - SmartGit License' (owner: @114BADF0)
+msgctxt "dlgScSetupLicenseNeedsRestart.hdl"
+msgid "SmartGit has to be restarted for the license change to take effect."
+msgstr ""
+
+#. Performing ', Refresh'
+#. Performing ', Cancel'
+#. Performing '@smartgit.byU'
+#. Performing 'about, About SmartGit'
+#. Showing dialog 5 (@603C2DEE) '@3F6906F4 - About SmartGit' (owner: @7235F92B)
+#. Performing ', Register..., Enter registration data.'
+#. Showing dialog 6 (@114BADF0) '@19E8FE55 - SmartGit License' (owner: @603C2DEE)
+#. Performing ', Register'
+#. Showing dialog 7 (@29EA5E0) '@3D7314B3 - SmartGit License' (owner: @114BADF0)
+#. Performing ', OK'
+msgctxt "dlgScSetupLicenseNeedsRestart.tle"
 msgid "SmartGit License"
 msgstr ""
 
@@ -4664,6 +4748,104 @@ msgctxt "dlgSgGarbageCollectorDeleteAllStashes.tle"
 msgid "Run Garbage Collector"
 msgstr ""
 
+#. Performing ', Cancel'
+#. Performing ', Continue'
+#. Performing 'newStandardWindow, Show Standard Window'
+#. opening smartgit.azY@29AA4BC9:null (smartgit.azY@20C3B34B)
+#. Showing dialog 3 (@4E7EBA9F) '@2DF71BE0 - Evaluation' (owner: @20C3B34B)
+#. Performing ', Continue'
+#. Performing 'repositoryOpen, Open Repository'
+#. Performing ', Show filter input field.'
+#. Performing ', Select from GitHub...'
+#. Showing dialog 4 (@17F41739) '@6785DF10 - Select Issue' (owner: @20C3B34B)
+msgctxt "dlgSgGitHubCommitMessageSelect.btn:"
+msgid "Refresh"
+msgstr ""
+
+#. Performing ', Cancel'
+#. Performing ', Continue'
+#. Performing 'newStandardWindow, Show Standard Window'
+#. opening smartgit.azY@29AA4BC9:null (smartgit.azY@20C3B34B)
+#. Showing dialog 3 (@4E7EBA9F) '@2DF71BE0 - Evaluation' (owner: @20C3B34B)
+#. Performing ', Continue'
+#. Performing 'repositoryOpen, Open Repository'
+#. Performing ', Show filter input field.'
+#. Performing ', Select from GitHub...'
+#. Showing dialog 4 (@17F41739) '@6785DF10 - Select Issue' (owner: @20C3B34B)
+msgctxt "dlgSgGitHubCommitMessageSelect.btn:"
+msgid "Select"
+msgstr ""
+
+#. Performing ', Cancel'
+#. Performing ', Continue'
+#. Performing 'newStandardWindow, Show Standard Window'
+#. opening smartgit.azY@29AA4BC9:null (smartgit.azY@20C3B34B)
+#. Showing dialog 3 (@4E7EBA9F) '@2DF71BE0 - Evaluation' (owner: @20C3B34B)
+#. Performing ', Continue'
+#. Performing 'repositoryOpen, Open Repository'
+#. Performing ', Show filter input field.'
+#. Performing ', Select from GitHub...'
+#. Showing dialog 4 (@17F41739) '@6785DF10 - Select Issue' (owner: @20C3B34B)
+msgctxt "dlgSgGitHubCommitMessageSelect.col:"
+msgid "Number"
+msgstr ""
+
+#. Performing ', Cancel'
+#. Performing ', Continue'
+#. Performing 'newStandardWindow, Show Standard Window'
+#. opening smartgit.azY@29AA4BC9:null (smartgit.azY@20C3B34B)
+#. Showing dialog 3 (@4E7EBA9F) '@2DF71BE0 - Evaluation' (owner: @20C3B34B)
+#. Performing ', Continue'
+#. Performing 'repositoryOpen, Open Repository'
+#. Performing ', Show filter input field.'
+#. Performing ', Select from GitHub...'
+#. Showing dialog 4 (@17F41739) '@6785DF10 - Select Issue' (owner: @20C3B34B)
+msgctxt "dlgSgGitHubCommitMessageSelect.col:"
+msgid "Title"
+msgstr ""
+
+#. Performing ', Cancel'
+#. Performing ', Continue'
+#. Performing 'newStandardWindow, Show Standard Window'
+#. opening smartgit.azY@29AA4BC9:null (smartgit.azY@20C3B34B)
+#. Showing dialog 3 (@4E7EBA9F) '@2DF71BE0 - Evaluation' (owner: @20C3B34B)
+#. Performing ', Continue'
+#. Performing 'repositoryOpen, Open Repository'
+#. Performing ', Show filter input field.'
+#. Performing ', Select from GitHub...'
+#. Showing dialog 4 (@17F41739) '@6785DF10 - Select Issue' (owner: @20C3B34B)
+msgctxt "dlgSgGitHubCommitMessageSelect.hdl"
+msgid "Select commit message by GitHub issue"
+msgstr ""
+
+#. Performing ', Cancel'
+#. Performing ', Continue'
+#. Performing 'newStandardWindow, Show Standard Window'
+#. opening smartgit.azY@29AA4BC9:null (smartgit.azY@20C3B34B)
+#. Showing dialog 3 (@4E7EBA9F) '@2DF71BE0 - Evaluation' (owner: @20C3B34B)
+#. Performing ', Continue'
+#. Performing 'repositoryOpen, Open Repository'
+#. Performing ', Show filter input field.'
+#. Performing ', Select from GitHub...'
+#. Showing dialog 4 (@17F41739) '@6785DF10 - Select Issue' (owner: @20C3B34B)
+msgctxt "dlgSgGitHubCommitMessageSelect.inf"
+msgid "The selected issue summary will be used as commit message."
+msgstr ""
+
+#. Showing dialog 2 (@27502E5C) '@4B343B6D - SmartGit License' (owner: @59A2D756)
+#. Performing ', Cancel'
+#. Performing ', Continue'
+#. Performing 'newStandardWindow, Show Standard Window'
+#. opening smartgit.azY@29AA4BC9:null (smartgit.azY@20C3B34B)
+#. Showing dialog 3 (@4E7EBA9F) '@2DF71BE0 - Evaluation' (owner: @20C3B34B)
+#. Performing ', Continue'
+#. Performing 'repositoryOpen, Open Repository'
+#. Performing ', Show filter input field.'
+#. Performing ', Select from GitHub...'
+msgctxt "dlgSgGitHubCommitMessageSelect.tle"
+msgid "Select Issue"
+msgstr ""
+
 msgctxt "dlgSgGitHubGenerateToken.btn:"
 msgid "Authenticate"
 msgstr ""
@@ -5274,8 +5456,36 @@ msgctxt "dlgSgHostingProviderAdd.hdl:"
 msgid "Add GitHub account"
 msgstr ""
 
+#. Performing ', Next >'
+#. Performing ', Finish'
+#. Performing ',   Cursor'
+#. Performing ', Reset HEAD to 'master''
+#. Performing 'findObject, Find Object...'
+#. Showing dialog 5 (@F9CD1E6) '@3FF53704 - ' (owner: @50EB4A2C)
+#. Performing 'repositoryClone, Clone..., Clone a new repository.'
+#. Showing dialog 6 (@58486DEB) '@4E933CF1 - Clone' (owner: @50EB4A2C)
+#. Performing ', Configure...'
+#. Showing dialog 7 (@54C3E686) '@3987A1E8 - Add Hosting Provider' (owner: @58486DEB)
+msgctxt "dlgSgHostingProviderAdd.hdl\"Add GitLab \\(Self Hosted\\) account\""
+msgid "Add GitLab \\(Self Hosted\\) account"
+msgstr ""
+
 msgctxt "dlgSgHostingProviderAdd.hdl:"
 msgid "Configure a new hosting provider account"
+msgstr ""
+
+#. Performing ', Next >'
+#. Performing ', Finish'
+#. Performing ',   Cursor'
+#. Performing ', Reset HEAD to 'master''
+#. Performing 'findObject, Find Object...'
+#. Showing dialog 5 (@F9CD1E6) '@3FF53704 - ' (owner: @50EB4A2C)
+#. Performing 'repositoryClone, Clone..., Clone a new repository.'
+#. Showing dialog 6 (@58486DEB) '@4E933CF1 - Clone' (owner: @50EB4A2C)
+#. Performing ', Configure...'
+#. Showing dialog 7 (@54C3E686) '@3987A1E8 - Add Hosting Provider' (owner: @58486DEB)
+msgctxt "dlgSgHostingProviderAdd.inf"
+msgid "Set or select the options according to your account."
 msgstr ""
 
 msgctxt "dlgSgHostingProviderAdd.inf:"
@@ -13623,6 +13833,20 @@ msgstr ""
 
 msgctxt "wndStd.mni:"
 msgid "Save Stash"
+msgstr ""
+
+#. Performing ', Register'
+#. Showing dialog 2 (@27502E5C) '@4B343B6D - SmartGit License' (owner: @59A2D756)
+#. Performing ', Cancel'
+#. Performing ', Continue'
+#. Performing 'newStandardWindow, Show Standard Window'
+#. opening smartgit.azY@29AA4BC9:null (smartgit.azY@20C3B34B)
+#. Showing dialog 3 (@4E7EBA9F) '@2DF71BE0 - Evaluation' (owner: @20C3B34B)
+#. Performing ', Continue'
+#. Performing 'repositoryOpen, Open Repository'
+#. Performing ', Show filter input field.'
+msgctxt "wndStd.mni:"
+msgid "Select from GitHub"
 msgstr ""
 
 msgctxt "wndStd.mni:"
