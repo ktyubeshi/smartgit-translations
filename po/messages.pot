@@ -1093,6 +1093,59 @@ msgctxt "dlgScEvaluationReminderContinue.tle"
 msgid "Evaluation"
 msgstr ""
 
+#. opening smartgit.byM@4ECD8AB1:SmartGit 24.1.3 Evaluation until Jun 27 (smartgit.byM@3F96F020)
+#. Showing dialog 0 (@B1D19FF) '@7EC13984 - Evaluation' (owner: @3F96F020)
+#. Showing dialog 1 (@27438750) '@4756E5CC - Passwords' (owner: @B1D19FF)
+#. Performing ', OK'
+msgctxt "dlgScEvaluationReminderExpiredGrace.btn:"
+msgid "&Continue \\($1\\)"
+msgstr ""
+
+#. opening smartgit.byM@4ECD8AB1:SmartGit 24.1.3 Evaluation until Jun 27 (smartgit.byM@3F96F020)
+#. Showing dialog 0 (@B1D19FF) '@7EC13984 - Evaluation' (owner: @3F96F020)
+#. Showing dialog 1 (@27438750) '@4756E5CC - Passwords' (owner: @B1D19FF)
+#. Performing ', OK'
+msgctxt "dlgScEvaluationReminderExpiredGrace.btn:"
+msgid "&Continue"
+msgstr ""
+
+#. opening smartgit.byM@467AF68C:SmartGit 24.1.3 Evaluation until Jun 27 (smartgit.byM@1A256D80)
+#. Showing dialog 0 (@1BE8C122) '@7E81617A - Evaluation' (owner: @1A256D80)
+msgctxt "dlgScEvaluationReminderExpiredGrace.btn:"
+msgid "Exit"
+msgstr ""
+
+#. opening smartgit.byM@467AF68C:SmartGit 24.1.3 Evaluation until Jun 27 (smartgit.byM@1A256D80)
+#. Showing dialog 0 (@1BE8C122) '@7E81617A - Evaluation' (owner: @1A256D80)
+msgctxt "dlgScEvaluationReminderExpiredGrace.btn:"
+msgid "Register"
+msgstr ""
+
+#. opening smartgit.byM@4ECD8AB1:SmartGit 24.1.3 Evaluation until Jun 27 (smartgit.byM@3F96F020)
+#. Showing dialog 0 (@B1D19FF) '@7EC13984 - Evaluation' (owner: @3F96F020)
+#. Showing dialog 1 (@27438750) '@4756E5CC - Passwords' (owner: @B1D19FF)
+#. Performing ', OK'
+msgctxt "dlgScEvaluationReminderExpiredGrace.btn\\\"&Continue \\($1\\)\""
+msgid "&Continue \\($1\\)"
+msgstr ""
+
+#. opening smartgit.byM@467AF68C:SmartGit 24.1.3 Evaluation until Jun 27 (smartgit.byM@1A256D80)
+#. Showing dialog 0 (@1BE8C122) '@7E81617A - Evaluation' (owner: @1A256D80)
+msgctxt "dlgScEvaluationReminderExpiredGrace.fur"
+msgid "To use SmartGit, you will have to register a license file.\\n\\nIn a commercial environment you need to \\[https://www.syntevo.com/smartgit/purchase?evaluationReminderNotification purchase a license\\].\\n\\nFor \\[https://www.syntevo.com/register-non-commercial/?evaluationReminderNotification certain uses\\] we grant free licenses."
+msgstr ""
+
+#. opening smartgit.byM@467AF68C:SmartGit 24.1.3 Evaluation until Jun 27 (smartgit.byM@1A256D80)
+#. Showing dialog 0 (@1BE8C122) '@7E81617A - Evaluation' (owner: @1A256D80)
+msgctxt "dlgScEvaluationReminderExpiredGrace.hdl"
+msgid "Your evaluation has already expired."
+msgstr ""
+
+#. opening smartgit.byM@467AF68C:SmartGit 24.1.3 Evaluation until Jun 27 (smartgit.byM@1A256D80)
+msgctxt "dlgScEvaluationReminderExpiredGrace.tle"
+msgid "Evaluation"
+msgstr ""
+
 msgctxt "dlgScExternalFileStarterCommandInvocationFailed.hdl%2"
 msgid "Cannot run program \"$1\": $2"
 msgstr ""
@@ -1663,6 +1716,19 @@ msgstr ""
 
 msgctxt "dlgScRegisterFormLicenseConfirmDetails.edt:"
 msgid "Free Updates Until"
+msgstr ""
+
+#. opening smartgit.byM@46702C26:SmartGit 24.1.3 Evaluation until Jun 27 (smartgit.byM@3A3ED300)
+#. Showing dialog 0 (@63553E9F) '@6BE766D1 - Evaluation' (owner: @3A3ED300)
+#. Performing ', Register'
+#. Showing dialog 1 (@3A70575) '@7283877 - SmartGit License' (owner: @63553E9F)
+#. Showing dialog 2 (@FF2266C) '@2C08C787 - Passwords' (owner: @3A70575)
+#. Performing ', OK'
+#. Performing ', Open file chooser.'
+#. Performing ', Register'
+#. Showing dialog 3 (@1C011855) '@334B392D - SmartGit License' (owner: @3A70575)
+msgctxt "dlgScRegisterFormLicenseConfirmDetails.edt:"
+msgid "License ID"
 msgstr ""
 
 msgctxt "dlgScRegisterFormLicenseConfirmDetails.edt:"
