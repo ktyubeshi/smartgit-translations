@@ -12028,6 +12028,10 @@ msgid "poll for opinions on how to implement new or change existing features"
 msgstr ""
 
 msgctxt "ntmFollowUsOnX:"
+msgid "<link1>Bluesky</link1>: news, polls, discussions"
+msgstr ""
+
+msgctxt "ntmFollowUsOnX:"
 msgid "<link1>Facebook</link1>: news"
 msgstr ""
 
