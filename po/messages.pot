@@ -326,6 +326,22 @@ msgctxt "dlgProgress.lbl:"
 msgid "Please wait ..."
 msgstr ""
 
+# [decode] msgctxt "dlgProgress.lbl"Please wait …""
+# [decode] msgid "Please wait …"
+#. Performing 'discard, Discard…, Discard local changes.'
+#. Showing dialog 20 (@35067738) '@1A420390 - Reset Submodule' (owner: @4BC39640)
+#. Performing ', Reset'
+#. Performing 'clean, Clean Working Tree…'
+#. Showing dialog 21 (@64F514D2) '@60019F4B - Clean Working Tree' (owner: @4BC39640)
+#. Performing ', Clean Working Tree'
+#. Showing dialog 22 (@257A59C) '@4C4A8FFE - Clean Working Tree' (owner: @4BC39640)
+#. Performing ', Delete Files'
+#. Performing '@smartgit.bvG'
+#. Showing dialog 23 (@6DBCB435) '@78A3023F - Reveal Commit' (owner: @4BC39640)
+msgctxt "dlgProgress.lbl\"Please wait \\u2026\""
+msgid "Please wait \\u2026"
+msgstr ""
+
 msgctxt "dlgProgress.tle:"
 msgid "Checking connectivity"
 msgstr ""
@@ -1082,8 +1098,36 @@ msgctxt "dlgScDialogAssertionHandlerLinkageError.btn:"
 msgid "Force Exit"
 msgstr ""
 
+#. Performing ', Close'
+#. Performing 'checkForLatestBuild, Check for Latest Build…'
+#. Showing dialog 1 (@7D12429) '@534762ED - Check for Latest Build' (owner: @16132F21)
+#. Performing ', Get Latest Build'
+#. Showing dialog 2 (@6E364F1F) '@1A7D0C9F - Check for Latest Build' (owner: @16132F21)
+#. Performing ', OK'
+#. opening smartgit.byM@5D800A56:SmartGit 24.1.3 (smartgit.byM@5F6A8EFE)
+#. Showing dialog 3 (@53E28097) '@6E794F53 - Welcome to SmartGit' (owner: @5F6A8EFE)
+#. Performing ', OK'
+#. Showing dialog 4 (@716AE973) '@7B3C2AE0 - Internal Error' (owner: null)
+msgctxt "dlgScDialogAssertionHandlerLinkageError.btn:"
+msgid "Just Exit"
+msgstr ""
+
 msgctxt "dlgScDialogAssertionHandlerLinkageError.lbl:"
 msgid "SmartGit has detected inconsistencies within its installation files \\(JAR files\\), what has most likely been caused by a faulty installation.\\n\\nPlease uninstall SmartGit completely, make sure there are no more installation files left \\(especially JAR files\\), then reinstall.\\n\\nIf the problem persists, send following log file as an attachment to smartgit@syntevo.com."
+msgstr ""
+
+#. Performing ', Close'
+#. Performing 'checkForLatestBuild, Check for Latest Build…'
+#. Showing dialog 1 (@7D12429) '@534762ED - Check for Latest Build' (owner: @16132F21)
+#. Performing ', Get Latest Build'
+#. Showing dialog 2 (@6E364F1F) '@1A7D0C9F - Check for Latest Build' (owner: @16132F21)
+#. Performing ', OK'
+#. opening smartgit.byM@5D800A56:SmartGit 24.1.3 (smartgit.byM@5F6A8EFE)
+#. Showing dialog 3 (@53E28097) '@6E794F53 - Welcome to SmartGit' (owner: @5F6A8EFE)
+#. Performing ', OK'
+#. Showing dialog 4 (@716AE973) '@7B3C2AE0 - Internal Error' (owner: null)
+msgctxt "dlgScDialogAssertionHandlerLinkageError.lbl:"
+msgid "Your SmartGit-installation seems to be damaged."
 msgstr ""
 
 msgctxt "dlgScDialogAssertionHandlerLinkageError.tle"
@@ -2322,17 +2366,19 @@ msgctxt "dlgSgAbortRebasingConfirm.btn:"
 msgid "Abort Rebase"
 msgstr ""
 
-# Issue
-#. Performing ', Modify Pushed Commits'
-#. Showing dialog 10 (@277BC3A5) '@214FBA74 - Edit Message' (owner: @77AB22BE)
-#. Performing ', From Failed Command'
-#. Showing dialog 11 (@20890A1A) '@70A24F9 - Edit Message' (owner: @77AB22BE)
-#. Performing ', Set Message'
-#. Showing dialog 12 (@F76872F) '@2D4E99DE - Command Failed' (owner: @77AB22BE)
+# TODO: Review
+# [decode] msgid "Your working tree is in 'rebasing' state. You may abort rebasing; if you just want to skip the current patch, use ブランチ \| リベース \| リベース instead.\n\nAborting will clean any local modification \(by invoking 'git rebase --abort'\)!"
+#. Performing ', Rebase 1 commit from 'feature/consistency_checker' to '5a37a63f''
+#. Showing dialog 278 (@21234362) '@625817A3 - Command Output' (owner: @6EA37416)
 #. Performing ', Close'
+#. Performing ', Continue'
+#. Performing 'branchContinue, Continue'
+#. Showing dialog 279 (@6F1E6451) '@5AAE00DE - Rebase' (owner: @6EA37416)
+#. Performing ', Cancel'
 #. Performing ', Abort'
 #. Performing 'branchAbort, Abort'
-#. Showing dialog 13 (@1851C7D2) '@38DBEB39 - Abort' (owner: @77AB22BE)
+#. Showing dialog 280 (@23880B4E) '@1C322DB7 - Abort' (owner: @6EA37416)
+#, fuzzy
 #| msgid "Your working tree is in 'rebasing' state. You may abort rebasing; if you just want to skip the current patch, use Branch \\| Rebase \\| Rebase instead.\\n\\nAborting will clean any local modification \\(by invoking 'git rebase --abort'\\)!"
 msgctxt "dlgSgAbortRebasingConfirm.fur"
 msgid "Your working tree is in 'rebasing' state. You may abort rebasing; if you just want to skip the current patch, use \\u30d6\\u30e9\\u30f3\\u30c1 \\| \\u30ea\\u30d9\\u30fc\\u30b9 \\| \\u30ea\\u30d9\\u30fc\\u30b9 instead.\\n\\nAborting will clean any local modification \\(by invoking 'git rebase --abort'\\)!"
@@ -2957,6 +3003,48 @@ msgctxt "dlgSgCheckoutLocalBranchConfirm.tle"
 msgid "Check Out"
 msgstr ""
 
+#. Performing ', OK'
+#. Performing ', Check Out'
+#. Showing dialog 49 (@26F5C508) '@10A55EDC - Check Out' (owner: @4BC39640)
+#. Performing ', Checkout'
+#. Showing dialog 50 (@7AEB3664) '@108B47B4 - Confirm Checkout' (owner: @4BC39640)
+#. Performing ', Checkout'
+#. Performing ', Check Out'
+#. Showing dialog 51 (@53222524) '@1894071 - Check Out' (owner: @4BC39640)
+#. Performing ', Checkout'
+#. Showing dialog 52 (@34327638) '@6FC1A561 - Confirm Checkout' (owner: @4BC39640)
+msgctxt "dlgSgCheckoutSubmoduleChangeConfirm.btn:"
+msgid "Checkout"
+msgstr ""
+
+#. Performing ', OK'
+#. Performing ', Check Out'
+#. Showing dialog 49 (@26F5C508) '@10A55EDC - Check Out' (owner: @4BC39640)
+#. Performing ', Checkout'
+#. Showing dialog 50 (@7AEB3664) '@108B47B4 - Confirm Checkout' (owner: @4BC39640)
+#. Performing ', Checkout'
+#. Performing ', Check Out'
+#. Showing dialog 51 (@53222524) '@1894071 - Check Out' (owner: @4BC39640)
+#. Performing ', Checkout'
+#. Showing dialog 52 (@34327638) '@6FC1A561 - Confirm Checkout' (owner: @4BC39640)
+msgctxt "dlgSgCheckoutSubmoduleChangeConfirm.fur"
+msgid "The target branch has a different submodules configuration \\(.gitmodules\\). If you were expecting this change, you can proceed as usual.\\n\\nOtherwise, be aware that significant changes to your submodule configuration can lead to complex working tree states. In some cases, it might be simpler to perform a fresh clone of the target branch."
+msgstr ""
+
+#. Performing ', OK'
+#. Performing ', Check Out'
+#. Showing dialog 49 (@26F5C508) '@10A55EDC - Check Out' (owner: @4BC39640)
+#. Performing ', Checkout'
+#. Showing dialog 50 (@7AEB3664) '@108B47B4 - Confirm Checkout' (owner: @4BC39640)
+#. Performing ', Checkout'
+#. Performing ', Check Out'
+#. Showing dialog 51 (@53222524) '@1894071 - Check Out' (owner: @4BC39640)
+#. Performing ', Checkout'
+#. Showing dialog 52 (@34327638) '@6FC1A561 - Confirm Checkout' (owner: @4BC39640)
+msgctxt "dlgSgCheckoutSubmoduleChangeConfirm.hdl"
+msgid "Do you want to check out branch 'main'?"
+msgstr ""
+
 msgctxt "dlgSgCheckoutTarget.btn:"
 msgid "Checkout"
 msgstr ""
@@ -3229,6 +3317,34 @@ msgctxt "dlgSgClone.btn:"
 msgid "Configure"
 msgstr ""
 
+#. Performing ', Push'
+#. Showing dialog 12 (@2AD80CF6) '@4E212F46 - Push To' (owner: @79D3473E)
+#. Performing ', Push'
+#. Performing ',   po_formatter'
+#. Performing ',   po_formatter'
+#. Performing 'editFile, Edit File'
+#. opening smartgit.cau@7A0DF38E:messages.pot - [~/Git-projects/smartgit-translations/po] - Editor (smartgit.cau@6A175162)
+#. Performing ',   po_formatter'
+#. Performing 'repositoryClone, Clone…, Clone a new repository.'
+#. Showing dialog 13 (@35FD03D9) '@6B6CF3C1 - Clone' (owner: @79D3473E)
+msgctxt "dlgSgClone.btn:"
+msgid "Continue"
+msgstr ""
+
+#. Performing ', Push'
+#. Showing dialog 12 (@2AD80CF6) '@4E212F46 - Push To' (owner: @79D3473E)
+#. Performing ', Push'
+#. Performing ',   po_formatter'
+#. Performing ',   po_formatter'
+#. Performing 'editFile, Edit File'
+#. opening smartgit.cau@7A0DF38E:messages.pot - [~/Git-projects/smartgit-translations/po] - Editor (smartgit.cau@6A175162)
+#. Performing ',   po_formatter'
+#. Performing 'repositoryClone, Clone…, Clone a new repository.'
+#. Showing dialog 13 (@35FD03D9) '@6B6CF3C1 - Clone' (owner: @79D3473E)
+msgctxt "dlgSgClone.btn:"
+msgid "Go Back"
+msgstr ""
+
 msgctxt "dlgSgClone.chk:"
 msgid "Create upstream remote"
 msgstr ""
@@ -3339,6 +3455,22 @@ msgstr ""
 
 msgctxt "dlgSgClone.hnt:"
 msgid "Searching ..."
+msgstr ""
+
+# [decode] msgctxt "dlgSgClone.hnt"Searching …""
+# [decode] msgid "Searching …"
+#. Performing ', Push'
+#. Showing dialog 12 (@2AD80CF6) '@4E212F46 - Push To' (owner: @79D3473E)
+#. Performing ', Push'
+#. Performing ',   po_formatter'
+#. Performing ',   po_formatter'
+#. Performing 'editFile, Edit File'
+#. opening smartgit.cau@7A0DF38E:messages.pot - [~/Git-projects/smartgit-translations/po] - Editor (smartgit.cau@6A175162)
+#. Performing ',   po_formatter'
+#. Performing 'repositoryClone, Clone…, Clone a new repository.'
+#. Showing dialog 13 (@35FD03D9) '@6B6CF3C1 - Clone' (owner: @79D3473E)
+msgctxt "dlgSgClone.hnt\"Searching \\u2026\""
+msgid "Searching \\u2026"
 msgstr ""
 
 msgctxt "dlgSgClone.inf:"
@@ -4202,6 +4334,12 @@ msgctxt "dlgSgDiscardRevertTo(Head|Index).tle"
 msgid "Discard"
 msgstr ""
 
+# TODO: Review
+# Multiple different messages (msgid) were detected.
+# msgid "Server returned HTTP response code: 400 for URL: https://gitlab.com/oauth/token"
+# msgid "Repository 'XXXXXX' is not valid."
+# msgid "No valid worktree state of the repository."
+# msgid "Server returned HTTP response code: 401 for URL: https://gitlab.com/api/v4/user:\\n\\nToken was revoked. You have to re-authorize from the user."
 #. Performing 'submoduleRegister, Add...'
 #. Showing dialog 4 (@37F71C05) '@5BD3CA3C - Add Submodule' (owner: @36AA52D2)
 #. Performing ', Next >'
@@ -4212,9 +4350,10 @@ msgstr ""
 #. Showing dialog 6 (@49E62B17) '@288409F0 - Add Submodule' (owner: @36AA52D2)
 #. Performing ', Next >'
 #. Showing dialog 7 (@2B9D4B0) '@4F541E67 - Command Failed' (owner: @49E62B17)
+#, fuzzy
 #| msgid "Server returned HTTP response code: 400 for URL: https://gitlab.com/oauth/token"
 msgctxt "dlgSgErrorUtilsClientException.fur"
-msgid "Repository '../mcp-server-gen2' is not valid."
+msgid "Repository '$1' is not valid."
 msgstr ""
 
 msgctxt "dlgSgErrorUtilsClientException.fur:"
@@ -5224,8 +5363,19 @@ msgctxt "dlgSgHeadMessageListenerReplaceMessage.tle"
 msgid "Commit"
 msgstr ""
 
+#. Performing ', Continue'
+#. Performing 'branchContinue, Continue'
+#. Showing dialog 283 (@4AA08627) '@65E0BC97 - Command Failed' (owner: @6EA37416)
+#. Performing ', Close'
+#. Performing ', Abort'
+#. Performing 'branchAbort, Abort'
+#. Showing dialog 284 (@72E20A82) '@3DDF48B5 - Abort' (owner: @6EA37416)
+#. Performing ', Abort Cherry-Pick'
+#. Performing 'splitCommit, Split…'
+#. Showing dialog 285 (@7116D483) '@65C4B93B - Split Commit' (owner: @6EA37416)
+#| msgid "At least one of the affected commits is not part of your HEAD's first-parent history."
 msgctxt "dlgSgHistoryCommitCantBeModified.fur"
-msgid "At least one of the affected commits is not part of your HEAD's first-parent history."
+msgid "To modify commits of a different branch, you need to first check out this branch."
 msgstr ""
 
 msgctxt "dlgSgHistoryCommitCantBeModified.hdl"
@@ -6895,6 +7045,20 @@ msgctxt "dlgSgOutput.lbl:"
 msgid "Command Rebase produced warnings."
 msgstr ""
 
+#. Performing ', Cancel'
+#. Performing 'sync, Synchronize…, Push local commits of the current branch and pull remote changes.'
+#. Showing dialog 31 (@4AF2F991) '@4B5D2A4C - Synchronize' (owner: @4BC39640)
+#. Performing ', Cancel'
+#. Performing 'fetch, Pull…, Fetch commits from a remote repository and (optionally) integrate them with possible local commits.'
+#. Showing dialog 32 (@76928BE0) '@D367D7D - Pull' (owner: @4BC39640)
+#. Performing ', Pull'
+#. Performing '@smartgit.byU'
+#. Performing 'worktreeRemove, Remove Worktree…'
+#. Showing dialog 33 (@213488E6) '@B7E20F2 - Command Failed' (owner: @4BC39640)
+msgctxt "dlgSgOutput.lbl:"
+msgid "Command Remove Worktree failed!"
+msgstr ""
+
 msgctxt "dlgSgOutput.lbl:"
 msgid "Command Reset failed!"
 msgstr ""
@@ -7445,6 +7609,22 @@ msgstr ""
 
 msgctxt "dlgSgPreferences.cmb:"
 msgid "Custom..."
+msgstr ""
+
+# [decode] msgctxt "dlgSgPreferences.cmb"Custom…""
+# [decode] msgid "Custom…"
+#. Performing ', Push'
+#. Showing dialog 67 (@1E786C08) '@1CAD68CA - Push' (owner: @4BC39640)
+#. Performing ', Push'
+#. Showing dialog 68 (@142E0283) '@E1AFFE8 - Push' (owner: @4BC39640)
+#. Performing ', Force Push'
+#. Performing '@smartgit.byU'
+#. Performing 'stage, Stage, Store working tree files in the index to prepare the next commit.'
+#. Performing '@smartgit.byU'
+#. Performing '@smartgit.bKo'
+#. Showing dialog 69 (@503D5F4F) '@738FB8E8 - Preferences' (owner: null)
+msgctxt "dlgSgPreferences.cmb\"Custom\\u2026\""
+msgid "Custom\\u2026"
 msgstr ""
 
 msgctxt "dlgSgPreferences.cmb:"
@@ -11480,8 +11660,19 @@ msgctxt "dlgSgStashOnDemandConfirmation.tle:"
 msgid "Pull"
 msgstr ""
 
+#. Showing dialog 144 (@54515437) '@2CDEF2A8 - Push' (owner: @20A7953C)
+#. Performing ', Push'
+#. Showing dialog 145 (@F76C2F6) '@1F14BB95 - Push' (owner: @20A7953C)
+#. Performing ', Force Push'
+#. Performing ', Move Commit'
+#. Showing dialog 146 (@2E7ACB5F) '@2539352C - Move and Squash Commit' (owner: @20A7953C)
+#. Performing ', Modify Pushed Commits'
+#. Showing dialog 147 (@3C850560) '@22DA866C - Reorder Commits' (owner: @20A7953C)
+#. Performing ', Save Stash'
+#. Showing dialog 148 (@7F92DEFB) '@5F25C2D4 - Reorder Commits' (owner: @20A7953C)
+#| msgid "Once you have concluded the Pull, you should manually apply the latest stash to get your local changes back into the working tree."
 msgctxt "dlgSgStashOnDemandLocalChangesCantBeReapplied.fur"
-msgid "Once you have concluded the Pull, you should manually apply the latest stash to get your local changes back into the working tree."
+msgid "Once you have concluded the Reorder Commits, you should manually apply the latest stash to get your local changes back into the working tree."
 msgstr ""
 
 msgctxt "dlgSgStashOnDemandLocalChangesCantBeReapplied.hdl"
@@ -11664,6 +11855,22 @@ msgstr ""
 
 msgctxt "dlgSgSubmoduleAdd.hnt:"
 msgid "Searching ..."
+msgstr ""
+
+# [decode] msgctxt "dlgSgSubmoduleAdd.hnt"Searching …""
+# [decode] msgid "Searching …"
+#. Showing dialog 6 (@6C1A63F7) '@34E9DE8D - Add Submodule' (owner: @575C23F1)
+#. Showing dialog 7 (@34D72F06) '@1E466D - Passwords' (owner: @6C1A63F7)
+#. Performing ', OK'
+#. Performing ', Finish'
+#. Performing 'remoteAdd, Add…'
+#. Showing dialog 8 (@7B6854B5) '@58945295 - Add Remote Repository' (owner: @575C23F1)
+#. Performing ', Provider'
+#. Performing ', Cancel'
+#. Performing 'submoduleRegister, Add…'
+#. Showing dialog 9 (@6F7241C2) '@32245B66 - Add Submodule' (owner: @575C23F1)
+msgctxt "dlgSgSubmoduleAdd.hnt\"Searching \\u2026\""
+msgid "Searching \\u2026"
 msgstr ""
 
 msgctxt "dlgSgSubmoduleAdd.inf:"
@@ -11866,6 +12073,48 @@ msgctxt "dlgSgSubmoduleUnregisterConfirm.tle"
 msgid "Unregister Submodule"
 msgstr ""
 
+#. Showing dialog 8 (@7B6854B5) '@58945295 - Add Remote Repository' (owner: @575C23F1)
+#. Performing ', Provider'
+#. Performing ', Cancel'
+#. Performing 'submoduleRegister, Add…'
+#. Showing dialog 9 (@6F7241C2) '@32245B66 - Add Submodule' (owner: @575C23F1)
+#. Performing ', Finish'
+#. Performing ',   Reveal in Finder'
+#. Performing '@smartgit.byU'
+#. Performing 'subtreeAdd, Add…'
+#. Showing dialog 10 (@35FAC3BA) '@8AA1562 - Add Subtree' (owner: @575C23F1)
+msgctxt "dlgSgSubtreeAdd.btn:"
+msgid "Configure"
+msgstr ""
+
+#. Performing ', Provider'
+#. Performing ', Cancel'
+#. Performing 'submoduleRegister, Add…'
+#. Showing dialog 9 (@6F7241C2) '@32245B66 - Add Submodule' (owner: @575C23F1)
+#. Performing ', Finish'
+#. Performing ',   Reveal in Finder'
+#. Performing '@smartgit.byU'
+#. Performing 'subtreeAdd, Add…'
+#. Showing dialog 10 (@35FAC3BA) '@8AA1562 - Add Subtree' (owner: @575C23F1)
+#. Performing ', Go Back'
+msgctxt "dlgSgSubtreeAdd.btn:"
+msgid "Continue"
+msgstr ""
+
+#. Showing dialog 8 (@7B6854B5) '@58945295 - Add Remote Repository' (owner: @575C23F1)
+#. Performing ', Provider'
+#. Performing ', Cancel'
+#. Performing 'submoduleRegister, Add…'
+#. Showing dialog 9 (@6F7241C2) '@32245B66 - Add Submodule' (owner: @575C23F1)
+#. Performing ', Finish'
+#. Performing ',   Reveal in Finder'
+#. Performing '@smartgit.byU'
+#. Performing 'subtreeAdd, Add…'
+#. Showing dialog 10 (@35FAC3BA) '@8AA1562 - Add Subtree' (owner: @575C23F1)
+msgctxt "dlgSgSubtreeAdd.btn:"
+msgid "Go Back"
+msgstr ""
+
 msgctxt "dlgSgSubtreeAdd.chk:"
 msgid "Create local branch \\(for advanced operations\\)"
 msgstr ""
@@ -11886,12 +12135,98 @@ msgctxt "dlgSgSubtreeAdd.edt:"
 msgid "Local Path"
 msgstr ""
 
+#. Showing dialog 8 (@7B6854B5) '@58945295 - Add Remote Repository' (owner: @575C23F1)
+#. Performing ', Provider'
+#. Performing ', Cancel'
+#. Performing 'submoduleRegister, Add…'
+#. Showing dialog 9 (@6F7241C2) '@32245B66 - Add Submodule' (owner: @575C23F1)
+#. Performing ', Finish'
+#. Performing ',   Reveal in Finder'
+#. Performing '@smartgit.byU'
+#. Performing 'subtreeAdd, Add…'
+#. Showing dialog 10 (@35FAC3BA) '@8AA1562 - Add Subtree' (owner: @575C23F1)
+msgctxt "dlgSgSubtreeAdd.edt:"
+msgid "Relative Path"
+msgstr ""
+
 msgctxt "dlgSgSubtreeAdd.edt:"
 msgid "Remote"
 msgstr ""
 
 msgctxt "dlgSgSubtreeAdd.edt:"
 msgid "Repository URL"
+msgstr ""
+
+#. Showing dialog 8 (@7B6854B5) '@58945295 - Add Remote Repository' (owner: @575C23F1)
+#. Performing ', Provider'
+#. Performing ', Cancel'
+#. Performing 'submoduleRegister, Add…'
+#. Showing dialog 9 (@6F7241C2) '@32245B66 - Add Submodule' (owner: @575C23F1)
+#. Performing ', Finish'
+#. Performing ',   Reveal in Finder'
+#. Performing '@smartgit.byU'
+#. Performing 'subtreeAdd, Add…'
+#. Showing dialog 10 (@35FAC3BA) '@8AA1562 - Add Subtree' (owner: @575C23F1)
+msgctxt "dlgSgSubtreeAdd.err:"
+msgid "Directory '/Users/tomohiro/Git-projects/sgpo-tools-cli-WorkSpace/sgpo-tools-cli' already exists."
+msgstr ""
+
+#. Showing dialog 8 (@7B6854B5) '@58945295 - Add Remote Repository' (owner: @575C23F1)
+#. Performing ', Provider'
+#. Performing ', Cancel'
+#. Performing 'submoduleRegister, Add…'
+#. Showing dialog 9 (@6F7241C2) '@32245B66 - Add Submodule' (owner: @575C23F1)
+#. Performing ', Finish'
+#. Performing ',   Reveal in Finder'
+#. Performing '@smartgit.byU'
+#. Performing 'subtreeAdd, Add…'
+#. Showing dialog 10 (@35FAC3BA) '@8AA1562 - Add Subtree' (owner: @575C23F1)
+msgctxt "dlgSgSubtreeAdd.err:"
+msgid "Please enter a valid relative path. The submodule will be created at this path inside the repository."
+msgstr ""
+
+#. Showing dialog 8 (@7B6854B5) '@58945295 - Add Remote Repository' (owner: @575C23F1)
+#. Performing ', Provider'
+#. Performing ', Cancel'
+#. Performing 'submoduleRegister, Add…'
+#. Showing dialog 9 (@6F7241C2) '@32245B66 - Add Submodule' (owner: @575C23F1)
+#. Performing ', Finish'
+#. Performing ',   Reveal in Finder'
+#. Performing '@smartgit.byU'
+#. Performing 'subtreeAdd, Add…'
+#. Showing dialog 10 (@35FAC3BA) '@8AA1562 - Add Subtree' (owner: @575C23F1)
+msgctxt "dlgSgSubtreeAdd.hdl:"
+msgid "Path"
+msgstr ""
+
+#. Performing ', Provider'
+#. Performing ', Cancel'
+#. Performing 'submoduleRegister, Add…'
+#. Showing dialog 9 (@6F7241C2) '@32245B66 - Add Submodule' (owner: @575C23F1)
+#. Performing ', Finish'
+#. Performing ',   Reveal in Finder'
+#. Performing '@smartgit.byU'
+#. Performing 'subtreeAdd, Add…'
+#. Showing dialog 10 (@35FAC3BA) '@8AA1562 - Add Subtree' (owner: @575C23F1)
+#. Performing ', Go Back'
+msgctxt "dlgSgSubtreeAdd.hdl:"
+msgid "Repository"
+msgstr ""
+
+# [decode] msgctxt "dlgSgSubtreeAdd.hnt"Searching …""
+# [decode] msgid "Searching …"
+#. Showing dialog 8 (@7B6854B5) '@58945295 - Add Remote Repository' (owner: @575C23F1)
+#. Performing ', Provider'
+#. Performing ', Cancel'
+#. Performing 'submoduleRegister, Add…'
+#. Showing dialog 9 (@6F7241C2) '@32245B66 - Add Submodule' (owner: @575C23F1)
+#. Performing ', Finish'
+#. Performing ',   Reveal in Finder'
+#. Performing '@smartgit.byU'
+#. Performing 'subtreeAdd, Add…'
+#. Showing dialog 10 (@35FAC3BA) '@8AA1562 - Add Subtree' (owner: @575C23F1)
+msgctxt "dlgSgSubtreeAdd.hnt\"Searching \\u2026\""
+msgid "Searching \\u2026"
 msgstr ""
 
 msgctxt "dlgSgSubtreeAdd.inf:"
@@ -11902,8 +12237,36 @@ msgctxt "dlgSgSubtreeAdd.inf:"
 msgid "Specify the repository to clone as subtree."
 msgstr ""
 
+#. Performing ', Provider'
+#. Performing ', Cancel'
+#. Performing 'submoduleRegister, Add…'
+#. Showing dialog 9 (@6F7241C2) '@32245B66 - Add Submodule' (owner: @575C23F1)
+#. Performing ', Finish'
+#. Performing ',   Reveal in Finder'
+#. Performing '@smartgit.byU'
+#. Performing 'subtreeAdd, Add…'
+#. Showing dialog 10 (@35FAC3BA) '@8AA1562 - Add Subtree' (owner: @575C23F1)
+#. Performing ', Go Back'
+msgctxt "dlgSgSubtreeAdd.inf\"Specify the repository to clone as subtree.\\nTo configure multiple accounts of the same hosting provider, use the Preferences.\""
+msgid "Specify the repository to clone as subtree.\\nTo configure multiple accounts of the same hosting provider, use the Preferences."
+msgstr ""
+
 msgctxt "dlgSgSubtreeAdd.lbl:"
 msgid "Local branches for subtrees will only be useful if you plan to use Subtree-Split and Subtree-Reset operations."
+msgstr ""
+
+#. Showing dialog 8 (@7B6854B5) '@58945295 - Add Remote Repository' (owner: @575C23F1)
+#. Performing ', Provider'
+#. Performing ', Cancel'
+#. Performing 'submoduleRegister, Add…'
+#. Showing dialog 9 (@6F7241C2) '@32245B66 - Add Submodule' (owner: @575C23F1)
+#. Performing ', Finish'
+#. Performing ',   Reveal in Finder'
+#. Performing '@smartgit.byU'
+#. Performing 'subtreeAdd, Add…'
+#. Showing dialog 10 (@35FAC3BA) '@8AA1562 - Add Subtree' (owner: @575C23F1)
+msgctxt "dlgSgSubtreeAdd.lbl:"
+msgid "Steps"
 msgstr ""
 
 msgctxt "dlgSgSubtreeAdd.lbl:"
@@ -12418,8 +12781,19 @@ msgctxt "dlgTxtEditor.fileModified.fur"
 msgid "Unless you want to see the old file state, it is recommended to reload."
 msgstr ""
 
+#. Performing ', Cancel'
+#. Performing ', Copy'
+#. Performing 'editFile, Edit File'
+#. opening smartgit.caj@6B7FF02A:messages.pot - [~/Git-projects/smartgit-translations/po] - Editor (smartgit.caj@66579498)
+#. Performing 'file-save, Save, Save file modifications.'
+#. Performing ',   po_formatter'
+#. Performing 'repositoryClone, Clone…, Clone a new repository.'
+#. Showing dialog 37 (@1FE2DA60) '@6E1ECE3D - Clone' (owner: @53ED80D3)
+#. Performing ', Cancel'
+#. Showing dialog 38 (@41DA4BE8) '@23B05E58 - Editor' (owner: @66579498)
+#| msgid "The file config was changed. Reload it?"
 msgctxt "dlgTxtEditor.fileModified.hdl"
-msgid "The file config was changed. Reload it?"
+msgid "The file messages.pot was changed. Reload it?"
 msgstr ""
 
 msgctxt "dlgTxtEditor.fileModified.tle"
@@ -12586,6 +12960,7 @@ msgctxt "ntmFollowUsOnTwitter:"
 msgid "poll for opinions on how to implement new or change existing features"
 msgstr ""
 
+#. opening smartgit.byM@1FD37440:SmartGit 24.1.3 (smartgit.byM@3B98B809)
 msgctxt "ntmFollowUsOnX:"
 msgid "<link1>Bluesky</link1>: news, polls, discussions"
 msgstr ""
@@ -13154,6 +13529,90 @@ msgstr ""
 
 msgctxt "ttpRepositories:"
 msgid "The remote repository contains new commits."
+msgstr ""
+
+msgctxt "wnd.mni:"
+msgid "About SmartGit"
+msgstr ""
+
+msgctxt "wnd.mni:"
+msgid "Contact Support"
+msgstr ""
+
+msgctxt "wnd.mni:"
+msgid "Cursor"
+msgstr ""
+
+msgctxt "wnd.mni:"
+msgid "Format"
+msgstr ""
+
+msgctxt "wnd.mni:"
+msgid "Import mismatch"
+msgstr ""
+
+msgctxt "wnd.mni:"
+msgid "Import unknown"
+msgstr ""
+
+msgctxt "wnd.mni:"
+msgid "License Agreement"
+msgstr ""
+
+msgctxt "wnd.mni:"
+msgid "Open File"
+msgstr ""
+
+msgctxt "wnd.mni:"
+msgid "Open in Terminal"
+msgstr ""
+
+msgctxt "wnd.mni:"
+msgid "PyCharm"
+msgstr ""
+
+msgctxt "wnd.mni:"
+msgid "Reveal in Finder"
+msgstr ""
+
+msgctxt "wnd.mni:"
+msgid "SmartGit Website"
+msgstr ""
+
+msgctxt "wnd.mni:"
+msgid "Tabby"
+msgstr ""
+
+msgctxt "wnd.mni:"
+msgid "Windsurf"
+msgstr ""
+
+msgctxt "wnd.mni:"
+msgid "po_formatter"
+msgstr ""
+
+msgctxt "wnd.mniBisectTryCommit"
+msgid "Try Commit"
+msgstr ""
+
+msgctxt "wnd.mniFixCaseChange"
+msgid "Fix Case-Change"
+msgstr ""
+
+msgctxt "wnd.mniIntegrateMain"
+msgid "Integrate Main"
+msgstr ""
+
+msgctxt "wnd.mniShowInMyHistory"
+msgid "Show in My History"
+msgstr ""
+
+msgctxt "wnd.mniWindow-maximize"
+msgid "Zoom"
+msgstr ""
+
+msgctxt "wnd.mniWindowMaximizeRestore"
+msgid "Maximize View"
 msgstr ""
 
 msgctxt "wndAnnotate.cmb:"
@@ -14286,6 +14745,61 @@ msgctxt "wndLog.mniFixCaseChange"
 msgid "Fix Case-Change"
 msgstr ""
 
+# [decode] msgctxt "wndLog.tab"Graph \(Initializing Subtree-Cache…\)""
+# [decode] msgid "Graph \(Initializing Subtree-Cache…\)"
+#. opening smartgit.byM@135E49B2:SmartGit 24.1.3 (smartgit.byM@79D3473E)
+msgctxt "wndLog.tab\"Graph \\(Initializing Subtree-Cache\\u2026\\)\""
+msgid "Graph \\(Initializing Subtree-Cache\\u2026\\)"
+msgstr ""
+
+# [decode] msgctxt "wndLog.tab"Graph \(Loading…\)""
+# [decode] msgid "Graph \(Loading…\)"
+#. Performing 'viewUnversioned, Show Unversioned Files, If selected, not yet version controlled files will be shown.'
+#. Performing 'viewIgnored, Show Ignored Files, If selected, ignored files will be shown.'
+#. Performing 'delete, Delete…, Delete the selected local files or directory.'
+#. Showing dialog 0 (@69F3E556) '@43B4EC0C - Delete' (owner: @3B98B809)
+#. Performing ', Delete'
+#. Performing 'viewUnchanged, Show Unchanged Files, If selected, unchanged files will be shown.'
+#. Performing 'viewIgnored, Show Ignored Files, If selected, ignored files will be shown.'
+#. Performing 'viewUnversioned, Show Unversioned Files, If selected, not yet version controlled files will be shown.'
+#. Performing ',   Import mismatch'
+#. Performing 'stage, Stage, Store working tree files in the index to prepare the next commit.'
+msgctxt "wndLog.tab\"Graph \\(Loading\\u2026\\)\""
+msgid "Graph \\(Loading\\u2026\\)"
+msgstr ""
+
+# [decode] msgctxt "wndLog.tab"Graph \(Running log…\)""
+# [decode] msgid "Graph \(Running log…\)"
+#. Performing 'viewUnversioned, Show Unversioned Files, If selected, not yet version controlled files will be shown.'
+#. Performing 'viewIgnored, Show Ignored Files, If selected, ignored files will be shown.'
+#. Performing 'delete, Delete…, Delete the selected local files or directory.'
+#. Showing dialog 0 (@69F3E556) '@43B4EC0C - Delete' (owner: @3B98B809)
+#. Performing ', Delete'
+#. Performing 'viewUnchanged, Show Unchanged Files, If selected, unchanged files will be shown.'
+#. Performing 'viewIgnored, Show Ignored Files, If selected, ignored files will be shown.'
+#. Performing 'viewUnversioned, Show Unversioned Files, If selected, not yet version controlled files will be shown.'
+#. Performing ',   Import mismatch'
+#. Performing 'stage, Stage, Store working tree files in the index to prepare the next commit.'
+msgctxt "wndLog.tab\"Graph \\(Running log\\u2026\\)\""
+msgid "Graph \\(Running log\\u2026\\)"
+msgstr ""
+
+# [decode] msgctxt "wndLog.tab"Graph \(Scanning WT…\)""
+# [decode] msgid "Graph \(Scanning WT…\)"
+#. Performing 'viewUnversioned, Show Unversioned Files, If selected, not yet version controlled files will be shown.'
+#. Performing 'viewUnversioned, Show Unversioned Files, If selected, not yet version controlled files will be shown.'
+#. Performing 'viewIgnored, Show Ignored Files, If selected, ignored files will be shown.'
+#. Performing 'delete, Delete…, Delete the selected local files or directory.'
+#. Showing dialog 0 (@69F3E556) '@43B4EC0C - Delete' (owner: @3B98B809)
+#. Performing ', Delete'
+#. Performing 'viewUnchanged, Show Unchanged Files, If selected, unchanged files will be shown.'
+#. Performing 'viewIgnored, Show Ignored Files, If selected, ignored files will be shown.'
+#. Performing 'viewUnversioned, Show Unversioned Files, If selected, not yet version controlled files will be shown.'
+#. Performing ',   Import mismatch'
+msgctxt "wndLog.tab\"Graph \\(Scanning WT\\u2026\\)\""
+msgid "Graph \\(Scanning WT\\u2026\\)"
+msgstr ""
+
 msgctxt "wndLog.tbt:"
 msgid "Refresh information from GitHub."
 msgstr ""
@@ -14324,6 +14838,22 @@ msgstr ""
 
 msgctxt "wndStd.hnt:"
 msgid "Loading ..."
+msgstr ""
+
+# [decode] msgctxt "wndStd.hnt"Loading …""
+# [decode] msgid "Loading …"
+#. Showing dialog 17 (@1A865EBF) '@6B3D3E57 - Ignore' (owner: @14B9817B)
+#. Performing ', Ignore'
+#. Performing '@smartgit.byU'
+#. Performing 'copyCommitId, Copy ID'
+#. Performing 'newStandardWindow, Show Standard Window'
+#. opening smartgit.azY@36117F63:null (smartgit.azY@46199519)
+#. Performing 'repositoryOpen, Open Repository'
+#. Performing 'repositoryOpen, Open Repository'
+#. Performing 'repositoryOpen, Open Repository'
+#. Performing 'repositoryOpen, Open Repository'
+msgctxt "wndStd.hnt\"Loading \\u2026\""
+msgid "Loading \\u2026"
 msgstr ""
 
 msgctxt "wndStd.hnt:"
@@ -14406,6 +14936,20 @@ msgctxt "wndStd.mni:"
 msgid "Only current branch \\(HEAD\\)"
 msgstr ""
 
+#. Showing dialog 19 (@73D7B6B0) '@3A96B5A1 - Rename' (owner: @46199519)
+#. Performing ', Rename'
+#. Performing 'branchRename, Rename…'
+#. Showing dialog 20 (@13A34A70) '@2929EF51 - Rename' (owner: @46199519)
+#. Performing ', Rename'
+#. Performing '@smartgit.aCg'
+#. Performing 'checkout, Check Out…, Check out an existing commit.'
+#. Performing 'stdSetModeWt, Show Local Changes, Show the local files of the repository (Working Tree).'
+#. Performing ', All files, excl. ignored'
+#. Performing ', All files, incl. ignored'
+msgctxt "wndStd.mni:"
+msgid "Open"
+msgstr ""
+
 msgctxt "wndStd.mni:"
 msgid "Rebase"
 msgstr ""
@@ -14461,12 +15005,40 @@ msgctxt "wndStd.mniIntegrateMain"
 msgid "Integrate Main"
 msgstr ""
 
+#. Performing 'stdSetModeWt, Show Local Changes, Show the local files of the repository (Working Tree).'
+#. Performing 'stdSetModeHistory, Show History, Show the history view.'
+#. Performing 'stdSetModeWt, Show Local Changes, Show the local files of the repository (Working Tree).'
+#. Performing 'stdSetModeHistory, Show History, Show the history view.'
+#. Performing 'branchAdd, Add Branch…, Add a new branch for the current commit.'
+#. Showing dialog 18 (@70B716A8) '@74E8EF59 - Add Branch' (owner: @46199519)
+#. Performing ', Add Branch'
+#. Performing 'branchRename, Rename…'
+#. Showing dialog 19 (@73D7B6B0) '@3A96B5A1 - Rename' (owner: @46199519)
+#. Performing ', Rename'
+msgctxt "wndStd.mniStdCiResultOpenInBrowser"
+msgid "Open CI Result"
+msgstr ""
+
 msgctxt "wndStd.mniStdOpenSubmodule"
 msgid "Open a Submodule"
 msgstr ""
 
 msgctxt "wndStd.mniStdOpenSubmoduleFromFile"
 msgid "Open this Submodule"
+msgstr ""
+
+#. Showing dialog 18 (@70B716A8) '@74E8EF59 - Add Branch' (owner: @46199519)
+#. Performing ', Add Branch'
+#. Performing 'branchRename, Rename…'
+#. Showing dialog 19 (@73D7B6B0) '@3A96B5A1 - Rename' (owner: @46199519)
+#. Performing ', Rename'
+#. Performing 'branchRename, Rename…'
+#. Showing dialog 20 (@13A34A70) '@2929EF51 - Rename' (owner: @46199519)
+#. Performing ', Rename'
+#. Performing '@smartgit.aCg'
+#. Performing 'checkout, Check Out…, Check out an existing commit.'
+msgctxt "wndStd.mniStdProviderOpenInBrowser"
+msgid "Open in GitHub"
 msgstr ""
 
 msgctxt "wndStd.mniStdSetModeHistory"
@@ -14493,12 +15065,24 @@ msgctxt "wnd(Annotate|Compare|ConflictSolver|Deepgit|Git.indexEditor|Editor|Log|
 msgid "Ready"
 msgstr ""
 
+#| msgid "Full Screen"
 msgctxt "wnd(Annotate|Compare|ConflictSolver|Deepgit|Git.indexEditor|Editor|Log|Project|Std|).mniWindow-fullScreen"
-msgid "Full Screen"
+msgid "Enter Full Screen"
 msgstr ""
 
+#. Performing ',   Cursor'
+#. Performing '@smartgit.byU'
+#. Performing '@smartgit.byU'
+#. Performing '@smartgit.byU'
+#. Performing '@smartgit.byU'
+#. Performing 'discard, Discard…, Discard local changes.'
+#. Showing dialog 17 (@363751F2) '@5297030E - Discard' (owner: @575C23F1)
+#. Performing ', Discard'
+#. Performing 'editFile, Edit File'
+#. opening smartgit.cau@FBC1DE9:unknown.24_1 - [~/Git-projects/sgpo-tools-cli-WorkSpace/smartgit-translations/po] - Editor (smartgit.cau@6BD2C51D)
+#| msgid "Maximize"
 msgctxt "wnd(Annotate|Compare|ConflictSolver|Deepgit|Git.indexEditor|Editor|Log|Project|Std|).mniWindow-maximizeMaximize"
-msgid "Maximize"
+msgid "Zoom"
 msgstr ""
 
 msgctxt "wnd(Annotate|Compare|ConflictSolver|Deepgit|Git.indexEditor|Editor|Log|Project|Std|).mniWindow-maximizeRestore"
