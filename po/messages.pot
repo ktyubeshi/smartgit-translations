@@ -2370,10 +2370,6 @@ msgctxt "dlgSgAbortRevertingConfirm.tle:"
 msgid "Discard"
 msgstr ""
 
-msgctxt "dlgSgAbout.btn:"
-msgid "Copy Evaluation-ID"
-msgstr ""
-
 #. opening smartgit.byC@34F7B44F:SmartGit 24.1.3 Evaluation until Jun 27 (smartgit.byC@44A085E5)
 #. Showing dialog 0 (@305B43CA) '@D108406 - Passwords' (owner: null)
 #. Performing ', OK'
@@ -2398,10 +2394,6 @@ msgstr ""
 
 msgctxt "dlgSgAbout.edt:"
 msgid "Build Date"
-msgstr ""
-
-msgctxt "dlgSgAbout.edt:"
-msgid "Demo Until"
 msgstr ""
 
 #. opening smartgit.byC@34F7B44F:SmartGit 24.1.3 Evaluation until Jun 27 (smartgit.byC@44A085E5)
@@ -2448,10 +2440,6 @@ msgstr ""
 
 msgctxt "dlgSgAbout.edt:"
 msgid "User Count"
-msgstr ""
-
-msgctxt "dlgSgAbout.edt:"
-msgid "Valid Until"
 msgstr ""
 
 #. opening smartgit.byC@34F7B44F:SmartGit 24.1.3 Evaluation until Jun 27 (smartgit.byC@44A085E5)
@@ -5517,10 +5505,6 @@ msgstr ""
 #. Performing ', OK'
 #. Performing 'editCommitAuthor, Edit Author...'
 #, fuzzy
-msgctxt "dlgSgHistoryPushedCommitsModifyPushedCommits.tle:"
-msgid "Edit Author"
-msgstr ""
-
 msgctxt "dlgSgHistoryPushedCommitsModifyPushedCommits.tle:"
 msgid "Edit Author"
 msgstr ""
