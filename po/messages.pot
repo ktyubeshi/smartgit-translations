@@ -161,6 +161,48 @@ msgctxt "dlgCommitInvisibleIndex.tle"
 msgid "Commit"
 msgstr ""
 
+#. Performing 'about, About SmartGit'
+#. Showing dialog 2 (@5CA8C904) '@2AE4C424 - About SmartGit' (owner: @1D06F16F)
+#. Performing ', Register..., Enter registration data.'
+#. Showing dialog 3 (@66130C3B) '@44E4CF8A - SmartGit License' (owner: @5CA8C904)
+#. Performing ', Cancel'
+#. Performing ', Close'
+#. Performing '@smartgit.byU'
+#. Performing '@smartgit.byU'
+#. Performing 'stage, Stage, Store working tree files in the index to prepare the next commit.'
+#. Showing dialog 4 (@6C2BE147) '@DDDCD91 - Commit' (owner: @1D06F16F)
+msgctxt "dlgCommitNoEmailConfigured.fur"
+msgid "Before committing you will have to configure your name and email, e.g. in the SmartGit Preferences."
+msgstr ""
+
+#. Performing 'about, About SmartGit'
+#. Showing dialog 2 (@5CA8C904) '@2AE4C424 - About SmartGit' (owner: @1D06F16F)
+#. Performing ', Register..., Enter registration data.'
+#. Showing dialog 3 (@66130C3B) '@44E4CF8A - SmartGit License' (owner: @5CA8C904)
+#. Performing ', Cancel'
+#. Performing ', Close'
+#. Performing '@smartgit.byU'
+#. Performing '@smartgit.byU'
+#. Performing 'stage, Stage, Store working tree files in the index to prepare the next commit.'
+#. Showing dialog 4 (@6C2BE147) '@DDDCD91 - Commit' (owner: @1D06F16F)
+msgctxt "dlgCommitNoEmailConfigured.hdl"
+msgid "Please configure the email for commit."
+msgstr ""
+
+#. Performing ', Push'
+#. Performing 'about, About SmartGit'
+#. Showing dialog 2 (@5CA8C904) '@2AE4C424 - About SmartGit' (owner: @1D06F16F)
+#. Performing ', Register..., Enter registration data.'
+#. Showing dialog 3 (@66130C3B) '@44E4CF8A - SmartGit License' (owner: @5CA8C904)
+#. Performing ', Cancel'
+#. Performing ', Close'
+#. Performing '@smartgit.byU'
+#. Performing '@smartgit.byU'
+#. Performing 'stage, Stage, Store working tree files in the index to prepare the next commit.'
+msgctxt "dlgCommitNoEmailConfigured.tle"
+msgid "Commit"
+msgstr ""
+
 msgctxt "dlgCommitView.hiddenOptions.chk"
 msgid "Don't show again"
 msgstr ""
@@ -1069,8 +1111,20 @@ msgctxt "dlgScEvaluationReminderContinue.btn:"
 msgid "Register"
 msgstr ""
 
+#. opening smartgit.byM@52B30054:SmartGit 24.1.3 Evaluation until Jun 27 (smartgit.byM@F9CAB00)
+#. Showing dialog 0 (@44EB2452) '@402D6012 - Evaluation' (owner: @F9CAB00)
+msgctxt "dlgScEvaluationReminderContinue.fur"
+msgid "To use SmartGit, you will have to register a license file.\\n\\nIn a commercial environment you need to \\[https://www.syntevo.com/smartgit/purchase?evaluationReminderNotification purchase a license\\].\\n\\nFor \\[https://www.syntevo.com/register-non-commercial/?evaluationReminderNotification certain uses\\] we grant free licenses."
+msgstr ""
+
 msgctxt "dlgScEvaluationReminderContinue.fur%2"
 msgid "To use SmartGit in a commercial environment, you will have to \\[$1 purchase a license\\].\\n\\nFor \\[$2 certain uses\\] we grant free licenses."
+msgstr ""
+
+#. opening smartgit.byM@4ECD8AB1:SmartGit 24.1.3 Evaluation until Jun 27 (smartgit.byM@550E9BE6)
+#. Showing dialog 0 (@17C53DFB) '@59FEA5F5 - Evaluation' (owner: @550E9BE6)
+msgctxt "dlgScEvaluationReminderContinue.hdl"
+msgid "Your SmartGit evaluation ends today."
 msgstr ""
 
 msgctxt "dlgScEvaluationReminderContinue.hdl%1"
@@ -1078,6 +1132,73 @@ msgid "Your SmartGit evaluation ends in $1 days."
 msgstr ""
 
 msgctxt "dlgScEvaluationReminderContinue.tle"
+msgid "Evaluation"
+msgstr ""
+
+#. opening smartgit.byM@4ECD8AB1:SmartGit 24.1.3 Evaluation until Jun 27 (smartgit.byM@3F96F020)
+#. Showing dialog 0 (@B1D19FF) '@7EC13984 - Evaluation' (owner: @3F96F020)
+#. Showing dialog 1 (@27438750) '@4756E5CC - Passwords' (owner: @B1D19FF)
+#. Performing ', OK'
+msgctxt "dlgScEvaluationReminderExpiredGrace.btn:"
+msgid "&Continue \\($1\\)"
+msgstr ""
+
+#. opening smartgit.byM@4ECD8AB1:SmartGit 24.1.3 Evaluation until Jun 27 (smartgit.byM@3F96F020)
+#. Showing dialog 0 (@B1D19FF) '@7EC13984 - Evaluation' (owner: @3F96F020)
+#. Showing dialog 1 (@27438750) '@4756E5CC - Passwords' (owner: @B1D19FF)
+#. Performing ', OK'
+msgctxt "dlgScEvaluationReminderExpiredGrace.btn:"
+msgid "&Continue"
+msgstr ""
+
+#. Showing dialog 0 (@59A2D756) '@3E28DC96 - Evaluation' (owner: @7235F92B)
+#. Showing dialog 1 (@6CE2E079) '@131BA005 - Passwords' (owner: @59A2D756)
+#. Performing ', OK'
+#. Performing ', Register'
+#. Showing dialog 2 (@27502E5C) '@4B343B6D - SmartGit License' (owner: @59A2D756)
+#. Performing ', Cancel'
+#. Performing ', Continue'
+#. Performing 'newStandardWindow, Show Standard Window'
+#. opening smartgit.azY@29AA4BC9:null (smartgit.azY@20C3B34B)
+#. Showing dialog 3 (@4E7EBA9F) '@2DF71BE0 - Evaluation' (owner: @20C3B34B)
+msgctxt "dlgScEvaluationReminderExpiredGrace.btn\"Continue \\(45\\)\""
+msgid "Continue \\(45\\)"
+msgstr ""
+
+#. opening smartgit.byM@467AF68C:SmartGit 24.1.3 Evaluation until Jun 27 (smartgit.byM@1A256D80)
+#. Showing dialog 0 (@1BE8C122) '@7E81617A - Evaluation' (owner: @1A256D80)
+msgctxt "dlgScEvaluationReminderExpiredGrace.btn:"
+msgid "Exit"
+msgstr ""
+
+#. opening smartgit.byM@467AF68C:SmartGit 24.1.3 Evaluation until Jun 27 (smartgit.byM@1A256D80)
+#. Showing dialog 0 (@1BE8C122) '@7E81617A - Evaluation' (owner: @1A256D80)
+msgctxt "dlgScEvaluationReminderExpiredGrace.btn:"
+msgid "Register"
+msgstr ""
+
+#. opening smartgit.byM@4ECD8AB1:SmartGit 24.1.3 Evaluation until Jun 27 (smartgit.byM@3F96F020)
+#. Showing dialog 0 (@B1D19FF) '@7EC13984 - Evaluation' (owner: @3F96F020)
+#. Showing dialog 1 (@27438750) '@4756E5CC - Passwords' (owner: @B1D19FF)
+#. Performing ', OK'
+msgctxt "dlgScEvaluationReminderExpiredGrace.btn\\\"&Continue \\($1\\)\""
+msgid "&Continue \\($1\\)"
+msgstr ""
+
+#. opening smartgit.byM@467AF68C:SmartGit 24.1.3 Evaluation until Jun 27 (smartgit.byM@1A256D80)
+#. Showing dialog 0 (@1BE8C122) '@7E81617A - Evaluation' (owner: @1A256D80)
+msgctxt "dlgScEvaluationReminderExpiredGrace.fur"
+msgid "To use SmartGit, you will have to register a license file.\\n\\nIn a commercial environment you need to \\[https://www.syntevo.com/smartgit/purchase?evaluationReminderNotification purchase a license\\].\\n\\nFor \\[https://www.syntevo.com/register-non-commercial/?evaluationReminderNotification certain uses\\] we grant free licenses."
+msgstr ""
+
+#. opening smartgit.byM@467AF68C:SmartGit 24.1.3 Evaluation until Jun 27 (smartgit.byM@1A256D80)
+#. Showing dialog 0 (@1BE8C122) '@7E81617A - Evaluation' (owner: @1A256D80)
+msgctxt "dlgScEvaluationReminderExpiredGrace.hdl"
+msgid "Your evaluation has already expired."
+msgstr ""
+
+#. opening smartgit.byM@467AF68C:SmartGit 24.1.3 Evaluation until Jun 27 (smartgit.byM@1A256D80)
+msgctxt "dlgScEvaluationReminderExpiredGrace.tle"
 msgid "Evaluation"
 msgstr ""
 
@@ -1089,26 +1210,86 @@ msgctxt "dlgScExternalFileStarterCommandInvocationFailed.tle%1"
 msgid "\\[$1\\] - Conflict Solver"
 msgstr ""
 
+#. Performing 'goto-next-diff, Next Change, Go to next change.'
+#. Performing 'preferences, Preferences'
+#. Showing dialog 13 (@16160A37) '@65CF8DA0 - Preferences' (owner: @27ABB6CA)
+#. Performing ', Edit...'
+#. Showing dialog 14 (@6C2063E0) '@5BB7FC38 - Edit' (owner: @16160A37)
+#. Performing ', OK'
+#. Showing dialog 15 (@31406EAB) '@1DE83BE1 - Input Validation' (owner: @6C2063E0)
+#. Performing ', OK'
+#. Performing ', OK'
+#. Showing dialog 16 (@454F6CC5) '@3956DF0A - Input Validation' (owner: @6C2063E0)
 msgctxt "dlgScExternalFileStarterCommandNoFile.fur"
 msgid "Be sure to add arguments to the appropriate input field."
 msgstr ""
 
+#. Performing 'goto-next-diff, Next Change, Go to next change.'
+#. Performing 'preferences, Preferences'
+#. Showing dialog 13 (@16160A37) '@65CF8DA0 - Preferences' (owner: @27ABB6CA)
+#. Performing ', Edit...'
+#. Showing dialog 14 (@6C2063E0) '@5BB7FC38 - Edit' (owner: @16160A37)
+#. Performing ', OK'
+#. Showing dialog 15 (@31406EAB) '@1DE83BE1 - Input Validation' (owner: @6C2063E0)
+#. Performing ', OK'
+#. Performing ', OK'
+#. Showing dialog 16 (@454F6CC5) '@3956DF0A - Input Validation' (owner: @6C2063E0)
 msgctxt "dlgScExternalFileStarterCommandNoFile.hdl"
 msgid "The specified command is no file."
 msgstr ""
 
+#. Performing 'goto-previous-diff, Previous Change, Go to previous change.'
+#. Performing 'goto-next-diff, Next Change, Go to next change.'
+#. Performing 'preferences, Preferences'
+#. Showing dialog 13 (@16160A37) '@65CF8DA0 - Preferences' (owner: @27ABB6CA)
+#. Performing ', Edit...'
+#. Showing dialog 14 (@6C2063E0) '@5BB7FC38 - Edit' (owner: @16160A37)
+#. Performing ', OK'
+#. Showing dialog 15 (@31406EAB) '@1DE83BE1 - Input Validation' (owner: @6C2063E0)
+#. Performing ', OK'
+#. Performing ', OK'
 msgctxt "dlgScExternalFileStarterCommandNoFile.tle"
 msgid "Input Validation"
 msgstr ""
 
+#. Performing 'goto-next-diff, Next Change, Go to next change.'
+#. Performing 'goto-next-diff, Next Change, Go to next change.'
+#. Performing 'goto-previous-diff, Previous Change, Go to previous change.'
+#. Performing 'goto-next-diff, Next Change, Go to next change.'
+#. Performing 'preferences, Preferences'
+#. Showing dialog 13 (@16160A37) '@65CF8DA0 - Preferences' (owner: @27ABB6CA)
+#. Performing ', Edit...'
+#. Showing dialog 14 (@6C2063E0) '@5BB7FC38 - Edit' (owner: @16160A37)
+#. Performing ', OK'
+#. Showing dialog 15 (@31406EAB) '@1DE83BE1 - Input Validation' (owner: @6C2063E0)
 msgctxt "dlgScExternalFileStarterEmptyCommand.fur"
 msgid "Select the command which should be invoked."
 msgstr ""
 
+#. Performing 'goto-next-diff, Next Change, Go to next change.'
+#. Performing 'goto-next-diff, Next Change, Go to next change.'
+#. Performing 'goto-previous-diff, Previous Change, Go to previous change.'
+#. Performing 'goto-next-diff, Next Change, Go to next change.'
+#. Performing 'preferences, Preferences'
+#. Showing dialog 13 (@16160A37) '@65CF8DA0 - Preferences' (owner: @27ABB6CA)
+#. Performing ', Edit...'
+#. Showing dialog 14 (@6C2063E0) '@5BB7FC38 - Edit' (owner: @16160A37)
+#. Performing ', OK'
+#. Showing dialog 15 (@31406EAB) '@1DE83BE1 - Input Validation' (owner: @6C2063E0)
 msgctxt "dlgScExternalFileStarterEmptyCommand.hdl"
 msgid "The Command input field must not be empty!"
 msgstr ""
 
+#. Performing 'goto-next-diff, Next Change, Go to next change.'
+#. Performing 'goto-next-diff, Next Change, Go to next change.'
+#. Performing 'goto-next-diff, Next Change, Go to next change.'
+#. Performing 'goto-previous-diff, Previous Change, Go to previous change.'
+#. Performing 'goto-next-diff, Next Change, Go to next change.'
+#. Performing 'preferences, Preferences'
+#. Showing dialog 13 (@16160A37) '@65CF8DA0 - Preferences' (owner: @27ABB6CA)
+#. Performing ', Edit...'
+#. Showing dialog 14 (@6C2063E0) '@5BB7FC38 - Edit' (owner: @16160A37)
+#. Performing ', OK'
 msgctxt "dlgScExternalFileStarterEmptyCommand.tle"
 msgid "Input Validation"
 msgstr ""
@@ -1593,6 +1774,19 @@ msgctxt "dlgScRegisterFormLicenseConfirmDetails.edt:"
 msgid "Free Updates Until"
 msgstr ""
 
+#. opening smartgit.byM@46702C26:SmartGit 24.1.3 Evaluation until Jun 27 (smartgit.byM@3A3ED300)
+#. Showing dialog 0 (@63553E9F) '@6BE766D1 - Evaluation' (owner: @3A3ED300)
+#. Performing ', Register'
+#. Showing dialog 1 (@3A70575) '@7283877 - SmartGit License' (owner: @63553E9F)
+#. Showing dialog 2 (@FF2266C) '@2C08C787 - Passwords' (owner: @3A70575)
+#. Performing ', OK'
+#. Performing ', Open file chooser.'
+#. Performing ', Register'
+#. Showing dialog 3 (@1C011855) '@334B392D - SmartGit License' (owner: @3A70575)
+msgctxt "dlgScRegisterFormLicenseConfirmDetails.edt:"
+msgid "License ID"
+msgstr ""
+
 msgctxt "dlgScRegisterFormLicenseConfirmDetails.edt:"
 msgid "Name"
 msgstr ""
@@ -1670,6 +1864,76 @@ msgid "Please provide your SmartGit license file you've received by email after 
 msgstr ""
 
 msgctxt "dlgScSetupLicense.tle"
+msgid "SmartGit License"
+msgstr ""
+
+#. Performing ', Cancel'
+#. Performing '@smartgit.byU'
+#. Performing 'about, About SmartGit'
+#. Showing dialog 5 (@603C2DEE) '@3F6906F4 - About SmartGit' (owner: @7235F92B)
+#. Performing ', Register..., Enter registration data.'
+#. Showing dialog 6 (@114BADF0) '@19E8FE55 - SmartGit License' (owner: @603C2DEE)
+#. Performing ', Register'
+#. Showing dialog 7 (@29EA5E0) '@3D7314B3 - SmartGit License' (owner: @114BADF0)
+#. Performing ', OK'
+#. Showing dialog 8 (@CA60688) '@33568E26 - SmartGit License' (owner: @114BADF0)
+msgctxt "dlgScSetupLicenseNeedsRestart.btn:"
+msgid "Exit Later"
+msgstr ""
+
+#. Performing ', Cancel'
+#. Performing '@smartgit.byU'
+#. Performing 'about, About SmartGit'
+#. Showing dialog 5 (@603C2DEE) '@3F6906F4 - About SmartGit' (owner: @7235F92B)
+#. Performing ', Register..., Enter registration data.'
+#. Showing dialog 6 (@114BADF0) '@19E8FE55 - SmartGit License' (owner: @603C2DEE)
+#. Performing ', Register'
+#. Showing dialog 7 (@29EA5E0) '@3D7314B3 - SmartGit License' (owner: @114BADF0)
+#. Performing ', OK'
+#. Showing dialog 8 (@CA60688) '@33568E26 - SmartGit License' (owner: @114BADF0)
+msgctxt "dlgScSetupLicenseNeedsRestart.btn:"
+msgid "Restart Now"
+msgstr ""
+
+#. Performing ', Cancel'
+#. Performing '@smartgit.byU'
+#. Performing 'about, About SmartGit'
+#. Showing dialog 5 (@603C2DEE) '@3F6906F4 - About SmartGit' (owner: @7235F92B)
+#. Performing ', Register..., Enter registration data.'
+#. Showing dialog 6 (@114BADF0) '@19E8FE55 - SmartGit License' (owner: @603C2DEE)
+#. Performing ', Register'
+#. Showing dialog 7 (@29EA5E0) '@3D7314B3 - SmartGit License' (owner: @114BADF0)
+#. Performing ', OK'
+#. Showing dialog 8 (@CA60688) '@33568E26 - SmartGit License' (owner: @114BADF0)
+msgctxt "dlgScSetupLicenseNeedsRestart.fur"
+msgid "You can do that now or manually later."
+msgstr ""
+
+#. Performing ', Cancel'
+#. Performing '@smartgit.byU'
+#. Performing 'about, About SmartGit'
+#. Showing dialog 5 (@603C2DEE) '@3F6906F4 - About SmartGit' (owner: @7235F92B)
+#. Performing ', Register..., Enter registration data.'
+#. Showing dialog 6 (@114BADF0) '@19E8FE55 - SmartGit License' (owner: @603C2DEE)
+#. Performing ', Register'
+#. Showing dialog 7 (@29EA5E0) '@3D7314B3 - SmartGit License' (owner: @114BADF0)
+#. Performing ', OK'
+#. Showing dialog 8 (@CA60688) '@33568E26 - SmartGit License' (owner: @114BADF0)
+msgctxt "dlgScSetupLicenseNeedsRestart.hdl"
+msgid "SmartGit has to be restarted for the license change to take effect."
+msgstr ""
+
+#. Performing ', Refresh'
+#. Performing ', Cancel'
+#. Performing '@smartgit.byU'
+#. Performing 'about, About SmartGit'
+#. Showing dialog 5 (@603C2DEE) '@3F6906F4 - About SmartGit' (owner: @7235F92B)
+#. Performing ', Register..., Enter registration data.'
+#. Showing dialog 6 (@114BADF0) '@19E8FE55 - SmartGit License' (owner: @603C2DEE)
+#. Performing ', Register'
+#. Showing dialog 7 (@29EA5E0) '@3D7314B3 - SmartGit License' (owner: @114BADF0)
+#. Performing ', OK'
+msgctxt "dlgScSetupLicenseNeedsRestart.tle"
 msgid "SmartGit License"
 msgstr ""
 
@@ -2069,6 +2333,15 @@ msgctxt "dlgSgAbout.btn:"
 msgid "Copy Evaluation-ID"
 msgstr ""
 
+#. opening smartgit.byC@34F7B44F:SmartGit 24.1.3 Evaluation until Jun 27 (smartgit.byC@44A085E5)
+#. Showing dialog 0 (@305B43CA) '@D108406 - Passwords' (owner: null)
+#. Performing ', OK'
+#. Performing 'about, About SmartGit'
+#. Showing dialog 1 (@51D8F2F2) '@72FB989B - About SmartGit' (owner: @44A085E5)
+msgctxt "dlgSgAbout.btn:"
+msgid "Copy Evaluation-ID"
+msgstr ""
+
 msgctxt "dlgSgAbout.btn:"
 msgid "Register"
 msgstr ""
@@ -2085,6 +2358,15 @@ msgctxt "dlgSgAbout.edt:"
 msgid "Build Date"
 msgstr ""
 
+msgctxt "dlgSgAbout.edt:"
+msgid "Demo Until"
+msgstr ""
+
+#. opening smartgit.byC@34F7B44F:SmartGit 24.1.3 Evaluation until Jun 27 (smartgit.byC@44A085E5)
+#. Showing dialog 0 (@305B43CA) '@D108406 - Passwords' (owner: null)
+#. Performing ', OK'
+#. Performing 'about, About SmartGit'
+#. Showing dialog 1 (@51D8F2F2) '@72FB989B - About SmartGit' (owner: @44A085E5)
 msgctxt "dlgSgAbout.edt:"
 msgid "Demo Until"
 msgstr ""
@@ -2125,6 +2407,15 @@ msgctxt "dlgSgAbout.edt:"
 msgid "User Count"
 msgstr ""
 
+msgctxt "dlgSgAbout.edt:"
+msgid "Valid Until"
+msgstr ""
+
+#. opening smartgit.byC@34F7B44F:SmartGit 24.1.3 Evaluation until Jun 27 (smartgit.byC@44A085E5)
+#. Showing dialog 0 (@305B43CA) '@D108406 - Passwords' (owner: null)
+#. Performing ', OK'
+#. Performing 'about, About SmartGit'
+#. Showing dialog 1 (@51D8F2F2) '@72FB989B - About SmartGit' (owner: @44A085E5)
 msgctxt "dlgSgAbout.edt:"
 msgid "Valid Until"
 msgstr ""
@@ -3025,14 +3316,44 @@ msgctxt "dlgSgClone.mni:"
 msgid "Add Hosting Provider"
 msgstr ""
 
+#. Performing 'preferences, Preferences'
+#. Showing dialog 8 (@66B62332) '@1822A61B - Preferences' (owner: @73958426)
+#. Performing ', Add...'
+#. Showing dialog 9 (@47FBF95E) '@6CE8BF64 - Add' (owner: @66B62332)
+#. Performing ', Variables'
+#. Performing ', Cancel'
+#. Performing ', Cancel'
+#. Performing 'repositoryClone, Clone..., Clone a new repository.'
+#. Showing dialog 10 (@2003EDF) '@7E5C8C80 - Clone' (owner: @73958426)
+#. Performing ', Text'
 msgctxt "dlgSgClone.mni:"
 msgid "Own Repositories"
 msgstr ""
 
+#. Performing 'preferences, Preferences'
+#. Showing dialog 8 (@66B62332) '@1822A61B - Preferences' (owner: @73958426)
+#. Performing ', Add...'
+#. Showing dialog 9 (@47FBF95E) '@6CE8BF64 - Add' (owner: @66B62332)
+#. Performing ', Variables'
+#. Performing ', Cancel'
+#. Performing ', Cancel'
+#. Performing 'repositoryClone, Clone..., Clone a new repository.'
+#. Showing dialog 10 (@2003EDF) '@7E5C8C80 - Clone' (owner: @73958426)
+#. Performing ', Text'
 msgctxt "dlgSgClone.mni:"
 msgid "Starred Repositories"
 msgstr ""
 
+#. Performing 'preferences, Preferences'
+#. Showing dialog 8 (@66B62332) '@1822A61B - Preferences' (owner: @73958426)
+#. Performing ', Add...'
+#. Showing dialog 9 (@47FBF95E) '@6CE8BF64 - Add' (owner: @66B62332)
+#. Performing ', Variables'
+#. Performing ', Cancel'
+#. Performing ', Cancel'
+#. Performing 'repositoryClone, Clone..., Clone a new repository.'
+#. Showing dialog 10 (@2003EDF) '@7E5C8C80 - Clone' (owner: @73958426)
+#. Performing ', Text'
 msgctxt "dlgSgClone.mni:"
 msgid "Top Repositories"
 msgstr ""
@@ -4469,6 +4790,104 @@ msgctxt "dlgSgGarbageCollectorDeleteAllStashes.tle"
 msgid "Run Garbage Collector"
 msgstr ""
 
+#. Performing ', Cancel'
+#. Performing ', Continue'
+#. Performing 'newStandardWindow, Show Standard Window'
+#. opening smartgit.azY@29AA4BC9:null (smartgit.azY@20C3B34B)
+#. Showing dialog 3 (@4E7EBA9F) '@2DF71BE0 - Evaluation' (owner: @20C3B34B)
+#. Performing ', Continue'
+#. Performing 'repositoryOpen, Open Repository'
+#. Performing ', Show filter input field.'
+#. Performing ', Select from GitHub...'
+#. Showing dialog 4 (@17F41739) '@6785DF10 - Select Issue' (owner: @20C3B34B)
+msgctxt "dlgSgGitHubCommitMessageSelect.btn:"
+msgid "Refresh"
+msgstr ""
+
+#. Performing ', Cancel'
+#. Performing ', Continue'
+#. Performing 'newStandardWindow, Show Standard Window'
+#. opening smartgit.azY@29AA4BC9:null (smartgit.azY@20C3B34B)
+#. Showing dialog 3 (@4E7EBA9F) '@2DF71BE0 - Evaluation' (owner: @20C3B34B)
+#. Performing ', Continue'
+#. Performing 'repositoryOpen, Open Repository'
+#. Performing ', Show filter input field.'
+#. Performing ', Select from GitHub...'
+#. Showing dialog 4 (@17F41739) '@6785DF10 - Select Issue' (owner: @20C3B34B)
+msgctxt "dlgSgGitHubCommitMessageSelect.btn:"
+msgid "Select"
+msgstr ""
+
+#. Performing ', Cancel'
+#. Performing ', Continue'
+#. Performing 'newStandardWindow, Show Standard Window'
+#. opening smartgit.azY@29AA4BC9:null (smartgit.azY@20C3B34B)
+#. Showing dialog 3 (@4E7EBA9F) '@2DF71BE0 - Evaluation' (owner: @20C3B34B)
+#. Performing ', Continue'
+#. Performing 'repositoryOpen, Open Repository'
+#. Performing ', Show filter input field.'
+#. Performing ', Select from GitHub...'
+#. Showing dialog 4 (@17F41739) '@6785DF10 - Select Issue' (owner: @20C3B34B)
+msgctxt "dlgSgGitHubCommitMessageSelect.col:"
+msgid "Number"
+msgstr ""
+
+#. Performing ', Cancel'
+#. Performing ', Continue'
+#. Performing 'newStandardWindow, Show Standard Window'
+#. opening smartgit.azY@29AA4BC9:null (smartgit.azY@20C3B34B)
+#. Showing dialog 3 (@4E7EBA9F) '@2DF71BE0 - Evaluation' (owner: @20C3B34B)
+#. Performing ', Continue'
+#. Performing 'repositoryOpen, Open Repository'
+#. Performing ', Show filter input field.'
+#. Performing ', Select from GitHub...'
+#. Showing dialog 4 (@17F41739) '@6785DF10 - Select Issue' (owner: @20C3B34B)
+msgctxt "dlgSgGitHubCommitMessageSelect.col:"
+msgid "Title"
+msgstr ""
+
+#. Performing ', Cancel'
+#. Performing ', Continue'
+#. Performing 'newStandardWindow, Show Standard Window'
+#. opening smartgit.azY@29AA4BC9:null (smartgit.azY@20C3B34B)
+#. Showing dialog 3 (@4E7EBA9F) '@2DF71BE0 - Evaluation' (owner: @20C3B34B)
+#. Performing ', Continue'
+#. Performing 'repositoryOpen, Open Repository'
+#. Performing ', Show filter input field.'
+#. Performing ', Select from GitHub...'
+#. Showing dialog 4 (@17F41739) '@6785DF10 - Select Issue' (owner: @20C3B34B)
+msgctxt "dlgSgGitHubCommitMessageSelect.hdl"
+msgid "Select commit message by GitHub issue"
+msgstr ""
+
+#. Performing ', Cancel'
+#. Performing ', Continue'
+#. Performing 'newStandardWindow, Show Standard Window'
+#. opening smartgit.azY@29AA4BC9:null (smartgit.azY@20C3B34B)
+#. Showing dialog 3 (@4E7EBA9F) '@2DF71BE0 - Evaluation' (owner: @20C3B34B)
+#. Performing ', Continue'
+#. Performing 'repositoryOpen, Open Repository'
+#. Performing ', Show filter input field.'
+#. Performing ', Select from GitHub...'
+#. Showing dialog 4 (@17F41739) '@6785DF10 - Select Issue' (owner: @20C3B34B)
+msgctxt "dlgSgGitHubCommitMessageSelect.inf"
+msgid "The selected issue summary will be used as commit message."
+msgstr ""
+
+#. Showing dialog 2 (@27502E5C) '@4B343B6D - SmartGit License' (owner: @59A2D756)
+#. Performing ', Cancel'
+#. Performing ', Continue'
+#. Performing 'newStandardWindow, Show Standard Window'
+#. opening smartgit.azY@29AA4BC9:null (smartgit.azY@20C3B34B)
+#. Showing dialog 3 (@4E7EBA9F) '@2DF71BE0 - Evaluation' (owner: @20C3B34B)
+#. Performing ', Continue'
+#. Performing 'repositoryOpen, Open Repository'
+#. Performing ', Show filter input field.'
+#. Performing ', Select from GitHub...'
+msgctxt "dlgSgGitHubCommitMessageSelect.tle"
+msgid "Select Issue"
+msgstr ""
+
 msgctxt "dlgSgGitHubGenerateToken.btn:"
 msgid "Authenticate"
 msgstr ""
@@ -4889,6 +5308,20 @@ msgctxt "dlgSgHistoryPushedCommitsModifyPushedCommits.hdl"
 msgid "Do you want to modify commits which are already pushed?"
 msgstr ""
 
+#. Performing ', Push'
+#. Showing dialog 25 (@1812BA7F) '@16704703 - Push' (owner: @7793B55D)
+#. Performing ', Force Push'
+#. Performing 'goto-next-diff, Next Change, Go to next change.'
+#. Performing 'goto-next-diff, Next Change, Go to next change.'
+#. Performing '@smartgit.byU'
+#. Performing 'fetch, Pull..., Fetch commits from a remote repository and (optionally) integrate them with possible local commits.'
+#. Showing dialog 26 (@36AB2C76) '@16A151BA - Pull' (owner: @7793B55D)
+#. Performing ', Pull'
+#. Performing 'editCommitAuthor, Edit Author...'
+msgctxt "dlgSgHistoryPushedCommitsModifyPushedCommits.tle:"
+msgid "Edit Author"
+msgstr ""
+
 msgctxt "dlgSgHistoryPushedCommitsModifyPushedCommits.tle:"
 msgid "Edit Author"
 msgstr ""
@@ -5069,8 +5502,36 @@ msgctxt "dlgSgHostingProviderAdd.hdl:"
 msgid "Add GitHub account"
 msgstr ""
 
+#. Performing ', Next >'
+#. Performing ', Finish'
+#. Performing ',   Cursor'
+#. Performing ', Reset HEAD to 'master''
+#. Performing 'findObject, Find Object...'
+#. Showing dialog 5 (@F9CD1E6) '@3FF53704 - ' (owner: @50EB4A2C)
+#. Performing 'repositoryClone, Clone..., Clone a new repository.'
+#. Showing dialog 6 (@58486DEB) '@4E933CF1 - Clone' (owner: @50EB4A2C)
+#. Performing ', Configure...'
+#. Showing dialog 7 (@54C3E686) '@3987A1E8 - Add Hosting Provider' (owner: @58486DEB)
+msgctxt "dlgSgHostingProviderAdd.hdl\"Add GitLab \\(Self Hosted\\) account\""
+msgid "Add GitLab \\(Self Hosted\\) account"
+msgstr ""
+
 msgctxt "dlgSgHostingProviderAdd.hdl:"
 msgid "Configure a new hosting provider account"
+msgstr ""
+
+#. Performing ', Next >'
+#. Performing ', Finish'
+#. Performing ',   Cursor'
+#. Performing ', Reset HEAD to 'master''
+#. Performing 'findObject, Find Object...'
+#. Showing dialog 5 (@F9CD1E6) '@3FF53704 - ' (owner: @50EB4A2C)
+#. Performing 'repositoryClone, Clone..., Clone a new repository.'
+#. Showing dialog 6 (@58486DEB) '@4E933CF1 - Clone' (owner: @50EB4A2C)
+#. Performing ', Configure...'
+#. Showing dialog 7 (@54C3E686) '@3987A1E8 - Add Hosting Provider' (owner: @58486DEB)
+msgctxt "dlgSgHostingProviderAdd.inf"
+msgid "Set or select the options according to your account."
 msgstr ""
 
 msgctxt "dlgSgHostingProviderAdd.inf:"
@@ -7884,9 +8345,20 @@ msgstr ""
 msgctxt "dlgSgPushForced.fur"
 msgid "Pushing to the remote branch is not fast-forward, so the push has to be forced. The commits in the remote branch will be lost."
 msgstr ""
-
+# TODO: Review 
+#. Performing ', Pull'
+#. Performing 'editCommitAuthor, Edit Author...'
+#. Showing dialog 27 (@6F51C04F) '@69A377B6 - Edit Author' (owner: @7793B55D)
+#. Performing ', Modify Pushed Commits'
+#. Showing dialog 28 (@451426AC) '@24A170E0 - Edit Author' (owner: @7793B55D)
+#. Performing ', Set Author'
+#. Performing ', Push'
+#. Showing dialog 29 (@6B55832A) '@28A186E4 - Push' (owner: @7793B55D)
+#. Performing ', Push'
+#. Showing dialog 30 (@BD9F0D0) '@D67E1C5 - Push' (owner: @7793B55D)
 #| msgid "Do you want to force-push \\(replace\\) the remote branch 'pot-wip/24.1_windows'?"
-msgctxt "dlgSgPushForced.hdl"
+#, fuzzy
+msgctxt "dlgSgPushForced.hdl%1"
 msgid "Do you want to force-push \\(replace\\) the remote branch '$1'?"
 msgstr ""
 
@@ -8218,42 +8690,143 @@ msgctxt "dlgSgRebaseContinueNothingToCommitContinue.tle"
 msgid "Rebase"
 msgstr ""
 
+#. Performing ', Cancel'
+#. Performing 'stage, Stage, Store working tree files in the index to prepare the next commit.'
+#. Performing 'fixup, Use Message for Commit'
+#. Performing ', Step'
+#. Performing 'rebaseStep, Step'
+#. Showing dialog 6 (@4AE6451D) '@5F32AB17 - Modify Commit' (owner: @1319BC2A)
+#. Performing ', Cancel'
+#. Performing ', Continue'
+#. Performing 'branchContinue, Continue'
+#. Showing dialog 7 (@2C1A95A2) '@1ADF387E - Modify Commit' (owner: @1319BC2A)
+#| msgctxt "dlgSgRebaseContinueNothingToCommitModifyContinue.btn\"Continue \\(Resume\\)\""
 msgctxt "dlgSgRebaseContinueNothingToCommitModifyContinue.btn:"
 msgid "Continue \\(Resume\\)"
 msgstr ""
 
+#. Performing ', Cancel'
+#. Performing 'stage, Stage, Store working tree files in the index to prepare the next commit.'
+#. Performing 'fixup, Use Message for Commit'
+#. Performing ', Step'
+#. Performing 'rebaseStep, Step'
+#. Showing dialog 6 (@4AE6451D) '@5F32AB17 - Modify Commit' (owner: @1319BC2A)
+#. Performing ', Cancel'
+#. Performing ', Continue'
+#. Performing 'branchContinue, Continue'
+#. Showing dialog 7 (@2C1A95A2) '@1ADF387E - Modify Commit' (owner: @1319BC2A)
 msgctxt "dlgSgRebaseContinueNothingToCommitModifyContinue.chk"
 msgid "Don't show again"
 msgstr ""
 
+#. Performing ', Cancel'
+#. Performing 'stage, Stage, Store working tree files in the index to prepare the next commit.'
+#. Performing 'fixup, Use Message for Commit'
+#. Performing ', Step'
+#. Performing 'rebaseStep, Step'
+#. Showing dialog 6 (@4AE6451D) '@5F32AB17 - Modify Commit' (owner: @1319BC2A)
+#. Performing ', Cancel'
+#. Performing ', Continue'
+#. Performing 'branchContinue, Continue'
+#. Showing dialog 7 (@2C1A95A2) '@1ADF387E - Modify Commit' (owner: @1319BC2A)
 msgctxt "dlgSgRebaseContinueNothingToCommitModifyContinue.fur"
 msgid "Clicking 'Continue' will resume the rebase, e.g. to finish after having modified the commit\\(s\\)."
 msgstr ""
 
+#. Performing ', Cancel'
+#. Performing 'stage, Stage, Store working tree files in the index to prepare the next commit.'
+#. Performing 'fixup, Use Message for Commit'
+#. Performing ', Step'
+#. Performing 'rebaseStep, Step'
+#. Showing dialog 6 (@4AE6451D) '@5F32AB17 - Modify Commit' (owner: @1319BC2A)
+#. Performing ', Cancel'
+#. Performing ', Continue'
+#. Performing 'branchContinue, Continue'
+#. Showing dialog 7 (@2C1A95A2) '@1ADF387E - Modify Commit' (owner: @1319BC2A)
 msgctxt "dlgSgRebaseContinueNothingToCommitModifyContinue.hdl"
 msgid "Do you want to continue the modify-commit-rebase?"
 msgstr ""
 
+#. Showing dialog 5 (@6F430EA8) '@771AFDD5 - Commit' (owner: @1319BC2A)
+#. Performing ', Cancel'
+#. Performing 'stage, Stage, Store working tree files in the index to prepare the next commit.'
+#. Performing 'fixup, Use Message for Commit'
+#. Performing ', Step'
+#. Performing 'rebaseStep, Step'
+#. Showing dialog 6 (@4AE6451D) '@5F32AB17 - Modify Commit' (owner: @1319BC2A)
+#. Performing ', Cancel'
+#. Performing ', Continue'
+#. Performing 'branchContinue, Continue'
 msgctxt "dlgSgRebaseContinueNothingToCommitModifyContinue.tle"
 msgid "Modify Commit"
 msgstr ""
 
+#. Performing 'rebaseStep, Step'
+#. Showing dialog 18 (@14144CC9) '@259647F2 - Modify Commit' (owner: @1319BC2A)
+#. Performing ', Step'
+#. Performing ', Step'
+#. Performing 'rebaseStep, Step'
+#. Showing dialog 19 (@76958827) '@495CAC83 - Modify Commit' (owner: @1319BC2A)
+#. Performing ', Step'
+#. Performing ', Step'
+#. Performing 'rebaseStep, Step'
+#. Showing dialog 20 (@72161DBB) '@69CA71B3 - Modify Commit' (owner: @1319BC2A)
 msgctxt "dlgSgRebaseContinueNothingToCommitModifyStep.btn:"
 msgid "Step"
 msgstr ""
 
+#. Performing 'rebaseStep, Step'
+#. Showing dialog 18 (@14144CC9) '@259647F2 - Modify Commit' (owner: @1319BC2A)
+#. Performing ', Step'
+#. Performing ', Step'
+#. Performing 'rebaseStep, Step'
+#. Showing dialog 19 (@76958827) '@495CAC83 - Modify Commit' (owner: @1319BC2A)
+#. Performing ', Step'
+#. Performing ', Step'
+#. Performing 'rebaseStep, Step'
+#. Showing dialog 20 (@72161DBB) '@69CA71B3 - Modify Commit' (owner: @1319BC2A)
 msgctxt "dlgSgRebaseContinueNothingToCommitModifyStep.chk"
 msgid "Don't show again"
 msgstr ""
 
+#. Performing 'rebaseStep, Step'
+#. Showing dialog 18 (@14144CC9) '@259647F2 - Modify Commit' (owner: @1319BC2A)
+#. Performing ', Step'
+#. Performing ', Step'
+#. Performing 'rebaseStep, Step'
+#. Showing dialog 19 (@76958827) '@495CAC83 - Modify Commit' (owner: @1319BC2A)
+#. Performing ', Step'
+#. Performing ', Step'
+#. Performing 'rebaseStep, Step'
+#. Showing dialog 20 (@72161DBB) '@69CA71B3 - Modify Commit' (owner: @1319BC2A)
 msgctxt "dlgSgRebaseContinueNothingToCommitModifyStep.fur"
 msgid "Clicking 'Step' will continue the rebase and stop at the next commit. Use it to step through all pending commits, e.g. to verify whether they successfully build."
 msgstr ""
 
+#. Performing 'rebaseStep, Step'
+#. Showing dialog 18 (@14144CC9) '@259647F2 - Modify Commit' (owner: @1319BC2A)
+#. Performing ', Step'
+#. Performing ', Step'
+#. Performing 'rebaseStep, Step'
+#. Showing dialog 19 (@76958827) '@495CAC83 - Modify Commit' (owner: @1319BC2A)
+#. Performing ', Step'
+#. Performing ', Step'
+#. Performing 'rebaseStep, Step'
+#. Showing dialog 20 (@72161DBB) '@69CA71B3 - Modify Commit' (owner: @1319BC2A)
 msgctxt "dlgSgRebaseContinueNothingToCommitModifyStep.hdl"
 msgid "Do you want to step to the next commit?"
 msgstr ""
 
+#. Performing ', Step'
+#. Performing 'rebaseStep, Step'
+#. Showing dialog 18 (@14144CC9) '@259647F2 - Modify Commit' (owner: @1319BC2A)
+#. Performing ', Step'
+#. Performing ', Step'
+#. Performing 'rebaseStep, Step'
+#. Showing dialog 19 (@76958827) '@495CAC83 - Modify Commit' (owner: @1319BC2A)
+#. Performing ', Step'
+#. Performing ', Step'
+#. Performing 'rebaseStep, Step'
 msgctxt "dlgSgRebaseContinueNothingToCommitModifyStep.tle"
 msgid "Modify Commit"
 msgstr ""
@@ -8982,6 +9555,17 @@ msgctxt "dlgSgRepositoryClose.btn:"
 msgid "Force Close"
 msgstr ""
 
+#. Performing 'repositoryAddGroup, Add Group...'
+#. Showing dialog 3 (@79BA0285) '@46A388CC - Add Group' (owner: @1E1B061)
+#. Performing ', Add'
+#. Performing '@smartgit.byU'
+#. Performing 'fetch, Pull..., Fetch commits from a remote repository and (optionally) integrate them with possible local commits.'
+#. Showing dialog 4 (@7B3085A3) '@5D5574C7 - Pull' (owner: @1E1B061)
+#. Performing ', Pull'
+#. Showing dialog 5 (@70EE9D31) '@1A01FFFF - Passwords' (owner: null)
+#. Performing ', OK'
+#. Showing dialog 6 (@4C8D45CF) '@1C58D7BE - Exit' (owner: @1E1B061)
+#, fuzzy
 msgctxt "dlgSgRepositoryClose.btn:"
 msgid "Force Exit"
 msgstr ""
@@ -9186,7 +9770,15 @@ msgctxt "dlgSgRepositorySettings.hdl"
 msgid "Edit the repository settings"
 msgstr ""
 
+#. opening smartgit.byM@49D42FAF:SmartGit 24.1.3 Evaluation until Jun 27 (smartgit.byM@E280403)
+#. Performing 'about, About SmartGit'
+#. Showing dialog 0 (@C0013B8) '@6FC0E448 - About SmartGit' (owner: @E280403)
+#. Showing dialog 1 (@78E387D6) '@1BE3F8F8 - Passwords' (owner: null)
+#. Performing ', OK'
+#. Performing 'repositorySettings, Settings...'
+#. Showing dialog 2 (@510E4D79) '@4EF31221 - Repository Settings' (owner: @E280403)
 #| msgid "Here you can edit the Git settings for the repository. The default settings can be found in the preferences."
+#, fuzzy
 msgctxt "dlgSgRepositorySettings.inf"
 msgid "Here you can edit the Git settings for the repository. The default settings can be found in the Preferences."
 msgstr ""
@@ -9243,6 +9835,17 @@ msgctxt "dlgSgRepositorySettings.ttpGroupPatterns:"
 msgid "Patterns will show up in the GUI using auto-generated labels which are derived from their regular expression. You can assign a custom label <tt>label</tt> to a pattern by prefixing it by <tt>label:</tt>; a label may only contain letters, digits and '_'."
 msgstr ""
 
+#. Performing 'checkout, Check Out..., Check out an existing commit.'
+#. Showing dialog 10 (@AF94B0B) '@37A0FC8C - Check Out' (owner: @1E1B061)
+#. Performing ', Cancel'
+#. Performing 'editFile, Edit File'
+#. opening smartgit.cau@1B5623B4:messages.pot - [~/Git-projects/smartgit-translations/po] - Editor (smartgit.cau@63C6C5E5)
+#. Performing 'file-save, Save, Save file modifications.'
+#. Showing dialog 11 (@73417494) '@AD585FB - Commit' (owner: @1E1B061)
+#. Performing ', Confirm Email'
+#. Performing 'repositorySettings, Settings...'
+#. Showing dialog 12 (@69C51FDB) '@63053B71 - Repository Settings' (owner: @1E1B061)
+#, fuzzy
 msgctxt "dlgSgRepositorySettings.wrn:"
 msgid "It is recommended to set an email address used for committing."
 msgstr ""
@@ -11476,6 +12079,10 @@ msgid "poll for opinions on how to implement new or change existing features"
 msgstr ""
 
 msgctxt "ntmFollowUsOnX:"
+msgid "<link1>Bluesky</link1>: news, polls, discussions"
+msgstr ""
+
+msgctxt "ntmFollowUsOnX:"
 msgid "<link1>Facebook</link1>: news"
 msgstr ""
 
@@ -13281,6 +13888,20 @@ msgstr ""
 
 msgctxt "wndStd.mni:"
 msgid "Save Stash"
+msgstr ""
+
+#. Performing ', Register'
+#. Showing dialog 2 (@27502E5C) '@4B343B6D - SmartGit License' (owner: @59A2D756)
+#. Performing ', Cancel'
+#. Performing ', Continue'
+#. Performing 'newStandardWindow, Show Standard Window'
+#. opening smartgit.azY@29AA4BC9:null (smartgit.azY@20C3B34B)
+#. Showing dialog 3 (@4E7EBA9F) '@2DF71BE0 - Evaluation' (owner: @20C3B34B)
+#. Performing ', Continue'
+#. Performing 'repositoryOpen, Open Repository'
+#. Performing ', Show filter input field.'
+msgctxt "wndStd.mni:"
+msgid "Select from GitHub"
 msgstr ""
 
 msgctxt "wndStd.mni:"
