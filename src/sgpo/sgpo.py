@@ -35,7 +35,7 @@ class SgPo(polib.POFile):
     def __init__(self) -> None:
         super().__init__(self)
         self.wrapwidth = 9999
-        self.charset = 'utf-8'
+        self.encoding = 'utf-8'
         self.check_for_duplicates = True
 
     @classmethod
@@ -50,7 +50,7 @@ class SgPo(polib.POFile):
     @classmethod
     def _create_instance(cls, filename) -> SgPo:
         instance = cls.__new__(cls)
-        po = polib.pofile(filename, wrapwidth=9999, chraset='utf-8', check_for_duplicates=True)
+        po = polib.pofile(filename, wrapwidth=9999, encoding='utf-8', check_for_duplicates=True)
 
         instance.__dict__ = po.__dict__
         for entry in po:
