@@ -6451,6 +6451,38 @@ msgctxt "dlgSgOutput.lbl:"
 msgid "Your local changes to the following files would be overwritten by checkout:\\ncould not detach HEAD"
 msgstr ""
 
+# Needs Review
+#. Showing dialog 1 (@504B8705) '@6501B105 - Passwords' (owner: null)
+#. Performing ', OK'
+#. Performing '@smartgit.byU'
+#. Performing 'repositoryRename, Rename...'
+#. Showing dialog 2 (@24FC2C80) '@1BBB42B4 - Rename' (owner: @332BCAB0)
+#. Performing ', Cancel'
+#. Performing 'remoteAdd, Add...'
+#. Showing dialog 3 (@33F349AE) '@7D4D65F5 - Add Remote Repository' (owner: @332BCAB0)
+#. Performing ', Add'
+#. Showing dialog 4 (@342A1F84) '@3FC1ABF - Command Failed' (owner: @332BCAB0)
+#, fuzzy
+msgctxt "dlgSgOutput.lbl:"
+msgid "unable to access '$1': Could not resolve host: $2"
+msgstr ""
+
+# TODO: review
+#. Performing ', Cancel'
+#. Performing 'remoteAdd, Add...'
+#. Showing dialog 3 (@33F349AE) '@7D4D65F5 - Add Remote Repository' (owner: @332BCAB0)
+#. Performing ', Add'
+#. Showing dialog 4 (@342A1F84) '@3FC1ABF - Command Failed' (owner: @332BCAB0)
+#. Performing ', Close'
+#. Performing 'remoteAdd, Add...'
+#. Showing dialog 5 (@28BD5015) '@2E159116 - Add Remote Repository' (owner: @332BCAB0)
+#. Performing ', Add'
+#. Showing dialog 6 (@2F9ADDD4) '@1C43DF76 - Command Failed' (owner: @332BCAB0)
+#, fuzzy
+msgctxt "dlgSgOutput.lbl:"
+msgid "unable to access '$1': server certificate verification failed. CAfile: $2 CRLfile: $3"
+msgstr ""
+
 msgctxt "dlgSgOutput.mni:"
 msgid "Copy Selection"
 msgstr ""
