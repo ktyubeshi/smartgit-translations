@@ -1114,13 +1114,17 @@ msgctxt "dlgScEvaluationReminderContinue.btn:"
 msgid "Register"
 msgstr ""
 
-#. opening smartgit.byM@52B30054:SmartGit 24.1.3 Evaluation until Jun 27 (smartgit.byM@F9CAB00)
-#. Showing dialog 0 (@44EB2452) '@402D6012 - Evaluation' (owner: @F9CAB00)
+# TODO: Review
+# We need to verify whether the placeholder replacement is appropriate.
+#
+# msgctxt "dlgScEvaluationReminderContinue.fur"
+# msgid "To use SmartGit, you will have to register a license file.\\n\\nIn a commercial environment you need to \\[https://www.syntevo.com/smartgit/purchase?evaluationReminderNotification purchase a license\\].\\n\\nFor \\[https://www.syntevo.com/register-non-commercial/?evaluationReminderNotification certain uses\\] we grant free licenses."
+# 
+#. Showing dialog 0 (@526B2F3E) '@32E652B6 - Passwords' (owner: null)
+#. Performing ', OK'
+#. opening smartgit.byM@44CCD75C:SmartGit 24.1.3 Evaluation until Jun 27 (smartgit.byM@51AB1EE3)
+#. Showing dialog 1 (@62B0BF85) '@68E47E7 - Evaluation' (owner: @51AB1EE3)
 #, fuzzy
-msgctxt "dlgScEvaluationReminderContinue.fur"
-msgid "To use SmartGit, you will have to register a license file.\\n\\nIn a commercial environment you need to \\[https://www.syntevo.com/smartgit/purchase?evaluationReminderNotification purchase a license\\].\\n\\nFor \\[https://www.syntevo.com/register-non-commercial/?evaluationReminderNotification certain uses\\] we grant free licenses."
-msgstr ""
-
 msgctxt "dlgScEvaluationReminderContinue.fur%2"
 msgid "To use SmartGit in a commercial environment, you will have to \\[$1 purchase a license\\].\\n\\nFor \\[$2 certain uses\\] we grant free licenses."
 msgstr ""
@@ -2319,8 +2323,20 @@ msgctxt "dlgSgAbortRebasingConfirm.btn:"
 msgid "Abort Rebase"
 msgstr ""
 
+# Issue
+#. Performing ', Modify Pushed Commits'
+#. Showing dialog 10 (@277BC3A5) '@214FBA74 - Edit Message' (owner: @77AB22BE)
+#. Performing ', From Failed Command'
+#. Showing dialog 11 (@20890A1A) '@70A24F9 - Edit Message' (owner: @77AB22BE)
+#. Performing ', Set Message'
+#. Showing dialog 12 (@F76872F) '@2D4E99DE - Command Failed' (owner: @77AB22BE)
+#. Performing ', Close'
+#. Performing ', Abort'
+#. Performing 'branchAbort, Abort'
+#. Showing dialog 13 (@1851C7D2) '@38DBEB39 - Abort' (owner: @77AB22BE)
+#| msgid "Your working tree is in 'rebasing' state. You may abort rebasing; if you just want to skip the current patch, use Branch \\| Rebase \\| Rebase instead.\\n\\nAborting will clean any local modification \\(by invoking 'git rebase --abort'\\)!"
 msgctxt "dlgSgAbortRebasingConfirm.fur"
-msgid "Your working tree is in 'rebasing' state. You may abort rebasing; if you just want to skip the current patch, use Branch \\| Rebase \\| Rebase instead.\\n\\nAborting will clean any local modification \\(by invoking 'git rebase --abort'\\)!"
+msgid "Your working tree is in 'rebasing' state. You may abort rebasing; if you just want to skip the current patch, use \\u30d6\\u30e9\\u30f3\\u30c1 \\| \\u30ea\\u30d9\\u30fc\\u30b9 \\| \\u30ea\\u30d9\\u30fc\\u30b9 instead.\\n\\nAborting will clean any local modification \\(by invoking 'git rebase --abort'\\)!"
 msgstr ""
 
 msgctxt "dlgSgAbortRebasingConfirm.hdl"
@@ -2841,8 +2857,9 @@ msgctxt "dlgSgBranchTrackingResetConfirm.tle"
 msgid "Stop Tracking"
 msgstr ""
 
+#| msgid "Configure"
 msgctxt "dlgSgBranchTrackingSetConfirm.btn:"
-msgid "Configure"
+msgid "Configure Features"
 msgstr ""
 
 msgctxt "dlgSgBranchTrackingSetConfirm.fur"
@@ -3073,8 +3090,19 @@ msgctxt "dlgSgCherryPickConfirmation.chk"
 msgid "Append source commit ID to commit message"
 msgstr ""
 
+#. Performing ',   sgpo_Format po file'
+#. Performing 'viewUnchanged, Show Unchanged Files, If selected, unchanged files will be shown.'
+#. Performing 'unstage, Unstage, Remove staged changes from index.'
+#. Performing 'discard, Discard..., Discard local changes.'
+#. Showing dialog 3 (@2FCE8243) '@52FE87E0 - Discard' (owner: @5A034157)
+#. Performing ', Discard'
+#. Performing 'viewUnchanged, Show Unchanged Files, If selected, unchanged files will be shown.'
+#. Performing ',   sgpo_Format po file'
+#. Performing 'cherryPick, Cherry-Pick..., Cherry-pick commits from other branches.'
+#. Showing dialog 4 (@20276412) '@A70DAF4 - Cherry-Pick' (owner: @5A034157)
+#| msgid "This will cherry-pick the selected commit into the Working Tree."
 msgctxt "dlgSgCherryPickConfirmation.fur"
-msgid "This will cherry-pick the selected commit into the Working Tree."
+msgid "This will cherry-pick the selected commits into the Working Tree."
 msgstr ""
 
 msgctxt "dlgSgCherryPickConfirmation.hdl"
@@ -3193,6 +3221,23 @@ msgctxt "dlgSgCleanNoFilesFound.tle"
 msgid "Clean Working Tree"
 msgstr ""
 
+#. Showing dialog 0 (@38830EA) '@1F67761B - Setup SmartGit 24.1.3' (owner: null)
+#. Performing ', Next >'
+#. Showing dialog 1 (@3B95A6DB) '@3BA0AE41 - Setup SmartGit 24.1.3' (owner: @38830EA)
+#. Performing ', Cancel'
+#. Performing ', Next >'
+#. Performing ', Next >'
+#. Performing ', Next >'
+#. Performing ', Next >'
+#. Performing ', Finish'
+#| msgid "Configure"
+msgctxt "dlgSgClone.btn:"
+msgid "Configure Features"
+msgstr ""
+
+#. opening smartgit.byM@BF2AA32:SmartGit 24.1.3 Evaluation until Jul 18 (smartgit.byM@BA17BE6)
+#. Performing 'repositoryClone, Clone..., Clone a new repository.'
+#. Showing dialog 0 (@63C99F7) '@3C07E830 - Clone' (owner: @BA17BE6)
 msgctxt "dlgSgClone.btn:"
 msgid "Configure"
 msgstr ""
@@ -4170,8 +4215,19 @@ msgctxt "dlgSgDiscardRevertTo(Head|Index).tle"
 msgid "Discard"
 msgstr ""
 
+#. Performing 'submoduleRegister, Add...'
+#. Showing dialog 4 (@37F71C05) '@5BD3CA3C - Add Submodule' (owner: @36AA52D2)
+#. Performing ', Next >'
+#. Performing ', Finish'
+#. Showing dialog 5 (@4449A60B) '@DA5D5E1 - Command Failed' (owner: @36AA52D2)
+#. Performing ', Close'
+#. Performing 'submoduleRegister, Add...'
+#. Showing dialog 6 (@49E62B17) '@288409F0 - Add Submodule' (owner: @36AA52D2)
+#. Performing ', Next >'
+#. Showing dialog 7 (@2B9D4B0) '@4F541E67 - Command Failed' (owner: @49E62B17)
+#| msgid "Server returned HTTP response code: 400 for URL: https://gitlab.com/oauth/token"
 msgctxt "dlgSgErrorUtilsClientException.fur"
-msgid "Server returned HTTP response code: 400 for URL: https://gitlab.com/oauth/token"
+msgid "Repository '../mcp-server-gen2' is not valid."
 msgstr ""
 
 msgctxt "dlgSgErrorUtilsClientException.fur:"
@@ -4238,10 +4294,44 @@ msgctxt "dlgSgFileCompareInvokerFailedIO.hdl%1"
 msgid "'$1' could not be invoked."
 msgstr ""
 
+#. Showing dialog 0 (@38830EA) '@1F67761B - Setup SmartGit 24.1.3' (owner: null)
+#. Performing ', Next >'
+#. Showing dialog 1 (@3B95A6DB) '@3BA0AE41 - Setup SmartGit 24.1.3' (owner: @38830EA)
+#. Performing ', Cancel'
+#. Performing ', Next >'
+#. Performing ', Next >'
+#. Performing ', Next >'
+#. Performing ', Next >'
+#. Performing ', Finish'
+#| msgid "Open"
 msgctxt "dlgSgFileCompareInvokerFailedIO.tle"
-msgid "Open"
+msgid "Open from Working Tree"
 msgstr ""
 
+#. Showing dialog 0 (@38830EA) '@1F67761B - Setup SmartGit 24.1.3' (owner: null)
+#. Performing ', Next >'
+#. Showing dialog 1 (@3B95A6DB) '@3BA0AE41 - Setup SmartGit 24.1.3' (owner: @38830EA)
+#. Performing ', Cancel'
+#. Performing ', Next >'
+#. Performing ', Next >'
+#. Performing ', Next >'
+#. Performing ', Next >'
+#. Performing ', Finish'
+#| msgid "Open"
+msgctxt "dlgSgFileCompareNoChanges.btn:"
+msgid "Open from Working Tree"
+msgstr ""
+
+#. Performing '@smartgit.byU'
+#. Performing '@smartgit.byU'
+#. Performing '@smartgit.byU'
+#. Performing 'fetch, Pull..., Fetch commits from a remote repository and (optionally) integrate them with possible local commits.'
+#. Showing dialog 0 (@704C3BDF) '@43FD77D8 - Pull' (owner: @1E3E1014)
+#. Performing ', Pull'
+#. Showing dialog 1 (@5AF38A4A) '@1BE77A76 - Passwords' (owner: null)
+#. Performing ', OK'
+#. Performing 'showChanges, Show Changes, Open the file compare for the selected file.'
+#. Showing dialog 2 (@4D065E1A) '@6DBBDF92 - File Compare' (owner: @1E3E1014)
 msgctxt "dlgSgFileCompareNoChanges.btn:"
 msgid "Open"
 msgstr ""
@@ -5199,6 +5289,76 @@ msgctxt "dlgSgHistoryEditAuthor.tle"
 msgid "Edit Author"
 msgstr ""
 
+#. Showing dialog 12 (@F76872F) '@2D4E99DE - Command Failed' (owner: @77AB22BE)
+#. Performing ', Close'
+#. Performing ', Abort'
+#. Performing 'branchAbort, Abort'
+#. Showing dialog 13 (@1851C7D2) '@38DBEB39 - Abort' (owner: @77AB22BE)
+#. Performing ', Abort Rebase'
+#. Performing 'editCommitMessage, Edit Message...'
+#. Showing dialog 14 (@269308CC) '@177DDD24 - Edit Message' (owner: @77AB22BE)
+#. Performing ', Modify Pushed Commits'
+#. Showing dialog 15 (@2C0DCA15) '@5560B64D - Edit Message' (owner: @77AB22BE)
+msgctxt "dlgSgHistoryEditChooseCommitMessage.btn:"
+msgid "From Commit"
+msgstr ""
+
+#. Showing dialog 12 (@F76872F) '@2D4E99DE - Command Failed' (owner: @77AB22BE)
+#. Performing ', Close'
+#. Performing ', Abort'
+#. Performing 'branchAbort, Abort'
+#. Showing dialog 13 (@1851C7D2) '@38DBEB39 - Abort' (owner: @77AB22BE)
+#. Performing ', Abort Rebase'
+#. Performing 'editCommitMessage, Edit Message...'
+#. Showing dialog 14 (@269308CC) '@177DDD24 - Edit Message' (owner: @77AB22BE)
+#. Performing ', Modify Pushed Commits'
+#. Showing dialog 15 (@2C0DCA15) '@5560B64D - Edit Message' (owner: @77AB22BE)
+msgctxt "dlgSgHistoryEditChooseCommitMessage.btn:"
+msgid "From Failed Command"
+msgstr ""
+
+#. Showing dialog 12 (@F76872F) '@2D4E99DE - Command Failed' (owner: @77AB22BE)
+#. Performing ', Close'
+#. Performing ', Abort'
+#. Performing 'branchAbort, Abort'
+#. Showing dialog 13 (@1851C7D2) '@38DBEB39 - Abort' (owner: @77AB22BE)
+#. Performing ', Abort Rebase'
+#. Performing 'editCommitMessage, Edit Message...'
+#. Showing dialog 14 (@269308CC) '@177DDD24 - Edit Message' (owner: @77AB22BE)
+#. Performing ', Modify Pushed Commits'
+#. Showing dialog 15 (@2C0DCA15) '@5560B64D - Edit Message' (owner: @77AB22BE)
+msgctxt "dlgSgHistoryEditChooseCommitMessage.fur"
+msgid "A previous Edit Message command invocation failed for this commit. Decide whether to use the commit message from the failed run or the commit's message."
+msgstr ""
+
+#. Showing dialog 12 (@F76872F) '@2D4E99DE - Command Failed' (owner: @77AB22BE)
+#. Performing ', Close'
+#. Performing ', Abort'
+#. Performing 'branchAbort, Abort'
+#. Showing dialog 13 (@1851C7D2) '@38DBEB39 - Abort' (owner: @77AB22BE)
+#. Performing ', Abort Rebase'
+#. Performing 'editCommitMessage, Edit Message...'
+#. Showing dialog 14 (@269308CC) '@177DDD24 - Edit Message' (owner: @77AB22BE)
+#. Performing ', Modify Pushed Commits'
+#. Showing dialog 15 (@2C0DCA15) '@5560B64D - Edit Message' (owner: @77AB22BE)
+msgctxt "dlgSgHistoryEditChooseCommitMessage.hdl"
+msgid "Which commit message you like to use?"
+msgstr ""
+
+#. Performing ', Set Message'
+#. Showing dialog 12 (@F76872F) '@2D4E99DE - Command Failed' (owner: @77AB22BE)
+#. Performing ', Close'
+#. Performing ', Abort'
+#. Performing 'branchAbort, Abort'
+#. Showing dialog 13 (@1851C7D2) '@38DBEB39 - Abort' (owner: @77AB22BE)
+#. Performing ', Abort Rebase'
+#. Performing 'editCommitMessage, Edit Message...'
+#. Showing dialog 14 (@269308CC) '@177DDD24 - Edit Message' (owner: @77AB22BE)
+#. Performing ', Modify Pushed Commits'
+msgctxt "dlgSgHistoryEditChooseCommitMessage.tle"
+msgid "Edit Message"
+msgstr ""
+
 msgctxt "dlgSgHistoryEditMessage.btn:"
 msgid "JIRA"
 msgstr ""
@@ -5347,15 +5507,15 @@ msgctxt "dlgSgHistoryPushedCommitsModifyPushedCommits.hdl"
 msgid "Do you want to modify commits which are already pushed?"
 msgstr ""
 
-#. Performing ', Push'
-#. Showing dialog 25 (@1812BA7F) '@16704703 - Push' (owner: @7793B55D)
-#. Performing ', Force Push'
-#. Performing 'goto-next-diff, Next Change, Go to next change.'
-#. Performing 'goto-next-diff, Next Change, Go to next change.'
-#. Performing '@smartgit.byU'
-#. Performing 'fetch, Pull..., Fetch commits from a remote repository and (optionally) integrate them with possible local commits.'
-#. Showing dialog 26 (@36AB2C76) '@16A151BA - Pull' (owner: @7793B55D)
-#. Performing ', Pull'
+#. Performing ', Edit...'
+#. Showing dialog 44 (@43F3EE3) '@DFBBFB0 - Edit' (owner: @612DEAB0)
+#. Performing ', Open file chooser.'
+#. Performing ', OK'
+#. Performing ', Edit...'
+#. Showing dialog 45 (@5F753365) '@6C77A801 - Edit' (owner: @612DEAB0)
+#. Performing ', Open file chooser.'
+#. Performing ', OK'
+#. Performing ', OK'
 #. Performing 'editCommitAuthor, Edit Author...'
 #, fuzzy
 msgctxt "dlgSgHistoryPushedCommitsModifyPushedCommits.tle:"
@@ -6608,6 +6768,48 @@ msgctxt "dlgSgOutput.lbl:"
 msgid "Command Discard failed!"
 msgstr ""
 
+#. Performing '@smartgit.byU'
+#. Performing '@smartgit.byU'
+#. Performing '@smartgit.byU'
+#. Performing ', Check Out'
+#. Showing dialog 11 (@5FBBE7AA) '@7046BEA1 - Check Out' (owner: @5A034157)
+#. Performing ', Checkout'
+#. Performing 'discard, Discard..., Discard local changes.'
+#. Showing dialog 12 (@76C7D221) '@5FFA7938 - Discard' (owner: @5A034157)
+#. Performing ', Discard'
+#. Showing dialog 13 (@617FF78F) '@25EBBB3E - Command Output' (owner: @5A034157)
+msgctxt "dlgSgOutput.lbl:"
+msgid "Command Discard produced warnings."
+msgstr ""
+
+#. Performing 'submoduleRegister, Add...'
+#. Showing dialog 10 (@49654A35) '@5169DB2F - Add Submodule' (owner: @36AA52D2)
+#. Performing ', Finish'
+#. Performing 'repositorySettings, Settings...'
+#. Showing dialog 11 (@7BF16972) '@EEE26BD - Repository Settings' (owner: @36AA52D2)
+#. Performing ', OK'
+#. Performing 'editCommitAuthor, Edit Author...'
+#. Showing dialog 12 (@6DDBBFBB) '@3F22CE2A - Edit Author' (owner: @36AA52D2)
+#. Performing ', Set Author'
+#. Showing dialog 13 (@4281A26F) '@726E29D - Command Output' (owner: @36AA52D2)
+msgctxt "dlgSgOutput.lbl:"
+msgid "Command Edit Author produced warnings."
+msgstr ""
+
+#. Showing dialog 13 (@1851C7D2) '@38DBEB39 - Abort' (owner: @77AB22BE)
+#. Performing ', Abort Rebase'
+#. Performing 'editCommitMessage, Edit Message...'
+#. Showing dialog 14 (@269308CC) '@177DDD24 - Edit Message' (owner: @77AB22BE)
+#. Performing ', Modify Pushed Commits'
+#. Showing dialog 15 (@2C0DCA15) '@5560B64D - Edit Message' (owner: @77AB22BE)
+#. Performing ', From Commit'
+#. Showing dialog 16 (@52856FF9) '@5AA7CFDF - Edit Message' (owner: @77AB22BE)
+#. Performing ', Set Message'
+#. Showing dialog 17 (@704C3BDF) '@37986DAF - Command Failed' (owner: @77AB22BE)
+msgctxt "dlgSgOutput.lbl:"
+msgid "Command Edit Message failed!"
+msgstr ""
+
 msgctxt "dlgSgOutput.lbl:"
 msgid "Command Fetch Pull Request produced warnings."
 msgstr ""
@@ -6636,6 +6838,20 @@ msgctxt "dlgSgOutput.lbl:"
 msgid "Command Move produced warnings."
 msgstr ""
 
+#. Performing '@smartgit.byU'
+#. Performing 'editCommitMessage, Edit Message...'
+#. Showing dialog 15 (@66AB3716) '@103A1AD3 - Edit Message' (owner: @3A8D467E)
+#. Performing ', Modify Pushed Commits'
+#. Showing dialog 16 (@530EE11A) '@54D116D5 - Edit Message' (owner: @3A8D467E)
+#. Performing ', Set Message'
+#. Performing 'fetch, Pull..., Fetch commits from a remote repository and (optionally) integrate them with possible local commits.'
+#. Showing dialog 17 (@5180F430) '@FD07138 - Pull' (owner: @3A8D467E)
+#. Performing ', Pull'
+#. Showing dialog 18 (@643BEF2A) '@7225583D - Command Failed' (owner: @3A8D467E)
+msgctxt "dlgSgOutput.lbl:"
+msgid "Command Pull \\(Merge\\) failed!"
+msgstr ""
+
 msgctxt "dlgSgOutput.lbl:"
 msgid "Command Pull \\(Merge\\) produced warnings."
 msgstr ""
@@ -6650,6 +6866,38 @@ msgstr ""
 
 msgctxt "dlgSgOutput.lbl:"
 msgid "Command Push failed!"
+msgstr ""
+
+# Needs review (Place holder)
+# msgid "Command Rebase HEAD \\(pot-wip/v24.1-wsl\\) to 4d7f618e failed!"
+#. Performing ', Abort Rebase'
+#. Performing 'rebaseHeadTo, Rebase..., Apply commits from your current branch to the selected commit.'
+#. Showing dialog 41 (@718DF0C7) '@3C4570F4 - Rebase HEAD to Selected Commit' (owner: @16A35BD)
+#. Performing ', Rebase HEAD to'
+#. Showing dialog 42 (@39D602D8) '@128C81EF - Command Output' (owner: @16A35BD)
+#. Performing ', Close'
+#. Performing 'rebaseHeadTo, Rebase..., Apply commits from your current branch to the selected commit.'
+#. Showing dialog 43 (@2D583F20) '@3E971BD5 - Rebase HEAD to Selected Commit' (owner: @16A35BD)
+#. Performing ', Rebase HEAD to'
+#. Showing dialog 44 (@747F6990) '@62ECECB1 - Command Failed' (owner: @16A35BD)
+msgctxt "dlgSgOutput.lbl:"
+msgid "Command Rebase HEAD \\($1\\) to $2 failed!"
+msgstr ""
+
+# Needs review (Place holder)
+# msgid "Command Rebase HEAD \\(pot-wip/v24.1-wsl\\) to 79193904 produced warnings."
+#. Showing dialog 39 (@169043E3) '@2A428E3B - Command Failed' (owner: @16A35BD)
+#. Performing ', Close'
+#. Performing ', Abort'
+#. Performing 'branchAbort, Abort'
+#. Showing dialog 40 (@229D81E3) '@51CA6673 - Abort' (owner: @16A35BD)
+#. Performing ', Abort Rebase'
+#. Performing 'rebaseHeadTo, Rebase..., Apply commits from your current branch to the selected commit.'
+#. Showing dialog 41 (@718DF0C7) '@3C4570F4 - Rebase HEAD to Selected Commit' (owner: @16A35BD)
+#. Performing ', Rebase HEAD to'
+#. Showing dialog 42 (@39D602D8) '@128C81EF - Command Output' (owner: @16A35BD)
+msgctxt "dlgSgOutput.lbl:"
+msgid "Command Rebase HEAD \\($1\\) to $2 produced warnings."
 msgstr ""
 
 msgctxt "dlgSgOutput.lbl:"
@@ -6730,6 +6978,38 @@ msgstr ""
 
 msgctxt "dlgSgOutput.lbl:"
 msgid "Your local changes to the following files would be overwritten by checkout:\\ncould not detach HEAD"
+msgstr ""
+
+# Needs Review
+#. Showing dialog 1 (@504B8705) '@6501B105 - Passwords' (owner: null)
+#. Performing ', OK'
+#. Performing '@smartgit.byU'
+#. Performing 'repositoryRename, Rename...'
+#. Showing dialog 2 (@24FC2C80) '@1BBB42B4 - Rename' (owner: @332BCAB0)
+#. Performing ', Cancel'
+#. Performing 'remoteAdd, Add...'
+#. Showing dialog 3 (@33F349AE) '@7D4D65F5 - Add Remote Repository' (owner: @332BCAB0)
+#. Performing ', Add'
+#. Showing dialog 4 (@342A1F84) '@3FC1ABF - Command Failed' (owner: @332BCAB0)
+#, fuzzy
+msgctxt "dlgSgOutput.lbl:"
+msgid "unable to access '$1': Could not resolve host: $2"
+msgstr ""
+
+# TODO: review
+#. Performing ', Cancel'
+#. Performing 'remoteAdd, Add...'
+#. Showing dialog 3 (@33F349AE) '@7D4D65F5 - Add Remote Repository' (owner: @332BCAB0)
+#. Performing ', Add'
+#. Showing dialog 4 (@342A1F84) '@3FC1ABF - Command Failed' (owner: @332BCAB0)
+#. Performing ', Close'
+#. Performing 'remoteAdd, Add...'
+#. Showing dialog 5 (@28BD5015) '@2E159116 - Add Remote Repository' (owner: @332BCAB0)
+#. Performing ', Add'
+#. Showing dialog 6 (@2F9ADDD4) '@1C43DF76 - Command Failed' (owner: @332BCAB0)
+#, fuzzy
+msgctxt "dlgSgOutput.lbl:"
+msgid "unable to access '$1': server certificate verification failed. CAfile: $2 CRLfile: $3"
 msgstr ""
 
 msgctxt "dlgSgOutput.mni:"
@@ -8236,8 +8516,9 @@ msgctxt "dlgSgPull.tle"
 msgid "Pull"
 msgstr ""
 
+#| msgid "Configure"
 msgctxt "dlgSgPullConfiguration.btn:"
-msgid "Configure"
+msgid "Configure Features"
 msgstr ""
 
 msgctxt "dlgSgPullConfiguration.chk:"
@@ -9450,6 +9731,17 @@ msgctxt "dlgSgRenameBranch.edt:"
 msgid "Name"
 msgstr ""
 
+#. opening smartgit.byM@7A1371:SmartGit 24.1.3 Evaluation until Jun 27 (smartgit.byM@60C73E58)
+#. Performing 'worktreeAdd, Add Worktree...'
+#. Showing dialog 0 (@4FA8BEBB) '@18D610E1 - Add Worktree' (owner: @60C73E58)
+#. Performing ', OK'
+#. opening smartgit.byM@3CE7490A:SmartGit 24.1.3 Evaluation until Jun 27 (smartgit.byM@2F99D8C)
+#. Performing ', Rename...'
+#. Showing dialog 1 (@40AC0A56) '@2B6B487C - Rename' (owner: @2F99D8C)
+msgctxt "dlgSgRenameBranch.err:"
+msgid "The name must not end with a slash or dot."
+msgstr ""
+
 msgctxt "dlgSgRenameBranch.hdl"
 msgid "Rename branch"
 msgstr ""
@@ -10565,12 +10857,27 @@ msgctxt "dlgSgSetup.chk:"
 msgid "Send usage statistics"
 msgstr ""
 
+#. Showing dialog 0 (@38830EA) '@1F67761B - Setup SmartGit 24.1.3' (owner: null)
+msgctxt "dlgSgSetup.chk\"Use SmartGit for authentication \\(ignoring your current credential.helper configuration\\)\""
+msgid "Use SmartGit for authentication \\(ignoring your current credential.helper configuration\\)"
+msgstr ""
+
 msgctxt "dlgSgSetup.chk:"
 msgid "Use gravatar.com to show images for the users"
 msgstr ""
 
 msgctxt "dlgSgSetup.edt:"
 msgid "Email"
+msgstr ""
+
+#. Showing dialog 0 (@38830EA) '@1F67761B - Setup SmartGit 24.1.3' (owner: null)
+msgctxt "dlgSgSetup.edt:"
+msgid "Full Name"
+msgstr ""
+
+#. Showing dialog 0 (@38830EA) '@1F67761B - Setup SmartGit 24.1.3' (owner: null)
+msgctxt "dlgSgSetup.edt:"
+msgid "Git Email"
 msgstr ""
 
 msgctxt "dlgSgSetup.edt:"
@@ -10593,8 +10900,67 @@ msgctxt "dlgSgSetup.edt:"
 msgid "User Name"
 msgstr ""
 
+#. Showing dialog 0 (@38830EA) '@1F67761B - Setup SmartGit 24.1.3' (owner: null)
+#. Performing ', Next >'
+#. Showing dialog 1 (@3B95A6DB) '@3BA0AE41 - Setup SmartGit 24.1.3' (owner: @38830EA)
+#. Performing ', Cancel'
+#. Performing ', Next >'
+msgctxt "dlgSgSetup.hdl:"
+msgid "Git Executable"
+msgstr ""
+
+#. Showing dialog 0 (@38830EA) '@1F67761B - Setup SmartGit 24.1.3' (owner: null)
+#. Performing ', Next >'
+#. Showing dialog 1 (@3B95A6DB) '@3BA0AE41 - Setup SmartGit 24.1.3' (owner: @38830EA)
+#. Performing ', Cancel'
+#. Performing ', Next >'
+#. Performing ', Next >'
+#. Performing ', Next >'
+msgctxt "dlgSgSetup.hdl:"
+msgid "License"
+msgstr ""
+
+#. Showing dialog 0 (@38830EA) '@1F67761B - Setup SmartGit 24.1.3' (owner: null)
+#. Performing ', Next >'
+#. Showing dialog 1 (@3B95A6DB) '@3BA0AE41 - Setup SmartGit 24.1.3' (owner: @38830EA)
+#. Performing ', Cancel'
+#. Performing ', Next >'
+#. Performing ', Next >'
+#. Performing ', Next >'
+#. Performing ', Next >'
+msgctxt "dlgSgSetup.hdl:"
+msgid "Privacy"
+msgstr ""
+
+#. Showing dialog 0 (@38830EA) '@1F67761B - Setup SmartGit 24.1.3' (owner: null)
+msgctxt "dlgSgSetup.hdl:"
+msgid "Style"
+msgstr ""
+
+#. Showing dialog 0 (@38830EA) '@1F67761B - Setup SmartGit 24.1.3' (owner: null)
+#. Performing ', Next >'
+#. Showing dialog 1 (@3B95A6DB) '@3BA0AE41 - Setup SmartGit 24.1.3' (owner: @38830EA)
+#. Performing ', Cancel'
+#. Performing ', Next >'
+#. Performing ', Next >'
+msgctxt "dlgSgSetup.hdl:"
+msgid "User Information"
+msgstr ""
+
 msgctxt "dlgSgSetup.inf:"
 msgid "If you are using SSH to connect to other Git repositories, select what SSH client to use. You can change it later in the Preferences."
+msgstr ""
+
+#. Showing dialog 0 (@38830EA) '@1F67761B - Setup SmartGit 24.1.3' (owner: null)
+#. Performing ', Next >'
+#. Showing dialog 1 (@3B95A6DB) '@3BA0AE41 - Setup SmartGit 24.1.3' (owner: @38830EA)
+#. Performing ', Cancel'
+#. Performing ', Next >'
+#. Performing ', Next >'
+#. Performing ', Next >'
+#. Performing ', Next >'
+msgctxt "dlgSgSetup.inf:"
+msgid "Please review the following privacy options. You can change them later in the Preferences."
 msgstr ""
 
 msgctxt "dlgSgSetup.inf:"
@@ -10611,6 +10977,16 @@ msgstr ""
 
 msgctxt "dlgSgSetup.inf:"
 msgid "User name and email will be stored as part of your commits. Here you can configure the default values which are stored in .gitconfig."
+msgstr ""
+
+#. Showing dialog 0 (@38830EA) '@1F67761B - Setup SmartGit 24.1.3' (owner: null)
+#. Performing ', Next >'
+#. Showing dialog 1 (@3B95A6DB) '@3BA0AE41 - Setup SmartGit 24.1.3' (owner: @38830EA)
+#. Performing ', Cancel'
+#. Performing ', Next >'
+#. Performing ', Next >'
+msgctxt "dlgSgSetup.inf:"
+msgid "User name and email will be stored as part of your commits. Here you can configure the default values which are stored in ~/.gitconfig."
 msgstr ""
 
 msgctxt "dlgSgSetup.inf:"
@@ -10677,6 +11053,11 @@ msgctxt "dlgSgSetup.lbl:"
 msgid "may be harder to configure and use for new users, but is more flexible"
 msgstr ""
 
+#. Showing dialog 0 (@38830EA) '@1F67761B - Setup SmartGit 24.1.3' (owner: null)
+msgctxt "dlgSgSetup.rbt:"
+msgid "Bundled Git"
+msgstr ""
+
 msgctxt "dlgSgSetup.rbt:"
 msgid "Commits \\(Log History\\)"
 msgstr ""
@@ -10691,6 +11072,11 @@ msgstr ""
 
 msgctxt "dlgSgSetup.rbt:"
 msgid "Non-commercial use only \\(most features, no support\\)"
+msgstr ""
+
+#. Showing dialog 0 (@38830EA) '@1F67761B - Setup SmartGit 24.1.3' (owner: null)
+msgctxt "dlgSgSetup.rbt:"
+msgid "Other Git Executable:"
 msgstr ""
 
 msgctxt "dlgSgSetup.rbt:"
@@ -10717,6 +11103,10 @@ msgctxt "dlgSgSetup.rbt:"
 msgid "Working tree \\(file oriented\\)"
 msgstr ""
 
+msgctxt "dlgSgSetup.tle"
+msgid "Setup SmartGit 24.1.3"
+msgstr ""
+
 msgctxt "dlgSgSetup.tle:"
 msgid "Setup SmartGit $1"
 msgstr ""
@@ -10729,8 +11119,12 @@ msgctxt "dlgSgSetupStdWnd.btn:"
 msgid "Use Standard Window"
 msgstr ""
 
+#. Showing dialog 0 (@38830EA) '@1F67761B - Setup SmartGit 24.1.3' (owner: null)
+#. Performing ', Next >'
+#. Showing dialog 1 (@3B95A6DB) '@3BA0AE41 - Setup SmartGit 24.1.3' (owner: @38830EA)
+#| msgid "We recommend the Standard window for \\*new or less experienced Git users\\*.\\n\\nIf you have used older SmartGit versions, you might be surprised that the Standard window \\*looks different\\* than you are used to. In case you want to get the previous experience, consider to select the \\*Log Graph\\* or \\*Working Tree\\* window instead."
 msgctxt "dlgSgSetupStdWnd.fur"
-msgid "We recommend the Standard window for \\*new or less experienced Git users\\*.\\n\\nIf you have used older SmartGit versions, you might be surprised that the Standard window \\*looks different\\* than you are used to. In case you want to get the previous experience, consider to select the \\*Log Graph\\* or \\*Working Tree\\* window instead."
+msgid "We recommend the Standard window for \\*new SmartGit users\\*.\\n\\nIf you have used older SmartGit versions, you might be surprised that the Standard window \\*looks different\\* than you are used to. In case you want to get the previous experience, consider to select the \\*Log Graph\\* or \\*Working Tree\\* window instead."
 msgstr ""
 
 msgctxt "dlgSgSetupStdWnd.hdl"
@@ -11081,8 +11475,19 @@ msgctxt "dlgSgStashOnDemandConfirmation.hdl:"
 msgid "What to do with the working tree or Index changes?"
 msgstr ""
 
+#. Performing ', Copy...'
+#. Showing dialog 11 (@26C1F3EB) '@79982BCC - Add' (owner: @2E1C5D1F)
+#. Performing ', OK'
+#. Performing ', OK'
+#. Performing '@smartgit.byU'
+#. Performing 'editCommitMessage, Edit Message...'
+#. Showing dialog 12 (@727E61ED) '@2ECD2AA4 - Edit Message' (owner: @3A8D467E)
+#. Performing ', Modify Pushed Commits'
+#. Showing dialog 13 (@1360EF8D) '@4A1C14A6 - Edit Message' (owner: @3A8D467E)
+#. Performing ', Set Message'
+#| msgid "Reset"
 msgctxt "dlgSgStashOnDemandConfirmation.tle"
-msgid "Reset"
+msgid "Edit Message"
 msgstr ""
 
 msgctxt "dlgSgStashOnDemandConfirmation.tle:"
@@ -11201,12 +11606,78 @@ msgctxt "dlgSgSubmoduleAdd.err:"
 msgid "Directory '$1' already exists."
 msgstr ""
 
+#. Performing ', Cancel'
+#. Performing 'copyPath, Copy Path'
+#. Performing 'submoduleRegister, Add...'
+#. Showing dialog 4 (@37F71C05) '@5BD3CA3C - Add Submodule' (owner: @36AA52D2)
+#. Performing ', Next >'
+#. Performing ', Finish'
+#. Showing dialog 5 (@4449A60B) '@DA5D5E1 - Command Failed' (owner: @36AA52D2)
+#. Performing ', Close'
+#. Performing 'submoduleRegister, Add...'
+#. Showing dialog 6 (@49E62B17) '@288409F0 - Add Submodule' (owner: @36AA52D2)
+msgctxt "dlgSgSubmoduleAdd.err:"
+msgid "Please specify the URL of the remote repository or the path of the local repository that should be cloned."
+msgstr ""
+
 msgctxt "dlgSgSubmoduleAdd.err:"
 msgid "Please specify the URL of the remote repository to be cloned."
 msgstr ""
 
+#. Performing ', Cancel'
+#. Performing 'copyPath, Copy Path'
+#. Performing 'submoduleRegister, Add...'
+#. Showing dialog 4 (@37F71C05) '@5BD3CA3C - Add Submodule' (owner: @36AA52D2)
+#. Performing ', Next >'
+#. Performing ', Finish'
+#. Showing dialog 5 (@4449A60B) '@DA5D5E1 - Command Failed' (owner: @36AA52D2)
+#. Performing ', Close'
+#. Performing 'submoduleRegister, Add...'
+#. Showing dialog 6 (@49E62B17) '@288409F0 - Add Submodule' (owner: @36AA52D2)
+msgctxt "dlgSgSubmoduleAdd.err:"
+msgid "The specified directory is not the root of a repository."
+msgstr ""
+
+#. opening smartgit.byM@7B1A30E5:SmartGit 24.1.3 Evaluation until Jul 18 (smartgit.byM@42AAE04D)
+#. Performing 'repositoryAdd, Add or Create..., Add or create a new repository.'
+#. Showing dialog 0 (@4AFDFC0F) '@297BD171 - Add or Create Repository' (owner: @42AAE04D)
+#. Performing ', OK'
+#. Showing dialog 1 (@39851C5) '@7C0DE229 - Add or Create Repository' (owner: @4AFDFC0F)
+#. Performing ', Initialize'
+#. Performing 'submoduleRegister, Add...'
+#. Showing dialog 2 (@305AAEDF) '@25FA6889 - Add Submodule' (owner: @42AAE04D)
+msgctxt "dlgSgSubmoduleAdd.hdl:"
+msgid "Path"
+msgstr ""
+
+#. opening smartgit.byM@7B1A30E5:SmartGit 24.1.3 Evaluation until Jul 18 (smartgit.byM@42AAE04D)
+#. Performing 'repositoryAdd, Add or Create..., Add or create a new repository.'
+#. Showing dialog 0 (@4AFDFC0F) '@297BD171 - Add or Create Repository' (owner: @42AAE04D)
+#. Performing ', OK'
+#. Showing dialog 1 (@39851C5) '@7C0DE229 - Add or Create Repository' (owner: @4AFDFC0F)
+#. Performing ', Initialize'
+#. Performing 'submoduleRegister, Add...'
+#. Showing dialog 2 (@305AAEDF) '@25FA6889 - Add Submodule' (owner: @42AAE04D)
+msgctxt "dlgSgSubmoduleAdd.hdl:"
+msgid "Repository"
+msgstr ""
+
 msgctxt "dlgSgSubmoduleAdd.hnt:"
 msgid "No repository found."
+msgstr ""
+
+#. opening smartgit.byM@1D283D1:SmartGit 24.1.3 Evaluation until Jul 18 (smartgit.byM@36AA52D2)
+#. Performing '@smartgit.byU'
+#. Performing 'submoduleRegister, Add...'
+#. Showing dialog 0 (@18DB3B3C) '@632C3F55 - Add Submodule' (owner: @36AA52D2)
+#. Showing dialog 1 (@26F5E45D) '@55C03E4 - Passwords' (owner: @18DB3B3C)
+#. Performing ', OK'
+#. Performing ', Cancel'
+#. Performing 'copyPath, Copy Path'
+#. Performing 'submoduleRegister, Add...'
+#. Showing dialog 2 (@25D0B918) '@9BF63D2 - Add Submodule' (owner: @36AA52D2)
+msgctxt "dlgSgSubmoduleAdd.hnt:"
+msgid "No repository matches the entered filter."
 msgstr ""
 
 msgctxt "dlgSgSubmoduleAdd.hnt:"
@@ -12633,6 +13104,20 @@ msgctxt "ttpRepositories:"
 msgid "<b>Tracked Branch:\\t</b>origin/master"
 msgstr ""
 
+#. Performing '@smartgit.byU'
+#. Performing '@smartgit.byU'
+#. Performing '@smartgit.byU'
+#. Performing '@smartgit.byU'
+#. Performing '@smartgit.byU'
+#. Performing 'remoteFetchAll, Fetch All, Fetch commits from all remote repositories.'
+#. Performing ', Reset HEAD to 'main''
+#. Performing '@smartgit.byU'
+#. Performing '@smartgit.byU'
+#. Performing '@smartgit.byU'
+msgctxt "ttpRepositories:"
+msgid "<b>Tracked Branch:\\t</b>origin/work_space"
+msgstr ""
+
 msgctxt "ttpRepositories:"
 msgid "<b>Tracking State:\\t</b>$1 commit behind"
 msgstr ""
@@ -13799,6 +14284,20 @@ msgstr ""
 
 msgctxt "wndLog.hnt:"
 msgid "No graph roots selected."
+msgstr ""
+
+#. Performing 'goto-next-diff, Next Change, Go to next change.'
+#. Performing 'changesView.sideBySide, Side by Side'
+#. Performing 'goto-next-diff, Next Change, Go to next change.'
+#. Performing 'goto-next-diff, Next Change, Go to next change.'
+#. Performing ',   sgpo_Import unknown'
+#. Performing ',   sgpo_Format po file'
+#. Performing ',   sgpo_Optimize_msgctxt'
+#. Performing 'goto-next-diff, Next Change, Go to next change.'
+#. Performing 'goto-next-diff, Next Change, Go to next change.'
+#. Performing 'goto-next-diff, Next Change, Go to next change.'
+msgctxt "wndLog.mni:"
+msgid "Select from GitHub"
 msgstr ""
 
 msgctxt "wndLog.mniFixCaseChange"
