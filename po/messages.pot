@@ -5339,6 +5339,40 @@ msgctxt "dlgSgGitLabSettingsInvalidToken.tle"
 msgid "Input Validation"
 msgstr ""
 
+#. opening smartgit.bDU@N23FXO:SmartGit 25.1 Preview Evaluation until Aug 2 (smartgit.bDU@CGQJ1R)
+#. Performing 'gitNoteAdd, Add Note...'
+#. Showing dialog 0 (@DRFWN6) '@6GSDJT - Add Note' (owner: @CGQJ1R)
+msgctxt "dlgSgGitNoteAdd.btn:"
+msgid "Add Note"
+msgstr ""
+
+#. opening smartgit.bDU@N23FXO:SmartGit 25.1 Preview Evaluation until Aug 2 (smartgit.bDU@CGQJ1R)
+#. Performing 'gitNoteAdd, Add Note...'
+#. Showing dialog 0 (@DRFWN6) '@6GSDJT - Add Note' (owner: @CGQJ1R)
+msgctxt "dlgSgGitNoteAdd.edt:"
+msgid "Category"
+msgstr ""
+
+#. opening smartgit.bDU@N23FXO:SmartGit 25.1 Preview Evaluation until Aug 2 (smartgit.bDU@CGQJ1R)
+#. Performing 'gitNoteAdd, Add Note...'
+#. Showing dialog 0 (@DRFWN6) '@6GSDJT - Add Note' (owner: @CGQJ1R)
+msgctxt "dlgSgGitNoteAdd.hdl"
+msgid "Add a note to a commit"
+msgstr ""
+
+#. opening smartgit.bDU@N23FXO:SmartGit 25.1 Preview Evaluation until Aug 2 (smartgit.bDU@CGQJ1R)
+#. Performing 'gitNoteAdd, Add Note...'
+#. Showing dialog 0 (@DRFWN6) '@6GSDJT - Add Note' (owner: @CGQJ1R)
+msgctxt "dlgSgGitNoteAdd.inf"
+msgid "Provider the text which should be added to the selected commit."
+msgstr ""
+
+#. opening smartgit.bDU@N23FXO:SmartGit 25.1 Preview Evaluation until Aug 2 (smartgit.bDU@CGQJ1R)
+#. Performing 'gitNoteAdd, Add Note...'
+msgctxt "dlgSgGitNoteAdd.tle"
+msgid "Add Note"
+msgstr ""
+
 msgctxt "dlgSgHeadMessageListenerReplaceMessage.btn:"
 msgid "Don't Replace"
 msgstr ""
@@ -14851,6 +14885,11 @@ msgctxt "wndLog.mniFixCaseChange"
 msgid "Fix Case-Change"
 msgstr ""
 
+#. opening smartgit.bDU@N23FXO:SmartGit 25.1 Preview Evaluation until Aug 2 (smartgit.bDU@CGQJ1R)
+msgctxt "wndLog.mniGitNoteAdd"
+msgid "Add Note"
+msgstr ""
+
 # [decode] msgctxt "wndLog.tab"Graph \(Initializing Subtree-Cache…\)""
 # [decode] msgid "Graph \(Initializing Subtree-Cache…\)"
 #. opening smartgit.byM@135E49B2:SmartGit 24.1.3 (smartgit.byM@79D3473E)
@@ -14914,6 +14953,20 @@ msgctxt "wndProject.mni:"
 msgid "Log Selection"
 msgstr ""
 
+#. opening smartgit.bDU@N23FXO:SmartGit 25.1 Preview Evaluation until Aug 2 (smartgit.bDU@CGQJ1R)
+#. Performing 'gitNoteAdd, Add Note...'
+#. Showing dialog 0 (@DRFWN6) '@6GSDJT - Add Note' (owner: @CGQJ1R)
+#. Performing ', Cancel'
+#. Performing ',   unknownファイルをインポート'
+#. Performing ',   Format'
+#. Performing 'stage, Stage, Store working tree files in the index to prepare the next commit.'
+#. Performing 'newStandardWindow, Show Standard Window'
+#. opening smartgit.aBp@Q9QK31:null (smartgit.aBp@ZBTWYN)
+#. Performing 'windowWorkingTree, Show Working Tree Window'
+msgctxt "wndProject.mniFixCaseChange"
+msgid "Fix Case-Change"
+msgstr ""
+
 msgctxt "wndStd.btn:"
 msgid "Compare"
 msgstr ""
@@ -14942,6 +14995,18 @@ msgctxt "wndStd.hnt:"
 msgid "Commit files: select 1 commit\\nDiff between Commits: select 2 commits"
 msgstr ""
 
+#. opening smartgit.bDU@N23FXO:SmartGit 25.1 Preview Evaluation until Aug 2 (smartgit.bDU@CGQJ1R)
+#. Performing 'gitNoteAdd, Add Note...'
+#. Showing dialog 0 (@DRFWN6) '@6GSDJT - Add Note' (owner: @CGQJ1R)
+#. Performing ', Cancel'
+#. Performing ',   unknownファイルをインポート'
+#. Performing ',   Format'
+#. Performing 'stage, Stage, Store working tree files in the index to prepare the next commit.'
+#. Performing 'newStandardWindow, Show Standard Window'
+msgctxt "wndStd.hnt:"
+msgid "Filter by repository name or path"
+msgstr ""
+
 msgctxt "wndStd.hnt:"
 msgid "Loading ..."
 msgstr ""
@@ -14960,6 +15025,19 @@ msgstr ""
 #. Performing 'repositoryOpen, Open Repository'
 msgctxt "wndStd.hnt\"Loading \\u2026\""
 msgid "Loading \\u2026"
+msgstr ""
+
+#. opening smartgit.bDU@N23FXO:SmartGit 25.1 Preview Evaluation until Aug 2 (smartgit.bDU@CGQJ1R)
+#. Performing 'gitNoteAdd, Add Note...'
+#. Showing dialog 0 (@DRFWN6) '@6GSDJT - Add Note' (owner: @CGQJ1R)
+#. Performing ', Cancel'
+#. Performing ',   unknownファイルをインポート'
+#. Performing ',   Format'
+#. Performing 'stage, Stage, Store working tree files in the index to prepare the next commit.'
+#. Performing 'newStandardWindow, Show Standard Window'
+#. opening smartgit.aBp@Q9QK31:null (smartgit.aBp@ZBTWYN)
+msgctxt "wndStd.hnt:"
+msgid "No graph roots selected."
 msgstr ""
 
 msgctxt "wndStd.hnt:"
@@ -15000,6 +15078,20 @@ msgstr ""
 
 msgctxt "wndStd.mni:"
 msgid "All files, incl. ignored"
+msgstr ""
+
+#. Performing 'gitNoteAdd, Add Note...'
+#. Showing dialog 0 (@DRFWN6) '@6GSDJT - Add Note' (owner: @CGQJ1R)
+#. Performing ', Cancel'
+#. Performing ',   unknownファイルをインポート'
+#. Performing ',   Format'
+#. Performing 'stage, Stage, Store working tree files in the index to prepare the next commit.'
+#. Performing 'newStandardWindow, Show Standard Window'
+#. opening smartgit.aBp@Q9QK31:null (smartgit.aBp@ZBTWYN)
+#. Performing 'windowWorkingTree, Show Working Tree Window'
+#. opening smartgit.bMY@UJSN08:SmartGit 25.1 Preview (Working Tree) Evaluation until Aug 2 (smartgit.bMY@S4WW3Q) (index=0)
+msgctxt "wndStd.mni:"
+msgid "All my branches"
 msgstr ""
 
 msgctxt "wndStd.mni:"
@@ -15105,6 +15197,19 @@ msgstr ""
 
 msgctxt "wndStd.mniFixCaseChange"
 msgid "Fix Case-Change"
+msgstr ""
+
+#. opening smartgit.bDU@N23FXO:SmartGit 25.1 Preview Evaluation until Aug 2 (smartgit.bDU@CGQJ1R)
+#. Performing 'gitNoteAdd, Add Note...'
+#. Showing dialog 0 (@DRFWN6) '@6GSDJT - Add Note' (owner: @CGQJ1R)
+#. Performing ', Cancel'
+#. Performing ',   unknownファイルをインポート'
+#. Performing ',   Format'
+#. Performing 'stage, Stage, Store working tree files in the index to prepare the next commit.'
+#. Performing 'newStandardWindow, Show Standard Window'
+#. opening smartgit.aBp@Q9QK31:null (smartgit.aBp@ZBTWYN)
+msgctxt "wndStd.mniGitNoteAdd"
+msgid "Add Note"
 msgstr ""
 
 msgctxt "wndStd.mniIntegrateMain"
