@@ -7239,6 +7239,13 @@ msgctxt "dlgSgPreferences.btn:"
 msgid "Import"
 msgstr ""
 
+#. opening smartgit.bDU@DTQVOO:SmartGit 25.1 Preview Evaluation until Aug 2 (smartgit.bDU@GFESEP)
+#. Performing 'preferences, Preferences'
+#. Showing dialog 0 (@ETQKS7) '@WMN6GL - Preferences' (owner: @GFESEP)
+msgctxt "dlgSgPreferences.btn:"
+msgid "Load All Stored Secrets"
+msgstr ""
+
 msgctxt "dlgSgPreferences.btn:"
 msgid "Move Down"
 msgstr ""
@@ -7371,6 +7378,13 @@ msgctxt "dlgSgPreferences.chk:"
 msgid "Allow modifying pushed commits \\(e.g. forced-push\\)"
 msgstr ""
 
+#. opening smartgit.bDU@DTQVOO:SmartGit 25.1 Preview Evaluation until Aug 2 (smartgit.bDU@GFESEP)
+#. Performing 'preferences, Preferences'
+#. Showing dialog 0 (@ETQKS7) '@WMN6GL - Preferences' (owner: @GFESEP)
+msgctxt "dlgSgPreferences.chk\"Allow modifying pushed commits \\(e.g. forced-push\\):\""
+msgid "Allow modifying pushed commits \\(e.g. forced-push\\):"
+msgstr ""
+
 msgctxt "dlgSgPreferences.chk:"
 msgid "Allow to open multiple Log windows for the same repository/file"
 msgstr ""
@@ -7421,6 +7435,13 @@ msgstr ""
 
 msgctxt "dlgSgPreferences.chk:"
 msgid "Configure SmartGit as credential helper \\(for repository authentication\\)"
+msgstr ""
+
+#. opening smartgit.bDU@DTQVOO:SmartGit 25.1 Preview Evaluation until Aug 2 (smartgit.bDU@GFESEP)
+#. Performing 'preferences, Preferences'
+#. Showing dialog 0 (@ETQKS7) '@WMN6GL - Preferences' (owner: @GFESEP)
+msgctxt "dlgSgPreferences.chk:"
+msgid "Delete branch"
 msgstr ""
 
 msgctxt "dlgSgPreferences.chk:"
@@ -7503,6 +7524,13 @@ msgctxt "dlgSgPreferences.chk:"
 msgid "Push all tags"
 msgstr ""
 
+#. opening smartgit.bDU@DTQVOO:SmartGit 25.1 Preview Evaluation until Aug 2 (smartgit.bDU@GFESEP)
+#. Performing 'preferences, Preferences'
+#. Showing dialog 0 (@ETQKS7) '@WMN6GL - Preferences' (owner: @GFESEP)
+msgctxt "dlgSgPreferences.chk\"Quick Polls \\(help shape SmartGit\\)\""
+msgid "Quick Polls \\(help shape SmartGit\\)"
+msgstr ""
+
 msgctxt "dlgSgPreferences.chk:"
 msgid "Refresh file system also while SmartGit is in background"
 msgstr ""
@@ -7557,6 +7585,13 @@ msgstr ""
 
 msgctxt "dlgSgPreferences.chk:"
 msgid "Sign all commits"
+msgstr ""
+
+#. opening smartgit.bDU@DTQVOO:SmartGit 25.1 Preview Evaluation until Aug 2 (smartgit.bDU@GFESEP)
+#. Performing 'preferences, Preferences'
+#. Showing dialog 0 (@ETQKS7) '@WMN6GL - Preferences' (owner: @GFESEP)
+msgctxt "dlgSgPreferences.chk:"
+msgid "SmartGit-related announcements"
 msgstr ""
 
 msgctxt "dlgSgPreferences.chk:"
@@ -7683,6 +7718,13 @@ msgctxt "dlgSgPreferences.col:"
 msgid "Command"
 msgstr ""
 
+#. opening smartgit.bDU@DTQVOO:SmartGit 25.1 Preview Evaluation until Aug 2 (smartgit.bDU@GFESEP)
+#. Performing 'preferences, Preferences'
+#. Showing dialog 0 (@ETQKS7) '@WMN6GL - Preferences' (owner: @GFESEP)
+msgctxt "dlgSgPreferences.col:"
+msgid "Credential"
+msgstr ""
+
 msgctxt "dlgSgPreferences.col:"
 msgid "Default"
 msgstr ""
@@ -7807,6 +7849,13 @@ msgctxt "dlgSgPreferences.edt:"
 msgid "Name"
 msgstr ""
 
+#. opening smartgit.bDU@DTQVOO:SmartGit 25.1 Preview Evaluation until Aug 2 (smartgit.bDU@GFESEP)
+#. Performing 'preferences, Preferences'
+#. Showing dialog 0 (@ETQKS7) '@WMN6GL - Preferences' (owner: @GFESEP)
+msgctxt "dlgSgPreferences.edt:"
+msgid "Notify about"
+msgstr ""
+
 msgctxt "dlgSgPreferences.edt:"
 msgid "On startup"
 msgstr ""
@@ -7927,6 +7976,13 @@ msgctxt "dlgSgPreferences.lbl:"
 msgid "Changing these low-level properties can be harmful to the stability or performance of SmartGit. You should only continue if you are sure of what you are doing. Changed properties with a trailing \\* need a restart to be applied."
 msgstr ""
 
+#. opening smartgit.bDU@DTQVOO:SmartGit 25.1 Preview Evaluation until Aug 2 (smartgit.bDU@GFESEP)
+#. Performing 'preferences, Preferences'
+#. Showing dialog 0 (@ETQKS7) '@WMN6GL - Preferences' (owner: @GFESEP)
+msgctxt "dlgSgPreferences.lbl\"Changing these low-level properties may harm the stability or performance of SmartGit.\\n\\[_ Changed properties\\] with a trailing \\\\\\* need a restart to be applied.\""
+msgid "Changing these low-level properties may harm the stability or performance of SmartGit.\\n\\[_ Changed properties\\] with a trailing \\\\\\* need a restart to be applied."
+msgstr ""
+
 msgctxt "dlgSgPreferences.lbl:"
 msgid "Checkout \\(Switch branch\\)"
 msgstr ""
@@ -7963,8 +8019,22 @@ msgctxt "dlgSgPreferences.lbl:"
 msgid "External tool:"
 msgstr ""
 
+#. opening smartgit.bDU@DTQVOO:SmartGit 25.1 Preview Evaluation until Aug 2 (smartgit.bDU@GFESEP)
+#. Performing 'preferences, Preferences'
+#. Showing dialog 0 (@ETQKS7) '@WMN6GL - Preferences' (owner: @GFESEP)
+msgctxt "dlgSgPreferences.lbl:"
+msgid "Finish Feature"
+msgstr ""
+
 msgctxt "dlgSgPreferences.lbl:"
 msgid "Garbage Collector"
+msgstr ""
+
+#. opening smartgit.bDU@DTQVOO:SmartGit 25.1 Preview Evaluation until Aug 2 (smartgit.bDU@GFESEP)
+#. Performing 'preferences, Preferences'
+#. Showing dialog 0 (@ETQKS7) '@WMN6GL - Preferences' (owner: @GFESEP)
+msgctxt "dlgSgPreferences.lbl:"
+msgid "General"
 msgstr ""
 
 msgctxt "dlgSgPreferences.lbl:"
@@ -8143,6 +8213,13 @@ msgctxt "dlgSgPreferences.mni:"
 msgid "Copy Selection in Column"
 msgstr ""
 
+#. opening smartgit.bDU@DTQVOO:SmartGit 25.1 Preview Evaluation until Aug 2 (smartgit.bDU@GFESEP)
+#. Performing 'preferences, Preferences'
+#. Showing dialog 0 (@ETQKS7) '@WMN6GL - Preferences' (owner: @GFESEP)
+msgctxt "dlgSgPreferences.mni:"
+msgid "Credential"
+msgstr ""
+
 msgctxt "dlgSgPreferences.mni:"
 msgid "Default"
 msgstr ""
@@ -8291,6 +8368,13 @@ msgctxt "dlgSgPreferences.rbt:"
 msgid "Exact case \\('Foo' will match 'Foo', but not 'foo'\\)"
 msgstr ""
 
+#. opening smartgit.bDU@DTQVOO:SmartGit 25.1 Preview Evaluation until Aug 2 (smartgit.bDU@GFESEP)
+#. Performing 'preferences, Preferences'
+#. Showing dialog 0 (@ETQKS7) '@WMN6GL - Preferences' (owner: @GFESEP)
+msgctxt "dlgSgPreferences.rbt:"
+msgid "For all branches"
+msgstr ""
+
 msgctxt "dlgSgPreferences.rbt:"
 msgid "Ignore case \\('Foo' will match 'Foo' and 'foo'\\)"
 msgstr ""
@@ -8305,6 +8389,13 @@ msgstr ""
 
 msgctxt "dlgSgPreferences.rbt:"
 msgid "Log graph \\(commit oriented\\)"
+msgstr ""
+
+#. opening smartgit.bDU@DTQVOO:SmartGit 25.1 Preview Evaluation until Aug 2 (smartgit.bDU@GFESEP)
+#. Performing 'preferences, Preferences'
+#. Showing dialog 0 (@ETQKS7) '@WMN6GL - Preferences' (owner: @GFESEP)
+msgctxt "dlgSgPreferences.rbt:"
+msgid "Only for feature branches"
 msgstr ""
 
 msgctxt "dlgSgPreferences.rbt:"
@@ -12900,6 +12991,11 @@ msgctxt "ntmCredentialHelper:"
 msgid "In case you are encountering strange errors or unexpected dialog popups, try to disable this configuration and let SmartGit handle the authentication itself."
 msgstr ""
 
+#. opening smartgit.bDU@DTQVOO:SmartGit 25.1 Preview Evaluation until Aug 2 (smartgit.bDU@GFESEP)
+msgctxt "ntmCredentialHelper:"
+msgid "In general this should be fine and is the recommended configuration when working with multiple Git clients. If unexpected credential popups or weird errors occur, try to let SmartGit handle the authentication itself."
+msgstr ""
+
 msgctxt "ntmCredentialHelper:"
 msgid "In general this should be fine and is the recommended configuration when working with multiple Git clients. In case you are encountering strange errors or unexpected dialog popups, try to disable this configuration and let SmartGit handle the authentication itself."
 msgstr ""
@@ -13057,8 +13153,18 @@ msgctxt "ntmVoteForUs:"
 msgid "vote at <link1>alternativeto.net</link1>"
 msgstr ""
 
+#. opening smartgit.bDU@DTQVOO:SmartGit 25.1 Preview Evaluation until Aug 2 (smartgit.bDU@GFESEP)
+msgctxt "nttCredentialHelper:"
+msgid "External Credential Helper detected"
+msgstr ""
+
 msgctxt "nttCredentialHelper:"
 msgid "External Credentials Helper detected"
+msgstr ""
+
+#. opening smartgit.bDU@DTQVOO:SmartGit 25.1 Preview Evaluation until Aug 2 (smartgit.bDU@GFESEP)
+msgctxt "nttCredentialHelper:"
+msgid "Let SmartGit handle Authentication"
 msgstr ""
 
 msgctxt "nttFollowUsOnTwitter:"
