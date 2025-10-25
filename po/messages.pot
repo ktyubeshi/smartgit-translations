@@ -1749,6 +1749,14 @@ msgctxt "dlgScMasterPasswordEnter.inf"
 msgid "A stored password or passphrase has been requested from the password store."
 msgstr ""
 
+#. opening smartgit.bER@6HGU5A:SmartGit 25.1 Preview Evaluation until Aug 2 (smartgit.bER@RQMK4I)
+#. Performing ', Select from GitHub...'
+#. Showing dialog 0 (@S07BQ1) '@Y883KI - Select Issue' (owner: @RQMK4I)
+#. Showing dialog 1 (@QS2GW) '@P2G9QA - Passwords' (owner: @S07BQ1)
+msgctxt "dlgScMasterPasswordEnter.lbl:"
+msgid "Forgot it? Reset it in the preferences, 'Authentication' page."
+msgstr ""
+
 msgctxt "dlgScMasterPasswordEnter.tle"
 msgid "Passwords"
 msgstr ""
@@ -2518,6 +2526,300 @@ msgctxt "dlgSgAbout.tle"
 msgid "About SmartGit"
 msgstr ""
 
+#. opening smartgit.bER@JCVHRN:SmartGit 25.1 Preview Evaluation until Aug 2 (smartgit.bER@SC6OIC)
+#. Performing '@smartgit.bEZ'
+#. Performing 'ai.commitMessageCompose, AI Commit Message Compose'
+#. Showing dialog 0 (@Q7JWUF) '@YNTGTX - AI Commit Message Compose' (owner: @SC6OIC)
+#. Performing ', OK'
+#. Performing ', github (active)...'
+#. Showing dialog 1 (@FR9YBR) '@61WMS8 - AI Commit Message Compose' (owner: @SC6OIC)
+#. Performing ', OK'
+#. Performing ', Drop All Notes'
+#. Showing dialog 2 (@PS7KTZ) '@A1OX4E - Drop AI Notes' (owner: @SC6OIC)
+msgctxt "dlgSgAiAnnotatorDropAllNotes.btn:"
+msgid "Drop"
+msgstr ""
+
+#. opening smartgit.bER@JCVHRN:SmartGit 25.1 Preview Evaluation until Aug 2 (smartgit.bER@SC6OIC)
+#. Performing '@smartgit.bEZ'
+#. Performing 'ai.commitMessageCompose, AI Commit Message Compose'
+#. Showing dialog 0 (@Q7JWUF) '@YNTGTX - AI Commit Message Compose' (owner: @SC6OIC)
+#. Performing ', OK'
+#. Performing ', github (active)...'
+#. Showing dialog 1 (@FR9YBR) '@61WMS8 - AI Commit Message Compose' (owner: @SC6OIC)
+#. Performing ', OK'
+#. Performing ', Drop All Notes'
+#. Showing dialog 2 (@PS7KTZ) '@A1OX4E - Drop AI Notes' (owner: @SC6OIC)
+msgctxt "dlgSgAiAnnotatorDropAllNotes.fur"
+msgid "This will remove all AI-related Git notes from the repository."
+msgstr ""
+
+#. opening smartgit.bER@JCVHRN:SmartGit 25.1 Preview Evaluation until Aug 2 (smartgit.bER@SC6OIC)
+#. Performing '@smartgit.bEZ'
+#. Performing 'ai.commitMessageCompose, AI Commit Message Compose'
+#. Showing dialog 0 (@Q7JWUF) '@YNTGTX - AI Commit Message Compose' (owner: @SC6OIC)
+#. Performing ', OK'
+#. Performing ', github (active)...'
+#. Showing dialog 1 (@FR9YBR) '@61WMS8 - AI Commit Message Compose' (owner: @SC6OIC)
+#. Performing ', OK'
+#. Performing ', Drop All Notes'
+#. Showing dialog 2 (@PS7KTZ) '@A1OX4E - Drop AI Notes' (owner: @SC6OIC)
+msgctxt "dlgSgAiAnnotatorDropAllNotes.hdl"
+msgid "Do you want to drop all AI-related Git notes?"
+msgstr ""
+
+#. opening smartgit.bER@JCVHRN:SmartGit 25.1 Preview Evaluation until Aug 2 (smartgit.bER@SC6OIC)
+#. Performing '@smartgit.bEZ'
+#. Performing 'ai.commitMessageCompose, AI Commit Message Compose'
+#. Showing dialog 0 (@Q7JWUF) '@YNTGTX - AI Commit Message Compose' (owner: @SC6OIC)
+#. Performing ', OK'
+#. Performing ', github (active)...'
+#. Showing dialog 1 (@FR9YBR) '@61WMS8 - AI Commit Message Compose' (owner: @SC6OIC)
+#. Performing ', OK'
+#. Performing ', Drop All Notes'
+msgctxt "dlgSgAiAnnotatorDropAllNotes.tle"
+msgid "Drop AI Notes"
+msgstr ""
+
+#. Performing '@smartgit.bEZ'
+#. Performing 'repositoryEditConfig, Repository'
+#. opening smartgit.cgZ@NCS8DH:config - [C:\XXXXXX\smartgit-translations\.git] - Editor (smartgit.cgZ@NH4V0N)
+#. Performing '@smartgit.bEZ'
+#. Performing 'ai.commitMessageCompose, AI Commit Message Compose, smartgit.jy: Cancelled'
+#. Showing dialog 7 (@4HDEX9) '@FI4UHA - AI Integration' (owner: @SC6OIC)
+#. Performing ', OK'
+#. Showing dialog 8 (@MEYNX4) '@6Q645M - Confirm GitHub AI Usage' (owner: @4HDEX9)
+#. Performing ', Confirm'
+#. Showing dialog 9 (@PJHNCC) '@XNKBRV - AI Commit Message Compose' (owner: @SC6OIC)
+msgctxt "dlgSgAiCommitMessageComposeActionSetup.fur"
+msgid "Click the AI button again to generate your first commit message."
+msgstr ""
+
+#. Performing '@smartgit.bEZ'
+#. Performing 'repositoryEditConfig, Repository'
+#. opening smartgit.cgZ@NCS8DH:config - [C:\XXXXXX\smartgit-translations\.git] - Editor (smartgit.cgZ@NH4V0N)
+#. Performing '@smartgit.bEZ'
+#. Performing 'ai.commitMessageCompose, AI Commit Message Compose, smartgit.jy: Cancelled'
+#. Showing dialog 7 (@4HDEX9) '@FI4UHA - AI Integration' (owner: @SC6OIC)
+#. Performing ', OK'
+#. Showing dialog 8 (@MEYNX4) '@6Q645M - Confirm GitHub AI Usage' (owner: @4HDEX9)
+#. Performing ', Confirm'
+#. Showing dialog 9 (@PJHNCC) '@XNKBRV - AI Commit Message Compose' (owner: @SC6OIC)
+msgctxt "dlgSgAiCommitMessageComposeActionSetup.hdl"
+msgid "GitHub models are now configured."
+msgstr ""
+
+#. Performing ', OK'
+#. Performing '@smartgit.bEZ'
+#. Performing 'repositoryEditConfig, Repository'
+#. opening smartgit.cgZ@NCS8DH:config - [C:\XXXXXX\smartgit-translations\.git] - Editor (smartgit.cgZ@NH4V0N)
+#. Performing '@smartgit.bEZ'
+#. Performing 'ai.commitMessageCompose, AI Commit Message Compose, smartgit.jy: Cancelled'
+#. Showing dialog 7 (@4HDEX9) '@FI4UHA - AI Integration' (owner: @SC6OIC)
+#. Performing ', OK'
+#. Showing dialog 8 (@MEYNX4) '@6Q645M - Confirm GitHub AI Usage' (owner: @4HDEX9)
+#. Performing ', Confirm'
+msgctxt "dlgSgAiCommitMessageComposeActionSetup.tle"
+msgid "AI Commit Message Compose"
+msgstr ""
+
+#. Performing '@smartgit.bEZ'
+#. Performing 'ai.commitMessageCompose, AI Commit Message Compose, smartgit.jy: Cancelled'
+#. Showing dialog 7 (@4HDEX9) '@FI4UHA - AI Integration' (owner: @SC6OIC)
+#. Performing ', OK'
+#. Showing dialog 8 (@MEYNX4) '@6Q645M - Confirm GitHub AI Usage' (owner: @4HDEX9)
+#. Performing ', Confirm'
+#. Showing dialog 9 (@PJHNCC) '@XNKBRV - AI Commit Message Compose' (owner: @SC6OIC)
+#. Performing ', OK'
+#. Performing ', github (active)...'
+#. Showing dialog 10 (@X241L7) '@2DPB9N - AI Commit Message Compose' (owner: @SC6OIC)
+msgctxt "dlgSgAiCommitMessageComposeError.fur"
+msgid "No modifications found."
+msgstr ""
+
+#. Performing '@smartgit.bEZ'
+#. Performing 'ai.commitMessageCompose, AI Commit Message Compose, smartgit.jy: Cancelled'
+#. Showing dialog 7 (@4HDEX9) '@FI4UHA - AI Integration' (owner: @SC6OIC)
+#. Performing ', OK'
+#. Showing dialog 8 (@MEYNX4) '@6Q645M - Confirm GitHub AI Usage' (owner: @4HDEX9)
+#. Performing ', Confirm'
+#. Showing dialog 9 (@PJHNCC) '@XNKBRV - AI Commit Message Compose' (owner: @SC6OIC)
+#. Performing ', OK'
+#. Performing ', github (active)...'
+#. Showing dialog 10 (@X241L7) '@2DPB9N - AI Commit Message Compose' (owner: @SC6OIC)
+msgctxt "dlgSgAiCommitMessageComposeError.hdl"
+msgid "AI generation of the commit message failed."
+msgstr ""
+
+#. opening smartgit.cgZ@NCS8DH:config - [C:\XXXXXX\smartgit-translations\.git] - Editor (smartgit.cgZ@NH4V0N)
+#. Performing '@smartgit.bEZ'
+#. Performing 'ai.commitMessageCompose, AI Commit Message Compose, smartgit.jy: Cancelled'
+#. Showing dialog 7 (@4HDEX9) '@FI4UHA - AI Integration' (owner: @SC6OIC)
+#. Performing ', OK'
+#. Showing dialog 8 (@MEYNX4) '@6Q645M - Confirm GitHub AI Usage' (owner: @4HDEX9)
+#. Performing ', Confirm'
+#. Showing dialog 9 (@PJHNCC) '@XNKBRV - AI Commit Message Compose' (owner: @SC6OIC)
+#. Performing ', OK'
+#. Performing ', github (active)...'
+msgctxt "dlgSgAiCommitMessageComposeError.tle"
+msgid "AI Commit Message Compose"
+msgstr ""
+
+#. opening smartgit.cgZ@OFYRZM:.gitconfig - [C:\SPB_Data] - Editor (smartgit.cgZ@D84ZCM)
+#. Performing 'repositoryEditConfig, Repository'
+#. Showing dialog 6 (@UUNI0B) '@9PJRVJ - Edit Config' (owner: @SC6OIC)
+#. Performing ', OK'
+#. Performing '@smartgit.bEZ'
+#. Performing 'repositoryEditConfig, Repository'
+#. opening smartgit.cgZ@NCS8DH:config - [C:\XXXXXX\smartgit-translations\.git] - Editor (smartgit.cgZ@NH4V0N)
+#. Performing '@smartgit.bEZ'
+#. Performing 'ai.commitMessageCompose, AI Commit Message Compose, smartgit.jy: Cancelled'
+#. Showing dialog 7 (@4HDEX9) '@FI4UHA - AI Integration' (owner: @SC6OIC)
+msgctxt "dlgSgAiIntegrationSetup.hdl"
+msgid "Configure AI integration"
+msgstr ""
+
+#. opening smartgit.cgZ@OFYRZM:.gitconfig - [C:\SPB_Data] - Editor (smartgit.cgZ@D84ZCM)
+#. Performing 'repositoryEditConfig, Repository'
+#. Showing dialog 6 (@UUNI0B) '@9PJRVJ - Edit Config' (owner: @SC6OIC)
+#. Performing ', OK'
+#. Performing '@smartgit.bEZ'
+#. Performing 'repositoryEditConfig, Repository'
+#. opening smartgit.cgZ@NCS8DH:config - [C:\XXXXXX\smartgit-translations\.git] - Editor (smartgit.cgZ@NH4V0N)
+#. Performing '@smartgit.bEZ'
+#. Performing 'ai.commitMessageCompose, AI Commit Message Compose, smartgit.jy: Cancelled'
+#. Showing dialog 7 (@4HDEX9) '@FI4UHA - AI Integration' (owner: @SC6OIC)
+msgctxt "dlgSgAiIntegrationSetup.inf"
+msgid "SmartGit supports AI-generated commit messages, with more AI features coming. GitHub models can be used out-of-the-box."
+msgstr ""
+
+#. opening smartgit.cgZ@OFYRZM:.gitconfig - [C:\SPB_Data] - Editor (smartgit.cgZ@D84ZCM)
+#. Performing 'repositoryEditConfig, Repository'
+#. Showing dialog 6 (@UUNI0B) '@9PJRVJ - Edit Config' (owner: @SC6OIC)
+#. Performing ', OK'
+#. Performing '@smartgit.bEZ'
+#. Performing 'repositoryEditConfig, Repository'
+#. opening smartgit.cgZ@NCS8DH:config - [C:\XXXXXX\smartgit-translations\.git] - Editor (smartgit.cgZ@NH4V0N)
+#. Performing '@smartgit.bEZ'
+#. Performing 'ai.commitMessageCompose, AI Commit Message Compose, smartgit.jy: Cancelled'
+#. Showing dialog 7 (@4HDEX9) '@FI4UHA - AI Integration' (owner: @SC6OIC)
+msgctxt "dlgSgAiIntegrationSetup.rbt\"Configure manually \\(view documentation\\)\""
+msgid "Configure manually \\(view documentation\\)"
+msgstr ""
+
+#. opening smartgit.cgZ@OFYRZM:.gitconfig - [C:\SPB_Data] - Editor (smartgit.cgZ@D84ZCM)
+#. Performing 'repositoryEditConfig, Repository'
+#. Showing dialog 6 (@UUNI0B) '@9PJRVJ - Edit Config' (owner: @SC6OIC)
+#. Performing ', OK'
+#. Performing '@smartgit.bEZ'
+#. Performing 'repositoryEditConfig, Repository'
+#. opening smartgit.cgZ@NCS8DH:config - [C:\XXXXXX\smartgit-translations\.git] - Editor (smartgit.cgZ@NH4V0N)
+#. Performing '@smartgit.bEZ'
+#. Performing 'ai.commitMessageCompose, AI Commit Message Compose, smartgit.jy: Cancelled'
+#. Showing dialog 7 (@4HDEX9) '@FI4UHA - AI Integration' (owner: @SC6OIC)
+msgctxt "dlgSgAiIntegrationSetup.rbt:"
+msgid "Disable AI integration"
+msgstr ""
+
+#. opening smartgit.cgZ@OFYRZM:.gitconfig - [C:\SPB_Data] - Editor (smartgit.cgZ@D84ZCM)
+#. Performing 'repositoryEditConfig, Repository'
+#. Showing dialog 6 (@UUNI0B) '@9PJRVJ - Edit Config' (owner: @SC6OIC)
+#. Performing ', OK'
+#. Performing '@smartgit.bEZ'
+#. Performing 'repositoryEditConfig, Repository'
+#. opening smartgit.cgZ@NCS8DH:config - [C:\XXXXXX\smartgit-translations\.git] - Editor (smartgit.cgZ@NH4V0N)
+#. Performing '@smartgit.bEZ'
+#. Performing 'ai.commitMessageCompose, AI Commit Message Compose, smartgit.jy: Cancelled'
+#. Showing dialog 7 (@4HDEX9) '@FI4UHA - AI Integration' (owner: @SC6OIC)
+msgctxt "dlgSgAiIntegrationSetup.rbt:"
+msgid "Use GitHub models for this repository"
+msgstr ""
+
+#. opening smartgit.cgZ@OFYRZM:.gitconfig - [C:\SPB_Data] - Editor (smartgit.cgZ@D84ZCM)
+#. Performing 'repositoryEditConfig, Repository'
+#. Showing dialog 6 (@UUNI0B) '@9PJRVJ - Edit Config' (owner: @SC6OIC)
+#. Performing ', OK'
+#. Performing '@smartgit.bEZ'
+#. Performing 'repositoryEditConfig, Repository'
+#. opening smartgit.cgZ@NCS8DH:config - [C:\XXXXXX\smartgit-translations\.git] - Editor (smartgit.cgZ@NH4V0N)
+#. Performing '@smartgit.bEZ'
+#. Performing 'ai.commitMessageCompose, AI Commit Message Compose, smartgit.jy: Cancelled'
+#. Showing dialog 7 (@4HDEX9) '@FI4UHA - AI Integration' (owner: @SC6OIC)
+msgctxt "dlgSgAiIntegrationSetup.rbt:"
+msgid "Use GitHub models globally"
+msgstr ""
+
+#. Performing 'repositoryEditConfigUser, User'
+#. opening smartgit.cgZ@OFYRZM:.gitconfig - [C:\SPB_Data] - Editor (smartgit.cgZ@D84ZCM)
+#. Performing 'repositoryEditConfig, Repository'
+#. Showing dialog 6 (@UUNI0B) '@9PJRVJ - Edit Config' (owner: @SC6OIC)
+#. Performing ', OK'
+#. Performing '@smartgit.bEZ'
+#. Performing 'repositoryEditConfig, Repository'
+#. opening smartgit.cgZ@NCS8DH:config - [C:\XXXXXX\smartgit-translations\.git] - Editor (smartgit.cgZ@NH4V0N)
+#. Performing '@smartgit.bEZ'
+#. Performing 'ai.commitMessageCompose, AI Commit Message Compose, smartgit.jy: Cancelled'
+msgctxt "dlgSgAiIntegrationSetup.tle"
+msgid "AI Integration"
+msgstr ""
+
+#. Showing dialog 6 (@UUNI0B) '@9PJRVJ - Edit Config' (owner: @SC6OIC)
+#. Performing ', OK'
+#. Performing '@smartgit.bEZ'
+#. Performing 'repositoryEditConfig, Repository'
+#. opening smartgit.cgZ@NCS8DH:config - [C:\XXXXXX\smartgit-translations\.git] - Editor (smartgit.cgZ@NH4V0N)
+#. Performing '@smartgit.bEZ'
+#. Performing 'ai.commitMessageCompose, AI Commit Message Compose, smartgit.jy: Cancelled'
+#. Showing dialog 7 (@4HDEX9) '@FI4UHA - AI Integration' (owner: @SC6OIC)
+#. Performing ', OK'
+#. Showing dialog 8 (@MEYNX4) '@6Q645M - Confirm GitHub AI Usage' (owner: @4HDEX9)
+msgctxt "dlgSgAiIntegrationSetupGitHubSingle.btn:"
+msgid "Confirm"
+msgstr ""
+
+# [decode] msgid "To generate commit messages or other AI-based suggestions, SmartGit transmits the relevant git diff data – either from the working tree or selected commits – to GitHub's servers.\n\nBy default, this transfer only occurs when the operation is explicitly invoked. However, background transfer is also possible \(see the drop-down menu for configuration\)."
+#. Showing dialog 6 (@UUNI0B) '@9PJRVJ - Edit Config' (owner: @SC6OIC)
+#. Performing ', OK'
+#. Performing '@smartgit.bEZ'
+#. Performing 'repositoryEditConfig, Repository'
+#. opening smartgit.cgZ@NCS8DH:config - [C:\XXXXXX\smartgit-translations\.git] - Editor (smartgit.cgZ@NH4V0N)
+#. Performing '@smartgit.bEZ'
+#. Performing 'ai.commitMessageCompose, AI Commit Message Compose, smartgit.jy: Cancelled'
+#. Showing dialog 7 (@4HDEX9) '@FI4UHA - AI Integration' (owner: @SC6OIC)
+#. Performing ', OK'
+#. Showing dialog 8 (@MEYNX4) '@6Q645M - Confirm GitHub AI Usage' (owner: @4HDEX9)
+msgctxt "dlgSgAiIntegrationSetupGitHubSingle.fur"
+msgid "To generate commit messages or other AI-based suggestions, SmartGit transmits the relevant git diff data \\u2013 either from the working tree or selected commits \\u2013 to GitHub's servers.\\n\\nBy default, this transfer only occurs when the operation is explicitly invoked. However, background transfer is also possible \\(see the drop-down menu for configuration\\)."
+msgstr ""
+
+#. Showing dialog 6 (@UUNI0B) '@9PJRVJ - Edit Config' (owner: @SC6OIC)
+#. Performing ', OK'
+#. Performing '@smartgit.bEZ'
+#. Performing 'repositoryEditConfig, Repository'
+#. opening smartgit.cgZ@NCS8DH:config - [C:\XXXXXX\smartgit-translations\.git] - Editor (smartgit.cgZ@NH4V0N)
+#. Performing '@smartgit.bEZ'
+#. Performing 'ai.commitMessageCompose, AI Commit Message Compose, smartgit.jy: Cancelled'
+#. Showing dialog 7 (@4HDEX9) '@FI4UHA - AI Integration' (owner: @SC6OIC)
+#. Performing ', OK'
+#. Showing dialog 8 (@MEYNX4) '@6Q645M - Confirm GitHub AI Usage' (owner: @4HDEX9)
+msgctxt "dlgSgAiIntegrationSetupGitHubSingle.hdl"
+msgid "Git diffs will be sent to GitHub for AI processing."
+msgstr ""
+
+#. Performing 'repositoryEditConfig, Repository'
+#. Showing dialog 6 (@UUNI0B) '@9PJRVJ - Edit Config' (owner: @SC6OIC)
+#. Performing ', OK'
+#. Performing '@smartgit.bEZ'
+#. Performing 'repositoryEditConfig, Repository'
+#. opening smartgit.cgZ@NCS8DH:config - [C:\XXXXXX\smartgit-translations\.git] - Editor (smartgit.cgZ@NH4V0N)
+#. Performing '@smartgit.bEZ'
+#. Performing 'ai.commitMessageCompose, AI Commit Message Compose, smartgit.jy: Cancelled'
+#. Showing dialog 7 (@4HDEX9) '@FI4UHA - AI Integration' (owner: @SC6OIC)
+#. Performing ', OK'
+msgctxt "dlgSgAiIntegrationSetupGitHubSingle.tle"
+msgid "Confirm GitHub AI Usage"
+msgstr ""
+
 msgctxt "dlgSgApplicationAlreadyRunning.fur%1"
 msgid "Instead of running separate instances you can open multiple project windows in SmartGit.\\n\\nIf you are sure that no SmartGit instance is running any more you should delete the lock file\\n$1"
 msgstr ""
@@ -3043,6 +3345,62 @@ msgstr ""
 #. Showing dialog 52 (@34327638) '@6FC1A561 - Confirm Checkout' (owner: @4BC39640)
 msgctxt "dlgSgCheckoutSubmoduleChangeConfirm.hdl"
 msgid "Do you want to check out branch 'main'?"
+msgstr ""
+
+#. Performing 'stdSetModeHistory, Show History, Show the history view.'
+#. Performing 'editCommitMessage, Edit Message...'
+#. Showing dialog 6 (@G1PPHJ) '@PUJNRC - Edit Message' (owner: @C1NFGZ)
+#. Performing ', OK'
+#. Performing 'editCommitMessage, Edit Message...'
+#. Showing dialog 7 (@V9CN2D) '@DJZR4Z - Edit Message' (owner: @C1NFGZ)
+#. Performing ', OK'
+#. Performing '@smartgit.aDL'
+#. Performing 'checkout, Check Out..., Check out an existing commit.'
+#. Showing dialog 8 (@51CRA9) '@ZGJRFJ - Check Out' (owner: @C1NFGZ)
+msgctxt "dlgSgCheckoutSwitchToWorktree.btn:"
+msgid "Switch"
+msgstr ""
+
+#. Performing 'stdSetModeHistory, Show History, Show the history view.'
+#. Performing 'editCommitMessage, Edit Message...'
+#. Showing dialog 6 (@G1PPHJ) '@PUJNRC - Edit Message' (owner: @C1NFGZ)
+#. Performing ', OK'
+#. Performing 'editCommitMessage, Edit Message...'
+#. Showing dialog 7 (@V9CN2D) '@DJZR4Z - Edit Message' (owner: @C1NFGZ)
+#. Performing ', OK'
+#. Performing '@smartgit.aDL'
+#. Performing 'checkout, Check Out..., Check out an existing commit.'
+#. Showing dialog 8 (@51CRA9) '@ZGJRFJ - Check Out' (owner: @C1NFGZ)
+msgctxt "dlgSgCheckoutSwitchToWorktree.fur"
+msgid "A worktree repository already exists for the selected branch. Therefore, you can't check out this branch directly, but you can switch to this worktree."
+msgstr ""
+
+#. Performing 'stdSetModeHistory, Show History, Show the history view.'
+#. Performing 'editCommitMessage, Edit Message...'
+#. Showing dialog 6 (@G1PPHJ) '@PUJNRC - Edit Message' (owner: @C1NFGZ)
+#. Performing ', OK'
+#. Performing 'editCommitMessage, Edit Message...'
+#. Showing dialog 7 (@V9CN2D) '@DJZR4Z - Edit Message' (owner: @C1NFGZ)
+#. Performing ', OK'
+#. Performing '@smartgit.aDL'
+#. Performing 'checkout, Check Out..., Check out an existing commit.'
+#. Showing dialog 8 (@51CRA9) '@ZGJRFJ - Check Out' (owner: @C1NFGZ)
+msgctxt "dlgSgCheckoutSwitchToWorktree.hdl"
+msgid "Do you want to switch to worktree 'C:\\\\XXXX\\\\XXXX\\\\XXXX\\\\smartgit-translations-25.1_windows'?"
+msgstr ""
+
+#. Performing 'stdSetModeWt, Show Local Changes, Show the local files of the repository (Working Tree).'
+#. Performing 'stdSetModeHistory, Show History, Show the history view.'
+#. Performing 'editCommitMessage, Edit Message...'
+#. Showing dialog 6 (@G1PPHJ) '@PUJNRC - Edit Message' (owner: @C1NFGZ)
+#. Performing ', OK'
+#. Performing 'editCommitMessage, Edit Message...'
+#. Showing dialog 7 (@V9CN2D) '@DJZR4Z - Edit Message' (owner: @C1NFGZ)
+#. Performing ', OK'
+#. Performing '@smartgit.aDL'
+#. Performing 'checkout, Check Out..., Check out an existing commit.'
+msgctxt "dlgSgCheckoutSwitchToWorktree.tle"
+msgid "Check Out"
 msgstr ""
 
 msgctxt "dlgSgCheckoutTarget.btn:"
@@ -3936,6 +4294,20 @@ msgstr ""
 
 msgctxt "dlgSgCommitSelectMessageFromLog.hdl"
 msgid "Select a commit"
+msgstr ""
+
+#. Performing ', Cancel'
+#. Performing '@smartgit.bEc'
+#. Performing 'editCommitMessage, Edit Message...'
+#. Showing dialog 9 (@7DTYLB) '@XMAQ41 - Edit Message' (owner: @TZQA8D)
+#. Performing ', Modify Pushed Commits'
+#. Showing dialog 10 (@YG5QGF) '@EPJYJ2 - Edit Message' (owner: @TZQA8D)
+#. Performing ', Select'
+#. Performing ', Log...'
+#. Showing dialog 11 (@Y3JL8Y) '@I0LTP4 - Select Commit Message' (owner: @YG5QGF)
+#. Showing dialog 12 (@FAEW2D) '@48EF0F - Refresh' (owner: @Y3JL8Y)
+msgctxt "dlgSgCommitSelectMessageFromLog.hnt:"
+msgid "No graph roots selected."
 msgstr ""
 
 msgctxt "dlgSgCommitSelectMessageFromLog.hnt:"
@@ -5038,6 +5410,48 @@ msgctxt "dlgSgGarbageCollectorDeleteAllStashes.tle"
 msgid "Run Garbage Collector"
 msgstr ""
 
+#. Performing 'ai.commitMessageCompose, AI Commit Message Compose, smartgit.jy: Cancelled'
+#. Showing dialog 4 (@2JKWD6) '@OCI2PM - AI Commit Message Compose' (owner: @SC6OIC)
+#. Performing ', OK'
+#. Performing 'preferences, Preferences'
+#. Showing dialog 5 (@5Y3AWH) '@LG313Q - Preferences' (owner: @SC6OIC)
+#. Performing ', Cancel'
+#. Performing 'repositoryEditConfigUser, User'
+#. opening smartgit.cgZ@OFYRZM:.gitconfig - [C:\SPB_Data] - Editor (smartgit.cgZ@D84ZCM)
+#. Performing 'repositoryEditConfig, Repository'
+#. Showing dialog 6 (@UUNI0B) '@9PJRVJ - Edit Config' (owner: @SC6OIC)
+msgctxt "dlgSgGitConfigEditConfigNotFound.fur"
+msgid "The file C:\\\\XXXX\\\\XXXX\\\\XXXX\\\\smartgit-translations\\\\.git\\\\worktrees\\\\smartgit-translations-25.1_windows\\\\config could not be opened for editing."
+msgstr ""
+
+#. Performing 'ai.commitMessageCompose, AI Commit Message Compose, smartgit.jy: Cancelled'
+#. Showing dialog 4 (@2JKWD6) '@OCI2PM - AI Commit Message Compose' (owner: @SC6OIC)
+#. Performing ', OK'
+#. Performing 'preferences, Preferences'
+#. Showing dialog 5 (@5Y3AWH) '@LG313Q - Preferences' (owner: @SC6OIC)
+#. Performing ', Cancel'
+#. Performing 'repositoryEditConfigUser, User'
+#. opening smartgit.cgZ@OFYRZM:.gitconfig - [C:\SPB_Data] - Editor (smartgit.cgZ@D84ZCM)
+#. Performing 'repositoryEditConfig, Repository'
+#. Showing dialog 6 (@UUNI0B) '@9PJRVJ - Edit Config' (owner: @SC6OIC)
+msgctxt "dlgSgGitConfigEditConfigNotFound.hdl"
+msgid "The file config was not found."
+msgstr ""
+
+#. Performing 'stage, Stage, Store working tree files in the index to prepare the next commit.'
+#. Performing 'ai.commitMessageCompose, AI Commit Message Compose, smartgit.jy: Cancelled'
+#. Showing dialog 4 (@2JKWD6) '@OCI2PM - AI Commit Message Compose' (owner: @SC6OIC)
+#. Performing ', OK'
+#. Performing 'preferences, Preferences'
+#. Showing dialog 5 (@5Y3AWH) '@LG313Q - Preferences' (owner: @SC6OIC)
+#. Performing ', Cancel'
+#. Performing 'repositoryEditConfigUser, User'
+#. opening smartgit.cgZ@OFYRZM:.gitconfig - [C:\SPB_Data] - Editor (smartgit.cgZ@D84ZCM)
+#. Performing 'repositoryEditConfig, Repository'
+msgctxt "dlgSgGitConfigEditConfigNotFound.tle"
+msgid "Edit Config"
+msgstr ""
+
 #. Performing ', Cancel'
 #. Performing ', Continue'
 #. Performing 'newStandardWindow, Show Standard Window'
@@ -5739,6 +6153,20 @@ msgstr ""
 
 msgctxt "dlgSgHistorySplitConfirm.tle"
 msgid "Split Commit"
+msgstr ""
+
+#. Performing '@smartgit.bEc'
+#. Performing '@smartgit.bEc'
+#. opening smartgit.bDU@YHU25C:SmartGit 25.1 Preview Evaluation until Aug 2 (smartgit.bDU@N6W7NC)
+#. Performing '@smartgit.bEc'
+#. Performing '@smartgit.bEc'
+#. Performing '@smartgit.bEc'
+#. Performing 'squashCommits, Squash...'
+#. Showing dialog 8 (@Y3H9KM) '@QABM6G - Squash Commits' (owner: @N6W7NC)
+#. Performing ', Modify Pushed Commits'
+#. Showing dialog 9 (@D69MFK) '@KBYQK1 - Squash Commits' (owner: @N6W7NC)
+msgctxt "dlgSgHistorySquash.btn:"
+msgid "Add co-authors"
 msgstr ""
 
 msgctxt "dlgSgHistorySquash.btn:"
@@ -7153,6 +7581,20 @@ msgctxt "dlgSgOutput.lbl:"
 msgid "Not all refs have been pushed."
 msgstr ""
 
+#. Performing ', Pull'
+#. Showing dialog 17 (@V4XFW1) '@DV0W4Q - Pull' (owner: @N6W7NC)
+#. Performing ', Cancel'
+#. Performing ', Reset HEAD to 'feature/forceinclude''
+#. Showing dialog 18 (@HQNLU4) '@5VMBJ9 - Reset' (owner: @N6W7NC)
+#. Performing ', Discard'
+#. Showing dialog 19 (@YPLIZP) '@OG3ALA - Reset' (owner: @HQNLU4)
+#. Performing ', Discard'
+#. Performing ', Rebase 1 commit from 'feature/forceinclude' to 'v1.1.0''
+#. Showing dialog 20 (@PMZ6R) '@7WXSSO - Command Failed' (owner: @N6W7NC)
+msgctxt "dlgSgOutput.lbl:"
+msgid "The command output below contains more details on the problem."
+msgstr ""
+
 msgctxt "dlgSgOutput.lbl:"
 msgid "The working tree has local changes."
 msgstr ""
@@ -7191,6 +7633,20 @@ msgstr ""
 #, fuzzy
 msgctxt "dlgSgOutput.lbl:"
 msgid "unable to access '$1': server certificate verification failed. CAfile: $2 CRLfile: $3"
+msgstr ""
+
+#. Performing ', Pull'
+#. Showing dialog 17 (@V4XFW1) '@DV0W4Q - Pull' (owner: @N6W7NC)
+#. Performing ', Cancel'
+#. Performing ', Reset HEAD to 'feature/forceinclude''
+#. Showing dialog 18 (@HQNLU4) '@5VMBJ9 - Reset' (owner: @N6W7NC)
+#. Performing ', Discard'
+#. Showing dialog 19 (@YPLIZP) '@OG3ALA - Reset' (owner: @HQNLU4)
+#. Performing ', Discard'
+#. Performing ', Rebase 1 commit from 'feature/forceinclude' to 'v1.1.0''
+#. Showing dialog 20 (@PMZ6R) '@7WXSSO - Command Failed' (owner: @N6W7NC)
+msgctxt "dlgSgOutput.lbl\"unable to auto-detect email address \\(got 'XXXX@XXXXXX.\\(none\\)'\\)\""
+msgid "unable to auto-detect email address \\(got 'XXXX@XXXXXX.\\(none\\)'\\)"
 msgstr ""
 
 msgctxt "dlgSgOutput.mni:"
@@ -11785,6 +12241,62 @@ msgctxt "dlgSgStashOnDemandConfirmation.tle:"
 msgid "Pull"
 msgstr ""
 
+#. Performing ', Select'
+#. Performing 'fetch, Pull..., Fetch commits from a remote repository and (optionally) integrate them with possible local commits.'
+#. Showing dialog 16 (@6CJT63) '@YT1ZMP - Pull' (owner: @N6W7NC)
+#. Performing ', Pull'
+#. Showing dialog 17 (@V4XFW1) '@DV0W4Q - Pull' (owner: @N6W7NC)
+#. Performing ', Cancel'
+#. Performing ', Reset HEAD to 'feature/forceinclude''
+#. Showing dialog 18 (@HQNLU4) '@5VMBJ9 - Reset' (owner: @N6W7NC)
+#. Performing ', Discard'
+#. Showing dialog 19 (@YPLIZP) '@OG3ALA - Reset' (owner: @HQNLU4)
+msgctxt "dlgSgStashOnDemandDiscardConfirmation.btn:"
+msgid "Discard"
+msgstr ""
+
+#. Performing ', Select'
+#. Performing 'fetch, Pull..., Fetch commits from a remote repository and (optionally) integrate them with possible local commits.'
+#. Showing dialog 16 (@6CJT63) '@YT1ZMP - Pull' (owner: @N6W7NC)
+#. Performing ', Pull'
+#. Showing dialog 17 (@V4XFW1) '@DV0W4Q - Pull' (owner: @N6W7NC)
+#. Performing ', Cancel'
+#. Performing ', Reset HEAD to 'feature/forceinclude''
+#. Showing dialog 18 (@HQNLU4) '@5VMBJ9 - Reset' (owner: @N6W7NC)
+#. Performing ', Discard'
+#. Showing dialog 19 (@YPLIZP) '@OG3ALA - Reset' (owner: @HQNLU4)
+msgctxt "dlgSgStashOnDemandDiscardConfirmation.fur"
+msgid "It might be hard or impossible to restore them!"
+msgstr ""
+
+#. Performing ', Select'
+#. Performing 'fetch, Pull..., Fetch commits from a remote repository and (optionally) integrate them with possible local commits.'
+#. Showing dialog 16 (@6CJT63) '@YT1ZMP - Pull' (owner: @N6W7NC)
+#. Performing ', Pull'
+#. Showing dialog 17 (@V4XFW1) '@DV0W4Q - Pull' (owner: @N6W7NC)
+#. Performing ', Cancel'
+#. Performing ', Reset HEAD to 'feature/forceinclude''
+#. Showing dialog 18 (@HQNLU4) '@5VMBJ9 - Reset' (owner: @N6W7NC)
+#. Performing ', Discard'
+#. Showing dialog 19 (@YPLIZP) '@OG3ALA - Reset' (owner: @HQNLU4)
+msgctxt "dlgSgStashOnDemandDiscardConfirmation.hdl"
+msgid "Do you really want to discard the local changes?"
+msgstr ""
+
+#. Performing ', Cancel'
+#. Performing ', Select'
+#. Performing 'fetch, Pull..., Fetch commits from a remote repository and (optionally) integrate them with possible local commits.'
+#. Showing dialog 16 (@6CJT63) '@YT1ZMP - Pull' (owner: @N6W7NC)
+#. Performing ', Pull'
+#. Showing dialog 17 (@V4XFW1) '@DV0W4Q - Pull' (owner: @N6W7NC)
+#. Performing ', Cancel'
+#. Performing ', Reset HEAD to 'feature/forceinclude''
+#. Showing dialog 18 (@HQNLU4) '@5VMBJ9 - Reset' (owner: @N6W7NC)
+#. Performing ', Discard'
+msgctxt "dlgSgStashOnDemandDiscardConfirmation.tle"
+msgid "Reset"
+msgstr ""
+
 #. Showing dialog 144 (@54515437) '@2CDEF2A8 - Push' (owner: @20A7953C)
 #. Performing ', Push'
 #. Showing dialog 145 (@F76C2F6) '@1F14BB95 - Push' (owner: @20A7953C)
@@ -12894,6 +13406,76 @@ msgctxt "dlgShPushTrackingLocalSvnBranches.tle"
 msgid "Push"
 msgstr ""
 
+#. Performing 'fetch, Pull..., Fetch commits from a remote repository and (optionally) integrate them with possible local commits.'
+#. Showing dialog 11 (@MOEP9X) '@L2GYAP - Pull' (owner: @SC6OIC)
+#. Performing ', Pull'
+#. Performing ', Check Out'
+#. Showing dialog 12 (@YMBET9) '@O168AC - Check Out' (owner: @SC6OIC)
+#. Performing ', Checkout'
+#. Performing 'discard, Discard..., Discard local changes.'
+#. Showing dialog 13 (@W9XC6K) '@57JCXX - Discard' (owner: @SC6OIC)
+#. Performing ', Discard'
+#. Showing dialog 14 (@YL41W) '@EFXL8O - Discard' (owner: @W9XC6K)
+msgctxt "dlgStdDiscardConfirmUntrackedFiles.btn:"
+msgid "Discard"
+msgstr ""
+
+#. Performing 'fetch, Pull..., Fetch commits from a remote repository and (optionally) integrate them with possible local commits.'
+#. Showing dialog 11 (@MOEP9X) '@L2GYAP - Pull' (owner: @SC6OIC)
+#. Performing ', Pull'
+#. Performing ', Check Out'
+#. Showing dialog 12 (@YMBET9) '@O168AC - Check Out' (owner: @SC6OIC)
+#. Performing ', Checkout'
+#. Performing 'discard, Discard..., Discard local changes.'
+#. Showing dialog 13 (@W9XC6K) '@57JCXX - Discard' (owner: @SC6OIC)
+#. Performing ', Discard'
+#. Showing dialog 14 (@YL41W) '@EFXL8O - Discard' (owner: @W9XC6K)
+msgctxt "dlgStdDiscardConfirmUntrackedFiles.chk"
+msgid "Don't show again"
+msgstr ""
+
+#. Performing 'fetch, Pull..., Fetch commits from a remote repository and (optionally) integrate them with possible local commits.'
+#. Showing dialog 11 (@MOEP9X) '@L2GYAP - Pull' (owner: @SC6OIC)
+#. Performing ', Pull'
+#. Performing ', Check Out'
+#. Showing dialog 12 (@YMBET9) '@O168AC - Check Out' (owner: @SC6OIC)
+#. Performing ', Checkout'
+#. Performing 'discard, Discard..., Discard local changes.'
+#. Showing dialog 13 (@W9XC6K) '@57JCXX - Discard' (owner: @SC6OIC)
+#. Performing ', Discard'
+#. Showing dialog 14 (@YL41W) '@EFXL8O - Discard' (owner: @W9XC6K)
+msgctxt "dlgStdDiscardConfirmUntrackedFiles.fur"
+msgid "You are about to delete untracked files permanently. This action cannot be undone."
+msgstr ""
+
+#. Performing 'fetch, Pull..., Fetch commits from a remote repository and (optionally) integrate them with possible local commits.'
+#. Showing dialog 11 (@MOEP9X) '@L2GYAP - Pull' (owner: @SC6OIC)
+#. Performing ', Pull'
+#. Performing ', Check Out'
+#. Showing dialog 12 (@YMBET9) '@O168AC - Check Out' (owner: @SC6OIC)
+#. Performing ', Checkout'
+#. Performing 'discard, Discard..., Discard local changes.'
+#. Showing dialog 13 (@W9XC6K) '@57JCXX - Discard' (owner: @SC6OIC)
+#. Performing ', Discard'
+#. Showing dialog 14 (@YL41W) '@EFXL8O - Discard' (owner: @W9XC6K)
+msgctxt "dlgStdDiscardConfirmUntrackedFiles.hdl"
+msgid "Do you want to delete untracked files?"
+msgstr ""
+
+#. Performing ', OK'
+#. Performing 'fetch, Pull..., Fetch commits from a remote repository and (optionally) integrate them with possible local commits.'
+#. Showing dialog 11 (@MOEP9X) '@L2GYAP - Pull' (owner: @SC6OIC)
+#. Performing ', Pull'
+#. Performing ', Check Out'
+#. Showing dialog 12 (@YMBET9) '@O168AC - Check Out' (owner: @SC6OIC)
+#. Performing ', Checkout'
+#. Performing 'discard, Discard..., Discard local changes.'
+#. Showing dialog 13 (@W9XC6K) '@57JCXX - Discard' (owner: @SC6OIC)
+#. Performing ', Discard'
+msgctxt "dlgStdDiscardConfirmUntrackedFiles.tle"
+msgid "Discard"
+msgstr ""
+
 msgctxt "dlgTxtEditor.fileModified.btn:"
 msgid "Keep Content"
 msgstr ""
@@ -13090,6 +13672,11 @@ msgctxt "ntmFollowUsOnTwitter:"
 msgid "poll for opinions on how to implement new or change existing features"
 msgstr ""
 
+#. opening smartgit.bFS@GE8D2T:SmartGit 25.1 RC (smartgit.bFS@SDB9TM)
+msgctxt "ntmFollowUsOnX:"
+msgid "<link1>Bluesky</link1>: news"
+msgstr ""
+
 #. opening smartgit.byM@1FD37440:SmartGit 24.1.3 (smartgit.byM@3B98B809)
 msgctxt "ntmFollowUsOnX:"
 msgid "<link1>Bluesky</link1>: news, polls, discussions"
@@ -13099,12 +13686,32 @@ msgctxt "ntmFollowUsOnX:"
 msgid "<link1>Facebook</link1>: news"
 msgstr ""
 
+#. opening smartgit.bFS@GE8D2T:SmartGit 25.1 RC (smartgit.bFS@SDB9TM)
+msgctxt "ntmFollowUsOnX:"
+msgid "<link1>Mastodon</link1>: news"
+msgstr ""
+
 msgctxt "ntmFollowUsOnX:"
 msgid "<link1>Mastodon</link1>: news, polls, discussions"
 msgstr ""
 
+#. opening smartgit.bFS@GE8D2T:SmartGit 25.1 RC (smartgit.bFS@SDB9TM)
+msgctxt "ntmFollowUsOnX:"
+msgid "<link1>Reddit</link1>: discussions"
+msgstr ""
+
+#. opening smartgit.bFS@GE8D2T:SmartGit 25.1 RC (smartgit.bFS@SDB9TM)
+msgctxt "ntmFollowUsOnX:"
+msgid "<link1>UserEcho</link1>: feature requests, voting"
+msgstr ""
+
 msgctxt "ntmFollowUsOnX:"
 msgid "<link1>UserEcho</link1>: improvement ideas, discussions"
+msgstr ""
+
+#. opening smartgit.bFS@GE8D2T:SmartGit 25.1 RC (smartgit.bFS@SDB9TM)
+msgctxt "ntmFollowUsOnX:"
+msgid "<link1>X</link1>: news"
 msgstr ""
 
 msgctxt "ntmFollowUsOnX:"
@@ -13165,6 +13772,20 @@ msgstr ""
 
 msgctxt "ntmUpdateCheckFetchVersionStart:"
 msgid "After the new version has been downloaded successfully, you will be notified again."
+msgstr ""
+
+#. Performing ', Select from GitHub...'
+#. Showing dialog 5 (@DQUNQ8) '@9FDWPW - Select Issue' (owner: @Y5SPQT)
+#. Showing dialog 6 (@LEZJDZ) '@KERECJ - Passwords' (owner: @DQUNQ8)
+#. Performing ', OK'
+#. Performing ', Cancel'
+#. Performing ', Select from GitHub...'
+#. Showing dialog 7 (@V4YZEL) '@47RR81 - Select Issue' (owner: @Y5SPQT)
+#. Performing 'checkForLatestBuild, Check for Latest Build...'
+#. Showing dialog 8 (@FIS5XE) '@4JV7T8 - Check for Latest Build' (owner: @Y5SPQT)
+#. Performing ', Get Latest Build'
+msgctxt "ntmUpdateCheckFetchVersionSuccess:"
+msgid "SmartGit 25.1.054 Preview needs to be restarted now for the changes to take effect."
 msgstr ""
 
 msgctxt "ntmUpdateCheckFetchVersionSuccess:"
@@ -13283,6 +13904,20 @@ msgstr ""
 
 msgctxt "nttUpdateCheckFetchVersionStart:"
 msgid "Started downloading version $1 \\($2\\)."
+msgstr ""
+
+#. Performing ', Select from GitHub...'
+#. Showing dialog 5 (@DQUNQ8) '@9FDWPW - Select Issue' (owner: @Y5SPQT)
+#. Showing dialog 6 (@LEZJDZ) '@KERECJ - Passwords' (owner: @DQUNQ8)
+#. Performing ', OK'
+#. Performing ', Cancel'
+#. Performing ', Select from GitHub...'
+#. Showing dialog 7 (@V4YZEL) '@47RR81 - Select Issue' (owner: @Y5SPQT)
+#. Performing 'checkForLatestBuild, Check for Latest Build...'
+#. Showing dialog 8 (@FIS5XE) '@4JV7T8 - Check for Latest Build' (owner: @Y5SPQT)
+#. Performing ', Get Latest Build'
+msgctxt "nttUpdateCheckFetchVersionStart:"
+msgid "Started downloading version 25.1.055."
 msgstr ""
 
 msgctxt "nttUpdateCheckFetchVersionSuccess:"
@@ -13491,6 +14126,17 @@ msgstr ""
 
 msgctxt "ttpBranches:"
 msgid "<b>Tracking State:\\t</b>identical"
+msgstr ""
+
+#. opening smartgit.bDU@KOA9AT:SmartGit 25.1 Preview Evaluation until Aug 2 (smartgit.bDU@VJTW6K)
+#. Performing 'preferences, Preferences'
+#. Showing dialog 0 (@IZDUZZ) '@X5YV7E - Preferences' (owner: @VJTW6K)
+#. Performing ', Cancel'
+#. Performing ', Push'
+#. Showing dialog 1 (@2MRJDO) '@OWHK40 - Push' (owner: @VJTW6K)
+#. Performing ', Push'
+msgctxt "ttpBranches\"<b>Worktree:\\t</b>C:\\\\XXXX\\\\XXXX\\\\XXXX\\\\smartgit-translations-24.1-merged\""
+msgid "<b>Worktree:\\t</b>C:\\\\XXXX\\\\XXXX\\\\XXXX\\\\smartgit-translations-24.1-merged"
 msgstr ""
 
 msgctxt "ttpBranches:"
@@ -13705,6 +14351,10 @@ msgstr ""
 
 msgctxt "wnd.mni:"
 msgid "Open in Terminal"
+msgstr ""
+
+msgctxt "wnd.mni:"
+msgid "Open in VSCode"
 msgstr ""
 
 msgctxt "wnd.mni:"
@@ -14735,6 +15385,20 @@ msgctxt "wndEditor.mni:"
 msgid "LF \\(Unix, macOS\\)"
 msgstr ""
 
+#. Performing 'preferences, Preferences'
+#. Showing dialog 5 (@5Y3AWH) '@LG313Q - Preferences' (owner: @SC6OIC)
+#. Performing ', Cancel'
+#. Performing 'repositoryEditConfigUser, User'
+#. opening smartgit.cgZ@OFYRZM:.gitconfig - [C:\SPB_Data] - Editor (smartgit.cgZ@D84ZCM)
+#. Performing 'repositoryEditConfig, Repository'
+#. Showing dialog 6 (@UUNI0B) '@9PJRVJ - Edit Config' (owner: @SC6OIC)
+#. Performing ', OK'
+#. Performing '@smartgit.bEZ'
+#. Performing 'repositoryEditConfig, Repository'
+msgctxt "wndEditor.mniBlockSelection"
+msgid "Block Selection"
+msgstr ""
+
 msgctxt "wndEditor.mniEdit-undo"
 msgid "Undo"
 msgstr ""
@@ -14867,6 +15531,86 @@ msgctxt "wndLog.hnt:"
 msgid "No graph roots selected."
 msgstr ""
 
+#. Showing dialog 2 (@QHXIF5) '@HUBA1L - Edit Message' (owner: @TZQA8D)
+#. Performing ', Select'
+#. Performing ', Log...'
+#. Showing dialog 3 (@OAO2BV) '@2NWDUG - Select Commit Message' (owner: @QHXIF5)
+#. Showing dialog 4 (@KISZ1A) '@WFJHS5 - Refresh' (owner: @OAO2BV)
+#. Performing ', Branches..., Select which refs (branches, tags) should be shown.'
+#. Showing dialog 5 (@QOLB47) '@L6K76J - Select Branches' (owner: @OAO2BV)
+#. Performing ', Close'
+#. Performing ', Cancel'
+#. Performing ', More options'
+msgctxt "wndLog.mni:"
+msgid "Continue in Background"
+msgstr ""
+
+#. Showing dialog 2 (@QHXIF5) '@HUBA1L - Edit Message' (owner: @TZQA8D)
+#. Performing ', Select'
+#. Performing ', Log...'
+#. Showing dialog 3 (@OAO2BV) '@2NWDUG - Select Commit Message' (owner: @QHXIF5)
+#. Showing dialog 4 (@KISZ1A) '@WFJHS5 - Refresh' (owner: @OAO2BV)
+#. Performing ', Branches..., Select which refs (branches, tags) should be shown.'
+#. Showing dialog 5 (@QOLB47) '@L6K76J - Select Branches' (owner: @OAO2BV)
+#. Performing ', Close'
+#. Performing ', Cancel'
+#. Performing ', More options'
+msgctxt "wndLog.mni:"
+msgid "Continue with Description"
+msgstr ""
+
+#. opening smartgit.bDU@DPJWXY:SmartGit 25.1 Preview Evaluation until Aug 2 (smartgit.bDU@Y5SPQT)
+#. Performing 'editCommitAuthor, Edit Author...'
+#. Showing dialog 0 (@4S5SD2) '@CQJLLA - Edit Author' (owner: @Y5SPQT)
+#. Performing ', Modify Pushed Commits'
+#. Showing dialog 1 (@SW57P8) '@4EMFP0 - Edit Author' (owner: @Y5SPQT)
+#. Performing ', Cancel'
+msgctxt "wndLog.mni:"
+msgid "Copy Name <email>"
+msgstr ""
+
+#. Performing 'repositoryEditConfig, Repository'
+#. opening smartgit.cgZ@NCS8DH:config - [C:\XXXXXX\smartgit-translations\.git] - Editor (smartgit.cgZ@NH4V0N)
+#. Performing '@smartgit.bEZ'
+#. Performing 'ai.commitMessageCompose, AI Commit Message Compose, smartgit.jy: Cancelled'
+#. Showing dialog 7 (@4HDEX9) '@FI4UHA - AI Integration' (owner: @SC6OIC)
+#. Performing ', OK'
+#. Showing dialog 8 (@MEYNX4) '@6Q645M - Confirm GitHub AI Usage' (owner: @4HDEX9)
+#. Performing ', Confirm'
+#. Showing dialog 9 (@PJHNCC) '@XNKBRV - AI Commit Message Compose' (owner: @SC6OIC)
+#. Performing ', OK'
+msgctxt "wndLog.mni:"
+msgid "Drop All Notes"
+msgstr ""
+
+#. Showing dialog 2 (@QHXIF5) '@HUBA1L - Edit Message' (owner: @TZQA8D)
+#. Performing ', Select'
+#. Performing ', Log...'
+#. Showing dialog 3 (@OAO2BV) '@2NWDUG - Select Commit Message' (owner: @QHXIF5)
+#. Showing dialog 4 (@KISZ1A) '@WFJHS5 - Refresh' (owner: @OAO2BV)
+#. Performing ', Branches..., Select which refs (branches, tags) should be shown.'
+#. Showing dialog 5 (@QOLB47) '@L6K76J - Select Branches' (owner: @OAO2BV)
+#. Performing ', Close'
+#. Performing ', Cancel'
+#. Performing ', More options'
+msgctxt "wndLog.mni:"
+msgid "On Manual Intervention"
+msgstr ""
+
+#. Showing dialog 2 (@QHXIF5) '@HUBA1L - Edit Message' (owner: @TZQA8D)
+#. Performing ', Select'
+#. Performing ', Log...'
+#. Showing dialog 3 (@OAO2BV) '@2NWDUG - Select Commit Message' (owner: @QHXIF5)
+#. Showing dialog 4 (@KISZ1A) '@WFJHS5 - Refresh' (owner: @OAO2BV)
+#. Performing ', Branches..., Select which refs (branches, tags) should be shown.'
+#. Showing dialog 5 (@QOLB47) '@L6K76J - Select Branches' (owner: @OAO2BV)
+#. Performing ', Close'
+#. Performing ', Cancel'
+#. Performing ', More options'
+msgctxt "wndLog.mni:"
+msgid "Reword '@ai' and 'WIP' commits"
+msgstr ""
+
 #. Performing 'goto-next-diff, Next Change, Go to next change.'
 #. Performing 'changesView.sideBySide, Side by Side'
 #. Performing 'goto-next-diff, Next Change, Go to next change.'
@@ -14879,6 +15623,34 @@ msgstr ""
 #. Performing 'goto-next-diff, Next Change, Go to next change.'
 msgctxt "wndLog.mni:"
 msgid "Select from GitHub"
+msgstr ""
+
+#. Showing dialog 2 (@QHXIF5) '@HUBA1L - Edit Message' (owner: @TZQA8D)
+#. Performing ', Select'
+#. Performing ', Log...'
+#. Showing dialog 3 (@OAO2BV) '@2NWDUG - Select Commit Message' (owner: @QHXIF5)
+#. Showing dialog 4 (@KISZ1A) '@WFJHS5 - Refresh' (owner: @OAO2BV)
+#. Performing ', Branches..., Select which refs (branches, tags) should be shown.'
+#. Showing dialog 5 (@QOLB47) '@L6K76J - Select Branches' (owner: @OAO2BV)
+#. Performing ', Close'
+#. Performing ', Cancel'
+#. Performing ', More options'
+msgctxt "wndLog.mni:"
+msgid "Stop"
+msgstr ""
+
+#. Performing 'repositoryEditConfig, Repository'
+#. opening smartgit.cgZ@NCS8DH:config - [C:\XXXXXX\smartgit-translations\.git] - Editor (smartgit.cgZ@NH4V0N)
+#. Performing '@smartgit.bEZ'
+#. Performing 'ai.commitMessageCompose, AI Commit Message Compose, smartgit.jy: Cancelled'
+#. Showing dialog 7 (@4HDEX9) '@FI4UHA - AI Integration' (owner: @SC6OIC)
+#. Performing ', OK'
+#. Showing dialog 8 (@MEYNX4) '@6Q645M - Confirm GitHub AI Usage' (owner: @4HDEX9)
+#. Performing ', Confirm'
+#. Showing dialog 9 (@PJHNCC) '@XNKBRV - AI Commit Message Compose' (owner: @SC6OIC)
+#. Performing ', OK'
+msgctxt "wndLog.mni\"github \\(active\\)\""
+msgid "github \\(active\\)"
 msgstr ""
 
 msgctxt "wndLog.mniFixCaseChange"
@@ -14947,6 +15719,20 @@ msgstr ""
 
 msgctxt "wndLog.tbt:"
 msgid "Refresh information from GitHub."
+msgstr ""
+
+#. Performing 'repositoryEditConfig, Repository'
+#. opening smartgit.cgZ@NCS8DH:config - [C:\XXXXXX\smartgit-translations\.git] - Editor (smartgit.cgZ@NH4V0N)
+#. Performing '@smartgit.bEZ'
+#. Performing 'ai.commitMessageCompose, AI Commit Message Compose, smartgit.jy: Cancelled'
+#. Showing dialog 7 (@4HDEX9) '@FI4UHA - AI Integration' (owner: @SC6OIC)
+#. Performing ', OK'
+#. Showing dialog 8 (@MEYNX4) '@6Q645M - Confirm GitHub AI Usage' (owner: @4HDEX9)
+#. Performing ', Confirm'
+#. Showing dialog 9 (@PJHNCC) '@XNKBRV - AI Commit Message Compose' (owner: @SC6OIC)
+#. Performing ', OK'
+msgctxt "wndLog.tbtAi.commitMessageCompose"
+msgid "smartgit.jy: Cancelled"
 msgstr ""
 
 msgctxt "wndProject.mni:"
@@ -15106,6 +15892,34 @@ msgctxt "wndStd.mni:"
 msgid "Changed files"
 msgstr ""
 
+#. Performing ', Branches..., Select which refs (branches, tags) should be shown.'
+#. Showing dialog 5 (@QOLB47) '@L6K76J - Select Branches' (owner: @OAO2BV)
+#. Performing ', Close'
+#. Performing ', Cancel'
+#. Performing ', More options'
+#. Performing '@smartgit.bEc'
+#. Performing 'viewUnchanged, Show Unchanged Files, If selected, unchanged files will be shown.'
+#. Performing 'newStandardWindow, Show Standard Window'
+#. opening smartgit.aBp@MPILPQ:null (smartgit.aBp@C1NFGZ)
+#. Performing 'stdSetModeWt, Show Local Changes, Show the local files of the repository (Working Tree).'
+msgctxt "wndStd.mni:"
+msgid "Continue in Background"
+msgstr ""
+
+#. Performing ', Branches..., Select which refs (branches, tags) should be shown.'
+#. Showing dialog 5 (@QOLB47) '@L6K76J - Select Branches' (owner: @OAO2BV)
+#. Performing ', Close'
+#. Performing ', Cancel'
+#. Performing ', More options'
+#. Performing '@smartgit.bEc'
+#. Performing 'viewUnchanged, Show Unchanged Files, If selected, unchanged files will be shown.'
+#. Performing 'newStandardWindow, Show Standard Window'
+#. opening smartgit.aBp@MPILPQ:null (smartgit.aBp@C1NFGZ)
+#. Performing 'stdSetModeWt, Show Local Changes, Show the local files of the repository (Working Tree).'
+msgctxt "wndStd.mni:"
+msgid "Continue with Description"
+msgstr ""
+
 msgctxt "wndStd.mni:"
 msgid "Fetch All"
 msgstr ""
@@ -15124,6 +15938,20 @@ msgstr ""
 
 msgctxt "wndStd.mni:"
 msgid "Log"
+msgstr ""
+
+#. Performing ', Branches..., Select which refs (branches, tags) should be shown.'
+#. Showing dialog 5 (@QOLB47) '@L6K76J - Select Branches' (owner: @OAO2BV)
+#. Performing ', Close'
+#. Performing ', Cancel'
+#. Performing ', More options'
+#. Performing '@smartgit.bEc'
+#. Performing 'viewUnchanged, Show Unchanged Files, If selected, unchanged files will be shown.'
+#. Performing 'newStandardWindow, Show Standard Window'
+#. opening smartgit.aBp@MPILPQ:null (smartgit.aBp@C1NFGZ)
+#. Performing 'stdSetModeWt, Show Local Changes, Show the local files of the repository (Working Tree).'
+msgctxt "wndStd.mni:"
+msgid "On Manual Intervention"
 msgstr ""
 
 msgctxt "wndStd.mni:"
@@ -15164,6 +15992,20 @@ msgctxt "wndStd.mni:"
 msgid "Reset"
 msgstr ""
 
+#. Performing ', Branches..., Select which refs (branches, tags) should be shown.'
+#. Showing dialog 5 (@QOLB47) '@L6K76J - Select Branches' (owner: @OAO2BV)
+#. Performing ', Close'
+#. Performing ', Cancel'
+#. Performing ', More options'
+#. Performing '@smartgit.bEc'
+#. Performing 'viewUnchanged, Show Unchanged Files, If selected, unchanged files will be shown.'
+#. Performing 'newStandardWindow, Show Standard Window'
+#. opening smartgit.aBp@MPILPQ:null (smartgit.aBp@C1NFGZ)
+#. Performing 'stdSetModeWt, Show Local Changes, Show the local files of the repository (Working Tree).'
+msgctxt "wndStd.mni:"
+msgid "Reword '@ai' and 'WIP' commits"
+msgstr ""
+
 msgctxt "wndStd.mni:"
 msgid "Save Stash"
 msgstr ""
@@ -15189,6 +16031,20 @@ msgstr ""
 
 msgctxt "wndStd.mni:"
 msgid "Sort by Path"
+msgstr ""
+
+#. Performing ', Branches..., Select which refs (branches, tags) should be shown.'
+#. Showing dialog 5 (@QOLB47) '@L6K76J - Select Branches' (owner: @OAO2BV)
+#. Performing ', Close'
+#. Performing ', Cancel'
+#. Performing ', More options'
+#. Performing '@smartgit.bEc'
+#. Performing 'viewUnchanged, Show Unchanged Files, If selected, unchanged files will be shown.'
+#. Performing 'newStandardWindow, Show Standard Window'
+#. opening smartgit.aBp@MPILPQ:null (smartgit.aBp@C1NFGZ)
+#. Performing 'stdSetModeWt, Show Local Changes, Show the local files of the repository (Working Tree).'
+msgctxt "wndStd.mni:"
+msgid "Stop"
 msgstr ""
 
 msgctxt "wndStd.mniBisectTryCommit"
@@ -18396,831 +19252,4 @@ msgstr ""
 
 msgctxt "wnd(Log|Project|Std|).tle:"
 msgid "$1 \\[$2\\] - Log for $3"
-msgstr ""
-
-#. Performing 'stdSetModeHistory, Show History, Show the history view.'
-#. Performing 'editCommitMessage, Edit Message...'
-#. Showing dialog 6 (@G1PPHJ) '@PUJNRC - Edit Message' (owner: @C1NFGZ)
-#. Performing ', OK'
-#. Performing 'editCommitMessage, Edit Message...'
-#. Showing dialog 7 (@V9CN2D) '@DJZR4Z - Edit Message' (owner: @C1NFGZ)
-#. Performing ', OK'
-#. Performing '@smartgit.aDL'
-#. Performing 'checkout, Check Out..., Check out an existing commit.'
-#. Showing dialog 8 (@51CRA9) '@ZGJRFJ - Check Out' (owner: @C1NFGZ)
-msgctxt "dlgSgCheckoutSwitchToWorktree.btn:"
-msgid "Switch"
-msgstr ""
-
-#. Performing 'stdSetModeHistory, Show History, Show the history view.'
-#. Performing 'editCommitMessage, Edit Message...'
-#. Showing dialog 6 (@G1PPHJ) '@PUJNRC - Edit Message' (owner: @C1NFGZ)
-#. Performing ', OK'
-#. Performing 'editCommitMessage, Edit Message...'
-#. Showing dialog 7 (@V9CN2D) '@DJZR4Z - Edit Message' (owner: @C1NFGZ)
-#. Performing ', OK'
-#. Performing '@smartgit.aDL'
-#. Performing 'checkout, Check Out..., Check out an existing commit.'
-#. Showing dialog 8 (@51CRA9) '@ZGJRFJ - Check Out' (owner: @C1NFGZ)
-msgctxt "dlgSgCheckoutSwitchToWorktree.fur"
-msgid "A worktree repository already exists for the selected branch. Therefore, you can't check out this branch directly, but you can switch to this worktree."
-msgstr ""
-
-#. Performing 'stdSetModeHistory, Show History, Show the history view.'
-#. Performing 'editCommitMessage, Edit Message...'
-#. Showing dialog 6 (@G1PPHJ) '@PUJNRC - Edit Message' (owner: @C1NFGZ)
-#. Performing ', OK'
-#. Performing 'editCommitMessage, Edit Message...'
-#. Showing dialog 7 (@V9CN2D) '@DJZR4Z - Edit Message' (owner: @C1NFGZ)
-#. Performing ', OK'
-#. Performing '@smartgit.aDL'
-#. Performing 'checkout, Check Out..., Check out an existing commit.'
-#. Showing dialog 8 (@51CRA9) '@ZGJRFJ - Check Out' (owner: @C1NFGZ)
-msgctxt "dlgSgCheckoutSwitchToWorktree.hdl"
-msgid "Do you want to switch to worktree 'C:\\\\XXXX\\\\XXXX\\\\XXXX\\\\smartgit-translations-25.1_windows'?"
-msgstr ""
-
-#. Performing 'stdSetModeWt, Show Local Changes, Show the local files of the repository (Working Tree).'
-#. Performing 'stdSetModeHistory, Show History, Show the history view.'
-#. Performing 'editCommitMessage, Edit Message...'
-#. Showing dialog 6 (@G1PPHJ) '@PUJNRC - Edit Message' (owner: @C1NFGZ)
-#. Performing ', OK'
-#. Performing 'editCommitMessage, Edit Message...'
-#. Showing dialog 7 (@V9CN2D) '@DJZR4Z - Edit Message' (owner: @C1NFGZ)
-#. Performing ', OK'
-#. Performing '@smartgit.aDL'
-#. Performing 'checkout, Check Out..., Check out an existing commit.'
-msgctxt "dlgSgCheckoutSwitchToWorktree.tle"
-msgid "Check Out"
-msgstr ""
-
-#. Performing ', Cancel'
-#. Performing '@smartgit.bEc'
-#. Performing 'editCommitMessage, Edit Message...'
-#. Showing dialog 9 (@7DTYLB) '@XMAQ41 - Edit Message' (owner: @TZQA8D)
-#. Performing ', Modify Pushed Commits'
-#. Showing dialog 10 (@YG5QGF) '@EPJYJ2 - Edit Message' (owner: @TZQA8D)
-#. Performing ', Select'
-#. Performing ', Log...'
-#. Showing dialog 11 (@Y3JL8Y) '@I0LTP4 - Select Commit Message' (owner: @YG5QGF)
-#. Showing dialog 12 (@FAEW2D) '@48EF0F - Refresh' (owner: @Y3JL8Y)
-msgctxt "dlgSgCommitSelectMessageFromLog.hnt:"
-msgid "No graph roots selected."
-msgstr ""
-
-#. Performing '@smartgit.bEc'
-#. Performing '@smartgit.bEc'
-#. opening smartgit.bDU@YHU25C:SmartGit 25.1 Preview Evaluation until Aug 2 (smartgit.bDU@N6W7NC)
-#. Performing '@smartgit.bEc'
-#. Performing '@smartgit.bEc'
-#. Performing '@smartgit.bEc'
-#. Performing 'squashCommits, Squash...'
-#. Showing dialog 8 (@Y3H9KM) '@QABM6G - Squash Commits' (owner: @N6W7NC)
-#. Performing ', Modify Pushed Commits'
-#. Showing dialog 9 (@D69MFK) '@KBYQK1 - Squash Commits' (owner: @N6W7NC)
-msgctxt "dlgSgHistorySquash.btn:"
-msgid "Add co-authors"
-msgstr ""
-
-#. Performing ', Pull'
-#. Showing dialog 17 (@V4XFW1) '@DV0W4Q - Pull' (owner: @N6W7NC)
-#. Performing ', Cancel'
-#. Performing ', Reset HEAD to 'feature/forceinclude''
-#. Showing dialog 18 (@HQNLU4) '@5VMBJ9 - Reset' (owner: @N6W7NC)
-#. Performing ', Discard'
-#. Showing dialog 19 (@YPLIZP) '@OG3ALA - Reset' (owner: @HQNLU4)
-#. Performing ', Discard'
-#. Performing ', Rebase 1 commit from 'feature/forceinclude' to 'v1.1.0''
-#. Showing dialog 20 (@PMZ6R) '@7WXSSO - Command Failed' (owner: @N6W7NC)
-msgctxt "dlgSgOutput.lbl:"
-msgid "The command output below contains more details on the problem."
-msgstr ""
-
-#. Performing ', Pull'
-#. Showing dialog 17 (@V4XFW1) '@DV0W4Q - Pull' (owner: @N6W7NC)
-#. Performing ', Cancel'
-#. Performing ', Reset HEAD to 'feature/forceinclude''
-#. Showing dialog 18 (@HQNLU4) '@5VMBJ9 - Reset' (owner: @N6W7NC)
-#. Performing ', Discard'
-#. Showing dialog 19 (@YPLIZP) '@OG3ALA - Reset' (owner: @HQNLU4)
-#. Performing ', Discard'
-#. Performing ', Rebase 1 commit from 'feature/forceinclude' to 'v1.1.0''
-#. Showing dialog 20 (@PMZ6R) '@7WXSSO - Command Failed' (owner: @N6W7NC)
-msgctxt "dlgSgOutput.lbl\"unable to auto-detect email address \\(got 'XXXX@XXXXXX.\\(none\\)'\\)\""
-msgid "unable to auto-detect email address \\(got 'XXXX@XXXXXX.\\(none\\)'\\)"
-msgstr ""
-
-#. Performing ', Select'
-#. Performing 'fetch, Pull..., Fetch commits from a remote repository and (optionally) integrate them with possible local commits.'
-#. Showing dialog 16 (@6CJT63) '@YT1ZMP - Pull' (owner: @N6W7NC)
-#. Performing ', Pull'
-#. Showing dialog 17 (@V4XFW1) '@DV0W4Q - Pull' (owner: @N6W7NC)
-#. Performing ', Cancel'
-#. Performing ', Reset HEAD to 'feature/forceinclude''
-#. Showing dialog 18 (@HQNLU4) '@5VMBJ9 - Reset' (owner: @N6W7NC)
-#. Performing ', Discard'
-#. Showing dialog 19 (@YPLIZP) '@OG3ALA - Reset' (owner: @HQNLU4)
-msgctxt "dlgSgStashOnDemandDiscardConfirmation.btn:"
-msgid "Discard"
-msgstr ""
-
-#. Performing ', Select'
-#. Performing 'fetch, Pull..., Fetch commits from a remote repository and (optionally) integrate them with possible local commits.'
-#. Showing dialog 16 (@6CJT63) '@YT1ZMP - Pull' (owner: @N6W7NC)
-#. Performing ', Pull'
-#. Showing dialog 17 (@V4XFW1) '@DV0W4Q - Pull' (owner: @N6W7NC)
-#. Performing ', Cancel'
-#. Performing ', Reset HEAD to 'feature/forceinclude''
-#. Showing dialog 18 (@HQNLU4) '@5VMBJ9 - Reset' (owner: @N6W7NC)
-#. Performing ', Discard'
-#. Showing dialog 19 (@YPLIZP) '@OG3ALA - Reset' (owner: @HQNLU4)
-msgctxt "dlgSgStashOnDemandDiscardConfirmation.fur"
-msgid "It might be hard or impossible to restore them!"
-msgstr ""
-
-#. Performing ', Select'
-#. Performing 'fetch, Pull..., Fetch commits from a remote repository and (optionally) integrate them with possible local commits.'
-#. Showing dialog 16 (@6CJT63) '@YT1ZMP - Pull' (owner: @N6W7NC)
-#. Performing ', Pull'
-#. Showing dialog 17 (@V4XFW1) '@DV0W4Q - Pull' (owner: @N6W7NC)
-#. Performing ', Cancel'
-#. Performing ', Reset HEAD to 'feature/forceinclude''
-#. Showing dialog 18 (@HQNLU4) '@5VMBJ9 - Reset' (owner: @N6W7NC)
-#. Performing ', Discard'
-#. Showing dialog 19 (@YPLIZP) '@OG3ALA - Reset' (owner: @HQNLU4)
-msgctxt "dlgSgStashOnDemandDiscardConfirmation.hdl"
-msgid "Do you really want to discard the local changes?"
-msgstr ""
-
-#. Performing ', Cancel'
-#. Performing ', Select'
-#. Performing 'fetch, Pull..., Fetch commits from a remote repository and (optionally) integrate them with possible local commits.'
-#. Showing dialog 16 (@6CJT63) '@YT1ZMP - Pull' (owner: @N6W7NC)
-#. Performing ', Pull'
-#. Showing dialog 17 (@V4XFW1) '@DV0W4Q - Pull' (owner: @N6W7NC)
-#. Performing ', Cancel'
-#. Performing ', Reset HEAD to 'feature/forceinclude''
-#. Showing dialog 18 (@HQNLU4) '@5VMBJ9 - Reset' (owner: @N6W7NC)
-#. Performing ', Discard'
-msgctxt "dlgSgStashOnDemandDiscardConfirmation.tle"
-msgid "Reset"
-msgstr ""
-
-#. opening smartgit.bDU@KOA9AT:SmartGit 25.1 Preview Evaluation until Aug 2 (smartgit.bDU@VJTW6K)
-#. Performing 'preferences, Preferences'
-#. Showing dialog 0 (@IZDUZZ) '@X5YV7E - Preferences' (owner: @VJTW6K)
-#. Performing ', Cancel'
-#. Performing ', Push'
-#. Showing dialog 1 (@2MRJDO) '@OWHK40 - Push' (owner: @VJTW6K)
-#. Performing ', Push'
-msgctxt "ttpBranches\"<b>Worktree:\\t</b>C:\\\\XXXX\\\\XXXX\\\\XXXX\\\\smartgit-translations-24.1-merged\""
-msgid "<b>Worktree:\\t</b>C:\\\\XXXX\\\\XXXX\\\\XXXX\\\\smartgit-translations-24.1-merged"
-msgstr ""
-
-#. Showing dialog 2 (@QHXIF5) '@HUBA1L - Edit Message' (owner: @TZQA8D)
-#. Performing ', Select'
-#. Performing ', Log...'
-#. Showing dialog 3 (@OAO2BV) '@2NWDUG - Select Commit Message' (owner: @QHXIF5)
-#. Showing dialog 4 (@KISZ1A) '@WFJHS5 - Refresh' (owner: @OAO2BV)
-#. Performing ', Branches..., Select which refs (branches, tags) should be shown.'
-#. Showing dialog 5 (@QOLB47) '@L6K76J - Select Branches' (owner: @OAO2BV)
-#. Performing ', Close'
-#. Performing ', Cancel'
-#. Performing ', More options'
-msgctxt "wndLog.mni:"
-msgid "Continue in Background"
-msgstr ""
-
-#. Showing dialog 2 (@QHXIF5) '@HUBA1L - Edit Message' (owner: @TZQA8D)
-#. Performing ', Select'
-#. Performing ', Log...'
-#. Showing dialog 3 (@OAO2BV) '@2NWDUG - Select Commit Message' (owner: @QHXIF5)
-#. Showing dialog 4 (@KISZ1A) '@WFJHS5 - Refresh' (owner: @OAO2BV)
-#. Performing ', Branches..., Select which refs (branches, tags) should be shown.'
-#. Showing dialog 5 (@QOLB47) '@L6K76J - Select Branches' (owner: @OAO2BV)
-#. Performing ', Close'
-#. Performing ', Cancel'
-#. Performing ', More options'
-msgctxt "wndLog.mni:"
-msgid "Continue with Description"
-msgstr ""
-
-#. Showing dialog 2 (@QHXIF5) '@HUBA1L - Edit Message' (owner: @TZQA8D)
-#. Performing ', Select'
-#. Performing ', Log...'
-#. Showing dialog 3 (@OAO2BV) '@2NWDUG - Select Commit Message' (owner: @QHXIF5)
-#. Showing dialog 4 (@KISZ1A) '@WFJHS5 - Refresh' (owner: @OAO2BV)
-#. Performing ', Branches..., Select which refs (branches, tags) should be shown.'
-#. Showing dialog 5 (@QOLB47) '@L6K76J - Select Branches' (owner: @OAO2BV)
-#. Performing ', Close'
-#. Performing ', Cancel'
-#. Performing ', More options'
-msgctxt "wndLog.mni:"
-msgid "On Manual Intervention"
-msgstr ""
-
-#. Showing dialog 2 (@QHXIF5) '@HUBA1L - Edit Message' (owner: @TZQA8D)
-#. Performing ', Select'
-#. Performing ', Log...'
-#. Showing dialog 3 (@OAO2BV) '@2NWDUG - Select Commit Message' (owner: @QHXIF5)
-#. Showing dialog 4 (@KISZ1A) '@WFJHS5 - Refresh' (owner: @OAO2BV)
-#. Performing ', Branches..., Select which refs (branches, tags) should be shown.'
-#. Showing dialog 5 (@QOLB47) '@L6K76J - Select Branches' (owner: @OAO2BV)
-#. Performing ', Close'
-#. Performing ', Cancel'
-#. Performing ', More options'
-msgctxt "wndLog.mni:"
-msgid "Reword '@ai' and 'WIP' commits"
-msgstr ""
-
-#. Showing dialog 2 (@QHXIF5) '@HUBA1L - Edit Message' (owner: @TZQA8D)
-#. Performing ', Select'
-#. Performing ', Log...'
-#. Showing dialog 3 (@OAO2BV) '@2NWDUG - Select Commit Message' (owner: @QHXIF5)
-#. Showing dialog 4 (@KISZ1A) '@WFJHS5 - Refresh' (owner: @OAO2BV)
-#. Performing ', Branches..., Select which refs (branches, tags) should be shown.'
-#. Showing dialog 5 (@QOLB47) '@L6K76J - Select Branches' (owner: @OAO2BV)
-#. Performing ', Close'
-#. Performing ', Cancel'
-#. Performing ', More options'
-msgctxt "wndLog.mni:"
-msgid "Stop"
-msgstr ""
-
-#. Performing ', Branches..., Select which refs (branches, tags) should be shown.'
-#. Showing dialog 5 (@QOLB47) '@L6K76J - Select Branches' (owner: @OAO2BV)
-#. Performing ', Close'
-#. Performing ', Cancel'
-#. Performing ', More options'
-#. Performing '@smartgit.bEc'
-#. Performing 'viewUnchanged, Show Unchanged Files, If selected, unchanged files will be shown.'
-#. Performing 'newStandardWindow, Show Standard Window'
-#. opening smartgit.aBp@MPILPQ:null (smartgit.aBp@C1NFGZ)
-#. Performing 'stdSetModeWt, Show Local Changes, Show the local files of the repository (Working Tree).'
-msgctxt "wndStd.mni:"
-msgid "Continue in Background"
-msgstr ""
-
-#. Performing ', Branches..., Select which refs (branches, tags) should be shown.'
-#. Showing dialog 5 (@QOLB47) '@L6K76J - Select Branches' (owner: @OAO2BV)
-#. Performing ', Close'
-#. Performing ', Cancel'
-#. Performing ', More options'
-#. Performing '@smartgit.bEc'
-#. Performing 'viewUnchanged, Show Unchanged Files, If selected, unchanged files will be shown.'
-#. Performing 'newStandardWindow, Show Standard Window'
-#. opening smartgit.aBp@MPILPQ:null (smartgit.aBp@C1NFGZ)
-#. Performing 'stdSetModeWt, Show Local Changes, Show the local files of the repository (Working Tree).'
-msgctxt "wndStd.mni:"
-msgid "Continue with Description"
-msgstr ""
-
-#. Performing ', Branches..., Select which refs (branches, tags) should be shown.'
-#. Showing dialog 5 (@QOLB47) '@L6K76J - Select Branches' (owner: @OAO2BV)
-#. Performing ', Close'
-#. Performing ', Cancel'
-#. Performing ', More options'
-#. Performing '@smartgit.bEc'
-#. Performing 'viewUnchanged, Show Unchanged Files, If selected, unchanged files will be shown.'
-#. Performing 'newStandardWindow, Show Standard Window'
-#. opening smartgit.aBp@MPILPQ:null (smartgit.aBp@C1NFGZ)
-#. Performing 'stdSetModeWt, Show Local Changes, Show the local files of the repository (Working Tree).'
-msgctxt "wndStd.mni:"
-msgid "On Manual Intervention"
-msgstr ""
-
-#. Performing ', Branches..., Select which refs (branches, tags) should be shown.'
-#. Showing dialog 5 (@QOLB47) '@L6K76J - Select Branches' (owner: @OAO2BV)
-#. Performing ', Close'
-#. Performing ', Cancel'
-#. Performing ', More options'
-#. Performing '@smartgit.bEc'
-#. Performing 'viewUnchanged, Show Unchanged Files, If selected, unchanged files will be shown.'
-#. Performing 'newStandardWindow, Show Standard Window'
-#. opening smartgit.aBp@MPILPQ:null (smartgit.aBp@C1NFGZ)
-#. Performing 'stdSetModeWt, Show Local Changes, Show the local files of the repository (Working Tree).'
-msgctxt "wndStd.mni:"
-msgid "Reword '@ai' and 'WIP' commits"
-msgstr ""
-
-#. Performing ', Branches..., Select which refs (branches, tags) should be shown.'
-#. Showing dialog 5 (@QOLB47) '@L6K76J - Select Branches' (owner: @OAO2BV)
-#. Performing ', Close'
-#. Performing ', Cancel'
-#. Performing ', More options'
-#. Performing '@smartgit.bEc'
-#. Performing 'viewUnchanged, Show Unchanged Files, If selected, unchanged files will be shown.'
-#. Performing 'newStandardWindow, Show Standard Window'
-#. opening smartgit.aBp@MPILPQ:null (smartgit.aBp@C1NFGZ)
-#. Performing 'stdSetModeWt, Show Local Changes, Show the local files of the repository (Working Tree).'
-msgctxt "wndStd.mni:"
-msgid "Stop"
-msgstr ""
-
-#. opening smartgit.bER@6HGU5A:SmartGit 25.1 Preview Evaluation until Aug 2 (smartgit.bER@RQMK4I)
-#. Performing ', Select from GitHub...'
-#. Showing dialog 0 (@S07BQ1) '@Y883KI - Select Issue' (owner: @RQMK4I)
-#. Showing dialog 1 (@QS2GW) '@P2G9QA - Passwords' (owner: @S07BQ1)
-msgctxt "dlgScMasterPasswordEnter.lbl:"
-msgid "Forgot it? Reset it in the preferences, 'Authentication' page."
-msgstr ""
-
-#. opening smartgit.bER@JCVHRN:SmartGit 25.1 Preview Evaluation until Aug 2 (smartgit.bER@SC6OIC)
-#. Performing '@smartgit.bEZ'
-#. Performing 'ai.commitMessageCompose, AI Commit Message Compose'
-#. Showing dialog 0 (@Q7JWUF) '@YNTGTX - AI Commit Message Compose' (owner: @SC6OIC)
-#. Performing ', OK'
-#. Performing ', github (active)...'
-#. Showing dialog 1 (@FR9YBR) '@61WMS8 - AI Commit Message Compose' (owner: @SC6OIC)
-#. Performing ', OK'
-#. Performing ', Drop All Notes'
-#. Showing dialog 2 (@PS7KTZ) '@A1OX4E - Drop AI Notes' (owner: @SC6OIC)
-msgctxt "dlgSgAiAnnotatorDropAllNotes.btn:"
-msgid "Drop"
-msgstr ""
-
-#. opening smartgit.bER@JCVHRN:SmartGit 25.1 Preview Evaluation until Aug 2 (smartgit.bER@SC6OIC)
-#. Performing '@smartgit.bEZ'
-#. Performing 'ai.commitMessageCompose, AI Commit Message Compose'
-#. Showing dialog 0 (@Q7JWUF) '@YNTGTX - AI Commit Message Compose' (owner: @SC6OIC)
-#. Performing ', OK'
-#. Performing ', github (active)...'
-#. Showing dialog 1 (@FR9YBR) '@61WMS8 - AI Commit Message Compose' (owner: @SC6OIC)
-#. Performing ', OK'
-#. Performing ', Drop All Notes'
-#. Showing dialog 2 (@PS7KTZ) '@A1OX4E - Drop AI Notes' (owner: @SC6OIC)
-msgctxt "dlgSgAiAnnotatorDropAllNotes.fur"
-msgid "This will remove all AI-related Git notes from the repository."
-msgstr ""
-
-#. opening smartgit.bER@JCVHRN:SmartGit 25.1 Preview Evaluation until Aug 2 (smartgit.bER@SC6OIC)
-#. Performing '@smartgit.bEZ'
-#. Performing 'ai.commitMessageCompose, AI Commit Message Compose'
-#. Showing dialog 0 (@Q7JWUF) '@YNTGTX - AI Commit Message Compose' (owner: @SC6OIC)
-#. Performing ', OK'
-#. Performing ', github (active)...'
-#. Showing dialog 1 (@FR9YBR) '@61WMS8 - AI Commit Message Compose' (owner: @SC6OIC)
-#. Performing ', OK'
-#. Performing ', Drop All Notes'
-#. Showing dialog 2 (@PS7KTZ) '@A1OX4E - Drop AI Notes' (owner: @SC6OIC)
-msgctxt "dlgSgAiAnnotatorDropAllNotes.hdl"
-msgid "Do you want to drop all AI-related Git notes?"
-msgstr ""
-
-#. opening smartgit.bER@JCVHRN:SmartGit 25.1 Preview Evaluation until Aug 2 (smartgit.bER@SC6OIC)
-#. Performing '@smartgit.bEZ'
-#. Performing 'ai.commitMessageCompose, AI Commit Message Compose'
-#. Showing dialog 0 (@Q7JWUF) '@YNTGTX - AI Commit Message Compose' (owner: @SC6OIC)
-#. Performing ', OK'
-#. Performing ', github (active)...'
-#. Showing dialog 1 (@FR9YBR) '@61WMS8 - AI Commit Message Compose' (owner: @SC6OIC)
-#. Performing ', OK'
-#. Performing ', Drop All Notes'
-msgctxt "dlgSgAiAnnotatorDropAllNotes.tle"
-msgid "Drop AI Notes"
-msgstr ""
-
-#. Performing '@smartgit.bEZ'
-#. Performing 'repositoryEditConfig, Repository'
-#. opening smartgit.cgZ@NCS8DH:config - [C:\XXXXXX\smartgit-translations\.git] - Editor (smartgit.cgZ@NH4V0N)
-#. Performing '@smartgit.bEZ'
-#. Performing 'ai.commitMessageCompose, AI Commit Message Compose, smartgit.jy: Cancelled'
-#. Showing dialog 7 (@4HDEX9) '@FI4UHA - AI Integration' (owner: @SC6OIC)
-#. Performing ', OK'
-#. Showing dialog 8 (@MEYNX4) '@6Q645M - Confirm GitHub AI Usage' (owner: @4HDEX9)
-#. Performing ', Confirm'
-#. Showing dialog 9 (@PJHNCC) '@XNKBRV - AI Commit Message Compose' (owner: @SC6OIC)
-msgctxt "dlgSgAiCommitMessageComposeActionSetup.fur"
-msgid "Click the AI button again to generate your first commit message."
-msgstr ""
-
-#. Performing '@smartgit.bEZ'
-#. Performing 'repositoryEditConfig, Repository'
-#. opening smartgit.cgZ@NCS8DH:config - [C:\XXXXXX\smartgit-translations\.git] - Editor (smartgit.cgZ@NH4V0N)
-#. Performing '@smartgit.bEZ'
-#. Performing 'ai.commitMessageCompose, AI Commit Message Compose, smartgit.jy: Cancelled'
-#. Showing dialog 7 (@4HDEX9) '@FI4UHA - AI Integration' (owner: @SC6OIC)
-#. Performing ', OK'
-#. Showing dialog 8 (@MEYNX4) '@6Q645M - Confirm GitHub AI Usage' (owner: @4HDEX9)
-#. Performing ', Confirm'
-#. Showing dialog 9 (@PJHNCC) '@XNKBRV - AI Commit Message Compose' (owner: @SC6OIC)
-msgctxt "dlgSgAiCommitMessageComposeActionSetup.hdl"
-msgid "GitHub models are now configured."
-msgstr ""
-
-#. Performing ', OK'
-#. Performing '@smartgit.bEZ'
-#. Performing 'repositoryEditConfig, Repository'
-#. opening smartgit.cgZ@NCS8DH:config - [C:\XXXXXX\smartgit-translations\.git] - Editor (smartgit.cgZ@NH4V0N)
-#. Performing '@smartgit.bEZ'
-#. Performing 'ai.commitMessageCompose, AI Commit Message Compose, smartgit.jy: Cancelled'
-#. Showing dialog 7 (@4HDEX9) '@FI4UHA - AI Integration' (owner: @SC6OIC)
-#. Performing ', OK'
-#. Showing dialog 8 (@MEYNX4) '@6Q645M - Confirm GitHub AI Usage' (owner: @4HDEX9)
-#. Performing ', Confirm'
-msgctxt "dlgSgAiCommitMessageComposeActionSetup.tle"
-msgid "AI Commit Message Compose"
-msgstr ""
-
-#. Performing '@smartgit.bEZ'
-#. Performing 'ai.commitMessageCompose, AI Commit Message Compose, smartgit.jy: Cancelled'
-#. Showing dialog 7 (@4HDEX9) '@FI4UHA - AI Integration' (owner: @SC6OIC)
-#. Performing ', OK'
-#. Showing dialog 8 (@MEYNX4) '@6Q645M - Confirm GitHub AI Usage' (owner: @4HDEX9)
-#. Performing ', Confirm'
-#. Showing dialog 9 (@PJHNCC) '@XNKBRV - AI Commit Message Compose' (owner: @SC6OIC)
-#. Performing ', OK'
-#. Performing ', github (active)...'
-#. Showing dialog 10 (@X241L7) '@2DPB9N - AI Commit Message Compose' (owner: @SC6OIC)
-msgctxt "dlgSgAiCommitMessageComposeError.fur"
-msgid "No modifications found."
-msgstr ""
-
-#. Performing '@smartgit.bEZ'
-#. Performing 'ai.commitMessageCompose, AI Commit Message Compose, smartgit.jy: Cancelled'
-#. Showing dialog 7 (@4HDEX9) '@FI4UHA - AI Integration' (owner: @SC6OIC)
-#. Performing ', OK'
-#. Showing dialog 8 (@MEYNX4) '@6Q645M - Confirm GitHub AI Usage' (owner: @4HDEX9)
-#. Performing ', Confirm'
-#. Showing dialog 9 (@PJHNCC) '@XNKBRV - AI Commit Message Compose' (owner: @SC6OIC)
-#. Performing ', OK'
-#. Performing ', github (active)...'
-#. Showing dialog 10 (@X241L7) '@2DPB9N - AI Commit Message Compose' (owner: @SC6OIC)
-msgctxt "dlgSgAiCommitMessageComposeError.hdl"
-msgid "AI generation of the commit message failed."
-msgstr ""
-
-#. opening smartgit.cgZ@NCS8DH:config - [C:\XXXXXX\smartgit-translations\.git] - Editor (smartgit.cgZ@NH4V0N)
-#. Performing '@smartgit.bEZ'
-#. Performing 'ai.commitMessageCompose, AI Commit Message Compose, smartgit.jy: Cancelled'
-#. Showing dialog 7 (@4HDEX9) '@FI4UHA - AI Integration' (owner: @SC6OIC)
-#. Performing ', OK'
-#. Showing dialog 8 (@MEYNX4) '@6Q645M - Confirm GitHub AI Usage' (owner: @4HDEX9)
-#. Performing ', Confirm'
-#. Showing dialog 9 (@PJHNCC) '@XNKBRV - AI Commit Message Compose' (owner: @SC6OIC)
-#. Performing ', OK'
-#. Performing ', github (active)...'
-msgctxt "dlgSgAiCommitMessageComposeError.tle"
-msgid "AI Commit Message Compose"
-msgstr ""
-
-#. opening smartgit.cgZ@OFYRZM:.gitconfig - [C:\SPB_Data] - Editor (smartgit.cgZ@D84ZCM)
-#. Performing 'repositoryEditConfig, Repository'
-#. Showing dialog 6 (@UUNI0B) '@9PJRVJ - Edit Config' (owner: @SC6OIC)
-#. Performing ', OK'
-#. Performing '@smartgit.bEZ'
-#. Performing 'repositoryEditConfig, Repository'
-#. opening smartgit.cgZ@NCS8DH:config - [C:\XXXXXX\smartgit-translations\.git] - Editor (smartgit.cgZ@NH4V0N)
-#. Performing '@smartgit.bEZ'
-#. Performing 'ai.commitMessageCompose, AI Commit Message Compose, smartgit.jy: Cancelled'
-#. Showing dialog 7 (@4HDEX9) '@FI4UHA - AI Integration' (owner: @SC6OIC)
-msgctxt "dlgSgAiIntegrationSetup.hdl"
-msgid "Configure AI integration"
-msgstr ""
-
-#. opening smartgit.cgZ@OFYRZM:.gitconfig - [C:\SPB_Data] - Editor (smartgit.cgZ@D84ZCM)
-#. Performing 'repositoryEditConfig, Repository'
-#. Showing dialog 6 (@UUNI0B) '@9PJRVJ - Edit Config' (owner: @SC6OIC)
-#. Performing ', OK'
-#. Performing '@smartgit.bEZ'
-#. Performing 'repositoryEditConfig, Repository'
-#. opening smartgit.cgZ@NCS8DH:config - [C:\XXXXXX\smartgit-translations\.git] - Editor (smartgit.cgZ@NH4V0N)
-#. Performing '@smartgit.bEZ'
-#. Performing 'ai.commitMessageCompose, AI Commit Message Compose, smartgit.jy: Cancelled'
-#. Showing dialog 7 (@4HDEX9) '@FI4UHA - AI Integration' (owner: @SC6OIC)
-msgctxt "dlgSgAiIntegrationSetup.inf"
-msgid "SmartGit supports AI-generated commit messages, with more AI features coming. GitHub models can be used out-of-the-box."
-msgstr ""
-
-#. opening smartgit.cgZ@OFYRZM:.gitconfig - [C:\SPB_Data] - Editor (smartgit.cgZ@D84ZCM)
-#. Performing 'repositoryEditConfig, Repository'
-#. Showing dialog 6 (@UUNI0B) '@9PJRVJ - Edit Config' (owner: @SC6OIC)
-#. Performing ', OK'
-#. Performing '@smartgit.bEZ'
-#. Performing 'repositoryEditConfig, Repository'
-#. opening smartgit.cgZ@NCS8DH:config - [C:\XXXXXX\smartgit-translations\.git] - Editor (smartgit.cgZ@NH4V0N)
-#. Performing '@smartgit.bEZ'
-#. Performing 'ai.commitMessageCompose, AI Commit Message Compose, smartgit.jy: Cancelled'
-#. Showing dialog 7 (@4HDEX9) '@FI4UHA - AI Integration' (owner: @SC6OIC)
-msgctxt "dlgSgAiIntegrationSetup.rbt\"Configure manually \\(view documentation\\)\""
-msgid "Configure manually \\(view documentation\\)"
-msgstr ""
-
-#. opening smartgit.cgZ@OFYRZM:.gitconfig - [C:\SPB_Data] - Editor (smartgit.cgZ@D84ZCM)
-#. Performing 'repositoryEditConfig, Repository'
-#. Showing dialog 6 (@UUNI0B) '@9PJRVJ - Edit Config' (owner: @SC6OIC)
-#. Performing ', OK'
-#. Performing '@smartgit.bEZ'
-#. Performing 'repositoryEditConfig, Repository'
-#. opening smartgit.cgZ@NCS8DH:config - [C:\XXXXXX\smartgit-translations\.git] - Editor (smartgit.cgZ@NH4V0N)
-#. Performing '@smartgit.bEZ'
-#. Performing 'ai.commitMessageCompose, AI Commit Message Compose, smartgit.jy: Cancelled'
-#. Showing dialog 7 (@4HDEX9) '@FI4UHA - AI Integration' (owner: @SC6OIC)
-msgctxt "dlgSgAiIntegrationSetup.rbt:"
-msgid "Disable AI integration"
-msgstr ""
-
-#. opening smartgit.cgZ@OFYRZM:.gitconfig - [C:\SPB_Data] - Editor (smartgit.cgZ@D84ZCM)
-#. Performing 'repositoryEditConfig, Repository'
-#. Showing dialog 6 (@UUNI0B) '@9PJRVJ - Edit Config' (owner: @SC6OIC)
-#. Performing ', OK'
-#. Performing '@smartgit.bEZ'
-#. Performing 'repositoryEditConfig, Repository'
-#. opening smartgit.cgZ@NCS8DH:config - [C:\XXXXXX\smartgit-translations\.git] - Editor (smartgit.cgZ@NH4V0N)
-#. Performing '@smartgit.bEZ'
-#. Performing 'ai.commitMessageCompose, AI Commit Message Compose, smartgit.jy: Cancelled'
-#. Showing dialog 7 (@4HDEX9) '@FI4UHA - AI Integration' (owner: @SC6OIC)
-msgctxt "dlgSgAiIntegrationSetup.rbt:"
-msgid "Use GitHub models for this repository"
-msgstr ""
-
-#. opening smartgit.cgZ@OFYRZM:.gitconfig - [C:\SPB_Data] - Editor (smartgit.cgZ@D84ZCM)
-#. Performing 'repositoryEditConfig, Repository'
-#. Showing dialog 6 (@UUNI0B) '@9PJRVJ - Edit Config' (owner: @SC6OIC)
-#. Performing ', OK'
-#. Performing '@smartgit.bEZ'
-#. Performing 'repositoryEditConfig, Repository'
-#. opening smartgit.cgZ@NCS8DH:config - [C:\XXXXXX\smartgit-translations\.git] - Editor (smartgit.cgZ@NH4V0N)
-#. Performing '@smartgit.bEZ'
-#. Performing 'ai.commitMessageCompose, AI Commit Message Compose, smartgit.jy: Cancelled'
-#. Showing dialog 7 (@4HDEX9) '@FI4UHA - AI Integration' (owner: @SC6OIC)
-msgctxt "dlgSgAiIntegrationSetup.rbt:"
-msgid "Use GitHub models globally"
-msgstr ""
-
-#. Performing 'repositoryEditConfigUser, User'
-#. opening smartgit.cgZ@OFYRZM:.gitconfig - [C:\SPB_Data] - Editor (smartgit.cgZ@D84ZCM)
-#. Performing 'repositoryEditConfig, Repository'
-#. Showing dialog 6 (@UUNI0B) '@9PJRVJ - Edit Config' (owner: @SC6OIC)
-#. Performing ', OK'
-#. Performing '@smartgit.bEZ'
-#. Performing 'repositoryEditConfig, Repository'
-#. opening smartgit.cgZ@NCS8DH:config - [C:\XXXXXX\smartgit-translations\.git] - Editor (smartgit.cgZ@NH4V0N)
-#. Performing '@smartgit.bEZ'
-#. Performing 'ai.commitMessageCompose, AI Commit Message Compose, smartgit.jy: Cancelled'
-msgctxt "dlgSgAiIntegrationSetup.tle"
-msgid "AI Integration"
-msgstr ""
-
-#. Showing dialog 6 (@UUNI0B) '@9PJRVJ - Edit Config' (owner: @SC6OIC)
-#. Performing ', OK'
-#. Performing '@smartgit.bEZ'
-#. Performing 'repositoryEditConfig, Repository'
-#. opening smartgit.cgZ@NCS8DH:config - [C:\XXXXXX\smartgit-translations\.git] - Editor (smartgit.cgZ@NH4V0N)
-#. Performing '@smartgit.bEZ'
-#. Performing 'ai.commitMessageCompose, AI Commit Message Compose, smartgit.jy: Cancelled'
-#. Showing dialog 7 (@4HDEX9) '@FI4UHA - AI Integration' (owner: @SC6OIC)
-#. Performing ', OK'
-#. Showing dialog 8 (@MEYNX4) '@6Q645M - Confirm GitHub AI Usage' (owner: @4HDEX9)
-msgctxt "dlgSgAiIntegrationSetupGitHubSingle.btn:"
-msgid "Confirm"
-msgstr ""
-
-# [decode] msgid "To generate commit messages or other AI-based suggestions, SmartGit transmits the relevant git diff data – either from the working tree or selected commits – to GitHub's servers.\n\nBy default, this transfer only occurs when the operation is explicitly invoked. However, background transfer is also possible \(see the drop-down menu for configuration\)."
-#. Showing dialog 6 (@UUNI0B) '@9PJRVJ - Edit Config' (owner: @SC6OIC)
-#. Performing ', OK'
-#. Performing '@smartgit.bEZ'
-#. Performing 'repositoryEditConfig, Repository'
-#. opening smartgit.cgZ@NCS8DH:config - [C:\XXXXXX\smartgit-translations\.git] - Editor (smartgit.cgZ@NH4V0N)
-#. Performing '@smartgit.bEZ'
-#. Performing 'ai.commitMessageCompose, AI Commit Message Compose, smartgit.jy: Cancelled'
-#. Showing dialog 7 (@4HDEX9) '@FI4UHA - AI Integration' (owner: @SC6OIC)
-#. Performing ', OK'
-#. Showing dialog 8 (@MEYNX4) '@6Q645M - Confirm GitHub AI Usage' (owner: @4HDEX9)
-msgctxt "dlgSgAiIntegrationSetupGitHubSingle.fur"
-msgid "To generate commit messages or other AI-based suggestions, SmartGit transmits the relevant git diff data \\u2013 either from the working tree or selected commits \\u2013 to GitHub's servers.\\n\\nBy default, this transfer only occurs when the operation is explicitly invoked. However, background transfer is also possible \\(see the drop-down menu for configuration\\)."
-msgstr ""
-
-#. Showing dialog 6 (@UUNI0B) '@9PJRVJ - Edit Config' (owner: @SC6OIC)
-#. Performing ', OK'
-#. Performing '@smartgit.bEZ'
-#. Performing 'repositoryEditConfig, Repository'
-#. opening smartgit.cgZ@NCS8DH:config - [C:\XXXXXX\smartgit-translations\.git] - Editor (smartgit.cgZ@NH4V0N)
-#. Performing '@smartgit.bEZ'
-#. Performing 'ai.commitMessageCompose, AI Commit Message Compose, smartgit.jy: Cancelled'
-#. Showing dialog 7 (@4HDEX9) '@FI4UHA - AI Integration' (owner: @SC6OIC)
-#. Performing ', OK'
-#. Showing dialog 8 (@MEYNX4) '@6Q645M - Confirm GitHub AI Usage' (owner: @4HDEX9)
-msgctxt "dlgSgAiIntegrationSetupGitHubSingle.hdl"
-msgid "Git diffs will be sent to GitHub for AI processing."
-msgstr ""
-
-#. Performing 'repositoryEditConfig, Repository'
-#. Showing dialog 6 (@UUNI0B) '@9PJRVJ - Edit Config' (owner: @SC6OIC)
-#. Performing ', OK'
-#. Performing '@smartgit.bEZ'
-#. Performing 'repositoryEditConfig, Repository'
-#. opening smartgit.cgZ@NCS8DH:config - [C:\XXXXXX\smartgit-translations\.git] - Editor (smartgit.cgZ@NH4V0N)
-#. Performing '@smartgit.bEZ'
-#. Performing 'ai.commitMessageCompose, AI Commit Message Compose, smartgit.jy: Cancelled'
-#. Showing dialog 7 (@4HDEX9) '@FI4UHA - AI Integration' (owner: @SC6OIC)
-#. Performing ', OK'
-msgctxt "dlgSgAiIntegrationSetupGitHubSingle.tle"
-msgid "Confirm GitHub AI Usage"
-msgstr ""
-
-#. Performing 'ai.commitMessageCompose, AI Commit Message Compose, smartgit.jy: Cancelled'
-#. Showing dialog 4 (@2JKWD6) '@OCI2PM - AI Commit Message Compose' (owner: @SC6OIC)
-#. Performing ', OK'
-#. Performing 'preferences, Preferences'
-#. Showing dialog 5 (@5Y3AWH) '@LG313Q - Preferences' (owner: @SC6OIC)
-#. Performing ', Cancel'
-#. Performing 'repositoryEditConfigUser, User'
-#. opening smartgit.cgZ@OFYRZM:.gitconfig - [C:\SPB_Data] - Editor (smartgit.cgZ@D84ZCM)
-#. Performing 'repositoryEditConfig, Repository'
-#. Showing dialog 6 (@UUNI0B) '@9PJRVJ - Edit Config' (owner: @SC6OIC)
-msgctxt "dlgSgGitConfigEditConfigNotFound.fur"
-msgid "The file C:\\\\XXXX\\\\XXXX\\\\XXXX\\\\smartgit-translations\\\\.git\\\\worktrees\\\\smartgit-translations-25.1_windows\\\\config could not be opened for editing."
-msgstr ""
-
-#. Performing 'ai.commitMessageCompose, AI Commit Message Compose, smartgit.jy: Cancelled'
-#. Showing dialog 4 (@2JKWD6) '@OCI2PM - AI Commit Message Compose' (owner: @SC6OIC)
-#. Performing ', OK'
-#. Performing 'preferences, Preferences'
-#. Showing dialog 5 (@5Y3AWH) '@LG313Q - Preferences' (owner: @SC6OIC)
-#. Performing ', Cancel'
-#. Performing 'repositoryEditConfigUser, User'
-#. opening smartgit.cgZ@OFYRZM:.gitconfig - [C:\SPB_Data] - Editor (smartgit.cgZ@D84ZCM)
-#. Performing 'repositoryEditConfig, Repository'
-#. Showing dialog 6 (@UUNI0B) '@9PJRVJ - Edit Config' (owner: @SC6OIC)
-msgctxt "dlgSgGitConfigEditConfigNotFound.hdl"
-msgid "The file config was not found."
-msgstr ""
-
-#. Performing 'stage, Stage, Store working tree files in the index to prepare the next commit.'
-#. Performing 'ai.commitMessageCompose, AI Commit Message Compose, smartgit.jy: Cancelled'
-#. Showing dialog 4 (@2JKWD6) '@OCI2PM - AI Commit Message Compose' (owner: @SC6OIC)
-#. Performing ', OK'
-#. Performing 'preferences, Preferences'
-#. Showing dialog 5 (@5Y3AWH) '@LG313Q - Preferences' (owner: @SC6OIC)
-#. Performing ', Cancel'
-#. Performing 'repositoryEditConfigUser, User'
-#. opening smartgit.cgZ@OFYRZM:.gitconfig - [C:\SPB_Data] - Editor (smartgit.cgZ@D84ZCM)
-#. Performing 'repositoryEditConfig, Repository'
-msgctxt "dlgSgGitConfigEditConfigNotFound.tle"
-msgid "Edit Config"
-msgstr ""
-
-#. Performing 'fetch, Pull..., Fetch commits from a remote repository and (optionally) integrate them with possible local commits.'
-#. Showing dialog 11 (@MOEP9X) '@L2GYAP - Pull' (owner: @SC6OIC)
-#. Performing ', Pull'
-#. Performing ', Check Out'
-#. Showing dialog 12 (@YMBET9) '@O168AC - Check Out' (owner: @SC6OIC)
-#. Performing ', Checkout'
-#. Performing 'discard, Discard..., Discard local changes.'
-#. Showing dialog 13 (@W9XC6K) '@57JCXX - Discard' (owner: @SC6OIC)
-#. Performing ', Discard'
-#. Showing dialog 14 (@YL41W) '@EFXL8O - Discard' (owner: @W9XC6K)
-msgctxt "dlgStdDiscardConfirmUntrackedFiles.btn:"
-msgid "Discard"
-msgstr ""
-
-#. Performing 'fetch, Pull..., Fetch commits from a remote repository and (optionally) integrate them with possible local commits.'
-#. Showing dialog 11 (@MOEP9X) '@L2GYAP - Pull' (owner: @SC6OIC)
-#. Performing ', Pull'
-#. Performing ', Check Out'
-#. Showing dialog 12 (@YMBET9) '@O168AC - Check Out' (owner: @SC6OIC)
-#. Performing ', Checkout'
-#. Performing 'discard, Discard..., Discard local changes.'
-#. Showing dialog 13 (@W9XC6K) '@57JCXX - Discard' (owner: @SC6OIC)
-#. Performing ', Discard'
-#. Showing dialog 14 (@YL41W) '@EFXL8O - Discard' (owner: @W9XC6K)
-msgctxt "dlgStdDiscardConfirmUntrackedFiles.chk"
-msgid "Don't show again"
-msgstr ""
-
-#. Performing 'fetch, Pull..., Fetch commits from a remote repository and (optionally) integrate them with possible local commits.'
-#. Showing dialog 11 (@MOEP9X) '@L2GYAP - Pull' (owner: @SC6OIC)
-#. Performing ', Pull'
-#. Performing ', Check Out'
-#. Showing dialog 12 (@YMBET9) '@O168AC - Check Out' (owner: @SC6OIC)
-#. Performing ', Checkout'
-#. Performing 'discard, Discard..., Discard local changes.'
-#. Showing dialog 13 (@W9XC6K) '@57JCXX - Discard' (owner: @SC6OIC)
-#. Performing ', Discard'
-#. Showing dialog 14 (@YL41W) '@EFXL8O - Discard' (owner: @W9XC6K)
-msgctxt "dlgStdDiscardConfirmUntrackedFiles.fur"
-msgid "You are about to delete untracked files permanently. This action cannot be undone."
-msgstr ""
-
-#. Performing 'fetch, Pull..., Fetch commits from a remote repository and (optionally) integrate them with possible local commits.'
-#. Showing dialog 11 (@MOEP9X) '@L2GYAP - Pull' (owner: @SC6OIC)
-#. Performing ', Pull'
-#. Performing ', Check Out'
-#. Showing dialog 12 (@YMBET9) '@O168AC - Check Out' (owner: @SC6OIC)
-#. Performing ', Checkout'
-#. Performing 'discard, Discard..., Discard local changes.'
-#. Showing dialog 13 (@W9XC6K) '@57JCXX - Discard' (owner: @SC6OIC)
-#. Performing ', Discard'
-#. Showing dialog 14 (@YL41W) '@EFXL8O - Discard' (owner: @W9XC6K)
-msgctxt "dlgStdDiscardConfirmUntrackedFiles.hdl"
-msgid "Do you want to delete untracked files?"
-msgstr ""
-
-#. Performing ', OK'
-#. Performing 'fetch, Pull..., Fetch commits from a remote repository and (optionally) integrate them with possible local commits.'
-#. Showing dialog 11 (@MOEP9X) '@L2GYAP - Pull' (owner: @SC6OIC)
-#. Performing ', Pull'
-#. Performing ', Check Out'
-#. Showing dialog 12 (@YMBET9) '@O168AC - Check Out' (owner: @SC6OIC)
-#. Performing ', Checkout'
-#. Performing 'discard, Discard..., Discard local changes.'
-#. Showing dialog 13 (@W9XC6K) '@57JCXX - Discard' (owner: @SC6OIC)
-#. Performing ', Discard'
-msgctxt "dlgStdDiscardConfirmUntrackedFiles.tle"
-msgid "Discard"
-msgstr ""
-
-#. Performing ', Select from GitHub...'
-#. Showing dialog 5 (@DQUNQ8) '@9FDWPW - Select Issue' (owner: @Y5SPQT)
-#. Showing dialog 6 (@LEZJDZ) '@KERECJ - Passwords' (owner: @DQUNQ8)
-#. Performing ', OK'
-#. Performing ', Cancel'
-#. Performing ', Select from GitHub...'
-#. Showing dialog 7 (@V4YZEL) '@47RR81 - Select Issue' (owner: @Y5SPQT)
-#. Performing 'checkForLatestBuild, Check for Latest Build...'
-#. Showing dialog 8 (@FIS5XE) '@4JV7T8 - Check for Latest Build' (owner: @Y5SPQT)
-#. Performing ', Get Latest Build'
-msgctxt "ntmUpdateCheckFetchVersionSuccess:"
-msgid "SmartGit 25.1.054 Preview needs to be restarted now for the changes to take effect."
-msgstr ""
-
-#. Performing ', Select from GitHub...'
-#. Showing dialog 5 (@DQUNQ8) '@9FDWPW - Select Issue' (owner: @Y5SPQT)
-#. Showing dialog 6 (@LEZJDZ) '@KERECJ - Passwords' (owner: @DQUNQ8)
-#. Performing ', OK'
-#. Performing ', Cancel'
-#. Performing ', Select from GitHub...'
-#. Showing dialog 7 (@V4YZEL) '@47RR81 - Select Issue' (owner: @Y5SPQT)
-#. Performing 'checkForLatestBuild, Check for Latest Build...'
-#. Showing dialog 8 (@FIS5XE) '@4JV7T8 - Check for Latest Build' (owner: @Y5SPQT)
-#. Performing ', Get Latest Build'
-msgctxt "nttUpdateCheckFetchVersionStart:"
-msgid "Started downloading version 25.1.055."
-msgstr ""
-
-#. Performing 'preferences, Preferences'
-#. Showing dialog 5 (@5Y3AWH) '@LG313Q - Preferences' (owner: @SC6OIC)
-#. Performing ', Cancel'
-#. Performing 'repositoryEditConfigUser, User'
-#. opening smartgit.cgZ@OFYRZM:.gitconfig - [C:\SPB_Data] - Editor (smartgit.cgZ@D84ZCM)
-#. Performing 'repositoryEditConfig, Repository'
-#. Showing dialog 6 (@UUNI0B) '@9PJRVJ - Edit Config' (owner: @SC6OIC)
-#. Performing ', OK'
-#. Performing '@smartgit.bEZ'
-#. Performing 'repositoryEditConfig, Repository'
-msgctxt "wndEditor.mniBlockSelection"
-msgid "Block Selection"
-msgstr ""
-
-#. opening smartgit.bDU@DPJWXY:SmartGit 25.1 Preview Evaluation until Aug 2 (smartgit.bDU@Y5SPQT)
-#. Performing 'editCommitAuthor, Edit Author...'
-#. Showing dialog 0 (@4S5SD2) '@CQJLLA - Edit Author' (owner: @Y5SPQT)
-#. Performing ', Modify Pushed Commits'
-#. Showing dialog 1 (@SW57P8) '@4EMFP0 - Edit Author' (owner: @Y5SPQT)
-#. Performing ', Cancel'
-msgctxt "wndLog.mni:"
-msgid "Copy Name <email>"
-msgstr ""
-
-#. Performing 'repositoryEditConfig, Repository'
-#. opening smartgit.cgZ@NCS8DH:config - [C:\XXXXXX\smartgit-translations\.git] - Editor (smartgit.cgZ@NH4V0N)
-#. Performing '@smartgit.bEZ'
-#. Performing 'ai.commitMessageCompose, AI Commit Message Compose, smartgit.jy: Cancelled'
-#. Showing dialog 7 (@4HDEX9) '@FI4UHA - AI Integration' (owner: @SC6OIC)
-#. Performing ', OK'
-#. Showing dialog 8 (@MEYNX4) '@6Q645M - Confirm GitHub AI Usage' (owner: @4HDEX9)
-#. Performing ', Confirm'
-#. Showing dialog 9 (@PJHNCC) '@XNKBRV - AI Commit Message Compose' (owner: @SC6OIC)
-#. Performing ', OK'
-msgctxt "wndLog.mni:"
-msgid "Drop All Notes"
-msgstr ""
-
-#. Performing 'repositoryEditConfig, Repository'
-#. opening smartgit.cgZ@NCS8DH:config - [C:\XXXXXX\smartgit-translations\.git] - Editor (smartgit.cgZ@NH4V0N)
-#. Performing '@smartgit.bEZ'
-#. Performing 'ai.commitMessageCompose, AI Commit Message Compose, smartgit.jy: Cancelled'
-#. Showing dialog 7 (@4HDEX9) '@FI4UHA - AI Integration' (owner: @SC6OIC)
-#. Performing ', OK'
-#. Showing dialog 8 (@MEYNX4) '@6Q645M - Confirm GitHub AI Usage' (owner: @4HDEX9)
-#. Performing ', Confirm'
-#. Showing dialog 9 (@PJHNCC) '@XNKBRV - AI Commit Message Compose' (owner: @SC6OIC)
-#. Performing ', OK'
-msgctxt "wndLog.mni\"github \\(active\\)\""
-msgid "github \\(active\\)"
-msgstr ""
-
-#. Performing 'repositoryEditConfig, Repository'
-#. opening smartgit.cgZ@NCS8DH:config - [C:\XXXXXX\smartgit-translations\.git] - Editor (smartgit.cgZ@NH4V0N)
-#. Performing '@smartgit.bEZ'
-#. Performing 'ai.commitMessageCompose, AI Commit Message Compose, smartgit.jy: Cancelled'
-#. Showing dialog 7 (@4HDEX9) '@FI4UHA - AI Integration' (owner: @SC6OIC)
-#. Performing ', OK'
-#. Showing dialog 8 (@MEYNX4) '@6Q645M - Confirm GitHub AI Usage' (owner: @4HDEX9)
-#. Performing ', Confirm'
-#. Showing dialog 9 (@PJHNCC) '@XNKBRV - AI Commit Message Compose' (owner: @SC6OIC)
-#. Performing ', OK'
-msgctxt "wndLog.tbtAi.commitMessageCompose"
-msgid "smartgit.jy: Cancelled"
 msgstr ""
