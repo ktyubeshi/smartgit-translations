@@ -1162,7 +1162,7 @@ msgstr ""
 
 # TODO: Review
 # We need to verify whether the placeholder replacement is appropriate.
-#
+# 
 # msgctxt "dlgScEvaluationReminderContinue.fur"
 # msgid "To use SmartGit, you will have to register a license file.\\n\\nIn a commercial environment you need to \\[https://www.syntevo.com/smartgit/purchase?evaluationReminderNotification purchase a license\\].\\n\\nFor \\[https://www.syntevo.com/register-non-commercial/?evaluationReminderNotification certain uses\\] we grant free licenses."
 #. Showing dialog 0 (@526B2F3E) '@32E652B6 - Passwords' (owner: null)
@@ -1940,8 +1940,9 @@ msgstr ""
 #. Performing ', Cancel'
 #. Performing ', Continue'
 #. Showing dialog 14 (@8K6AVX) '@A53OQ4 - API Key' (owner: @RP5AL8)
+#| msgid "Provide API key for 'custom'"
 msgctxt "dlgScSecretToken.hdl"
-msgid "Provide API key for 'custom'"
+msgid "Provide API key for '$1'"
 msgstr ""
 
 #. Showing dialog 11 (@J6R3NK) '@BQNR1J - AI Setup' (owner: @RP5AL8)
@@ -3401,8 +3402,9 @@ msgstr ""
 #. Performing ', Continue'
 #. Performing ', Finish'
 #. Showing dialog 15 (@XJ01LJ) '@QS5EU5 - AI Setup' (owner: @RP5AL8)
+#| msgid "The configuration has been saved to '/Users/tomohiro/Git-projects/smartgit-translations/.git/smartgit-ai', which is included by '/Users/tomohiro/Git-projects/smartgit-translations/.git/config'.\\n\\nYou can now start generating commit messages by clicking the AI button again.\\n\\nAdditional configuration options are available and can be tweaked directly in the configuration file. For details, refer to the \\[https://docs.syntevo.com/SmartGit/Latest/Manual/Integrations/AI documentation\\]."
 msgctxt "dlgSgAiSetupConfigurationSuccess.fur"
-msgid "The configuration has been saved to '/Users/tomohiro/Git-projects/smartgit-translations/.git/smartgit-ai', which is included by '/Users/tomohiro/Git-projects/smartgit-translations/.git/config'.\\n\\nYou can now start generating commit messages by clicking the AI button again.\\n\\nAdditional configuration options are available and can be tweaked directly in the configuration file. For details, refer to the \\[https://docs.syntevo.com/SmartGit/Latest/Manual/Integrations/AI documentation\\]."
+msgid "The configuration has been saved to '$1', which is included by '$2'.\\n\\nYou can now start generating commit messages by clicking the AI button again.\\n\\nAdditional configuration options are available and can be tweaked directly in the configuration file. For details, refer to the \\[https://docs.syntevo.com/SmartGit/Latest/Manual/Integrations/AI documentation\\]."
 msgstr ""
 
 #. Showing dialog 14 (@8K6AVX) '@A53OQ4 - API Key' (owner: @RP5AL8)
@@ -3429,8 +3431,9 @@ msgstr ""
 #. Performing ', OK'
 #. Performing ', Continue'
 #. Showing dialog 12 (@EBTIHN) '@M2T42A - AI Setup' (owner: @RP5AL8)
+#| msgid "Object 'message/content' not found."
 msgctxt "dlgSgAiSetupConnectivityFailed.fur"
-msgid "Object 'message/content' not found."
+msgid "Object '$1' not found."
 msgstr ""
 
 #. Showing dialog 9 (@Z8BP9H) '@3FP5UV - API Key' (owner: @RP5AL8)
@@ -3443,8 +3446,9 @@ msgstr ""
 #. Performing ', OK'
 #. Performing ', Continue'
 #. Showing dialog 12 (@EBTIHN) '@M2T42A - AI Setup' (owner: @RP5AL8)
+#| msgid "Connection to 'ollama' failed."
 msgctxt "dlgSgAiSetupConnectivityFailed.hdl"
-msgid "Connection to 'ollama' failed."
+msgid "Connection to '$1' failed."
 msgstr ""
 
 #. Showing dialog 3 (@SZR8D7) '@8D2ADQ - AI Setup' (owner: @RP5AL8)
@@ -8468,8 +8472,9 @@ msgstr ""
 #. Performing ', Discard'
 #. Performing ', Rebase 1 commit from 'feature/forceinclude' to 'v1.1.0''
 #. Showing dialog 20 (@PMZ6R) '@7WXSSO - Command Failed' (owner: @N6W7NC)
+#| msgid "unable to auto-detect email address \\(got 'XXXX@XXXXXX.\\(none\\)'\\)"
 msgctxt "dlgSgOutput.lbl:"
-msgid "unable to auto-detect email address \\(got 'XXXX@XXXXXX.\\(none\\)'\\)"
+msgid "unable to auto-detect email address \\(got '$1.\\(none\\)'\\)"
 msgstr ""
 
 msgctxt "dlgSgOutput.mni:"
@@ -13725,8 +13730,9 @@ msgstr ""
 #. Performing '@smartgit.byU'
 #. Performing 'subtreeAdd, Add…'
 #. Showing dialog 10 (@35FAC3BA) '@8AA1562 - Add Subtree' (owner: @575C23F1)
+#| msgid "Directory '/Users/tomohiro/Git-projects/sgpo-tools-cli-WorkSpace/sgpo-tools-cli' already exists."
 msgctxt "dlgSgSubtreeAdd.err:"
-msgid "Directory '/Users/tomohiro/Git-projects/sgpo-tools-cli-WorkSpace/sgpo-tools-cli' already exists."
+msgid "Directory '$1' already exists."
 msgstr ""
 
 #. Showing dialog 8 (@7B6854B5) '@58945295 - Add Remote Repository' (owner: @575C23F1)
@@ -15268,14 +15274,6 @@ msgid "Import Unknown"
 msgstr ""
 
 msgctxt "wnd.mni:"
-msgid "Import mismatch"
-msgstr ""
-
-msgctxt "wnd.mni:"
-msgid "Import unknown"
-msgstr ""
-
-msgctxt "wnd.mni:"
 msgid "License Agreement"
 msgstr ""
 
@@ -15284,39 +15282,11 @@ msgid "Open File"
 msgstr ""
 
 msgctxt "wnd.mni:"
-msgid "Open in Terminal"
-msgstr ""
-
-msgctxt "wnd.mni:"
 msgid "Open in VSCode"
 msgstr ""
 
 msgctxt "wnd.mni:"
-msgid "PyCharm"
-msgstr ""
-
-msgctxt "wnd.mni:"
-msgid "Reveal in Finder"
-msgstr ""
-
-msgctxt "wnd.mni:"
 msgid "SmartGit Website"
-msgstr ""
-
-msgctxt "wnd.mni:"
-msgid "Tabby"
-msgstr ""
-
-msgctxt "wnd.mni:"
-msgid "Windsurf"
-msgstr ""
-
-msgctxt "wnd.mni:"
-msgid "po_formatter"
-msgstr ""
-
-msgctxt "wnd.mni:"
-msgid "sgpo_format\\(Rust\\)"
 msgstr ""
 
 msgctxt "wnd.mniBisectTryCommit"
@@ -16449,6 +16419,20 @@ msgctxt "wndGit.indexEditor.mni:"
 msgid "Stage Line"
 msgstr ""
 
+#. # Performing ', OK'
+#. # Performing 'goto-next-diff, Next Change, Go to next change.'
+#. # Performing 'goto-next-diff, Next Change, Go to next change.'
+#. # Performing 'goto-next-diff, Next Change, Go to next change.'
+#. # Performing 'goto-next-diff, Next Change, Go to next change.'
+#. # Performing 'goto-next-diff, Next Change, Go to next change.'
+#. # Performing 'goto-next-diff, Next Change, Go to next change.'
+#. # Performing 'indexEditor, Index Editor, Edit the Index state of the selected file, e.g. to decide which lines should be staged.'
+#. # opening smartgit.bbS@E3LF18:messages.pot - Index Editor (smartgit.bbS@LVJPMG)
+#. # Performing 'goto-next-diff, Next Change, Go to next change.'
+msgctxt "wndGit.indexEditor.mni:"
+msgid "Stage Lines"
+msgstr ""
+
 msgctxt "wndGit.indexEditor.mni:"
 msgid "Stage Selection"
 msgstr ""
@@ -16665,20 +16649,6 @@ msgctxt "wndLog.mni:"
 msgid "Stop"
 msgstr ""
 
-#. Performing ', Continue'
-#. Showing dialog 5 (@W54ZEP) '@G9AOBD - Passwords' (owner: @RDX8UE)
-#. Performing ', Cancel'
-#. Performing ', Cancel'
-#. Performing 'ai.commitMessageCompose, AI Commit Message Compose, The Git diff is too large. You can adjust this limit by 'smartgit-ai-commit-message.<name>.maxDiffSize' in your Git config.'
-#. Showing dialog 6 (@81P081) '@6YS5HM - AI Commit Message' (owner: @JC52F5)
-#. Performing ', OK'
-#. Performing 'ai.commitMessageCompose, AI Commit Message Compose, The Git diff is too large. You can adjust this limit by 'smartgit-ai-commit-message.<name>.maxDiffSize' in your Git config.'
-#. Showing dialog 7 (@K9PH6P) '@JXMOTJ - AI Commit Message' (owner: @JC52F5)
-#. Performing ', OK'
-msgctxt "wndLog.mni:"
-msgid "generate \\(active\\)"
-msgstr ""
-
 #. Performing 'repositoryEditConfig, Repository'
 #. opening smartgit.cgZ@NCS8DH:config - [C:\XXXXXX\smartgit-translations\.git] - Editor (smartgit.cgZ@NH4V0N)
 #. Performing '@smartgit.bEZ'
@@ -16691,76 +16661,6 @@ msgstr ""
 #. Performing ', OK'
 msgctxt "wndLog.mni:"
 msgid "github \\(active\\)"
-msgstr ""
-
-#. Performing ', Continue'
-#. Showing dialog 5 (@W54ZEP) '@G9AOBD - Passwords' (owner: @RDX8UE)
-#. Performing ', Cancel'
-#. Performing ', Cancel'
-#. Performing 'ai.commitMessageCompose, AI Commit Message Compose, The Git diff is too large. You can adjust this limit by 'smartgit-ai-commit-message.<name>.maxDiffSize' in your Git config.'
-#. Showing dialog 6 (@81P081) '@6YS5HM - AI Commit Message' (owner: @JC52F5)
-#. Performing ', OK'
-#. Performing 'ai.commitMessageCompose, AI Commit Message Compose, The Git diff is too large. You can adjust this limit by 'smartgit-ai-commit-message.<name>.maxDiffSize' in your Git config.'
-#. Showing dialog 7 (@K9PH6P) '@JXMOTJ - AI Commit Message' (owner: @JC52F5)
-#. Performing ', OK'
-msgctxt "wndLog.mni:"
-msgid "ja-elyza"
-msgstr ""
-
-#. Performing ', Continue'
-#. Showing dialog 5 (@W54ZEP) '@G9AOBD - Passwords' (owner: @RDX8UE)
-#. Performing ', Cancel'
-#. Performing ', Cancel'
-#. Performing 'ai.commitMessageCompose, AI Commit Message Compose, The Git diff is too large. You can adjust this limit by 'smartgit-ai-commit-message.<name>.maxDiffSize' in your Git config.'
-#. Showing dialog 6 (@81P081) '@6YS5HM - AI Commit Message' (owner: @JC52F5)
-#. Performing ', OK'
-#. Performing 'ai.commitMessageCompose, AI Commit Message Compose, The Git diff is too large. You can adjust this limit by 'smartgit-ai-commit-message.<name>.maxDiffSize' in your Git config.'
-#. Showing dialog 7 (@K9PH6P) '@JXMOTJ - AI Commit Message' (owner: @JC52F5)
-#. Performing ', OK'
-msgctxt "wndLog.mni:"
-msgid "ja-gpt-4.1"
-msgstr ""
-
-#. Performing ', Continue'
-#. Showing dialog 5 (@W54ZEP) '@G9AOBD - Passwords' (owner: @RDX8UE)
-#. Performing ', Cancel'
-#. Performing ', Cancel'
-#. Performing 'ai.commitMessageCompose, AI Commit Message Compose, The Git diff is too large. You can adjust this limit by 'smartgit-ai-commit-message.<name>.maxDiffSize' in your Git config.'
-#. Showing dialog 6 (@81P081) '@6YS5HM - AI Commit Message' (owner: @JC52F5)
-#. Performing ', OK'
-#. Performing 'ai.commitMessageCompose, AI Commit Message Compose, The Git diff is too large. You can adjust this limit by 'smartgit-ai-commit-message.<name>.maxDiffSize' in your Git config.'
-#. Showing dialog 7 (@K9PH6P) '@JXMOTJ - AI Commit Message' (owner: @JC52F5)
-#. Performing ', OK'
-msgctxt "wndLog.mni:"
-msgid "ja-gpt-o4-mini"
-msgstr ""
-
-#. Performing ', Continue'
-#. Showing dialog 5 (@W54ZEP) '@G9AOBD - Passwords' (owner: @RDX8UE)
-#. Performing ', Cancel'
-#. Performing ', Cancel'
-#. Performing 'ai.commitMessageCompose, AI Commit Message Compose, The Git diff is too large. You can adjust this limit by 'smartgit-ai-commit-message.<name>.maxDiffSize' in your Git config.'
-#. Showing dialog 6 (@81P081) '@6YS5HM - AI Commit Message' (owner: @JC52F5)
-#. Performing ', OK'
-#. Performing 'ai.commitMessageCompose, AI Commit Message Compose, The Git diff is too large. You can adjust this limit by 'smartgit-ai-commit-message.<name>.maxDiffSize' in your Git config.'
-#. Showing dialog 7 (@K9PH6P) '@JXMOTJ - AI Commit Message' (owner: @JC52F5)
-#. Performing ', OK'
-msgctxt "wndLog.mni:"
-msgid "ja-llama4"
-msgstr ""
-
-#. Performing ', Continue'
-#. Showing dialog 5 (@W54ZEP) '@G9AOBD - Passwords' (owner: @RDX8UE)
-#. Performing ', Cancel'
-#. Performing ', Cancel'
-#. Performing 'ai.commitMessageCompose, AI Commit Message Compose, The Git diff is too large. You can adjust this limit by 'smartgit-ai-commit-message.<name>.maxDiffSize' in your Git config.'
-#. Showing dialog 6 (@81P081) '@6YS5HM - AI Commit Message' (owner: @JC52F5)
-#. Performing ', OK'
-#. Performing 'ai.commitMessageCompose, AI Commit Message Compose, The Git diff is too large. You can adjust this limit by 'smartgit-ai-commit-message.<name>.maxDiffSize' in your Git config.'
-#. Showing dialog 7 (@K9PH6P) '@JXMOTJ - AI Commit Message' (owner: @JC52F5)
-#. Performing ', OK'
-msgctxt "wndLog.mni:"
-msgid "ja-qwen3"
 msgstr ""
 
 msgctxt "wndLog.mniFixCaseChange"
@@ -16931,244 +16831,6 @@ msgstr ""
 #. Performing 'previewCompareHeadVsIndex, HEAD vs. Index, Show changes between index (staged state) and HEAD (repository state).'
 msgctxt "wndProject.mni:"
 msgid "Show Rewritten Behind Commits"
-msgstr ""
-
-#. Performing 'changesView.compact, Compact'
-#. Performing 'changesView.unified, Unified'
-#. Performing 'changesView.sideBySide, Side by Side'
-#. Performing 'windowWorkingTree, Show Working Tree Window'
-#. opening smartgit.bPc@4DYP88:SmartGit 25.1 RC (Working Tree) (smartgit.bPc@2ZNMC7) (index=0)
-#. Performing 'previewCompareHeadVsIndex, HEAD vs. Index, Show changes between index (staged state) and HEAD (repository state).'
-#. Performing 'previewCompareIndexVsWT, Index vs. Working Tree, Show changes between local file (working tree) and Index (staged state).'
-#. Performing 'previewCompareHeadVsIndex, HEAD vs. Index, Show changes between index (staged state) and HEAD (repository state).'
-#. Performing 'previewCompareAutomatic, Automatic'
-#. Performing 'previewCompareHeadVsIndex, HEAD vs. Index, Show changes between index (staged state) and HEAD (repository state).'
-msgctxt "wndProject.mni:"
-msgid "a"
-msgstr ""
-
-#. Performing 'changesView.compact, Compact'
-#. Performing 'changesView.unified, Unified'
-#. Performing 'changesView.sideBySide, Side by Side'
-#. Performing 'windowWorkingTree, Show Working Tree Window'
-#. opening smartgit.bPc@4DYP88:SmartGit 25.1 RC (Working Tree) (smartgit.bPc@2ZNMC7) (index=0)
-#. Performing 'previewCompareHeadVsIndex, HEAD vs. Index, Show changes between index (staged state) and HEAD (repository state).'
-#. Performing 'previewCompareIndexVsWT, Index vs. Working Tree, Show changes between local file (working tree) and Index (staged state).'
-#. Performing 'previewCompareHeadVsIndex, HEAD vs. Index, Show changes between index (staged state) and HEAD (repository state).'
-#. Performing 'previewCompareAutomatic, Automatic'
-#. Performing 'previewCompareHeadVsIndex, HEAD vs. Index, Show changes between index (staged state) and HEAD (repository state).'
-msgctxt "wndProject.mni:"
-msgid "feature/LLM_review_script"
-msgstr ""
-
-#. Performing 'changesView.compact, Compact'
-#. Performing 'changesView.unified, Unified'
-#. Performing 'changesView.sideBySide, Side by Side'
-#. Performing 'windowWorkingTree, Show Working Tree Window'
-#. opening smartgit.bPc@4DYP88:SmartGit 25.1 RC (Working Tree) (smartgit.bPc@2ZNMC7) (index=0)
-#. Performing 'previewCompareHeadVsIndex, HEAD vs. Index, Show changes between index (staged state) and HEAD (repository state).'
-#. Performing 'previewCompareIndexVsWT, Index vs. Working Tree, Show changes between local file (working tree) and Index (staged state).'
-#. Performing 'previewCompareHeadVsIndex, HEAD vs. Index, Show changes between index (staged state) and HEAD (repository state).'
-#. Performing 'previewCompareAutomatic, Automatic'
-#. Performing 'previewCompareHeadVsIndex, HEAD vs. Index, Show changes between index (staged state) and HEAD (repository state).'
-msgctxt "wndProject.mni:"
-msgid "feature/consistency_checker"
-msgstr ""
-
-#. Performing 'changesView.compact, Compact'
-#. Performing 'changesView.unified, Unified'
-#. Performing 'changesView.sideBySide, Side by Side'
-#. Performing 'windowWorkingTree, Show Working Tree Window'
-#. opening smartgit.bPc@4DYP88:SmartGit 25.1 RC (Working Tree) (smartgit.bPc@2ZNMC7) (index=0)
-#. Performing 'previewCompareHeadVsIndex, HEAD vs. Index, Show changes between index (staged state) and HEAD (repository state).'
-#. Performing 'previewCompareIndexVsWT, Index vs. Working Tree, Show changes between local file (working tree) and Index (staged state).'
-#. Performing 'previewCompareHeadVsIndex, HEAD vs. Index, Show changes between index (staged state) and HEAD (repository state).'
-#. Performing 'previewCompareAutomatic, Automatic'
-#. Performing 'previewCompareHeadVsIndex, HEAD vs. Index, Show changes between index (staged state) and HEAD (repository state).'
-msgctxt "wndProject.mni:"
-msgid "feature/duplicate-msgctxt-detection-script"
-msgstr ""
-
-#. Performing 'changesView.compact, Compact'
-#. Performing 'changesView.unified, Unified'
-#. Performing 'changesView.sideBySide, Side by Side'
-#. Performing 'windowWorkingTree, Show Working Tree Window'
-#. opening smartgit.bPc@4DYP88:SmartGit 25.1 RC (Working Tree) (smartgit.bPc@2ZNMC7) (index=0)
-#. Performing 'previewCompareHeadVsIndex, HEAD vs. Index, Show changes between index (staged state) and HEAD (repository state).'
-#. Performing 'previewCompareIndexVsWT, Index vs. Working Tree, Show changes between local file (working tree) and Index (staged state).'
-#. Performing 'previewCompareHeadVsIndex, HEAD vs. Index, Show changes between index (staged state) and HEAD (repository state).'
-#. Performing 'previewCompareAutomatic, Automatic'
-#. Performing 'previewCompareHeadVsIndex, HEAD vs. Index, Show changes between index (staged state) and HEAD (repository state).'
-msgctxt "wndProject.mni:"
-msgid "feature/legacy_proof_reader"
-msgstr ""
-
-#. Performing 'changesView.compact, Compact'
-#. Performing 'changesView.unified, Unified'
-#. Performing 'changesView.sideBySide, Side by Side'
-#. Performing 'windowWorkingTree, Show Working Tree Window'
-#. opening smartgit.bPc@4DYP88:SmartGit 25.1 RC (Working Tree) (smartgit.bPc@2ZNMC7) (index=0)
-#. Performing 'previewCompareHeadVsIndex, HEAD vs. Index, Show changes between index (staged state) and HEAD (repository state).'
-#. Performing 'previewCompareIndexVsWT, Index vs. Working Tree, Show changes between local file (working tree) and Index (staged state).'
-#. Performing 'previewCompareHeadVsIndex, HEAD vs. Index, Show changes between index (staged state) and HEAD (repository state).'
-#. Performing 'previewCompareAutomatic, Automatic'
-#. Performing 'previewCompareHeadVsIndex, HEAD vs. Index, Show changes between index (staged state) and HEAD (repository state).'
-msgctxt "wndProject.mni:"
-msgid "feature/migrate-to-astral-uv"
-msgstr ""
-
-#. Performing 'changesView.compact, Compact'
-#. Performing 'changesView.unified, Unified'
-#. Performing 'changesView.sideBySide, Side by Side'
-#. Performing 'windowWorkingTree, Show Working Tree Window'
-#. opening smartgit.bPc@4DYP88:SmartGit 25.1 RC (Working Tree) (smartgit.bPc@2ZNMC7) (index=0)
-#. Performing 'previewCompareHeadVsIndex, HEAD vs. Index, Show changes between index (staged state) and HEAD (repository state).'
-#. Performing 'previewCompareIndexVsWT, Index vs. Working Tree, Show changes between local file (working tree) and Index (staged state).'
-#. Performing 'previewCompareHeadVsIndex, HEAD vs. Index, Show changes between index (staged state) and HEAD (repository state).'
-#. Performing 'previewCompareAutomatic, Automatic'
-#. Performing 'previewCompareHeadVsIndex, HEAD vs. Index, Show changes between index (staged state) and HEAD (repository state).'
-msgctxt "wndProject.mni:"
-msgid "feature/po-formatter-with-gh-actions"
-msgstr ""
-
-#. Performing 'changesView.compact, Compact'
-#. Performing 'changesView.unified, Unified'
-#. Performing 'changesView.sideBySide, Side by Side'
-#. Performing 'windowWorkingTree, Show Working Tree Window'
-#. opening smartgit.bPc@4DYP88:SmartGit 25.1 RC (Working Tree) (smartgit.bPc@2ZNMC7) (index=0)
-#. Performing 'previewCompareHeadVsIndex, HEAD vs. Index, Show changes between index (staged state) and HEAD (repository state).'
-#. Performing 'previewCompareIndexVsWT, Index vs. Working Tree, Show changes between local file (working tree) and Index (staged state).'
-#. Performing 'previewCompareHeadVsIndex, HEAD vs. Index, Show changes between index (staged state) and HEAD (repository state).'
-#. Performing 'previewCompareAutomatic, Automatic'
-#. Performing 'previewCompareHeadVsIndex, HEAD vs. Index, Show changes between index (staged state) and HEAD (repository state).'
-msgctxt "wndProject.mni:"
-msgid "main"
-msgstr ""
-
-#. Performing 'changesView.compact, Compact'
-#. Performing 'changesView.unified, Unified'
-#. Performing 'changesView.sideBySide, Side by Side'
-#. Performing 'windowWorkingTree, Show Working Tree Window'
-#. opening smartgit.bPc@4DYP88:SmartGit 25.1 RC (Working Tree) (smartgit.bPc@2ZNMC7) (index=0)
-#. Performing 'previewCompareHeadVsIndex, HEAD vs. Index, Show changes between index (staged state) and HEAD (repository state).'
-#. Performing 'previewCompareIndexVsWT, Index vs. Working Tree, Show changes between local file (working tree) and Index (staged state).'
-#. Performing 'previewCompareHeadVsIndex, HEAD vs. Index, Show changes between index (staged state) and HEAD (repository state).'
-#. Performing 'previewCompareAutomatic, Automatic'
-#. Performing 'previewCompareHeadVsIndex, HEAD vs. Index, Show changes between index (staged state) and HEAD (repository state).'
-msgctxt "wndProject.mni:"
-msgid "main-adem4ik"
-msgstr ""
-
-#. Performing 'changesView.compact, Compact'
-#. Performing 'changesView.unified, Unified'
-#. Performing 'changesView.sideBySide, Side by Side'
-#. Performing 'windowWorkingTree, Show Working Tree Window'
-#. opening smartgit.bPc@4DYP88:SmartGit 25.1 RC (Working Tree) (smartgit.bPc@2ZNMC7) (index=0)
-#. Performing 'previewCompareHeadVsIndex, HEAD vs. Index, Show changes between index (staged state) and HEAD (repository state).'
-#. Performing 'previewCompareIndexVsWT, Index vs. Working Tree, Show changes between local file (working tree) and Index (staged state).'
-#. Performing 'previewCompareHeadVsIndex, HEAD vs. Index, Show changes between index (staged state) and HEAD (repository state).'
-#. Performing 'previewCompareAutomatic, Automatic'
-#. Performing 'previewCompareHeadVsIndex, HEAD vs. Index, Show changes between index (staged state) and HEAD (repository state).'
-msgctxt "wndProject.mni:"
-msgid "main-upstream"
-msgstr ""
-
-#. Performing 'changesView.compact, Compact'
-#. Performing 'changesView.unified, Unified'
-#. Performing 'changesView.sideBySide, Side by Side'
-#. Performing 'windowWorkingTree, Show Working Tree Window'
-#. opening smartgit.bPc@4DYP88:SmartGit 25.1 RC (Working Tree) (smartgit.bPc@2ZNMC7) (index=0)
-#. Performing 'previewCompareHeadVsIndex, HEAD vs. Index, Show changes between index (staged state) and HEAD (repository state).'
-#. Performing 'previewCompareIndexVsWT, Index vs. Working Tree, Show changes between local file (working tree) and Index (staged state).'
-#. Performing 'previewCompareHeadVsIndex, HEAD vs. Index, Show changes between index (staged state) and HEAD (repository state).'
-#. Performing 'previewCompareAutomatic, Automatic'
-#. Performing 'previewCompareHeadVsIndex, HEAD vs. Index, Show changes between index (staged state) and HEAD (repository state).'
-msgctxt "wndProject.mni:"
-msgid "new_proof_reader"
-msgstr ""
-
-#. Performing 'changesView.compact, Compact'
-#. Performing 'changesView.unified, Unified'
-#. Performing 'changesView.sideBySide, Side by Side'
-#. Performing 'windowWorkingTree, Show Working Tree Window'
-#. opening smartgit.bPc@4DYP88:SmartGit 25.1 RC (Working Tree) (smartgit.bPc@2ZNMC7) (index=0)
-#. Performing 'previewCompareHeadVsIndex, HEAD vs. Index, Show changes between index (staged state) and HEAD (repository state).'
-#. Performing 'previewCompareIndexVsWT, Index vs. Working Tree, Show changes between local file (working tree) and Index (staged state).'
-#. Performing 'previewCompareHeadVsIndex, HEAD vs. Index, Show changes between index (staged state) and HEAD (repository state).'
-#. Performing 'previewCompareAutomatic, Automatic'
-#. Performing 'previewCompareHeadVsIndex, HEAD vs. Index, Show changes between index (staged state) and HEAD (repository state).'
-msgctxt "wndProject.mni:"
-msgid "poeditor"
-msgstr ""
-
-#. Performing 'changesView.compact, Compact'
-#. Performing 'changesView.unified, Unified'
-#. Performing 'changesView.sideBySide, Side by Side'
-#. Performing 'windowWorkingTree, Show Working Tree Window'
-#. opening smartgit.bPc@4DYP88:SmartGit 25.1 RC (Working Tree) (smartgit.bPc@2ZNMC7) (index=0)
-#. Performing 'previewCompareHeadVsIndex, HEAD vs. Index, Show changes between index (staged state) and HEAD (repository state).'
-#. Performing 'previewCompareIndexVsWT, Index vs. Working Tree, Show changes between local file (working tree) and Index (staged state).'
-#. Performing 'previewCompareHeadVsIndex, HEAD vs. Index, Show changes between index (staged state) and HEAD (repository state).'
-#. Performing 'previewCompareAutomatic, Automatic'
-#. Performing 'previewCompareHeadVsIndex, HEAD vs. Index, Show changes between index (staged state) and HEAD (repository state).'
-msgctxt "wndProject.mni:"
-msgid "pot-wip/24.1-merged"
-msgstr ""
-
-#. Performing 'changesView.compact, Compact'
-#. Performing 'changesView.unified, Unified'
-#. Performing 'changesView.sideBySide, Side by Side'
-#. Performing 'windowWorkingTree, Show Working Tree Window'
-#. opening smartgit.bPc@4DYP88:SmartGit 25.1 RC (Working Tree) (smartgit.bPc@2ZNMC7) (index=0)
-#. Performing 'previewCompareHeadVsIndex, HEAD vs. Index, Show changes between index (staged state) and HEAD (repository state).'
-#. Performing 'previewCompareIndexVsWT, Index vs. Working Tree, Show changes between local file (working tree) and Index (staged state).'
-#. Performing 'previewCompareHeadVsIndex, HEAD vs. Index, Show changes between index (staged state) and HEAD (repository state).'
-#. Performing 'previewCompareAutomatic, Automatic'
-#. Performing 'previewCompareHeadVsIndex, HEAD vs. Index, Show changes between index (staged state) and HEAD (repository state).'
-msgctxt "wndProject.mni:"
-msgid "pot-wip/24.1_mac"
-msgstr ""
-
-#. Performing 'changesView.compact, Compact'
-#. Performing 'changesView.unified, Unified'
-#. Performing 'changesView.sideBySide, Side by Side'
-#. Performing 'windowWorkingTree, Show Working Tree Window'
-#. opening smartgit.bPc@4DYP88:SmartGit 25.1 RC (Working Tree) (smartgit.bPc@2ZNMC7) (index=0)
-#. Performing 'previewCompareHeadVsIndex, HEAD vs. Index, Show changes between index (staged state) and HEAD (repository state).'
-#. Performing 'previewCompareIndexVsWT, Index vs. Working Tree, Show changes between local file (working tree) and Index (staged state).'
-#. Performing 'previewCompareHeadVsIndex, HEAD vs. Index, Show changes between index (staged state) and HEAD (repository state).'
-#. Performing 'previewCompareAutomatic, Automatic'
-#. Performing 'previewCompareHeadVsIndex, HEAD vs. Index, Show changes between index (staged state) and HEAD (repository state).'
-msgctxt "wndProject.mni:"
-msgid "proof-reading-proto"
-msgstr ""
-
-#. Performing 'changesView.compact, Compact'
-#. Performing 'changesView.unified, Unified'
-#. Performing 'changesView.sideBySide, Side by Side'
-#. Performing 'windowWorkingTree, Show Working Tree Window'
-#. opening smartgit.bPc@4DYP88:SmartGit 25.1 RC (Working Tree) (smartgit.bPc@2ZNMC7) (index=0)
-#. Performing 'previewCompareHeadVsIndex, HEAD vs. Index, Show changes between index (staged state) and HEAD (repository state).'
-#. Performing 'previewCompareIndexVsWT, Index vs. Working Tree, Show changes between local file (working tree) and Index (staged state).'
-#. Performing 'previewCompareHeadVsIndex, HEAD vs. Index, Show changes between index (staged state) and HEAD (repository state).'
-#. Performing 'previewCompareAutomatic, Automatic'
-#. Performing 'previewCompareHeadVsIndex, HEAD vs. Index, Show changes between index (staged state) and HEAD (repository state).'
-msgctxt "wndProject.mni:"
-msgid "ru_upd_250531"
-msgstr ""
-
-#. Performing 'changesView.compact, Compact'
-#. Performing 'changesView.unified, Unified'
-#. Performing 'changesView.sideBySide, Side by Side'
-#. Performing 'windowWorkingTree, Show Working Tree Window'
-#. opening smartgit.bPc@4DYP88:SmartGit 25.1 RC (Working Tree) (smartgit.bPc@2ZNMC7) (index=0)
-#. Performing 'previewCompareHeadVsIndex, HEAD vs. Index, Show changes between index (staged state) and HEAD (repository state).'
-#. Performing 'previewCompareIndexVsWT, Index vs. Working Tree, Show changes between local file (working tree) and Index (staged state).'
-#. Performing 'previewCompareHeadVsIndex, HEAD vs. Index, Show changes between index (staged state) and HEAD (repository state).'
-#. Performing 'previewCompareAutomatic, Automatic'
-#. Performing 'previewCompareHeadVsIndex, HEAD vs. Index, Show changes between index (staged state) and HEAD (repository state).'
-msgctxt "wndProject.mni:"
-msgid "wip3"
 msgstr ""
 
 #. opening smartgit.bDU@N23FXO:SmartGit 25.1 Preview Evaluation until Aug 2 (smartgit.bDU@CGQJ1R)
