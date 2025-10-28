@@ -314,6 +314,49 @@ msgctxt "dlgDgSetPerspectiveCantSwitch.tle"
 msgid "Origins Perspective"
 msgstr ""
 
+#. # Showing dialog 2 (@ZB0DE4) '@QWEJRZ - Welcome to SmartGit' (owner: @OGXXNH)
+#. # Performing ', OK'
+#. # Performing 'stage, Stage, Store working tree files in the index to prepare the next commit.'
+#. # Performing ', Push'
+#. # Showing dialog 3 (@RFMONM) '@HI2RNR - Push' (owner: @OGXXNH)
+#. # Performing ', Push'
+#. # Performing 'fetch, Pull…, Fetch commits from a remote repository and (optionally) integrate them with possible local commits.'
+#. # Showing dialog 4 (@HDLLSU) '@31GQX5 - Pull' (owner: @OGXXNH)
+#. # Performing ', Pull'
+#. # Showing dialog 5 (@SG3917) '@970OBG - Hosting Providers' (owner: null)
+msgctxt "dlgHostingProvider.canBeConfigured.btn:"
+msgid "Configure Hosting Provider"
+msgstr ""
+
+#. # Showing dialog 2 (@ZB0DE4) '@QWEJRZ - Welcome to SmartGit' (owner: @OGXXNH)
+#. # Performing ', OK'
+#. # Performing 'stage, Stage, Store working tree files in the index to prepare the next commit.'
+#. # Performing ', Push'
+#. # Showing dialog 3 (@RFMONM) '@HI2RNR - Push' (owner: @OGXXNH)
+#. # Performing ', Push'
+#. # Performing 'fetch, Pull…, Fetch commits from a remote repository and (optionally) integrate them with possible local commits.'
+#. # Showing dialog 4 (@HDLLSU) '@31GQX5 - Pull' (owner: @OGXXNH)
+#. # Performing ', Pull'
+#. # Showing dialog 5 (@SG3917) '@970OBG - Hosting Providers' (owner: null)
+#| msgid "The easiest way to access the repository at https://gitlab.com/yubeshi/smartgit-translation.git is through a hosting provider."
+msgctxt "dlgHostingProvider.canBeConfigured.fur"
+msgid "The easiest way to access the repository at $1 is through a hosting provider."
+msgstr ""
+
+#. # Showing dialog 2 (@ZB0DE4) '@QWEJRZ - Welcome to SmartGit' (owner: @OGXXNH)
+#. # Performing ', OK'
+#. # Performing 'stage, Stage, Store working tree files in the index to prepare the next commit.'
+#. # Performing ', Push'
+#. # Showing dialog 3 (@RFMONM) '@HI2RNR - Push' (owner: @OGXXNH)
+#. # Performing ', Push'
+#. # Performing 'fetch, Pull…, Fetch commits from a remote repository and (optionally) integrate them with possible local commits.'
+#. # Showing dialog 4 (@HDLLSU) '@31GQX5 - Pull' (owner: @OGXXNH)
+#. # Performing ', Pull'
+#. # Showing dialog 5 (@SG3917) '@970OBG - Hosting Providers' (owner: null)
+msgctxt "dlgHostingProvider.canBeConfigured.hdl"
+msgid "Do you want to configure a GitLab hosting provider?"
+msgstr ""
+
 msgctxt "dlgInfo.tle"
 msgid "Discard"
 msgstr ""
@@ -2713,8 +2756,9 @@ msgstr ""
 #. Performing ', Discard'
 #. Performing 'ai.commitMessageCompose, AI Commit Message Compose'
 #. Showing dialog 25 (@BQ203M) '@4Q9SOO - AI Upload Consent' (owner: @COGMZJ)
+#| msgid "This is the first time that SmartGit will access the AI service for this repository:\\n\\n/Users/tomohiro/Git-projects/smartgit-translations-25.1-wip\\n\\nPlease confirm whether uploads to OpenAI are allowed. If allowed, SmartGit may upload repository data required by the AI feature you invoke \\(for example: diffs, commit messages, and related metadata\\).\\n\\nThis is a one-time safety check, and your choice will apply to all future requests for this repository with this AI service."
 msgctxt "dlgSgAiApiKeyRepoLlmConsent.fur"
-msgid "This is the first time that SmartGit will access the AI service for this repository:\\n\\n/Users/tomohiro/Git-projects/smartgit-translations-25.1-wip\\n\\nPlease confirm whether uploads to OpenAI are allowed. If allowed, SmartGit may upload repository data required by the AI feature you invoke \\(for example: diffs, commit messages, and related metadata\\).\\n\\nThis is a one-time safety check, and your choice will apply to all future requests for this repository with this AI service."
+msgid "This is the first time that SmartGit will access the AI service for this repository:\\n\\n$1\\n\\nPlease confirm whether uploads to OpenAI are allowed. If allowed, SmartGit may upload repository data required by the AI feature you invoke \\(for example: diffs, commit messages, and related metadata\\).\\n\\nThis is a one-time safety check, and your choice will apply to all future requests for this repository with this AI service."
 msgstr ""
 
 #. Performing ', Copy'
@@ -4130,6 +4174,20 @@ msgctxt "dlgSgCheckoutTarget.chk:"
 msgid "Track remote branch"
 msgstr ""
 
+#. Performing ', Fetch'
+#. Showing dialog 174 (@524DDBEC) '@30ACF0C6 - Reveal Commit' (owner: @5381DEEC)
+#. Performing ', Check Out'
+#. Showing dialog 175 (@6480363A) '@484BBB39 - Check Out' (owner: @5381DEEC)
+#. Performing ', Cancel'
+#. Performing 'checkout, Check Out..., Check out an existing commit.'
+#. Showing dialog 176 (@4B3CBD77) '@1450CD0E - Check Out' (owner: @5381DEEC)
+#. Performing ', Cancel'
+#. Performing 'checkout, Check Out..., Check out an existing commit.'
+#. Showing dialog 177 (@3717AF61) '@21008778 - Check Out' (owner: @5381DEEC)
+msgctxt "dlgSgCheckoutTarget.err:"
+msgid "The name must not end with a slash or dot."
+msgstr ""
+
 msgctxt "dlgSgCheckoutTarget.hdl:"
 msgid "Check out commit"
 msgstr ""
@@ -5035,6 +5093,20 @@ msgstr ""
 #. Performing ', Log...'
 #. Showing dialog 11 (@Y3JL8Y) '@I0LTP4 - Select Commit Message' (owner: @YG5QGF)
 #. Showing dialog 12 (@FAEW2D) '@48EF0F - Refresh' (owner: @Y3JL8Y)
+msgctxt "dlgSgCommitSelectMessageFromLog.hnt:"
+msgid "No graph roots selected."
+msgstr ""
+
+#. Performing 'editCommitMessage, Edit Message...'
+#. Showing dialog 8 (@29E94753) '@419E46BB - Edit Message' (owner: @27443560)
+#. Performing ', Set Message'
+#. Showing dialog 9 (@66F73D3D) '@2C427287 - Edit Message' (owner: @27443560)
+#. Performing ', Save Stash'
+#. Performing 'editCommitMessage, Edit Message...'
+#. Showing dialog 10 (@433F4EED) '@405A2C7B - Edit Message' (owner: @27443560)
+#. Performing ', Select from Log...'
+#. Showing dialog 11 (@5A1B205) '@660D3831 - Select Commit Message' (owner: @433F4EED)
+#. Showing dialog 12 (@305F321F) '@790ED2D9 - Refresh' (owner: @5A1B205)
 msgctxt "dlgSgCommitSelectMessageFromLog.hnt:"
 msgid "No graph roots selected."
 msgstr ""
@@ -7574,6 +7646,20 @@ msgctxt "dlgSgIgnoreFile.edt:"
 msgid "Ignore File"
 msgstr ""
 
+#. Performing 'stage, Stage, Store working tree files in the index to prepare the next commit.'
+#. Showing dialog 8 (@28BC9749) '@54A5496F - Command Output' (owner: @22D322F5)
+#. Performing ', Close'
+#. Performing ',   Cursor'
+#. Performing 'stage, Stage, Store working tree files in the index to prepare the next commit.'
+#. Performing 'stage, Stage, Store working tree files in the index to prepare the next commit.'
+#. Performing 'stage, Stage, Store working tree files in the index to prepare the next commit.'
+#. Performing '@smartgit.bvv'
+#. Performing 'ignore, Ignore..., Mark unversioned local files/directories to be ignored.'
+#. Showing dialog 9 (@2BED5828) '@52A2E2FB - Ignore' (owner: @22D322F5)
+msgctxt "dlgSgIgnoreFile.err\"Enter a pattern for the file\\(s\\) to be ignored. Use \\* to match multiple or ? for a single arbitrary character.\""
+msgid "Enter a pattern for the file\\(s\\) to be ignored. Use \\* to match multiple or ? for a single arbitrary character."
+msgstr ""
+
 msgctxt "dlgSgIgnoreFile.err:"
 msgid "The pattern must match all selected file names. For instance, '$1' is not matched."
 msgstr ""
@@ -8098,6 +8184,77 @@ msgctxt "dlgSgOpenRepositoryInitializeGit.tle"
 msgid "Add or Create Repository"
 msgstr ""
 
+#. Performing ',   Cursor'
+#. Performing '@smartgit.bvu'
+#. Showing dialog 176 (@5A3A755D) '@28D0A906 - Command Failed' (owner: @29CCCF98)
+#. Performing ', OK'
+#. Performing ',   開く'
+#. Performing ',   エクスプローラで選択'
+#. Performing 'repositoryAdd, Add or Create..., Add or create a new repository.'
+#. Showing dialog 177 (@33F4535E) '@28158466 - Add or Create Repository' (owner: @29CCCF98)
+#. Performing ', OK'
+#. Showing dialog 178 (@65E69C75) '@3273180E - Add or Create Repository' (owner: @33F4535E)
+msgctxt "dlgSgOpenRepositoryOuterOrInner.btn:"
+msgid "Inner Repository"
+msgstr ""
+
+#. Performing ',   Cursor'
+#. Performing '@smartgit.bvu'
+#. Showing dialog 176 (@5A3A755D) '@28D0A906 - Command Failed' (owner: @29CCCF98)
+#. Performing ', OK'
+#. Performing ',   開く'
+#. Performing ',   エクスプローラで選択'
+#. Performing 'repositoryAdd, Add or Create..., Add or create a new repository.'
+#. Showing dialog 177 (@33F4535E) '@28158466 - Add or Create Repository' (owner: @29CCCF98)
+#. Performing ', OK'
+#. Showing dialog 178 (@65E69C75) '@3273180E - Add or Create Repository' (owner: @33F4535E)
+msgctxt "dlgSgOpenRepositoryOuterOrInner.btn:"
+msgid "Outer Repository"
+msgstr ""
+
+#. Performing ',   Cursor'
+#. Performing '@smartgit.bvu'
+#. Showing dialog 176 (@5A3A755D) '@28D0A906 - Command Failed' (owner: @29CCCF98)
+#. Performing ', OK'
+#. Performing ',   開く'
+#. Performing ',   エクスプローラで選択'
+#. Performing 'repositoryAdd, Add or Create..., Add or create a new repository.'
+#. Showing dialog 177 (@33F4535E) '@28158466 - Add or Create Repository' (owner: @29CCCF98)
+#. Performing ', OK'
+#. Showing dialog 178 (@65E69C75) '@3273180E - Add or Create Repository' (owner: @33F4535E)
+#| msgid "At the specified path nested repositories were found.\\nInner repository: D:\\\\GitRepository\\\\js-reverse-engineering\\\\js-deps-analyzer\\nOuter repository: D:\\\\GitRepository\\\\js-reverse-engineering"
+msgctxt "dlgSgOpenRepositoryOuterOrInner.fur"
+msgid "At the specified path nested repositories were found.\\nInner repository: $1\\nOuter repository: $2"
+msgstr ""
+
+#. Performing ',   Cursor'
+#. Performing '@smartgit.bvu'
+#. Showing dialog 176 (@5A3A755D) '@28D0A906 - Command Failed' (owner: @29CCCF98)
+#. Performing ', OK'
+#. Performing ',   開く'
+#. Performing ',   エクスプローラで選択'
+#. Performing 'repositoryAdd, Add or Create..., Add or create a new repository.'
+#. Showing dialog 177 (@33F4535E) '@28158466 - Add or Create Repository' (owner: @29CCCF98)
+#. Performing ', OK'
+#. Showing dialog 178 (@65E69C75) '@3273180E - Add or Create Repository' (owner: @33F4535E)
+msgctxt "dlgSgOpenRepositoryOuterOrInner.hdl"
+msgid "Do you want to open the outer or inner repository?"
+msgstr ""
+
+#. Performing ', Initialize'
+#. Performing ',   Cursor'
+#. Performing '@smartgit.bvu'
+#. Showing dialog 176 (@5A3A755D) '@28D0A906 - Command Failed' (owner: @29CCCF98)
+#. Performing ', OK'
+#. Performing ',   開く'
+#. Performing ',   エクスプローラで選択'
+#. Performing 'repositoryAdd, Add or Create..., Add or create a new repository.'
+#. Showing dialog 177 (@33F4535E) '@28158466 - Add or Create Repository' (owner: @29CCCF98)
+#. Performing ', OK'
+msgctxt "dlgSgOpenRepositoryOuterOrInner.tle"
+msgid "Add or Create Repository"
+msgstr ""
+
 msgctxt "dlgSgOpenRepositorySvnWorkingCopy.fur%1"
 msgid "You are trying to open an existing SVN working copy which is not possible with SmartGit. Instead, please use $1 to create a Git clone of your SVN repository \\(i.e. a working copy based on Git instead of SVN\\)."
 msgstr ""
@@ -8132,6 +8289,20 @@ msgstr ""
 
 msgctxt "dlgSgOutput.lbl:"
 msgid "Command Abort failed!"
+msgstr ""
+
+#. Showing dialog 30 (@17C95612) '@1CA2D595 - Command Output' (owner: @DAB1F89)
+#. Performing ',   Cursor'
+#. Performing ',   Windsurf'
+#. Performing 'repositoryAdd, Add or Create..., Add or create a new repository.'
+#. Showing dialog 31 (@721FBAE2) '@130F8E03 - Add or Create Repository' (owner: @DAB1F89)
+#. Performing ', OK'
+#. Performing 'branchAdd, Add Branch..., Add a new branch for the current commit.'
+#. Showing dialog 32 (@4B2BE6F8) '@1BD6831D - Add Branch' (owner: @DAB1F89)
+#. Performing ', Add Branch & Checkout'
+#. Showing dialog 33 (@1B18F38F) '@3E40BEA1 - Command Failed' (owner: @DAB1F89)
+msgctxt "dlgSgOutput.lbl:"
+msgid "Command Add Branch failed!"
 msgstr ""
 
 msgctxt "dlgSgOutput.lbl:"
@@ -8244,6 +8415,20 @@ msgctxt "dlgSgOutput.lbl:"
 msgid "Command Fetch produced warnings."
 msgstr ""
 
+#. Showing dialog 5 (@783DC0E7) '@361F26B4 - Discard' (owner: @1CD43562)
+#. Performing ', Discard'
+#. Showing dialog 6 (@CFACF0) '@4C8ABEC7 - Discard' (owner: @783DC0E7)
+#. Performing ', Discard'
+#. Showing dialog 7 (@7507D96C) '@7210F559 - Process Not Responding' (owner: @1CD43562)
+#. Performing ', Wait'
+#. Performing 'lfsInstall, Install...'
+#. Showing dialog 8 (@70AA58E1) '@25EA068E - LFS Install' (owner: @1CD43562)
+#. Performing ', Install'
+#. Showing dialog 9 (@4A5B38E6) '@58583A2D - Command Failed' (owner: @1CD43562)
+msgctxt "dlgSgOutput.lbl:"
+msgid "Command LFS Install failed!"
+msgstr ""
+
 msgctxt "dlgSgOutput.lbl:"
 msgid "Command Merge produced warnings."
 msgstr ""
@@ -8320,6 +8505,21 @@ msgstr ""
 #. Showing dialog 42 (@39D602D8) '@128C81EF - Command Output' (owner: @16A35BD)
 msgctxt "dlgSgOutput.lbl:"
 msgid "Command Rebase HEAD \\($1\\) to $2 produced warnings."
+msgstr ""
+
+#. Performing ', Pull'
+#. Performing '@smartgit.bEI'
+#. Performing '@smartgit.bEI'
+#. Performing 'fetch, Pull..., Fetch commits from a remote repository and (optionally) integrate them with possible local commits.'
+#. Showing dialog 22 (@264888E7) '@46343F97 - Pull' (owner: @10B4E7F8)
+#. Performing ', Pull'
+#. Performing 'rebaseHeadTo, Rebase..., Apply commits from your current branch to the selected commit.'
+#. Showing dialog 23 (@7E64A758) '@5AD583A9 - Rebase HEAD to Selected Commit' (owner: @10B4E7F8)
+#. Performing ', Rebase HEAD to'
+#. Showing dialog 24 (@6C396A5A) '@10EB9604 - Command Failed' (owner: @10B4E7F8)
+#| msgid "Command Rebase HEAD \\(feature/forceinclude\\) to fa50210c failed!"
+msgctxt "dlgSgOutput.lbl\"Command Rebase HEAD \\(feature/forceinclude\\) to fa50210c failed!\""
+msgid "Command Rebase HEAD \\(feature/forceinclude\\) to $1 failed!"
 msgstr ""
 
 msgctxt "dlgSgOutput.lbl:"
@@ -8422,6 +8622,20 @@ msgctxt "dlgSgOutput.lbl:"
 msgid "The command output below contains more details on the problem."
 msgstr ""
 
+#. Performing ', OK'
+#. Performing 'remoteFetchAll, Fetch All, Fetch commits from all remote repositories.'
+#. Performing 'unstage, Unstage, Remove staged changes from index.'
+#. Performing 'discard, Discard..., Discard local changes.'
+#. Showing dialog 1 (@11295CB1) '@350342E0 - Discard' (owner: @1CD43562)
+#. Performing ', Discard'
+#. Showing dialog 2 (@14239223) '@2336CD91 - Discard' (owner: @11295CB1)
+#. Performing ', Discard'
+#. Showing dialog 3 (@49BB808F) '@C5A2D5 - Process Not Responding' (owner: @1CD43562)
+#. Showing dialog 4 (@D0A2C82) '@12608986 - Command Failed' (owner: @1CD43562)
+msgctxt "dlgSgOutput.lbl:"
+msgid "The command output below contains more details on the problem."
+msgstr ""
+
 msgctxt "dlgSgOutput.lbl:"
 msgid "The working tree has local changes."
 msgstr ""
@@ -8499,6 +8713,21 @@ msgstr ""
 
 msgctxt "dlgSgOutput.tle:"
 msgid "Output"
+msgstr ""
+
+#. Performing '@smartgit.byI'
+#. Performing 'repositoryClone, Clone..., Clone a new repository.'
+#. Showing dialog 31 (@1881289B) '@E71BD92 - Clone' (owner: @60DF7989)
+#. Performing ', Next >'
+#. Performing ', Next >'
+#. Performing ', Finish'
+#. Performing 'repositoryClone, Clone..., Clone a new repository.'
+#. Showing dialog 32 (@5B933786) '@48158B86 - Clone' (owner: @60DF7989)
+#. Performing ', Next >'
+#. Showing dialog 33 (@4FA62AED) '@4E370F52 - Clone' (owner: @5B933786)
+#| msgid "repository 'https://smartgit.userecho.com/communities/1/topics/395-clone-first-clone-just-the-head-and-then-fetch-the-other-commits-in-background/' not found."
+msgctxt "dlgSgPingRepositoryFailed.fur"
+msgid "repository '$1' not found."
 msgstr ""
 
 msgctxt "dlgSgPingRepositoryFailed.fur%1"
@@ -9986,6 +10215,20 @@ msgctxt "dlgSgProcessKiller.lbl:"
 msgid "If you think the process is hanging, click the 'Kill Process' button, otherwise 'Wait'."
 msgstr ""
 
+#. Performing ', Translation > try-slint'
+#. Performing ', Translation > Llama-4-Scout-17B-16E-Instruct-quantized.w4a16'
+#. Performing '@smartgit.byQ'
+#. Performing ',   Git-bashで開く'
+#. Performing 'discard, Discard..., Discard local changes.'
+#. Showing dialog 5 (@783DC0E7) '@361F26B4 - Discard' (owner: @1CD43562)
+#. Performing ', Discard'
+#. Showing dialog 6 (@CFACF0) '@4C8ABEC7 - Discard' (owner: @783DC0E7)
+#. Performing ', Discard'
+#. Showing dialog 7 (@7507D96C) '@7210F559 - Process Not Responding' (owner: @1CD43562)
+msgctxt "dlgSgProcessKiller.lbl:"
+msgid "SmartGit is waiting for the following process to finish."
+msgstr ""
+
 msgctxt "dlgSgProcessKiller.tle"
 msgid "Process Not Responding"
 msgstr ""
@@ -10008,6 +10251,102 @@ msgstr ""
 
 msgctxt "dlgSgProviderCommentEdit.tle"
 msgid "Edit Comment"
+msgstr ""
+
+#. opening smartgit.byM@7848321E:SmartGit 24.1.5 (smartgit.byM@34D713A2)
+#. Performing 'repositoryClone, Clone..., Clone a new repository.'
+#. Showing dialog 0 (@15914BB5) '@226E07E7 - Clone' (owner: @34D713A2)
+#. Performing ', Next >'
+#. Showing dialog 1 (@4EF8090B) '@7BDA01DA - Passwords' (owner: @15914BB5)
+#. Performing ', OK'
+#. Performing ', Next >'
+#. Performing ', Finish'
+#. Showing dialog 2 (@2382B2F) '@71734463 - Select GitHub account' (owner: @34D713A2)
+msgctxt "dlgSgProviderCredentialsAutoGeneratorSelector.btn:"
+msgid "Confirm"
+msgstr ""
+
+#. Showing dialog 10 (@3A3BC0DA) '@2D2F09A4 - Pull' (owner: @36F7D7B)
+#. Performing ', Pull'
+#. Performing '@smartgit.byU'
+#. Performing 'repositoryRename, Rename...'
+#. Showing dialog 11 (@49153009) '@745CF754 - Rename' (owner: @36F7D7B)
+#. Performing ', Cancel'
+#. Performing 'remoteAdd, Add...'
+#. Showing dialog 12 (@306C9B2C) '@30B1C5D5 - Add Remote Repository' (owner: @36F7D7B)
+#. Performing ', Add'
+#. Showing dialog 13 (@6796A873) '@3ACC3EE - Select GitHub account' (owner: null)
+msgctxt "dlgSgProviderCredentialsAutoGeneratorSelector.cmb:"
+msgid "github.com"
+msgstr ""
+
+#. Showing dialog 10 (@3A3BC0DA) '@2D2F09A4 - Pull' (owner: @36F7D7B)
+#. Performing ', Pull'
+#. Performing '@smartgit.byU'
+#. Performing 'repositoryRename, Rename...'
+#. Showing dialog 11 (@49153009) '@745CF754 - Rename' (owner: @36F7D7B)
+#. Performing ', Cancel'
+#. Performing 'remoteAdd, Add...'
+#. Showing dialog 12 (@306C9B2C) '@30B1C5D5 - Add Remote Repository' (owner: @36F7D7B)
+#. Performing ', Add'
+#. Showing dialog 13 (@6796A873) '@3ACC3EE - Select GitHub account' (owner: null)
+#| msgctxt "dlgSgProviderCredentialsAutoGeneratorSelector.cmb\"github\\(yubeshi-AI\\)\""
+#| msgid "github\\($1\\)"
+msgctxt "dlgSgProviderCredentialsAutoGeneratorSelector.cmb:"
+msgid "github\\($1\\)"
+msgstr ""
+
+#. opening smartgit.byM@7848321E:SmartGit 24.1.5 (smartgit.byM@34D713A2)
+#. Performing 'repositoryClone, Clone..., Clone a new repository.'
+#. Showing dialog 0 (@15914BB5) '@226E07E7 - Clone' (owner: @34D713A2)
+#. Performing ', Next >'
+#. Showing dialog 1 (@4EF8090B) '@7BDA01DA - Passwords' (owner: @15914BB5)
+#. Performing ', OK'
+#. Performing ', Next >'
+#. Performing ', Finish'
+#. Showing dialog 2 (@2382B2F) '@71734463 - Select GitHub account' (owner: @34D713A2)
+msgctxt "dlgSgProviderCredentialsAutoGeneratorSelector.edt:"
+msgid "Provider"
+msgstr ""
+
+#. opening smartgit.byM@7848321E:SmartGit 24.1.5 (smartgit.byM@34D713A2)
+#. Performing 'repositoryClone, Clone..., Clone a new repository.'
+#. Showing dialog 0 (@15914BB5) '@226E07E7 - Clone' (owner: @34D713A2)
+#. Performing ', Next >'
+#. Showing dialog 1 (@4EF8090B) '@7BDA01DA - Passwords' (owner: @15914BB5)
+#. Performing ', OK'
+#. Performing ', Next >'
+#. Performing ', Finish'
+#. Showing dialog 2 (@2382B2F) '@71734463 - Select GitHub account' (owner: @34D713A2)
+msgctxt "dlgSgProviderCredentialsAutoGeneratorSelector.hdl"
+msgid "Select which GitHub account to use"
+msgstr ""
+
+#. opening smartgit.byM@7848321E:SmartGit 24.1.5 (smartgit.byM@34D713A2)
+#. Performing 'repositoryClone, Clone..., Clone a new repository.'
+#. Showing dialog 0 (@15914BB5) '@226E07E7 - Clone' (owner: @34D713A2)
+#. Performing ', Next >'
+#. Showing dialog 1 (@4EF8090B) '@7BDA01DA - Passwords' (owner: @15914BB5)
+#. Performing ', OK'
+#. Performing ', Next >'
+#. Performing ', Finish'
+#. Showing dialog 2 (@2382B2F) '@71734463 - Select GitHub account' (owner: @34D713A2)
+#| msgid "Select which account you want to use for connecting to 'https://github.com/ktyubeshi/fast-bunkai.git'."
+msgctxt "dlgSgProviderCredentialsAutoGeneratorSelector.inf"
+msgid "Select which account you want to use for connecting to '$1'."
+msgstr ""
+
+# Verify that there’s no issue, since the `msgctxt` does not end with “:” and contains a proper noun.
+#. opening smartgit.byM@7848321E:SmartGit 24.1.5 (smartgit.byM@34D713A2)
+#. Performing 'repositoryClone, Clone..., Clone a new repository.'
+#. Showing dialog 0 (@15914BB5) '@226E07E7 - Clone' (owner: @34D713A2)
+#. Performing ', Next >'
+#. Showing dialog 1 (@4EF8090B) '@7BDA01DA - Passwords' (owner: @15914BB5)
+#. Performing ', OK'
+#. Performing ', Next >'
+#. Performing ', Finish'
+msgctxt "dlgSgProviderCredentialsAutoGeneratorSelector.tle"
+msgid "Select GitHub account"
 msgstr ""
 
 msgctxt "dlgSgProviderGenerateToken.btn:"
@@ -10325,6 +10664,36 @@ msgstr ""
 
 msgctxt "dlgSgPushConfirmSingleTag.chk"
 msgid "Don't show again"
+msgstr ""
+
+#. Performing ', Push'
+#. Showing dialog 91 (@2FD44168) '@6E7E9CAB - Command Failed' (owner: @5A36A405)
+#. Performing ', Close'
+#. Performing 'push, Push, Push local commits to the remote origin repository.'
+#. Showing dialog 92 (@6A820ABF) '@6BA8590D - Push' (owner: @5A36A405)
+#. Performing ', Push'
+#. Showing dialog 93 (@4FFB96E3) '@2E84A7F0 - Command Failed' (owner: @5A36A405)
+#. Performing ', Close'
+#. Performing 'push, Push, Push local commits to the remote origin repository.'
+#. Showing dialog 94 (@569575EC) '@EEF8BED - Push' (owner: @5A36A405)
+#| msgid "1 tag will be pushed to 'origin'."
+msgctxt "dlgSgPushConfirmSingleTag.fur"
+msgid "$1 tag will be pushed to '$2'."
+msgstr ""
+
+#. Performing ', Push'
+#. Showing dialog 91 (@2FD44168) '@6E7E9CAB - Command Failed' (owner: @5A36A405)
+#. Performing ', Close'
+#. Performing 'push, Push, Push local commits to the remote origin repository.'
+#. Showing dialog 92 (@6A820ABF) '@6BA8590D - Push' (owner: @5A36A405)
+#. Performing ', Push'
+#. Showing dialog 93 (@4FFB96E3) '@2E84A7F0 - Command Failed' (owner: @5A36A405)
+#. Performing ', Close'
+#. Performing 'push, Push, Push local commits to the remote origin repository.'
+#. Showing dialog 94 (@569575EC) '@EEF8BED - Push' (owner: @5A36A405)
+#| msgid "Do you want to push tag 'Release/0.0.14'?"
+msgctxt "dlgSgPushConfirmSingleTag.hdl"
+msgid "Do you want to push tag '$1'?"
 msgstr ""
 
 msgctxt "dlgSgPushConfirmSingleTag.tle"
@@ -11429,6 +11798,20 @@ msgstr ""
 
 msgctxt "dlgSgRenameFile.edt:"
 msgid "Path"
+msgstr ""
+
+#. Performing 'goto-next-diff, Next Change, Go to next change.'
+#. Performing 'goto-next-diff, Next Change, Go to next change.'
+#. Performing 'goto-next-diff, Next Change, Go to next change.'
+#. Performing 'goto-next-diff, Next Change, Go to next change.'
+#. Performing 'goto-next-diff, Next Change, Go to next change.'
+#. Performing 'goto-next-diff, Next Change, Go to next change.'
+#. Performing 'goto-next-diff, Next Change, Go to next change.'
+#. Performing 'goto-next-diff, Next Change, Go to next change.'
+#. Performing 'rename, Move or Rename...'
+#. Showing dialog 14 (@50BF51BB) '@1E4C8045 - Move or Rename' (owner: @771A7D53)
+msgctxt "dlgSgRenameFile.err:"
+msgid "No valid path specified."
 msgstr ""
 
 msgctxt "dlgSgRenameFile.hdl"
@@ -13076,6 +13459,20 @@ msgctxt "dlgSgStashOnDemandConfirmation.chk"
 msgid "Automatically save stash"
 msgstr ""
 
+#. Showing dialog 4 (@70BC9070) '@6AA792 - Commit' (owner: @DAB1F89)
+#. Performing ', Commit'
+#. Performing 'editCommitMessage, Edit Message...'
+#. Showing dialog 5 (@1504B493) '@20A25F66 - Edit Message' (owner: @DAB1F89)
+#. Performing ', Set Message'
+#. Performing 'stage, Stage, Store working tree files in the index to prepare the next commit.'
+#. Performing 'branchAdd, Add Branch..., Add a new branch for the current commit.'
+#. Showing dialog 6 (@4202276) '@38B7004D - Add Branch' (owner: @DAB1F89)
+#. Performing ', Add Branch & Checkout'
+#. Showing dialog 7 (@6265A548) '@12051D38 - Add Branch' (owner: @DAB1F89)
+msgctxt "dlgSgStashOnDemandConfirmation.fur:"
+msgid "Add Branch may require a clean working tree to complete successfully. After the Add Branch succeeded, the stashed local changes will be automatically reapplied."
+msgstr ""
+
 msgctxt "dlgSgStashOnDemandConfirmation.fur:"
 msgid "Check Out may require a clean working tree to complete successfully. After the Check Out succeeded, the stashed local changes will be automatically reapplied."
 msgstr ""
@@ -13102,6 +13499,20 @@ msgstr ""
 
 msgctxt "dlgSgStashOnDemandConfirmation.fur:"
 msgid "Squash Commits may require a clean working tree to complete successfully. After the Squash Commits succeeded, the stashed local changes will be automatically reapplied."
+msgstr ""
+
+#. Showing dialog 4 (@70BC9070) '@6AA792 - Commit' (owner: @DAB1F89)
+#. Performing ', Commit'
+#. Performing 'editCommitMessage, Edit Message...'
+#. Showing dialog 5 (@1504B493) '@20A25F66 - Edit Message' (owner: @DAB1F89)
+#. Performing ', Set Message'
+#. Performing 'stage, Stage, Store working tree files in the index to prepare the next commit.'
+#. Performing 'branchAdd, Add Branch..., Add a new branch for the current commit.'
+#. Showing dialog 6 (@4202276) '@38B7004D - Add Branch' (owner: @DAB1F89)
+#. Performing ', Add Branch & Checkout'
+#. Showing dialog 7 (@6265A548) '@12051D38 - Add Branch' (owner: @DAB1F89)
+msgctxt "dlgSgStashOnDemandConfirmation.hdl:"
+msgid "Do you want to save local changes to a stash and retry Add Branch?"
 msgstr ""
 
 msgctxt "dlgSgStashOnDemandConfirmation.hdl:"
@@ -13181,6 +13592,20 @@ msgctxt "dlgSgStashOnDemandDiscardConfirmation.btn:"
 msgid "Discard"
 msgstr ""
 
+#. Performing ', Delete...'
+#. Showing dialog 14 (@39109603) '@4D3990A5 - Delete' (owner: @10B4E7F8)
+#. Performing ', Delete'
+#. Performing ', Delete...'
+#. Showing dialog 15 (@7D8D671B) '@28B68067 - Delete' (owner: @10B4E7F8)
+#. Performing ', Delete'
+#. Performing ', Reset HEAD to 'wip2''
+#. Showing dialog 16 (@406808EB) '@14E93C46 - Reset' (owner: @10B4E7F8)
+#. Performing ', Discard'
+#. Showing dialog 17 (@6FDD3382) '@1FF23BD1 - Reset' (owner: @406808EB)
+msgctxt "dlgSgStashOnDemandDiscardConfirmation.btn:"
+msgid "Discard"
+msgstr ""
+
 #. Performing ', Select'
 #. Performing 'fetch, Pull..., Fetch commits from a remote repository and (optionally) integrate them with possible local commits.'
 #. Showing dialog 16 (@6CJT63) '@YT1ZMP - Pull' (owner: @N6W7NC)
@@ -13191,6 +13616,20 @@ msgstr ""
 #. Showing dialog 18 (@HQNLU4) '@5VMBJ9 - Reset' (owner: @N6W7NC)
 #. Performing ', Discard'
 #. Showing dialog 19 (@YPLIZP) '@OG3ALA - Reset' (owner: @HQNLU4)
+msgctxt "dlgSgStashOnDemandDiscardConfirmation.fur"
+msgid "It might be hard or impossible to restore them!"
+msgstr ""
+
+#. Performing ', Delete...'
+#. Showing dialog 14 (@39109603) '@4D3990A5 - Delete' (owner: @10B4E7F8)
+#. Performing ', Delete'
+#. Performing ', Delete...'
+#. Showing dialog 15 (@7D8D671B) '@28B68067 - Delete' (owner: @10B4E7F8)
+#. Performing ', Delete'
+#. Performing ', Reset HEAD to 'wip2''
+#. Showing dialog 16 (@406808EB) '@14E93C46 - Reset' (owner: @10B4E7F8)
+#. Performing ', Discard'
+#. Showing dialog 17 (@6FDD3382) '@1FF23BD1 - Reset' (owner: @406808EB)
 msgctxt "dlgSgStashOnDemandDiscardConfirmation.fur"
 msgid "It might be hard or impossible to restore them!"
 msgstr ""
@@ -13209,6 +13648,20 @@ msgctxt "dlgSgStashOnDemandDiscardConfirmation.hdl"
 msgid "Do you really want to discard the local changes?"
 msgstr ""
 
+#. Performing ', Delete...'
+#. Showing dialog 14 (@39109603) '@4D3990A5 - Delete' (owner: @10B4E7F8)
+#. Performing ', Delete'
+#. Performing ', Delete...'
+#. Showing dialog 15 (@7D8D671B) '@28B68067 - Delete' (owner: @10B4E7F8)
+#. Performing ', Delete'
+#. Performing ', Reset HEAD to 'wip2''
+#. Showing dialog 16 (@406808EB) '@14E93C46 - Reset' (owner: @10B4E7F8)
+#. Performing ', Discard'
+#. Showing dialog 17 (@6FDD3382) '@1FF23BD1 - Reset' (owner: @406808EB)
+msgctxt "dlgSgStashOnDemandDiscardConfirmation.hdl"
+msgid "Do you really want to discard the local changes?"
+msgstr ""
+
 #. Performing ', Cancel'
 #. Performing ', Select'
 #. Performing 'fetch, Pull..., Fetch commits from a remote repository and (optionally) integrate them with possible local commits.'
@@ -13218,6 +13671,20 @@ msgstr ""
 #. Performing ', Cancel'
 #. Performing ', Reset HEAD to 'feature/forceinclude''
 #. Showing dialog 18 (@HQNLU4) '@5VMBJ9 - Reset' (owner: @N6W7NC)
+#. Performing ', Discard'
+msgctxt "dlgSgStashOnDemandDiscardConfirmation.tle"
+msgid "Reset"
+msgstr ""
+
+#. Performing ', Delete'
+#. Performing ', Delete...'
+#. Showing dialog 14 (@39109603) '@4D3990A5 - Delete' (owner: @10B4E7F8)
+#. Performing ', Delete'
+#. Performing ', Delete...'
+#. Showing dialog 15 (@7D8D671B) '@28B68067 - Delete' (owner: @10B4E7F8)
+#. Performing ', Delete'
+#. Performing ', Reset HEAD to 'wip2''
+#. Showing dialog 16 (@406808EB) '@14E93C46 - Reset' (owner: @10B4E7F8)
 #. Performing ', Discard'
 msgctxt "dlgSgStashOnDemandDiscardConfirmation.tle"
 msgid "Reset"
@@ -13632,6 +14099,21 @@ msgctxt "dlgSgSubmoduleUnregisterConfirm.fur"
 msgid "All relevant files will be adjusted. Afterwards you will only need to perform a commit to finish the operation. To just skip the submodule from the working tree, use Deinit."
 msgstr ""
 
+#. Performing '@smartgit.byU'
+#. Performing ',   エクスプローラで開く'
+#. Performing 'refresh, Refresh, Refresh the log view.'
+#. Performing 'stage, Stage, Store working tree files in the index to prepare the next commit.'
+#. Performing ',   エクスプローラで開く'
+#. Performing '@smartgit.bvG'
+#. Showing dialog 14 (@783F5F71) '@3791AF - File Compare' (owner: @36F7D7B)
+#. Performing ', Cancel'
+#. Performing 'submoduleUnregister, Unregister...'
+#. Showing dialog 15 (@6AFAF27) '@1983A4E4 - Unregister Submodule' (owner: @36F7D7B)
+#| msgid "Do you want to unregister submodule 'submodule/qmh-framework'?"
+msgctxt "dlgSgSubmoduleUnregisterConfirm.hdl"
+msgid "Do you want to unregister submodule '$1'?"
+msgstr ""
+
 msgctxt "dlgSgSubmoduleUnregisterConfirm.tle"
 msgid "Unregister Submodule"
 msgstr ""
@@ -14043,6 +14525,20 @@ msgstr ""
 
 msgctxt "dlgSgToolEdit.err:"
 msgid "Please enter the name for this command."
+msgstr ""
+
+#. opening smartgit.byB@37D6DDDC:SmartGit 24.1.1 (smartgit.byB@D919544)
+#. Performing ',   Windsurf'
+#. Performing ',   PyCharm'
+#. Showing dialog 0 (@72A34537) '@195498AA - Open' (owner: @D919544)
+#. Performing ', OK'
+#. Performing 'preferences, Preferences'
+#. Showing dialog 1 (@61C5FD78) '@25E6C22A - Preferences' (owner: @D919544)
+#. Performing ', Edit...'
+#. Showing dialog 2 (@AB4D2BA) '@278CB145 - Edit' (owner: @61C5FD78)
+#. Performing ', Open file chooser.'
+msgctxt "dlgSgToolEdit.err:"
+msgid "Select the command which should be invoked."
 msgstr ""
 
 msgctxt "dlgSgToolEdit.hdl"
@@ -14605,6 +15101,11 @@ msgctxt "ntmFollowUsOnX:"
 msgid "<link1>Bluesky</link1>: news"
 msgstr ""
 
+#. opening smartgit.byM@7848321E:SmartGit 24.1.5 (smartgit.byM@34D713A2)
+msgctxt "ntmFollowUsOnX:"
+msgid "<link1>Bluesky</link1>: news"
+msgstr ""
+
 #. opening smartgit.byM@1FD37440:SmartGit 24.1.3 (smartgit.byM@3B98B809)
 msgctxt "ntmFollowUsOnX:"
 msgid "<link1>Bluesky</link1>: news, polls, discussions"
@@ -14620,6 +15121,11 @@ msgctxt "ntmFollowUsOnX:"
 msgid "<link1>Mastodon</link1>: news"
 msgstr ""
 
+#. opening smartgit.byM@7848321E:SmartGit 24.1.5 (smartgit.byM@34D713A2)
+msgctxt "ntmFollowUsOnX:"
+msgid "<link1>Mastodon</link1>: news"
+msgstr ""
+
 msgctxt "ntmFollowUsOnX:"
 msgid "<link1>Mastodon</link1>: news, polls, discussions"
 msgstr ""
@@ -14630,8 +15136,18 @@ msgctxt "ntmFollowUsOnX:"
 msgid "<link1>Reddit</link1>: discussions"
 msgstr ""
 
+#. opening smartgit.byM@7848321E:SmartGit 24.1.5 (smartgit.byM@34D713A2)
+msgctxt "ntmFollowUsOnX:"
+msgid "<link1>Reddit</link1>: discussions"
+msgstr ""
+
 #. opening smartgit.bFS@GE8D2T:SmartGit 25.1 RC (smartgit.bFS@SDB9TM)
 #. opening smartgit.bFS@GE8D2T:SmartGit 25.1 RC (smartgit.bFS@SDB9TM)
+msgctxt "ntmFollowUsOnX:"
+msgid "<link1>UserEcho</link1>: feature requests, voting"
+msgstr ""
+
+#. opening smartgit.byM@7848321E:SmartGit 24.1.5 (smartgit.byM@34D713A2)
 msgctxt "ntmFollowUsOnX:"
 msgid "<link1>UserEcho</link1>: feature requests, voting"
 msgstr ""
@@ -14642,6 +15158,11 @@ msgstr ""
 
 #. opening smartgit.bFS@GE8D2T:SmartGit 25.1 RC (smartgit.bFS@SDB9TM)
 #. opening smartgit.bFS@GE8D2T:SmartGit 25.1 RC (smartgit.bFS@SDB9TM)
+msgctxt "ntmFollowUsOnX:"
+msgid "<link1>X</link1>: news"
+msgstr ""
+
+#. opening smartgit.byM@7848321E:SmartGit 24.1.5 (smartgit.byM@34D713A2)
 msgctxt "ntmFollowUsOnX:"
 msgid "<link1>X</link1>: news"
 msgstr ""
@@ -14836,6 +15357,21 @@ msgstr ""
 
 msgctxt "nttUpdateCheckFetchVersionStart:"
 msgid "Started downloading version $1 \\($2\\)."
+msgstr ""
+
+#. Performing 'repositorySearch, Search for Repositories..., Search for existing repositories.'
+#. Showing dialog 26 (@57F076BD) '@44986FAE - Search for Repositories' (owner: @76E3B45B)
+#. Performing 'repositorySearch, Search for Repositories..., Search for existing repositories.'
+#. Showing dialog 27 (@37DDB835) '@42B4CCE1 - Search for Repositories' (owner: @76E3B45B)
+#. Performing ', Cancel'
+#. Showing dialog 28 (@412BB41F) '@7BA5D307 - Exit' (owner: @76E3B45B)
+#. Performing ', Cancel'
+#. Performing 'checkForLatestBuild, Check for Latest Build...'
+#. Showing dialog 29 (@684001E6) '@7752F9FE - Check for Latest Build' (owner: @76E3B45B)
+#. Performing ', Get Latest Build'
+#| msgid "Started downloading version 24.1.3."
+msgctxt "nttUpdateCheckFetchVersionStart:"
+msgid "Started downloading version $1."
 msgstr ""
 
 #. Performing ', Select from GitHub...'
@@ -15477,6 +16013,36 @@ msgctxt "wndAnnotate.tle:"
 msgid "$1 - Blame"
 msgstr ""
 
+#. Performing ', Push To...'
+#. Showing dialog 19 (@4C990679) '@1DC8DDB2 - Push To' (owner: @68183F19)
+#. Performing ', Cancel'
+#. Performing ', Check Out'
+#. Showing dialog 20 (@6B5C0806) '@235A172A - Check Out' (owner: @68183F19)
+#. Performing ', Cancel'
+#. Performing 'checkout, Check Out..., Check out an existing commit.'
+#. Showing dialog 21 (@26C62499) '@57747B24 - Check Out' (owner: @68183F19)
+#. Performing ', Cancel'
+#. Performing 'annotate, Blame, Show a blame (annotated) view of the selected file.'
+#| msgid "sgpo.py - Blame of src/sgpo/sgpo.py@db0d01ee"
+msgctxt "wndAnnotate.tle:"
+msgid "$1 - Blame of $2@$3"
+msgstr ""
+
+#. Performing ', OK'
+#. Performing 'windowCommit, Commit'
+#. Performing 'windowComments, Comments'
+#. Performing '@smartgit.byJ'
+#. Performing 'ignore, Ignore..., Mark unversioned local files/directories to be ignored.'
+#. Showing dialog 29 (@596CBC79) '@1C8A28BF - Ignore' (owner: @DAB1F89)
+#. Performing ', Ignore'
+#. Performing 'stage, Stage, Store working tree files in the index to prepare the next commit.'
+#. Performing 'stage, Stage, Store working tree files in the index to prepare the next commit.'
+#. Performing 'annotate, Blame, Show a blame (annotated) view of the selected file.'
+#| msgid "test_entry_model.py - Blame of tests/models/entry/test_entry_model.py"
+msgctxt "wndAnnotate.tle:"
+msgid "$1 - Blame of $2"
+msgstr ""
+
 msgctxt "wndCompare.lbl:"
 msgid "Force Compare"
 msgstr ""
@@ -16027,6 +16593,20 @@ msgctxt "wndDeepgit.mniDgFollowInsignificantMerges"
 msgid "Follow Insignificant Merges \\(experimental\\)"
 msgstr ""
 
+#. Performing 'goto-next-diff, Next Change, Go to next change.'
+#. Performing 'goto-next-diff, Next Change, Go to next change.'
+#. Performing 'goto-next-diff, Next Change, Go to next change.'
+#. Performing ',   Cursor'
+#. Performing ',   Windsurf'
+#. Performing 'unstage, Unstage, Remove staged changes from index.'
+#. Performing 'copyName, Copy Name'
+#. Performing 'annotate, Blame, Show a blame (annotated) view of the selected file.'
+#. opening smartgit.aQr@6758BCBE:configuration.md - Blame of website/client/src/en/guide/configuration.md@2809a1cd (smartgit.aQr@7B5CB6F6)
+#. Performing 'investigate, Investigate, Investigate history line-wise with DeepGit.'
+msgctxt "wndDeepgit.mniDgFollowInsignificantMerges"
+msgid "Follow Insignificant Merges \\(experimental\\)"
+msgstr ""
+
 msgctxt "wndDeepgit.mniDgFollowRenames"
 msgid "Follow Renames"
 msgstr ""
@@ -16509,8 +17089,37 @@ msgctxt "wndGit.indexEditor.tle:"
 msgid "$1 - Index Editor"
 msgstr ""
 
+#. Performing '@smartgit.byU'
+#. Performing 'fetch, Pull..., Fetch commits from a remote repository and (optionally) integrate them with possible local commits.'
+#. Showing dialog 0 (@23EE92DF) '@1A1F22F2 - Pull' (owner: @1F2F0109)
+#. Performing ', Fetch Only'
+#. Showing dialog 1 (@583B4AF4) '@48DA5106 - Passwords' (owner: @1F2F0109)
+#. Performing ', OK'
+#. Performing ', Refresh information from GitHub.'
+#. Performing ', Fetch'
+#. Showing dialog 2 (@3751BAF6) '@2D2FE68A - Reveal Commit' (owner: @1F2F0109)
+#. Showing dialog 3 (@6AF0407C) '@725490DD - Command Output' (owner: @3751BAF6)
+msgctxt "wndLog.hnt:"
+msgid "No commit matches the filter."
+msgstr ""
+
 msgctxt "wndLog.hnt:"
 msgid "No graph roots selected."
+msgstr ""
+
+#. Performing ', Next >'
+#. Performing ', Finish'
+#. Performing 'repositoryAddGroup, Add Group...'
+#. Showing dialog 19 (@76A90ECB) '@52D202F0 - Add Group' (owner: @DAB1F89)
+#. Performing ', Add'
+#. Performing '@smartgit.byI'
+#. Performing '@smartgit.byI'
+#. Performing 'repositoryAddGroup, Add Group...'
+#. Showing dialog 20 (@DEB0C0E) '@6385B07D - Add Group' (owner: @DAB1F89)
+#. Performing ', Add'
+#| msgid "Add 2 Git repositories to Group 'LLM'"
+msgctxt "wndLog.mni:"
+msgid "Add $1 Git repositories to Group '$2'"
 msgstr ""
 
 #. Showing dialog 2 (@QHXIF5) '@HUBA1L - Edit Message' (owner: @TZQA8D)
@@ -16725,6 +17334,20 @@ msgstr ""
 #. Performing ',   Import mismatch'
 msgctxt "wndLog.tab:"
 msgid "Graph \\(Scanning WT\\u2026\\)"
+msgstr ""
+
+#. Showing dialog 89 (@6E3FFC97) '@2242C7B2 - Jump To' (owner: @5381DEEC)
+#. Performing '@smartgit.btI'
+#. Showing dialog 90 (@F4623FA) '@7C6A7619 - Jump To' (owner: @5381DEEC)
+#. Performing '@smartgit.btI'
+#. Showing dialog 91 (@CC5ABE9) '@15DA98B9 - Jump To' (owner: @5381DEEC)
+#. Performing ', Push'
+#. Showing dialog 92 (@5ADE3ED6) '@84AC353 - Push' (owner: @5381DEEC)
+#. Performing ', Push'
+#. Showing dialog 93 (@3EA1E8B1) '@15A2493D - Push' (owner: @5381DEEC)
+#. Performing ', Force Push'
+msgctxt "wndLog.tbt:"
+msgid "Hidden toolbar items..."
 msgstr ""
 
 msgctxt "wndLog.tbt:"
@@ -17282,8 +17905,9 @@ msgstr ""
 #. Performing ', Rename'
 #. Performing '@smartgit.aCg'
 #. Performing 'checkout, Check Out…, Check out an existing commit.'
+#| msgid "Open in GitHub"
 msgctxt "wndStd.mniStdProviderOpenInBrowser"
-msgid "Open in GitHub"
+msgid "Open in $1"
 msgstr ""
 
 msgctxt "wndStd.mniStdSetModeHistory"
@@ -20444,737 +21068,4 @@ msgstr ""
 
 msgctxt "wnd(Log|Project|Std|).tle:"
 msgid "$1 \\[$2\\] - Log for $3"
-msgstr ""
-
-#. Performing ', Fetch'
-#. Showing dialog 174 (@524DDBEC) '@30ACF0C6 - Reveal Commit' (owner: @5381DEEC)
-#. Performing ', Check Out'
-#. Showing dialog 175 (@6480363A) '@484BBB39 - Check Out' (owner: @5381DEEC)
-#. Performing ', Cancel'
-#. Performing 'checkout, Check Out..., Check out an existing commit.'
-#. Showing dialog 176 (@4B3CBD77) '@1450CD0E - Check Out' (owner: @5381DEEC)
-#. Performing ', Cancel'
-#. Performing 'checkout, Check Out..., Check out an existing commit.'
-#. Showing dialog 177 (@3717AF61) '@21008778 - Check Out' (owner: @5381DEEC)
-msgctxt "dlgSgCheckoutTarget.err:"
-msgid "The name must not end with a slash or dot."
-msgstr ""
-
-#. Performing 'editCommitMessage, Edit Message...'
-#. Showing dialog 8 (@29E94753) '@419E46BB - Edit Message' (owner: @27443560)
-#. Performing ', Set Message'
-#. Showing dialog 9 (@66F73D3D) '@2C427287 - Edit Message' (owner: @27443560)
-#. Performing ', Save Stash'
-#. Performing 'editCommitMessage, Edit Message...'
-#. Showing dialog 10 (@433F4EED) '@405A2C7B - Edit Message' (owner: @27443560)
-#. Performing ', Select from Log...'
-#. Showing dialog 11 (@5A1B205) '@660D3831 - Select Commit Message' (owner: @433F4EED)
-#. Showing dialog 12 (@305F321F) '@790ED2D9 - Refresh' (owner: @5A1B205)
-msgctxt "dlgSgCommitSelectMessageFromLog.hnt:"
-msgid "No graph roots selected."
-msgstr ""
-
-#. Performing 'stage, Stage, Store working tree files in the index to prepare the next commit.'
-#. Showing dialog 8 (@28BC9749) '@54A5496F - Command Output' (owner: @22D322F5)
-#. Performing ', Close'
-#. Performing ',   Cursor'
-#. Performing 'stage, Stage, Store working tree files in the index to prepare the next commit.'
-#. Performing 'stage, Stage, Store working tree files in the index to prepare the next commit.'
-#. Performing 'stage, Stage, Store working tree files in the index to prepare the next commit.'
-#. Performing '@smartgit.bvv'
-#. Performing 'ignore, Ignore..., Mark unversioned local files/directories to be ignored.'
-#. Showing dialog 9 (@2BED5828) '@52A2E2FB - Ignore' (owner: @22D322F5)
-msgctxt "dlgSgIgnoreFile.err\"Enter a pattern for the file\\(s\\) to be ignored. Use \\* to match multiple or ? for a single arbitrary character.\""
-msgid "Enter a pattern for the file\\(s\\) to be ignored. Use \\* to match multiple or ? for a single arbitrary character."
-msgstr ""
-
-#. Performing ',   Cursor'
-#. Performing '@smartgit.bvu'
-#. Showing dialog 176 (@5A3A755D) '@28D0A906 - Command Failed' (owner: @29CCCF98)
-#. Performing ', OK'
-#. Performing ',   開く'
-#. Performing ',   エクスプローラで選択'
-#. Performing 'repositoryAdd, Add or Create..., Add or create a new repository.'
-#. Showing dialog 177 (@33F4535E) '@28158466 - Add or Create Repository' (owner: @29CCCF98)
-#. Performing ', OK'
-#. Showing dialog 178 (@65E69C75) '@3273180E - Add or Create Repository' (owner: @33F4535E)
-msgctxt "dlgSgOpenRepositoryOuterOrInner.btn:"
-msgid "Inner Repository"
-msgstr ""
-
-#. Performing ',   Cursor'
-#. Performing '@smartgit.bvu'
-#. Showing dialog 176 (@5A3A755D) '@28D0A906 - Command Failed' (owner: @29CCCF98)
-#. Performing ', OK'
-#. Performing ',   開く'
-#. Performing ',   エクスプローラで選択'
-#. Performing 'repositoryAdd, Add or Create..., Add or create a new repository.'
-#. Showing dialog 177 (@33F4535E) '@28158466 - Add or Create Repository' (owner: @29CCCF98)
-#. Performing ', OK'
-#. Showing dialog 178 (@65E69C75) '@3273180E - Add or Create Repository' (owner: @33F4535E)
-msgctxt "dlgSgOpenRepositoryOuterOrInner.btn:"
-msgid "Outer Repository"
-msgstr ""
-
-#. Performing ',   Cursor'
-#. Performing '@smartgit.bvu'
-#. Showing dialog 176 (@5A3A755D) '@28D0A906 - Command Failed' (owner: @29CCCF98)
-#. Performing ', OK'
-#. Performing ',   開く'
-#. Performing ',   エクスプローラで選択'
-#. Performing 'repositoryAdd, Add or Create..., Add or create a new repository.'
-#. Showing dialog 177 (@33F4535E) '@28158466 - Add or Create Repository' (owner: @29CCCF98)
-#. Performing ', OK'
-#. Showing dialog 178 (@65E69C75) '@3273180E - Add or Create Repository' (owner: @33F4535E)
-msgctxt "dlgSgOpenRepositoryOuterOrInner.fur"
-msgid "At the specified path nested repositories were found.\\nInner repository: D:\\\\GitRepository\\\\js-reverse-engineering\\\\js-deps-analyzer\\nOuter repository: D:\\\\GitRepository\\\\js-reverse-engineering"
-msgstr ""
-
-#. Performing ',   Cursor'
-#. Performing '@smartgit.bvu'
-#. Showing dialog 176 (@5A3A755D) '@28D0A906 - Command Failed' (owner: @29CCCF98)
-#. Performing ', OK'
-#. Performing ',   開く'
-#. Performing ',   エクスプローラで選択'
-#. Performing 'repositoryAdd, Add or Create..., Add or create a new repository.'
-#. Showing dialog 177 (@33F4535E) '@28158466 - Add or Create Repository' (owner: @29CCCF98)
-#. Performing ', OK'
-#. Showing dialog 178 (@65E69C75) '@3273180E - Add or Create Repository' (owner: @33F4535E)
-msgctxt "dlgSgOpenRepositoryOuterOrInner.hdl"
-msgid "Do you want to open the outer or inner repository?"
-msgstr ""
-
-#. Performing ', Initialize'
-#. Performing ',   Cursor'
-#. Performing '@smartgit.bvu'
-#. Showing dialog 176 (@5A3A755D) '@28D0A906 - Command Failed' (owner: @29CCCF98)
-#. Performing ', OK'
-#. Performing ',   開く'
-#. Performing ',   エクスプローラで選択'
-#. Performing 'repositoryAdd, Add or Create..., Add or create a new repository.'
-#. Showing dialog 177 (@33F4535E) '@28158466 - Add or Create Repository' (owner: @29CCCF98)
-#. Performing ', OK'
-msgctxt "dlgSgOpenRepositoryOuterOrInner.tle"
-msgid "Add or Create Repository"
-msgstr ""
-
-#. Showing dialog 30 (@17C95612) '@1CA2D595 - Command Output' (owner: @DAB1F89)
-#. Performing ',   Cursor'
-#. Performing ',   Windsurf'
-#. Performing 'repositoryAdd, Add or Create..., Add or create a new repository.'
-#. Showing dialog 31 (@721FBAE2) '@130F8E03 - Add or Create Repository' (owner: @DAB1F89)
-#. Performing ', OK'
-#. Performing 'branchAdd, Add Branch..., Add a new branch for the current commit.'
-#. Showing dialog 32 (@4B2BE6F8) '@1BD6831D - Add Branch' (owner: @DAB1F89)
-#. Performing ', Add Branch & Checkout'
-#. Showing dialog 33 (@1B18F38F) '@3E40BEA1 - Command Failed' (owner: @DAB1F89)
-msgctxt "dlgSgOutput.lbl:"
-msgid "Command Add Branch failed!"
-msgstr ""
-
-#. Showing dialog 5 (@783DC0E7) '@361F26B4 - Discard' (owner: @1CD43562)
-#. Performing ', Discard'
-#. Showing dialog 6 (@CFACF0) '@4C8ABEC7 - Discard' (owner: @783DC0E7)
-#. Performing ', Discard'
-#. Showing dialog 7 (@7507D96C) '@7210F559 - Process Not Responding' (owner: @1CD43562)
-#. Performing ', Wait'
-#. Performing 'lfsInstall, Install...'
-#. Showing dialog 8 (@70AA58E1) '@25EA068E - LFS Install' (owner: @1CD43562)
-#. Performing ', Install'
-#. Showing dialog 9 (@4A5B38E6) '@58583A2D - Command Failed' (owner: @1CD43562)
-msgctxt "dlgSgOutput.lbl:"
-msgid "Command LFS Install failed!"
-msgstr ""
-
-#. Performing ', Pull'
-#. Performing '@smartgit.bEI'
-#. Performing '@smartgit.bEI'
-#. Performing 'fetch, Pull..., Fetch commits from a remote repository and (optionally) integrate them with possible local commits.'
-#. Showing dialog 22 (@264888E7) '@46343F97 - Pull' (owner: @10B4E7F8)
-#. Performing ', Pull'
-#. Performing 'rebaseHeadTo, Rebase..., Apply commits from your current branch to the selected commit.'
-#. Showing dialog 23 (@7E64A758) '@5AD583A9 - Rebase HEAD to Selected Commit' (owner: @10B4E7F8)
-#. Performing ', Rebase HEAD to'
-#. Showing dialog 24 (@6C396A5A) '@10EB9604 - Command Failed' (owner: @10B4E7F8)
-msgctxt "dlgSgOutput.lbl\"Command Rebase HEAD \\(feature/forceinclude\\) to fa50210c failed!\""
-msgid "Command Rebase HEAD \\(feature/forceinclude\\) to fa50210c failed!"
-msgstr ""
-
-#. Performing ', OK'
-#. Performing 'remoteFetchAll, Fetch All, Fetch commits from all remote repositories.'
-#. Performing 'unstage, Unstage, Remove staged changes from index.'
-#. Performing 'discard, Discard..., Discard local changes.'
-#. Showing dialog 1 (@11295CB1) '@350342E0 - Discard' (owner: @1CD43562)
-#. Performing ', Discard'
-#. Showing dialog 2 (@14239223) '@2336CD91 - Discard' (owner: @11295CB1)
-#. Performing ', Discard'
-#. Showing dialog 3 (@49BB808F) '@C5A2D5 - Process Not Responding' (owner: @1CD43562)
-#. Showing dialog 4 (@D0A2C82) '@12608986 - Command Failed' (owner: @1CD43562)
-msgctxt "dlgSgOutput.lbl:"
-msgid "The command output below contains more details on the problem."
-msgstr ""
-
-#. Performing '@smartgit.byI'
-#. Performing 'repositoryClone, Clone..., Clone a new repository.'
-#. Showing dialog 31 (@1881289B) '@E71BD92 - Clone' (owner: @60DF7989)
-#. Performing ', Next >'
-#. Performing ', Next >'
-#. Performing ', Finish'
-#. Performing 'repositoryClone, Clone..., Clone a new repository.'
-#. Showing dialog 32 (@5B933786) '@48158B86 - Clone' (owner: @60DF7989)
-#. Performing ', Next >'
-#. Showing dialog 33 (@4FA62AED) '@4E370F52 - Clone' (owner: @5B933786)
-msgctxt "dlgSgPingRepositoryFailed.fur"
-msgid "repository 'https://smartgit.userecho.com/communities/1/topics/395-clone-first-clone-just-the-head-and-then-fetch-the-other-commits-in-background/' not found."
-msgstr ""
-
-#. Performing ', Translation > try-slint'
-#. Performing ', Translation > Llama-4-Scout-17B-16E-Instruct-quantized.w4a16'
-#. Performing '@smartgit.byQ'
-#. Performing ',   Git-bashで開く'
-#. Performing 'discard, Discard..., Discard local changes.'
-#. Showing dialog 5 (@783DC0E7) '@361F26B4 - Discard' (owner: @1CD43562)
-#. Performing ', Discard'
-#. Showing dialog 6 (@CFACF0) '@4C8ABEC7 - Discard' (owner: @783DC0E7)
-#. Performing ', Discard'
-#. Showing dialog 7 (@7507D96C) '@7210F559 - Process Not Responding' (owner: @1CD43562)
-msgctxt "dlgSgProcessKiller.lbl:"
-msgid "SmartGit is waiting for the following process to finish."
-msgstr ""
-
-#. opening smartgit.byM@7848321E:SmartGit 24.1.5 (smartgit.byM@34D713A2)
-#. Performing 'repositoryClone, Clone..., Clone a new repository.'
-#. Showing dialog 0 (@15914BB5) '@226E07E7 - Clone' (owner: @34D713A2)
-#. Performing ', Next >'
-#. Showing dialog 1 (@4EF8090B) '@7BDA01DA - Passwords' (owner: @15914BB5)
-#. Performing ', OK'
-#. Performing ', Next >'
-#. Performing ', Finish'
-#. Showing dialog 2 (@2382B2F) '@71734463 - Select GitHub account' (owner: @34D713A2)
-msgctxt "dlgSgProviderCredentialsAutoGeneratorSelector.btn:"
-msgid "Confirm"
-msgstr ""
-
-#. Showing dialog 10 (@3A3BC0DA) '@2D2F09A4 - Pull' (owner: @36F7D7B)
-#. Performing ', Pull'
-#. Performing '@smartgit.byU'
-#. Performing 'repositoryRename, Rename...'
-#. Showing dialog 11 (@49153009) '@745CF754 - Rename' (owner: @36F7D7B)
-#. Performing ', Cancel'
-#. Performing 'remoteAdd, Add...'
-#. Showing dialog 12 (@306C9B2C) '@30B1C5D5 - Add Remote Repository' (owner: @36F7D7B)
-#. Performing ', Add'
-#. Showing dialog 13 (@6796A873) '@3ACC3EE - Select GitHub account' (owner: null)
-msgctxt "dlgSgProviderCredentialsAutoGeneratorSelector.cmb:"
-msgid "github.com"
-msgstr ""
-
-#. Showing dialog 10 (@3A3BC0DA) '@2D2F09A4 - Pull' (owner: @36F7D7B)
-#. Performing ', Pull'
-#. Performing '@smartgit.byU'
-#. Performing 'repositoryRename, Rename...'
-#. Showing dialog 11 (@49153009) '@745CF754 - Rename' (owner: @36F7D7B)
-#. Performing ', Cancel'
-#. Performing 'remoteAdd, Add...'
-#. Showing dialog 12 (@306C9B2C) '@30B1C5D5 - Add Remote Repository' (owner: @36F7D7B)
-#. Performing ', Add'
-#. Showing dialog 13 (@6796A873) '@3ACC3EE - Select GitHub account' (owner: null)
-msgctxt "dlgSgProviderCredentialsAutoGeneratorSelector.cmb\"github\\(yubeshi-AI\\)\""
-msgid "github\\(yubeshi-AI\\)"
-msgstr ""
-
-#. opening smartgit.byM@7848321E:SmartGit 24.1.5 (smartgit.byM@34D713A2)
-#. Performing 'repositoryClone, Clone..., Clone a new repository.'
-#. Showing dialog 0 (@15914BB5) '@226E07E7 - Clone' (owner: @34D713A2)
-#. Performing ', Next >'
-#. Showing dialog 1 (@4EF8090B) '@7BDA01DA - Passwords' (owner: @15914BB5)
-#. Performing ', OK'
-#. Performing ', Next >'
-#. Performing ', Finish'
-#. Showing dialog 2 (@2382B2F) '@71734463 - Select GitHub account' (owner: @34D713A2)
-msgctxt "dlgSgProviderCredentialsAutoGeneratorSelector.edt:"
-msgid "Provider"
-msgstr ""
-
-#. opening smartgit.byM@7848321E:SmartGit 24.1.5 (smartgit.byM@34D713A2)
-#. Performing 'repositoryClone, Clone..., Clone a new repository.'
-#. Showing dialog 0 (@15914BB5) '@226E07E7 - Clone' (owner: @34D713A2)
-#. Performing ', Next >'
-#. Showing dialog 1 (@4EF8090B) '@7BDA01DA - Passwords' (owner: @15914BB5)
-#. Performing ', OK'
-#. Performing ', Next >'
-#. Performing ', Finish'
-#. Showing dialog 2 (@2382B2F) '@71734463 - Select GitHub account' (owner: @34D713A2)
-msgctxt "dlgSgProviderCredentialsAutoGeneratorSelector.hdl"
-msgid "Select which GitHub account to use"
-msgstr ""
-
-#. opening smartgit.byM@7848321E:SmartGit 24.1.5 (smartgit.byM@34D713A2)
-#. Performing 'repositoryClone, Clone..., Clone a new repository.'
-#. Showing dialog 0 (@15914BB5) '@226E07E7 - Clone' (owner: @34D713A2)
-#. Performing ', Next >'
-#. Showing dialog 1 (@4EF8090B) '@7BDA01DA - Passwords' (owner: @15914BB5)
-#. Performing ', OK'
-#. Performing ', Next >'
-#. Performing ', Finish'
-#. Showing dialog 2 (@2382B2F) '@71734463 - Select GitHub account' (owner: @34D713A2)
-msgctxt "dlgSgProviderCredentialsAutoGeneratorSelector.inf"
-msgid "Select which account you want to use for connecting to 'https://github.com/ktyubeshi/fast-bunkai.git'."
-msgstr ""
-
-#. opening smartgit.byM@7848321E:SmartGit 24.1.5 (smartgit.byM@34D713A2)
-#. Performing 'repositoryClone, Clone..., Clone a new repository.'
-#. Showing dialog 0 (@15914BB5) '@226E07E7 - Clone' (owner: @34D713A2)
-#. Performing ', Next >'
-#. Showing dialog 1 (@4EF8090B) '@7BDA01DA - Passwords' (owner: @15914BB5)
-#. Performing ', OK'
-#. Performing ', Next >'
-#. Performing ', Finish'
-msgctxt "dlgSgProviderCredentialsAutoGeneratorSelector.tle"
-msgid "Select GitHub account"
-msgstr ""
-
-#. Performing ', Push'
-#. Showing dialog 91 (@2FD44168) '@6E7E9CAB - Command Failed' (owner: @5A36A405)
-#. Performing ', Close'
-#. Performing 'push, Push, Push local commits to the remote origin repository.'
-#. Showing dialog 92 (@6A820ABF) '@6BA8590D - Push' (owner: @5A36A405)
-#. Performing ', Push'
-#. Showing dialog 93 (@4FFB96E3) '@2E84A7F0 - Command Failed' (owner: @5A36A405)
-#. Performing ', Close'
-#. Performing 'push, Push, Push local commits to the remote origin repository.'
-#. Showing dialog 94 (@569575EC) '@EEF8BED - Push' (owner: @5A36A405)
-msgctxt "dlgSgPushConfirmSingleTag.fur"
-msgid "1 tag will be pushed to 'origin'."
-msgstr ""
-
-#. Performing ', Push'
-#. Showing dialog 91 (@2FD44168) '@6E7E9CAB - Command Failed' (owner: @5A36A405)
-#. Performing ', Close'
-#. Performing 'push, Push, Push local commits to the remote origin repository.'
-#. Showing dialog 92 (@6A820ABF) '@6BA8590D - Push' (owner: @5A36A405)
-#. Performing ', Push'
-#. Showing dialog 93 (@4FFB96E3) '@2E84A7F0 - Command Failed' (owner: @5A36A405)
-#. Performing ', Close'
-#. Performing 'push, Push, Push local commits to the remote origin repository.'
-#. Showing dialog 94 (@569575EC) '@EEF8BED - Push' (owner: @5A36A405)
-msgctxt "dlgSgPushConfirmSingleTag.hdl"
-msgid "Do you want to push tag 'Release/0.0.14'?"
-msgstr ""
-
-#. Performing 'goto-next-diff, Next Change, Go to next change.'
-#. Performing 'goto-next-diff, Next Change, Go to next change.'
-#. Performing 'goto-next-diff, Next Change, Go to next change.'
-#. Performing 'goto-next-diff, Next Change, Go to next change.'
-#. Performing 'goto-next-diff, Next Change, Go to next change.'
-#. Performing 'goto-next-diff, Next Change, Go to next change.'
-#. Performing 'goto-next-diff, Next Change, Go to next change.'
-#. Performing 'goto-next-diff, Next Change, Go to next change.'
-#. Performing 'rename, Move or Rename...'
-#. Showing dialog 14 (@50BF51BB) '@1E4C8045 - Move or Rename' (owner: @771A7D53)
-msgctxt "dlgSgRenameFile.err:"
-msgid "No valid path specified."
-msgstr ""
-
-#. Showing dialog 4 (@70BC9070) '@6AA792 - Commit' (owner: @DAB1F89)
-#. Performing ', Commit'
-#. Performing 'editCommitMessage, Edit Message...'
-#. Showing dialog 5 (@1504B493) '@20A25F66 - Edit Message' (owner: @DAB1F89)
-#. Performing ', Set Message'
-#. Performing 'stage, Stage, Store working tree files in the index to prepare the next commit.'
-#. Performing 'branchAdd, Add Branch..., Add a new branch for the current commit.'
-#. Showing dialog 6 (@4202276) '@38B7004D - Add Branch' (owner: @DAB1F89)
-#. Performing ', Add Branch & Checkout'
-#. Showing dialog 7 (@6265A548) '@12051D38 - Add Branch' (owner: @DAB1F89)
-msgctxt "dlgSgStashOnDemandConfirmation.fur:"
-msgid "Add Branch may require a clean working tree to complete successfully. After the Add Branch succeeded, the stashed local changes will be automatically reapplied."
-msgstr ""
-
-#. Showing dialog 4 (@70BC9070) '@6AA792 - Commit' (owner: @DAB1F89)
-#. Performing ', Commit'
-#. Performing 'editCommitMessage, Edit Message...'
-#. Showing dialog 5 (@1504B493) '@20A25F66 - Edit Message' (owner: @DAB1F89)
-#. Performing ', Set Message'
-#. Performing 'stage, Stage, Store working tree files in the index to prepare the next commit.'
-#. Performing 'branchAdd, Add Branch..., Add a new branch for the current commit.'
-#. Showing dialog 6 (@4202276) '@38B7004D - Add Branch' (owner: @DAB1F89)
-#. Performing ', Add Branch & Checkout'
-#. Showing dialog 7 (@6265A548) '@12051D38 - Add Branch' (owner: @DAB1F89)
-msgctxt "dlgSgStashOnDemandConfirmation.hdl:"
-msgid "Do you want to save local changes to a stash and retry Add Branch?"
-msgstr ""
-
-#. Performing ', Delete...'
-#. Showing dialog 14 (@39109603) '@4D3990A5 - Delete' (owner: @10B4E7F8)
-#. Performing ', Delete'
-#. Performing ', Delete...'
-#. Showing dialog 15 (@7D8D671B) '@28B68067 - Delete' (owner: @10B4E7F8)
-#. Performing ', Delete'
-#. Performing ', Reset HEAD to 'wip2''
-#. Showing dialog 16 (@406808EB) '@14E93C46 - Reset' (owner: @10B4E7F8)
-#. Performing ', Discard'
-#. Showing dialog 17 (@6FDD3382) '@1FF23BD1 - Reset' (owner: @406808EB)
-msgctxt "dlgSgStashOnDemandDiscardConfirmation.btn:"
-msgid "Discard"
-msgstr ""
-
-#. Performing ', Delete...'
-#. Showing dialog 14 (@39109603) '@4D3990A5 - Delete' (owner: @10B4E7F8)
-#. Performing ', Delete'
-#. Performing ', Delete...'
-#. Showing dialog 15 (@7D8D671B) '@28B68067 - Delete' (owner: @10B4E7F8)
-#. Performing ', Delete'
-#. Performing ', Reset HEAD to 'wip2''
-#. Showing dialog 16 (@406808EB) '@14E93C46 - Reset' (owner: @10B4E7F8)
-#. Performing ', Discard'
-#. Showing dialog 17 (@6FDD3382) '@1FF23BD1 - Reset' (owner: @406808EB)
-msgctxt "dlgSgStashOnDemandDiscardConfirmation.fur"
-msgid "It might be hard or impossible to restore them!"
-msgstr ""
-
-#. Performing ', Delete...'
-#. Showing dialog 14 (@39109603) '@4D3990A5 - Delete' (owner: @10B4E7F8)
-#. Performing ', Delete'
-#. Performing ', Delete...'
-#. Showing dialog 15 (@7D8D671B) '@28B68067 - Delete' (owner: @10B4E7F8)
-#. Performing ', Delete'
-#. Performing ', Reset HEAD to 'wip2''
-#. Showing dialog 16 (@406808EB) '@14E93C46 - Reset' (owner: @10B4E7F8)
-#. Performing ', Discard'
-#. Showing dialog 17 (@6FDD3382) '@1FF23BD1 - Reset' (owner: @406808EB)
-msgctxt "dlgSgStashOnDemandDiscardConfirmation.hdl"
-msgid "Do you really want to discard the local changes?"
-msgstr ""
-
-#. Performing ', Delete'
-#. Performing ', Delete...'
-#. Showing dialog 14 (@39109603) '@4D3990A5 - Delete' (owner: @10B4E7F8)
-#. Performing ', Delete'
-#. Performing ', Delete...'
-#. Showing dialog 15 (@7D8D671B) '@28B68067 - Delete' (owner: @10B4E7F8)
-#. Performing ', Delete'
-#. Performing ', Reset HEAD to 'wip2''
-#. Showing dialog 16 (@406808EB) '@14E93C46 - Reset' (owner: @10B4E7F8)
-#. Performing ', Discard'
-msgctxt "dlgSgStashOnDemandDiscardConfirmation.tle"
-msgid "Reset"
-msgstr ""
-
-#. Performing '@smartgit.byU'
-#. Performing ',   エクスプローラで開く'
-#. Performing 'refresh, Refresh, Refresh the log view.'
-#. Performing 'stage, Stage, Store working tree files in the index to prepare the next commit.'
-#. Performing ',   エクスプローラで開く'
-#. Performing '@smartgit.bvG'
-#. Showing dialog 14 (@783F5F71) '@3791AF - File Compare' (owner: @36F7D7B)
-#. Performing ', Cancel'
-#. Performing 'submoduleUnregister, Unregister...'
-#. Showing dialog 15 (@6AFAF27) '@1983A4E4 - Unregister Submodule' (owner: @36F7D7B)
-msgctxt "dlgSgSubmoduleUnregisterConfirm.hdl"
-msgid "Do you want to unregister submodule 'submodule/qmh-framework'?"
-msgstr ""
-
-#. opening smartgit.byB@37D6DDDC:SmartGit 24.1.1 (smartgit.byB@D919544)
-#. Performing ',   Windsurf'
-#. Performing ',   PyCharm'
-#. Showing dialog 0 (@72A34537) '@195498AA - Open' (owner: @D919544)
-#. Performing ', OK'
-#. Performing 'preferences, Preferences'
-#. Showing dialog 1 (@61C5FD78) '@25E6C22A - Preferences' (owner: @D919544)
-#. Performing ', Edit...'
-#. Showing dialog 2 (@AB4D2BA) '@278CB145 - Edit' (owner: @61C5FD78)
-#. Performing ', Open file chooser.'
-msgctxt "dlgSgToolEdit.err:"
-msgid "Select the command which should be invoked."
-msgstr ""
-
-#. opening smartgit.byM@7848321E:SmartGit 24.1.5 (smartgit.byM@34D713A2)
-msgctxt "ntmFollowUsOnX:"
-msgid "<link1>Bluesky</link1>: news"
-msgstr ""
-
-#. opening smartgit.byM@7848321E:SmartGit 24.1.5 (smartgit.byM@34D713A2)
-msgctxt "ntmFollowUsOnX:"
-msgid "<link1>Mastodon</link1>: news"
-msgstr ""
-
-#. opening smartgit.byM@7848321E:SmartGit 24.1.5 (smartgit.byM@34D713A2)
-msgctxt "ntmFollowUsOnX:"
-msgid "<link1>Reddit</link1>: discussions"
-msgstr ""
-
-#. opening smartgit.byM@7848321E:SmartGit 24.1.5 (smartgit.byM@34D713A2)
-msgctxt "ntmFollowUsOnX:"
-msgid "<link1>UserEcho</link1>: feature requests, voting"
-msgstr ""
-
-#. opening smartgit.byM@7848321E:SmartGit 24.1.5 (smartgit.byM@34D713A2)
-msgctxt "ntmFollowUsOnX:"
-msgid "<link1>X</link1>: news"
-msgstr ""
-
-#. Performing '@smartgit.byI'
-#. Performing ',   Cursor'
-#. Performing '@smartgit.byI'
-#. Performing ',   エクスプローラで選択'
-#. Performing 'preferences, Preferences'
-#. Showing dialog 53 (@3C8356CD) '@4B22CADC - Preferences' (owner: @75B7A38B)
-#. Performing ', Cancel'
-#. Performing 'checkForLatestBuild, Check for Latest Build...'
-#. Showing dialog 54 (@4225001D) '@1FDCD359 - Check for Latest Build' (owner: @75B7A38B)
-#. Performing ', Get Latest Build'
-msgctxt "nttUpdateCheckFetchVersionStart:"
-msgid "Started downloading version 24.1.1."
-msgstr ""
-
-#. Performing 'repositorySearch, Search for Repositories..., Search for existing repositories.'
-#. Showing dialog 26 (@57F076BD) '@44986FAE - Search for Repositories' (owner: @76E3B45B)
-#. Performing 'repositorySearch, Search for Repositories..., Search for existing repositories.'
-#. Showing dialog 27 (@37DDB835) '@42B4CCE1 - Search for Repositories' (owner: @76E3B45B)
-#. Performing ', Cancel'
-#. Showing dialog 28 (@412BB41F) '@7BA5D307 - Exit' (owner: @76E3B45B)
-#. Performing ', Cancel'
-#. Performing 'checkForLatestBuild, Check for Latest Build...'
-#. Showing dialog 29 (@684001E6) '@7752F9FE - Check for Latest Build' (owner: @76E3B45B)
-#. Performing ', Get Latest Build'
-msgctxt "nttUpdateCheckFetchVersionStart:"
-msgid "Started downloading version 24.1.3."
-msgstr ""
-
-#. Performing 'goto-next-diff, Next Change, Go to next change.'
-#. Performing 'goto-next-diff, Next Change, Go to next change.'
-#. Performing 'goto-next-diff, Next Change, Go to next change.'
-#. Performing 'goto-next-diff, Next Change, Go to next change.'
-#. Performing 'goto-next-diff, Next Change, Go to next change.'
-#. Performing ',   Cursor'
-#. Performing ',   Windsurf'
-#. Performing 'unstage, Unstage, Remove staged changes from index.'
-#. Performing 'copyName, Copy Name'
-#. Performing 'annotate, Blame, Show a blame (annotated) view of the selected file.'
-msgctxt "wndAnnotate.tle:"
-msgid "configuration.md - Blame of website/client/src/en/guide/configuration.md@2809a1cd"
-msgstr ""
-
-#. Performing ',   VSCode'
-#. Showing dialog 3 (@5DD23809) '@65015A49 - VSCode' (owner: @34D713A2)
-#. Performing ', Proceed'
-#. Performing 'discard, Discard..., Discard local changes.'
-#. Showing dialog 4 (@2D117280) '@3ADECA1F - Discard' (owner: @34D713A2)
-#. Performing ', Discard'
-#. Performing ',   VSCode'
-#. Showing dialog 5 (@155318B5) '@1ADD90E0 - VSCode' (owner: @34D713A2)
-#. Performing ', Proceed'
-#. Performing 'annotate, Blame, Show a blame (annotated) view of the selected file.'
-msgctxt "wndAnnotate.tle:"
-msgid "emoji_data.rs - Blame of crates/fast-bunkai-rs/src/emoji_data.rs"
-msgstr ""
-
-#. Performing ',   Cursor'
-#. Performing '@smartgit.byI'
-#. Performing '@smartgit.byI'
-#. Performing ',   Cursor'
-#. Performing '@smartgit.byI'
-#. Performing ', Files from Subdirectories, If selected, files from subdirectories are shown.'
-#. Performing ', Files from Subdirectories, If selected, files from subdirectories are shown.'
-#. Performing 'viewUnchanged, Show Unchanged Files, If selected, unchanged files will be shown.'
-#. Performing ',   エクスプローラで開く'
-#. Performing 'annotate, Blame, Show a blame (annotated) view of the selected file.'
-msgctxt "wndAnnotate.tle:"
-msgid "settings.json - Blame of .vscode/settings.json"
-msgstr ""
-
-#. Performing ', Push To...'
-#. Showing dialog 19 (@4C990679) '@1DC8DDB2 - Push To' (owner: @68183F19)
-#. Performing ', Cancel'
-#. Performing ', Check Out'
-#. Showing dialog 20 (@6B5C0806) '@235A172A - Check Out' (owner: @68183F19)
-#. Performing ', Cancel'
-#. Performing 'checkout, Check Out..., Check out an existing commit.'
-#. Showing dialog 21 (@26C62499) '@57747B24 - Check Out' (owner: @68183F19)
-#. Performing ', Cancel'
-#. Performing 'annotate, Blame, Show a blame (annotated) view of the selected file.'
-msgctxt "wndAnnotate.tle:"
-msgid "sgpo.py - Blame of src/sgpo/sgpo.py@db0d01ee"
-msgstr ""
-
-#. Performing ', OK'
-#. Performing 'windowCommit, Commit'
-#. Performing 'windowComments, Comments'
-#. Performing '@smartgit.byJ'
-#. Performing 'ignore, Ignore..., Mark unversioned local files/directories to be ignored.'
-#. Showing dialog 29 (@596CBC79) '@1C8A28BF - Ignore' (owner: @DAB1F89)
-#. Performing ', Ignore'
-#. Performing 'stage, Stage, Store working tree files in the index to prepare the next commit.'
-#. Performing 'stage, Stage, Store working tree files in the index to prepare the next commit.'
-#. Performing 'annotate, Blame, Show a blame (annotated) view of the selected file.'
-msgctxt "wndAnnotate.tle:"
-msgid "test_entry_model.py - Blame of tests/models/entry/test_entry_model.py"
-msgstr ""
-
-#. Performing '@smartgit.byI'
-#. Performing ',   Cursor'
-#. Performing ',   Cursor'
-#. Performing 'investigate, Investigate, Investigate history line-wise with DeepGit.'
-#. opening smartgit.aWb@3B510EF3:Investigate (smartgit.aWb@2FC3A0F1)
-#. Performing 'investigate, Investigate, Investigate history line-wise with DeepGit.'
-#. opening smartgit.aWb@64CB643B:Investigate (smartgit.aWb@2B91E343)
-#. Performing 'investigate, Investigate, Investigate history line-wise with DeepGit.'
-#. opening smartgit.aWb@13464CC:Investigate (smartgit.aWb@2199CD07)
-#. Performing 'dgPerspectiveBlameSimple, Blame Perspective, Find where the line originates from in simple cases when there are no alternative Origins.'
-msgctxt "wndDeepgit.lbl\"Preview of package.json@377cd6be \\(Investigate will take you there\\)\""
-msgid "Preview of package.json@377cd6be \\(Investigate will take you there\\)"
-msgstr ""
-
-#. Performing '@smartgit.byI'
-#. Performing ',   Cursor'
-#. Performing ',   Cursor'
-#. Performing 'investigate, Investigate, Investigate history line-wise with DeepGit.'
-#. opening smartgit.aWb@3B510EF3:Investigate (smartgit.aWb@2FC3A0F1)
-#. Performing 'investigate, Investigate, Investigate history line-wise with DeepGit.'
-#. opening smartgit.aWb@64CB643B:Investigate (smartgit.aWb@2B91E343)
-#. Performing 'investigate, Investigate, Investigate history line-wise with DeepGit.'
-#. opening smartgit.aWb@13464CC:Investigate (smartgit.aWb@2199CD07)
-#. Performing 'dgPerspectiveBlameSimple, Blame Perspective, Find where the line originates from in simple cases when there are no alternative Origins.'
-msgctxt "wndDeepgit.lbl\"Preview of package.json@e6478022 \\(Investigate will take you there\\)\""
-msgid "Preview of package.json@e6478022 \\(Investigate will take you there\\)"
-msgstr ""
-
-#. Performing '@smartgit.byI'
-#. Performing ',   Cursor'
-#. Performing ',   Cursor'
-#. Performing 'investigate, Investigate, Investigate history line-wise with DeepGit.'
-#. opening smartgit.aWb@3B510EF3:Investigate (smartgit.aWb@2FC3A0F1)
-#. Performing 'investigate, Investigate, Investigate history line-wise with DeepGit.'
-#. opening smartgit.aWb@64CB643B:Investigate (smartgit.aWb@2B91E343)
-#. Performing 'investigate, Investigate, Investigate history line-wise with DeepGit.'
-#. opening smartgit.aWb@13464CC:Investigate (smartgit.aWb@2199CD07)
-#. Performing 'dgPerspectiveBlameSimple, Blame Perspective, Find where the line originates from in simple cases when there are no alternative Origins.'
-msgctxt "wndDeepgit.lbl\"Preview of package.json@e6478022 \\(\\u3055\\u3089\\u306b\\u6df1\\u304f will take you there\\)\""
-msgid "Preview of package.json@e6478022 \\(\\u3055\\u3089\\u306b\\u6df1\\u304f will take you there\\)"
-msgstr ""
-
-#. Performing '@smartgit.byI'
-#. Performing ',   Cursor'
-#. Performing ',   Cursor'
-#. Performing 'investigate, Investigate, Investigate history line-wise with DeepGit.'
-#. opening smartgit.aWb@3B510EF3:Investigate (smartgit.aWb@2FC3A0F1)
-#. Performing 'investigate, Investigate, Investigate history line-wise with DeepGit.'
-#. opening smartgit.aWb@64CB643B:Investigate (smartgit.aWb@2B91E343)
-#. Performing 'investigate, Investigate, Investigate history line-wise with DeepGit.'
-#. opening smartgit.aWb@13464CC:Investigate (smartgit.aWb@2199CD07)
-#. Performing 'dgPerspectiveBlameSimple, Blame Perspective, Find where the line originates from in simple cases when there are no alternative Origins.'
-msgctxt "wndDeepgit.lbl\"Preview of package.json@e71a4634 \\(\\u3055\\u3089\\u306b\\u6df1\\u304f will take you there\\)\""
-msgid "Preview of package.json@e71a4634 \\(\\u3055\\u3089\\u306b\\u6df1\\u304f will take you there\\)"
-msgstr ""
-
-#. Performing '@smartgit.byI'
-#. Performing ',   Cursor'
-#. Performing ',   Cursor'
-#. Performing 'investigate, Investigate, Investigate history line-wise with DeepGit.'
-#. opening smartgit.aWb@3B510EF3:Investigate (smartgit.aWb@2FC3A0F1)
-#. Performing 'investigate, Investigate, Investigate history line-wise with DeepGit.'
-#. opening smartgit.aWb@64CB643B:Investigate (smartgit.aWb@2B91E343)
-#. Performing 'investigate, Investigate, Investigate history line-wise with DeepGit.'
-#. opening smartgit.aWb@13464CC:Investigate (smartgit.aWb@2199CD07)
-#. Performing 'dgPerspectiveBlameSimple, Blame Perspective, Find where the line originates from in simple cases when there are no alternative Origins.'
-msgctxt "wndDeepgit.lbl\"Preview of package.json@f686a8e5 \\(Investigate will take you there\\)\""
-msgid "Preview of package.json@f686a8e5 \\(Investigate will take you there\\)"
-msgstr ""
-
-#. Performing '@smartgit.byI'
-#. Performing ',   Cursor'
-#. Performing ',   Cursor'
-#. Performing 'investigate, Investigate, Investigate history line-wise with DeepGit.'
-#. opening smartgit.aWb@3B510EF3:Investigate (smartgit.aWb@2FC3A0F1)
-#. Performing 'investigate, Investigate, Investigate history line-wise with DeepGit.'
-#. opening smartgit.aWb@64CB643B:Investigate (smartgit.aWb@2B91E343)
-#. Performing 'investigate, Investigate, Investigate history line-wise with DeepGit.'
-#. opening smartgit.aWb@13464CC:Investigate (smartgit.aWb@2199CD07)
-#. Performing 'dgPerspectiveBlameSimple, Blame Perspective, Find where the line originates from in simple cases when there are no alternative Origins.'
-msgctxt "wndDeepgit.lbl\"Preview of package.json@f686a8e5 \\(\\u3055\\u3089\\u306b\\u6df1\\u304f will take you there\\)\""
-msgid "Preview of package.json@f686a8e5 \\(\\u3055\\u3089\\u306b\\u6df1\\u304f will take you there\\)"
-msgstr ""
-
-#. Showing dialog 29 (@596CBC79) '@1C8A28BF - Ignore' (owner: @DAB1F89)
-#. Performing ', Ignore'
-#. Performing 'stage, Stage, Store working tree files in the index to prepare the next commit.'
-#. Performing 'stage, Stage, Store working tree files in the index to prepare the next commit.'
-#. Performing 'annotate, Blame, Show a blame (annotated) view of the selected file.'
-#. opening smartgit.aQr@71027959:test_entry_model.py - Blame of tests/models/entry/test_entry_model.py (smartgit.aQr@218D627E)
-#. Performing 'commit-preceding-line, Go to Preceding Commit'
-#. Performing 'investigate, Investigate, Investigate history line-wise with DeepGit.'
-#. opening smartgit.aWb@174C0ACE:Investigate (smartgit.aWb@11C2F104)
-#. Performing ', Go Deeper'
-msgctxt "wndDeepgit.lbl\"Preview of test_entry_model.py@594c929a \\(\\u3055\\u3089\\u306b\\u6df1\\u304f will take you there\\)\""
-msgid "Preview of test_entry_model.py@594c929a \\(\\u3055\\u3089\\u306b\\u6df1\\u304f will take you there\\)"
-msgstr ""
-
-#. Showing dialog 29 (@596CBC79) '@1C8A28BF - Ignore' (owner: @DAB1F89)
-#. Performing ', Ignore'
-#. Performing 'stage, Stage, Store working tree files in the index to prepare the next commit.'
-#. Performing 'stage, Stage, Store working tree files in the index to prepare the next commit.'
-#. Performing 'annotate, Blame, Show a blame (annotated) view of the selected file.'
-#. opening smartgit.aQr@71027959:test_entry_model.py - Blame of tests/models/entry/test_entry_model.py (smartgit.aQr@218D627E)
-#. Performing 'commit-preceding-line, Go to Preceding Commit'
-#. Performing 'investigate, Investigate, Investigate history line-wise with DeepGit.'
-#. opening smartgit.aWb@174C0ACE:Investigate (smartgit.aWb@11C2F104)
-#. Performing ', Go Deeper'
-msgctxt "wndDeepgit.lbl\"Preview of test_entry_model.py@ff9b35e0 \\(\\u3055\\u3089\\u306b\\u6df1\\u304f will take you there\\)\""
-msgid "Preview of test_entry_model.py@ff9b35e0 \\(\\u3055\\u3089\\u306b\\u6df1\\u304f will take you there\\)"
-msgstr ""
-
-#. Performing 'goto-next-diff, Next Change, Go to next change.'
-#. Performing 'goto-next-diff, Next Change, Go to next change.'
-#. Performing 'goto-next-diff, Next Change, Go to next change.'
-#. Performing ',   Cursor'
-#. Performing ',   Windsurf'
-#. Performing 'unstage, Unstage, Remove staged changes from index.'
-#. Performing 'copyName, Copy Name'
-#. Performing 'annotate, Blame, Show a blame (annotated) view of the selected file.'
-#. opening smartgit.aQr@6758BCBE:configuration.md - Blame of website/client/src/en/guide/configuration.md@2809a1cd (smartgit.aQr@7B5CB6F6)
-#. Performing 'investigate, Investigate, Investigate history line-wise with DeepGit.'
-msgctxt "wndDeepgit.mniDgFollowInsignificantMerges"
-msgid "Follow Insignificant Merges \\(experimental\\)"
-msgstr ""
-
-#. Performing '@smartgit.byU'
-#. Performing 'fetch, Pull..., Fetch commits from a remote repository and (optionally) integrate them with possible local commits.'
-#. Showing dialog 0 (@23EE92DF) '@1A1F22F2 - Pull' (owner: @1F2F0109)
-#. Performing ', Fetch Only'
-#. Showing dialog 1 (@583B4AF4) '@48DA5106 - Passwords' (owner: @1F2F0109)
-#. Performing ', OK'
-#. Performing ', Refresh information from GitHub.'
-#. Performing ', Fetch'
-#. Showing dialog 2 (@3751BAF6) '@2D2FE68A - Reveal Commit' (owner: @1F2F0109)
-#. Showing dialog 3 (@6AF0407C) '@725490DD - Command Output' (owner: @3751BAF6)
-msgctxt "wndLog.hnt:"
-msgid "No commit matches the filter."
-msgstr ""
-
-#. Performing ', Next >'
-#. Performing ', Finish'
-#. Performing 'repositoryAddGroup, Add Group...'
-#. Showing dialog 19 (@76A90ECB) '@52D202F0 - Add Group' (owner: @DAB1F89)
-#. Performing ', Add'
-#. Performing '@smartgit.byI'
-#. Performing '@smartgit.byI'
-#. Performing 'repositoryAddGroup, Add Group...'
-#. Showing dialog 20 (@DEB0C0E) '@6385B07D - Add Group' (owner: @DAB1F89)
-#. Performing ', Add'
-msgctxt "wndLog.mni:"
-msgid "Add 2 Git repositories to Group 'LLM'"
-msgstr ""
-
-#. Showing dialog 89 (@6E3FFC97) '@2242C7B2 - Jump To' (owner: @5381DEEC)
-#. Performing '@smartgit.btI'
-#. Showing dialog 90 (@F4623FA) '@7C6A7619 - Jump To' (owner: @5381DEEC)
-#. Performing '@smartgit.btI'
-#. Showing dialog 91 (@CC5ABE9) '@15DA98B9 - Jump To' (owner: @5381DEEC)
-#. Performing ', Push'
-#. Showing dialog 92 (@5ADE3ED6) '@84AC353 - Push' (owner: @5381DEEC)
-#. Performing ', Push'
-#. Showing dialog 93 (@3EA1E8B1) '@15A2493D - Push' (owner: @5381DEEC)
-#. Performing ', Force Push'
-msgctxt "wndLog.tbt:"
-msgid "Hidden toolbar items..."
 msgstr ""
