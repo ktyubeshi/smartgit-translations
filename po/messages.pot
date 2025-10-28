@@ -338,7 +338,9 @@ msgstr ""
 #. Performing ', Delete Files'
 #. Performing '@smartgit.bvG'
 #. Showing dialog 23 (@6DBCB435) '@78A3023F - Reveal Commit' (owner: @4BC39640)
-msgctxt "dlgProgress.lbl\"Please wait \\u2026\""
+#| msgctxt "dlgProgress.lbl\"Please wait \\u2026\""
+#| msgid "Please wait \\u2026"
+msgctxt "dlgProgress.lbl:"
 msgid "Please wait \\u2026"
 msgstr ""
 
@@ -1160,7 +1162,7 @@ msgstr ""
 
 # TODO: Review
 # We need to verify whether the placeholder replacement is appropriate.
-# 
+#
 # msgctxt "dlgScEvaluationReminderContinue.fur"
 # msgid "To use SmartGit, you will have to register a license file.\\n\\nIn a commercial environment you need to \\[https://www.syntevo.com/smartgit/purchase?evaluationReminderNotification purchase a license\\].\\n\\nFor \\[https://www.syntevo.com/register-non-commercial/?evaluationReminderNotification certain uses\\] we grant free licenses."
 #. Showing dialog 0 (@526B2F3E) '@32E652B6 - Passwords' (owner: null)
@@ -1216,8 +1218,10 @@ msgstr ""
 #. opening smartgit.azY@29AA4BC9:null (smartgit.azY@20C3B34B)
 #. Showing dialog 3 (@4E7EBA9F) '@2DF71BE0 - Evaluation' (owner: @20C3B34B)
 #, fuzzy
-msgctxt "dlgScEvaluationReminderExpiredGrace.btn\"Continue \\(45\\)\""
-msgid "Continue \\(45\\)"
+#| msgctxt "dlgScEvaluationReminderExpiredGrace.btn\"Continue \\(45\\)\""
+#| msgid "Continue \\(45\\)"
+msgctxt "dlgScEvaluationReminderExpiredGrace.btn:"
+msgid "Continue \\($1\\)"
 msgstr ""
 
 #. opening smartgit.byM@467AF68C:SmartGit 24.1.3 Evaluation until Jun 27 (smartgit.byM@1A256D80)
@@ -1232,15 +1236,6 @@ msgstr ""
 #, fuzzy
 msgctxt "dlgScEvaluationReminderExpiredGrace.btn:"
 msgid "Register"
-msgstr ""
-
-#. opening smartgit.byM@4ECD8AB1:SmartGit 24.1.3 Evaluation until Jun 27 (smartgit.byM@3F96F020)
-#. Showing dialog 0 (@B1D19FF) '@7EC13984 - Evaluation' (owner: @3F96F020)
-#. Showing dialog 1 (@27438750) '@4756E5CC - Passwords' (owner: @B1D19FF)
-#. Performing ', OK'
-#, fuzzy
-msgctxt "dlgScEvaluationReminderExpiredGrace.btn\\\"&Continue \\($1\\)\""
-msgid "&Continue \\($1\\)"
 msgstr ""
 
 #. opening smartgit.byM@467AF68C:SmartGit 24.1.3 Evaluation until Jun 27 (smartgit.byM@1A256D80)
@@ -1907,6 +1902,104 @@ msgctxt "dlgScRegisterRequestRejected.tle"
 msgid "SmartGit License"
 msgstr ""
 
+#. Showing dialog 11 (@J6R3NK) '@BQNR1J - AI Setup' (owner: @RP5AL8)
+#. Performing ', OK'
+#. Performing ', Continue'
+#. Showing dialog 12 (@EBTIHN) '@M2T42A - AI Setup' (owner: @RP5AL8)
+#. Performing ', OK'
+#. Performing ', Continue'
+#. Showing dialog 13 (@TSGRLX) '@JZ691K - API Key' (owner: @RP5AL8)
+#. Performing ', Cancel'
+#. Performing ', Continue'
+#. Showing dialog 14 (@8K6AVX) '@A53OQ4 - API Key' (owner: @RP5AL8)
+msgctxt "dlgScSecretToken.btn:"
+msgid "Connect"
+msgstr ""
+
+#. Showing dialog 11 (@J6R3NK) '@BQNR1J - AI Setup' (owner: @RP5AL8)
+#. Performing ', OK'
+#. Performing ', Continue'
+#. Showing dialog 12 (@EBTIHN) '@M2T42A - AI Setup' (owner: @RP5AL8)
+#. Performing ', OK'
+#. Performing ', Continue'
+#. Showing dialog 13 (@TSGRLX) '@JZ691K - API Key' (owner: @RP5AL8)
+#. Performing ', Cancel'
+#. Performing ', Continue'
+#. Showing dialog 14 (@8K6AVX) '@A53OQ4 - API Key' (owner: @RP5AL8)
+msgctxt "dlgScSecretToken.edt:"
+msgid "API Key"
+msgstr ""
+
+#. Showing dialog 11 (@J6R3NK) '@BQNR1J - AI Setup' (owner: @RP5AL8)
+#. Performing ', OK'
+#. Performing ', Continue'
+#. Showing dialog 12 (@EBTIHN) '@M2T42A - AI Setup' (owner: @RP5AL8)
+#. Performing ', OK'
+#. Performing ', Continue'
+#. Showing dialog 13 (@TSGRLX) '@JZ691K - API Key' (owner: @RP5AL8)
+#. Performing ', Cancel'
+#. Performing ', Continue'
+#. Showing dialog 14 (@8K6AVX) '@A53OQ4 - API Key' (owner: @RP5AL8)
+msgctxt "dlgScSecretToken.hdl"
+msgid "Provide API key for 'custom'"
+msgstr ""
+
+#. Showing dialog 11 (@J6R3NK) '@BQNR1J - AI Setup' (owner: @RP5AL8)
+#. Performing ', OK'
+#. Performing ', Continue'
+#. Showing dialog 12 (@EBTIHN) '@M2T42A - AI Setup' (owner: @RP5AL8)
+#. Performing ', OK'
+#. Performing ', Continue'
+#. Showing dialog 13 (@TSGRLX) '@JZ691K - API Key' (owner: @RP5AL8)
+#. Performing ', Cancel'
+#. Performing ', Continue'
+#. Showing dialog 14 (@8K6AVX) '@A53OQ4 - API Key' (owner: @RP5AL8)
+msgctxt "dlgScSecretToken.inf"
+msgid "An API key is required to access the AI at 'http://127.0.0.1:1234/'. It will be stored in SmartGit's password store."
+msgstr ""
+
+#. Performing 'viewIgnored, Show Ignored Files, If selected, ignored files will be shown.'
+#. Performing 'editFile, Edit File'
+#. opening smartgit.cig@QJEAQ7:messages.pot - [~/Git-projects/smartgit-translations-25.1-wip/po] - Editor (smartgit.cig@FPDQUS)
+#. Performing 'file-save, Save, Save file modifications.'
+#. Performing ', Reconfigure…'
+#. Showing dialog 0 (@RP5AL8) '@F4KN9C - AI Setup' (owner: @SDB9TM)
+#. Performing ', Continue'
+#. Showing dialog 1 (@X0F2TC) '@2NJMNF - Passwords' (owner: @RP5AL8)
+#. Performing ', OK'
+#. Showing dialog 2 (@18MYBL) '@GSZDFX - API Key' (owner: @RP5AL8)
+msgctxt "dlgScSecretToken.lbl:"
+msgid "The API key can be created in your \\[https://console.anthropic.com/settings/keys Anthropic account\\]."
+msgstr ""
+
+#. Showing dialog 2 (@18MYBL) '@GSZDFX - API Key' (owner: @RP5AL8)
+#. Performing ', Cancel'
+#. Performing ', Continue'
+#. Showing dialog 3 (@SZR8D7) '@8D2ADQ - AI Setup' (owner: @RP5AL8)
+#. Performing ', OK'
+#. Performing ', Continue'
+#. Showing dialog 4 (@PGYK7V) '@SPJ48N - AI Setup' (owner: @RP5AL8)
+#. Performing ', OK'
+#. Performing ', Continue'
+#. Showing dialog 5 (@MSODIB) '@U0KJNV - API Key' (owner: @RP5AL8)
+msgctxt "dlgScSecretToken.lbl:"
+msgid "The API key can be created in your \\[https://console.mistral.ai/api-keys Mistral account\\]."
+msgstr ""
+
+#. Showing dialog 11 (@J6R3NK) '@BQNR1J - AI Setup' (owner: @RP5AL8)
+#. Performing ', OK'
+#. Performing ', Continue'
+#. Showing dialog 12 (@EBTIHN) '@M2T42A - AI Setup' (owner: @RP5AL8)
+#. Performing ', OK'
+#. Performing ', Continue'
+#. Showing dialog 13 (@TSGRLX) '@JZ691K - API Key' (owner: @RP5AL8)
+#. Performing ', Cancel'
+#. Performing ', Continue'
+#. Showing dialog 14 (@8K6AVX) '@A53OQ4 - API Key' (owner: @RP5AL8)
+msgctxt "dlgScSecretToken.lbl:"
+msgid "The API key can be created in your \\[https://platform.openai.com/settings/organization/api-keys OpenAI account\\]."
+msgstr ""
+
 msgctxt "dlgScSetupLicense.btn:"
 msgid "Configure Proxy"
 msgstr ""
@@ -2387,9 +2480,9 @@ msgstr ""
 #. Performing 'branchAbort, Abort'
 #. Showing dialog 280 (@23880B4E) '@1C322DB7 - Abort' (owner: @6EA37416)
 #, fuzzy
-#| msgid "Your working tree is in 'rebasing' state. You may abort rebasing; if you just want to skip the current patch, use Branch \\| Rebase \\| Rebase instead.\\n\\nAborting will clean any local modification \\(by invoking 'git rebase --abort'\\)!"
+#| msgid "Your working tree is in 'rebasing' state. You may abort rebasing; if you just want to skip the current patch, use \\u30d6\\u30e9\\u30f3\\u30c1 \\| \\u30ea\\u30d9\\u30fc\\u30b9 \\| \\u30ea\\u30d9\\u30fc\\u30b9 instead.\\n\\nAborting will clean any local modification \\(by invoking 'git rebase --abort'\\)!"
 msgctxt "dlgSgAbortRebasingConfirm.fur"
-msgid "Your working tree is in 'rebasing' state. You may abort rebasing; if you just want to skip the current patch, use \\u30d6\\u30e9\\u30f3\\u30c1 \\| \\u30ea\\u30d9\\u30fc\\u30b9 \\| \\u30ea\\u30d9\\u30fc\\u30b9 instead.\\n\\nAborting will clean any local modification \\(by invoking 'git rebase --abort'\\)!"
+msgid "Your working tree is in 'rebasing' state. You may abort rebasing; if you just want to skip the current patch, use $1 instead.\\n\\nAborting will clean any local modification \\(by invoking 'git rebase --abort'\\)!"
 msgstr ""
 
 msgctxt "dlgSgAbortRebasingConfirm.hdl"
@@ -2581,6 +2674,62 @@ msgctxt "dlgSgAiAnnotatorDropAllNotes.tle"
 msgid "Drop AI Notes"
 msgstr ""
 
+#. Performing ', Copy'
+#. Performing 'stage, Stage, Store working tree files in the index to prepare the next commit.'
+#. Performing ',   po_formatter'
+#. Performing 'viewUnchanged, Show Unchanged Files, If selected, unchanged files will be shown.'
+#. Performing ',   po_formatter'
+#. Performing 'discard, Discard…, Discard local changes.'
+#. Showing dialog 24 (@16W504) '@MIAXQO - Discard' (owner: @COGMZJ)
+#. Performing ', Discard'
+#. Performing 'ai.commitMessageCompose, AI Commit Message Compose'
+#. Showing dialog 25 (@BQ203M) '@4Q9SOO - AI Upload Consent' (owner: @COGMZJ)
+msgctxt "dlgSgAiApiKeyRepoLlmConsent.btn:"
+msgid "Allow"
+msgstr ""
+
+#. Performing ', Copy'
+#. Performing 'stage, Stage, Store working tree files in the index to prepare the next commit.'
+#. Performing ',   po_formatter'
+#. Performing 'viewUnchanged, Show Unchanged Files, If selected, unchanged files will be shown.'
+#. Performing ',   po_formatter'
+#. Performing 'discard, Discard…, Discard local changes.'
+#. Showing dialog 24 (@16W504) '@MIAXQO - Discard' (owner: @COGMZJ)
+#. Performing ', Discard'
+#. Performing 'ai.commitMessageCompose, AI Commit Message Compose'
+#. Showing dialog 25 (@BQ203M) '@4Q9SOO - AI Upload Consent' (owner: @COGMZJ)
+msgctxt "dlgSgAiApiKeyRepoLlmConsent.btn:"
+msgid "Deny"
+msgstr ""
+
+#. Performing ', Copy'
+#. Performing 'stage, Stage, Store working tree files in the index to prepare the next commit.'
+#. Performing ',   po_formatter'
+#. Performing 'viewUnchanged, Show Unchanged Files, If selected, unchanged files will be shown.'
+#. Performing ',   po_formatter'
+#. Performing 'discard, Discard…, Discard local changes.'
+#. Showing dialog 24 (@16W504) '@MIAXQO - Discard' (owner: @COGMZJ)
+#. Performing ', Discard'
+#. Performing 'ai.commitMessageCompose, AI Commit Message Compose'
+#. Showing dialog 25 (@BQ203M) '@4Q9SOO - AI Upload Consent' (owner: @COGMZJ)
+msgctxt "dlgSgAiApiKeyRepoLlmConsent.fur"
+msgid "This is the first time that SmartGit will access the AI service for this repository:\\n\\n/Users/tomohiro/Git-projects/smartgit-translations-25.1-wip\\n\\nPlease confirm whether uploads to OpenAI are allowed. If allowed, SmartGit may upload repository data required by the AI feature you invoke \\(for example: diffs, commit messages, and related metadata\\).\\n\\nThis is a one-time safety check, and your choice will apply to all future requests for this repository with this AI service."
+msgstr ""
+
+#. Performing ', Copy'
+#. Performing 'stage, Stage, Store working tree files in the index to prepare the next commit.'
+#. Performing ',   po_formatter'
+#. Performing 'viewUnchanged, Show Unchanged Files, If selected, unchanged files will be shown.'
+#. Performing ',   po_formatter'
+#. Performing 'discard, Discard…, Discard local changes.'
+#. Showing dialog 24 (@16W504) '@MIAXQO - Discard' (owner: @COGMZJ)
+#. Performing ', Discard'
+#. Performing 'ai.commitMessageCompose, AI Commit Message Compose'
+#. Showing dialog 25 (@BQ203M) '@4Q9SOO - AI Upload Consent' (owner: @COGMZJ)
+msgctxt "dlgSgAiApiKeyRepoLlmConsent.hdl"
+msgid "Do you allow SmartGit to upload repository data to OpenAI?"
+msgstr ""
+
 #. Performing '@smartgit.bEZ'
 #. Performing 'repositoryEditConfig, Repository'
 #. opening smartgit.cgZ@NCS8DH:config - [C:\XXXXXX\smartgit-translations\.git] - Editor (smartgit.cgZ@NH4V0N)
@@ -2703,7 +2852,7 @@ msgstr ""
 #. Performing '@smartgit.bEZ'
 #. Performing 'ai.commitMessageCompose, AI Commit Message Compose, smartgit.jy: Cancelled'
 #. Showing dialog 7 (@4HDEX9) '@FI4UHA - AI Integration' (owner: @SC6OIC)
-msgctxt "dlgSgAiIntegrationSetup.rbt\"Configure manually \\(view documentation\\)\""
+msgctxt "dlgSgAiIntegrationSetup.rbt:"
 msgid "Configure manually \\(view documentation\\)"
 msgstr ""
 
@@ -2818,6 +2967,512 @@ msgstr ""
 #. Performing ', OK'
 msgctxt "dlgSgAiIntegrationSetupGitHubSingle.tle"
 msgid "Confirm GitHub AI Usage"
+msgstr ""
+
+#. Performing ', Go Back'
+#. Performing ', Continue'
+#. Performing ', Continue'
+#. Performing ', Continue'
+#. Performing ', Finish'
+#. Showing dialog 15 (@XJ01LJ) '@QS5EU5 - AI Setup' (owner: @RP5AL8)
+#. Performing ', OK'
+#. Performing 'ai.commitMessageCompose, AI Commit Message Compose'
+#. Performing ', Reconfigure…'
+#. Showing dialog 16 (@T5DFY8) '@1MU0JU - AI Setup' (owner: @SDB9TM)
+msgctxt "dlgSgAiSetup.btn:"
+msgid "Continue"
+msgstr ""
+
+#. Performing ', Go Back'
+#. Performing ', Continue'
+#. Performing ', Continue'
+#. Performing ', Continue'
+#. Performing ', Finish'
+#. Showing dialog 15 (@XJ01LJ) '@QS5EU5 - AI Setup' (owner: @RP5AL8)
+#. Performing ', OK'
+#. Performing 'ai.commitMessageCompose, AI Commit Message Compose'
+#. Performing ', Reconfigure…'
+#. Showing dialog 16 (@T5DFY8) '@1MU0JU - AI Setup' (owner: @SDB9TM)
+msgctxt "dlgSgAiSetup.btn:"
+msgid "Go Back"
+msgstr ""
+
+#. Performing ', Go Back'
+#. Performing ', Continue'
+#. Performing ', Continue'
+#. Performing ', Continue'
+#. Performing ', Finish'
+#. Showing dialog 15 (@XJ01LJ) '@QS5EU5 - AI Setup' (owner: @RP5AL8)
+#. Performing ', OK'
+#. Performing 'ai.commitMessageCompose, AI Commit Message Compose'
+#. Performing ', Reconfigure…'
+#. Showing dialog 16 (@T5DFY8) '@1MU0JU - AI Setup' (owner: @SDB9TM)
+msgctxt "dlgSgAiSetup.chk:"
+msgid "Enable automatic stash messages"
+msgstr ""
+
+#. Performing ', Go Back'
+#. Performing ', Continue'
+#. Performing ', Continue'
+#. Performing ', Continue'
+#. Performing ', Finish'
+#. Showing dialog 15 (@XJ01LJ) '@QS5EU5 - AI Setup' (owner: @RP5AL8)
+#. Performing ', OK'
+#. Performing 'ai.commitMessageCompose, AI Commit Message Compose'
+#. Performing ', Reconfigure…'
+#. Showing dialog 16 (@T5DFY8) '@1MU0JU - AI Setup' (owner: @SDB9TM)
+msgctxt "dlgSgAiSetup.chk:"
+msgid "Enable commit explanation"
+msgstr ""
+
+#. Performing ', Go Back'
+#. Performing ', Continue'
+#. Performing ', Continue'
+#. Performing ', Continue'
+#. Performing ', Finish'
+#. Showing dialog 15 (@XJ01LJ) '@QS5EU5 - AI Setup' (owner: @RP5AL8)
+#. Performing ', OK'
+#. Performing 'ai.commitMessageCompose, AI Commit Message Compose'
+#. Performing ', Reconfigure…'
+#. Showing dialog 16 (@T5DFY8) '@1MU0JU - AI Setup' (owner: @SDB9TM)
+msgctxt "dlgSgAiSetup.chk:"
+msgid "Enable commit rewording"
+msgstr ""
+
+#. Performing ', Go Back'
+#. Performing ', Continue'
+#. Performing ', Continue'
+#. Performing ', Continue'
+#. Performing ', Finish'
+#. Showing dialog 15 (@XJ01LJ) '@QS5EU5 - AI Setup' (owner: @RP5AL8)
+#. Performing ', OK'
+#. Performing 'ai.commitMessageCompose, AI Commit Message Compose'
+#. Performing ', Reconfigure…'
+#. Showing dialog 16 (@T5DFY8) '@1MU0JU - AI Setup' (owner: @SDB9TM)
+msgctxt "dlgSgAiSetup.chk:"
+msgid "Only for current repository"
+msgstr ""
+
+#. Performing ', Go Back'
+#. Performing ', Continue'
+#. Performing ', Continue'
+#. Performing ', Continue'
+#. Performing ', Finish'
+#. Showing dialog 15 (@XJ01LJ) '@QS5EU5 - AI Setup' (owner: @RP5AL8)
+#. Performing ', OK'
+#. Performing 'ai.commitMessageCompose, AI Commit Message Compose'
+#. Performing ', Reconfigure…'
+#. Showing dialog 16 (@T5DFY8) '@1MU0JU - AI Setup' (owner: @SDB9TM)
+msgctxt "dlgSgAiSetup.edt:"
+msgid "API URL"
+msgstr ""
+
+#. Performing ', Go Back'
+#. Performing ', Continue'
+#. Performing ', Continue'
+#. Performing ', Continue'
+#. Performing ', Finish'
+#. Showing dialog 15 (@XJ01LJ) '@QS5EU5 - AI Setup' (owner: @RP5AL8)
+#. Performing ', OK'
+#. Performing 'ai.commitMessageCompose, AI Commit Message Compose'
+#. Performing ', Reconfigure…'
+#. Showing dialog 16 (@T5DFY8) '@1MU0JU - AI Setup' (owner: @SDB9TM)
+msgctxt "dlgSgAiSetup.edt:"
+msgid "Model"
+msgstr ""
+
+#. Performing ', Go Back'
+#. Performing ', Continue'
+#. Performing ', Continue'
+#. Performing ', Continue'
+#. Performing ', Finish'
+#. Showing dialog 15 (@XJ01LJ) '@QS5EU5 - AI Setup' (owner: @RP5AL8)
+#. Performing ', OK'
+#. Performing 'ai.commitMessageCompose, AI Commit Message Compose'
+#. Performing ', Reconfigure…'
+#. Showing dialog 16 (@T5DFY8) '@1MU0JU - AI Setup' (owner: @SDB9TM)
+msgctxt "dlgSgAiSetup.edt:"
+msgid "URL Query"
+msgstr ""
+
+#. Performing ', Go Back'
+#. Performing ', Continue'
+#. Performing ', Continue'
+#. Performing ', Continue'
+#. Performing ', Finish'
+#. Showing dialog 15 (@XJ01LJ) '@QS5EU5 - AI Setup' (owner: @RP5AL8)
+#. Performing ', OK'
+#. Performing 'ai.commitMessageCompose, AI Commit Message Compose'
+#. Performing ', Reconfigure…'
+#. Showing dialog 16 (@T5DFY8) '@1MU0JU - AI Setup' (owner: @SDB9TM)
+msgctxt "dlgSgAiSetup.hdl:"
+msgid "Commit Rewording"
+msgstr ""
+
+#. Performing ', Go Back'
+#. Performing ', Continue'
+#. Performing ', Continue'
+#. Performing ', Continue'
+#. Performing ', Finish'
+#. Showing dialog 15 (@XJ01LJ) '@QS5EU5 - AI Setup' (owner: @RP5AL8)
+#. Performing ', OK'
+#. Performing 'ai.commitMessageCompose, AI Commit Message Compose'
+#. Performing ', Reconfigure…'
+#. Showing dialog 16 (@T5DFY8) '@1MU0JU - AI Setup' (owner: @SDB9TM)
+msgctxt "dlgSgAiSetup.hdl:"
+msgid "Explain Commits"
+msgstr ""
+
+#. Showing dialog 11 (@J6R3NK) '@BQNR1J - AI Setup' (owner: @RP5AL8)
+#. Performing ', OK'
+#. Performing ', Continue'
+#. Showing dialog 12 (@EBTIHN) '@M2T42A - AI Setup' (owner: @RP5AL8)
+#. Performing ', OK'
+#. Performing ', Continue'
+#. Showing dialog 13 (@TSGRLX) '@JZ691K - API Key' (owner: @RP5AL8)
+#. Performing ', Cancel'
+#. Performing ', Continue'
+#. Showing dialog 14 (@8K6AVX) '@A53OQ4 - API Key' (owner: @RP5AL8)
+msgctxt "dlgSgAiSetup.hdl:"
+msgid "Please wait"
+msgstr ""
+
+#. Performing ', Go Back'
+#. Performing ', Continue'
+#. Performing ', Continue'
+#. Performing ', Continue'
+#. Performing ', Finish'
+#. Showing dialog 15 (@XJ01LJ) '@QS5EU5 - AI Setup' (owner: @RP5AL8)
+#. Performing ', OK'
+#. Performing 'ai.commitMessageCompose, AI Commit Message Compose'
+#. Performing ', Reconfigure…'
+#. Showing dialog 16 (@T5DFY8) '@1MU0JU - AI Setup' (owner: @SDB9TM)
+msgctxt "dlgSgAiSetup.hdl:"
+msgid "Stash Messages"
+msgstr ""
+
+#. Performing ', Go Back'
+#. Performing ', Continue'
+#. Performing ', Continue'
+#. Performing ', Continue'
+#. Performing ', Finish'
+#. Showing dialog 15 (@XJ01LJ) '@QS5EU5 - AI Setup' (owner: @RP5AL8)
+#. Performing ', OK'
+#. Performing 'ai.commitMessageCompose, AI Commit Message Compose'
+#. Performing ', Reconfigure…'
+#. Showing dialog 16 (@T5DFY8) '@1MU0JU - AI Setup' (owner: @SDB9TM)
+msgctxt "dlgSgAiSetup.hdl:"
+msgid "Welcome"
+msgstr ""
+
+#. Performing ', Cancel'
+#. Performing ', Continue'
+#. Showing dialog 14 (@8K6AVX) '@A53OQ4 - API Key' (owner: @RP5AL8)
+#. Performing ', Connect'
+#. Performing ', Go Back'
+#. Performing ', Continue'
+#. Performing ', Go Back'
+#. Performing ', Continue'
+#. Performing ', Continue'
+#. Performing ', Continue'
+msgctxt "dlgSgAiSetup.inf:"
+msgid "SmartGit can automatically generate stash messages."
+msgstr ""
+
+#. Performing ', Cancel'
+#. Performing ', Continue'
+#. Showing dialog 14 (@8K6AVX) '@A53OQ4 - API Key' (owner: @RP5AL8)
+#. Performing ', Connect'
+#. Performing ', Go Back'
+#. Performing ', Continue'
+#. Performing ', Go Back'
+#. Performing ', Continue'
+#. Performing ', Continue'
+#. Performing ', Continue'
+msgctxt "dlgSgAiSetup.inf:"
+msgid "SmartGit can explain individual commits or commit ranges in the background. Results are stored in Git notes."
+msgstr ""
+
+#. Showing dialog 13 (@TSGRLX) '@JZ691K - API Key' (owner: @RP5AL8)
+#. Performing ', Cancel'
+#. Performing ', Continue'
+#. Showing dialog 14 (@8K6AVX) '@A53OQ4 - API Key' (owner: @RP5AL8)
+#. Performing ', Connect'
+#. Performing ', Go Back'
+#. Performing ', Continue'
+#. Performing ', Go Back'
+#. Performing ', Continue'
+#. Performing ', Continue'
+msgctxt "dlgSgAiSetup.inf:"
+msgid "SmartGit can reword commit messages in the background when using special markers."
+msgstr ""
+
+#. Performing ', Go Back'
+#. Performing ', Continue'
+#. Performing ', Continue'
+#. Performing ', Continue'
+#. Performing ', Finish'
+#. Showing dialog 15 (@XJ01LJ) '@QS5EU5 - AI Setup' (owner: @RP5AL8)
+#. Performing ', OK'
+#. Performing 'ai.commitMessageCompose, AI Commit Message Compose'
+#. Performing ', Reconfigure…'
+#. Showing dialog 16 (@T5DFY8) '@1MU0JU - AI Setup' (owner: @SDB9TM)
+msgctxt "dlgSgAiSetup.inf:"
+msgid "SmartGit offers AI-powered features to enhance productivity, simplify workflows, and assist you with your repositories."
+msgstr ""
+
+#. Performing ', OK'
+#. Performing ', Continue'
+#. Showing dialog 12 (@EBTIHN) '@M2T42A - AI Setup' (owner: @RP5AL8)
+#. Performing ', OK'
+#. Performing ', Continue'
+#. Showing dialog 13 (@TSGRLX) '@JZ691K - API Key' (owner: @RP5AL8)
+#. Performing ', Cancel'
+#. Performing ', Continue'
+#. Showing dialog 14 (@8K6AVX) '@A53OQ4 - API Key' (owner: @RP5AL8)
+#. Performing ', Connect'
+msgctxt "dlgSgAiSetup.inf:"
+msgid "Verifying connectivity\\u2026"
+msgstr ""
+
+#. Performing ', Go Back'
+#. Performing ', Continue'
+#. Performing ', Continue'
+#. Performing ', Continue'
+#. Performing ', Finish'
+#. Showing dialog 15 (@XJ01LJ) '@QS5EU5 - AI Setup' (owner: @RP5AL8)
+#. Performing ', OK'
+#. Performing 'ai.commitMessageCompose, AI Commit Message Compose'
+#. Performing ', Reconfigure…'
+#. Showing dialog 16 (@T5DFY8) '@1MU0JU - AI Setup' (owner: @SDB9TM)
+msgctxt "dlgSgAiSetup.lbl:"
+msgid "- Leave the stash message blank to enable auto-generation.\\n- SmartGit will generate a message and safely update the stash in the background.\\n- You can always enable or disable AI stash rewording in the Save Stash dialog.\\n"
+msgstr ""
+
+#. Performing ', Go Back'
+#. Performing ', Continue'
+#. Performing ', Continue'
+#. Performing ', Continue'
+#. Performing ', Finish'
+#. Showing dialog 15 (@XJ01LJ) '@QS5EU5 - AI Setup' (owner: @RP5AL8)
+#. Performing ', OK'
+#. Performing 'ai.commitMessageCompose, AI Commit Message Compose'
+#. Performing ', Reconfigure…'
+#. Showing dialog 16 (@T5DFY8) '@1MU0JU - AI Setup' (owner: @SDB9TM)
+msgctxt "dlgSgAiSetup.lbl:"
+msgid "- Select one or more commits to generate a natural language explanation.\\n- For multiple commits, explanations are generated in the background and saved in Git Notes.\\n- Select two different branches to generate an explanation of their differences.\\n"
+msgstr ""
+
+#. Performing ', Go Back'
+#. Performing ', Continue'
+#. Performing ', Continue'
+#. Performing ', Continue'
+#. Performing ', Finish'
+#. Showing dialog 15 (@XJ01LJ) '@QS5EU5 - AI Setup' (owner: @RP5AL8)
+#. Performing ', OK'
+#. Performing 'ai.commitMessageCompose, AI Commit Message Compose'
+#. Performing ', Reconfigure…'
+#. Showing dialog 16 (@T5DFY8) '@1MU0JU - AI Setup' (owner: @SDB9TM)
+msgctxt "dlgSgAiSetup.lbl:"
+msgid "- Use '@ai' to reword the entire commit message.\\n- 'WIP' will describe Work in Progress with an AI generated commit message.\\n- You can always enable or disable AI commit rewording features from the hamburger menu.\\n"
+msgstr ""
+
+#. Performing ', Go Back'
+#. Performing ', Continue'
+#. Performing ', Continue'
+#. Performing ', Continue'
+#. Performing ', Finish'
+#. Showing dialog 15 (@XJ01LJ) '@QS5EU5 - AI Setup' (owner: @RP5AL8)
+#. Performing ', OK'
+#. Performing 'ai.commitMessageCompose, AI Commit Message Compose'
+#. Performing ', Reconfigure…'
+#. Showing dialog 16 (@T5DFY8) '@1MU0JU - AI Setup' (owner: @SDB9TM)
+msgctxt "dlgSgAiSetup.lbl:"
+msgid "Optional parameters"
+msgstr ""
+
+#. Performing ', Go Back'
+#. Performing ', Continue'
+#. Performing ', Continue'
+#. Performing ', Continue'
+#. Performing ', Finish'
+#. Showing dialog 15 (@XJ01LJ) '@QS5EU5 - AI Setup' (owner: @RP5AL8)
+#. Performing ', OK'
+#. Performing 'ai.commitMessageCompose, AI Commit Message Compose'
+#. Performing ', Reconfigure…'
+#. Showing dialog 16 (@T5DFY8) '@1MU0JU - AI Setup' (owner: @SDB9TM)
+#| msgctxt "dlgSgAiSetup.lbl\"Please wait \\u2026\""
+#| msgid "Please wait \\u2026"
+msgctxt "dlgSgAiSetup.lbl:"
+msgid "Please wait \\u2026"
+msgstr ""
+
+#. Performing ', Go Back'
+#. Performing ', Continue'
+#. Performing ', Continue'
+#. Performing ', Continue'
+#. Performing ', Finish'
+#. Showing dialog 15 (@XJ01LJ) '@QS5EU5 - AI Setup' (owner: @RP5AL8)
+#. Performing ', OK'
+#. Performing 'ai.commitMessageCompose, AI Commit Message Compose'
+#. Performing ', Reconfigure…'
+#. Showing dialog 16 (@T5DFY8) '@1MU0JU - AI Setup' (owner: @SDB9TM)
+msgctxt "dlgSgAiSetup.lbl:"
+msgid "Select your AI provider. This is the service SmartGit will use to generate AI-powered content."
+msgstr ""
+
+#. Performing ', Go Back'
+#. Performing ', Continue'
+#. Performing ', Continue'
+#. Performing ', Continue'
+#. Performing ', Finish'
+#. Showing dialog 15 (@XJ01LJ) '@QS5EU5 - AI Setup' (owner: @RP5AL8)
+#. Performing ', OK'
+#. Performing 'ai.commitMessageCompose, AI Commit Message Compose'
+#. Performing ', Reconfigure…'
+#. Showing dialog 16 (@T5DFY8) '@1MU0JU - AI Setup' (owner: @SDB9TM)
+msgctxt "dlgSgAiSetup.lbl:"
+msgid "SmartGit won't ask about AI features again."
+msgstr ""
+
+#. Performing ', Go Back'
+#. Performing ', Continue'
+#. Performing ', Continue'
+#. Performing ', Continue'
+#. Performing ', Finish'
+#. Showing dialog 15 (@XJ01LJ) '@QS5EU5 - AI Setup' (owner: @RP5AL8)
+#. Performing ', OK'
+#. Performing 'ai.commitMessageCompose, AI Commit Message Compose'
+#. Performing ', Reconfigure…'
+#. Showing dialog 16 (@T5DFY8) '@1MU0JU - AI Setup' (owner: @SDB9TM)
+msgctxt "dlgSgAiSetup.lbl:"
+msgid "Steps"
+msgstr ""
+
+#. Performing ', Go Back'
+#. Performing ', Continue'
+#. Performing ', Continue'
+#. Performing ', Continue'
+#. Performing ', Finish'
+#. Showing dialog 15 (@XJ01LJ) '@QS5EU5 - AI Setup' (owner: @RP5AL8)
+#. Performing ', OK'
+#. Performing 'ai.commitMessageCompose, AI Commit Message Compose'
+#. Performing ', Reconfigure…'
+#. Showing dialog 16 (@T5DFY8) '@1MU0JU - AI Setup' (owner: @SDB9TM)
+msgctxt "dlgSgAiSetup.lbl:"
+msgid "Your GitHub credentials from the Hosting Provider configuration will be used. There is nothing more to set up here."
+msgstr ""
+
+#. Performing ', Go Back'
+#. Performing ', Continue'
+#. Performing ', Continue'
+#. Performing ', Continue'
+#. Performing ', Finish'
+#. Showing dialog 15 (@XJ01LJ) '@QS5EU5 - AI Setup' (owner: @RP5AL8)
+#. Performing ', OK'
+#. Performing 'ai.commitMessageCompose, AI Commit Message Compose'
+#. Performing ', Reconfigure…'
+#. Showing dialog 16 (@T5DFY8) '@1MU0JU - AI Setup' (owner: @SDB9TM)
+msgctxt "dlgSgAiSetup.rbt:"
+msgid "Disable AI integration globally"
+msgstr ""
+
+#. Performing ', Go Back'
+#. Performing ', Continue'
+#. Performing ', Continue'
+#. Performing ', Continue'
+#. Performing ', Finish'
+#. Showing dialog 15 (@XJ01LJ) '@QS5EU5 - AI Setup' (owner: @RP5AL8)
+#. Performing ', OK'
+#. Performing 'ai.commitMessageCompose, AI Commit Message Compose'
+#. Performing ', Reconfigure…'
+#. Showing dialog 16 (@T5DFY8) '@1MU0JU - AI Setup' (owner: @SDB9TM)
+msgctxt "dlgSgAiSetup.rbt:"
+msgid "Enable AI integration"
+msgstr ""
+
+#. Showing dialog 14 (@8K6AVX) '@A53OQ4 - API Key' (owner: @RP5AL8)
+#. Performing ', Connect'
+#. Performing ', Go Back'
+#. Performing ', Continue'
+#. Performing ', Go Back'
+#. Performing ', Continue'
+#. Performing ', Continue'
+#. Performing ', Continue'
+#. Performing ', Finish'
+#. Showing dialog 15 (@XJ01LJ) '@QS5EU5 - AI Setup' (owner: @RP5AL8)
+msgctxt "dlgSgAiSetupConfigurationSuccess.fur"
+msgid "The configuration has been saved to '/Users/tomohiro/Git-projects/smartgit-translations/.git/smartgit-ai', which is included by '/Users/tomohiro/Git-projects/smartgit-translations/.git/config'.\\n\\nYou can now start generating commit messages by clicking the AI button again.\\n\\nAdditional configuration options are available and can be tweaked directly in the configuration file. For details, refer to the \\[https://docs.syntevo.com/SmartGit/Latest/Manual/Integrations/AI documentation\\]."
+msgstr ""
+
+#. Showing dialog 14 (@8K6AVX) '@A53OQ4 - API Key' (owner: @RP5AL8)
+#. Performing ', Connect'
+#. Performing ', Go Back'
+#. Performing ', Continue'
+#. Performing ', Go Back'
+#. Performing ', Continue'
+#. Performing ', Continue'
+#. Performing ', Continue'
+#. Performing ', Finish'
+#. Showing dialog 15 (@XJ01LJ) '@QS5EU5 - AI Setup' (owner: @RP5AL8)
+msgctxt "dlgSgAiSetupConfigurationSuccess.hdl"
+msgid "The AI integration has been configured successfully."
+msgstr ""
+
+#. Showing dialog 9 (@Z8BP9H) '@3FP5UV - API Key' (owner: @RP5AL8)
+#. Performing ', Cancel'
+#. Performing ', Continue'
+#. Showing dialog 10 (@7UEEQW) '@V2NCVJ - AI Setup' (owner: @RP5AL8)
+#. Performing ', OK'
+#. Performing ', Continue'
+#. Showing dialog 11 (@J6R3NK) '@BQNR1J - AI Setup' (owner: @RP5AL8)
+#. Performing ', OK'
+#. Performing ', Continue'
+#. Showing dialog 12 (@EBTIHN) '@M2T42A - AI Setup' (owner: @RP5AL8)
+msgctxt "dlgSgAiSetupConnectivityFailed.fur"
+msgid "Object 'message/content' not found."
+msgstr ""
+
+#. Showing dialog 9 (@Z8BP9H) '@3FP5UV - API Key' (owner: @RP5AL8)
+#. Performing ', Cancel'
+#. Performing ', Continue'
+#. Showing dialog 10 (@7UEEQW) '@V2NCVJ - AI Setup' (owner: @RP5AL8)
+#. Performing ', OK'
+#. Performing ', Continue'
+#. Showing dialog 11 (@J6R3NK) '@BQNR1J - AI Setup' (owner: @RP5AL8)
+#. Performing ', OK'
+#. Performing ', Continue'
+#. Showing dialog 12 (@EBTIHN) '@M2T42A - AI Setup' (owner: @RP5AL8)
+msgctxt "dlgSgAiSetupConnectivityFailed.hdl"
+msgid "Connection to 'ollama' failed."
+msgstr ""
+
+#. Showing dialog 3 (@SZR8D7) '@8D2ADQ - AI Setup' (owner: @RP5AL8)
+#. Performing ', OK'
+#. Performing ', Continue'
+#. Showing dialog 4 (@PGYK7V) '@SPJ48N - AI Setup' (owner: @RP5AL8)
+#. Performing ', OK'
+#. Performing ', Continue'
+#. Showing dialog 5 (@MSODIB) '@U0KJNV - API Key' (owner: @RP5AL8)
+#. Performing ', Cancel'
+#. Performing ', Continue'
+#. Showing dialog 6 (@ANZINS) '@A5M325 - AI Setup' (owner: @RP5AL8)
+msgctxt "dlgSgAiSetupLlmConfigurationInvalid.fur"
+msgid "API URL missing."
+msgstr ""
+
+#. Showing dialog 3 (@SZR8D7) '@8D2ADQ - AI Setup' (owner: @RP5AL8)
+#. Performing ', OK'
+#. Performing ', Continue'
+#. Showing dialog 4 (@PGYK7V) '@SPJ48N - AI Setup' (owner: @RP5AL8)
+#. Performing ', OK'
+#. Performing ', Continue'
+#. Showing dialog 5 (@MSODIB) '@U0KJNV - API Key' (owner: @RP5AL8)
+#. Performing ', Cancel'
+#. Performing ', Continue'
+#. Showing dialog 6 (@ANZINS) '@A5M325 - AI Setup' (owner: @RP5AL8)
+msgctxt "dlgSgAiSetupLlmConfigurationInvalid.hdl"
+msgid "Configuration is invalid."
 msgstr ""
 
 msgctxt "dlgSgApplicationAlreadyRunning.fur%1"
@@ -3207,6 +3862,62 @@ msgstr ""
 
 msgctxt "dlgSgBranchTrackingSetConfirm.tle"
 msgid "Set Tracked Branch"
+msgstr ""
+
+#. Performing 'changesView.unified, Unified'
+#. Performing 'changesView.sideBySide, Side by Side'
+#. Performing 'windowWorkingTree, Show Working Tree Window'
+#. opening smartgit.bPc@4DYP88:SmartGit 25.1 RC (Working Tree) (smartgit.bPc@2ZNMC7) (index=0)
+#. Performing 'previewCompareHeadVsIndex, HEAD vs. Index, Show changes between index (staged state) and HEAD (repository state).'
+#. Performing 'previewCompareIndexVsWT, Index vs. Working Tree, Show changes between local file (working tree) and Index (staged state).'
+#. Performing 'previewCompareHeadVsIndex, HEAD vs. Index, Show changes between index (staged state) and HEAD (repository state).'
+#. Performing 'previewCompareAutomatic, Automatic'
+#. Performing 'previewCompareHeadVsIndex, HEAD vs. Index, Show changes between index (staged state) and HEAD (repository state).'
+#. Showing dialog 22 (@GNZSTP) '@4F39CF - Open Log' (owner: @2ZNMC7)
+msgctxt "dlgSgBranchesOpenPullRequestsInLog.btn:"
+msgid "Open"
+msgstr ""
+
+#. Performing 'changesView.unified, Unified'
+#. Performing 'changesView.sideBySide, Side by Side'
+#. Performing 'windowWorkingTree, Show Working Tree Window'
+#. opening smartgit.bPc@4DYP88:SmartGit 25.1 RC (Working Tree) (smartgit.bPc@2ZNMC7) (index=0)
+#. Performing 'previewCompareHeadVsIndex, HEAD vs. Index, Show changes between index (staged state) and HEAD (repository state).'
+#. Performing 'previewCompareIndexVsWT, Index vs. Working Tree, Show changes between local file (working tree) and Index (staged state).'
+#. Performing 'previewCompareHeadVsIndex, HEAD vs. Index, Show changes between index (staged state) and HEAD (repository state).'
+#. Performing 'previewCompareAutomatic, Automatic'
+#. Performing 'previewCompareHeadVsIndex, HEAD vs. Index, Show changes between index (staged state) and HEAD (repository state).'
+#. Showing dialog 22 (@GNZSTP) '@4F39CF - Open Log' (owner: @2ZNMC7)
+msgctxt "dlgSgBranchesOpenPullRequestsInLog.chk"
+msgid "Don't show again"
+msgstr ""
+
+#. Performing 'changesView.unified, Unified'
+#. Performing 'changesView.sideBySide, Side by Side'
+#. Performing 'windowWorkingTree, Show Working Tree Window'
+#. opening smartgit.bPc@4DYP88:SmartGit 25.1 RC (Working Tree) (smartgit.bPc@2ZNMC7) (index=0)
+#. Performing 'previewCompareHeadVsIndex, HEAD vs. Index, Show changes between index (staged state) and HEAD (repository state).'
+#. Performing 'previewCompareIndexVsWT, Index vs. Working Tree, Show changes between local file (working tree) and Index (staged state).'
+#. Performing 'previewCompareHeadVsIndex, HEAD vs. Index, Show changes between index (staged state) and HEAD (repository state).'
+#. Performing 'previewCompareAutomatic, Automatic'
+#. Performing 'previewCompareHeadVsIndex, HEAD vs. Index, Show changes between index (staged state) and HEAD (repository state).'
+#. Showing dialog 22 (@GNZSTP) '@4F39CF - Open Log' (owner: @2ZNMC7)
+msgctxt "dlgSgBranchesOpenPullRequestsInLog.fur"
+msgid "You can see a detailed list of pull requests in the Log's Branches view and review changes in the Graph."
+msgstr ""
+
+#. Performing 'changesView.unified, Unified'
+#. Performing 'changesView.sideBySide, Side by Side'
+#. Performing 'windowWorkingTree, Show Working Tree Window'
+#. opening smartgit.bPc@4DYP88:SmartGit 25.1 RC (Working Tree) (smartgit.bPc@2ZNMC7) (index=0)
+#. Performing 'previewCompareHeadVsIndex, HEAD vs. Index, Show changes between index (staged state) and HEAD (repository state).'
+#. Performing 'previewCompareIndexVsWT, Index vs. Working Tree, Show changes between local file (working tree) and Index (staged state).'
+#. Performing 'previewCompareHeadVsIndex, HEAD vs. Index, Show changes between index (staged state) and HEAD (repository state).'
+#. Performing 'previewCompareAutomatic, Automatic'
+#. Performing 'previewCompareHeadVsIndex, HEAD vs. Index, Show changes between index (staged state) and HEAD (repository state).'
+#. Showing dialog 22 (@GNZSTP) '@4F39CF - Open Log' (owner: @2ZNMC7)
+msgctxt "dlgSgBranchesOpenPullRequestsInLog.hdl"
+msgid "Do you want to review pull requests in the Log?"
 msgstr ""
 
 msgctxt "dlgSgBugReportSettings.btn:"
@@ -3703,6 +4414,20 @@ msgctxt "dlgSgClone.btn:"
 msgid "Go Back"
 msgstr ""
 
+#. Performing ', Continue'
+#. Performing ', Continue'
+#. Performing ', Finish'
+#. Showing dialog 15 (@XJ01LJ) '@QS5EU5 - AI Setup' (owner: @RP5AL8)
+#. Performing ', OK'
+#. Performing 'ai.commitMessageCompose, AI Commit Message Compose'
+#. Performing ', Reconfigure…'
+#. Showing dialog 16 (@T5DFY8) '@1MU0JU - AI Setup' (owner: @SDB9TM)
+#. Performing 'repositoryClone, Clone…, Clone a new repository.'
+#. Showing dialog 17 (@70ZUPZ) '@2JFW3 - Clone' (owner: @SDB9TM)
+msgctxt "dlgSgClone.chk:"
+msgid "Configure newly cloned repository to use SmartGit as credential helper"
+msgstr ""
+
 msgctxt "dlgSgClone.chk:"
 msgid "Create upstream remote"
 msgstr ""
@@ -3827,7 +4552,7 @@ msgstr ""
 #. Performing ',   po_formatter'
 #. Performing 'repositoryClone, Clone…, Clone a new repository.'
 #. Showing dialog 13 (@35FD03D9) '@6B6CF3C1 - Clone' (owner: @79D3473E)
-msgctxt "dlgSgClone.hnt\"Searching \\u2026\""
+msgctxt "dlgSgClone.hnt:"
 msgid "Searching \\u2026"
 msgstr ""
 
@@ -6293,6 +7018,76 @@ msgctxt "dlgSgHostingProviderAdd.err:"
 msgid "The entered URL is invalid - it should look like https://server"
 msgstr ""
 
+#. Performing ', GitLab (Self Hosted)'
+#. Showing dialog 9 (@6A69XT) '@RFWYP - Add Hosting Provider' (owner: @RINFN6)
+#. Performing ', Cancel'
+#. Performing ', Add'
+#. Performing ', Azure DevOps'
+#. Showing dialog 10 (@K51C6U) '@RBWSDA - Add Hosting Provider' (owner: @RINFN6)
+#. Performing ', Cancel'
+#. Performing ', Add'
+#. Performing ', Azure DevOps Server'
+#. Showing dialog 11 (@353KVY) '@F3BMHI - Add Hosting Provider' (owner: @RINFN6)
+msgctxt "dlgSgHostingProviderAdd.hdl:"
+msgid "Add Azure DevOps Server account"
+msgstr ""
+
+#. Performing ', GitLab'
+#. Showing dialog 8 (@G3SUYO) '@MEPC2E - Add Hosting Provider' (owner: @RINFN6)
+#. Performing ', Cancel'
+#. Performing ', Add'
+#. Performing ', GitLab (Self Hosted)'
+#. Showing dialog 9 (@6A69XT) '@RFWYP - Add Hosting Provider' (owner: @RINFN6)
+#. Performing ', Cancel'
+#. Performing ', Add'
+#. Performing ', Azure DevOps'
+#. Showing dialog 10 (@K51C6U) '@RBWSDA - Add Hosting Provider' (owner: @RINFN6)
+msgctxt "dlgSgHostingProviderAdd.hdl:"
+msgid "Add Azure DevOps account"
+msgstr ""
+
+#. Performing ', GitHub Enterprise'
+#. Showing dialog 5 (@1CUMZ4) '@PPJ6Z9 - Add Hosting Provider' (owner: @RINFN6)
+#. Performing ', Cancel'
+#. Performing ', Add'
+#. Performing ', Bitbucket'
+#. Showing dialog 6 (@7TJO4O) '@97TC4 - Add Hosting Provider' (owner: @RINFN6)
+#. Performing ', Cancel'
+#. Performing ', Add'
+#. Performing ', Bitbucket Server'
+#. Showing dialog 7 (@R7X1FJ) '@NMB6Q4 - Add Hosting Provider' (owner: @RINFN6)
+msgctxt "dlgSgHostingProviderAdd.hdl:"
+msgid "Add Bitbucket Server account"
+msgstr ""
+
+#. Performing ', GitHub'
+#. Showing dialog 4 (@BOF0CZ) '@37IW11 - Add Hosting Provider' (owner: @RINFN6)
+#. Performing ', Cancel'
+#. Performing ', Add'
+#. Performing ', GitHub Enterprise'
+#. Showing dialog 5 (@1CUMZ4) '@PPJ6Z9 - Add Hosting Provider' (owner: @RINFN6)
+#. Performing ', Cancel'
+#. Performing ', Add'
+#. Performing ', Bitbucket'
+#. Showing dialog 6 (@7TJO4O) '@97TC4 - Add Hosting Provider' (owner: @RINFN6)
+msgctxt "dlgSgHostingProviderAdd.hdl:"
+msgid "Add Bitbucket account"
+msgstr ""
+
+#. Performing ', Add…'
+#. Showing dialog 3 (@HE2S5W) '@R4D9B1 - Add' (owner: @RINFN6)
+#. Performing ', Cancel'
+#. Performing ', Add'
+#. Performing ', GitHub'
+#. Showing dialog 4 (@BOF0CZ) '@37IW11 - Add Hosting Provider' (owner: @RINFN6)
+#. Performing ', Cancel'
+#. Performing ', Add'
+#. Performing ', GitHub Enterprise'
+#. Showing dialog 5 (@1CUMZ4) '@PPJ6Z9 - Add Hosting Provider' (owner: @RINFN6)
+msgctxt "dlgSgHostingProviderAdd.hdl:"
+msgid "Add GitHub Enterprise account"
+msgstr ""
+
 msgctxt "dlgSgHostingProviderAdd.hdl:"
 msgid "Add GitHub account"
 msgstr ""
@@ -6308,8 +7103,22 @@ msgstr ""
 #. Performing ', Configure...'
 #. Showing dialog 7 (@54C3E686) '@3987A1E8 - Add Hosting Provider' (owner: @58486DEB)
 #, fuzzy
-msgctxt "dlgSgHostingProviderAdd.hdl\"Add GitLab \\(Self Hosted\\) account\""
+msgctxt "dlgSgHostingProviderAdd.hdl:"
 msgid "Add GitLab \\(Self Hosted\\) account"
+msgstr ""
+
+#. Performing ', Bitbucket'
+#. Showing dialog 6 (@7TJO4O) '@97TC4 - Add Hosting Provider' (owner: @RINFN6)
+#. Performing ', Cancel'
+#. Performing ', Add'
+#. Performing ', Bitbucket Server'
+#. Showing dialog 7 (@R7X1FJ) '@NMB6Q4 - Add Hosting Provider' (owner: @RINFN6)
+#. Performing ', Cancel'
+#. Performing ', Add'
+#. Performing ', GitLab'
+#. Showing dialog 8 (@G3SUYO) '@MEPC2E - Add Hosting Provider' (owner: @RINFN6)
+msgctxt "dlgSgHostingProviderAdd.hdl:"
+msgid "Add GitLab account"
 msgstr ""
 
 msgctxt "dlgSgHostingProviderAdd.hdl:"
@@ -6349,6 +7158,20 @@ msgstr ""
 
 msgctxt "dlgSgHostingProviderAdd.lbl:"
 msgid "Provide a 'personal access token' which you can generate in your GitHub account settings."
+msgstr ""
+
+#. Performing ', Bitbucket Server'
+#. Showing dialog 7 (@R7X1FJ) '@NMB6Q4 - Add Hosting Provider' (owner: @RINFN6)
+#. Performing ', Cancel'
+#. Performing ', Add'
+#. Performing ', GitLab'
+#. Showing dialog 8 (@G3SUYO) '@MEPC2E - Add Hosting Provider' (owner: @RINFN6)
+#. Performing ', Cancel'
+#. Performing ', Add'
+#. Performing ', GitLab (Self Hosted)'
+#. Showing dialog 9 (@6A69XT) '@RFWYP - Add Hosting Provider' (owner: @RINFN6)
+msgctxt "dlgSgHostingProviderAdd.lbl:"
+msgid "Required scopes are 'api' and 'write_repository'."
 msgstr ""
 
 msgctxt "dlgSgHostingProviderAdd.lbl:"
@@ -7645,7 +8468,7 @@ msgstr ""
 #. Performing ', Discard'
 #. Performing ', Rebase 1 commit from 'feature/forceinclude' to 'v1.1.0''
 #. Showing dialog 20 (@PMZ6R) '@7WXSSO - Command Failed' (owner: @N6W7NC)
-msgctxt "dlgSgOutput.lbl\"unable to auto-detect email address \\(got 'XXXX@XXXXXX.\\(none\\)'\\)\""
+msgctxt "dlgSgOutput.lbl:"
 msgid "unable to auto-detect email address \\(got 'XXXX@XXXXXX.\\(none\\)'\\)"
 msgstr ""
 
@@ -7768,6 +8591,20 @@ msgctxt "dlgSgPreferences.btn:"
 msgid "Show Password"
 msgstr ""
 
+#. Performing ', Find >'
+#. Performing ', Find >'
+#. Performing ', Find >'
+#. Performing ', Find >'
+#. Performing ', Find >'
+#. Performing ', Find >'
+#. Performing ', Find >'
+#. Performing ', < Find'
+#. Performing '@smartgit.bRS'
+#. Showing dialog 2 (@7NMU73) '@2KS1MV - Preferences' (owner: null)
+msgctxt "dlgSgPreferences.cdl:"
+msgid "AI Integration"
+msgstr ""
+
 msgctxt "dlgSgPreferences.cdl:"
 msgid "Authentication"
 msgstr ""
@@ -7871,7 +8708,7 @@ msgstr ""
 #. opening smartgit.bDU@DTQVOO:SmartGit 25.1 Preview Evaluation until Aug 2 (smartgit.bDU@GFESEP)
 #. Performing 'preferences, Preferences'
 #. Showing dialog 0 (@ETQKS7) '@WMN6GL - Preferences' (owner: @GFESEP)
-msgctxt "dlgSgPreferences.chk\"Allow modifying pushed commits \\(e.g. forced-push\\):\""
+msgctxt "dlgSgPreferences.chk:"
 msgid "Allow modifying pushed commits \\(e.g. forced-push\\):"
 msgstr ""
 
@@ -7925,6 +8762,34 @@ msgstr ""
 
 msgctxt "dlgSgPreferences.chk:"
 msgid "Configure SmartGit as credential helper \\(for repository authentication\\)"
+msgstr ""
+
+#. Performing ', Find >'
+#. Performing ', Find >'
+#. Performing ', Find >'
+#. Performing ', Find >'
+#. Performing ', Find >'
+#. Performing ', Find >'
+#. Performing ', Find >'
+#. Performing ', < Find'
+#. Performing '@smartgit.bRS'
+#. Showing dialog 2 (@7NMU73) '@2KS1MV - Preferences' (owner: null)
+msgctxt "dlgSgPreferences.chk:"
+msgid "Configure SmartGit as credential helper for Git command line"
+msgstr ""
+
+#. Performing ', Find >'
+#. Performing ', Find >'
+#. Performing ', Find >'
+#. Performing ', Find >'
+#. Performing ', Find >'
+#. Performing ', Find >'
+#. Performing ', Find >'
+#. Performing ', < Find'
+#. Performing '@smartgit.bRS'
+#. Showing dialog 2 (@7NMU73) '@2KS1MV - Preferences' (owner: null)
+msgctxt "dlgSgPreferences.chk:"
+msgid "Configure newly cloned repository to use SmartGit as credential helper on Git command line"
 msgstr ""
 
 #. opening smartgit.bDU@DTQVOO:SmartGit 25.1 Preview Evaluation until Aug 2 (smartgit.bDU@GFESEP)
@@ -8017,7 +8882,7 @@ msgstr ""
 #. opening smartgit.bDU@DTQVOO:SmartGit 25.1 Preview Evaluation until Aug 2 (smartgit.bDU@GFESEP)
 #. Performing 'preferences, Preferences'
 #. Showing dialog 0 (@ETQKS7) '@WMN6GL - Preferences' (owner: @GFESEP)
-msgctxt "dlgSgPreferences.chk\"Quick Polls \\(help shape SmartGit\\)\""
+msgctxt "dlgSgPreferences.chk:"
 msgid "Quick Polls \\(help shape SmartGit\\)"
 msgstr ""
 
@@ -8148,7 +9013,7 @@ msgstr ""
 #. Performing '@smartgit.byU'
 #. Performing '@smartgit.bKo'
 #. Showing dialog 69 (@503D5F4F) '@738FB8E8 - Preferences' (owner: null)
-msgctxt "dlgSgPreferences.cmb\"Custom\\u2026\""
+msgctxt "dlgSgPreferences.cmb:"
 msgid "Custom\\u2026"
 msgstr ""
 
@@ -8469,7 +9334,7 @@ msgstr ""
 #. opening smartgit.bDU@DTQVOO:SmartGit 25.1 Preview Evaluation until Aug 2 (smartgit.bDU@GFESEP)
 #. Performing 'preferences, Preferences'
 #. Showing dialog 0 (@ETQKS7) '@WMN6GL - Preferences' (owner: @GFESEP)
-msgctxt "dlgSgPreferences.lbl\"Changing these low-level properties may harm the stability or performance of SmartGit.\\n\\[_ Changed properties\\] with a trailing \\\\\\* need a restart to be applied.\""
+msgctxt "dlgSgPreferences.lbl:"
 msgid "Changing these low-level properties may harm the stability or performance of SmartGit.\\n\\[_ Changed properties\\] with a trailing \\\\\\* need a restart to be applied."
 msgstr ""
 
@@ -8551,6 +9416,20 @@ msgctxt "dlgSgPreferences.lbl:"
 msgid "Local and Remote Changes"
 msgstr ""
 
+#. Performing ', Find >'
+#. Performing ', Find >'
+#. Performing ', Find >'
+#. Performing ', Find >'
+#. Performing ', Find >'
+#. Performing ', Find >'
+#. Performing ', Find >'
+#. Performing ', < Find'
+#. Performing '@smartgit.bRS'
+#. Showing dialog 2 (@7NMU73) '@2KS1MV - Preferences' (owner: null)
+msgctxt "dlgSgPreferences.lbl:"
+msgid "Note: Some repositories may already have per-repository AI settings."
+msgstr ""
+
 msgctxt "dlgSgPreferences.lbl:"
 msgid "Note: The password will be stored in plain text in SmartGit's configuration area!"
 msgstr ""
@@ -8591,6 +9470,20 @@ msgctxt "dlgSgPreferences.lbl:"
 msgid "Stash"
 msgstr ""
 
+#. Performing ', Find >'
+#. Performing ', Find >'
+#. Performing ', Find >'
+#. Performing ', Find >'
+#. Performing ', Find >'
+#. Performing ', Find >'
+#. Performing ', Find >'
+#. Performing ', < Find'
+#. Performing '@smartgit.bRS'
+#. Showing dialog 2 (@7NMU73) '@2KS1MV - Preferences' (owner: null)
+msgctxt "dlgSgPreferences.lbl:"
+msgid "The AI integration is \\*not yet configured\\* \\(globally\\)."
+msgstr ""
+
 msgctxt "dlgSgPreferences.lbl:"
 msgid "The last check was performed on $1."
 msgstr ""
@@ -8601,6 +9494,20 @@ msgstr ""
 
 msgctxt "dlgSgPreferences.lbl:"
 msgid "This file will be sent as is: $1"
+msgstr ""
+
+#. Performing ', Find >'
+#. Performing ', Find >'
+#. Performing ', Find >'
+#. Performing ', Find >'
+#. Performing ', Find >'
+#. Performing ', Find >'
+#. Performing ', Find >'
+#. Performing ', < Find'
+#. Performing '@smartgit.bRS'
+#. Showing dialog 2 (@7NMU73) '@2KS1MV - Preferences' (owner: null)
+msgctxt "dlgSgPreferences.lbl:"
+msgid "To configure, click the AI button in the Commit Message view or the Commit dialog."
 msgstr ""
 
 msgctxt "dlgSgPreferences.lbl:"
@@ -8958,6 +9865,20 @@ msgstr ""
 
 msgctxt "dlgSgPreferences.tab:"
 msgid "Colors"
+msgstr ""
+
+#. Performing ', Find >'
+#. Performing ', Find >'
+#. Performing ', Find >'
+#. Performing ', Find >'
+#. Performing ', Find >'
+#. Performing ', Find >'
+#. Performing ', Find >'
+#. Performing ', < Find'
+#. Performing '@smartgit.bRS'
+#. Showing dialog 2 (@7NMU73) '@2KS1MV - Preferences' (owner: null)
+msgctxt "dlgSgPreferences.tab:"
+msgid "Credential Helper"
 msgstr ""
 
 msgctxt "dlgSgPreferences.tab:"
@@ -11601,7 +12522,7 @@ msgid "Send usage statistics"
 msgstr ""
 
 #. Showing dialog 0 (@38830EA) '@1F67761B - Setup SmartGit 24.1.3' (owner: null)
-msgctxt "dlgSgSetup.chk\"Use SmartGit for authentication \\(ignoring your current credential.helper configuration\\)\""
+msgctxt "dlgSgSetup.chk:"
 msgid "Use SmartGit for authentication \\(ignoring your current credential.helper configuration\\)"
 msgstr ""
 
@@ -12506,7 +13427,7 @@ msgstr ""
 #. Performing ', Cancel'
 #. Performing 'submoduleRegister, Add…'
 #. Showing dialog 9 (@6F7241C2) '@32245B66 - Add Submodule' (owner: @575C23F1)
-msgctxt "dlgSgSubmoduleAdd.hnt\"Searching \\u2026\""
+msgctxt "dlgSgSubmoduleAdd.hnt:"
 msgid "Searching \\u2026"
 msgstr ""
 
@@ -12862,7 +13783,7 @@ msgstr ""
 #. Performing '@smartgit.byU'
 #. Performing 'subtreeAdd, Add…'
 #. Showing dialog 10 (@35FAC3BA) '@8AA1562 - Add Subtree' (owner: @575C23F1)
-msgctxt "dlgSgSubtreeAdd.hnt\"Searching \\u2026\""
+msgctxt "dlgSgSubtreeAdd.hnt:"
 msgid "Searching \\u2026"
 msgstr ""
 
@@ -12884,7 +13805,7 @@ msgstr ""
 #. Performing 'subtreeAdd, Add…'
 #. Showing dialog 10 (@35FAC3BA) '@8AA1562 - Add Subtree' (owner: @575C23F1)
 #. Performing ', Go Back'
-msgctxt "dlgSgSubtreeAdd.inf\"Specify the repository to clone as subtree.\\nTo configure multiple accounts of the same hosting provider, use the Preferences.\""
+msgctxt "dlgSgSubtreeAdd.inf:"
 msgid "Specify the repository to clone as subtree.\\nTo configure multiple accounts of the same hosting provider, use the Preferences."
 msgstr ""
 
@@ -13673,6 +14594,7 @@ msgid "poll for opinions on how to implement new or change existing features"
 msgstr ""
 
 #. opening smartgit.bFS@GE8D2T:SmartGit 25.1 RC (smartgit.bFS@SDB9TM)
+#. opening smartgit.bFS@GE8D2T:SmartGit 25.1 RC (smartgit.bFS@SDB9TM)
 msgctxt "ntmFollowUsOnX:"
 msgid "<link1>Bluesky</link1>: news"
 msgstr ""
@@ -13687,6 +14609,7 @@ msgid "<link1>Facebook</link1>: news"
 msgstr ""
 
 #. opening smartgit.bFS@GE8D2T:SmartGit 25.1 RC (smartgit.bFS@SDB9TM)
+#. opening smartgit.bFS@GE8D2T:SmartGit 25.1 RC (smartgit.bFS@SDB9TM)
 msgctxt "ntmFollowUsOnX:"
 msgid "<link1>Mastodon</link1>: news"
 msgstr ""
@@ -13696,10 +14619,12 @@ msgid "<link1>Mastodon</link1>: news, polls, discussions"
 msgstr ""
 
 #. opening smartgit.bFS@GE8D2T:SmartGit 25.1 RC (smartgit.bFS@SDB9TM)
+#. opening smartgit.bFS@GE8D2T:SmartGit 25.1 RC (smartgit.bFS@SDB9TM)
 msgctxt "ntmFollowUsOnX:"
 msgid "<link1>Reddit</link1>: discussions"
 msgstr ""
 
+#. opening smartgit.bFS@GE8D2T:SmartGit 25.1 RC (smartgit.bFS@SDB9TM)
 #. opening smartgit.bFS@GE8D2T:SmartGit 25.1 RC (smartgit.bFS@SDB9TM)
 msgctxt "ntmFollowUsOnX:"
 msgid "<link1>UserEcho</link1>: feature requests, voting"
@@ -13709,6 +14634,7 @@ msgctxt "ntmFollowUsOnX:"
 msgid "<link1>UserEcho</link1>: improvement ideas, discussions"
 msgstr ""
 
+#. opening smartgit.bFS@GE8D2T:SmartGit 25.1 RC (smartgit.bFS@SDB9TM)
 #. opening smartgit.bFS@GE8D2T:SmartGit 25.1 RC (smartgit.bFS@SDB9TM)
 msgctxt "ntmFollowUsOnX:"
 msgid "<link1>X</link1>: news"
@@ -14135,8 +15061,10 @@ msgstr ""
 #. Performing ', Push'
 #. Showing dialog 1 (@2MRJDO) '@OWHK40 - Push' (owner: @VJTW6K)
 #. Performing ', Push'
-msgctxt "ttpBranches\"<b>Worktree:\\t</b>C:\\\\XXXX\\\\XXXX\\\\XXXX\\\\smartgit-translations-24.1-merged\""
-msgid "<b>Worktree:\\t</b>C:\\\\XXXX\\\\XXXX\\\\XXXX\\\\smartgit-translations-24.1-merged"
+#| msgctxt "ttpBranches\"<b>Worktree:\\t</b>C:\\\\XXXX\\\\XXXX\\\\XXXX\\\\smartgit-translations-24.1-merged\""
+#| msgid "<b>Worktree:\\t</b>C:\\\\XXXX\\\\XXXX\\\\XXXX\\\\smartgit-translations-24.1-merged"
+msgctxt "ttpBranches:"
+msgid "<b>Worktree:\\t</b>$1"
 msgstr ""
 
 msgctxt "ttpBranches:"
@@ -14239,14 +15167,6 @@ msgctxt "ttpRepositories:"
 msgid "<b>Remotes:\\t</b>"
 msgstr ""
 
-msgctxt "ttpRepositories:"
-msgid "<b>Tracked Branch:\\t</b>$1<col1>$2</col1>"
-msgstr ""
-
-msgctxt "ttpRepositories:"
-msgid "<b>Tracked Branch:\\t</b>origin/master"
-msgstr ""
-
 #. Performing '@smartgit.byU'
 #. Performing '@smartgit.byU'
 #. Performing '@smartgit.byU'
@@ -14257,8 +15177,17 @@ msgstr ""
 #. Performing '@smartgit.byU'
 #. Performing '@smartgit.byU'
 #. Performing '@smartgit.byU'
+#| msgid "<b>Tracked Branch:\\t</b>origin/work_space"
 msgctxt "ttpRepositories:"
-msgid "<b>Tracked Branch:\\t</b>origin/work_space"
+msgid "<b>Tracked Branch:\\t</b>$1"
+msgstr ""
+
+msgctxt "ttpRepositories:"
+msgid "<b>Tracked Branch:\\t</b>$1<col1>$2</col1>"
+msgstr ""
+
+msgctxt "ttpRepositories:"
+msgid "<b>Tracked Branch:\\t</b>origin/master"
 msgstr ""
 
 msgctxt "ttpRepositories:"
@@ -14325,12 +15254,17 @@ msgctxt "wnd.mni:"
 msgid "Contact Support"
 msgstr ""
 
+# 注意
 msgctxt "wnd.mni:"
 msgid "Cursor"
 msgstr ""
 
 msgctxt "wnd.mni:"
 msgid "Format"
+msgstr ""
+
+msgctxt "wnd.mni:"
+msgid "Import Unknown"
 msgstr ""
 
 msgctxt "wnd.mni:"
@@ -14379,6 +15313,10 @@ msgstr ""
 
 msgctxt "wnd.mni:"
 msgid "po_formatter"
+msgstr ""
+
+msgctxt "wnd.mni:"
+msgid "sgpo_format\\(Rust\\)"
 msgstr ""
 
 msgctxt "wnd.mniBisectTryCommit"
@@ -14853,6 +15791,22 @@ msgctxt "wndDeepgit.lblBlameHeader:"
 msgid "Blame \\(in progress...\\)"
 msgstr ""
 
+# [decode] msgctxt "wndDeepgit.lblBlameHeader"Blame \(in progress…\)""
+# [decode] msgid "Blame \(in progress…\)"
+#. Performing ', Close'
+#. Performing ', More options'
+#. Performing 'view-settings, Settings…'
+#. Showing dialog 17 (@LYH2L9) '@ZECS9N - Settings' (owner: @COGMZJ)
+#. Performing ', Close'
+#. Performing 'set-syntax, Syntax Language…'
+#. Showing dialog 18 (@HSTEUV) '@HJB33J - Select Syntax-Highlighting' (owner: @COGMZJ)
+#. Performing ', Cancel'
+#. Performing 'investigate, Investigate, Investigate history line-wise with DeepGit.'
+#. opening smartgit.bcC@K6H0HY:Investigate (smartgit.bcC@RZUY7K)
+msgctxt "wndDeepgit.lblBlameHeader:"
+msgid "Blame \\(in progress\\u2026\\)"
+msgstr ""
+
 msgctxt "wndDeepgit.lblBlameHeader:"
 msgid "Blame for"
 msgstr ""
@@ -15089,6 +16043,20 @@ msgctxt "wndDeepgit.mniDgFilterSetSelection"
 msgid "Set Selection as Filter"
 msgstr ""
 
+#. Showing dialog 16 (@8TWAKY) '@URKLOV - Welcome to SmartGit' (owner: @CJVTJO)
+#. Performing ', Close'
+#. Performing ', More options'
+#. Performing 'view-settings, Settings…'
+#. Showing dialog 17 (@LYH2L9) '@ZECS9N - Settings' (owner: @COGMZJ)
+#. Performing ', Close'
+#. Performing 'set-syntax, Syntax Language…'
+#. Showing dialog 18 (@HSTEUV) '@HJB33J - Select Syntax-Highlighting' (owner: @COGMZJ)
+#. Performing ', Cancel'
+#. Performing 'investigate, Investigate, Investigate history line-wise with DeepGit.'
+msgctxt "wndDeepgit.mniDgFollowInsignificantMerges"
+msgid "Follow Insignificant Merges \\(experimental\\)"
+msgstr ""
+
 msgctxt "wndDeepgit.mniDgFollowRenames"
 msgid "Follow Renames"
 msgstr ""
@@ -15249,8 +16217,38 @@ msgctxt "wndDeepgit.tab:"
 msgid "Files changed in commit $1"
 msgstr ""
 
+#. Showing dialog 16 (@8TWAKY) '@URKLOV - Welcome to SmartGit' (owner: @CJVTJO)
+#. Performing ', Close'
+#. Performing ', More options'
+#. Performing 'view-settings, Settings…'
+#. Showing dialog 17 (@LYH2L9) '@ZECS9N - Settings' (owner: @COGMZJ)
+#. Performing ', Close'
+#. Performing 'set-syntax, Syntax Language…'
+#. Showing dialog 18 (@HSTEUV) '@HJB33J - Select Syntax-Highlighting' (owner: @COGMZJ)
+#. Performing ', Cancel'
+#. Performing 'investigate, Investigate, Investigate history line-wise with DeepGit.'
+msgctxt "wndDeepgit.tab:"
+msgid "Files"
+msgstr ""
+
 msgctxt "wndDeepgit.tab:"
 msgid "Navigation \\(initializing...\\)"
+msgstr ""
+
+# [decode] msgctxt "wndDeepgit.tab"Navigation \(initializing…\)""
+# [decode] msgid "Navigation \(initializing…\)"
+#. Performing ', Close'
+#. Performing ', More options'
+#. Performing 'view-settings, Settings…'
+#. Showing dialog 17 (@LYH2L9) '@ZECS9N - Settings' (owner: @COGMZJ)
+#. Performing ', Close'
+#. Performing 'set-syntax, Syntax Language…'
+#. Showing dialog 18 (@HSTEUV) '@HJB33J - Select Syntax-Highlighting' (owner: @COGMZJ)
+#. Performing ', Cancel'
+#. Performing 'investigate, Investigate, Investigate history line-wise with DeepGit.'
+#. opening smartgit.bcC@K6H0HY:Investigate (smartgit.bcC@RZUY7K)
+msgctxt "wndDeepgit.tab:"
+msgid "Navigation \\(initializing\\u2026\\)"
 msgstr ""
 
 msgctxt "wndDeepgit.tab:"
@@ -15583,6 +16581,20 @@ msgctxt "wndLog.mni:"
 msgid "Drop All Notes"
 msgstr ""
 
+#. Performing ', Continue'
+#. Showing dialog 5 (@W54ZEP) '@G9AOBD - Passwords' (owner: @RDX8UE)
+#. Performing ', Cancel'
+#. Performing ', Cancel'
+#. Performing 'ai.commitMessageCompose, AI Commit Message Compose, The Git diff is too large. You can adjust this limit by 'smartgit-ai-commit-message.<name>.maxDiffSize' in your Git config.'
+#. Showing dialog 6 (@81P081) '@6YS5HM - AI Commit Message' (owner: @JC52F5)
+#. Performing ', OK'
+#. Performing 'ai.commitMessageCompose, AI Commit Message Compose, The Git diff is too large. You can adjust this limit by 'smartgit-ai-commit-message.<name>.maxDiffSize' in your Git config.'
+#. Showing dialog 7 (@K9PH6P) '@JXMOTJ - AI Commit Message' (owner: @JC52F5)
+#. Performing ', OK'
+msgctxt "wndLog.mni:"
+msgid "Explain Commit"
+msgstr ""
+
 #. Showing dialog 2 (@QHXIF5) '@HUBA1L - Edit Message' (owner: @TZQA8D)
 #. Performing ', Select'
 #. Performing ', Log...'
@@ -15595,6 +16607,20 @@ msgstr ""
 #. Performing ', More options'
 msgctxt "wndLog.mni:"
 msgid "On Manual Intervention"
+msgstr ""
+
+#. Performing ', Go Back'
+#. Performing ', Continue'
+#. Performing ', Go Back'
+#. Performing ', Continue'
+#. Performing ', Continue'
+#. Performing ', Continue'
+#. Performing ', Finish'
+#. Showing dialog 15 (@XJ01LJ) '@QS5EU5 - AI Setup' (owner: @RP5AL8)
+#. Performing ', OK'
+#. Performing 'ai.commitMessageCompose, AI Commit Message Compose'
+msgctxt "wndLog.mni:"
+msgid "Reconfigure"
 msgstr ""
 
 #. Showing dialog 2 (@QHXIF5) '@HUBA1L - Edit Message' (owner: @TZQA8D)
@@ -15639,6 +16665,20 @@ msgctxt "wndLog.mni:"
 msgid "Stop"
 msgstr ""
 
+#. Performing ', Continue'
+#. Showing dialog 5 (@W54ZEP) '@G9AOBD - Passwords' (owner: @RDX8UE)
+#. Performing ', Cancel'
+#. Performing ', Cancel'
+#. Performing 'ai.commitMessageCompose, AI Commit Message Compose, The Git diff is too large. You can adjust this limit by 'smartgit-ai-commit-message.<name>.maxDiffSize' in your Git config.'
+#. Showing dialog 6 (@81P081) '@6YS5HM - AI Commit Message' (owner: @JC52F5)
+#. Performing ', OK'
+#. Performing 'ai.commitMessageCompose, AI Commit Message Compose, The Git diff is too large. You can adjust this limit by 'smartgit-ai-commit-message.<name>.maxDiffSize' in your Git config.'
+#. Showing dialog 7 (@K9PH6P) '@JXMOTJ - AI Commit Message' (owner: @JC52F5)
+#. Performing ', OK'
+msgctxt "wndLog.mni:"
+msgid "generate \\(active\\)"
+msgstr ""
+
 #. Performing 'repositoryEditConfig, Repository'
 #. opening smartgit.cgZ@NCS8DH:config - [C:\XXXXXX\smartgit-translations\.git] - Editor (smartgit.cgZ@NH4V0N)
 #. Performing '@smartgit.bEZ'
@@ -15649,8 +16689,78 @@ msgstr ""
 #. Performing ', Confirm'
 #. Showing dialog 9 (@PJHNCC) '@XNKBRV - AI Commit Message Compose' (owner: @SC6OIC)
 #. Performing ', OK'
-msgctxt "wndLog.mni\"github \\(active\\)\""
+msgctxt "wndLog.mni:"
 msgid "github \\(active\\)"
+msgstr ""
+
+#. Performing ', Continue'
+#. Showing dialog 5 (@W54ZEP) '@G9AOBD - Passwords' (owner: @RDX8UE)
+#. Performing ', Cancel'
+#. Performing ', Cancel'
+#. Performing 'ai.commitMessageCompose, AI Commit Message Compose, The Git diff is too large. You can adjust this limit by 'smartgit-ai-commit-message.<name>.maxDiffSize' in your Git config.'
+#. Showing dialog 6 (@81P081) '@6YS5HM - AI Commit Message' (owner: @JC52F5)
+#. Performing ', OK'
+#. Performing 'ai.commitMessageCompose, AI Commit Message Compose, The Git diff is too large. You can adjust this limit by 'smartgit-ai-commit-message.<name>.maxDiffSize' in your Git config.'
+#. Showing dialog 7 (@K9PH6P) '@JXMOTJ - AI Commit Message' (owner: @JC52F5)
+#. Performing ', OK'
+msgctxt "wndLog.mni:"
+msgid "ja-elyza"
+msgstr ""
+
+#. Performing ', Continue'
+#. Showing dialog 5 (@W54ZEP) '@G9AOBD - Passwords' (owner: @RDX8UE)
+#. Performing ', Cancel'
+#. Performing ', Cancel'
+#. Performing 'ai.commitMessageCompose, AI Commit Message Compose, The Git diff is too large. You can adjust this limit by 'smartgit-ai-commit-message.<name>.maxDiffSize' in your Git config.'
+#. Showing dialog 6 (@81P081) '@6YS5HM - AI Commit Message' (owner: @JC52F5)
+#. Performing ', OK'
+#. Performing 'ai.commitMessageCompose, AI Commit Message Compose, The Git diff is too large. You can adjust this limit by 'smartgit-ai-commit-message.<name>.maxDiffSize' in your Git config.'
+#. Showing dialog 7 (@K9PH6P) '@JXMOTJ - AI Commit Message' (owner: @JC52F5)
+#. Performing ', OK'
+msgctxt "wndLog.mni:"
+msgid "ja-gpt-4.1"
+msgstr ""
+
+#. Performing ', Continue'
+#. Showing dialog 5 (@W54ZEP) '@G9AOBD - Passwords' (owner: @RDX8UE)
+#. Performing ', Cancel'
+#. Performing ', Cancel'
+#. Performing 'ai.commitMessageCompose, AI Commit Message Compose, The Git diff is too large. You can adjust this limit by 'smartgit-ai-commit-message.<name>.maxDiffSize' in your Git config.'
+#. Showing dialog 6 (@81P081) '@6YS5HM - AI Commit Message' (owner: @JC52F5)
+#. Performing ', OK'
+#. Performing 'ai.commitMessageCompose, AI Commit Message Compose, The Git diff is too large. You can adjust this limit by 'smartgit-ai-commit-message.<name>.maxDiffSize' in your Git config.'
+#. Showing dialog 7 (@K9PH6P) '@JXMOTJ - AI Commit Message' (owner: @JC52F5)
+#. Performing ', OK'
+msgctxt "wndLog.mni:"
+msgid "ja-gpt-o4-mini"
+msgstr ""
+
+#. Performing ', Continue'
+#. Showing dialog 5 (@W54ZEP) '@G9AOBD - Passwords' (owner: @RDX8UE)
+#. Performing ', Cancel'
+#. Performing ', Cancel'
+#. Performing 'ai.commitMessageCompose, AI Commit Message Compose, The Git diff is too large. You can adjust this limit by 'smartgit-ai-commit-message.<name>.maxDiffSize' in your Git config.'
+#. Showing dialog 6 (@81P081) '@6YS5HM - AI Commit Message' (owner: @JC52F5)
+#. Performing ', OK'
+#. Performing 'ai.commitMessageCompose, AI Commit Message Compose, The Git diff is too large. You can adjust this limit by 'smartgit-ai-commit-message.<name>.maxDiffSize' in your Git config.'
+#. Showing dialog 7 (@K9PH6P) '@JXMOTJ - AI Commit Message' (owner: @JC52F5)
+#. Performing ', OK'
+msgctxt "wndLog.mni:"
+msgid "ja-llama4"
+msgstr ""
+
+#. Performing ', Continue'
+#. Showing dialog 5 (@W54ZEP) '@G9AOBD - Passwords' (owner: @RDX8UE)
+#. Performing ', Cancel'
+#. Performing ', Cancel'
+#. Performing 'ai.commitMessageCompose, AI Commit Message Compose, The Git diff is too large. You can adjust this limit by 'smartgit-ai-commit-message.<name>.maxDiffSize' in your Git config.'
+#. Showing dialog 6 (@81P081) '@6YS5HM - AI Commit Message' (owner: @JC52F5)
+#. Performing ', OK'
+#. Performing 'ai.commitMessageCompose, AI Commit Message Compose, The Git diff is too large. You can adjust this limit by 'smartgit-ai-commit-message.<name>.maxDiffSize' in your Git config.'
+#. Showing dialog 7 (@K9PH6P) '@JXMOTJ - AI Commit Message' (owner: @JC52F5)
+#. Performing ', OK'
+msgctxt "wndLog.mni:"
+msgid "ja-qwen3"
 msgstr ""
 
 msgctxt "wndLog.mniFixCaseChange"
@@ -15665,7 +16775,7 @@ msgstr ""
 # [decode] msgctxt "wndLog.tab"Graph \(Initializing Subtree-Cache…\)""
 # [decode] msgid "Graph \(Initializing Subtree-Cache…\)"
 #. opening smartgit.byM@135E49B2:SmartGit 24.1.3 (smartgit.byM@79D3473E)
-msgctxt "wndLog.tab\"Graph \\(Initializing Subtree-Cache\\u2026\\)\""
+msgctxt "wndLog.tab:"
 msgid "Graph \\(Initializing Subtree-Cache\\u2026\\)"
 msgstr ""
 
@@ -15681,7 +16791,7 @@ msgstr ""
 #. Performing 'viewUnversioned, Show Unversioned Files, If selected, not yet version controlled files will be shown.'
 #. Performing ',   Import mismatch'
 #. Performing 'stage, Stage, Store working tree files in the index to prepare the next commit.'
-msgctxt "wndLog.tab\"Graph \\(Loading\\u2026\\)\""
+msgctxt "wndLog.tab:"
 msgid "Graph \\(Loading\\u2026\\)"
 msgstr ""
 
@@ -15697,7 +16807,7 @@ msgstr ""
 #. Performing 'viewUnversioned, Show Unversioned Files, If selected, not yet version controlled files will be shown.'
 #. Performing ',   Import mismatch'
 #. Performing 'stage, Stage, Store working tree files in the index to prepare the next commit.'
-msgctxt "wndLog.tab\"Graph \\(Running log\\u2026\\)\""
+msgctxt "wndLog.tab:"
 msgid "Graph \\(Running log\\u2026\\)"
 msgstr ""
 
@@ -15713,7 +16823,7 @@ msgstr ""
 #. Performing 'viewIgnored, Show Ignored Files, If selected, ignored files will be shown.'
 #. Performing 'viewUnversioned, Show Unversioned Files, If selected, not yet version controlled files will be shown.'
 #. Performing ',   Import mismatch'
-msgctxt "wndLog.tab\"Graph \\(Scanning WT\\u2026\\)\""
+msgctxt "wndLog.tab:"
 msgid "Graph \\(Scanning WT\\u2026\\)"
 msgstr ""
 
@@ -15735,8 +16845,330 @@ msgctxt "wndLog.tbtAi.commitMessageCompose"
 msgid "smartgit.jy: Cancelled"
 msgstr ""
 
+#. Performing 'changesView.compact, Compact'
+#. Performing 'changesView.unified, Unified'
+#. Performing 'changesView.sideBySide, Side by Side'
+#. Performing 'windowWorkingTree, Show Working Tree Window'
+#. opening smartgit.bPc@4DYP88:SmartGit 25.1 RC (Working Tree) (smartgit.bPc@2ZNMC7) (index=0)
+#. Performing 'previewCompareHeadVsIndex, HEAD vs. Index, Show changes between index (staged state) and HEAD (repository state).'
+#. Performing 'previewCompareIndexVsWT, Index vs. Working Tree, Show changes between local file (working tree) and Index (staged state).'
+#. Performing 'previewCompareHeadVsIndex, HEAD vs. Index, Show changes between index (staged state) and HEAD (repository state).'
+#. Performing 'previewCompareAutomatic, Automatic'
+#. Performing 'previewCompareHeadVsIndex, HEAD vs. Index, Show changes between index (staged state) and HEAD (repository state).'
+msgctxt "wndProject.mni:"
+msgid "Base"
+msgstr ""
+
 msgctxt "wndProject.mni:"
 msgid "Log Selection"
+msgstr ""
+
+#. Performing 'changesView.compact, Compact'
+#. Performing 'changesView.unified, Unified'
+#. Performing 'changesView.sideBySide, Side by Side'
+#. Performing 'windowWorkingTree, Show Working Tree Window'
+#. opening smartgit.bPc@4DYP88:SmartGit 25.1 RC (Working Tree) (smartgit.bPc@2ZNMC7) (index=0)
+#. Performing 'previewCompareHeadVsIndex, HEAD vs. Index, Show changes between index (staged state) and HEAD (repository state).'
+#. Performing 'previewCompareIndexVsWT, Index vs. Working Tree, Show changes between local file (working tree) and Index (staged state).'
+#. Performing 'previewCompareHeadVsIndex, HEAD vs. Index, Show changes between index (staged state) and HEAD (repository state).'
+#. Performing 'previewCompareAutomatic, Automatic'
+#. Performing 'previewCompareHeadVsIndex, HEAD vs. Index, Show changes between index (staged state) and HEAD (repository state).'
+msgctxt "wndProject.mni:"
+msgid "New_key"
+msgstr ""
+
+#. Performing 'changesView.compact, Compact'
+#. Performing 'changesView.unified, Unified'
+#. Performing 'changesView.sideBySide, Side by Side'
+#. Performing 'windowWorkingTree, Show Working Tree Window'
+#. opening smartgit.bPc@4DYP88:SmartGit 25.1 RC (Working Tree) (smartgit.bPc@2ZNMC7) (index=0)
+#. Performing 'previewCompareHeadVsIndex, HEAD vs. Index, Show changes between index (staged state) and HEAD (repository state).'
+#. Performing 'previewCompareIndexVsWT, Index vs. Working Tree, Show changes between local file (working tree) and Index (staged state).'
+#. Performing 'previewCompareHeadVsIndex, HEAD vs. Index, Show changes between index (staged state) and HEAD (repository state).'
+#. Performing 'previewCompareAutomatic, Automatic'
+#. Performing 'previewCompareHeadVsIndex, HEAD vs. Index, Show changes between index (staged state) and HEAD (repository state).'
+msgctxt "wndProject.mni:"
+msgid "PR_Review"
+msgstr ""
+
+#. Performing 'changesView.compact, Compact'
+#. Performing 'changesView.unified, Unified'
+#. Performing 'changesView.sideBySide, Side by Side'
+#. Performing 'windowWorkingTree, Show Working Tree Window'
+#. opening smartgit.bPc@4DYP88:SmartGit 25.1 RC (Working Tree) (smartgit.bPc@2ZNMC7) (index=0)
+#. Performing 'previewCompareHeadVsIndex, HEAD vs. Index, Show changes between index (staged state) and HEAD (repository state).'
+#. Performing 'previewCompareIndexVsWT, Index vs. Working Tree, Show changes between local file (working tree) and Index (staged state).'
+#. Performing 'previewCompareHeadVsIndex, HEAD vs. Index, Show changes between index (staged state) and HEAD (repository state).'
+#. Performing 'previewCompareAutomatic, Automatic'
+#. Performing 'previewCompareHeadVsIndex, HEAD vs. Index, Show changes between index (staged state) and HEAD (repository state).'
+msgctxt "wndProject.mni:"
+msgid "Review_Tool"
+msgstr ""
+
+#. Performing ', Cancel'
+#. Performing 'repositorySearch, Search for Repositories…, Search for existing repositories.'
+#. Showing dialog 21 (@JJK4EX) '@R1NDJM - Search for Repositories' (owner: @4BTDFP)
+#. Performing ', Cancel'
+#. Performing 'changesView.compact, Compact'
+#. Performing 'changesView.compact, Compact'
+#. Performing 'changesView.unified, Unified'
+#. Performing 'changesView.sideBySide, Side by Side'
+#. Performing 'windowWorkingTree, Show Working Tree Window'
+#. opening smartgit.bPc@4DYP88:SmartGit 25.1 RC (Working Tree) (smartgit.bPc@2ZNMC7) (index=0)
+msgctxt "wndProject.mni:"
+msgid "Select from GitHub"
+msgstr ""
+
+#. Performing 'changesView.compact, Compact'
+#. Performing 'changesView.unified, Unified'
+#. Performing 'changesView.sideBySide, Side by Side'
+#. Performing 'windowWorkingTree, Show Working Tree Window'
+#. opening smartgit.bPc@4DYP88:SmartGit 25.1 RC (Working Tree) (smartgit.bPc@2ZNMC7) (index=0)
+#. Performing 'previewCompareHeadVsIndex, HEAD vs. Index, Show changes between index (staged state) and HEAD (repository state).'
+#. Performing 'previewCompareIndexVsWT, Index vs. Working Tree, Show changes between local file (working tree) and Index (staged state).'
+#. Performing 'previewCompareHeadVsIndex, HEAD vs. Index, Show changes between index (staged state) and HEAD (repository state).'
+#. Performing 'previewCompareAutomatic, Automatic'
+#. Performing 'previewCompareHeadVsIndex, HEAD vs. Index, Show changes between index (staged state) and HEAD (repository state).'
+msgctxt "wndProject.mni:"
+msgid "Show Rewritten Behind Commits"
+msgstr ""
+
+#. Performing 'changesView.compact, Compact'
+#. Performing 'changesView.unified, Unified'
+#. Performing 'changesView.sideBySide, Side by Side'
+#. Performing 'windowWorkingTree, Show Working Tree Window'
+#. opening smartgit.bPc@4DYP88:SmartGit 25.1 RC (Working Tree) (smartgit.bPc@2ZNMC7) (index=0)
+#. Performing 'previewCompareHeadVsIndex, HEAD vs. Index, Show changes between index (staged state) and HEAD (repository state).'
+#. Performing 'previewCompareIndexVsWT, Index vs. Working Tree, Show changes between local file (working tree) and Index (staged state).'
+#. Performing 'previewCompareHeadVsIndex, HEAD vs. Index, Show changes between index (staged state) and HEAD (repository state).'
+#. Performing 'previewCompareAutomatic, Automatic'
+#. Performing 'previewCompareHeadVsIndex, HEAD vs. Index, Show changes between index (staged state) and HEAD (repository state).'
+msgctxt "wndProject.mni:"
+msgid "a"
+msgstr ""
+
+#. Performing 'changesView.compact, Compact'
+#. Performing 'changesView.unified, Unified'
+#. Performing 'changesView.sideBySide, Side by Side'
+#. Performing 'windowWorkingTree, Show Working Tree Window'
+#. opening smartgit.bPc@4DYP88:SmartGit 25.1 RC (Working Tree) (smartgit.bPc@2ZNMC7) (index=0)
+#. Performing 'previewCompareHeadVsIndex, HEAD vs. Index, Show changes between index (staged state) and HEAD (repository state).'
+#. Performing 'previewCompareIndexVsWT, Index vs. Working Tree, Show changes between local file (working tree) and Index (staged state).'
+#. Performing 'previewCompareHeadVsIndex, HEAD vs. Index, Show changes between index (staged state) and HEAD (repository state).'
+#. Performing 'previewCompareAutomatic, Automatic'
+#. Performing 'previewCompareHeadVsIndex, HEAD vs. Index, Show changes between index (staged state) and HEAD (repository state).'
+msgctxt "wndProject.mni:"
+msgid "feature/LLM_review_script"
+msgstr ""
+
+#. Performing 'changesView.compact, Compact'
+#. Performing 'changesView.unified, Unified'
+#. Performing 'changesView.sideBySide, Side by Side'
+#. Performing 'windowWorkingTree, Show Working Tree Window'
+#. opening smartgit.bPc@4DYP88:SmartGit 25.1 RC (Working Tree) (smartgit.bPc@2ZNMC7) (index=0)
+#. Performing 'previewCompareHeadVsIndex, HEAD vs. Index, Show changes between index (staged state) and HEAD (repository state).'
+#. Performing 'previewCompareIndexVsWT, Index vs. Working Tree, Show changes between local file (working tree) and Index (staged state).'
+#. Performing 'previewCompareHeadVsIndex, HEAD vs. Index, Show changes between index (staged state) and HEAD (repository state).'
+#. Performing 'previewCompareAutomatic, Automatic'
+#. Performing 'previewCompareHeadVsIndex, HEAD vs. Index, Show changes between index (staged state) and HEAD (repository state).'
+msgctxt "wndProject.mni:"
+msgid "feature/consistency_checker"
+msgstr ""
+
+#. Performing 'changesView.compact, Compact'
+#. Performing 'changesView.unified, Unified'
+#. Performing 'changesView.sideBySide, Side by Side'
+#. Performing 'windowWorkingTree, Show Working Tree Window'
+#. opening smartgit.bPc@4DYP88:SmartGit 25.1 RC (Working Tree) (smartgit.bPc@2ZNMC7) (index=0)
+#. Performing 'previewCompareHeadVsIndex, HEAD vs. Index, Show changes between index (staged state) and HEAD (repository state).'
+#. Performing 'previewCompareIndexVsWT, Index vs. Working Tree, Show changes between local file (working tree) and Index (staged state).'
+#. Performing 'previewCompareHeadVsIndex, HEAD vs. Index, Show changes between index (staged state) and HEAD (repository state).'
+#. Performing 'previewCompareAutomatic, Automatic'
+#. Performing 'previewCompareHeadVsIndex, HEAD vs. Index, Show changes between index (staged state) and HEAD (repository state).'
+msgctxt "wndProject.mni:"
+msgid "feature/duplicate-msgctxt-detection-script"
+msgstr ""
+
+#. Performing 'changesView.compact, Compact'
+#. Performing 'changesView.unified, Unified'
+#. Performing 'changesView.sideBySide, Side by Side'
+#. Performing 'windowWorkingTree, Show Working Tree Window'
+#. opening smartgit.bPc@4DYP88:SmartGit 25.1 RC (Working Tree) (smartgit.bPc@2ZNMC7) (index=0)
+#. Performing 'previewCompareHeadVsIndex, HEAD vs. Index, Show changes between index (staged state) and HEAD (repository state).'
+#. Performing 'previewCompareIndexVsWT, Index vs. Working Tree, Show changes between local file (working tree) and Index (staged state).'
+#. Performing 'previewCompareHeadVsIndex, HEAD vs. Index, Show changes between index (staged state) and HEAD (repository state).'
+#. Performing 'previewCompareAutomatic, Automatic'
+#. Performing 'previewCompareHeadVsIndex, HEAD vs. Index, Show changes between index (staged state) and HEAD (repository state).'
+msgctxt "wndProject.mni:"
+msgid "feature/legacy_proof_reader"
+msgstr ""
+
+#. Performing 'changesView.compact, Compact'
+#. Performing 'changesView.unified, Unified'
+#. Performing 'changesView.sideBySide, Side by Side'
+#. Performing 'windowWorkingTree, Show Working Tree Window'
+#. opening smartgit.bPc@4DYP88:SmartGit 25.1 RC (Working Tree) (smartgit.bPc@2ZNMC7) (index=0)
+#. Performing 'previewCompareHeadVsIndex, HEAD vs. Index, Show changes between index (staged state) and HEAD (repository state).'
+#. Performing 'previewCompareIndexVsWT, Index vs. Working Tree, Show changes between local file (working tree) and Index (staged state).'
+#. Performing 'previewCompareHeadVsIndex, HEAD vs. Index, Show changes between index (staged state) and HEAD (repository state).'
+#. Performing 'previewCompareAutomatic, Automatic'
+#. Performing 'previewCompareHeadVsIndex, HEAD vs. Index, Show changes between index (staged state) and HEAD (repository state).'
+msgctxt "wndProject.mni:"
+msgid "feature/migrate-to-astral-uv"
+msgstr ""
+
+#. Performing 'changesView.compact, Compact'
+#. Performing 'changesView.unified, Unified'
+#. Performing 'changesView.sideBySide, Side by Side'
+#. Performing 'windowWorkingTree, Show Working Tree Window'
+#. opening smartgit.bPc@4DYP88:SmartGit 25.1 RC (Working Tree) (smartgit.bPc@2ZNMC7) (index=0)
+#. Performing 'previewCompareHeadVsIndex, HEAD vs. Index, Show changes between index (staged state) and HEAD (repository state).'
+#. Performing 'previewCompareIndexVsWT, Index vs. Working Tree, Show changes between local file (working tree) and Index (staged state).'
+#. Performing 'previewCompareHeadVsIndex, HEAD vs. Index, Show changes between index (staged state) and HEAD (repository state).'
+#. Performing 'previewCompareAutomatic, Automatic'
+#. Performing 'previewCompareHeadVsIndex, HEAD vs. Index, Show changes between index (staged state) and HEAD (repository state).'
+msgctxt "wndProject.mni:"
+msgid "feature/po-formatter-with-gh-actions"
+msgstr ""
+
+#. Performing 'changesView.compact, Compact'
+#. Performing 'changesView.unified, Unified'
+#. Performing 'changesView.sideBySide, Side by Side'
+#. Performing 'windowWorkingTree, Show Working Tree Window'
+#. opening smartgit.bPc@4DYP88:SmartGit 25.1 RC (Working Tree) (smartgit.bPc@2ZNMC7) (index=0)
+#. Performing 'previewCompareHeadVsIndex, HEAD vs. Index, Show changes between index (staged state) and HEAD (repository state).'
+#. Performing 'previewCompareIndexVsWT, Index vs. Working Tree, Show changes between local file (working tree) and Index (staged state).'
+#. Performing 'previewCompareHeadVsIndex, HEAD vs. Index, Show changes between index (staged state) and HEAD (repository state).'
+#. Performing 'previewCompareAutomatic, Automatic'
+#. Performing 'previewCompareHeadVsIndex, HEAD vs. Index, Show changes between index (staged state) and HEAD (repository state).'
+msgctxt "wndProject.mni:"
+msgid "main"
+msgstr ""
+
+#. Performing 'changesView.compact, Compact'
+#. Performing 'changesView.unified, Unified'
+#. Performing 'changesView.sideBySide, Side by Side'
+#. Performing 'windowWorkingTree, Show Working Tree Window'
+#. opening smartgit.bPc@4DYP88:SmartGit 25.1 RC (Working Tree) (smartgit.bPc@2ZNMC7) (index=0)
+#. Performing 'previewCompareHeadVsIndex, HEAD vs. Index, Show changes between index (staged state) and HEAD (repository state).'
+#. Performing 'previewCompareIndexVsWT, Index vs. Working Tree, Show changes between local file (working tree) and Index (staged state).'
+#. Performing 'previewCompareHeadVsIndex, HEAD vs. Index, Show changes between index (staged state) and HEAD (repository state).'
+#. Performing 'previewCompareAutomatic, Automatic'
+#. Performing 'previewCompareHeadVsIndex, HEAD vs. Index, Show changes between index (staged state) and HEAD (repository state).'
+msgctxt "wndProject.mni:"
+msgid "main-adem4ik"
+msgstr ""
+
+#. Performing 'changesView.compact, Compact'
+#. Performing 'changesView.unified, Unified'
+#. Performing 'changesView.sideBySide, Side by Side'
+#. Performing 'windowWorkingTree, Show Working Tree Window'
+#. opening smartgit.bPc@4DYP88:SmartGit 25.1 RC (Working Tree) (smartgit.bPc@2ZNMC7) (index=0)
+#. Performing 'previewCompareHeadVsIndex, HEAD vs. Index, Show changes between index (staged state) and HEAD (repository state).'
+#. Performing 'previewCompareIndexVsWT, Index vs. Working Tree, Show changes between local file (working tree) and Index (staged state).'
+#. Performing 'previewCompareHeadVsIndex, HEAD vs. Index, Show changes between index (staged state) and HEAD (repository state).'
+#. Performing 'previewCompareAutomatic, Automatic'
+#. Performing 'previewCompareHeadVsIndex, HEAD vs. Index, Show changes between index (staged state) and HEAD (repository state).'
+msgctxt "wndProject.mni:"
+msgid "main-upstream"
+msgstr ""
+
+#. Performing 'changesView.compact, Compact'
+#. Performing 'changesView.unified, Unified'
+#. Performing 'changesView.sideBySide, Side by Side'
+#. Performing 'windowWorkingTree, Show Working Tree Window'
+#. opening smartgit.bPc@4DYP88:SmartGit 25.1 RC (Working Tree) (smartgit.bPc@2ZNMC7) (index=0)
+#. Performing 'previewCompareHeadVsIndex, HEAD vs. Index, Show changes between index (staged state) and HEAD (repository state).'
+#. Performing 'previewCompareIndexVsWT, Index vs. Working Tree, Show changes between local file (working tree) and Index (staged state).'
+#. Performing 'previewCompareHeadVsIndex, HEAD vs. Index, Show changes between index (staged state) and HEAD (repository state).'
+#. Performing 'previewCompareAutomatic, Automatic'
+#. Performing 'previewCompareHeadVsIndex, HEAD vs. Index, Show changes between index (staged state) and HEAD (repository state).'
+msgctxt "wndProject.mni:"
+msgid "new_proof_reader"
+msgstr ""
+
+#. Performing 'changesView.compact, Compact'
+#. Performing 'changesView.unified, Unified'
+#. Performing 'changesView.sideBySide, Side by Side'
+#. Performing 'windowWorkingTree, Show Working Tree Window'
+#. opening smartgit.bPc@4DYP88:SmartGit 25.1 RC (Working Tree) (smartgit.bPc@2ZNMC7) (index=0)
+#. Performing 'previewCompareHeadVsIndex, HEAD vs. Index, Show changes between index (staged state) and HEAD (repository state).'
+#. Performing 'previewCompareIndexVsWT, Index vs. Working Tree, Show changes between local file (working tree) and Index (staged state).'
+#. Performing 'previewCompareHeadVsIndex, HEAD vs. Index, Show changes between index (staged state) and HEAD (repository state).'
+#. Performing 'previewCompareAutomatic, Automatic'
+#. Performing 'previewCompareHeadVsIndex, HEAD vs. Index, Show changes between index (staged state) and HEAD (repository state).'
+msgctxt "wndProject.mni:"
+msgid "poeditor"
+msgstr ""
+
+#. Performing 'changesView.compact, Compact'
+#. Performing 'changesView.unified, Unified'
+#. Performing 'changesView.sideBySide, Side by Side'
+#. Performing 'windowWorkingTree, Show Working Tree Window'
+#. opening smartgit.bPc@4DYP88:SmartGit 25.1 RC (Working Tree) (smartgit.bPc@2ZNMC7) (index=0)
+#. Performing 'previewCompareHeadVsIndex, HEAD vs. Index, Show changes between index (staged state) and HEAD (repository state).'
+#. Performing 'previewCompareIndexVsWT, Index vs. Working Tree, Show changes between local file (working tree) and Index (staged state).'
+#. Performing 'previewCompareHeadVsIndex, HEAD vs. Index, Show changes between index (staged state) and HEAD (repository state).'
+#. Performing 'previewCompareAutomatic, Automatic'
+#. Performing 'previewCompareHeadVsIndex, HEAD vs. Index, Show changes between index (staged state) and HEAD (repository state).'
+msgctxt "wndProject.mni:"
+msgid "pot-wip/24.1-merged"
+msgstr ""
+
+#. Performing 'changesView.compact, Compact'
+#. Performing 'changesView.unified, Unified'
+#. Performing 'changesView.sideBySide, Side by Side'
+#. Performing 'windowWorkingTree, Show Working Tree Window'
+#. opening smartgit.bPc@4DYP88:SmartGit 25.1 RC (Working Tree) (smartgit.bPc@2ZNMC7) (index=0)
+#. Performing 'previewCompareHeadVsIndex, HEAD vs. Index, Show changes between index (staged state) and HEAD (repository state).'
+#. Performing 'previewCompareIndexVsWT, Index vs. Working Tree, Show changes between local file (working tree) and Index (staged state).'
+#. Performing 'previewCompareHeadVsIndex, HEAD vs. Index, Show changes between index (staged state) and HEAD (repository state).'
+#. Performing 'previewCompareAutomatic, Automatic'
+#. Performing 'previewCompareHeadVsIndex, HEAD vs. Index, Show changes between index (staged state) and HEAD (repository state).'
+msgctxt "wndProject.mni:"
+msgid "pot-wip/24.1_mac"
+msgstr ""
+
+#. Performing 'changesView.compact, Compact'
+#. Performing 'changesView.unified, Unified'
+#. Performing 'changesView.sideBySide, Side by Side'
+#. Performing 'windowWorkingTree, Show Working Tree Window'
+#. opening smartgit.bPc@4DYP88:SmartGit 25.1 RC (Working Tree) (smartgit.bPc@2ZNMC7) (index=0)
+#. Performing 'previewCompareHeadVsIndex, HEAD vs. Index, Show changes between index (staged state) and HEAD (repository state).'
+#. Performing 'previewCompareIndexVsWT, Index vs. Working Tree, Show changes between local file (working tree) and Index (staged state).'
+#. Performing 'previewCompareHeadVsIndex, HEAD vs. Index, Show changes between index (staged state) and HEAD (repository state).'
+#. Performing 'previewCompareAutomatic, Automatic'
+#. Performing 'previewCompareHeadVsIndex, HEAD vs. Index, Show changes between index (staged state) and HEAD (repository state).'
+msgctxt "wndProject.mni:"
+msgid "proof-reading-proto"
+msgstr ""
+
+#. Performing 'changesView.compact, Compact'
+#. Performing 'changesView.unified, Unified'
+#. Performing 'changesView.sideBySide, Side by Side'
+#. Performing 'windowWorkingTree, Show Working Tree Window'
+#. opening smartgit.bPc@4DYP88:SmartGit 25.1 RC (Working Tree) (smartgit.bPc@2ZNMC7) (index=0)
+#. Performing 'previewCompareHeadVsIndex, HEAD vs. Index, Show changes between index (staged state) and HEAD (repository state).'
+#. Performing 'previewCompareIndexVsWT, Index vs. Working Tree, Show changes between local file (working tree) and Index (staged state).'
+#. Performing 'previewCompareHeadVsIndex, HEAD vs. Index, Show changes between index (staged state) and HEAD (repository state).'
+#. Performing 'previewCompareAutomatic, Automatic'
+#. Performing 'previewCompareHeadVsIndex, HEAD vs. Index, Show changes between index (staged state) and HEAD (repository state).'
+msgctxt "wndProject.mni:"
+msgid "ru_upd_250531"
+msgstr ""
+
+#. Performing 'changesView.compact, Compact'
+#. Performing 'changesView.unified, Unified'
+#. Performing 'changesView.sideBySide, Side by Side'
+#. Performing 'windowWorkingTree, Show Working Tree Window'
+#. opening smartgit.bPc@4DYP88:SmartGit 25.1 RC (Working Tree) (smartgit.bPc@2ZNMC7) (index=0)
+#. Performing 'previewCompareHeadVsIndex, HEAD vs. Index, Show changes between index (staged state) and HEAD (repository state).'
+#. Performing 'previewCompareIndexVsWT, Index vs. Working Tree, Show changes between local file (working tree) and Index (staged state).'
+#. Performing 'previewCompareHeadVsIndex, HEAD vs. Index, Show changes between index (staged state) and HEAD (repository state).'
+#. Performing 'previewCompareAutomatic, Automatic'
+#. Performing 'previewCompareHeadVsIndex, HEAD vs. Index, Show changes between index (staged state) and HEAD (repository state).'
+msgctxt "wndProject.mni:"
+msgid "wip3"
 msgstr ""
 
 #. opening smartgit.bDU@N23FXO:SmartGit 25.1 Preview Evaluation until Aug 2 (smartgit.bDU@CGQJ1R)
@@ -15809,7 +17241,7 @@ msgstr ""
 #. Performing 'repositoryOpen, Open Repository'
 #. Performing 'repositoryOpen, Open Repository'
 #. Performing 'repositoryOpen, Open Repository'
-msgctxt "wndStd.hnt\"Loading \\u2026\""
+msgctxt "wndStd.hnt:"
 msgid "Loading \\u2026"
 msgstr ""
 
@@ -15920,6 +17352,34 @@ msgctxt "wndStd.mni:"
 msgid "Continue with Description"
 msgstr ""
 
+#. Performing 'repositoryClone, Clone…, Clone a new repository.'
+#. Showing dialog 20 (@M67DNX) '@S42ZST - Clone' (owner: @4BTDFP)
+#. Performing ', Cancel'
+#. Performing 'repositorySearch, Search for Repositories…, Search for existing repositories.'
+#. Showing dialog 21 (@JJK4EX) '@R1NDJM - Search for Repositories' (owner: @4BTDFP)
+#. Performing ', Cancel'
+#. Performing 'changesView.compact, Compact'
+#. Performing 'changesView.compact, Compact'
+#. Performing 'changesView.unified, Unified'
+#. Performing 'changesView.sideBySide, Side by Side'
+msgctxt "wndStd.mni:"
+msgid "Don't Show Pull Requests"
+msgstr ""
+
+#. Performing ', Cancel'
+#. Performing 'investigate, Investigate, Investigate history line-wise with DeepGit.'
+#. opening smartgit.bcC@K6H0HY:Investigate (smartgit.bcC@RZUY7K)
+#. Performing ', Go Deeper'
+#. Performing 'newStandardWindow, Show Standard Window'
+#. opening smartgit.aBE@R1EVY7:null (smartgit.aBE@4BTDFP)
+#. Performing 'stdSetModeHistory, Show History, Show the history view.'
+#. Performing ', Show Local Changes'
+#. Performing 'stdSetModeWt, Show Local Changes, Show the local files of the repository (Working Tree).'
+#. Performing 'stdSetModeHistory, Show History, Show the history view.'
+msgctxt "wndStd.mni:"
+msgid "Explain Commit"
+msgstr ""
+
 msgctxt "wndStd.mni:"
 msgid "Fetch All"
 msgstr ""
@@ -16025,6 +17485,62 @@ msgctxt "wndStd.mni:"
 msgid "Select from GitHub"
 msgstr ""
 
+#. Performing 'repositoryClone, Clone…, Clone a new repository.'
+#. Showing dialog 20 (@M67DNX) '@S42ZST - Clone' (owner: @4BTDFP)
+#. Performing ', Cancel'
+#. Performing 'repositorySearch, Search for Repositories…, Search for existing repositories.'
+#. Showing dialog 21 (@JJK4EX) '@R1NDJM - Search for Repositories' (owner: @4BTDFP)
+#. Performing ', Cancel'
+#. Performing 'changesView.compact, Compact'
+#. Performing 'changesView.compact, Compact'
+#. Performing 'changesView.unified, Unified'
+#. Performing 'changesView.sideBySide, Side by Side'
+msgctxt "wndStd.mni:"
+msgid "Show 'My' Pull Requests \\(involving me\\)"
+msgstr ""
+
+#. Performing 'repositoryClone, Clone…, Clone a new repository.'
+#. Showing dialog 20 (@M67DNX) '@S42ZST - Clone' (owner: @4BTDFP)
+#. Performing ', Cancel'
+#. Performing 'repositorySearch, Search for Repositories…, Search for existing repositories.'
+#. Showing dialog 21 (@JJK4EX) '@R1NDJM - Search for Repositories' (owner: @4BTDFP)
+#. Performing ', Cancel'
+#. Performing 'changesView.compact, Compact'
+#. Performing 'changesView.compact, Compact'
+#. Performing 'changesView.unified, Unified'
+#. Performing 'changesView.sideBySide, Side by Side'
+msgctxt "wndStd.mni:"
+msgid "Show 'My' and Unassigned Pull Requests"
+msgstr ""
+
+#. Performing 'repositoryClone, Clone…, Clone a new repository.'
+#. Showing dialog 20 (@M67DNX) '@S42ZST - Clone' (owner: @4BTDFP)
+#. Performing ', Cancel'
+#. Performing 'repositorySearch, Search for Repositories…, Search for existing repositories.'
+#. Showing dialog 21 (@JJK4EX) '@R1NDJM - Search for Repositories' (owner: @4BTDFP)
+#. Performing ', Cancel'
+#. Performing 'changesView.compact, Compact'
+#. Performing 'changesView.compact, Compact'
+#. Performing 'changesView.unified, Unified'
+#. Performing 'changesView.sideBySide, Side by Side'
+msgctxt "wndStd.mni:"
+msgid "Show All Pull Requests"
+msgstr ""
+
+#. Performing ', Cancel'
+#. Performing 'investigate, Investigate, Investigate history line-wise with DeepGit.'
+#. opening smartgit.bcC@K6H0HY:Investigate (smartgit.bcC@RZUY7K)
+#. Performing ', Go Deeper'
+#. Performing 'newStandardWindow, Show Standard Window'
+#. opening smartgit.aBE@R1EVY7:null (smartgit.aBE@4BTDFP)
+#. Performing 'stdSetModeHistory, Show History, Show the history view.'
+#. Performing ', Show Local Changes'
+#. Performing 'stdSetModeWt, Show Local Changes, Show the local files of the repository (Working Tree).'
+#. Performing 'stdSetModeHistory, Show History, Show the history view.'
+msgctxt "wndStd.mni:"
+msgid "Show Tags"
+msgstr ""
+
 msgctxt "wndStd.mni:"
 msgid "Sort by File Name"
 msgstr ""
@@ -16122,6 +17638,20 @@ msgstr ""
 
 msgctxt "wndStd.tbr:"
 msgid "Submodule"
+msgstr ""
+
+#. Showing dialog 17 (@LYH2L9) '@ZECS9N - Settings' (owner: @COGMZJ)
+#. Performing ', Close'
+#. Performing 'set-syntax, Syntax Language…'
+#. Showing dialog 18 (@HSTEUV) '@HJB33J - Select Syntax-Highlighting' (owner: @COGMZJ)
+#. Performing ', Cancel'
+#. Performing 'investigate, Investigate, Investigate history line-wise with DeepGit.'
+#. opening smartgit.bcC@K6H0HY:Investigate (smartgit.bcC@RZUY7K)
+#. Performing ', Go Deeper'
+#. Performing 'newStandardWindow, Show Standard Window'
+#. opening smartgit.aBE@R1EVY7:null (smartgit.aBE@4BTDFP)
+msgctxt "wndStd.tbt:"
+msgid "History"
 msgstr ""
 
 msgctxt "wndStd.tbtFlowFeatureStart"
