@@ -7318,7 +7318,7 @@ msgstr "プッシュされたコミットの修正を許可する (例: force-pu
 #, pretranslated
 msgctxt "dlgSgPreferences.chk:"
 msgid "Allow modifying pushed commits \\(e.g. forced-push\\):"
-msgstr "(206) ⭐️プッシュされたコミットの変更を許可する（例：強制プッシュ）:"
+msgstr "プッシュされたコミットの変更を許可する（例：強制プッシュ）:"
 
 msgctxt "dlgSgPreferences.chk:"
 msgid "Allow to open multiple Log windows for the same repository/file"
@@ -8301,7 +8301,7 @@ msgstr "大文字小文字を区別する"
 #, pretranslated
 msgctxt "dlgSgPreferences.rbt:"
 msgid "For all branches"
-msgstr "(227) ⭐️すべてのブランチのために"
+msgstr "すべてのブランチ"
 
 msgctxt "dlgSgPreferences.rbt:"
 msgid "Ignore case \\('Foo' will match 'Foo' and 'foo'\\)"
@@ -8322,7 +8322,7 @@ msgstr "ロググラフ \\(コミット中心\\)"
 #, pretranslated
 msgctxt "dlgSgPreferences.rbt:"
 msgid "Only for feature branches"
-msgstr "(228) ⭐️フィーチャーブランチ専用"
+msgstr "フィーチャーブランチのみ"
 
 msgctxt "dlgSgPreferences.rbt:"
 msgid "Other Git Executable:"
@@ -15003,11 +15003,10 @@ msgctxt "wndStd.mniStdOpenSubmoduleFromFile"
 msgid "Open this Submodule"
 msgstr "このサブモジュールを開く"
 
-#, pretranslated
 #| msgid "Open in GitHub"
 msgctxt "wndStd.mniStdProviderOpenInBrowser"
 msgid "Open in $1"
-msgstr "(389) ⭐️$1で開く"
+msgstr "$1で開く"
 
 msgctxt "wndStd.mniStdSetModeHistory"
 msgid "Show History"
@@ -15025,10 +15024,9 @@ msgctxt "wndStd.tbr:"
 msgid "Submodule"
 msgstr "サブモジュール"
 
-#, pretranslated
 msgctxt "wndStd.tbt:"
 msgid "History"
-msgstr "(390) ⭐️履歴"
+msgstr "履歴"
 
 msgctxt "wndStd.tbtFlowFeatureStart"
 msgid "Start a new feature branch."
