@@ -161,14 +161,17 @@ msgctxt "dlgCommitInvisibleIndex.tle:"
 msgid "Commit"
 msgstr "コミット"
 
+#, fuzzy
 msgctxt "dlgCommitNoEmailConfigured.fur:"
 msgid "Before committing you will have to configure your name and email, e.g. in the SmartGit Preferences."
 msgstr "(1) ⭐️コミットする前に、名前とメールアドレスを設定する必要があります。例えば、SmartGitの設定で行います。"
 
+#, fuzzy
 msgctxt "dlgCommitNoEmailConfigured.hdl:"
 msgid "Please configure the email for commit."
 msgstr "(2) ⭐️コミットのためのメールアドレスを設定してください。"
 
+#, fuzzy
 msgctxt "dlgCommitNoEmailConfigured.tle:"
 msgid "Commit"
 msgstr "コミット"
@@ -1112,10 +1115,12 @@ msgstr "登録"
 #
 # msgctxt "dlgScEvaluationReminderContinue.fur"
 # msgid "To use SmartGit, you will have to register a license file.\\n\\nIn a commercial environment you need to \\[https://www.syntevo.com/smartgit/purchase?evaluationReminderNotification purchase a license\\].\\n\\nFor \\[https://www.syntevo.com/register-non-commercial/?evaluationReminderNotification certain uses\\] we grant free licenses."
+#, fuzzy
 msgctxt "dlgScEvaluationReminderContinue.fur%2:"
 msgid "To use SmartGit in a commercial environment, you will have to \\[$1 purchase a license\\].\\n\\nFor \\[$2 certain uses\\] we grant free licenses."
 msgstr "商用環境で SmartGit を使用するには、\\[$1 ライセンスを購入\\]する必要があります。\\n\\n \\[$2 特定の用途\\] については、無料のライセンスを付与します。"
 
+#, fuzzy
 msgctxt "dlgScEvaluationReminderContinue.hdl:"
 msgid "Your SmartGit evaluation ends today."
 msgstr "SmartGitの評価は本日で終了します。"
@@ -1155,14 +1160,17 @@ msgctxt "dlgScEvaluationReminderExpiredGrace.btn:"
 msgid "Register"
 msgstr "登録"
 
+#, fuzzy
 msgctxt "dlgScEvaluationReminderExpiredGrace.fur:"
 msgid "To use SmartGit, you will have to register a license file.\\n\\nIn a commercial environment you need to \\[https://www.syntevo.com/smartgit/purchase?evaluationReminderNotification purchase a license\\].\\n\\nFor \\[https://www.syntevo.com/register-non-commercial/?evaluationReminderNotification certain uses\\] we grant free licenses."
 msgstr "(18) ⭐️SmartGitを使用するには、ライセンスファイルを登録する必要があります。\\n\\n商業環境では、\\[https://www.syntevo.com/smartgit/purchase?evaluationReminderNotification ライセンスを購入する\\]必要があります。\\n\\n\\[https://www.syntevo.com/register-non-commercial/?evaluationReminderNotification 特定の使用\\]に対しては、無料ライセンスを付与します。"
 
+#, fuzzy
 msgctxt "dlgScEvaluationReminderExpiredGrace.hdl:"
 msgid "Your evaluation has already expired."
 msgstr "(19) ⭐️あなたの評価はすでに期限切れです。"
 
+#, fuzzy
 msgctxt "dlgScEvaluationReminderExpiredGrace.tle:"
 msgid "Evaluation"
 msgstr "評価"
@@ -1175,26 +1183,32 @@ msgctxt "dlgScExternalFileStarterCommandInvocationFailed.tle%1:"
 msgid "\\[$1\\] - Conflict Solver"
 msgstr "\\[$1\\] - コンフリクトソルバー"
 
+#, fuzzy
 msgctxt "dlgScExternalFileStarterCommandNoFile.fur:"
 msgid "Be sure to add arguments to the appropriate input field."
 msgstr "(21) ⭐️適切な入力フィールドに引数を追加してください。"
 
+#, fuzzy
 msgctxt "dlgScExternalFileStarterCommandNoFile.hdl:"
 msgid "The specified command is no file."
 msgstr "(22) ⭐️指定されたコマンドにはファイルがありません。"
 
+#, fuzzy
 msgctxt "dlgScExternalFileStarterCommandNoFile.tle:"
 msgid "Input Validation"
 msgstr "(23) ⭐️入力検証"
 
+#, fuzzy
 msgctxt "dlgScExternalFileStarterEmptyCommand.fur:"
 msgid "Select the command which should be invoked."
 msgstr "(24) ⭐️呼び出すべきコマンドを選択してください。"
 
+#, fuzzy
 msgctxt "dlgScExternalFileStarterEmptyCommand.hdl:"
 msgid "The Command input field must not be empty!"
 msgstr "(25) ⭐️コマンド入力フィールドは空であってはいけません！"
 
+#, fuzzy
 msgctxt "dlgScExternalFileStarterEmptyCommand.tle:"
 msgid "Input Validation"
 msgstr "(26) ⭐️入力検証"
@@ -1807,14 +1821,17 @@ msgctxt "dlgScSetupLicenseNeedsRestart.btn:"
 msgid "Restart Now"
 msgstr "(38) ⭐️今すぐ再起動"
 
+#, fuzzy
 msgctxt "dlgScSetupLicenseNeedsRestart.fur:"
 msgid "You can do that now or manually later."
 msgstr "(39) ⭐️今すぐそれを行うか、後で手動で行うことができます。"
 
+#, fuzzy
 msgctxt "dlgScSetupLicenseNeedsRestart.hdl:"
 msgid "SmartGit has to be restarted for the license change to take effect."
 msgstr "(40) ⭐️ライセンスの変更を有効にするためには、SmartGitを再起動する必要があります。"
 
+#, fuzzy
 msgctxt "dlgScSetupLicenseNeedsRestart.tle:"
 msgid "SmartGit License"
 msgstr "(41) ⭐️SmartGit ライセンス"
@@ -2177,6 +2194,7 @@ msgstr "リベースを中止"
 
 # TODO: Review
 # [decode] msgid "Your working tree is in 'rebasing' state. You may abort rebasing; if you just want to skip the current patch, use ブランチ \| リベース \| リベース instead.\n\nAborting will clean any local modification \(by invoking 'git rebase --abort'\)!"
+#, fuzzy
 #| msgid "Your working tree is in 'rebasing' state. You may abort rebasing; if you just want to skip the current patch, use \\u30d6\\u30e9\\u30f3\\u30c1 \\| \\u30ea\\u30d9\\u30fc\\u30b9 \\| \\u30ea\\u30d9\\u30fc\\u30b9 instead.\\n\\nAborting will clean any local modification \\(by invoking 'git rebase --abort'\\)!"
 msgctxt "dlgSgAbortRebasingConfirm.fur:"
 msgid "Your working tree is in 'rebasing' state. You may abort rebasing; if you just want to skip the current patch, use $1 instead.\\n\\nAborting will clean any local modification \\(by invoking 'git rebase --abort'\\)!"
@@ -4981,14 +4999,17 @@ msgctxt "dlgSgGitHubCommitMessageSelect.col:"
 msgid "Title"
 msgstr "(152) ⭐️タイトル"
 
+#, fuzzy
 msgctxt "dlgSgGitHubCommitMessageSelect.hdl:"
 msgid "Select commit message by GitHub issue"
 msgstr "(153) ⭐️GitHubのイシューによるコミットメッセージを選択してください"
 
+#, fuzzy
 msgctxt "dlgSgGitHubCommitMessageSelect.inf:"
 msgid "The selected issue summary will be used as commit message."
 msgstr "選択された課題の概要がコミットメッセージとして使用されます。"
 
+#, fuzzy
 msgctxt "dlgSgGitHubCommitMessageSelect.tle:"
 msgid "Select Issue"
 msgstr "課題の選択"
@@ -6878,6 +6899,11 @@ msgctxt "dlgSgOutput.lbl:"
 msgid "Command Start Support Branch failed!"
 msgstr "コマンド 「サポートブランチを開始」 に失敗しました!"
 
+#| msgid "Command Tool tm-apply produced warnings."
+msgctxt "dlgSgOutput.lbl:"
+msgid "Command Tool $1 produced warnings."
+msgstr ""
+
 msgctxt "dlgSgOutput.lbl:"
 msgid "Command Unregister Submodule failed!"
 msgstr "コマンド「サブモジュールの登録解除」に失敗しました！"
@@ -6901,6 +6927,11 @@ msgstr "(199) ⭐️以下のコマンド出力には、問題に関する詳細
 msgctxt "dlgSgOutput.lbl:"
 msgid "The working tree has local changes."
 msgstr "作業ツリーにローカルな変更があります。"
+
+#| msgid "Tool tm-apply succeeded."
+msgctxt "dlgSgOutput.lbl:"
+msgid "Tool $1 succeeded."
+msgstr ""
 
 msgctxt "dlgSgOutput.lbl:"
 msgid "Your local changes to the following files would be overwritten by checkout:\\ncould not detach HEAD"
@@ -9045,18 +9076,22 @@ msgctxt "dlgSgRebaseContinueNothingToCommitModifyContinue.btn:"
 msgid "Continue \\(Resume\\)"
 msgstr "(245) ⭐️続ける \\(再開\\)"
 
+#, fuzzy
 msgctxt "dlgSgRebaseContinueNothingToCommitModifyContinue.chk:"
 msgid "Don't show again"
 msgstr "次回から表示しない"
 
+#, fuzzy
 msgctxt "dlgSgRebaseContinueNothingToCommitModifyContinue.fur:"
 msgid "Clicking 'Continue' will resume the rebase, e.g. to finish after having modified the commit\\(s\\)."
 msgstr "(247) ⭐️「続行」をクリックすると、リベースが再開されます。たとえば、コミットを修正した後に終了するためです。"
 
+#, fuzzy
 msgctxt "dlgSgRebaseContinueNothingToCommitModifyContinue.hdl:"
 msgid "Do you want to continue the modify-commit-rebase?"
 msgstr "(248) ⭐️修正コミットリベースを続行しますか？"
 
+#, fuzzy
 msgctxt "dlgSgRebaseContinueNothingToCommitModifyContinue.tle:"
 msgid "Modify Commit"
 msgstr "(249) ⭐️コミットを修正"
@@ -9066,18 +9101,22 @@ msgctxt "dlgSgRebaseContinueNothingToCommitModifyStep.btn:"
 msgid "Step"
 msgstr "ステップ"
 
+#, fuzzy
 msgctxt "dlgSgRebaseContinueNothingToCommitModifyStep.chk:"
 msgid "Don't show again"
 msgstr "次回から表示しない"
 
+#, fuzzy
 msgctxt "dlgSgRebaseContinueNothingToCommitModifyStep.fur:"
 msgid "Clicking 'Step' will continue the rebase and stop at the next commit. Use it to step through all pending commits, e.g. to verify whether they successfully build."
 msgstr "(252) ⭐️'ステップ'をクリックすると、リベースが続行され、次のコミットで停止します。これを使用して、すべての保留中のコミットをステップ実行し、成功裏にビルドされるかどうかを確認します。"
 
+#, fuzzy
 msgctxt "dlgSgRebaseContinueNothingToCommitModifyStep.hdl:"
 msgid "Do you want to step to the next commit?"
 msgstr "(253) ⭐️次のコミットに進みますか？"
 
+#, fuzzy
 msgctxt "dlgSgRebaseContinueNothingToCommitModifyStep.tle:"
 msgid "Modify Commit"
 msgstr "(254) ⭐️コミットを修正"
@@ -10023,6 +10062,7 @@ msgctxt "dlgSgRepositorySettings.hdl:"
 msgid "Edit the repository settings"
 msgstr "リポジトリの設定を編集する"
 
+#, fuzzy
 #| msgid "Here you can edit the Git settings for the repository. The default settings can be found in the preferences."
 msgctxt "dlgSgRepositorySettings.inf:"
 msgid "Here you can edit the Git settings for the repository. The default settings can be found in the Preferences."
@@ -12498,7 +12538,7 @@ msgstr "機能追加・変更に関する意見募集"
 
 msgctxt "ntmFollowUsOnX:"
 msgid "<link1>Bluesky</link1>: news"
-msgstr "(308) ⭐️<link1>Bluesky</link1>: ニュース"
+msgstr "<link1>Bluesky</link1>: ニュース"
 
 msgctxt "ntmFollowUsOnX:"
 msgid "<link1>Bluesky</link1>: news, polls, discussions"
@@ -12510,7 +12550,7 @@ msgstr "<link1>Facebook</link1>: ニュース"
 
 msgctxt "ntmFollowUsOnX:"
 msgid "<link1>Mastodon</link1>: news"
-msgstr "(310) ⭐️<link1>Mastodon</link1>: ニュース"
+msgstr "<link1>Mastodon</link1>: ニュース"
 
 msgctxt "ntmFollowUsOnX:"
 msgid "<link1>Mastodon</link1>: news, polls, discussions"
@@ -12518,11 +12558,11 @@ msgstr "<link1>Mastodon</link1>: ニュース、投票、ディスカッショ�
 
 msgctxt "ntmFollowUsOnX:"
 msgid "<link1>Reddit</link1>: discussions"
-msgstr "(311) ⭐️<link1>Reddit</link1>: 議論"
+msgstr "<link1>Reddit</link1>: 議論"
 
 msgctxt "ntmFollowUsOnX:"
 msgid "<link1>UserEcho</link1>: feature requests, voting"
-msgstr "(312) ⭐️<link1>UserEcho</link1>: 機能リクエスト、投票"
+msgstr "<link1>UserEcho</link1>: 機能リクエスト、投票"
 
 msgctxt "ntmFollowUsOnX:"
 msgid "<link1>UserEcho</link1>: improvement ideas, discussions"
@@ -12530,7 +12570,7 @@ msgstr "<link1>UserEcho</link1>: 改善のアイデア、ディスカッショ�
 
 msgctxt "ntmFollowUsOnX:"
 msgid "<link1>X</link1>: news"
-msgstr "(313) ⭐️<link1>X</link1>: ニュース"
+msgstr "<link1>X</link1>: ニュース"
 
 msgctxt "ntmFollowUsOnX:"
 msgid "<link1>X</link1>: news, polls, discussions"
@@ -13115,8 +13155,16 @@ msgid "Open File"
 msgstr "(326) ⭐️ファイルを開く"
 
 msgctxt "wnd.mni:"
+msgid "Open in Terminal"
+msgstr ""
+
+msgctxt "wnd.mni:"
 msgid "Open in VSCode"
 msgstr "(327) ⭐️VSCodeで開く"
+
+msgctxt "wnd.mni:"
+msgid "Reveal in Finder"
+msgstr ""
 
 msgctxt "wnd.mni:"
 msgid "SmartGit Website"
@@ -13141,10 +13189,6 @@ msgstr "(332) ⭐️マイヒストリーに表示"
 msgctxt "wnd.mniWindow-maximize:"
 msgid "Zoom"
 msgstr "(333) ⭐️ズーム"
-
-msgctxt "wnd.mniWindowMaximizeRestore:"
-msgid "Maximize View"
-msgstr "(334) ⭐️ビューを最大化"
 
 msgctxt "wndAnnotate.cmb:"
 msgid "Age"
@@ -14420,10 +14464,6 @@ msgctxt "wndProject.mniFixCaseChange:"
 msgid "Fix Case-Change"
 msgstr "大文字小文字の修正"
 
-msgctxt "wndProject.mniOpen:"
-msgid "Open"
-msgstr "開く"
-
 msgctxt "wndStd.btn:"
 msgid "Compare"
 msgstr "比較"
@@ -14716,7 +14756,7 @@ msgstr "最小化"
 
 msgctxt "wnd(Annotate|Compare|ConflictSolver|Deepgit|Git.indexEditor|Editor|Log|Project|Std|).mniWindowMaximizeRestore:"
 msgid "Maximize View"
-msgstr "ビューを最大化"
+msgstr ""
 
 msgctxt "wnd(Annotate|Compare|ConflictSolver|Deepgit|Git.indexEditor|Editor|Log|Project|Std|).mniWindowMaximizeRestore:"
 msgid "Restore Maximized View"
@@ -15864,7 +15904,7 @@ msgstr "選択されたRefのみ表示"
 
 msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "Show Rewritten Behind Commits"
-msgstr "(368) ⭐️コミットの背後にある書き換えを表示"
+msgstr ""
 
 msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "Show Unchanged Directories"
@@ -16468,7 +16508,7 @@ msgstr "作業ツリーから開く"
 
 msgctxt "wnd(Log|Project|Std|).mniOpen:"
 msgid "Open"
-msgstr "開く"
+msgstr ""
 
 msgctxt "wnd(Log|Project|Std|).mniOpenDocumentation:"
 msgid "Online Documentation"
