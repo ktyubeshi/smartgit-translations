@@ -171,7 +171,6 @@ msgctxt "dlgCommitNoEmailConfigured.hdl:"
 msgid "Please configure the email for commit."
 msgstr "(2) ⭐️コミットのためのメールアドレスを設定してください。"
 
-#, fuzzy
 msgctxt "dlgCommitNoEmailConfigured.tle:"
 msgid "Commit"
 msgstr "コミット"
@@ -1112,7 +1111,7 @@ msgstr "登録"
 
 # TODO: Review
 # We need to verify whether the placeholder replacement is appropriate.
-#
+# 
 # msgctxt "dlgScEvaluationReminderContinue.fur"
 # msgid "To use SmartGit, you will have to register a license file.\\n\\nIn a commercial environment you need to \\[https://www.syntevo.com/smartgit/purchase?evaluationReminderNotification purchase a license\\].\\n\\nFor \\[https://www.syntevo.com/register-non-commercial/?evaluationReminderNotification certain uses\\] we grant free licenses."
 #, fuzzy
@@ -1150,12 +1149,10 @@ msgctxt "dlgScEvaluationReminderExpiredGrace.btn:"
 msgid "Continue \\($1\\)"
 msgstr "(15) ⭐️続ける \\($1\\)"
 
-#, fuzzy
 msgctxt "dlgScEvaluationReminderExpiredGrace.btn:"
 msgid "Exit"
 msgstr "終了"
 
-#, fuzzy
 msgctxt "dlgScEvaluationReminderExpiredGrace.btn:"
 msgid "Register"
 msgstr "登録"
@@ -1170,7 +1167,6 @@ msgctxt "dlgScEvaluationReminderExpiredGrace.hdl:"
 msgid "Your evaluation has already expired."
 msgstr "(19) ⭐️あなたの評価はすでに期限切れです。"
 
-#, fuzzy
 msgctxt "dlgScEvaluationReminderExpiredGrace.tle:"
 msgid "Evaluation"
 msgstr "評価"
@@ -1697,7 +1693,6 @@ msgctxt "dlgScRegisterFormLicenseConfirmDetails.edt:"
 msgid "Free Updates Until"
 msgstr "無料アップデート期間"
 
-#, fuzzy
 msgctxt "dlgScRegisterFormLicenseConfirmDetails.edt:"
 msgid "License ID"
 msgstr "ライセンスID"
@@ -4897,11 +4892,11 @@ msgstr "'$1' ブランチからフェッチ"
 
 msgctxt "dlgSgFlowSupportStart.chk:"
 msgid "Fetch from base branch"
-msgstr "(144) ⭐️ベースブランチからフェッチ"
+msgstr "ベースブランチからフェッチ"
 
 msgctxt "dlgSgFlowSupportStart.edt:"
 msgid "Base"
-msgstr "(145) ⭐️ベース"
+msgstr "ベース"
 
 msgctxt "dlgSgFlowSupportStart.edt:"
 msgid "Support Name"
@@ -4971,6 +4966,7 @@ msgctxt "dlgSgGitConfigEditConfigNotFound.fur:"
 msgid "The file $1config could not be opened for editing."
 msgstr "(146) ⭐️ファイル $1config を編集のために開くことができませんでした。"
 
+# Config may be a variable.
 msgctxt "dlgSgGitConfigEditConfigNotFound.hdl:"
 msgid "The file config was not found."
 msgstr "(147) ⭐️ファイル config が見つかりませんでした。"
@@ -4979,25 +4975,21 @@ msgctxt "dlgSgGitConfigEditConfigNotFound.tle:"
 msgid "Edit Config"
 msgstr "(148) ⭐️設定を編集"
 
-#, fuzzy
 msgctxt "dlgSgGitHubCommitMessageSelect.btn:"
 msgid "Refresh"
 msgstr "更新"
 
-#, fuzzy
 msgctxt "dlgSgGitHubCommitMessageSelect.btn:"
 msgid "Select"
-msgstr "(150) ⭐️選択"
+msgstr "選択"
 
-#, fuzzy
 msgctxt "dlgSgGitHubCommitMessageSelect.col:"
 msgid "Number"
-msgstr "(151) ⭐️番号"
+msgstr "番号"
 
-#, fuzzy
 msgctxt "dlgSgGitHubCommitMessageSelect.col:"
 msgid "Title"
-msgstr "(152) ⭐️タイトル"
+msgstr "タイトル"
 
 #, fuzzy
 msgctxt "dlgSgGitHubCommitMessageSelect.hdl:"
@@ -6902,7 +6894,7 @@ msgstr "コマンド 「サポートブランチを開始」 に失敗しまし�
 #| msgid "Command Tool tm-apply produced warnings."
 msgctxt "dlgSgOutput.lbl:"
 msgid "Command Tool $1 produced warnings."
-msgstr ""
+msgstr "コマンド ツール $1 は警告を発しました"
 
 msgctxt "dlgSgOutput.lbl:"
 msgid "Command Unregister Submodule failed!"
@@ -6931,7 +6923,7 @@ msgstr "作業ツリーにローカルな変更があります。"
 #| msgid "Tool tm-apply succeeded."
 msgctxt "dlgSgOutput.lbl:"
 msgid "Tool $1 succeeded."
-msgstr ""
+msgstr "ツール $1 が成功しました。"
 
 msgctxt "dlgSgOutput.lbl:"
 msgid "Your local changes to the following files would be overwritten by checkout:\\ncould not detach HEAD"
@@ -13154,17 +13146,19 @@ msgctxt "wnd.mni:"
 msgid "Open File"
 msgstr "(326) ⭐️ファイルを開く"
 
+#, pretranslated
 msgctxt "wnd.mni:"
 msgid "Open in Terminal"
-msgstr ""
+msgstr "ターミナルで開く"
 
 msgctxt "wnd.mni:"
 msgid "Open in VSCode"
 msgstr "(327) ⭐️VSCodeで開く"
 
+#, pretranslated
 msgctxt "wnd.mni:"
 msgid "Reveal in Finder"
-msgstr ""
+msgstr "Finderで表示"
 
 msgctxt "wnd.mni:"
 msgid "SmartGit Website"
@@ -13652,7 +13646,7 @@ msgstr "ブレーム\\(処理中…\\)"
 # [decode] msgid "Blame \(in progress…\)"
 msgctxt "wndDeepgit.lblBlameHeader:"
 msgid "Blame \\(in progress\\u2026\\)"
-msgstr "(337) ⭐️Blame \\(進行中\\u2026\\)"
+msgstr "ブレーム\\(処理中…\\)"
 
 msgctxt "wndDeepgit.lblBlameHeader:"
 msgid "Blame for"
@@ -14056,7 +14050,7 @@ msgstr "コミット $1 で変更されたファイル"
 
 msgctxt "wndDeepgit.tab:"
 msgid "Files"
-msgstr "(339) ⭐️ファイル"
+msgstr "ファイル"
 
 msgctxt "wndDeepgit.tab:"
 msgid "Navigation \\(initializing...\\)"
@@ -14258,7 +14252,7 @@ msgstr "行をステージ"
 
 msgctxt "wndGit.indexEditor.mni:"
 msgid "Stage Lines"
-msgstr "(342) ⭐️行をステージする"
+msgstr "行をステージ"
 
 msgctxt "wndGit.indexEditor.mni:"
 msgid "Stage Selection"
@@ -14438,24 +14432,28 @@ msgstr "(362) ⭐️smartgit.jy: キャンセルされました"
 
 msgctxt "wndProject.mni:"
 msgid "Base"
-msgstr "(363) ⭐️ベース"
+msgstr "ベース"
 
 msgctxt "wndProject.mni:"
 msgid "Log Selection"
 msgstr "選択項目の履歴"
 
+#, fuzzy
 msgctxt "wndProject.mni:"
 msgid "New_key"
 msgstr "(364) ⭐️新しいキー"
 
+#, fuzzy
 msgctxt "wndProject.mni:"
 msgid "PR_Review"
 msgstr "(365) ⭐️PR_レビュー"
 
+#, fuzzy
 msgctxt "wndProject.mni:"
 msgid "Review_Tool"
 msgstr "(366) ⭐️レビュー_ツール"
 
+#, fuzzy
 msgctxt "wndProject.mni:"
 msgid "Select from GitHub"
 msgstr "(367) ⭐️GitHubから選択してください"
@@ -14492,6 +14490,7 @@ msgctxt "wndStd.hnt:"
 msgid "Commit files: select 1 commit\\nDiff between Commits: select 2 commits"
 msgstr "コミットするファイル: コミットを 1 つ選択\\nコミット間の差分: コミットを 2 つ選択"
 
+#, fuzzy
 msgctxt "wndStd.hnt:"
 msgid "Filter by repository name or path"
 msgstr "(370) ⭐️リポジトリ名またはパスでフィルタリング"
@@ -14506,6 +14505,7 @@ msgctxt "wndStd.hnt:"
 msgid "Loading \\u2026"
 msgstr "読み込み中\\u2026"
 
+#, fuzzy
 msgctxt "wndStd.hnt:"
 msgid "No graph roots selected."
 msgstr "(372) ⭐️グラフのルートが選択されていません。"
@@ -14550,6 +14550,7 @@ msgctxt "wndStd.mni:"
 msgid "All files, incl. ignored"
 msgstr "すべてのファイル (無視されたファイルを含む)"
 
+#, fuzzy
 msgctxt "wndStd.mni:"
 msgid "All my branches"
 msgstr "(373) ⭐️すべてのブランチ"
@@ -14566,18 +14567,22 @@ msgctxt "wndStd.mni:"
 msgid "Changed files"
 msgstr "変更されたファイル"
 
+#, fuzzy
 msgctxt "wndStd.mni:"
 msgid "Continue in Background"
 msgstr "(374) ⭐️バックグラウンドで続行"
 
+#, fuzzy
 msgctxt "wndStd.mni:"
 msgid "Continue with Description"
 msgstr "(375) ⭐️説明を続ける"
 
+#, fuzzy
 msgctxt "wndStd.mni:"
 msgid "Don't Show Pull Requests"
 msgstr "(376) ⭐️プルリクエストを表示しない"
 
+#, fuzzy
 msgctxt "wndStd.mni:"
 msgid "Explain Commit"
 msgstr "(377) ⭐️コミットの説明"
@@ -14602,6 +14607,7 @@ msgctxt "wndStd.mni:"
 msgid "Log"
 msgstr "ログ"
 
+#, fuzzy
 msgctxt "wndStd.mni:"
 msgid "On Manual Intervention"
 msgstr "(378) ⭐️手動介入について"
@@ -14614,6 +14620,7 @@ msgctxt "wndStd.mni:"
 msgid "Only current branch \\(HEAD\\)"
 msgstr "現在のブランチのみ \\(HEAD\\)"
 
+#, fuzzy
 msgctxt "wndStd.mni:"
 msgid "Open"
 msgstr "(379) ⭐️開く"
@@ -14634,6 +14641,7 @@ msgctxt "wndStd.mni:"
 msgid "Reset"
 msgstr "リセット"
 
+#, fuzzy
 msgctxt "wndStd.mni:"
 msgid "Reword '@ai' and 'WIP' commits"
 msgstr "(380) ⭐️'@ai' および 'WIP' コミットの文言を変更する"
@@ -14647,18 +14655,22 @@ msgctxt "wndStd.mni:"
 msgid "Select from GitHub"
 msgstr "(381) ⭐️GitHubから選択してください"
 
+#, fuzzy
 msgctxt "wndStd.mni:"
 msgid "Show 'My' Pull Requests \\(involving me\\)"
 msgstr "(382) ⭐️「私の」プルリクエストを表示する \\(私が関与している\\)"
 
+#, fuzzy
 msgctxt "wndStd.mni:"
 msgid "Show 'My' and Unassigned Pull Requests"
 msgstr "(383) ⭐️「自分の」および未割り当てのプルリクエストを表示"
 
+#, fuzzy
 msgctxt "wndStd.mni:"
 msgid "Show All Pull Requests"
 msgstr "(384) ⭐️すべてのプルリクエストを表示"
 
+#, fuzzy
 msgctxt "wndStd.mni:"
 msgid "Show Tags"
 msgstr "(385) ⭐️タグを表示"
@@ -14683,6 +14695,7 @@ msgctxt "wndStd.mniFixCaseChange:"
 msgid "Fix Case-Change"
 msgstr "大文字小文字の変更を修正"
 
+#, fuzzy
 msgctxt "wndStd.mniGitNoteAdd:"
 msgid "Add Note"
 msgstr "(387) ⭐️ノートを追加"
@@ -14691,6 +14704,7 @@ msgctxt "wndStd.mniIntegrateMain:"
 msgid "Integrate Main"
 msgstr "メインを統合"
 
+#, fuzzy
 msgctxt "wndStd.mniStdCiResultOpenInBrowser:"
 msgid "Open CI Result"
 msgstr "(388) ⭐️CI結果を開く"
