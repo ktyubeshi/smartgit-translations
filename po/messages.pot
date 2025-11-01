@@ -1112,7 +1112,7 @@ msgstr ""
 
 # TODO: Review
 # We need to verify whether the placeholder replacement is appropriate.
-#
+# 
 # msgctxt "dlgScEvaluationReminderContinue.fur"
 # msgid "To use SmartGit, you will have to register a license file.\\n\\nIn a commercial environment you need to \\[https://www.syntevo.com/smartgit/purchase?evaluationReminderNotification purchase a license\\].\\n\\nFor \\[https://www.syntevo.com/register-non-commercial/?evaluationReminderNotification certain uses\\] we grant free licenses."
 #, fuzzy
@@ -1759,8 +1759,9 @@ msgctxt "dlgScSecretToken.hdl:"
 msgid "Provide API key for '$1'"
 msgstr ""
 
+#| msgid "An API key is required to access the AI at 'http://127.0.0.1:1234/'. It will be stored in SmartGit's password store."
 msgctxt "dlgScSecretToken.inf:"
-msgid "An API key is required to access the AI at 'http://127.0.0.1:1234/'. It will be stored in SmartGit's password store."
+msgid "An API key is required to access the AI at '$1'. It will be stored in SmartGit's password store."
 msgstr ""
 
 msgctxt "dlgScSecretToken.lbl:"
