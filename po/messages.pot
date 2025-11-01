@@ -1112,7 +1112,7 @@ msgstr ""
 
 # TODO: Review
 # We need to verify whether the placeholder replacement is appropriate.
-# 
+#
 # msgctxt "dlgScEvaluationReminderContinue.fur"
 # msgid "To use SmartGit, you will have to register a license file.\\n\\nIn a commercial environment you need to \\[https://www.syntevo.com/smartgit/purchase?evaluationReminderNotification purchase a license\\].\\n\\nFor \\[https://www.syntevo.com/register-non-commercial/?evaluationReminderNotification certain uses\\] we grant free licenses."
 #, fuzzy
@@ -6895,6 +6895,11 @@ msgctxt "dlgSgOutput.lbl:"
 msgid "Command Start Support Branch failed!"
 msgstr ""
 
+#| msgid "Command Tool tm-apply produced warnings."
+msgctxt "dlgSgOutput.lbl:"
+msgid "Command Tool $1 produced warnings."
+msgstr ""
+
 msgctxt "dlgSgOutput.lbl:"
 msgid "Command Unregister Submodule failed!"
 msgstr ""
@@ -6917,6 +6922,11 @@ msgstr ""
 
 msgctxt "dlgSgOutput.lbl:"
 msgid "The working tree has local changes."
+msgstr ""
+
+#| msgid "Tool tm-apply succeeded."
+msgctxt "dlgSgOutput.lbl:"
+msgid "Tool $1 succeeded."
 msgstr ""
 
 msgctxt "dlgSgOutput.lbl:"
@@ -13140,7 +13150,15 @@ msgid "Open File"
 msgstr ""
 
 msgctxt "wnd.mni:"
+msgid "Open in Terminal"
+msgstr ""
+
+msgctxt "wnd.mni:"
 msgid "Open in VSCode"
+msgstr ""
+
+msgctxt "wnd.mni:"
+msgid "Reveal in Finder"
 msgstr ""
 
 msgctxt "wnd.mni:"
