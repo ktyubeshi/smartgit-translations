@@ -17813,7 +17813,6 @@ msgctxt "wndProject.mniCopyCommitId:"
 msgid "Copy"
 msgstr ""
 
-
 #. Performing ', Next >'
 #. Performing ', Next >'
 #. Performing ', Next >'
@@ -17926,7 +17925,6 @@ msgctxt "dlgSgProviderGenerateToken.inf:"
 msgid "Authenticate at GitHub and grant access to SmartGit."
 msgstr ""
 
-
 #. opening smartgit.bFH@8G42GZ:SmartGit 25.1 Evaluation until Dec 3 (smartgit.bFH@67QB84)
 #. Performing ', Reconfigure...'
 #. Showing dialog 0 (@GDWWI2) '@UGYSW9 - AI Setup' (owner: @67QB84)
@@ -18010,7 +18008,6 @@ msgctxt "dlgSgAiSetupExitEarly.tle:"
 msgid "AI Setup"
 msgstr ""
 
-
 #. Performing ', Next >'
 #. Performing ', Next >'
 #. Performing ', Next >'
@@ -18090,4 +18087,25 @@ msgstr ""
 #. opening smartgit.bFH@TLLG8F:SmartGit 25.1 (smartgit.bFH@V01YE9)
 msgctxt "nttWslWorkaround:"
 msgid "Open Documentation"
+msgstr ""
+
+#. # opening smartgit.bFH@HAJB6L:SmartGit 25.1 (smartgit.bFH@JJNZS4)
+#. # Performing '@smartgit.bRH'
+#. # Showing dialog 0 (@C1P8JG) '@7U36LK - Preferences' (owner: null)
+msgctxt "dlgSgPreferences.lbl:"
+msgid "Learn how to tailor AI for your projects with the complete \\[https://docs.syntevo.com/SmartGit/Latest/Manual/Integrations/AI SmartGit AI Integration documentation\\]."
+msgstr ""
+
+#. # opening smartgit.bFH@HAJB6L:SmartGit 25.1 (smartgit.bFH@JJNZS4)
+#. # Performing '@smartgit.bRH'
+#. # Showing dialog 0 (@C1P8JG) '@7U36LK - Preferences' (owner: null)
+msgctxt "dlgSgPreferences.lbl:"
+msgid "The AI integration is \\*manually configured\\*."
+msgstr ""
+
+#. # opening smartgit.bFH@HAJB6L:SmartGit 25.1 (smartgit.bFH@JJNZS4)
+#. # Performing '@smartgit.bRH'
+#. # Showing dialog 0 (@C1P8JG) '@7U36LK - Preferences' (owner: null)
+msgctxt "dlgSgPreferences.lbl:"
+msgid "To change it, edit your Git config files directly."
 msgstr ""
