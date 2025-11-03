@@ -2327,44 +2327,14 @@ msgctxt "dlgSgAiApiKeyRepoLlmConsent.hdl:"
 msgid "Do you allow SmartGit to upload repository data to $1?"
 msgstr "SmartGitがリポジトリデータを$1にアップロードすることを許可しますか？"
 
-#. Performing ', Next >'
-#. Performing ', Next >'
-#. Performing ', Next >'
-#. Performing ', Finish'
-#. Showing dialog 5 (@9LIPDC) '@C9B9MA - AI Setup' (owner: @L357LW)
-#. Performing ', OK'
-#. Performing 'discard, Discard..., Discard local changes.'
-#. Showing dialog 6 (@S2BSJB) '@DFO5HF - Discard' (owner: @47WVYS)
-#. Performing ', Cancel'
-#. Performing ', Explain Commit'
 msgctxt "dlgSgAiApiKeyRepoLlmConsent.tle:"
 msgid "AI Upload Consent"
 msgstr ""
 
-#. Performing ', Finish'
-#. Showing dialog 5 (@9LIPDC) '@C9B9MA - AI Setup' (owner: @L357LW)
-#. Performing ', OK'
-#. Performing 'discard, Discard..., Discard local changes.'
-#. Showing dialog 6 (@S2BSJB) '@DFO5HF - Discard' (owner: @47WVYS)
-#. Performing ', Cancel'
-#. Performing ', Explain Commit'
-#. Showing dialog 7 (@CRV7MV) '@P0EC5N - AI Upload Consent' (owner: @47WVYS)
-#. Performing ', Allow'
-#. Showing dialog 8 (@WE2AWB) '@2SL4VA - Annotate Commits' (owner: @47WVYS)
 msgctxt "dlgSgAiCommitAnnotatorError.hdl:"
 msgid "Failed to annotate selected commits."
 msgstr ""
 
-#. Performing ', Next >'
-#. Performing ', Finish'
-#. Showing dialog 5 (@9LIPDC) '@C9B9MA - AI Setup' (owner: @L357LW)
-#. Performing ', OK'
-#. Performing 'discard, Discard..., Discard local changes.'
-#. Showing dialog 6 (@S2BSJB) '@DFO5HF - Discard' (owner: @47WVYS)
-#. Performing ', Cancel'
-#. Performing ', Explain Commit'
-#. Showing dialog 7 (@CRV7MV) '@P0EC5N - AI Upload Consent' (owner: @47WVYS)
-#. Performing ', Allow'
 msgctxt "dlgSgAiCommitAnnotatorError.tle:"
 msgid "Annotate Commits"
 msgstr ""
@@ -2393,58 +2363,18 @@ msgctxt "dlgSgAiCommitMessageComposeError.tle:"
 msgid "AI Commit Message Compose"
 msgstr "(61) ⭐️AI コミットメッセージ作成"
 
-#. Performing ', Next >'
-#. Performing ', Next >'
-#. Performing ', Next >'
-#. Performing ', Finish'
-#. Showing dialog 10 (@C6UJFR) '@PH5FB6 - AI Setup' (owner: @SMAK1F)
-#. Performing ', OK'
-#. Performing 'editCommitMessage, Edit Message...'
-#. Showing dialog 11 (@NAHK0H) '@XH28OR - Edit Message' (owner: @67QB84)
-#. Performing ', Set Message'
-#. Showing dialog 12 (@JQ9S4C) '@G1GBI4 - Commit Message Rewording' (owner: @67QB84)
 msgctxt "dlgSgAiCommitMessageReworder.btn:"
 msgid "Reword"
 msgstr ""
 
-#. Performing ', Next >'
-#. Performing ', Next >'
-#. Performing ', Next >'
-#. Performing ', Finish'
-#. Showing dialog 10 (@C6UJFR) '@PH5FB6 - AI Setup' (owner: @SMAK1F)
-#. Performing ', OK'
-#. Performing 'editCommitMessage, Edit Message...'
-#. Showing dialog 11 (@NAHK0H) '@XH28OR - Edit Message' (owner: @67QB84)
-#. Performing ', Set Message'
-#. Showing dialog 12 (@JQ9S4C) '@G1GBI4 - Commit Message Rewording' (owner: @67QB84)
 msgctxt "dlgSgAiCommitMessageReworder.fur:"
 msgid "SmartGit has detected a commit message containing an AI-generation marker. If the commit has not yet been pushed, it can be automatically reworded in the background.\\n\\nYou can enable or disable this option from the AI popup menu."
 msgstr ""
 
-#. Performing ', Next >'
-#. Performing ', Next >'
-#. Performing ', Next >'
-#. Performing ', Finish'
-#. Showing dialog 10 (@C6UJFR) '@PH5FB6 - AI Setup' (owner: @SMAK1F)
-#. Performing ', OK'
-#. Performing 'editCommitMessage, Edit Message...'
-#. Showing dialog 11 (@NAHK0H) '@XH28OR - Edit Message' (owner: @67QB84)
-#. Performing ', Set Message'
-#. Showing dialog 12 (@JQ9S4C) '@G1GBI4 - Commit Message Rewording' (owner: @67QB84)
 msgctxt "dlgSgAiCommitMessageReworder.hdl:"
 msgid "Do you want to reword marked commits in the background?"
 msgstr ""
 
-#. Showing dialog 9 (@SMAK1F) '@JUW1DW - AI Setup' (owner: @67QB84)
-#. Performing ', Next >'
-#. Performing ', Next >'
-#. Performing ', Next >'
-#. Performing ', Finish'
-#. Showing dialog 10 (@C6UJFR) '@PH5FB6 - AI Setup' (owner: @SMAK1F)
-#. Performing ', OK'
-#. Performing 'editCommitMessage, Edit Message...'
-#. Showing dialog 11 (@NAHK0H) '@XH28OR - Edit Message' (owner: @67QB84)
-#. Performing ', Set Message'
 msgctxt "dlgSgAiCommitMessageReworder.tle:"
 msgid "Commit Message Rewording"
 msgstr ""
@@ -2567,16 +2497,6 @@ msgctxt "dlgSgAiSetup.inf:"
 msgid "SmartGit offers AI-powered features to enhance productivity, simplify workflows, and assist you with your repositories."
 msgstr "SmartGitは、生産性を向上させ、ワークフローを簡素化し、リポジトリの管理を支援するためにAI駆動の機能を提供します。"
 
-#. Showing dialog 1 (@PK2T8H) '@FT5Y56 - Preferences' (owner: @47WVYS)
-#. Performing ', Edit...'
-#. Showing dialog 2 (@UPL630) '@XWWC85 - Passwords' (owner: @PK2T8H)
-#. Performing ', OK'
-#. Showing dialog 3 (@BV14XF) '@IC0X8E - GitHub' (owner: @PK2T8H)
-#. Performing ', Cancel'
-#. Performing ', OK'
-#. Performing ', Reconfigure...'
-#. Showing dialog 4 (@L357LW) '@JDIB84 - AI Setup' (owner: @47WVYS)
-#. Performing ', Next >'
 msgctxt "dlgSgAiSetup.inf:"
 msgid "Verifying connectivity..."
 msgstr ""
@@ -2601,16 +2521,6 @@ msgctxt "dlgSgAiSetup.lbl:"
 msgid "Optional parameters"
 msgstr "(94) ⭐️オプションのパラメータ"
 
-#. Performing 'preferences, Preferences'
-#. Showing dialog 1 (@PK2T8H) '@FT5Y56 - Preferences' (owner: @47WVYS)
-#. Performing ', Edit...'
-#. Showing dialog 2 (@UPL630) '@XWWC85 - Passwords' (owner: @PK2T8H)
-#. Performing ', OK'
-#. Showing dialog 3 (@BV14XF) '@IC0X8E - GitHub' (owner: @PK2T8H)
-#. Performing ', Cancel'
-#. Performing ', OK'
-#. Performing ', Reconfigure...'
-#. Showing dialog 4 (@L357LW) '@JDIB84 - AI Setup' (owner: @47WVYS)
 msgctxt "dlgSgAiSetup.lbl:"
 msgid "Please wait ..."
 msgstr ""
@@ -2643,16 +2553,6 @@ msgctxt "dlgSgAiSetup.rbt:"
 msgid "Enable AI integration"
 msgstr "(101) ⭐️AI統合を有効にする"
 
-#. Performing ', Cancel'
-#. Performing 'preferences, Preferences'
-#. Showing dialog 1 (@PK2T8H) '@FT5Y56 - Preferences' (owner: @47WVYS)
-#. Performing ', Edit...'
-#. Showing dialog 2 (@UPL630) '@XWWC85 - Passwords' (owner: @PK2T8H)
-#. Performing ', OK'
-#. Showing dialog 3 (@BV14XF) '@IC0X8E - GitHub' (owner: @PK2T8H)
-#. Performing ', Cancel'
-#. Performing ', OK'
-#. Performing ', Reconfigure...'
 msgctxt "dlgSgAiSetup.tle:"
 msgid "AI Setup"
 msgstr "AI セットアップ"
@@ -2665,16 +2565,6 @@ msgctxt "dlgSgAiSetupConfigurationSuccess.hdl:"
 msgid "The AI integration has been configured successfully."
 msgstr "(103) ⭐️AI統合が正常に設定されました。"
 
-#. Performing ', OK'
-#. Showing dialog 3 (@BV14XF) '@IC0X8E - GitHub' (owner: @PK2T8H)
-#. Performing ', Cancel'
-#. Performing ', OK'
-#. Performing ', Reconfigure...'
-#. Showing dialog 4 (@L357LW) '@JDIB84 - AI Setup' (owner: @47WVYS)
-#. Performing ', Next >'
-#. Performing ', Next >'
-#. Performing ', Next >'
-#. Performing ', Finish'
 msgctxt "dlgSgAiSetupConfigurationSuccess.tle:"
 msgid "AI Setup"
 msgstr "AI セットアップ"
@@ -2687,85 +2577,26 @@ msgctxt "dlgSgAiSetupConnectivityFailed.hdl:"
 msgid "Connection to '$1' failed."
 msgstr "(105) ⭐️'$1'への接続に失敗しました。"
 
-#. opening smartgit.bFH@8G42GZ:SmartGit 25.1 Evaluation until Dec 3 (smartgit.bFH@67QB84)
-#. Performing ', Reconfigure...'
-#. Showing dialog 0 (@GDWWI2) '@UGYSW9 - AI Setup' (owner: @67QB84)
-#. Performing ', Next >'
-#. Showing dialog 1 (@J21Z8K) '@VCFBXX - Passwords' (owner: @GDWWI2)
-#. Performing ', OK'
-#. Performing ', Next >'
-#. Performing ', < Back'
-#. Performing ', Cancel'
-#. Showing dialog 2 (@86MVII) '@V81YET - AI Setup' (owner: @GDWWI2)
 msgctxt "dlgSgAiSetupExitEarly.btn:"
 msgid "Back to Setup"
 msgstr "セットアップに戻る"
 
-#. opening smartgit.bFH@8G42GZ:SmartGit 25.1 Evaluation until Dec 3 (smartgit.bFH@67QB84)
-#. Performing ', Reconfigure...'
-#. Showing dialog 0 (@GDWWI2) '@UGYSW9 - AI Setup' (owner: @67QB84)
-#. Performing ', Next >'
-#. Showing dialog 1 (@J21Z8K) '@VCFBXX - Passwords' (owner: @GDWWI2)
-#. Performing ', OK'
-#. Performing ', Next >'
-#. Performing ', < Back'
-#. Performing ', Cancel'
-#. Showing dialog 2 (@86MVII) '@V81YET - AI Setup' (owner: @GDWWI2)
 msgctxt "dlgSgAiSetupExitEarly.btn:"
 msgid "Enable and Exit"
 msgstr "有効化して終了"
 
-#. opening smartgit.bFH@8G42GZ:SmartGit 25.1 Evaluation until Dec 3 (smartgit.bFH@67QB84)
-#. Performing ', Reconfigure...'
-#. Showing dialog 0 (@GDWWI2) '@UGYSW9 - AI Setup' (owner: @67QB84)
-#. Performing ', Next >'
-#. Showing dialog 1 (@J21Z8K) '@VCFBXX - Passwords' (owner: @GDWWI2)
-#. Performing ', OK'
-#. Performing ', Next >'
-#. Performing ', < Back'
-#. Performing ', Cancel'
-#. Showing dialog 2 (@86MVII) '@V81YET - AI Setup' (owner: @GDWWI2)
 msgctxt "dlgSgAiSetupExitEarly.btn:"
 msgid "Exit without Enabling"
 msgstr "有効化せずに終了"
 
-#. opening smartgit.bFH@8G42GZ:SmartGit 25.1 Evaluation until Dec 3 (smartgit.bFH@67QB84)
-#. Performing ', Reconfigure...'
-#. Showing dialog 0 (@GDWWI2) '@UGYSW9 - AI Setup' (owner: @67QB84)
-#. Performing ', Next >'
-#. Showing dialog 1 (@J21Z8K) '@VCFBXX - Passwords' (owner: @GDWWI2)
-#. Performing ', OK'
-#. Performing ', Next >'
-#. Performing ', < Back'
-#. Performing ', Cancel'
-#. Showing dialog 2 (@86MVII) '@V81YET - AI Setup' (owner: @GDWWI2)
 msgctxt "dlgSgAiSetupExitEarly.fur:"
 msgid "You have selected some AI features. Do you want to enable them now, or exit the setup without enabling them?"
 msgstr ""
 
-#. opening smartgit.bFH@8G42GZ:SmartGit 25.1 Evaluation until Dec 3 (smartgit.bFH@67QB84)
-#. Performing ', Reconfigure...'
-#. Showing dialog 0 (@GDWWI2) '@UGYSW9 - AI Setup' (owner: @67QB84)
-#. Performing ', Next >'
-#. Showing dialog 1 (@J21Z8K) '@VCFBXX - Passwords' (owner: @GDWWI2)
-#. Performing ', OK'
-#. Performing ', Next >'
-#. Performing ', < Back'
-#. Performing ', Cancel'
-#. Showing dialog 2 (@86MVII) '@V81YET - AI Setup' (owner: @GDWWI2)
 msgctxt "dlgSgAiSetupExitEarly.hdl:"
 msgid "Enable already selected AI features?"
 msgstr ""
 
-#. opening smartgit.bFH@8G42GZ:SmartGit 25.1 Evaluation until Dec 3 (smartgit.bFH@67QB84)
-#. Performing ', Reconfigure...'
-#. Showing dialog 0 (@GDWWI2) '@UGYSW9 - AI Setup' (owner: @67QB84)
-#. Performing ', Next >'
-#. Showing dialog 1 (@J21Z8K) '@VCFBXX - Passwords' (owner: @GDWWI2)
-#. Performing ', OK'
-#. Performing ', Next >'
-#. Performing ', < Back'
-#. Performing ', Cancel'
 msgctxt "dlgSgAiSetupExitEarly.tle:"
 msgid "AI Setup"
 msgstr "AI セットアップ"
@@ -8612,16 +8443,6 @@ msgctxt "dlgSgProviderGenerateToken.hdl:"
 msgid "Generate a new API token for $1"
 msgstr "(237) ⭐️$1 の新しい API トークンを生成します"
 
-#. Performing ', Cancel'
-#. Performing 'preferences, Preferences'
-#. Showing dialog 15 (@PPGGUV) '@TCGSFR - Preferences' (owner: @J96KAB)
-#. Performing ', Add'
-#. Performing ', GitHub'
-#. Showing dialog 16 (@PI6DHN) '@AY7ZST - Master Password' (owner: @PPGGUV)
-#. Performing ', OK'
-#. Showing dialog 17 (@3OMM6Z) '@TFQ7IF - Add Hosting Provider' (owner: @PPGGUV)
-#. Performing ', Generate Token'
-#. Showing dialog 18 (@2CWT0D) '@MGZ9DY - Generate API Token' (owner: @3OMM6Z)
 msgctxt "dlgSgProviderGenerateToken.inf:"
 msgid "Authenticate at GitHub and grant access to SmartGit."
 msgstr ""
@@ -12814,7 +12635,6 @@ msgctxt "ntmHostingProviderIntegrationNotYetConfigured:"
 msgid "SmartGit provides special support for $1. The integration can be configured in the Preferences."
 msgstr "SmartGit は、$1 との連携に対応しています。連携機能は「環境設定」で設定することができます。"
 
-#. opening smartgit.bFH@TLLG8F:SmartGit 25.1 (smartgit.bFH@V01YE9)
 msgctxt "ntmLcTypeProblem\"If you experience problems with garbled file names/paths containing non-US-ASCII characters, consider to set the environment variables <tt>LC_ALL</tt>, or both <tt>LC_CTYPE</tt> and <tt>LANG</tt> to a country code which ends with \\\"<tt>.UTF-8</tt>\\\".\""
 msgid "If you experience problems with garbled file names/paths containing non-US-ASCII characters, consider to set the environment variables <tt>LC_ALL</tt>, or both <tt>LC_CTYPE</tt> and <tt>LANG</tt> to a country code which ends with \"<tt>.UTF-8</tt>\"."
 msgstr ""
@@ -12875,7 +12695,6 @@ msgctxt "ntmVoteForUs:"
 msgid "vote at <link1>alternativeto.net</link1>"
 msgstr "<link1>alternativeto.net</link1>で投票"
 
-#. opening smartgit.bFH@TLLG8F:SmartGit 25.1 (smartgit.bFH@V01YE9)
 msgctxt "ntmWslWorkaround:"
 msgid "To work around some problems with WSL, please check our documentation."
 msgstr ""
@@ -12932,7 +12751,6 @@ msgctxt "nttHostingProviderIntegrationNotYetConfigured:"
 msgid "Configure Now"
 msgstr "今すぐ設定する"
 
-#. opening smartgit.bFH@TLLG8F:SmartGit 25.1 (smartgit.bFH@V01YE9)
 msgctxt "nttLcTypeProblem:"
 msgid "Experience problems with non-US-ASCII file names?"
 msgstr ""
@@ -13005,12 +12823,10 @@ msgctxt "nttVoteForUs:"
 msgid "What do you like in SmartGit?"
 msgstr "SmartGitのどこが好きですか？"
 
-#. opening smartgit.bFH@TLLG8F:SmartGit 25.1 (smartgit.bFH@V01YE9)
 msgctxt "nttWslWorkaround:"
 msgid "It seems that you're running SmartGit in WSL."
 msgstr ""
 
-#. opening smartgit.bFH@TLLG8F:SmartGit 25.1 (smartgit.bFH@V01YE9)
 msgctxt "nttWslWorkaround:"
 msgid "Open Documentation"
 msgstr ""
@@ -14629,16 +14445,6 @@ msgctxt "wndLog.mni:"
 msgid "github \\(active\\)"
 msgstr "(355) ⭐️github \\(アクティブ\\)"
 
-#. Performing ', ID'
-#. Performing 'windowWorkingTree, Show Working Tree Window'
-#. opening smartgit.bOR@CKZ2HI:SmartGit 25.1 (Working Tree) Evaluation until Dec 3 (smartgit.bOR@EQK0XP) (index=0)
-#. Performing ',   Show Rewritten Behind Commits'
-#. Performing ', ID'
-#. Performing 'showChanges, Show Changes, Open the file compare for the selected file.'
-#. opening smartgit.bok@KZH1D1:[po/messages.pot] - File Compare (smartgit.bok@3GPCLB)
-#. Performing 'copyCommitId, Copy'
-#. Performing ', Toggle'
-#. Performing ', Toggle'
 msgctxt "wndLog.mniCopyCommitId:"
 msgid "Copy"
 msgstr "コピー"
@@ -14715,15 +14521,6 @@ msgctxt "wndProject.mni:"
 msgid "Select from GitHub"
 msgstr "(367) ⭐️GitHubから選択してください"
 
-#. opening smartgit.bFH@2JGOWP:SmartGit 25.1 Evaluation until Dec 3 (smartgit.bFH@J96KAB)
-#. Performing 'changesView.compact, Compact'
-#. Performing 'changesView.compact, Compact'
-#. Performing 'changesView.unified, Unified'
-#. Performing 'newStandardWindow, Show Standard Window'
-#. opening smartgit.aBC@YTEG3O:null (smartgit.aBC@5CT5A2)
-#. Performing 'stdSetModeHistory, Show History, Show the history view.'
-#. Performing 'windowWorkingTree, Show Working Tree Window'
-#. opening smartgit.bOR@OG75UX:SmartGit 25.1 (Working Tree) Evaluation until Dec 3 (smartgit.bOR@2KRPKZ) (index=0)
 msgctxt "wndProject.mniCopyCommitId:"
 msgid "Copy"
 msgstr "コピー"
