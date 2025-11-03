@@ -161,15 +161,13 @@ msgctxt "dlgCommitInvisibleIndex.tle:"
 msgid "Commit"
 msgstr "コミット"
 
-#, fuzzy
 msgctxt "dlgCommitNoEmailConfigured.fur:"
 msgid "Before committing you will have to configure your name and email, e.g. in the SmartGit Preferences."
-msgstr "(1) ⭐️コミットする前に、名前とメールアドレスを設定する必要があります。例えば、SmartGitの設定で行います。"
+msgstr "コミットする前に、名前とメールアドレスを設定する必要があります。例えば、SmartGitの環境設定から設定することができます。"
 
-#, fuzzy
 msgctxt "dlgCommitNoEmailConfigured.hdl:"
 msgid "Please configure the email for commit."
-msgstr "(2) ⭐️コミットのためのメールアドレスを設定してください。"
+msgstr "コミットのためのメールアドレスを設定してください。"
 
 msgctxt "dlgCommitNoEmailConfigured.tle:"
 msgid "Commit"
@@ -285,15 +283,15 @@ msgstr "Origins パースペクティブ"
 
 msgctxt "dlgHostingProvider.canBeConfigured.btn:"
 msgid "Configure Hosting Provider"
-msgstr "(4) ⭐️ホスティングプロバイダーを設定する"
+msgstr "ホスティングプロバイダーを設定する"
 
 msgctxt "dlgHostingProvider.canBeConfigured.fur:"
 msgid "The easiest way to access the repository at $1 is through a hosting provider."
-msgstr "(5) ⭐️$1のリポジトリにアクセスする最も簡単な方法は、ホスティングプロバイダーを通じてです。"
+msgstr "$1のリポジトリにアクセスする最も簡単な方法は、ホスティングプロバイダーを通じてです。"
 
 msgctxt "dlgHostingProvider.canBeConfigured.hdl:"
 msgid "Do you want to configure a GitLab hosting provider?"
-msgstr "(6) ⭐️GitLabホスティングプロバイダーを設定しますか？"
+msgstr "GitLabホスティングプロバイダーを設定しますか？"
 
 msgctxt "dlgInfo.tle:"
 msgid "Discard"
@@ -1071,7 +1069,7 @@ msgstr "強制終了"
 
 msgctxt "dlgScDialogAssertionHandlerLinkageError.btn:"
 msgid "Just Exit"
-msgstr "(10) ⭐️ただ終了"
+msgstr "終了のみ"
 
 msgctxt "dlgScDialogAssertionHandlerLinkageError.lbl:"
 msgid "SmartGit has detected inconsistencies within its installation files \\(JAR files\\), what has most likely been caused by a faulty installation.\\n\\nPlease uninstall SmartGit completely, make sure there are no more installation files left \\(especially JAR files\\), then reinstall.\\n\\nIf the problem persists, send following log file as an attachment to smartgit@syntevo.com."
@@ -1148,12 +1146,11 @@ msgstr "登録"
 
 msgctxt "dlgScEvaluationReminderExpiredGrace.fur:"
 msgid "To use SmartGit, you will have to register a license file.\\n\\nIn a commercial environment you need to \\[https://www.syntevo.com/smartgit/purchase?evaluationReminderNotification purchase a license\\].\\n\\nFor \\[https://www.syntevo.com/register-non-commercial/?evaluationReminderNotification certain uses\\] we grant free licenses."
-msgstr "(18) ⭐️SmartGitを使用するには、ライセンスファイルを登録する必要があります。\\n\\n商業環境では、\\[https://www.syntevo.com/smartgit/purchase?evaluationReminderNotification ライセンスを購入する\\]必要があります。\\n\\n\\[https://www.syntevo.com/register-non-commercial/?evaluationReminderNotification 特定の用途\\]に対しては、無料ライセンスを付与します。"
+msgstr "SmartGitを使用するには、ライセンスファイルを登録する必要があります。\\n\\n商業環境では、\\[https://www.syntevo.com/smartgit/purchase?evaluationReminderNotification ライセンスを購入する\\]必要があります。\\n\\n\\[https://www.syntevo.com/register-non-commercial/?evaluationReminderNotification 特定の用途\\]に対しては、無料ライセンスを付与します。"
 
-#, fuzzy
 msgctxt "dlgScEvaluationReminderExpiredGrace.hdl:"
 msgid "Your evaluation has already expired."
-msgstr "(19) ⭐️あなたの評価はすでに期限切れです。"
+msgstr "評価期間はすでに期限切れです。"
 
 msgctxt "dlgScEvaluationReminderExpiredGrace.tle:"
 msgid "Evaluation"
@@ -1167,35 +1164,29 @@ msgctxt "dlgScExternalFileStarterCommandInvocationFailed.tle:"
 msgid "\\[$1\\] - Conflict Solver"
 msgstr "\\[$1\\] - コンフリクトソルバー"
 
-#, fuzzy
 msgctxt "dlgScExternalFileStarterCommandNoFile.fur:"
 msgid "Be sure to add arguments to the appropriate input field."
-msgstr "(21) ⭐️適切な入力フィールドに引数を追加してください。"
+msgstr "適切な入力フィールドに引数を追加してください。"
 
-#, fuzzy
 msgctxt "dlgScExternalFileStarterCommandNoFile.hdl:"
 msgid "The specified command is no file."
-msgstr "(22) ⭐️指定されたコマンドにはファイルがありません。"
+msgstr "指定されたコマンドにはファイルがありません。"
 
-#, fuzzy
 msgctxt "dlgScExternalFileStarterCommandNoFile.tle:"
 msgid "Input Validation"
-msgstr "(23) ⭐️入力検証"
+msgstr "入力の検証"
 
-#, fuzzy
 msgctxt "dlgScExternalFileStarterEmptyCommand.fur:"
 msgid "Select the command which should be invoked."
-msgstr "(24) ⭐️呼び出すべきコマンドを選択してください。"
+msgstr "呼び出すべきコマンドを選択してください。"
 
-#, fuzzy
 msgctxt "dlgScExternalFileStarterEmptyCommand.hdl:"
 msgid "The Command input field must not be empty!"
-msgstr "(25) ⭐️コマンド入力フィールドは空であってはいけません！"
+msgstr "コマンド入力フィールドは空にできません！"
 
-#, fuzzy
 msgctxt "dlgScExternalFileStarterEmptyCommand.tle:"
 msgid "Input Validation"
-msgstr "(26) ⭐️入力検証"
+msgstr "入力の検証"
 
 msgctxt "dlgScFileComparatorAdd.hdl:"
 msgid "Add external diff tool"
@@ -1739,23 +1730,23 @@ msgstr "APIキー"
 
 msgctxt "dlgScSecretToken.hdl:"
 msgid "Provide API key for '$1'"
-msgstr "(31) ⭐️'$1' のAPIキーを提供してください"
+msgstr "'$1' のAPIキーを提供してください"
 
 msgctxt "dlgScSecretToken.inf:"
 msgid "An API key is required to access the AI at '$1'. It will be stored in SmartGit's password store."
-msgstr "(402) ⭐️'$1'のAIにアクセスするにはAPIキーが必要です。これはSmartGitのパスワードストアに保存されます。"
+msgstr "'$1'のAIにアクセスするにはAPIキーが必要です。これはSmartGitのパスワードストアに保存されます。"
 
 msgctxt "dlgScSecretToken.lbl:"
 msgid "The API key can be created in your \\[https://console.anthropic.com/settings/keys Anthropic account\\]."
-msgstr "(33) ⭐️APIキーはあなたの\\[https://console.anthropic.com/settings/keys Anthropicアカウント\\]で作成できます。"
+msgstr "APIキーはあなたの\\[https://console.anthropic.com/settings/keys Anthropicアカウント\\]で作成できます。"
 
 msgctxt "dlgScSecretToken.lbl:"
 msgid "The API key can be created in your \\[https://console.mistral.ai/api-keys Mistral account\\]."
-msgstr "(34) ⭐️APIキーはあなたの\\[https://console.mistral.ai/api-keys Mistralアカウント\\]で作成できます。"
+msgstr "APIキーはあなたの\\[https://console.mistral.ai/api-keys Mistralアカウント\\]で作成できます。"
 
 msgctxt "dlgScSecretToken.lbl:"
 msgid "The API key can be created in your \\[https://platform.openai.com/settings/organization/api-keys OpenAI account\\]."
-msgstr "(35) ⭐️APIキーはあなたの\\[https://platform.openai.com/settings/organization/api-keys OpenAIアカウント\\]で作成できます。"
+msgstr "APIキーはあなたの\\[https://platform.openai.com/settings/organization/api-keys OpenAIアカウント\\]で作成できます。"
 
 msgctxt "dlgScSetupLicense.btn:"
 msgid "Configure Proxy"
@@ -1793,30 +1784,26 @@ msgctxt "dlgScSetupLicense.tle:"
 msgid "SmartGit License"
 msgstr "SmartGit ライセンス"
 
-#, fuzzy
 msgctxt "dlgScSetupLicenseNeedsRestart.btn:"
 msgid "Exit Later"
-msgstr "(37) ⭐️後で終了"
+msgstr "あとで終了"
 
-#, fuzzy
 msgctxt "dlgScSetupLicenseNeedsRestart.btn:"
 msgid "Restart Now"
-msgstr "(38) ⭐️今すぐ再起動"
+msgstr "今すぐ再起動"
 
 #, fuzzy
 msgctxt "dlgScSetupLicenseNeedsRestart.fur:"
 msgid "You can do that now or manually later."
-msgstr "(39) ⭐️今すぐそれを行うか、後で手動で行うことができます。"
+msgstr "今すぐそれを行うか、後で手動で行うことができます。"
 
-#, fuzzy
 msgctxt "dlgScSetupLicenseNeedsRestart.hdl:"
 msgid "SmartGit has to be restarted for the license change to take effect."
-msgstr "(40) ⭐️ライセンスの変更を有効にするためには、SmartGitを再起動する必要があります。"
+msgstr "ライセンスの変更を有効にするためには、SmartGitを再起動する必要があります。"
 
-#, fuzzy
 msgctxt "dlgScSetupLicenseNeedsRestart.tle:"
 msgid "SmartGit License"
-msgstr "(41) ⭐️SmartGit ライセンス"
+msgstr "SmartGit ライセンス"
 
 msgctxt "dlgScSpellCheckDictionaryAdd.err:"
 msgid "Please enter a name."
@@ -2197,7 +2184,7 @@ msgstr "作業ツリーが 「リバート中」 の状態です。この状態�
 
 msgctxt "dlgSgAbortRevertingConfirm.hdl:"
 msgid "Do you want to abort the current revert?"
-msgstr "(42) ⭐️現在のリバートを中止しますか？"
+msgstr "現在のリバートを中止しますか？"
 
 msgctxt "dlgSgAbortRevertingConfirm.tle:"
 msgid "Abort"
@@ -2205,12 +2192,11 @@ msgstr "中止"
 
 msgctxt "dlgSgAbortRevertingConfirm.tle:"
 msgid "Discard"
-msgstr "(44) ⭐️破棄"
+msgstr "破棄"
 
-#, fuzzy
 msgctxt "dlgSgAbout.btn:"
 msgid "Copy Evaluation-ID"
-msgstr "(45) ⭐️評価IDをコピー"
+msgstr "評価IDをコピー"
 
 msgctxt "dlgSgAbout.btn:"
 msgid "Register"
@@ -2228,10 +2214,9 @@ msgctxt "dlgSgAbout.edt:"
 msgid "Build Date"
 msgstr "ビルド日"
 
-#, fuzzy
 msgctxt "dlgSgAbout.edt:"
 msgid "Demo Until"
-msgstr "(46) ⭐️デモ期間中"
+msgstr "デモ期間中"
 
 msgctxt "dlgSgAbout.edt:"
 msgid "Email"
@@ -2269,10 +2254,9 @@ msgctxt "dlgSgAbout.edt:"
 msgid "User Count"
 msgstr "ユーザ数"
 
-#, fuzzy
 msgctxt "dlgSgAbout.edt:"
 msgid "Valid Until"
-msgstr "(47) ⭐️有効期限"
+msgstr "有効期限"
 
 msgctxt "dlgSgAbout.edt:"
 msgid "Version"
@@ -2329,79 +2313,79 @@ msgstr "SmartGitがリポジトリデータを$1にアップロードするこ�
 
 msgctxt "dlgSgAiApiKeyRepoLlmConsent.tle:"
 msgid "AI Upload Consent"
-msgstr ""
+msgstr "AIアップロードの同意"
 
 msgctxt "dlgSgAiCommitAnnotatorError.hdl:"
 msgid "Failed to annotate selected commits."
-msgstr ""
+msgstr "選択したコミットの注釈付けに失敗しました。"
 
 msgctxt "dlgSgAiCommitAnnotatorError.tle:"
 msgid "Annotate Commits"
-msgstr ""
+msgstr "コミットに注釈を付ける"
 
 msgctxt "dlgSgAiCommitMessageComposeActionSetup.fur:"
 msgid "Click the AI button again to generate your first commit message."
-msgstr "(56) ⭐️再度AIボタンをクリックして、最初のコミットメッセージを生成してください。"
+msgstr "再度AIボタンをクリックして、最初のコミットメッセージを生成してください。"
 
 msgctxt "dlgSgAiCommitMessageComposeActionSetup.hdl:"
 msgid "GitHub models are now configured."
-msgstr "(57) ⭐️GitHubモデルが現在設定されました。"
+msgstr "GitHubモデルが設定されました。"
 
 msgctxt "dlgSgAiCommitMessageComposeActionSetup.tle:"
 msgid "AI Commit Message Compose"
-msgstr "(58) ⭐️AI コミットメッセージ作成"
+msgstr "AI コミットメッセージ作成"
 
 msgctxt "dlgSgAiCommitMessageComposeError.fur:"
 msgid "No modifications found."
-msgstr "(59) ⭐️変更は見つかりませんでした。"
+msgstr "変更は見つかりませんでした。"
 
 msgctxt "dlgSgAiCommitMessageComposeError.hdl:"
 msgid "AI generation of the commit message failed."
-msgstr "(60) ⭐️コミットメッセージのAI生成に失敗しました。"
+msgstr "コミットメッセージのAI生成に失敗しました。"
 
 msgctxt "dlgSgAiCommitMessageComposeError.tle:"
 msgid "AI Commit Message Compose"
-msgstr "(61) ⭐️AI コミットメッセージ作成"
+msgstr "AI コミットメッセージ作成"
 
 msgctxt "dlgSgAiCommitMessageReworder.btn:"
 msgid "Reword"
-msgstr ""
+msgstr "書き直す"
 
 msgctxt "dlgSgAiCommitMessageReworder.fur:"
 msgid "SmartGit has detected a commit message containing an AI-generation marker. If the commit has not yet been pushed, it can be automatically reworded in the background.\\n\\nYou can enable or disable this option from the AI popup menu."
-msgstr ""
+msgstr "SmartGitはAI生成マーカーを含むコミットメッセージを検出しました。コミットがまだプッシュされていない場合、バックグラウンドで自動的にメッセージを書き直すことができます。"
 
 msgctxt "dlgSgAiCommitMessageReworder.hdl:"
 msgid "Do you want to reword marked commits in the background?"
-msgstr ""
+msgstr "マークされたコミットをバックグラウンドで書き直しますか?"
 
 msgctxt "dlgSgAiCommitMessageReworder.tle:"
 msgid "Commit Message Rewording"
-msgstr ""
+msgstr "コミットメッセージの書き直し"
 
 msgctxt "dlgSgAiIntegrationSetup.hdl:"
 msgid "Configure AI integration"
-msgstr "(62) ⭐️AI統合を設定する"
+msgstr "AI統合を設定する"
 
 msgctxt "dlgSgAiIntegrationSetup.inf:"
 msgid "SmartGit supports AI-generated commit messages, with more AI features coming. GitHub models can be used out-of-the-box."
-msgstr "(63) ⭐️SmartGitはAI生成のコミットメッセージをサポートしており、さらに多くのAI機能が追加される予定です。GitHubモデルはすぐに使用可能です。"
+msgstr "SmartGitはAI生成のコミットメッセージをサポートしており、さらに多くのAI機能が追加される予定です。GitHubモデルはすぐに使用可能です。"
 
 msgctxt "dlgSgAiIntegrationSetup.rbt:"
 msgid "Configure manually \\(view documentation\\)"
-msgstr "(64) ⭐️手動で設定する \\(ドキュメントを表示\\)"
+msgstr "手動で設定する \\(ドキュメントを表示\\)"
 
 msgctxt "dlgSgAiIntegrationSetup.rbt:"
 msgid "Disable AI integration"
-msgstr "(65) ⭐️AI統合を無効にする"
+msgstr "AI統合を無効にする"
 
 msgctxt "dlgSgAiIntegrationSetup.rbt:"
 msgid "Use GitHub models for this repository"
-msgstr "(66) ⭐️このリポジトリにGitHubモデルを使用する"
+msgstr "このリポジトリにGitHubモデルを使用する"
 
 msgctxt "dlgSgAiIntegrationSetup.rbt:"
 msgid "Use GitHub models globally"
-msgstr "(67) ⭐️グローバルにGitHubモデルを使用する"
+msgstr "グローバルにGitHubモデルを使用する"
 
 msgctxt "dlgSgAiIntegrationSetup.tle:"
 msgid "AI Integration"
@@ -2409,20 +2393,20 @@ msgstr "AI統合"
 
 msgctxt "dlgSgAiIntegrationSetupGitHubSingle.btn:"
 msgid "Confirm"
-msgstr "(69) ⭐️確認"
+msgstr "確認"
 
 # [decode] msgid "To generate commit messages or other AI-based suggestions, SmartGit transmits the relevant git diff data – either from the working tree or selected commits – to GitHub's servers.\n\nBy default, this transfer only occurs when the operation is explicitly invoked. However, background transfer is also possible \(see the drop-down menu for configuration\)."
 msgctxt "dlgSgAiIntegrationSetupGitHubSingle.fur:"
 msgid "To generate commit messages or other AI-based suggestions, SmartGit transmits the relevant git diff data \\u2013 either from the working tree or selected commits \\u2013 to GitHub's servers.\\n\\nBy default, this transfer only occurs when the operation is explicitly invoked. However, background transfer is also possible \\(see the drop-down menu for configuration\\)."
-msgstr "(70) ⭐️コミットメッセージやその他のAIベースの提案を生成するために、SmartGitは関連するgit diffデータを\\u2013 作業ツリーまたは選択されたコミットのいずれかから \\u2013 GitHubのサーバーに送信します。\\n\\nデフォルトでは、この転送は操作が明示的に呼び出されたときのみ発生します。ただし、バックグラウンド転送も可能です（設定のドロップダウンメニューを参照してください）。"
+msgstr "コミットメッセージやその他のAIベースの提案を生成するために、SmartGitは関連するgit diffデータを\\u2013 作業ツリーまたは選択されたコミットのいずれかから \\u2013 GitHubのサーバーに送信します。\\n\\nデフォルトでは、この転送は操作が明示的に呼び出されたときのみ発生します。ただし、バックグラウンド転送も可能です（設定のドロップダウンメニューを参照してください）。"
 
 msgctxt "dlgSgAiIntegrationSetupGitHubSingle.hdl:"
 msgid "Git diffs will be sent to GitHub for AI processing."
-msgstr "(71) ⭐️Gitの差分はAI処理のためにGitHubに送信されます。"
+msgstr "Gitの差分はAI処理のためにGitHubに送信されます。"
 
 msgctxt "dlgSgAiIntegrationSetupGitHubSingle.tle:"
 msgid "Confirm GitHub AI Usage"
-msgstr "(72) ⭐️GitHub AIの使用を確認する"
+msgstr "GitHub AIの使用を確認する"
 
 # AI統合の設定ウィザードで次のステップに進むボタン
 msgctxt "dlgSgAiSetup.btn:"
@@ -2435,7 +2419,7 @@ msgstr "戻る"
 
 msgctxt "dlgSgAiSetup.chk:"
 msgid "Enable automatic stash messages"
-msgstr "(75) ⭐️自動スタッシュメッセージを有効にする"
+msgstr "自動スタッシュメッセージを有効にする"
 
 msgctxt "dlgSgAiSetup.chk:"
 msgid "Enable commit explanation"
@@ -2443,7 +2427,7 @@ msgstr "コミットの説明を有効にする"
 
 msgctxt "dlgSgAiSetup.chk:"
 msgid "Enable commit rewording"
-msgstr "(76) ⭐️コミットのリワードを有効にする"
+msgstr "コミットのリワード\\(言い換え\\)を有効にする"
 
 msgctxt "dlgSgAiSetup.chk:"
 msgid "Only for current repository"
@@ -2459,11 +2443,11 @@ msgstr "モデル"
 
 msgctxt "dlgSgAiSetup.edt:"
 msgid "URL Query"
-msgstr "(80) ⭐️URL クエリ"
+msgstr "URL クエリパラメータ"
 
 msgctxt "dlgSgAiSetup.hdl:"
 msgid "Commit Rewording"
-msgstr "(81) ⭐️コミットの言い換え"
+msgstr "コミットメッセージの言い換え"
 
 msgctxt "dlgSgAiSetup.hdl:"
 msgid "Explain Commits"
@@ -2471,11 +2455,11 @@ msgstr "コミットの説明"
 
 msgctxt "dlgSgAiSetup.hdl:"
 msgid "Please wait"
-msgstr "(83) ⭐️お待ちください"
+msgstr "お待ちください"
 
 msgctxt "dlgSgAiSetup.hdl:"
 msgid "Stash Messages"
-msgstr "(84) ⭐️スタッシュメッセージ"
+msgstr "スタッシュメッセージ"
 
 msgctxt "dlgSgAiSetup.hdl:"
 msgid "Welcome"
@@ -2483,15 +2467,15 @@ msgstr "ようこそ"
 
 msgctxt "dlgSgAiSetup.inf:"
 msgid "SmartGit can automatically generate stash messages."
-msgstr "(86) ⭐️SmartGitは自動的にスタッシュメッセージを生成できます。"
+msgstr "SmartGitは自動的にスタッシュメッセージを生成できます。"
 
 msgctxt "dlgSgAiSetup.inf:"
 msgid "SmartGit can explain individual commits or commit ranges in the background. Results are stored in Git notes."
-msgstr "(87) ⭐️SmartGitは、個々のコミットやコミット範囲をバックグラウンドで説明できます。結果はGitノートに保存されます。"
+msgstr "SmartGitは、個々のコミットやコミット範囲をバックグラウンドで説明できます。結果はGitノートに保存されます。"
 
 msgctxt "dlgSgAiSetup.inf:"
 msgid "SmartGit can reword commit messages in the background when using special markers."
-msgstr "(88) ⭐️SmartGitは、特別なマーカーを使用することで、バックグラウンドでコミットメッセージを言い換えることができます。"
+msgstr "SmartGitは、特別なマーカーを使用することで、バックグラウンドでコミットメッセージを言い換えることができます。"
 
 msgctxt "dlgSgAiSetup.inf:"
 msgid "SmartGit offers AI-powered features to enhance productivity, simplify workflows, and assist you with your repositories."
@@ -2499,7 +2483,7 @@ msgstr "SmartGitは、生産性を向上させ、ワークフローを簡素化�
 
 msgctxt "dlgSgAiSetup.inf:"
 msgid "Verifying connectivity..."
-msgstr ""
+msgstr "接続を確認しています\\u2026"
 
 msgctxt "dlgSgAiSetup.inf:"
 msgid "Verifying connectivity\\u2026"
@@ -2507,23 +2491,23 @@ msgstr "接続を確認しています\\u2026"
 
 msgctxt "dlgSgAiSetup.lbl:"
 msgid "- Leave the stash message blank to enable auto-generation.\\n- SmartGit will generate a message and safely update the stash in the background.\\n- You can always enable or disable AI stash rewording in the Save Stash dialog.\\n"
-msgstr "(91) ⭐️- スタッシュメッセージを空白のままにすると、自動生成が有効になります。\\n- SmartGitはメッセージを生成し、バックグラウンドでスタッシュを安全に更新します。\\n- 保存スタッシュダイアログでAIスタッシュのリワードを常に有効または無効にすることができます。\\n"
+msgstr "- スタッシュメッセージを空白のままにすると、自動生成が有効になります。\\n- SmartGitはメッセージを生成し、バックグラウンドでスタッシュを安全に更新します。\\n- 保存スタッシュダイアログでAIスタッシュのリワードを常に有効または無効にすることができます。\\n"
 
 msgctxt "dlgSgAiSetup.lbl:"
 msgid "- Select one or more commits to generate a natural language explanation.\\n- For multiple commits, explanations are generated in the background and saved in Git Notes.\\n- Select two different branches to generate an explanation of their differences.\\n"
-msgstr "(92) ⭐️- 自然言語の説明を生成するために、1つ以上のコミットを選択してください。\\n- 複数のコミットの場合、説明はバックグラウンドで生成され、Gitノートに保存されます。\\n- 2つの異なるブランチを選択して、それらの違いの説明を生成してください。\\n"
+msgstr "- 自然言語の説明を生成するために、1つ以上のコミットを選択してください。\\n- 複数のコミットの場合、説明はバックグラウンドで生成され、Gitノートに保存されます。\\n- 2つの異なるブランチを選択して、それらの違いの説明を生成してください。\\n"
 
 msgctxt "dlgSgAiSetup.lbl:"
 msgid "- Use '@ai' to reword the entire commit message.\\n- 'WIP' will describe Work in Progress with an AI generated commit message.\\n- You can always enable or disable AI commit rewording features from the hamburger menu.\\n"
-msgstr "(93) ⭐️- '@ai'を使用して、コミットメッセージ全体を言い換えます。\\n- 'WIP'は、AI生成のコミットメッセージで進行中の作業を説明します。\\n- ハンバーガーメニューからAIコミット言い換え機能を常に有効または無効にできます。\\n"
+msgstr "- '@ai'を使用して、コミットメッセージ全体を言い換えます。\\n- 'WIP'は、AI生成のコミットメッセージで進行中の作業を説明します。\\n- ハンバーガーメニューからAIコミット言い換え機能を常に有効または無効にできます。\\n"
 
 msgctxt "dlgSgAiSetup.lbl:"
 msgid "Optional parameters"
-msgstr "(94) ⭐️オプションのパラメータ"
+msgstr "オプションのパラメータ"
 
 msgctxt "dlgSgAiSetup.lbl:"
 msgid "Please wait ..."
-msgstr ""
+msgstr "しばらくお待ちください\\u2026"
 
 msgctxt "dlgSgAiSetup.lbl:"
 msgid "Please wait \\u2026"
@@ -2531,11 +2515,11 @@ msgstr "しばらくお待ちください\\u2026"
 
 msgctxt "dlgSgAiSetup.lbl:"
 msgid "Select your AI provider. This is the service SmartGit will use to generate AI-powered content."
-msgstr "(96) ⭐️AIプロバイダーを選択してください。これはSmartGitがAI駆動のコンテンツを生成するために使用するサービスです。"
+msgstr "AIプロバイダーを選択してください。これはSmartGitがAI駆動のコンテンツを生成するために使用するサービスです。"
 
 msgctxt "dlgSgAiSetup.lbl:"
 msgid "SmartGit won't ask about AI features again."
-msgstr "(97) ⭐️SmartGitはAI機能について再度尋ねることはありません。"
+msgstr "SmartGitはAI機能について再度尋ねることはありません。"
 
 msgctxt "dlgSgAiSetup.lbl:"
 msgid "Steps"
@@ -2543,15 +2527,15 @@ msgstr "ステップ"
 
 msgctxt "dlgSgAiSetup.lbl:"
 msgid "Your GitHub credentials from the Hosting Provider configuration will be used. There is nothing more to set up here."
-msgstr "(99) ⭐️ホスティングプロバイダーの設定からのGitHub認証情報が使用されます。ここで設定する必要はありません。"
+msgstr "ホスティングプロバイダーの設定からのGitHub認証情報が使用されます。ここで設定する必要はありません。"
 
 msgctxt "dlgSgAiSetup.rbt:"
 msgid "Disable AI integration globally"
-msgstr "(100) ⭐️AI統合をグローバルに無効にする"
+msgstr "AI統合をグローバルに無効にする"
 
 msgctxt "dlgSgAiSetup.rbt:"
 msgid "Enable AI integration"
-msgstr "(101) ⭐️AI統合を有効にする"
+msgstr "AI統合を有効にする"
 
 msgctxt "dlgSgAiSetup.tle:"
 msgid "AI Setup"
@@ -2559,11 +2543,11 @@ msgstr "AI セットアップ"
 
 msgctxt "dlgSgAiSetupConfigurationSuccess.fur:"
 msgid "The configuration has been saved to '$1', which is included by '$2'.\\n\\nYou can now start generating commit messages by clicking the AI button again.\\n\\nAdditional configuration options are available and can be tweaked directly in the configuration file. For details, refer to the \\[https://docs.syntevo.com/SmartGit/Latest/Manual/Integrations/AI documentation\\]."
-msgstr "(102) ⭐️設定は'$1'に保存され、'$2'によって含まれています。\\n\\nAIボタンを再度クリックすることで、コミットメッセージの生成を開始できます。\\n\\n追加の設定オプションが利用可能で、設定ファイル内で直接調整できます。詳細については、\\[https://docs.syntevo.com/SmartGit/Latest/Manual/Integrations/AI documentation\\]を参照してください。"
+msgstr "設定は'$1'に保存され、'$2'によって含まれています。\\n\\nAIボタンを再度クリックすることで、コミットメッセージの生成を開始できます。\\n\\n追加の設定オプションが利用可能で、設定ファイル内で直接調整できます。詳細については、\\[https://docs.syntevo.com/SmartGit/Latest/Manual/Integrations/AI documentation\\]を参照してください。"
 
 msgctxt "dlgSgAiSetupConfigurationSuccess.hdl:"
 msgid "The AI integration has been configured successfully."
-msgstr "(103) ⭐️AI統合が正常に設定されました。"
+msgstr "AI統合が正常に設定されました。"
 
 msgctxt "dlgSgAiSetupConfigurationSuccess.tle:"
 msgid "AI Setup"
@@ -2571,11 +2555,11 @@ msgstr "AI セットアップ"
 
 msgctxt "dlgSgAiSetupConnectivityFailed.fur:"
 msgid "Object '$1' not found."
-msgstr "(104) ⭐️オブジェクト '$1' が見つかりません。"
+msgstr "オブジェクト '$1' が見つかりません。"
 
 msgctxt "dlgSgAiSetupConnectivityFailed.hdl:"
 msgid "Connection to '$1' failed."
-msgstr "(105) ⭐️'$1'への接続に失敗しました。"
+msgstr "'$1'への接続に失敗しました。"
 
 msgctxt "dlgSgAiSetupExitEarly.btn:"
 msgid "Back to Setup"
@@ -2591,11 +2575,11 @@ msgstr "有効化せずに終了"
 
 msgctxt "dlgSgAiSetupExitEarly.fur:"
 msgid "You have selected some AI features. Do you want to enable them now, or exit the setup without enabling them?"
-msgstr ""
+msgstr "AI機能のいくつかを選択しました。今すぐ有効にしますか、それとも有効にせずにセットアップを終了しますか？"
 
 msgctxt "dlgSgAiSetupExitEarly.hdl:"
 msgid "Enable already selected AI features?"
-msgstr ""
+msgstr "既に選択されたAI機能を有効にしますか？"
 
 msgctxt "dlgSgAiSetupExitEarly.tle:"
 msgid "AI Setup"
@@ -2603,11 +2587,11 @@ msgstr "AI セットアップ"
 
 msgctxt "dlgSgAiSetupLlmConfigurationInvalid.fur:"
 msgid "API URL missing."
-msgstr "(106) ⭐️API URLがありません。"
+msgstr "API URLに問題があります"
 
 msgctxt "dlgSgAiSetupLlmConfigurationInvalid.hdl:"
 msgid "Configuration is invalid."
-msgstr "(107) ⭐️設定が無効です。"
+msgstr "設定が無効です。"
 
 msgctxt "dlgSgApplicationAlreadyRunning.fur:"
 msgid "Instead of running separate instances you can open multiple project windows in SmartGit.\\n\\nIf you are sure that no SmartGit instance is running any more you should delete the lock file\\n$1"
@@ -2847,7 +2831,7 @@ msgstr "削除"
 
 msgctxt "dlgSgBranchDeleteLocalConfirmMultiple.chk:"
 msgid "Delete branch '$1' from remote repository '$2'"
-msgstr "(108) ⭐️リモートリポジトリ '$2' からブランチ '$1' を削除します"
+msgstr "リモートリポジトリ '$2' からブランチ '$1' を削除します"
 
 msgctxt "dlgSgBranchDeleteLocalConfirmMultiple.chk:"
 msgid "Delete from remote repository"
@@ -2987,15 +2971,15 @@ msgstr "開く"
 
 msgctxt "dlgSgBranchesOpenPullRequestsInLog.chk:"
 msgid "Don't show again"
-msgstr "(111) ⭐️再表示しない"
+msgstr "次回から表示しない"
 
 msgctxt "dlgSgBranchesOpenPullRequestsInLog.fur:"
 msgid "You can see a detailed list of pull requests in the Log's Branches view and review changes in the Graph."
-msgstr "(112) ⭐️ログのブランチビューでプルリクエストの詳細なリストを確認し、グラフで変更をレビューできます。"
+msgstr "ログのブランチビューでプルリクエストの詳細なリストを確認し、グラフで変更をレビューできます。"
 
 msgctxt "dlgSgBranchesOpenPullRequestsInLog.hdl:"
 msgid "Do you want to review pull requests in the Log?"
-msgstr "(113) ⭐️ログでプルリクエストをレビューしますか？"
+msgstr "ログでプルリクエストをレビューしますか？"
 
 msgctxt "dlgSgBugReportSettings.btn:"
 msgid "Exit"
@@ -3099,7 +3083,7 @@ msgstr "チェックアウト"
 
 msgctxt "dlgSgCheckoutSubmoduleChangeConfirm.fur:"
 msgid "The target branch has a different submodules configuration \\(.gitmodules\\). If you were expecting this change, you can proceed as usual.\\n\\nOtherwise, be aware that significant changes to your submodule configuration can lead to complex working tree states. In some cases, it might be simpler to perform a fresh clone of the target branch."
-msgstr "(115) ⭐️ターゲットブランチには異なるサブモジュールの設定 \\(.gitmodules\\) があります。この変更を予期していた場合は、通常通り進めてください。\\n\\nそうでない場合は、サブモジュールの設定に対する重要な変更が複雑な作業ツリーの状態を引き起こす可能性があることに注意してください。場合によっては、ターゲットブランチの新しいクローンを作成する方が簡単かもしれません。"
+msgstr "ターゲットブランチには異なるサブモジュールの設定 \\(.gitmodules\\) があります。この変更を予期していた場合は、通常通り進めてください。\\n\\nそうでない場合は、サブモジュールの設定に対する重要な変更が複雑な作業ツリーの状態を引き起こす可能性があることに注意してください。場合によっては、ターゲットブランチの新しいクローンを作成する方が簡単かもしれません。"
 
 msgctxt "dlgSgCheckoutSubmoduleChangeConfirm.hdl:"
 msgid "Do you want to check out branch '$1'?"
@@ -3119,7 +3103,7 @@ msgstr "'$1' のワークツリーに切り替えますか？"
 
 msgctxt "dlgSgCheckoutSwitchToWorktree.tle:"
 msgid "Check Out"
-msgstr "(120) ⭐️チェックアウト"
+msgstr "チェックアウト"
 
 msgctxt "dlgSgCheckoutTarget.btn:"
 msgid "Checkout"
@@ -3135,7 +3119,7 @@ msgstr "リモート ブランチの追跡"
 
 msgctxt "dlgSgCheckoutTarget.err:"
 msgid "The name must not end with a slash or dot."
-msgstr "(121) ⭐️名前はスラッシュまたはドットで終わってはいけません。"
+msgstr "名前はスラッシュまたはドットで終わってはいけません。"
 
 msgctxt "dlgSgCheckoutTarget.hdl:"
 msgid "Check out commit"
@@ -3245,10 +3229,9 @@ msgctxt "dlgSgCherryPickConfirmation.chk:"
 msgid "Append source commit ID to commit message"
 msgstr "コミットメッセージにソースSHAを追加する"
 
-#, pretranslated
 msgctxt "dlgSgCherryPickConfirmation.fur:"
 msgid "This will cherry-pick the selected commit into the Working Tree."
-msgstr "(451) ⭐️これにより、選択したコミットが作業ツリーにチェリーピックされます。"
+msgstr "これにより、選択したコミットが作業ツリーにチェリーピックされます。"
 
 msgctxt "dlgSgCherryPickConfirmation.fur:"
 msgid "This will cherry-pick the selected commits into the Working Tree."
@@ -3376,7 +3359,7 @@ msgstr "設定"
 
 msgctxt "dlgSgClone.btn:"
 msgid "Continue"
-msgstr "(122) ⭐️続ける"
+msgstr "続ける"
 
 msgctxt "dlgSgClone.btn:"
 msgid "Go Back"
@@ -3384,7 +3367,7 @@ msgstr "戻る"
 
 msgctxt "dlgSgClone.chk:"
 msgid "Configure newly cloned repository to use SmartGit as credential helper"
-msgstr "(124) ⭐️新しくクローンしたリポジトリをSmartGitを認証ヘルパーとして使用するように設定します"
+msgstr "新しくクローンしたリポジトリに対し、SmartGitを認証情報ヘルパーとして使用するように設定する"
 
 msgctxt "dlgSgClone.chk:"
 msgid "Create upstream remote"
@@ -3472,19 +3455,19 @@ msgstr "ローカルリポジトリのルートディレクトリを指定して
 
 msgctxt "dlgSgClone.err:"
 msgid "The specified directory is not the root of a repository."
-msgstr "(125) ⭐️指定されたディレクトリはリポジトリのルートではありません。"
+msgstr "指定されたディレクトリはリポジトリのルートではありません。"
 
 msgctxt "dlgSgClone.hdl:"
 msgid "Local Directory"
-msgstr "(126) ⭐️ローカルディレクトリ"
+msgstr "ローカルディレクトリ"
 
 msgctxt "dlgSgClone.hdl:"
 msgid "Repository"
-msgstr "(127) ⭐️リポジトリ"
+msgstr "リポジトリ"
 
 msgctxt "dlgSgClone.hdl:"
 msgid "Selection"
-msgstr "(128) ⭐️選択"
+msgstr "選択"
 
 msgctxt "dlgSgClone.hnt:"
 msgid "No repository found."
@@ -3492,7 +3475,7 @@ msgstr "リポジトリが見つかりません。"
 
 msgctxt "dlgSgClone.hnt:"
 msgid "No repository matches the entered filter."
-msgstr "入力されたフィルタに一致するリポジトリはありません。"
+msgstr "入力されたフィルタ条件に一致するリポジトリはありません。"
 
 msgctxt "dlgSgClone.hnt:"
 msgid "Searching ..."
@@ -3540,20 +3523,17 @@ msgctxt "dlgSgClone.mni:"
 msgid "Add Hosting Provider"
 msgstr "ホスティングプロバイダーを追加"
 
-#, fuzzy
 msgctxt "dlgSgClone.mni:"
 msgid "Own Repositories"
-msgstr "(130) ⭐️自分のリポジトリ"
+msgstr "自分のリポジトリ"
 
-#, fuzzy
 msgctxt "dlgSgClone.mni:"
 msgid "Starred Repositories"
-msgstr "(131) ⭐️スター付きリポジトリ"
+msgstr "スター付きリポジトリ"
 
-#, fuzzy
 msgctxt "dlgSgClone.mni:"
 msgid "Top Repositories"
-msgstr "(132) ⭐️トップリポジトリ"
+msgstr "トップリポジトリ"
 
 msgctxt "dlgSgClone.rbt:"
 msgid "Clone all revisions \\(recommended\\)"
@@ -3637,11 +3617,11 @@ msgstr "SmartGit を Credential-Helper として設定する"
 
 msgctxt "dlgSgCloneSetCredentialHelper.fur:"
 msgid "If selected, SmartGit will be set as `credential.helper` in the `.git\\\\/config` of newly cloned repositories that are cloned directly from a configured Hosting Provider. Executing remote Git commands \\(e.g. \\*pull\\* or \\*push\\*\\) in the terminal or a shell script will then use the credentials known to SmartGit.\\n\\nThis repository setting will only affect new clones and takes precedence over any `credential.helper` configuration in your user `~\\\\/.gitconfig`.\\n\\nFor already cloned repositories the setting \\*Use SmartGit as credential helper\\* can be changed in \\*Repository \\| Settings\\*.\\n\\n\\*When to select?\\*\\nIf you solely use SmartGit as your GUI client and you use Git from the command line, we suggest selecting this option. It will simplify the authentication process when accessing platforms like GitHub.\\n\\n\\*When not to set?\\*\\nIf you also use other GUI clients, adding this configuration may disrupt the authentication of these tools and should be avoided.\\n\\nIf you do not use Git on command line or other GUI clients, selecting this option serves no purpose and is not recommended."
-msgstr "選択した場合、設定済みのホスティングプロバイダーから直接クローンされた新しいリポジトリの `.git/config` に、SmartGit が `credential.helper` として設定されます。ターミナルまたはシェルスクリプトでリモート Git コマンド (例: *pull* または *push*) を実行すると、SmartGit に認識されている資格情報が使用されます。\\n\\nこのリポジトリ設定は、新しいクローンにのみ影響し、ユーザーの `~/.gitconfig` にある `credential.helper` 設定よりも優先されます。\\n\\n既にクローンされているリポジトリの場合、*SmartGit を認証ヘルパーとして使用する* 設定は、*リポジトリ | 設定* で変更できます。\\n\\n*いつ選択するか？*\\nSmartGit のみを GUI クライアントとして使用し、コマンドラインから Git を使用する場合は、このオプションを選択することをお勧めします。GitHub などのプラットフォームにアクセスする際の認証プロセスが簡素化されます。\\n\\n*いつ設定しないか？*\\n他の GUI クライアントも使用している場合、この設定を追加すると、これらのツールの認証が中断される可能性があるため、避ける必要があります。\\n\\nコマンドラインまたは他の GUI クライアントで Git を使用しない場合、このオプションを選択しても意味がないため、推奨されません。"
+msgstr "選択した場合、設定済みのホスティングプロバイダーから直接クローンされた新しいリポジトリの `.git/config` に、SmartGit が `credential.helper` として設定されます。ターミナルまたはシェルスクリプトでリモート Git コマンド (例: *pull* または *push*) を実行すると、SmartGit に認識されている資格情報が使用されます。\\n\\nこのリポジトリ設定は、新しいクローンにのみ影響し、ユーザーの `~/.gitconfig` にある `credential.helper` 設定よりも優先されます。\\n\\n既にクローンされているリポジトリの場合、*SmartGit を認証情報ヘルパーとして使用する* 設定は、*リポジトリ | 設定* で変更できます。\\n\\n*いつ選択するか？*\\nSmartGit のみを GUI クライアントとして使用し、コマンドラインから Git を使用する場合は、このオプションを選択することをお勧めします。GitHub などのプラットフォームにアクセスする際の認証プロセスが簡素化されます。\\n\\n*いつ設定しないか？*\\n他の GUI クライアントも使用している場合、この設定を追加すると、これらのツールの認証が中断される可能性があるため、避ける必要があります。\\n\\nコマンドラインまたは他の GUI クライアントで Git を使用しない場合、このオプションを選択しても意味がないため、推奨されません。"
 
 msgctxt "dlgSgCloneSetCredentialHelper.hdl:"
 msgid "Do you want to configure SmartGit as credential helper?"
-msgstr "SmartGit を認証ヘルパーとして設定しますか？"
+msgstr "SmartGit を認証情報ヘルパーとして設定しますか？"
 
 msgctxt "dlgSgCloneSetCredentialHelper.mni:"
 msgid "Copy"
@@ -3941,7 +3921,7 @@ msgstr "コミットを選択する"
 
 msgctxt "dlgSgCommitSelectMessageFromLog.hnt:"
 msgid "No graph roots selected."
-msgstr "(133) ⭐️グラフのルートが選択されていません。"
+msgstr "グラフのルートが選択されていません。"
 
 msgctxt "dlgSgCommitSelectMessageFromLog.hnt:"
 msgid "No repository selected."
@@ -4005,7 +3985,7 @@ msgstr "パターンを記憶"
 
 msgctxt "dlgSgCommitSelectMessageFromLog.tbt:"
 msgid "Interpret the search pattern as regular expression."
-msgstr "(134) ⭐️検索パターンを正規表現として解釈します。"
+msgstr "検索パターンを正規表現として解釈します。"
 
 msgctxt "dlgSgCommitSelectMessageFromLog.tle:"
 msgid "Select Commit Message"
@@ -4077,7 +4057,7 @@ msgstr "右側のファイルは、改行コードが混在しているため編
 
 msgctxt "dlgSgCompareTwoFilesFrameMixedLineEndingsRight.tle:"
 msgid "\\[$1\\] - \\[$2\\] - $3"
-msgstr "(135) ⭐️\\[$1\\] - \\[$2\\] - $3"
+msgstr "\\[$1\\] - \\[$2\\] - $3"
 
 msgctxt "dlgSgConflictResolverExternalStarted.btn:"
 msgid "Mark Resolved"
@@ -4351,10 +4331,9 @@ msgctxt "dlgSgErrorUtilsClientException.fur:"
 msgid "GIT_DIR for repository at '$1' does not exist."
 msgstr "'$1' にあるリポジトリの GIT_DIR が存在しません。"
 
-#, pretranslated
 msgctxt "dlgSgErrorUtilsClientException.fur:"
 msgid "No valid worktree state of the repository."
-msgstr "(453) ⭐️リポジトリの有効な作業ツリーの状態がありません。"
+msgstr "リポジトリの有効な作業ツリー状態がありません。"
 
 # TODO: Review
 # Multiple different messages (msgid) were detected.
@@ -4601,7 +4580,7 @@ msgstr "選択"
 
 msgctxt "dlgSgFlowFeatureFinish.chk:"
 msgid "Delete feature branch"
-msgstr "feature ブランチを削除"
+msgstr "Feature ブランチを削除"
 
 msgctxt "dlgSgFlowFeatureFinish.chk:"
 msgid "Fetch latest commits and remove remote feature branch"
@@ -4701,7 +4680,7 @@ msgstr "バージョンタグの作成:"
 
 msgctxt "dlgSgFlowHotfixFinish.chk:"
 msgid "Delete hotfix branch"
-msgstr "hotfix ブランチを削除"
+msgstr "Hotfix ブランチを削除"
 
 msgctxt "dlgSgFlowHotfixFinish.chk:"
 msgid "Fetch latest '$1' commits"
@@ -4725,11 +4704,11 @@ msgstr "コミット/タグ メッセージ"
 
 msgctxt "dlgSgFlowHotfixFinish.hdl:"
 msgid "Finish a hotfix"
-msgstr "(136) ⭐️ホットフィックスを完了する"
+msgstr "Hotfixを完了"
 
 msgctxt "dlgSgFlowHotfixFinish.hdl:"
 msgid "Finish current hotfix"
-msgstr "(137) ⭐️現在のホットフィックスを完了する"
+msgstr "現在のHotFixを完了する"
 
 msgctxt "dlgSgFlowHotfixFinish.inf:"
 msgid "Choose how to finish the current hotfix. This operation will merge the hotfix into the '$1' and '$2' branches."
@@ -4737,7 +4716,7 @@ msgstr "現在の Hotfix を完了する方法を選択します。この操作�
 
 msgctxt "dlgSgFlowHotfixFinish.inf:"
 msgid "Choose how to finish the current hotfix."
-msgstr "(138) ⭐️現在のホットフィックスを完了する方法を選択してください。"
+msgstr "現在のホットフィックスを完了する方法を選択してください。"
 
 msgctxt "dlgSgFlowHotfixFinish.inf:"
 msgid "Choose how to finish the hotfix branch '$1'. This operation will merge the hotfix into the '$2' and '$3' branches."
@@ -4841,7 +4820,7 @@ msgstr "バージョンタグの作成:"
 
 msgctxt "dlgSgFlowReleaseFinish.chk:"
 msgid "Delete release branch"
-msgstr "release ブランチを削除"
+msgstr "Release ブランチを削除"
 
 msgctxt "dlgSgFlowReleaseFinish.chk:"
 msgid "Fetch latest '$1' and '$2' commits"
@@ -4857,19 +4836,19 @@ msgstr "コミットメッセージ"
 
 msgctxt "dlgSgFlowReleaseFinish.edt:"
 msgid "Commit/Tag Message"
-msgstr "(139) ⭐️コミット/タグメッセージ"
+msgstr "コミット/タグメッセージ"
 
 msgctxt "dlgSgFlowReleaseFinish.hdl:"
 msgid "Finish a release"
-msgstr "(140) ⭐️リリースを完了する"
+msgstr "Releaseを完了"
 
 msgctxt "dlgSgFlowReleaseFinish.hdl:"
 msgid "Finish current release"
-msgstr "(141) ⭐️現在のリリースを完了する"
+msgstr "現在のReleaseを完了する"
 
 msgctxt "dlgSgFlowReleaseFinish.inf:"
 msgid "Choose how to finish the current release. This operation will merge the current release into the '$1' and '$2' branches."
-msgstr "(142) ⭐️現在のリリースを完了する方法を選択してください。この操作は、現在のリリースを'$1'および'$2'ブランチにマージします。"
+msgstr "現在のリリースを完了する方法を選択してください。この操作は、現在のリリースを'$1'および'$2'ブランチにマージします。"
 
 msgctxt "dlgSgFlowReleaseFinish.inf:"
 msgid "Choose how to finish the release branch '$1'. This operation will merge the current release into the '$2' and '$3' branches."
@@ -4889,7 +4868,7 @@ msgstr "開始"
 
 msgctxt "dlgSgFlowReleaseStart.chk:"
 msgid "Fetch from '$1' branch"
-msgstr "(143) ⭐️'$1' ブランチからフェッチする"
+msgstr "'$1' ブランチからフェッチする"
 
 msgctxt "dlgSgFlowReleaseStart.chk:"
 msgid "Fetch from base branch"
@@ -5001,16 +4980,16 @@ msgstr "ガベージコレクタの実行"
 
 msgctxt "dlgSgGitConfigEditConfigNotFound.fur:"
 msgid "The file $1config could not be opened for editing."
-msgstr "(146) ⭐️ファイル $1config を編集のために開くことができませんでした。"
+msgstr "ファイル $1config を編集のために開くことができませんでした。"
 
 # Config may be a variable.
 msgctxt "dlgSgGitConfigEditConfigNotFound.hdl:"
 msgid "The file config was not found."
-msgstr "(147) ⭐️ファイル config が見つかりませんでした。"
+msgstr "config ファイルが見つかりませんでした。"
 
 msgctxt "dlgSgGitConfigEditConfigNotFound.tle:"
 msgid "Edit Config"
-msgstr "(148) ⭐️設定を編集"
+msgstr "設定を編集"
 
 msgctxt "dlgSgGitHubCommitMessageSelect.btn:"
 msgid "Refresh"
@@ -5029,10 +5008,9 @@ msgctxt "dlgSgGitHubCommitMessageSelect.col:"
 msgid "Title"
 msgstr "タイトル"
 
-#, fuzzy
 msgctxt "dlgSgGitHubCommitMessageSelect.hdl:"
 msgid "Select commit message by GitHub issue"
-msgstr "(153) ⭐️GitHubのイシューによるコミットメッセージを選択してください"
+msgstr "GitHubのイシューによるコミットメッセージを選択してください"
 
 #, fuzzy
 msgctxt "dlgSgGitHubCommitMessageSelect.inf:"
@@ -5240,27 +5218,27 @@ msgstr "GitLab アカウントの個人用アクセストークンを入力し�
 
 msgctxt "dlgSgGitLabSettingsInvalidToken.tle:"
 msgid "Input Validation"
-msgstr "入力検証"
+msgstr "入力の検証"
 
 msgctxt "dlgSgGitNoteAdd.btn:"
 msgid "Add Note"
-msgstr "(156) ⭐️ノートを追加"
+msgstr "ノートを追加"
 
 msgctxt "dlgSgGitNoteAdd.edt:"
 msgid "Category"
-msgstr "(157) ⭐️カテゴリ"
+msgstr "カテゴリ"
 
 msgctxt "dlgSgGitNoteAdd.hdl:"
 msgid "Add a note to a commit"
-msgstr "(158) ⭐️コミットにメモを追加する"
+msgstr "コミットにメモを追加する"
 
 msgctxt "dlgSgGitNoteAdd.inf:"
 msgid "Provider the text which should be added to the selected commit."
-msgstr "(159) ⭐️選択したコミットに追加するテキストを提供してください。"
+msgstr "選択したコミットに追加するテキストを提供してください。"
 
 msgctxt "dlgSgGitNoteAdd.tle:"
 msgid "Add Note"
-msgstr "(160) ⭐️ノートを追加"
+msgstr "ノートを追加"
 
 msgctxt "dlgSgHeadMessageListenerReplaceMessage.btn:"
 msgid "Don't Replace"
@@ -5286,10 +5264,9 @@ msgctxt "dlgSgHeadMessageListenerReplaceMessage.tle:"
 msgid "Commit"
 msgstr "コミット"
 
-#, pretranslated
 msgctxt "dlgSgHistoryCommitCantBeModified.fur:"
 msgid "At least one of the affected commits is not part of your HEAD's first-parent history."
-msgstr "(455) ⭐️影響を受けたコミットのうち少なくとも1つは、あなたのHEADのファーストペアレント履歴の一部ではありません。"
+msgstr "影響を受けたコミットの少なくとも1つは、HEADの最初の親履歴の一部ではありません。"
 
 msgctxt "dlgSgHistoryCommitCantBeModified.fur:"
 msgid "To modify commits of a different branch, you need to first check out this branch."
@@ -5301,7 +5278,7 @@ msgstr "少なくとも1つの選択されたコミットを変更できませ�
 
 msgctxt "dlgSgHistoryCommitCantBeModified.tle:"
 msgid "Modify Commit"
-msgstr "コミットの修正"
+msgstr "コミットを修正"
 
 msgctxt "dlgSgHistoryCommitCantBeModified.ttp:"
 msgid "In the Preferences, you can configure Low-Level Property 'history.disableOperationsForUnmodifiableCommits' to have inapplicable operations showing up as disabled menu items immediately."
@@ -5345,23 +5322,24 @@ msgstr "作者を編集"
 
 msgctxt "dlgSgHistoryEditChooseCommitMessage.btn:"
 msgid "From Commit"
-msgstr "(161) ⭐️コミットから"
+msgstr "コミットから"
 
+#, fuzzy
 msgctxt "dlgSgHistoryEditChooseCommitMessage.btn:"
 msgid "From Failed Command"
-msgstr "(162) ⭐️失敗したコマンドから"
+msgstr "失敗したコマンドから"
 
 msgctxt "dlgSgHistoryEditChooseCommitMessage.fur:"
 msgid "A previous Edit Message command invocation failed for this commit. Decide whether to use the commit message from the failed run or the commit's message."
-msgstr "(163) ⭐️このコミットの以前の編集メッセージコマンドの呼び出しが失敗しました。失敗した実行からのコミットメッセージを使用するか、コミットのメッセージを使用するかを決定してください。"
+msgstr "このコミットの以前の編集メッセージコマンドの呼び出しが失敗しました。失敗した実行からのコミットメッセージを使用するか、コミットのメッセージを使用するかを決定してください。"
 
 msgctxt "dlgSgHistoryEditChooseCommitMessage.hdl:"
 msgid "Which commit message you like to use?"
-msgstr "(164) ⭐️どのコミットメッセージを使用しますか？"
+msgstr "どのコミットメッセージを使用しますか？"
 
 msgctxt "dlgSgHistoryEditChooseCommitMessage.tle:"
 msgid "Edit Message"
-msgstr "(165) ⭐️メッセージを編集"
+msgstr "メッセージの編集"
 
 msgctxt "dlgSgHistoryEditMessage.btn:"
 msgid "JIRA"
@@ -5445,7 +5423,7 @@ msgstr "コミットを修正しますか?"
 
 msgctxt "dlgSgHistoryModifyConfirm.tle:"
 msgid "Modify Commit"
-msgstr "コミットの修正"
+msgstr "コミットを修正"
 
 msgctxt "dlgSgHistoryModifySplitConfirm.btn:"
 msgid "Modify"
@@ -5511,10 +5489,9 @@ msgctxt "dlgSgHistoryPushedCommitsModifyPushedCommits.hdl:"
 msgid "Do you want to modify commits which are already pushed?"
 msgstr "既にプッシュされているコミットを修正しますか?"
 
-#, fuzzy
 msgctxt "dlgSgHistoryPushedCommitsModifyPushedCommits.tle:"
 msgid "Edit Author"
-msgstr "(166) ⭐️著者を編集"
+msgstr "作者を編集"
 
 msgctxt "dlgSgHistoryPushedCommitsModifyPushedCommits.tle:"
 msgid "Edit Message"
@@ -5522,11 +5499,11 @@ msgstr "メッセージの編集"
 
 msgctxt "dlgSgHistoryPushedCommitsModifyPushedCommits.tle:"
 msgid "Modify Commit"
-msgstr "コミットの修正"
+msgstr "コミットを修正"
 
 msgctxt "dlgSgHistoryPushedCommitsModifyPushedCommits.tle:"
 msgid "Move and Squash Commit"
-msgstr "移動してスカッシュコミット"
+msgstr "コミットを移動してスカッシュ"
 
 msgctxt "dlgSgHistoryPushedCommitsModifyPushedCommits.tle:"
 msgid "Rebase Interactive"
@@ -5566,7 +5543,7 @@ msgstr "コミットの分割"
 
 msgctxt "dlgSgHistorySquash.btn:"
 msgid "Add co-authors"
-msgstr "(167) ⭐️共著者を追加"
+msgstr "共著者を追加"
 
 msgctxt "dlgSgHistorySquash.btn:"
 msgid "JIRA"
@@ -5694,45 +5671,43 @@ msgstr "入力された URL は無効です - https://server のようになり�
 
 msgctxt "dlgSgHostingProviderAdd.hdl:"
 msgid "Add Azure DevOps Server account"
-msgstr "(168) ⭐️Azure DevOps Serverアカウントを追加"
+msgstr "Azure DevOps Serverアカウントを追加"
 
 msgctxt "dlgSgHostingProviderAdd.hdl:"
 msgid "Add Azure DevOps account"
-msgstr "(169) ⭐️Azure DevOpsアカウントを追加"
+msgstr "Azure DevOpsアカウントを追加"
 
 msgctxt "dlgSgHostingProviderAdd.hdl:"
 msgid "Add Bitbucket Server account"
-msgstr "(170) ⭐️Bitbucket Serverアカウントを追加"
+msgstr "Bitbucket Serverアカウントを追加"
 
 msgctxt "dlgSgHostingProviderAdd.hdl:"
 msgid "Add Bitbucket account"
-msgstr "(171) ⭐️Bitbucketアカウントを追加"
+msgstr "Bitbucketアカウントを追加"
 
 msgctxt "dlgSgHostingProviderAdd.hdl:"
 msgid "Add GitHub Enterprise account"
-msgstr "(172) ⭐️GitHub Enterpriseアカウントを追加"
+msgstr "GitHub Enterpriseアカウントを追加"
 
 msgctxt "dlgSgHostingProviderAdd.hdl:"
 msgid "Add GitHub account"
-msgstr "(173) ⭐️GitHubアカウントを追加"
+msgstr "GitHubアカウントを追加"
 
-#, fuzzy
 msgctxt "dlgSgHostingProviderAdd.hdl:"
 msgid "Add GitLab \\(Self Hosted\\) account"
-msgstr "(174) ⭐️GitLab \\(セルフホステッド\\) アカウントを追加"
+msgstr "GitLab \\(セルフホステッド\\) アカウントを追加"
 
 msgctxt "dlgSgHostingProviderAdd.hdl:"
 msgid "Add GitLab account"
-msgstr "(175) ⭐️GitLabアカウントを追加"
+msgstr "GitLabアカウントを追加"
 
 msgctxt "dlgSgHostingProviderAdd.hdl:"
 msgid "Configure a new hosting provider account"
-msgstr "(176) ⭐️新しいホスティングプロバイダーアカウントを設定する"
+msgstr "新しいホスティングプロバイダーアカウントを設定する"
 
-#, fuzzy
 msgctxt "dlgSgHostingProviderAdd.inf:"
 msgid "Set or select the options according to your account."
-msgstr "(178) ⭐️アカウントに応じてオプションを設定または選択してください。"
+msgstr "アカウントに応じてオプションを設定または選択してください。"
 
 # Needs review: Check whether the URL needs to be made variable
 #, fuzzy
@@ -5754,7 +5729,7 @@ msgstr "GitHub アカウント設定で生成できる「個人アクセスト�
 
 msgctxt "dlgSgHostingProviderAdd.lbl:"
 msgid "Required scopes are 'api' and 'write_repository'."
-msgstr "(179) ⭐️必要なスコープは 'api' と 'write_repository' です。"
+msgstr "必要なスコープは 'api' と 'write_repository' です。"
 
 msgctxt "dlgSgHostingProviderAdd.lbl:"
 msgid "SSL Client Certificate \\(optional\\)"
@@ -5986,7 +5961,7 @@ msgstr "リポジトリが見つかりません。"
 
 msgctxt "dlgSgHostingProviderSelectRepository.hnt:"
 msgid "No repository matches the entered filter."
-msgstr "入力されたフィルタに一致するリポジトリはありません。"
+msgstr "入力されたフィルタ条件に一致するリポジトリはありません。"
 
 msgctxt "dlgSgHostingProviderSelectRepository.hnt:"
 msgid "Searching ..."
@@ -6154,7 +6129,7 @@ msgstr "Ignoreファイル"
 
 msgctxt "dlgSgIgnoreFile.err:"
 msgid "Enter a pattern for the file\\(s\\) to be ignored. Use \\* to match multiple or ? for a single arbitrary character."
-msgstr "(180) ⭐️無視するファイル\\(s\\)のパターンを入力してください。複数の文字に一致させるには\\*を、単一の任意の文字には?を使用してください。"
+msgstr "無視するファイル\\(s\\)のパターンを入力してください。複数の文字に一致させるには\\*を、単一の任意の文字には?を使用してください。"
 
 msgctxt "dlgSgIgnoreFile.err:"
 msgid "The pattern must match all selected file names. For instance, '$1' is not matched."
@@ -6266,19 +6241,19 @@ msgstr "LFS インストール"
 
 msgctxt "dlgSgLfsPruneConfirm.btn:"
 msgid "Prune"
-msgstr "(181) ⭐️プルーニング"
+msgstr "プルーン\\(Prune\\)"
 
 msgctxt "dlgSgLfsPruneConfirm.fur:"
 msgid "This will call the remote to ensure that any LFS files to be deleted have copies on the remote before actually deleting them."
-msgstr "(182) ⭐️これにより、削除されるLFSファイルが実際に削除される前に、リモートにコピーがあることを確認するためにリモートが呼び出されます。"
+msgstr "これにより、削除されるLFSファイルが実際に削除される前に、リモートにコピーがあることを確認するためにリモートが呼び出されます。"
 
 msgctxt "dlgSgLfsPruneConfirm.hdl:"
 msgid "Would you like to delete old LFS files from the local storage?"
-msgstr "(183) ⭐️ローカルストレージから古いLFSファイルを削除しますか？"
+msgstr "ローカルストレージから古いLFSファイルを削除しますか？"
 
 msgctxt "dlgSgLfsPruneConfirm.tle:"
 msgid "LFS Prune"
-msgstr "(184) ⭐️LFS プルーン"
+msgstr "LFS プルーン"
 
 msgctxt "dlgSgLfsTrack.edt:"
 msgid "Pattern"
@@ -6682,19 +6657,19 @@ msgstr "リポジトリの追加又は作成"
 
 msgctxt "dlgSgOpenRepositoryOuterOrInner.btn:"
 msgid "Inner Repository"
-msgstr "(185) ⭐️内部リポジトリ"
+msgstr "内側のリポジトリ"
 
 msgctxt "dlgSgOpenRepositoryOuterOrInner.btn:"
 msgid "Outer Repository"
-msgstr "(186) ⭐️外部リポジトリ"
+msgstr "外側のリポジトリ"
 
 msgctxt "dlgSgOpenRepositoryOuterOrInner.fur:"
 msgid "At the specified path nested repositories were found.\\nInner repository: $1\\nOuter repository: $2"
-msgstr "(187) ⭐️指定されたパスにネストされたリポジトリが見つかりました。\\n内部リポジトリ: $1\\n外部リポジトリ: $2"
+msgstr "指定されたパスにネストされたリポジトリが見つかりました。\\n内側のリポジトリ: $1\\n外側のリポジトリ: $2"
 
 msgctxt "dlgSgOpenRepositoryOuterOrInner.hdl:"
 msgid "Do you want to open the outer or inner repository?"
-msgstr "(188) ⭐️外部リポジトリを開きますか、それとも内部リポジトリを開きますか？"
+msgstr "外側のリポジトリを開きますか、それとも内側のリポジトリを開きますか？"
 
 msgctxt "dlgSgOpenRepositoryOuterOrInner.tle:"
 msgid "Add or Create Repository"
@@ -6738,7 +6713,7 @@ msgstr "コマンド「中止」に失敗しました!"
 
 msgctxt "dlgSgOutput.lbl:"
 msgid "Command Add Branch failed!"
-msgstr "(190) ⭐️コマンド ブランチの追加に失敗しました！"
+msgstr "コマンド ブランチの追加に失敗しました！"
 
 msgctxt "dlgSgOutput.lbl:"
 msgid "Command Add Submodule failed!"
@@ -6798,15 +6773,15 @@ msgstr "コマンド「破棄」に失敗しました!"
 
 msgctxt "dlgSgOutput.lbl:"
 msgid "Command Discard produced warnings."
-msgstr "(191) ⭐️コマンドの破棄に警告が発生しました。"
+msgstr "コマンドの「Discard」で警告が発生しました。"
 
 msgctxt "dlgSgOutput.lbl:"
 msgid "Command Edit Author produced warnings."
-msgstr "(192) ⭐️コマンド「著者を編集」が警告を生成しました。"
+msgstr "コマンド「著者を編集」で警告が発生しました。"
 
 msgctxt "dlgSgOutput.lbl:"
 msgid "Command Edit Message failed!"
-msgstr "(193) ⭐️コマンド メッセージの編集に失敗しました！"
+msgstr "コマンド 「メッセージの編集」に失敗しました！"
 
 msgctxt "dlgSgOutput.lbl:"
 msgid "Command Fetch Pull Request produced warnings."
@@ -6822,7 +6797,7 @@ msgstr "コマンド 「フェッチ」 が警告を発しました。"
 
 msgctxt "dlgSgOutput.lbl:"
 msgid "Command LFS Install failed!"
-msgstr "(194) ⭐️コマンド LFS インストールに失敗しました！"
+msgstr "コマンド 「LFS インストール」 に失敗しました！"
 
 msgctxt "dlgSgOutput.lbl:"
 msgid "Command Merge produced warnings."
@@ -6842,7 +6817,7 @@ msgstr "コマンド 「移動」 が警告を発しました。"
 
 msgctxt "dlgSgOutput.lbl:"
 msgid "Command Pull \\(Merge\\) failed!"
-msgstr "(195) ⭐️コマンドプル（マージ）が失敗しました！"
+msgstr "コマンドプル（マージ）が失敗しました！"
 
 msgctxt "dlgSgOutput.lbl:"
 msgid "Command Pull \\(Merge\\) produced warnings."
@@ -6864,13 +6839,13 @@ msgstr "コマンド 「プッシュ」 に失敗しました!"
 # msgid "Command Rebase HEAD \\(pot-wip/v24.1-wsl\\) to 4d7f618e failed!"
 msgctxt "dlgSgOutput.lbl:"
 msgid "Command Rebase HEAD \\($1\\) to $2 failed!"
-msgstr "(196) ⭐️コマンド Rebase HEAD \\($1\\) を $2 に失敗しました！"
+msgstr "コマンド Rebase HEAD \\($1\\) を $2 に失敗しました！"
 
 # Needs review (Place holder)
 # msgid "Command Rebase HEAD \\(pot-wip/v24.1-wsl\\) to 79193904 produced warnings."
 msgctxt "dlgSgOutput.lbl:"
 msgid "Command Rebase HEAD \\($1\\) to $2 produced warnings."
-msgstr "(197) ⭐️コマンド Rebase HEAD \\($1\\) を $2 に対して実行した際に警告が発生しました。"
+msgstr "コマンド Rebase HEAD \\($1\\) を $2 に対して実行した際に警告が発生しました。"
 
 msgctxt "dlgSgOutput.lbl:"
 msgid "Command Rebase Interactive failed!"
@@ -6886,7 +6861,7 @@ msgstr "コマンド 「リベース」 が警告を発しました。"
 
 msgctxt "dlgSgOutput.lbl:"
 msgid "Command Remove Worktree failed!"
-msgstr "(198) ⭐️コマンド ワークツリーの削除に失敗しました！"
+msgstr "コマンド ワークツリーの削除に失敗しました！"
 
 msgctxt "dlgSgOutput.lbl:"
 msgid "Command Reset failed!"
@@ -6954,7 +6929,7 @@ msgstr "すべての参照がプッシュされたわけではありません。
 
 msgctxt "dlgSgOutput.lbl:"
 msgid "The command output below contains more details on the problem."
-msgstr "(199) ⭐️以下のコマンド出力には、問題に関する詳細が含まれています。"
+msgstr "以下のコマンド出力には、問題に関する詳細が含まれています。"
 
 msgctxt "dlgSgOutput.lbl:"
 msgid "The working tree has local changes."
@@ -6969,20 +6944,18 @@ msgid "Your local changes to the following files would be overwritten by checkou
 msgstr "次のファイルに対するローカルの変更は、チェックアウトによって上書きされます:\\n HEAD をデタッチできませんでした"
 
 # Needs Review
-#, fuzzy
 msgctxt "dlgSgOutput.lbl:"
 msgid "unable to access '$1': Could not resolve host: $2"
-msgstr "(200) ⭐️'$1'にアクセスできません: ホストを解決できませんでした: $2"
+msgstr "'$1'にアクセスできません: ホストを解決できませんでした: $2"
 
 # TODO: review
-#, fuzzy
 msgctxt "dlgSgOutput.lbl:"
 msgid "unable to access '$1': server certificate verification failed. CAfile: $2 CRLfile: $3"
-msgstr "(201) ⭐️'$1'にアクセスできません: サーバー証明書の検証に失敗しました。CAfile: $2 CRLfile: $3"
+msgstr "'$1'にアクセスできません: サーバー証明書の検証に失敗しました。CAfile: $2 CRLfile: $3"
 
 msgctxt "dlgSgOutput.lbl:"
 msgid "unable to auto-detect email address \\(got '$1.\\(none\\)'\\)"
-msgstr "(202) ⭐️メールアドレスを自動検出できませんでした \\(取得したのは '$1.\\(none\\)' です\\)"
+msgstr "メールアドレスを自動検出できませんでした \\(取得したのは '$1.\\(none\\)' です\\)"
 
 msgctxt "dlgSgOutput.mni:"
 msgid "Copy Selection"
@@ -7014,7 +6987,7 @@ msgstr "リポジトリURLを確認してください。\\n\\n$1"
 
 msgctxt "dlgSgPingRepositoryFailed.fur:"
 msgid "repository '$1' not found."
-msgstr "(203) ⭐️リポジトリ '$1' が見つかりません。"
+msgstr "リポジトリ '$1' が見つかりません。"
 
 msgctxt "dlgSgPingRepositoryFailed.hdl:"
 msgid "Could not connect to the repository '$1'."
@@ -7070,7 +7043,7 @@ msgstr "インポート"
 
 msgctxt "dlgSgPreferences.btn:"
 msgid "Load All Stored Secrets"
-msgstr "(204) ⭐️すべての保存された秘密を読み込む"
+msgstr "すべての保存された秘密を読み込む"
 
 msgctxt "dlgSgPreferences.btn:"
 msgid "Move Down"
@@ -7262,15 +7235,15 @@ msgstr "すべての変更がステージングされていても、作業ツリ
 
 msgctxt "dlgSgPreferences.chk:"
 msgid "Configure SmartGit as credential helper \\(for repository authentication\\)"
-msgstr "SmartGit を認証ヘルパーとして設定する \\(リポジトリ認証用\\)"
+msgstr "SmartGit を認証情報ヘルパーとして設定する \\(リポジトリ認証用\\)"
 
 msgctxt "dlgSgPreferences.chk:"
 msgid "Configure SmartGit as credential helper for Git command line"
-msgstr "(207) ⭐️SmartGitをGitコマンドラインの認証ヘルパーとして設定する"
+msgstr "SmartGitをGitコマンドラインの認証情報ヘルパーとして設定する"
 
 msgctxt "dlgSgPreferences.chk:"
 msgid "Configure newly cloned repository to use SmartGit as credential helper on Git command line"
-msgstr "(208) ⭐️新しくクローンしたリポジトリをGitコマンドラインでSmartGitを認証ヘルパーとして使用するように設定する"
+msgstr "新しくクローンしたリポジトリに対し、GitコマンドラインでSmartGitを認証情報ヘルパーとして使用するように設定する"
 
 msgctxt "dlgSgPreferences.chk:"
 msgid "Delete branch"
@@ -7358,7 +7331,7 @@ msgstr "全てのタグをプッシュ"
 
 msgctxt "dlgSgPreferences.chk:"
 msgid "Quick Polls \\(help shape SmartGit\\)"
-msgstr "(210) ⭐️クイックポール \\(SmartGitを形作る手助け\\)"
+msgstr "頻繁な更新確認 \\(SmartGitを形作る手助け\\)"
 
 msgctxt "dlgSgPreferences.chk:"
 msgid "Refresh file system also while SmartGit is in background"
@@ -7476,7 +7449,7 @@ msgstr "カスタム..."
 # [decode] msgid "Custom…"
 msgctxt "dlgSgPreferences.cmb:"
 msgid "Custom\\u2026"
-msgstr "(212) ⭐️カスタム\\u2026"
+msgstr "カスタム\\u2026"
 
 msgctxt "dlgSgPreferences.cmb:"
 msgid "Dark \\(independent of system\\)"
@@ -7864,7 +7837,7 @@ msgstr "ローカルとリモートの変更"
 
 msgctxt "dlgSgPreferences.lbl:"
 msgid "Note: Some repositories may already have per-repository AI settings."
-msgstr "(219) ⭐️注意: 一部のリポジトリには、すでにリポジトリごとのAI設定がある場合があります。"
+msgstr "注意: 一部のリポジトリには、すでにリポジトリごとのAI設定がある場合があります。"
 
 msgctxt "dlgSgPreferences.lbl:"
 msgid "Note: The password will be stored in plain text in SmartGit's configuration area!"
@@ -7900,7 +7873,7 @@ msgstr "Refs"
 
 msgctxt "dlgSgPreferences.lbl:"
 msgid "Refs/Commits"
-msgstr "(221) ⭐️Refs/コミット"
+msgstr "Refs/コミット"
 
 msgctxt "dlgSgPreferences.lbl:"
 msgid "Stash"
@@ -7908,7 +7881,7 @@ msgstr "スタッシュ"
 
 msgctxt "dlgSgPreferences.lbl:"
 msgid "The AI integration is \\*not yet configured\\* \\(globally\\)."
-msgstr "(222) ⭐️AI統合は\\*まだ設定されていません\\* \\(グローバルに\\)。"
+msgstr "AI統合は\\*まだ設定されていません\\* \\(グローバルに\\)。"
 
 msgctxt "dlgSgPreferences.lbl:"
 msgid "The last check was performed on $1."
@@ -7924,7 +7897,7 @@ msgstr "このファイルはそのまま送信されます: $1"
 
 msgctxt "dlgSgPreferences.lbl:"
 msgid "To configure, click the AI button in the Commit Message view or the Commit dialog."
-msgstr "(223) ⭐️設定するには、コミットメッセージビューまたはコミットダイアログのAIボタンをクリックしてください。"
+msgstr "設定するには、コミットメッセージビューまたはコミットダイアログのAIボタンをクリックしてください。"
 
 msgctxt "dlgSgPreferences.lbl:"
 msgid "To manually update in-place use the '...' button located next to the version number in the About dialog."
@@ -8064,7 +8037,7 @@ msgstr "GitHub"
 
 msgctxt "dlgSgPreferences.mni:"
 msgid "GitLab \\(Self Hosted\\)"
-msgstr "(226) ⭐️GitLab \\(セルフホステッド\\)"
+msgstr "GitLab \\(セルフホステッド\\)"
 
 msgctxt "dlgSgPreferences.mni:"
 msgid "GitLab"
@@ -8276,7 +8249,7 @@ msgstr "色"
 
 msgctxt "dlgSgPreferences.tab:"
 msgid "Credential Helper"
-msgstr "(229) ⭐️資格情報ヘルパー"
+msgstr "認証情報ヘルパー"
 
 msgctxt "dlgSgPreferences.tab:"
 msgid "Encoding"
@@ -8344,7 +8317,7 @@ msgstr "<b>設定が推奨される場合</b>"
 
 msgctxt "dlgSgPreferences.ttpSmartGitAsCredentialHelper:"
 msgid "For already cloned repositories the setting <b>Use SmartGit as credential helper</b> can be changed in <b>Repository \\| Settings</b>."
-msgstr "既にクローンされているリポジトリの場合、設定 <b>SmartGit を認証ヘルパーとして使用する</b> は、<b>リポジトリ | 設定</b> で変更できます。"
+msgstr "既にクローンされているリポジトリの場合、設定 <b>SmartGit を認証情報ヘルパーとして使用する</b> は、<b>リポジトリ | 設定</b> で変更できます。"
 
 msgctxt "dlgSgPreferences.ttpSmartGitAsCredentialHelper:"
 msgid "If selected, SmartGit will be set as <tt>credential.helper</tt> in the <tt>.git/config</tt> of newly cloned repositories that are cloned directly from a configured Hosting Provider. Executing remote Git commands \\(e.g. <b>pull</b> or <b>push</b>\\) in the terminal or a shell script will then use the credentials known to SmartGit."
@@ -8380,7 +8353,7 @@ msgstr "プロセスがハングしていると思われる場合は、[強制�
 
 msgctxt "dlgSgProcessKiller.lbl:"
 msgid "SmartGit is waiting for the following process to finish."
-msgstr "(230) ⭐️SmartGitは以下のプロセスが終了するのを待っています。"
+msgstr "SmartGitは以下のプロセスが終了するのを待っています。"
 
 msgctxt "dlgSgProcessKiller.tle:"
 msgid "Process Not Responding"
@@ -8408,28 +8381,28 @@ msgstr "コメントを編集"
 
 msgctxt "dlgSgProviderCredentialsAutoGeneratorSelector.btn:"
 msgid "Confirm"
-msgstr "(231) ⭐️確認"
+msgstr "確認"
 
 msgctxt "dlgSgProviderCredentialsAutoGeneratorSelector.cmb:"
 msgid "github.com"
-msgstr "(232) ⭐️github.com"
+msgstr "github.com"
 
 msgctxt "dlgSgProviderCredentialsAutoGeneratorSelector.edt:"
 msgid "Provider"
-msgstr "(233) ⭐️プロバイダー"
+msgstr "プロバイダー"
 
 msgctxt "dlgSgProviderCredentialsAutoGeneratorSelector.hdl:"
 msgid "Select which GitHub account to use"
-msgstr "(234) ⭐️使用するGitHubアカウントを選択してください"
+msgstr "使用するGitHubアカウントを選択してください"
 
 msgctxt "dlgSgProviderCredentialsAutoGeneratorSelector.inf:"
 msgid "Select which account you want to use for connecting to '$1'."
-msgstr "(235) ⭐️'$1' に接続するために使用するアカウントを選択してください。"
+msgstr "'$1' に接続するために使用するアカウントを選択してください。"
 
 # Verify that there’s no issue, since the `msgctxt` does not end with “:” and contains a proper noun.
 msgctxt "dlgSgProviderCredentialsAutoGeneratorSelector.tle:"
 msgid "Select GitHub account"
-msgstr "(236) ⭐️GitHubアカウントを選択してください"
+msgstr "GitHubアカウントを選択してください"
 
 msgctxt "dlgSgProviderGenerateToken.btn:"
 msgid "Authenticate"
@@ -8441,23 +8414,23 @@ msgstr "リンク"
 
 msgctxt "dlgSgProviderGenerateToken.hdl:"
 msgid "Generate a new API token for $1"
-msgstr "(237) ⭐️$1 の新しい API トークンを生成します"
+msgstr "$1 の新しい API トークンを生成します"
 
 msgctxt "dlgSgProviderGenerateToken.inf:"
 msgid "Authenticate at GitHub and grant access to SmartGit."
-msgstr ""
+msgstr "GitHubで認証し、SmartGitにアクセスを許可してください。"
 
 msgctxt "dlgSgProviderGenerateToken.inf:"
 msgid "Authenticate at GitLab and grant access to SmartGit."
-msgstr "(238) ⭐️GitLabで認証し、SmartGitへのアクセスを許可してください。"
+msgstr "GitLabで認証し、SmartGitへのアクセスを許可してください。"
 
 msgctxt "dlgSgProviderGenerateToken.lbl:"
 msgid "Your browser should have opened automatically, let you authenticate with your preferred account at GitHub and grant access to SmartGit. If this didn't happen, manually open following link:"
-msgstr "(239) ⭐️ブラウザが自動的に開き、GitHubで好みのアカウントで認証し、SmartGitへのアクセスを許可するはずです。これが発生しなかった場合は、以下のリンクを手動で開いてください:"
+msgstr "ブラウザが自動的に開き、GitHubで好みのアカウントで認証し、SmartGitへのアクセスを許可するはずです。これが発生しなかった場合は、以下のリンクを手動で開いてください:"
 
 msgctxt "dlgSgProviderGenerateToken.lbl:"
 msgid "Your browser should have opened automatically, let you authenticate with your preferred account at GitLab and grant access to SmartGit. If this didn't happen, manually open following link:"
-msgstr "(240) ⭐️ブラウザが自動的に開き、GitLabで好みのアカウントで認証し、SmartGitへのアクセスを許可するはずです。これが発生しなかった場合は、以下のリンクを手動で開いてください:"
+msgstr "ブラウザが自動的に開き、GitLabで好みのアカウントで認証し、SmartGitへのアクセスを許可するはずです。これが発生しなかった場合は、以下のリンクを手動で開いてください:"
 
 msgctxt "dlgSgProviderGenerateToken.tle:"
 msgid "Generate API Token"
@@ -8753,11 +8726,11 @@ msgstr "次回から表示しない"
 
 msgctxt "dlgSgPushConfirmSingleTag.fur:"
 msgid "$1 tag will be pushed to '$2'."
-msgstr "(241) ⭐️$1 タグが '$2' にプッシュされます。"
+msgstr "$1 タグが '$2' にプッシュされます。"
 
 msgctxt "dlgSgPushConfirmSingleTag.hdl:"
 msgid "Do you want to push tag '$1'?"
-msgstr "(242) ⭐️タグ '$1' をプッシュしますか？"
+msgstr "タグ '$1' をプッシュしますか？"
 
 msgctxt "dlgSgPushConfirmSingleTag.tle:"
 msgid "Push"
@@ -8773,7 +8746,7 @@ msgstr "リモートブランチへのプッシュは ファストフォワー�
 
 msgctxt "dlgSgPushForced.hdl:"
 msgid "Do you want to force-push \\(replace\\) the remote branch '$1'?"
-msgstr "(243) ⭐️リモートブランチ '$1' を強制プッシュ \\(置き換え\\) しますか？"
+msgstr "リモートブランチ '$1' を強制プッシュ \\(置き換え\\) しますか？"
 
 msgctxt "dlgSgPushForced.tle:"
 msgid "Push"
@@ -8893,7 +8866,7 @@ msgstr "'$1' をリモート '$2' にプッシュする"
 
 msgctxt "dlgSgPushToRef.hdl:"
 msgid "Push local commits to a remote repository"
-msgstr "(244) ⭐️ローカルコミットをリモートリポジトリにプッシュする"
+msgstr "ローカルコミットをリモートリポジトリにプッシュする"
 
 msgctxt "dlgSgPushToRef.inf:"
 msgid "Select the target repository where to push the ref\\(s\\)."
@@ -9103,32 +9076,27 @@ msgctxt "dlgSgRebaseContinueNothingToCommitContinue.tle:"
 msgid "Rebase"
 msgstr "リベース"
 
-#, fuzzy
 msgctxt "dlgSgRebaseContinueNothingToCommitModifyContinue.btn:"
 msgid "Continue \\(Resume\\)"
-msgstr "(245) ⭐️続ける \\(再開\\)"
+msgstr "続ける \\(再開\\)"
 
 #, fuzzy
 msgctxt "dlgSgRebaseContinueNothingToCommitModifyContinue.chk:"
 msgid "Don't show again"
 msgstr "次回から表示しない"
 
-#, fuzzy
 msgctxt "dlgSgRebaseContinueNothingToCommitModifyContinue.fur:"
 msgid "Clicking 'Continue' will resume the rebase, e.g. to finish after having modified the commit\\(s\\)."
-msgstr "(247) ⭐️「続行」をクリックすると、リベースが再開されます。たとえば、コミットを修正した後に終了するためです。"
+msgstr "「続行」をクリックすると、リベースが再開されます。たとえば、コミットを修正した後に終了するためです。"
 
-#, fuzzy
 msgctxt "dlgSgRebaseContinueNothingToCommitModifyContinue.hdl:"
 msgid "Do you want to continue the modify-commit-rebase?"
-msgstr "(248) ⭐️修正コミットリベースを続行しますか？"
+msgstr "修正コミットリベースを続行しますか？"
 
-#, fuzzy
 msgctxt "dlgSgRebaseContinueNothingToCommitModifyContinue.tle:"
 msgid "Modify Commit"
-msgstr "(249) ⭐️コミットを修正"
+msgstr "コミットを修正"
 
-#, fuzzy
 msgctxt "dlgSgRebaseContinueNothingToCommitModifyStep.btn:"
 msgid "Step"
 msgstr "ステップ"
@@ -9138,20 +9106,17 @@ msgctxt "dlgSgRebaseContinueNothingToCommitModifyStep.chk:"
 msgid "Don't show again"
 msgstr "次回から表示しない"
 
-#, fuzzy
 msgctxt "dlgSgRebaseContinueNothingToCommitModifyStep.fur:"
 msgid "Clicking 'Step' will continue the rebase and stop at the next commit. Use it to step through all pending commits, e.g. to verify whether they successfully build."
-msgstr "(252) ⭐️'ステップ'をクリックすると、リベースが続行され、次のコミットで停止します。これを使用して、すべての保留中のコミットをステップ実行し、成功裏にビルドされるかどうかを確認します。"
+msgstr "'ステップ' をクリックするとリベースが続行され、次のコミットで停止します。これを使用して保留中のすべてのコミットをステップ実行し、たとえばそれらが正常にビルドできるかどうかを確認できます。"
 
-#, fuzzy
 msgctxt "dlgSgRebaseContinueNothingToCommitModifyStep.hdl:"
 msgid "Do you want to step to the next commit?"
-msgstr "(253) ⭐️次のコミットに進みますか？"
+msgstr "次のコミットに進みますか？"
 
-#, fuzzy
 msgctxt "dlgSgRebaseContinueNothingToCommitModifyStep.tle:"
 msgid "Modify Commit"
-msgstr "(254) ⭐️コミットを修正"
+msgstr "コミットを修正"
 
 msgctxt "dlgSgRebaseContinueNothingToCommitSkip.btn:"
 msgid "Skip Commit"
@@ -9720,7 +9685,7 @@ msgstr "名前"
 
 msgctxt "dlgSgRenameBranch.err:"
 msgid "The name must not end with a slash or dot."
-msgstr "(255) ⭐️名前はスラッシュまたはドットで終わってはいけません。"
+msgstr "名前はスラッシュまたはドットで終わってはいけません。"
 
 msgctxt "dlgSgRenameBranch.hdl:"
 msgid "Rename branch"
@@ -9744,7 +9709,7 @@ msgstr "パス"
 
 msgctxt "dlgSgRenameFile.err:"
 msgid "No valid path specified."
-msgstr "(256) ⭐️有効なパスが指定されていません。"
+msgstr "有効なパスが指定されていません。"
 
 msgctxt "dlgSgRenameFile.hdl:"
 msgid "Move or Rename the file"
@@ -9886,10 +9851,9 @@ msgctxt "dlgSgRepositoryClose.btn:"
 msgid "Force Close"
 msgstr "強制的に閉じる"
 
-#, fuzzy
 msgctxt "dlgSgRepositoryClose.btn:"
 msgid "Force Exit"
-msgstr "(257) ⭐️強制終了"
+msgstr "強制終了"
 
 msgctxt "dlgSgRepositoryClose.fur:"
 msgid "Note that currently running Git processes might not be interrupted."
@@ -10021,7 +9985,7 @@ msgstr "サブモジュールから常に新しいコミット、タグ、ブラ
 
 msgctxt "dlgSgRepositorySettings.chk:"
 msgid "Configure SmartGit as credential helper for Git command line"
-msgstr "(258) ⭐️SmartGitをGitコマンドラインの認証ヘルパーとして設定する"
+msgstr "SmartGitをGitコマンドラインの認証情報ヘルパーとして設定する"
 
 msgctxt "dlgSgRepositorySettings.chk:"
 msgid "Initialize new submodules"
@@ -10106,7 +10070,7 @@ msgstr "\\* リポジトリのコミットがプッシュされていないサ�
 
 msgctxt "dlgSgRepositorySettings.tab:"
 msgid "Credential Helper"
-msgstr "(259) ⭐️資格情報ヘルパー"
+msgstr "認証情報ヘルパー"
 
 msgctxt "dlgSgRepositorySettings.tab:"
 msgid "Encoding"
@@ -10159,7 +10123,7 @@ msgstr "パターンは、その正規表現から派生した自動生成され
 #, fuzzy
 msgctxt "dlgSgRepositorySettings.wrn:"
 msgid "It is recommended to set an email address used for committing."
-msgstr "(260) ⭐️コミットに使用するメールアドレスを設定することをお勧めします。"
+msgstr "コミットに使用するメールアドレスを設定することをお勧めします。"
 
 msgctxt "dlgSgRepositorySettings.wrn:"
 msgid "The entered email address does not look like a valid one."
@@ -10191,7 +10155,7 @@ msgstr "コミット $1 にリセット"
 
 msgctxt "dlgSgResetAdv.inf:"
 msgid "Reset the current branch (HEAD) to the selected commit and optionally update Index and working tree."
-msgstr "(261) ⭐️現在のブランチ（HEAD）を選択したコミットにリセットし、必要に応じてインデックスと作業ツリーを更新します。"
+msgstr "現在のブランチ（HEAD）を選択したコミットにリセットし、必要に応じてインデックスと作業ツリーを更新します。"
 
 msgctxt "dlgSgResetAdv.lbl:"
 msgid "Current staged and local changes will be lost!"
@@ -10281,21 +10245,25 @@ msgctxt "dlgSgResolve.rbt:"
 msgid "Open Conflict Solver"
 msgstr "競合解決ツールを開く"
 
+#, fuzzy
 msgctxt "dlgSgResolve.rbt:"
 msgid "Set to $1 \\(\"ours\", $2\\)"
-msgstr "(400) ⭐️$1 \\(\"ours\", $2\\) に設定します。"
+msgstr "Set to $1 \\(\"ours\", $2\\)"
 
+#, fuzzy
 msgctxt "dlgSgResolve.rbt:"
 msgid "Set to $1 \\(\"theirs\", $2\\)"
-msgstr "(401) ⭐️$1 \\(\"彼らの\", $2\\) に設定する"
+msgstr "Set to $1 \\(\"theirs\", $2\\)"
 
+#, fuzzy
 msgctxt "dlgSgResolve.rbt:"
 msgid "Set to rebase target \\(\"theirs\", $1\\)"
-msgstr "(409) ⭐️リベース対象を設定する \\(\"相手の\", $1\\)"
+msgstr "Set to rebase target \\(\"theirs\", $1\\)"
 
+#, fuzzy
 msgctxt "dlgSgResolve.rbt:"
 msgid "Set to rebased branch '$1' \\(\"ours\", $2\\)"
-msgstr "(408) ⭐️リベースされたブランチ '$1' に設定しました \\(\"ours\", $2\\)"
+msgstr "Set to rebased branch '$1' \\(\"ours\", $2\\)"
 
 msgctxt "dlgSgResolve.tle:"
 msgid "Resolve"
@@ -10363,11 +10331,11 @@ msgstr "ローカルと追跡されたブランチのどちらを表示します
 
 msgctxt "dlgSgRevealCommitLocalOrTracked.tle:"
 msgid "Compare with Selected Commit"
-msgstr "(262) ⭐️選択したコミットと比較"
+msgstr "選択したコミットと比較"
 
 msgctxt "dlgSgRevealCommitLocalOrTracked.tle:"
 msgid "Reveal Commit"
-msgstr "(263) ⭐️コミットを表示"
+msgstr "コミットを表示"
 
 msgctxt "dlgSgRevertAndCommitConfirmSingle.btn:"
 msgid "Revert && Commit"
@@ -10823,7 +10791,7 @@ msgstr "使用状況の統計情報の送信"
 
 msgctxt "dlgSgSetup.chk:"
 msgid "Use SmartGit for authentication \\(ignoring your current credential.helper configuration\\)"
-msgstr "(264) ⭐️SmartGitを認証に使用します（現在のcredential.helper設定は無視されます）"
+msgstr "SmartGitを認証に使用します（現在のcredential.helper設定は無視されます）"
 
 msgctxt "dlgSgSetup.chk:"
 msgid "Use gravatar.com to show images for the users"
@@ -10835,11 +10803,11 @@ msgstr "電子メール"
 
 msgctxt "dlgSgSetup.edt:"
 msgid "Full Name"
-msgstr "(265) ⭐️フルネーム"
+msgstr "フルネーム"
 
 msgctxt "dlgSgSetup.edt:"
 msgid "Git Email"
-msgstr "(266) ⭐️Gitのメール"
+msgstr "メールアドレス"
 
 msgctxt "dlgSgSetup.edt:"
 msgid "Git Executable"
@@ -10887,7 +10855,7 @@ msgstr "SSHを使って他のGitリポジトリに接続する場合は、使用
 
 msgctxt "dlgSgSetup.inf:"
 msgid "Please review the following privacy options. You can change them later in the Preferences."
-msgstr "(272) ⭐️以下のプライバシーオプションを確認してください。後で設定の中で変更することができます。"
+msgstr "以下のプライバシーオプションを確認してください。後で設定の中で変更することができます。"
 
 msgctxt "dlgSgSetup.inf:"
 msgid "Please review the following privacy options. You can change them later in the preferences."
@@ -10907,7 +10875,7 @@ msgstr "ユーザー名とメールアドレスは、コミットの一部とし
 
 msgctxt "dlgSgSetup.inf:"
 msgid "User name and email will be stored as part of your commits. Here you can configure the default values which are stored in ~/.gitconfig."
-msgstr "(273) ⭐️ユーザー名とメールアドレスは、コミットの一部として保存されます。ここで、~/.gitconfig に保存されるデフォルト値を設定できます。"
+msgstr "ユーザー名とメールアドレスは、コミットの一部として保存されます。ここで、~/.gitconfig に保存されるデフォルト値を設定できます。"
 
 msgctxt "dlgSgSetup.inf:"
 msgid "Welcome to SmartGit! Please confirm that you are accepting the license agreement."
@@ -10975,7 +10943,7 @@ msgstr "新しいユーザーにとっては設定や使い方が難しいかも
 
 msgctxt "dlgSgSetup.rbt:"
 msgid "Bundled Git"
-msgstr "(274) ⭐️バンドルされたGit"
+msgstr "付属のGit"
 
 msgctxt "dlgSgSetup.rbt:"
 msgid "Commits \\(Log History\\)"
@@ -10995,7 +10963,7 @@ msgstr "非商用利用のみ （ほとんどの機能、サポートなし）"
 
 msgctxt "dlgSgSetup.rbt:"
 msgid "Other Git Executable:"
-msgstr "(275) ⭐️他のGit実行可能ファイル："
+msgstr "外部の Git 実行ファイル:"
 
 msgctxt "dlgSgSetup.rbt:"
 msgid "Registered user, commercial use \\(all features, support\\)"
@@ -11319,7 +11287,7 @@ msgstr "自動的にスタッシュを保存"
 
 msgctxt "dlgSgStashOnDemandConfirmation.fur:"
 msgid "Add Branch may require a clean working tree to complete successfully. After the Add Branch succeeded, the stashed local changes will be automatically reapplied."
-msgstr "(277) ⭐️Add Branchは、成功裏に完了するためにクリーンな作業ツリーを必要とする場合があります。Add Branchが成功した後、スタッシュされたローカルの変更は自動的に再適用されます。"
+msgstr "ブランチの追加を正常に完了するには、クリーンな作業ツリーが必要な場合があります。ブランチの追加が成功した後、スタッシュされたローカルの変更は自動的に再適用されます。"
 
 msgctxt "dlgSgStashOnDemandConfirmation.fur:"
 msgid "Check Out may require a clean working tree to complete successfully. After the Check Out succeeded, the stashed local changes will be automatically reapplied."
@@ -11351,7 +11319,7 @@ msgstr "コミットのスカッシュを正常に完了するには、作業ツ
 
 msgctxt "dlgSgStashOnDemandConfirmation.hdl:"
 msgid "Do you want to save local changes to a stash and retry Add Branch?"
-msgstr "(278) ⭐️ローカルの変更をスタッシュに保存して、Add Branchを再試行しますか？"
+msgstr "ローカルの変更をスタッシュに保存して、ブランチの追加を再試行しますか？"
 
 msgctxt "dlgSgStashOnDemandConfirmation.hdl:"
 msgid "Do you want to save local changes to a stash and retry Check Out?"
@@ -11397,10 +11365,9 @@ msgctxt "dlgSgStashOnDemandConfirmation.tle:"
 msgid "Checkout"
 msgstr "チェックアウト"
 
-#, pretranslated
 msgctxt "dlgSgStashOnDemandConfirmation.tle:"
 msgid "Edit Message"
-msgstr "(452) ⭐️メッセージを編集"
+msgstr "メッセージの編集"
 
 msgctxt "dlgSgStashOnDemandConfirmation.tle:"
 msgid "Pull"
@@ -11412,15 +11379,15 @@ msgstr "リセット"
 
 msgctxt "dlgSgStashOnDemandDiscardConfirmation.btn:"
 msgid "Discard"
-msgstr "(279) ⭐️破棄"
+msgstr "破棄"
 
 msgctxt "dlgSgStashOnDemandDiscardConfirmation.fur:"
 msgid "It might be hard or impossible to restore them!"
-msgstr "(280) ⭐️それらを復元するのは難しいか、不可能かもしれません！"
+msgstr "復元するのは困難または不可能かもしれません！"
 
 msgctxt "dlgSgStashOnDemandDiscardConfirmation.hdl:"
 msgid "Do you really want to discard the local changes?"
-msgstr "(281) ⭐️本当にローカルの変更を破棄しますか？"
+msgstr "本当にローカルの変更を破棄しますか？"
 
 msgctxt "dlgSgStashOnDemandDiscardConfirmation.tle:"
 msgid "Reset"
@@ -11536,7 +11503,7 @@ msgstr "ディレクトリ '$1' は既に存在します。"
 
 msgctxt "dlgSgSubmoduleAdd.err:"
 msgid "Please specify the URL of the remote repository or the path of the local repository that should be cloned."
-msgstr "(283) ⭐️リモートリポジトリのURLまたはクローンすべきローカルリポジトリのパスを指定してください。"
+msgstr "リモートリポジトリのURLまたはクローンしたいローカルリポジトリのパスを指定してください。"
 
 msgctxt "dlgSgSubmoduleAdd.err:"
 msgid "Please specify the URL of the remote repository to be cloned."
@@ -11544,15 +11511,15 @@ msgstr "クローンするリモートリポジトリの URL を指定してく�
 
 msgctxt "dlgSgSubmoduleAdd.err:"
 msgid "The specified directory is not the root of a repository."
-msgstr "(284) ⭐️指定されたディレクトリはリポジトリのルートではありません。"
+msgstr "指定されたディレクトリはリポジトリのルートではありません。"
 
 msgctxt "dlgSgSubmoduleAdd.hdl:"
 msgid "Path"
-msgstr "(285) ⭐️パス"
+msgstr "パス"
 
 msgctxt "dlgSgSubmoduleAdd.hdl:"
 msgid "Repository"
-msgstr "(286) ⭐️リポジトリ"
+msgstr "リポジトリ"
 
 msgctxt "dlgSgSubmoduleAdd.hnt:"
 msgid "No repository found."
@@ -11560,7 +11527,7 @@ msgstr "リポジトリが見つかりませんでした。"
 
 msgctxt "dlgSgSubmoduleAdd.hnt:"
 msgid "No repository matches the entered filter."
-msgstr "(287) ⭐️入力されたフィルターに一致するリポジトリはありません。"
+msgstr "入力されたフィルタ条件に一致するリポジトリはありません。"
 
 msgctxt "dlgSgSubmoduleAdd.hnt:"
 msgid "Searching ..."
@@ -11778,11 +11745,11 @@ msgstr "サブモジュールの登録を解除"
 
 msgctxt "dlgSgSubtreeAdd.btn:"
 msgid "Configure"
-msgstr "(290) ⭐️設定"
+msgstr "設定"
 
 msgctxt "dlgSgSubtreeAdd.btn:"
 msgid "Continue"
-msgstr "(291) ⭐️続ける"
+msgstr "続ける"
 
 msgctxt "dlgSgSubtreeAdd.btn:"
 msgid "Go Back"
@@ -11810,7 +11777,7 @@ msgstr "ローカルパス"
 
 msgctxt "dlgSgSubtreeAdd.edt:"
 msgid "Relative Path"
-msgstr "(293) ⭐️相対パス"
+msgstr "相対パス"
 
 msgctxt "dlgSgSubtreeAdd.edt:"
 msgid "Remote"
@@ -11822,19 +11789,19 @@ msgstr "リポジトリ URL"
 
 msgctxt "dlgSgSubtreeAdd.err:"
 msgid "Directory '$1' already exists."
-msgstr "(294) ⭐️ディレクトリ '$1' はすでに存在します。"
+msgstr "ディレクトリ '$1' はすでに存在します。"
 
 msgctxt "dlgSgSubtreeAdd.err:"
 msgid "Please enter a valid relative path. The submodule will be created at this path inside the repository."
-msgstr "(295) ⭐️有効な相対パスを入力してください。このパス内にサブモジュールがリポジトリ内に作成されます。"
+msgstr "有効な相対パスを入力してください。このパス内にサブモジュールがリポジトリ内に作成されます。"
 
 msgctxt "dlgSgSubtreeAdd.hdl:"
 msgid "Path"
-msgstr "(296) ⭐️パス"
+msgstr "パス"
 
 msgctxt "dlgSgSubtreeAdd.hdl:"
 msgid "Repository"
-msgstr "(297) ⭐️リポジトリ"
+msgstr "リポジトリ"
 
 # [decode] msgctxt "dlgSgSubtreeAdd.hnt"Searching …""
 # [decode] msgid "Searching …"
@@ -11852,7 +11819,7 @@ msgstr "サブツリーとしてクローンするリポジトリを指定しま
 
 msgctxt "dlgSgSubtreeAdd.inf:"
 msgid "Specify the repository to clone as subtree.\\nTo configure multiple accounts of the same hosting provider, use the Preferences."
-msgstr "(299) ⭐️サブツリーとしてクローンするリポジトリを指定してください。\\n同じホスティングプロバイダーの複数のアカウントを設定するには、Preferencesを使用してください。"
+msgstr "サブツリーとしてクローンするリポジトリを指定してください。\\n同じホスティングプロバイダーの複数のアカウントを設定するには、環境設定から設定してください。"
 
 msgctxt "dlgSgSubtreeAdd.lbl:"
 msgid "Local branches for subtrees will only be useful if you plan to use Subtree-Split and Subtree-Reset operations."
@@ -11908,7 +11875,7 @@ msgstr "SVN認証"
 
 msgctxt "dlgSgSvnClientCertificate.wrn:"
 msgid "Authentication to the SVN repository '$1' failed with error: $2'"
-msgstr "(406) ⭐️SVNリポジトリ '$1' への認証に失敗しました。エラー: $2"
+msgstr "SVNリポジトリ '$1' への認証に失敗しました。エラー: $2"
 
 msgctxt "dlgSgSvnSslFingerprintChanged.btn:"
 msgid "Accept"
@@ -12076,7 +12043,7 @@ msgstr "このコマンドの名前を入力してください。"
 
 msgctxt "dlgSgToolEdit.err:"
 msgid "Select the command which should be invoked."
-msgstr "(301) ⭐️呼び出すべきコマンドを選択してください。"
+msgstr "呼び出すべきコマンドを選択してください。"
 
 msgctxt "dlgSgToolEdit.hdl:"
 msgid "Edit external tool"
@@ -12368,23 +12335,23 @@ msgstr "プッシュ"
 
 msgctxt "dlgStdDiscardConfirmUntrackedFiles.btn:"
 msgid "Discard"
-msgstr "(302) ⭐️破棄"
+msgstr "破棄"
 
 msgctxt "dlgStdDiscardConfirmUntrackedFiles.chk:"
 msgid "Don't show again"
-msgstr "(303) ⭐️再表示しない"
+msgstr "次回から表示しない"
 
 msgctxt "dlgStdDiscardConfirmUntrackedFiles.fur:"
 msgid "You are about to delete untracked files permanently. This action cannot be undone."
-msgstr "(304) ⭐️未追跡のファイルを永久に削除しようとしています。この操作は元に戻せません。"
+msgstr "未追跡のファイルを永久に削除しようとしています。この操作は元に戻せません。"
 
 msgctxt "dlgStdDiscardConfirmUntrackedFiles.hdl:"
 msgid "Do you want to delete untracked files?"
-msgstr "(305) ⭐️未追跡のファイルを削除しますか？"
+msgstr "未追跡のファイルを削除しますか？"
 
 msgctxt "dlgStdDiscardConfirmUntrackedFiles.tle:"
 msgid "Discard"
-msgstr "(306) ⭐️破棄"
+msgstr "破棄"
 
 msgctxt "dlgTxtEditor.fileModified.btn:"
 msgid "Keep Content"
@@ -12508,7 +12475,7 @@ msgstr "奇妙なエラーや予期せぬダイアログのポップアップが
 
 msgctxt "ntmCredentialHelper:"
 msgid "In general this should be fine and is the recommended configuration when working with multiple Git clients. If unexpected credential popups or weird errors occur, try to let SmartGit handle the authentication itself."
-msgstr "(307) ⭐️一般的に、これは問題なく、複数のGitクライアントで作業する際に推奨される設定です。予期しない資格情報のポップアップや奇妙なエラーが発生した場合は、SmartGitに認証を自動的に処理させてみてください。"
+msgstr "一般的に、これは問題なく、複数のGitクライアントで作業する際に推奨される設定です。予期しない資格情報のポップアップや奇妙なエラーが発生した場合は、SmartGitに認証を自動的に処理させてみてください。"
 
 msgctxt "ntmCredentialHelper:"
 msgid "In general this should be fine and is the recommended configuration when working with multiple Git clients. In case you are encountering strange errors or unexpected dialog popups, try to disable this configuration and let SmartGit handle the authentication itself."
@@ -12548,7 +12515,7 @@ msgstr "<link1>YouTube</link1>:  チュートリアルと専門家の動画"
 
 msgctxt "ntmFollowUsOnTwitter:"
 msgid "Follow us on your favorite social media platforms to receive news, learn about features or influence future versions of SmartGit with your requests and feedback!"
-msgstr "お好きなソーシャル・メディア・プラットフォームで私たちをフォローして、ニュースを受け取ったり、機能について学んだり、 要望やフィードバックでSmartGitの将来のバージョンに影響を与えたりしてください！"
+msgstr "お気に入りのSNSで私たちをフォローして、最新ニュースや機能紹介をご覧ください。皆様のリクエストやフィードバックで開発チームと対話し、次世代のSmartGitづくりにご参加ください！"
 
 msgctxt "ntmFollowUsOnTwitter:"
 msgid "It's a great way to help shaping future versions of SmartGit!"
@@ -12576,7 +12543,7 @@ msgstr "<link1>Bluesky</link1>: ニュース"
 
 msgctxt "ntmFollowUsOnX:"
 msgid "<link1>Bluesky</link1>: news, polls, discussions"
-msgstr "(309) ⭐️<link1>Bluesky</link1>: ニュース、投票、ディスカッション"
+msgstr "<link1>Bluesky</link1>: ニュース、投票、ディスカッション"
 
 msgctxt "ntmFollowUsOnX:"
 msgid "<link1>Facebook</link1>: news"
@@ -12637,7 +12604,7 @@ msgstr "SmartGit は、$1 との連携に対応しています。連携機能は
 
 msgctxt "ntmLcTypeProblem\"If you experience problems with garbled file names/paths containing non-US-ASCII characters, consider to set the environment variables <tt>LC_ALL</tt>, or both <tt>LC_CTYPE</tt> and <tt>LANG</tt> to a country code which ends with \\\"<tt>.UTF-8</tt>\\\".\""
 msgid "If you experience problems with garbled file names/paths containing non-US-ASCII characters, consider to set the environment variables <tt>LC_ALL</tt>, or both <tt>LC_CTYPE</tt> and <tt>LANG</tt> to a country code which ends with \"<tt>.UTF-8</tt>\"."
-msgstr ""
+msgstr "非ASCII文字を含むファイル名やパスで文字化けが発生する場合は、環境変数 <tt>LC_ALL</tt>、あるいは <tt>LC_CTYPE</tt> と <tt>LANG</tt> の両方に、末尾が「<tt>.UTF-8</tt>」となるロケールを設定してみてください。"
 
 msgctxt "ntmMarkRepositoriesAsFavorite:"
 msgid "Git repositories marked as 'favorites' will be refreshed and fetched automatically in the background."
@@ -12673,7 +12640,7 @@ msgstr "新しいバージョンが正常にダウンロードされると、再
 
 msgctxt "ntmUpdateCheckFetchVersionSuccess:"
 msgid "SmartGit $1 Preview needs to be restarted now for the changes to take effect."
-msgstr "(407) ⭐️SmartGit $1 プレビューは、変更を適用するために今すぐ再起動する必要があります。"
+msgstr "SmartGit $1 プレビューは、変更を適用するために今すぐ再起動する必要があります。"
 
 msgctxt "ntmUpdateCheckFetchVersionSuccess:"
 msgid "SmartGit needs to be restarted now for the changes to take effect."
@@ -12697,11 +12664,11 @@ msgstr "<link1>alternativeto.net</link1>で投票"
 
 msgctxt "ntmWslWorkaround:"
 msgid "To work around some problems with WSL, please check our documentation."
-msgstr ""
+msgstr "WSLに関するいくつかの問題を回避するにはドキュメントを参照してください"
 
 msgctxt "nttCredentialHelper:"
 msgid "External Credential Helper detected"
-msgstr "(315) ⭐️外部認証ヘルパーが検出されました"
+msgstr "外部の認証情報ヘルパーが検出されました"
 
 msgctxt "nttCredentialHelper:"
 msgid "External Credentials Helper detected"
@@ -12709,7 +12676,7 @@ msgstr "外部の認証情報ヘルパーが検出されました"
 
 msgctxt "nttCredentialHelper:"
 msgid "Let SmartGit handle Authentication"
-msgstr "(316) ⭐️SmartGitに認証を処理させる"
+msgstr "SmartGitに認証を処理させる"
 
 msgctxt "nttFollowUsOnTwitter:"
 msgid "Follow SmartGit on Twitter!"
@@ -12753,7 +12720,7 @@ msgstr "今すぐ設定する"
 
 msgctxt "nttLcTypeProblem:"
 msgid "Experience problems with non-US-ASCII file names?"
-msgstr ""
+msgstr "非ASCII文字を含むファイル名で問題が発生していますか？"
 
 msgctxt "nttMarkRepositoriesAsFavorite:"
 msgid "Mark repositories as 'favorite' for automatic background refresh."
@@ -12801,7 +12768,7 @@ msgstr "バージョン $1 \\($2\\) のダウンロードを開始しました�
 
 msgctxt "nttUpdateCheckFetchVersionStart:"
 msgid "Started downloading version $1."
-msgstr "(317) ⭐️バージョン $1 のダウンロードを開始しました。"
+msgstr "バージョン $1 のダウンロードを開始しました。"
 
 msgctxt "nttUpdateCheckFetchVersionSuccess:"
 msgid "Restart SmartGit"
@@ -12825,11 +12792,11 @@ msgstr "SmartGitのどこが好きですか？"
 
 msgctxt "nttWslWorkaround:"
 msgid "It seems that you're running SmartGit in WSL."
-msgstr ""
+msgstr "WSL（Windows Subsystem for Linux）上でSmartGitを実行しているようです。"
 
 msgctxt "nttWslWorkaround:"
 msgid "Open Documentation"
-msgstr ""
+msgstr "ドキュメントを開く"
 
 msgctxt "pop:"
 msgid "$1 succeeded."
@@ -12929,7 +12896,7 @@ msgstr "<b>受信中</b> リポジトリ <b>$1</b> のブランチ <b>$2</b> か
 
 msgctxt "ttpBranches:"
 msgid "<b>Last Updated By: </b>$1"
-msgstr "(405) ⭐️<b>最終更新者: </b>$1"
+msgstr "<b>最終更新者: </b>$1"
 
 msgctxt "ttpBranches:"
 msgid "<b>Local Branch:\\t</b>$1"
@@ -12937,11 +12904,15 @@ msgstr "<b>ローカルブランチ:\\t</b>$1"
 
 msgctxt "ttpBranches:"
 msgid "<b>On: </b>$1"
-msgstr "(404) ⭐️<b>オン: </b>$1"
+msgstr "<b>On: </b>$1"
+
+msgctxt "ttpBranches:"
+msgid "<b>Outgoing</b> from branch <b>$1</b> to repository <b>$2</b> branch <b>$3</b>"
+msgstr "<b>$1</b> ブランチからリポジトリ <b>$2</b> のブランチ <b>$3</b> への <b>送信</b>"
 
 msgctxt "ttpBranches:"
 msgid "<b>Outgoing</b> from branch <b>$1</b> to repository <b>$2</b> branch <b>main</b>"
-msgstr "(403) ⭐️<b>$1</b> ブランチからリポジトリ <b>$2</b> のブランチ <b>main</b> への <b>送信</b>"
+msgstr "<b>$1</b> ブランチからリポジトリ <b>$2</b> のブランチ <b>$3</b> への <b>送信</b>"
 
 msgctxt "ttpBranches:"
 msgid "<b>Push Target:\\t</b>$1"
@@ -12969,15 +12940,15 @@ msgstr "<b>スタッシュ:\\t</b>$1"
 
 msgctxt "ttpBranches:"
 msgid "<b>Tag Date:\\t</b>$1"
-msgstr "(318) ⭐️<b>タグ日付:\\t</b>$1"
+msgstr "<b>Tag Date:\\t</b>$1"
 
 msgctxt "ttpBranches:"
 msgid "<b>Tag Message:\\t</b>$1"
-msgstr "(319) ⭐️<b>タグメッセージ:\\t</b>$1"
+msgstr "<b>タグメッセージ:\\t</b>$1"
 
 msgctxt "ttpBranches:"
 msgid "<b>Tagger:\\t</b>$1"
-msgstr "(320) ⭐️<b>タグ付け者:\\t</b>$1"
+msgstr "<b>Tagger:\\t</b>$1"
 
 msgctxt "ttpBranches:"
 msgid "<b>Tracked Branch:\\t</b>$1"
@@ -13125,7 +13096,7 @@ msgstr "<b>リモート:\\t</b>"
 
 msgctxt "ttpRepositories:"
 msgid "<b>Tracked Branch:\\t</b>$1"
-msgstr "(322) ⭐️<b>追跡ブランチ:\\t</b>$1"
+msgstr "<b>追跡ブランチ:\\t</b>$1"
 
 msgctxt "ttpRepositories:"
 msgid "<b>Tracked Branch:\\t</b>$1<col1>$2</col1>"
@@ -13197,15 +13168,15 @@ msgstr "SmartGitについて"
 
 msgctxt "wnd.mni:"
 msgid "Contact Support"
-msgstr "(324) ⭐️サポートに連絡する"
+msgstr "サポートに連絡する"
 
 msgctxt "wnd.mni:"
 msgid "License Agreement"
-msgstr "(325) ⭐️ライセンス契約"
+msgstr "使用許諾契約"
 
 msgctxt "wnd.mni:"
 msgid "Open File"
-msgstr "(326) ⭐️ファイルを開く"
+msgstr "ファイルを開く"
 
 msgctxt "wnd.mni:"
 msgid "Open in Terminal"
@@ -13213,7 +13184,7 @@ msgstr "ターミナルで開く"
 
 msgctxt "wnd.mni:"
 msgid "Open in VSCode"
-msgstr "(327) ⭐️VSCodeで開く"
+msgstr "VSCodeで開く"
 
 msgctxt "wnd.mni:"
 msgid "Reveal in Finder"
@@ -13221,7 +13192,7 @@ msgstr "Finderで表示"
 
 msgctxt "wnd.mni:"
 msgid "SmartGit Website"
-msgstr "(328) ⭐️SmartGit ウェブサイト"
+msgstr "SmartGit ウェブサイト"
 
 msgctxt "wnd.mniBisectTryCommit:"
 msgid "Try Commit"
@@ -13237,11 +13208,11 @@ msgstr "メインを統合"
 
 msgctxt "wnd.mniShowInMyHistory:"
 msgid "Show in My History"
-msgstr "(332) ⭐️マイヒストリーに表示"
+msgstr "マイヒストリーに表示"
 
 msgctxt "wnd.mniWindow-maximize:"
 msgid "Zoom"
-msgstr "(333) ⭐️ズーム"
+msgstr "ズーム"
 
 msgctxt "wndAnnotate.cmb:"
 msgid "Age"
@@ -13406,12 +13377,12 @@ msgstr "現在の行の履歴"
 # $1: File Name $2 Relative path
 msgctxt "wndAnnotate.tle:"
 msgid "$1 - Blame of $2"
-msgstr "(335) ⭐️$1 - $2の責任"
+msgstr "$1 - $2のBlame"
 
 # $1: File Name ,$2 Relative path ,$3:CommitID
 msgctxt "wndAnnotate.tle:"
 msgid "$1 - Blame of $2@$3"
-msgstr "(336) ⭐️$1 - $3の$2の責任"
+msgstr "$1 - $3の$2のBlame"
 
 msgctxt "wndAnnotate.tle:"
 msgid "$1 - Blame"
@@ -13945,7 +13916,7 @@ msgstr "選択範囲をフィルターとして設定"
 
 msgctxt "wndDeepgit.mniDgFollowInsignificantMerges:"
 msgid "Follow Insignificant Merges \\(experimental\\)"
-msgstr "(338) ⭐️無視できないマージを追跡する \\(実験的\\)"
+msgstr "無視できないマージを追跡する \\(実験的\\)"
 
 msgctxt "wndDeepgit.mniDgFollowRenames:"
 msgid "Follow Renames"
@@ -13969,7 +13940,7 @@ msgstr "空白の変更を無視"
 
 msgctxt "wndDeepgit.mniDgLicenseAgreement:"
 msgid "License Agreement"
-msgstr "ライセンス規約"
+msgstr "使用許諾契約"
 
 msgctxt "wndDeepgit.mniDgOptimizeCreationOrigins:"
 msgid "Optimize 'Appeared Here' Origins"
@@ -14119,7 +14090,7 @@ msgstr "ナビゲーション \\(初期化中...\\)"
 # [decode] msgid "Navigation \(initializing…\)"
 msgctxt "wndDeepgit.tab:"
 msgid "Navigation \\(initializing\\u2026\\)"
-msgstr "(340) ⭐️ナビゲーション \\(初期化中\\u2026\\)"
+msgstr "ナビゲーション \\(初期化中\\u2026\\)"
 
 msgctxt "wndDeepgit.tab:"
 msgid "Navigation"
@@ -14255,7 +14226,7 @@ msgstr "LF \\(Unix, macOS\\)"
 
 msgctxt "wndEditor.mniBlockSelection:"
 msgid "Block Selection"
-msgstr "(341) ⭐️ブロック選択"
+msgstr "ブロック選択"
 
 msgctxt "wndEditor.mniEdit-undo:"
 msgid "Undo"
@@ -14391,7 +14362,7 @@ msgstr "$1 - index エディタ"
 
 msgctxt "wndLog.hnt:"
 msgid "No commit matches the filter."
-msgstr "(343) ⭐️フィルターに一致するコミットはありません。"
+msgstr "フィルタ条件に一致するコミットはありません。"
 
 msgctxt "wndLog.hnt:"
 msgid "No graph roots selected."
@@ -14399,19 +14370,19 @@ msgstr "グラフのルートが選択されていません。"
 
 msgctxt "wndLog.mni:"
 msgid "Add $1 Git repositories to Group '$2'"
-msgstr "(344) ⭐️グループ '$2' に $1 の Git リポジトリを追加します"
+msgstr "グループ '$2' に $1 の Git リポジトリを追加します"
 
 msgctxt "wndLog.mni:"
 msgid "Continue in Background"
-msgstr "(345) ⭐️バックグラウンドで続行"
+msgstr "バックグラウンドで続行"
 
 msgctxt "wndLog.mni:"
 msgid "Continue with Description"
-msgstr "(346) ⭐️説明を続ける"
+msgstr "説明を続ける"
 
 msgctxt "wndLog.mni:"
 msgid "Copy Name <email>"
-msgstr "(347) ⭐️名前をコピー <email>"
+msgstr "名前をコピー <email>"
 
 msgctxt "wndLog.mni:"
 msgid "Drop All Notes"
@@ -14423,11 +14394,11 @@ msgstr "コミットの説明"
 
 msgctxt "wndLog.mni:"
 msgid "On Manual Intervention"
-msgstr "(350) ⭐️手動介入について"
+msgstr "手動介入について"
 
 msgctxt "wndLog.mni:"
 msgid "Reconfigure"
-msgstr "(351) ⭐️再設定"
+msgstr "再設定"
 
 msgctxt "wndLog.mni:"
 msgid "Reword '@ai' and 'WIP' commits"
@@ -14435,7 +14406,7 @@ msgstr "'@ai' および 'WIP' コミットの文言を自動的に変更する"
 
 msgctxt "wndLog.mni:"
 msgid "Select from GitHub"
-msgstr "(353) ⭐️GitHubから選択してください"
+msgstr "GitHubから選択してください"
 
 msgctxt "wndLog.mni:"
 msgid "Stop"
@@ -14443,7 +14414,7 @@ msgstr "停止"
 
 msgctxt "wndLog.mni:"
 msgid "github \\(active\\)"
-msgstr "(355) ⭐️github \\(アクティブ\\)"
+msgstr "github \\(アクティブ\\)"
 
 msgctxt "wndLog.mniCopyCommitId:"
 msgid "Copy"
@@ -14455,13 +14426,13 @@ msgstr "大文字小文字の修正"
 
 msgctxt "wndLog.mniGitNoteAdd:"
 msgid "Add Note"
-msgstr "(356) ⭐️ノートを追加"
+msgstr "ノートを追加"
 
 # [decode] msgctxt "wndLog.tab"Graph \(Initializing Subtree-Cache…\)""
 # [decode] msgid "Graph \(Initializing Subtree-Cache…\)"
 msgctxt "wndLog.tab:"
 msgid "Graph \\(Initializing Subtree-Cache\\u2026\\)"
-msgstr "(357) ⭐️グラフ \\(サブツリーキャッシュを初期化中\\u2026\\)"
+msgstr "グラフ \\(サブツリーキャッシュを初期化中\\u2026\\)"
 
 # [decode] msgctxt "wndLog.tab"Graph \(Loading…\)""
 # [decode] msgid "Graph \(Loading…\)"
@@ -14473,25 +14444,21 @@ msgstr "グラフ \\(読み込み中\\u2026\\)"
 # [decode] msgid "Graph \(Running log…\)"
 msgctxt "wndLog.tab:"
 msgid "Graph \\(Running log\\u2026\\)"
-msgstr "(359) ⭐️グラフ \\(実行ログ\\u2026\\)"
+msgstr "グラフ \\(実行ログ\\u2026\\)"
 
 # [decode] msgctxt "wndLog.tab"Graph \(Scanning WT…\)""
 # [decode] msgid "Graph \(Scanning WT…\)"
 msgctxt "wndLog.tab:"
 msgid "Graph \\(Scanning WT\\u2026\\)"
-msgstr "(360) ⭐️グラフ \\(WTをスキャン中\\u2026\\)"
+msgstr "グラフ \\(WTをスキャン中\\u2026\\)"
 
 msgctxt "wndLog.tbt:"
 msgid "Hidden toolbar items..."
-msgstr "(361) ⭐️隠されたツールバー項目..."
+msgstr "隠されたツールバー項目..."
 
 msgctxt "wndLog.tbt:"
 msgid "Refresh information from GitHub."
 msgstr "GitHub から情報を更新します。"
-
-msgctxt "wndLog.tbtAi.commitMessageCompose:"
-msgid "smartgit.jy: Cancelled"
-msgstr "(362) ⭐️smartgit.jy: キャンセルされました"
 
 msgctxt "wndProject.mni:"
 msgid "Base"
@@ -14501,25 +14468,21 @@ msgctxt "wndProject.mni:"
 msgid "Log Selection"
 msgstr "選択項目の履歴"
 
-#, fuzzy
 msgctxt "wndProject.mni:"
 msgid "New_key"
-msgstr "(364) ⭐️新しいキー"
+msgstr "新しいキー"
 
-#, fuzzy
 msgctxt "wndProject.mni:"
 msgid "PR_Review"
-msgstr "(365) ⭐️PR_レビュー"
+msgstr "PRレビュー"
 
-#, fuzzy
 msgctxt "wndProject.mni:"
 msgid "Review_Tool"
-msgstr "(366) ⭐️レビュー_ツール"
+msgstr "レビューツール"
 
-#, fuzzy
 msgctxt "wndProject.mni:"
 msgid "Select from GitHub"
-msgstr "(367) ⭐️GitHubから選択してください"
+msgstr "GitHubから選択してください"
 
 msgctxt "wndProject.mniCopyCommitId:"
 msgid "Copy"
@@ -14557,10 +14520,9 @@ msgctxt "wndStd.hnt:"
 msgid "Commit files: select 1 commit\\nDiff between Commits: select 2 commits"
 msgstr "コミットするファイル: コミットを 1 つ選択\\nコミット間の差分: コミットを 2 つ選択"
 
-#, fuzzy
 msgctxt "wndStd.hnt:"
 msgid "Filter by repository name or path"
-msgstr "(370) ⭐️リポジトリ名またはパスでフィルタリング"
+msgstr "リポジトリ名またはパスでフィルタリング"
 
 msgctxt "wndStd.hnt:"
 msgid "Loading ..."
@@ -14572,10 +14534,9 @@ msgctxt "wndStd.hnt:"
 msgid "Loading \\u2026"
 msgstr "読み込み中\\u2026"
 
-#, fuzzy
 msgctxt "wndStd.hnt:"
 msgid "No graph roots selected."
-msgstr "(372) ⭐️グラフのルートが選択されていません。"
+msgstr "グラフのルートが選択されていません。"
 
 msgctxt "wndStd.hnt:"
 msgid "No locally changed files below the selected directory"
@@ -14617,10 +14578,9 @@ msgctxt "wndStd.mni:"
 msgid "All files, incl. ignored"
 msgstr "すべてのファイル (無視されたファイルを含む)"
 
-#, fuzzy
 msgctxt "wndStd.mni:"
 msgid "All my branches"
-msgstr "(373) ⭐️すべてのブランチ"
+msgstr "すべてのmyブランチ"
 
 msgctxt "wndStd.mni:"
 msgid "Apply Stash"
@@ -14628,26 +14588,23 @@ msgstr "スタッシュを適用"
 
 msgctxt "wndStd.mni:"
 msgid "Blame"
-msgstr "注釈"
+msgstr "ブレーム"
 
 msgctxt "wndStd.mni:"
 msgid "Changed files"
 msgstr "変更されたファイル"
 
-#, fuzzy
 msgctxt "wndStd.mni:"
 msgid "Continue in Background"
-msgstr "(374) ⭐️バックグラウンドで続行"
+msgstr "バックグラウンドで続行"
 
-#, fuzzy
 msgctxt "wndStd.mni:"
 msgid "Continue with Description"
-msgstr "(375) ⭐️説明を続ける"
+msgstr "説明を続ける"
 
-#, fuzzy
 msgctxt "wndStd.mni:"
 msgid "Don't Show Pull Requests"
-msgstr "(376) ⭐️プルリクエストを表示しない"
+msgstr "プルリクエストを表示しない"
 
 msgctxt "wndStd.mni:"
 msgid "Explain Commit"
@@ -14673,15 +14630,13 @@ msgctxt "wndStd.mni:"
 msgid "Log"
 msgstr "ログ"
 
-#, pretranslated
 msgctxt "wndStd.mni:"
 msgid "On $1: SmartGit: automatic stash on Pull."
-msgstr "(450) ⭐️$1で: SmartGit: プル時の自動スタッシュ。"
+msgstr "On $1：SmartGit: プル時に自動的にスタッシュ。"
 
-#, fuzzy
 msgctxt "wndStd.mni:"
 msgid "On Manual Intervention"
-msgstr "(378) ⭐️手動介入について"
+msgstr "手動介入について"
 
 msgctxt "wndStd.mni:"
 msgid "Only current branch \\(HEAD\\)"
@@ -14715,20 +14670,17 @@ msgctxt "wndStd.mni:"
 msgid "Save Stash"
 msgstr "スタッシュに保存"
 
-#, fuzzy
 msgctxt "wndStd.mni:"
 msgid "Select from GitHub"
-msgstr "(381) ⭐️GitHubから選択してください"
+msgstr "GitHubから選択してください"
 
-#, fuzzy
 msgctxt "wndStd.mni:"
 msgid "Show 'My' Pull Requests \\(involving me\\)"
-msgstr "(382) ⭐️「私の」プルリクエストを表示する \\(私が関与している\\)"
+msgstr "「私の」プルリクエストを表示する \\(私が関与している\\)"
 
-#, fuzzy
 msgctxt "wndStd.mni:"
 msgid "Show 'My' and Unassigned Pull Requests"
-msgstr "(383) ⭐️「自分の」および未割り当てのプルリクエストを表示"
+msgstr "「自分の」および未割り当てのプルリクエストを表示"
 
 msgctxt "wndStd.mni:"
 msgid "Show All Pull Requests"
@@ -15300,7 +15252,7 @@ msgstr "フィルターまたはタグ検索"
 
 msgctxt "wnd(Log|Project|Std|).hnt:"
 msgid "No file matches the filter."
-msgstr "フィルターに一致するファイルはありません。"
+msgstr "フィルタ条件に一致するファイルはありません。"
 
 msgctxt "wnd(Log|Project|Std|).hnt:"
 msgid "No repository selected."
@@ -15736,7 +15688,7 @@ msgstr "移動先"
 
 msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "Move and Squash Commit"
-msgstr "移動してスカッシュコミット"
+msgstr "コミットを移動してスカッシュ"
 
 msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "Name"
@@ -15900,19 +15852,19 @@ msgstr "リバート $1"
 
 msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "Revert Hunk"
-msgstr "(391) ⭐️ハンクを元に戻す"
+msgstr "ハンクを元に戻す"
 
 msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "Revert Inner-Line Change"
-msgstr "(392) ⭐️内部行変更を元に戻す"
+msgstr "内部行変更を元に戻す"
 
 msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "Revert Line"
-msgstr "(393) ⭐️行を元に戻す"
+msgstr "行を元に戻す"
 
 msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "Revert Selection"
-msgstr "(394) ⭐️選択を元に戻す"
+msgstr "選択範囲を元に戻す"
 
 msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "Review"
@@ -16080,7 +16032,7 @@ msgstr "ハンクのステージ解除"
 
 msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "Unstage Inner-line Change"
-msgstr "(395) ⭐️インライン変更をステージ解除"
+msgstr "行内の変更をステージ解除"
 
 msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "Unstage Innerline Change"
@@ -16512,7 +16464,7 @@ msgstr "アンロック"
 
 msgctxt "wnd(Log|Project|Std|).mniLicenseAgreement:"
 msgid "License Agreement"
-msgstr "ライセンス規約"
+msgstr "使用許諾契約"
 
 msgctxt "wnd(Log|Project|Std|).mniLocalGc:"
 msgid "Run Garbage Collector"
