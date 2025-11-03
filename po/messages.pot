@@ -2361,6 +2361,14 @@ msgctxt "dlgSgAiCommitMessageComposeError.tle:"
 msgid "AI Commit Message Compose"
 msgstr ""
 
+msgctxt "dlgSgAiCommitMessageNoModifications.fur:"
+msgid "There are no uncommitted changes in your working tree, so an AI commit message cannot be generated."
+msgstr ""
+
+msgctxt "dlgSgAiCommitMessageNoModifications.hdl:"
+msgid "No local changes detected."
+msgstr ""
+
 msgctxt "dlgSgAiCommitMessageReworder.btn:"
 msgid "Reword"
 msgstr ""
