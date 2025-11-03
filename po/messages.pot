@@ -18009,3 +18009,61 @@ msgstr ""
 msgctxt "dlgSgAiSetupExitEarly.tle:"
 msgid "AI Setup"
 msgstr ""
+
+
+#. Performing ', Next >'
+#. Performing ', Next >'
+#. Performing ', Next >'
+#. Performing ', Finish'
+#. Showing dialog 10 (@C6UJFR) '@PH5FB6 - AI Setup' (owner: @SMAK1F)
+#. Performing ', OK'
+#. Performing 'editCommitMessage, Edit Message...'
+#. Showing dialog 11 (@NAHK0H) '@XH28OR - Edit Message' (owner: @67QB84)
+#. Performing ', Set Message'
+#. Showing dialog 12 (@JQ9S4C) '@G1GBI4 - Commit Message Rewording' (owner: @67QB84)
+msgctxt "dlgSgAiCommitMessageReworder.btn:"
+msgid "Reword"
+msgstr ""
+
+#. Performing ', Next >'
+#. Performing ', Next >'
+#. Performing ', Next >'
+#. Performing ', Finish'
+#. Showing dialog 10 (@C6UJFR) '@PH5FB6 - AI Setup' (owner: @SMAK1F)
+#. Performing ', OK'
+#. Performing 'editCommitMessage, Edit Message...'
+#. Showing dialog 11 (@NAHK0H) '@XH28OR - Edit Message' (owner: @67QB84)
+#. Performing ', Set Message'
+#. Showing dialog 12 (@JQ9S4C) '@G1GBI4 - Commit Message Rewording' (owner: @67QB84)
+msgctxt "dlgSgAiCommitMessageReworder.fur:"
+msgid "SmartGit has detected a commit message containing an AI-generation marker. If the commit has not yet been pushed, it can be automatically reworded in the background.\\n\\nYou can enable or disable this option from the AI popup menu."
+msgstr ""
+
+#. Performing ', Next >'
+#. Performing ', Next >'
+#. Performing ', Next >'
+#. Performing ', Finish'
+#. Showing dialog 10 (@C6UJFR) '@PH5FB6 - AI Setup' (owner: @SMAK1F)
+#. Performing ', OK'
+#. Performing 'editCommitMessage, Edit Message...'
+#. Showing dialog 11 (@NAHK0H) '@XH28OR - Edit Message' (owner: @67QB84)
+#. Performing ', Set Message'
+#. Showing dialog 12 (@JQ9S4C) '@G1GBI4 - Commit Message Rewording' (owner: @67QB84)
+msgctxt "dlgSgAiCommitMessageReworder.hdl:"
+msgid "Do you want to reword marked commits in the background?"
+msgstr ""
+
+#. Showing dialog 9 (@SMAK1F) '@JUW1DW - AI Setup' (owner: @67QB84)
+#. Performing ', Next >'
+#. Performing ', Next >'
+#. Performing ', Next >'
+#. Performing ', Finish'
+#. Showing dialog 10 (@C6UJFR) '@PH5FB6 - AI Setup' (owner: @SMAK1F)
+#. Performing ', OK'
+#. Performing 'editCommitMessage, Edit Message...'
+#. Showing dialog 11 (@NAHK0H) '@XH28OR - Edit Message' (owner: @67QB84)
+#. Performing ', Set Message'
+msgctxt "dlgSgAiCommitMessageReworder.tle:"
+msgid "Commit Message Rewording"
+msgstr ""
+
