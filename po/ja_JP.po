@@ -2537,7 +2537,7 @@ msgstr "(81) ⭐️コミットの言い換え"
 
 msgctxt "dlgSgAiSetup.hdl:"
 msgid "Explain Commits"
-msgstr "(82) ⭐️コミットの説明"
+msgstr "コミットの説明"
 
 msgctxt "dlgSgAiSetup.hdl:"
 msgid "Please wait"
@@ -2655,7 +2655,7 @@ msgstr "(101) ⭐️AI統合を有効にする"
 #. Performing ', Reconfigure...'
 msgctxt "dlgSgAiSetup.tle:"
 msgid "AI Setup"
-msgstr ""
+msgstr "AI セットアップ"
 
 msgctxt "dlgSgAiSetupConfigurationSuccess.fur:"
 msgid "The configuration has been saved to '$1', which is included by '$2'.\\n\\nYou can now start generating commit messages by clicking the AI button again.\\n\\nAdditional configuration options are available and can be tweaked directly in the configuration file. For details, refer to the \\[https://docs.syntevo.com/SmartGit/Latest/Manual/Integrations/AI documentation\\]."
@@ -2677,7 +2677,7 @@ msgstr "(103) ⭐️AI統合が正常に設定されました。"
 #. Performing ', Finish'
 msgctxt "dlgSgAiSetupConfigurationSuccess.tle:"
 msgid "AI Setup"
-msgstr ""
+msgstr "AI セットアップ"
 
 msgctxt "dlgSgAiSetupConnectivityFailed.fur:"
 msgid "Object '$1' not found."
@@ -2699,7 +2699,7 @@ msgstr "(105) ⭐️'$1'への接続に失敗しました。"
 #. Showing dialog 2 (@86MVII) '@V81YET - AI Setup' (owner: @GDWWI2)
 msgctxt "dlgSgAiSetupExitEarly.btn:"
 msgid "Back to Setup"
-msgstr ""
+msgstr "セットアップに戻る"
 
 #. opening smartgit.bFH@8G42GZ:SmartGit 25.1 Evaluation until Dec 3 (smartgit.bFH@67QB84)
 #. Performing ', Reconfigure...'
@@ -2713,7 +2713,7 @@ msgstr ""
 #. Showing dialog 2 (@86MVII) '@V81YET - AI Setup' (owner: @GDWWI2)
 msgctxt "dlgSgAiSetupExitEarly.btn:"
 msgid "Enable and Exit"
-msgstr ""
+msgstr "有効化して終了"
 
 #. opening smartgit.bFH@8G42GZ:SmartGit 25.1 Evaluation until Dec 3 (smartgit.bFH@67QB84)
 #. Performing ', Reconfigure...'
@@ -2727,7 +2727,7 @@ msgstr ""
 #. Showing dialog 2 (@86MVII) '@V81YET - AI Setup' (owner: @GDWWI2)
 msgctxt "dlgSgAiSetupExitEarly.btn:"
 msgid "Exit without Enabling"
-msgstr ""
+msgstr "有効化せずに終了"
 
 #. opening smartgit.bFH@8G42GZ:SmartGit 25.1 Evaluation until Dec 3 (smartgit.bFH@67QB84)
 #. Performing ', Reconfigure...'
@@ -2768,7 +2768,7 @@ msgstr ""
 #. Performing ', Cancel'
 msgctxt "dlgSgAiSetupExitEarly.tle:"
 msgid "AI Setup"
-msgstr ""
+msgstr "AI セットアップ"
 
 msgctxt "dlgSgAiSetupLlmConfigurationInvalid.fur:"
 msgid "API URL missing."
@@ -7443,7 +7443,7 @@ msgstr "(208) ⭐️新しくクローンしたリポジトリをGitコマンド
 
 msgctxt "dlgSgPreferences.chk:"
 msgid "Delete branch"
-msgstr "(209) ⭐️ブランチを削除"
+msgstr "完了後にブランチを削除"
 
 msgctxt "dlgSgPreferences.chk:"
 msgid "Detect local changes in closed 'favorite' repositories"
@@ -7997,7 +7997,7 @@ msgstr "外部ツール:"
 
 msgctxt "dlgSgPreferences.lbl:"
 msgid "Finish Feature"
-msgstr "(217) ⭐️フィーチャーを完了する"
+msgstr "フィーチャーブランチの完了"
 
 msgctxt "dlgSgPreferences.lbl:"
 msgid "Garbage Collector"
@@ -8101,7 +8101,7 @@ msgstr "手動でインプレースアップデートするには、バージョ
 
 msgctxt "dlgSgPreferences.lbl:"
 msgid "Viewer:"
-msgstr "(224) ⭐️ビューワー:"
+msgstr "ビューワー:"
 
 msgctxt "dlgSgPreferences.lbl:"
 msgid "When comparing files, this list is searched from top to bottom to find a matching diff tool. If none is found, the built-in file compare is used for text files."
@@ -14599,11 +14599,11 @@ msgstr "(347) ⭐️名前をコピー <email>"
 
 msgctxt "wndLog.mni:"
 msgid "Drop All Notes"
-msgstr "(348) ⭐️すべてのノートを削除"
+msgstr "すべてのAI関連のGitノートを削除"
 
 msgctxt "wndLog.mni:"
 msgid "Explain Commit"
-msgstr "(349) ⭐️コミットの説明"
+msgstr "コミットの説明"
 
 msgctxt "wndLog.mni:"
 msgid "On Manual Intervention"
@@ -14615,7 +14615,7 @@ msgstr "(351) ⭐️再設定"
 
 msgctxt "wndLog.mni:"
 msgid "Reword '@ai' and 'WIP' commits"
-msgstr "(352) ⭐️'@ai' および 'WIP' コミットの文言を変更する"
+msgstr "'@ai' および 'WIP' コミットの文言を自動的に変更する"
 
 msgctxt "wndLog.mni:"
 msgid "Select from GitHub"
@@ -14641,7 +14641,7 @@ msgstr "(355) ⭐️github \\(アクティブ\\)"
 #. Performing ', Toggle'
 msgctxt "wndLog.mniCopyCommitId:"
 msgid "Copy"
-msgstr "(450)★コピー"
+msgstr "コピー"
 
 msgctxt "wndLog.mniFixCaseChange:"
 msgid "Fix Case-Change"
@@ -14726,7 +14726,7 @@ msgstr "(367) ⭐️GitHubから選択してください"
 #. opening smartgit.bOR@OG75UX:SmartGit 25.1 (Working Tree) Evaluation until Dec 3 (smartgit.bOR@2KRPKZ) (index=0)
 msgctxt "wndProject.mniCopyCommitId:"
 msgid "Copy"
-msgstr "(451)★コピー"
+msgstr "コピー"
 
 msgctxt "wndProject.mniFixCaseChange:"
 msgid "Fix Case-Change"
@@ -14852,10 +14852,9 @@ msgctxt "wndStd.mni:"
 msgid "Don't Show Pull Requests"
 msgstr "(376) ⭐️プルリクエストを表示しない"
 
-#, fuzzy
 msgctxt "wndStd.mni:"
 msgid "Explain Commit"
-msgstr "(377) ⭐️コミットの説明"
+msgstr "コミットの説明"
 
 msgctxt "wndStd.mni:"
 msgid "Fetch All"
@@ -14911,10 +14910,9 @@ msgctxt "wndStd.mni:"
 msgid "Reset"
 msgstr "リセット"
 
-#, fuzzy
 msgctxt "wndStd.mni:"
 msgid "Reword '@ai' and 'WIP' commits"
-msgstr "(380) ⭐️'@ai' および 'WIP' コミットの文言を変更する"
+msgstr "'@ai' および 'WIP' コミットの文言を自動的に変更する"
 
 msgctxt "wndStd.mni:"
 msgid "Save Stash"
