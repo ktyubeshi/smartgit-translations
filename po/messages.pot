@@ -12922,8 +12922,9 @@ msgctxt "ttpBranches:"
 msgid "<b>On: </b>$1"
 msgstr ""
 
+#| msgid "<b>Outgoing</b> from branch <b>$1</b> to repository <b>$2</b> branch <b>main</b>"
 msgctxt "ttpBranches:"
-msgid "<b>Outgoing</b> from branch <b>$1</b> to repository <b>$2</b> branch <b>main</b>"
+msgid "<b>Outgoing</b> from branch <b>$1</b> to repository <b>$2</b> branch <b>$3</b>"
 msgstr ""
 
 msgctxt "ttpBranches:"
@@ -14474,10 +14475,6 @@ msgstr ""
 
 msgctxt "wndLog.tbt:"
 msgid "Refresh information from GitHub."
-msgstr ""
-
-msgctxt "wndLog.tbtAi.commitMessageCompose:"
-msgid "smartgit.jy: Cancelled"
 msgstr ""
 
 msgctxt "wndProject.mni:"
