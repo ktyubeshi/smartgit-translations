@@ -18094,3 +18094,28 @@ msgstr ""
 msgctxt "dlgSgAiCommitMessageReworder.tle:"
 msgid "Commit Message Rewording"
 msgstr ""
+
+#. opening smartgit.bFH@TLLG8F:SmartGit 25.1 (smartgit.bFH@V01YE9)
+msgctxt "ntmLcTypeProblem\"If you experience problems with garbled file names/paths containing non-US-ASCII characters, consider to set the environment variables <tt>LC_ALL</tt>, or both <tt>LC_CTYPE</tt> and <tt>LANG</tt> to a country code which ends with \\\"<tt>.UTF-8</tt>\\\".\""
+msgid "If you experience problems with garbled file names/paths containing non-US-ASCII characters, consider to set the environment variables <tt>LC_ALL</tt>, or both <tt>LC_CTYPE</tt> and <tt>LANG</tt> to a country code which ends with \"<tt>.UTF-8</tt>\"."
+msgstr ""
+
+#. opening smartgit.bFH@TLLG8F:SmartGit 25.1 (smartgit.bFH@V01YE9)
+msgctxt "ntmWslWorkaround:"
+msgid "To work around some problems with WSL, please check our documentation."
+msgstr ""
+
+#. opening smartgit.bFH@TLLG8F:SmartGit 25.1 (smartgit.bFH@V01YE9)
+msgctxt "nttLcTypeProblem:"
+msgid "Experience problems with non-US-ASCII file names?"
+msgstr ""
+
+#. opening smartgit.bFH@TLLG8F:SmartGit 25.1 (smartgit.bFH@V01YE9)
+msgctxt "nttWslWorkaround:"
+msgid "It seems that you're running SmartGit in WSL."
+msgstr ""
+
+#. opening smartgit.bFH@TLLG8F:SmartGit 25.1 (smartgit.bFH@V01YE9)
+msgctxt "nttWslWorkaround:"
+msgid "Open Documentation"
+msgstr ""
