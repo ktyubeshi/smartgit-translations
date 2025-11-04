@@ -2363,6 +2363,26 @@ msgctxt "dlgSgAiCommitMessageReworder.tle:"
 msgid "Commit Message Rewording"
 msgstr "コミットメッセージの書き直し"
 
+msgctxt "dlgSgAiCommitMessageSkippedUntrackedFiles.btn:"
+msgid "Continue"
+msgstr "続行"
+
+msgctxt "dlgSgAiCommitMessageSkippedUntrackedFiles.chk:"
+msgid "Don't show again"
+msgstr "今後表示しない"
+
+msgctxt "dlgSgAiCommitMessageSkippedUntrackedFiles.fur:"
+msgid "Your settings exclude untracked files from commits, so they will not be used to generate the AI commit message.\\n\\nTo include untracked files in commits, update the setting in Preferences."
+msgstr "設定により、追跡されていないファイルはコミットから除外されるため、AIコミットメッセージの生成には使用されません。\\n\\nコミットに追跡されていないファイルを含めるには、環境設定で設定を更新してください。"
+
+msgctxt "dlgSgAiCommitMessageSkippedUntrackedFiles.hdl:"
+msgid "Untracked files are excluded."
+msgstr "追跡されていないファイルは除外されます。"
+
+msgctxt "dlgSgAiCommitMessageSkippedUntrackedFiles.tle:"
+msgid "AI Commit Message"
+msgstr "AIコミットメッセージ"
+
 msgctxt "dlgSgAiIntegrationSetup.hdl:"
 msgid "Configure AI integration"
 msgstr "AI統合を設定する"
@@ -7262,8 +7282,16 @@ msgid "Detect renames \\(for added and removed files, as command line Git does\\
 msgstr "リネームの検出（コマンドラインGitと同様に、追加されたファイルと削除されたファイルの検出）"
 
 msgctxt "dlgSgPreferences.chk:"
+msgid "Disable AI integration \\(globally\\)"
+msgstr "AI統合を無効にする（グローバルに）"
+
+msgctxt "dlgSgPreferences.chk:"
 msgid "Distinguish between content and EOL-only changes \\(slightly more expensive\\)"
 msgstr "コンテンツとEOLのみの変更を区別する（やや高コストな処理）"
+
+msgctxt "dlgSgPreferences.chk:"
+msgid "Enable AI integration"
+msgstr "AI統合を有効にする"
 
 msgctxt "dlgSgPreferences.chk:"
 msgid "Enable integration for configured hosting providers \\(pull requests, comments\\)"
@@ -7880,6 +7908,14 @@ msgid "Stash"
 msgstr "スタッシュ"
 
 msgctxt "dlgSgPreferences.lbl:"
+msgid "The AI integration is \\*configured globally\\*. Change it via AI button > \\*Reconfigure\\*."
+msgstr "AI統合は\\*グローバルに設定されています\\*。AIボタン > \\*再設定\\*で変更してください。"
+
+msgctxt "dlgSgPreferences.lbl:"
+msgid "The AI integration is \\*disabled globally\\*."
+msgstr "AI統合は\\*グローバルに無効化されています\\*。"
+
+msgctxt "dlgSgPreferences.lbl:"
 msgid "The AI integration is \\*not yet configured\\* \\(globally\\)."
 msgstr "AI統合は\\*まだ設定されていません\\* \\(グローバルに\\)。"
 
@@ -7910,6 +7946,10 @@ msgstr "ビューワー:"
 msgctxt "dlgSgPreferences.lbl:"
 msgid "When comparing files, this list is searched from top to bottom to find a matching diff tool. If none is found, the built-in file compare is used for text files."
 msgstr "ファイルを比較する際には、このリストを上から下に向かって検索し、一致する 比較 ツールを探します。\\r見つからない場合は、テキスト ファイルの場合は内蔵のファイル比較が使用されます。"
+
+msgctxt "dlgSgPreferences.lbl:"
+msgid "When enabled, the AI button appears in the Commit Message view and the Commit dialog. Click it to complete the initial setup."
+msgstr "有効にすると、コミットメッセージビューとコミットダイアログにAIボタンが表示されます。クリックして初期設定を完了してください。"
 
 msgctxt "dlgSgPreferences.lbl:"
 msgid "When invoking the Conflict Solver feature, this list is searched from top to bottom to find a matching entry. If none is found, the built-in Conflict Solver is used for text files."
@@ -14411,6 +14451,10 @@ msgstr "GitHubから選択してください"
 msgctxt "wndLog.mni:"
 msgid "Stop"
 msgstr "停止"
+
+msgctxt "wndLog.mni:"
+msgid "generate \\(active\\)"
+msgstr "生成（アクティブ）"
 
 msgctxt "wndLog.mni:"
 msgid "github \\(active\\)"
