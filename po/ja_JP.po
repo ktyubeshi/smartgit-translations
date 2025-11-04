@@ -5019,10 +5019,9 @@ msgctxt "dlgSgGitHubCommitMessageSelect.btn:"
 msgid "Select"
 msgstr "選択"
 
-#, fuzzy
 msgctxt "dlgSgGitHubCommitMessageSelect.col:"
 msgid "Number"
-msgstr "Number"
+msgstr "#"
 
 msgctxt "dlgSgGitHubCommitMessageSelect.col:"
 msgid "Title"
