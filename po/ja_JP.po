@@ -123,7 +123,7 @@ msgstr "電子メールを確認"
 
 msgctxt "dlgCommitGitHubConfirmEmail.fur:"
 msgid "If this repository is open-source, you might want to hide your email address, as \\[https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-email-preferences/setting-your-commit-email-address#setting-your-email-address-for-a-single-repository suggested by GitHub\\], and use instead <username>@users.noreply.github.com."
-msgstr "このリポジトリがオープンソースである場合、GitHubが提案する\\[https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-email-preferences/setting-your-commit-email-address#setting-your-email-address-for-a-single-repository suggested by GitHub\\]のようにメールアドレスを非表示にし、代わりに <username>@users.noreply.github.com  を使用することをお勧めします。"
+msgstr "このリポジトリがオープンソースの場合、\\[https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-email-preferences/setting-your-commit-email-address#setting-your-email-address-for-a-single-repository suggested by GitHub\\] にあるようにメールアドレスを非表示にし、代わりに <username>@users.noreply.github.com を使用することをお勧めします。"
 
 msgctxt "dlgCommitGitHubConfirmEmail.hdl:"
 msgid "Commit with default email address $1?"
@@ -163,11 +163,11 @@ msgstr "コミット"
 
 msgctxt "dlgCommitNoEmailConfigured.fur:"
 msgid "Before committing you will have to configure your name and email, e.g. in the SmartGit Preferences."
-msgstr "コミットする前に、名前とメールアドレスを設定する必要があります。例えば、SmartGitの環境設定から設定することができます。"
+msgstr "コミットする前に、SmartGitの環境設定などで名前とメールアドレスを設定する必要があります。"
 
 msgctxt "dlgCommitNoEmailConfigured.hdl:"
 msgid "Please configure the email for commit."
-msgstr "コミットのためのメールアドレスを設定してください。"
+msgstr "コミット用のメールアドレスを設定してください。"
 
 msgctxt "dlgCommitNoEmailConfigured.tle:"
 msgid "Commit"
@@ -263,7 +263,7 @@ msgstr "エンコーディング設定"
 
 msgctxt "dlgDgSetEncoding.inf:"
 msgid "Specify the encoding which should be used for processing and viewing files. Note, that UTF-8 encoding will be auto-detected, regardless of the configuration here."
-msgstr "ファイルの処理と表示に使用するエンコーディングを指定します。なお、UTF-8のエンコーディングは、ここでの設定にかかわらず、自動検出されます。"
+msgstr "ファイルの処理と表示に使用するエンコーディングを指定します。なお、ここでの設定にかかわらず、UTF-8エンコーディングは自動検出されます。"
 
 msgctxt "dlgDgSetEncoding.tle:"
 msgid "Set Encoding"
@@ -287,7 +287,7 @@ msgstr "ホスティングプロバイダーを設定する"
 
 msgctxt "dlgHostingProvider.canBeConfigured.fur:"
 msgid "The easiest way to access the repository at $1 is through a hosting provider."
-msgstr "$1のリポジトリにアクセスする最も簡単な方法は、ホスティングプロバイダーを通じてです。"
+msgstr "$1のリポジトリにアクセスする最も簡単な方法は、ホスティングプロバイダーを利用することです。"
 
 msgctxt "dlgHostingProvider.canBeConfigured.hdl:"
 msgid "Do you want to configure a GitLab hosting provider?"
@@ -329,7 +329,7 @@ msgstr "ジャンプ先"
 
 msgctxt "dlgProgress.tle:"
 msgid "Layouting Graph"
-msgstr "レイアウトグラフ"
+msgstr "グラフをレイアウト中"
 
 msgctxt "dlgProgress.tle:"
 msgid "Refresh"
@@ -357,11 +357,11 @@ msgstr "実行ファイルを確認中"
 
 msgctxt "dlgQBugFileSendingFailed.fur:"
 msgid "Maybe you need to configure a proxy or our server is temporarily down.\\nDetails: $1"
-msgstr "プロキシの設定が必要なのか、サーバーが一時的にダウンしているのかもしれません。'$1'"
+msgstr "プロキシの設定が必要か、サーバーが一時的にダウンしている可能性があります。\\n詳細: $1"
 
 msgctxt "dlgQBugFileSendingFailed.hdl:"
 msgid "Could not send the crash logs to $1"
-msgstr "クラッシュ・ログを$1に送信できませんでした"
+msgstr "クラッシュログを$1に送信できませんでした"
 
 msgctxt "dlgQBugFileSendingFailed.tle:"
 msgid "Native Crash Logs"
@@ -405,7 +405,7 @@ msgstr "あなたのメールアドレス"
 
 msgctxt "dlgQBugReportSend.lbl:"
 msgid "Sorry for the trouble!"
-msgstr "ご迷惑おかけして申し訳ありません！"
+msgstr "ご迷惑をおかけして申し訳ありません！"
 
 msgctxt "dlgQBugReportSend.lbl:"
 msgid "The \\[file log-file\\] will be sent with this bug report. Alternatively, you may send it to \\[email smartgit@syntevo.com\\]."
@@ -413,11 +413,11 @@ msgstr "このバグレポートとともに、\\[file log-file\\] を送信し�
 
 msgctxt "dlgQBugReportSend.lbl:"
 msgid "We only use it to ask further details about this bug or provide a workaround."
-msgstr "このバグに関する詳細を問い合わせたり、回避策を提供するためにのみ使用します。"
+msgstr "このバグに関する詳細な質問や、回避策の提供のためにのみ使用します。"
 
 msgctxt "dlgQBugReportSend.lbl:"
 msgid "What did you do? We often solve a difficult bug after receiving just one good hint!"
-msgstr "あなたは何をしましたか？たった 1 つの良いヒントを頂けるだけで、難しいバグが解決されることがよくあります!"
+msgstr "どのような操作をしましたか？たった一つのヒントで、難しいバグが解決されることも少なくありません。"
 
 msgctxt "dlgQBugReportSend.tle:"
 msgid "Internal Error"
@@ -429,7 +429,7 @@ msgstr "次回から表示しない"
 
 msgctxt "dlgQDockManagerClosedView.fur:"
 msgid "To reopen it again, use the corresponding menu item from the Window menu."
-msgstr "再び開くには、「ウィンドウ」メニューから対応するメニューを使用します。"
+msgstr "再度開くには、「ウィンドウ」メニューから対応するメニュー項目を使用します。"
 
 msgctxt "dlgQDockManagerClosedView.hdl:"
 msgid "You've closed the view '$1'."
@@ -465,7 +465,7 @@ msgstr "強制終了"
 
 msgctxt "dlgQFrameManagerExit.fur:"
 msgid "Processes are still running. Exiting now will forcible stop them which might cause data-loss!"
-msgstr "プロセスはまだ実行中です。今すぐ終了すると強制的に停止され、データを失う可能性があります!"
+msgstr "プロセスがまだ実行中です。今すぐ終了すると強制的に停止され、データが失われる可能性があります！"
 
 msgctxt "dlgQFrameManagerExit.fur:"
 msgid "There are unsaved changes which would be lost when exiting now!"
@@ -481,7 +481,7 @@ msgstr "終了"
 
 msgctxt "dlgQIntegerInputProviderInvalidValue.fur:"
 msgid "Port must be in the range from $1 to $2."
-msgstr "Portは'$1'から'$2'の範囲でなければなりません。"
+msgstr "ポート番号は $1 から $2 の範囲でなければなりません。"
 
 msgctxt "dlgQIntegerInputProviderInvalidValue.hdl:"
 msgid "The text in field '$1' is not valid."
@@ -573,7 +573,7 @@ msgstr "SmartGit は更新を確認する必要があります"
 
 msgctxt "dlgQUpdateCheckForNewVersion.inf:"
 msgid "If necessary, please configure the proxy and retry."
-msgstr "必要であれば、プロキシの設定を行い、再試行してください。"
+msgstr "必要であれば、プロキシを設定して再試行してください。"
 
 msgctxt "dlgQUpdateCheckForNewVersion.tle:"
 msgid "Check for New Version"
@@ -685,11 +685,11 @@ msgstr "改行コード"
 
 msgctxt "dlgRewriteTextFiles.hdl:"
 msgid "Rewrite text files with selected line-endings"
-msgstr "選択した改行コードでテキスト ファイルを書き換える"
+msgstr "選択した改行コードでテキストファイルを書き換える"
 
 msgctxt "dlgRewriteTextFiles.inf:"
 msgid "Select the line-endings that should be used to write the text files."
-msgstr "テキスト ファイルの書き込みに使用する改行コードを選択します。"
+msgstr "テキストファイルの書き込みに使用する改行コードを選択します。"
 
 msgctxt "dlgRewriteTextFiles.tle:"
 msgid "Fix Line-Endings"
@@ -945,7 +945,7 @@ msgstr "ログイン"
 
 msgctxt "dlgScDevOpsCredentials.chk:"
 msgid "Store password"
-msgstr "パスワードの保存"
+msgstr "パスワードを保存する"
 
 msgctxt "dlgScDevOpsCredentials.edt:"
 msgid "Password"
@@ -1037,7 +1037,7 @@ msgstr "SSL認証"
 
 msgctxt "dlgScDialogAssertionHandler.btn:"
 msgid "Send Logs"
-msgstr "ログの送信"
+msgstr "ログを送信"
 
 msgctxt "dlgScDialogAssertionHandler.edt:"
 msgid "Details on frequency of the problem \\(or steps to reproduce\\)"
@@ -1089,7 +1089,7 @@ msgstr "強制終了"
 
 msgctxt "dlgScDialogAssertionHandlerOutOfMemory.fur:"
 msgid "It is strongly recommended to restart SmartGit.\\n\\nTo increase the maximum memory limit edit $1, increase the value of the -Xmx option, for example to -Xmx1024m \\(or add it if not yet existing\\) and restart SmartGit."
-msgstr "SmartGit を再起動することを強くお勧めします。\\n\\n最大メモリ制限を増やすには、$1 を編集し、-Xmx オプションの値を増やします。例えば、-Xmx1024m を設定し（まだ存在していない場合は追加し）、SmartGit を再起動してください。"
+msgstr "SmartGitを再起動することを強くお勧めします。\\n\\n最大メモリ上限を増やすには、$1 を編集し、-Xmx オプションの値を大きくします。例えば、-Xmx1024m に設定し（まだ存在しない場合は追加し）、SmartGitを再起動してください。"
 
 msgctxt "dlgScDialogAssertionHandlerOutOfMemory.hdl:"
 msgid "SmartGit ran out of memory!"
@@ -1109,16 +1109,16 @@ msgstr "登録"
 
 msgctxt "dlgScEvaluationReminderContinue.fur:"
 msgid "To use SmartGit in a commercial environment, you will have to \\[$1 purchase a license\\].\\n\\nFor \\[$2 certain uses\\] we grant free licenses."
-msgstr "商用環境で SmartGit を使用するには、\\[$1 ライセンスを購入\\]する必要があります。\\n\\n \\[$2 特定の用途\\] については、無料のライセンスを付与します。"
+msgstr "商用環境でSmartGitを使用するには、\\[$1 ライセンスを購入\\]する必要があります。\\n\\n\\[$2 特定の用途\\]については、無料ライセンスを付与しています。"
 
 msgctxt "dlgScEvaluationReminderContinue.hdl:"
 msgid "Your SmartGit evaluation ends in $1 days."
-msgstr "SmartGit の評価期間は $1 日後に終了します。"
+msgstr "SmartGit の評価期間はあと $1 日で終了します。"
 
 #, fuzzy
 msgctxt "dlgScEvaluationReminderContinue.hdl:"
 msgid "Your SmartGit evaluation ends today."
-msgstr "SmartGitの評価は本日で終了します。"
+msgstr "SmartGitの評価期間は本日で終了します。"
 
 msgctxt "dlgScEvaluationReminderContinue.tle:"
 msgid "Evaluation"
@@ -1146,11 +1146,11 @@ msgstr "登録"
 
 msgctxt "dlgScEvaluationReminderExpiredGrace.fur:"
 msgid "To use SmartGit, you will have to register a license file.\\n\\nIn a commercial environment you need to \\[https://www.syntevo.com/smartgit/purchase?evaluationReminderNotification purchase a license\\].\\n\\nFor \\[https://www.syntevo.com/register-non-commercial/?evaluationReminderNotification certain uses\\] we grant free licenses."
-msgstr "SmartGitを使用するには、ライセンスファイルを登録する必要があります。\\n\\n商業環境では、\\[https://www.syntevo.com/smartgit/purchase?evaluationReminderNotification ライセンスを購入する\\]必要があります。\\n\\n\\[https://www.syntevo.com/register-non-commercial/?evaluationReminderNotification 特定の用途\\]に対しては、無料ライセンスを付与します。"
+msgstr "SmartGitを使用するには、ライセンスファイルを登録する必要があります。\\n\\n商用環境では、\\[https://www.syntevo.com/smartgit/purchase?evaluationReminderNotification ライセンスを購入する\\]必要があります。\\n\\n\\[https://www.syntevo.com/register-non-commercial/?evaluationReminderNotification 特定の用途\\]に対しては、無料ライセンスを付与しています。"
 
 msgctxt "dlgScEvaluationReminderExpiredGrace.hdl:"
 msgid "Your evaluation has already expired."
-msgstr "評価期間はすでに期限切れです。"
+msgstr "評価期間はすでに終了しています。"
 
 msgctxt "dlgScEvaluationReminderExpiredGrace.tle:"
 msgid "Evaluation"
@@ -1178,7 +1178,7 @@ msgstr "入力の検証"
 
 msgctxt "dlgScExternalFileStarterEmptyCommand.fur:"
 msgid "Select the command which should be invoked."
-msgstr "呼び出すべきコマンドを選択してください。"
+msgstr "呼び出すコマンドを選択してください。"
 
 msgctxt "dlgScExternalFileStarterEmptyCommand.hdl:"
 msgid "The Command input field must not be empty!"
@@ -1306,11 +1306,11 @@ msgstr "保存"
 
 msgctxt "dlgScFileCompareFileChanged.fur:"
 msgid "Your changes will be lost, if you don't save them."
-msgstr "保存しない場合、変更内容が失われます。"
+msgstr "保存しない場合、変更は失われます。"
 
 msgctxt "dlgScFileCompareFileChanged.hdl:"
 msgid "Do you want to save your changes?"
-msgstr "変更内容を保存しますか？"
+msgstr "変更を保存しますか？"
 
 msgctxt "dlgScFileCompareFileChanged.tle:"
 msgid "File Changed"
@@ -1342,7 +1342,7 @@ msgstr "保存するファイルの内容を決定します。"
 
 msgctxt "dlgScFileCompareSaveAll.tle:"
 msgid "Save Changes"
-msgstr "変更を保存する"
+msgstr "変更を保存"
 
 msgctxt "dlgScFilePatternsEdit.edt:"
 msgid "File Pattern"
@@ -1414,7 +1414,7 @@ msgstr "選択"
 
 msgctxt "dlgScJiraCommitMessageSelect.chk:"
 msgid "Query Configuration"
-msgstr "クエリーの構成"
+msgstr "クエリの設定"
 
 msgctxt "dlgScJiraCommitMessageSelect.col:"
 msgid "Fix Version"
@@ -1450,7 +1450,7 @@ msgstr "すべての課題を読み込む"
 
 msgctxt "dlgScJiraCommitMessageSelect.lbl:"
 msgid "Query Configuration"
-msgstr "クエリーの構成"
+msgstr "クエリの設定"
 
 msgctxt "dlgScJiraCommitMessageSelect.tle:"
 msgid "Select Issue"
@@ -1506,7 +1506,7 @@ msgstr "新しいマスターパスワードの再入力"
 
 msgctxt "dlgScMasterPasswordChange.hdl:"
 msgid "Change or reset the master password"
-msgstr "マスターパスワードの変更・再設定"
+msgstr "マスターパスワードの変更またはリセット"
 
 msgctxt "dlgScMasterPasswordChange.inf:"
 msgid "To change the master password, enter the current one. To go without a master password, leave the new field blank."
