@@ -47,7 +47,7 @@ msgstr "グルーピングを定義するための正規表現を入力します
 
 msgctxt "(dlgSgPreferences|dlgSgRepositorySettings).lbl:"
 msgid "Optionally, enter regular expressions defining additional refs to preserve."
-msgstr "必要に応じて、追加の保持対象となる参照を定義する正規表現を入力してください。"
+msgstr "必要に応じて、保持対象とする追加の参照を定義する正規表現を入力してください。"
 
 msgctxt "(dlgSgPreferences|dlgSgRepositorySettings).ttpGroupPatterns:"
 msgid "Example: <tt>build:refs/tags/build\\(?&lt;name&gt;.\\*\\),version:refs/tags/\\\\d+\\\\.\\\\d+\\\\..\\*</tt>"
@@ -59,11 +59,11 @@ msgstr "次に、グループに残っているリファレンス\\(refs\\)の�
 
 msgctxt "(dlgSgPreferences|dlgSgRepositorySettings).ttpGroupPatterns:"
 msgid "Patterns will be matched against the full ref-name, including the <tt>refs</tt>-prefix. For a matching ref, its name will be shortened to the last path-segment \\('\\\\/'\\). For example, <tt>refs/tags/build-.\\*</tt> will match a tag <tt>refs/tags/build-123</tt> and its name will be shortened to <tt>build-123</tt>. You may add a <i>named regex capturing group</i> called <tt>name</tt> to further customize the name extraction. For example, <tt>refs/tags/build-\\(?&lt;name&gt;.\\*\\)</tt> will match <tt>refs/tags/build-123</tt> and its name will be shortened to <tt>123</tt>."
-msgstr "パターンは、'refs' プレフィックスを含むフル リファレンス名に対してマッチングされます。マッチングしたリファレンス名は、最後のパス セグメント（'/'） までを短縮形で表示します。たとえば、<tt>refs/tags/build-.\\*<\\/tt> はタグ <tt>refs/tags/build-123<\\/tt> にマッチし、その名前が <tt>build-123<\\/tt> に短縮されます。また、<tt>name<\\/tt> という名前の <i>named regex capturing group<\\/i> を追加することで、名前の取り出しをさらにカスタマイズすることができます。たとえば、<tt>refs/tags/build-\\\\(?&lt;name&gt;.\\*\\\\)<\\/tt> は <tt>refs/tags/build-123<\\/tt> にマッチし、その名前が <tt>123<\\/tt> に短縮されます。"
+msgstr "パターンは、'refs' プレフィックスを含む完全なリファレンス名に対してマッチングされます。マッチングしたリファレンス名は、最後のパスセグメント ('/') に短縮されます。たとえば、<tt>refs/tags/build-.\\*<\\/tt> はタグ <tt>refs/tags/build-123<\\/tt> にマッチし、その名前は <tt>build-123<\\/tt> に短縮されます。<i>name<\\/i> という名前付き正規表現キャプチャグループを追加することで、名前の抽出をさらにカスタマイズできます。たとえば、<tt>refs/tags/build-\\\\(?&lt;name&gt;.\\*\\\\)<\\/tt> は <tt>refs/tags/build-123<\\/tt> にマッチし、その名前は <tt>123<\\/tt> に短縮されます。"
 
 msgctxt "(dlgSgPreferences|dlgSgRepositorySettings).ttpGroupPatterns:"
 msgid "Refs will be categorized into groups: when traversing the repository root log, refs will first be assigned to matching groups. Every group will store only the most recently encountered ref, i.e. if a new ref is encountered, it will replace all existing refs in the current group."
-msgstr "Refs はグループに分類されます。リポジトリのルートログを走査する際に、Refs はまず対応するグループに割り当てられます。各グループは、最後に見つかった Ref のみを格納します。つまり、新しい Ref が見つかった場合、現在のグループにあるすべての Ref は置き換えられます。"
+msgstr "Refはグループに分類されます。リポジトリのルートログを走査する際に、Refはまず対応するグループに割り当てられます。各グループは、最後に見つかったRefのみを格納します。つまり、新しいRefが見つかった場合、現在のグループにある既存のRefはすべて置き換えられます。"
 
 msgctxt "(dlgSgPreferences|dlgSgRepositorySettings).ttpGroupPatterns:"
 msgid "You can assign a title to a pattern by prefixing it by <tt>title:</tt>; the title may only contain letters, digits and '_'."
@@ -71,7 +71,7 @@ msgstr "パターンにタイトルを割り当てるには、先頭に <tt>titl
 
 msgctxt "(dlgSgPreferences|dlgSgRepositorySettings).ttpGroupPatterns:"
 msgid "You can specify multiple groups patterns, separated by comma \\(<tt>,</tt>\\), which will be processed in the specified order: if you define two groups which both match a set of refs, such refs will be assigned to the first group."
-msgstr "カンマ\\(<tt>,</tt>\\)で区切られた複数のグループパターンを指定することができ、指定した順番で処理されます。あるRefにマッチする2つのグループを定義した場合、そのRefは最初のグループに割り当てられます。"
+msgstr "カンマ\\(<tt>,</tt>\\)で区切られた複数のグループパターンを指定でき、指定した順番で処理されます。あるRefのセットに両方ともマッチする2つのグループを定義した場合、そのRefは最初のグループに割り当てられます。"
 
 msgctxt "(dlgSgPreferences|dlgSgRepositorySettings).ttpSinglePattern:"
 msgid "Example: <tt>refs\\\\/remotes\\\\/origin\\\\/release-.\\\\\\*</tt>"
@@ -271,7 +271,7 @@ msgstr "エンコーディングを設定する"
 
 msgctxt "dlgDgSetPerspectiveCantSwitch.fur:"
 msgid "In order to inspect available Origins, they have to be evaluated first. Select a line in the Blame view. Then wait until the calculation of possible Origins has finished."
-msgstr "利用可能なオリジンを検査するには、まずそれらを評価する必要があります。 Blame ビューで行を選択します。次に、可能なオリジンの計算が完了するまで待ちます。"
+msgstr "利用可能なオリジンを検査するには、まずそれらを評価する必要があります。Blameビューで行を選択し、可能なオリジンの計算が完了するまで待ちます。"
 
 msgctxt "dlgDgSetPerspectiveCantSwitch.hdl:"
 msgid "Can't switch perspective."
@@ -389,7 +389,7 @@ msgstr "バグを報告"
 
 msgctxt "dlgQBugReportSend.edt:"
 msgid "Comments or Steps to Reproduce"
-msgstr "コメントまたは再現のための手順\\(英語で記述してください\\)"
+msgstr "コメントまたは再現手順\\(英語で記述してください\\)"
 
 msgctxt "dlgQBugReportSend.edt:"
 msgid "Email"
@@ -409,7 +409,7 @@ msgstr "ご迷惑をおかけして申し訳ありません！"
 
 msgctxt "dlgQBugReportSend.lbl:"
 msgid "The \\[file log-file\\] will be sent with this bug report. Alternatively, you may send it to \\[email smartgit@syntevo.com\\]."
-msgstr "このバグレポートとともに、\\[file log-file\\] を送信します。または、\\[email smartgit@syntevo.com\\] に送信することもできます。"
+msgstr "このバグレポートとともに、\\[file log-file\\] が送信されます。または、\\[email smartgit@syntevo.com\\] に送信することもできます。"
 
 msgctxt "dlgQBugReportSend.lbl:"
 msgid "We only use it to ask further details about this bug or provide a workaround."
@@ -881,7 +881,7 @@ msgstr "ショートカットのカスタマイズ"
 
 msgctxt "dlgScCustomizeAccelerators.inf:"
 msgid "Double click on the menu item for which the accelerator should be changed, then press the accelerator keys and click the Assign button."
-msgstr "ショートカットを変更するメニュー項目をダブルクリックし、アクセラレータ キーを押して [アサイン] ボタンをクリックします。"
+msgstr "ショートカットを変更したいメニュー項目をダブルクリックし、ショートカットキーを押してから「割り当て」ボタンをクリックします。"
 
 msgctxt "dlgScCustomizeAccelerators.tle:"
 msgid "Customize"
@@ -1049,7 +1049,7 @@ msgstr "電子メール"
 
 msgctxt "dlgScDialogAssertionHandler.edt:"
 msgid "Optional comments or steps to reproduce \\(in case you still recall\\)"
-msgstr "オプションのコメントまたは再現手順\\(まだ覚えている場合のみ\\)"
+msgstr "オプションのコメントまたは再現手順\\(まだ覚えている場合\\)"
 
 msgctxt "dlgScDialogAssertionHandler.lbl:"
 msgid "SmartGit has crashed due to insufficient system memory"
@@ -1158,7 +1158,7 @@ msgstr "評価"
 
 msgctxt "dlgScExternalFileStarterCommandInvocationFailed.hdl:"
 msgid "Cannot run program \"$1\": $2"
-msgstr "プログラム「\"$1\": $2」を実行できません"
+msgstr "プログラム「$1」を実行できません: $2"
 
 msgctxt "dlgScExternalFileStarterCommandInvocationFailed.tle:"
 msgid "\\[$1\\] - Conflict Solver"
@@ -1354,7 +1354,7 @@ msgstr "言語: $1"
 
 msgctxt "dlgScFilePatternsEdit.inf:"
 msgid "File patterns are used to determine file language, which is used for syntax coloring."
-msgstr "ファイルパターンは、ファイル言語を決定するために使用され、シンタックスカラーリングに使用されます。"
+msgstr "ファイルパターンは、シンタックスハイライトに使用されるファイル言語を決定するために使用されます。"
 
 msgctxt "dlgScFilePatternsEdit.lbl:"
 msgid "Valid wildcards are ?\\u00a0\\(one arbitrary character\\) and \\*\\u00a0\\(any number of arbitrary characters\\). Separate multiple patterns by comma. Example:\\u00a0\\*.txt,\\u00a0\\*.html"
@@ -1486,7 +1486,7 @@ msgstr "課題 $1 を解決"
 
 msgctxt "dlgScJiraResolveIssue.inf:"
 msgid "Select whether to resolve this issue and for which version to mark as resolved."
-msgstr "この問題を解決するかどうか、どのバージョンで解決済みとしてマークするかを選択します。"
+msgstr "この課題を解決するかどうか、またどのバージョンで解決済みとしてマークするかを選択します。"
 
 msgctxt "dlgScJiraResolveIssue.tle:"
 msgid "Resolve JIRA Issue"
@@ -1510,7 +1510,7 @@ msgstr "マスターパスワードの変更またはリセット"
 
 msgctxt "dlgScMasterPasswordChange.inf:"
 msgid "To change the master password, enter the current one. To go without a master password, leave the new field blank."
-msgstr "マスターパスワードを変更する場合は、現在のパスワードを入力してください。マスターパスワードを使用しない場合は、新しいパスワードを空白にします。"
+msgstr "マスターパスワードを変更するには、現在のパスワードを入力します。マスターパスワードなしにするには、新しいパスワードの欄を空のままにします。"
 
 msgctxt "dlgScMasterPasswordChange.lbl:"
 msgid "When setting a new master password, all stored passwords and passphrases will be lost and need to be re-entered when required!"
@@ -1546,7 +1546,7 @@ msgstr "マスターパスワードは、サーバーとの認証に使用され
 
 msgctxt "dlgScMasterPasswordCreate.lbl:"
 msgid "Not using a master password makes your passwords and passphrases readable for everyone who has access to the password file located at $1. Use this option only if you are sure that this file is safe."
-msgstr "マスターパスワードを使用しないと、$1にあるパスワードファイルにアクセスできるすべての人が、パスワードやパスフレーズを読むことができます。"
+msgstr "マスターパスワードを使用しないと、$1にあるパスワードファイルにアクセスできるすべての人がパスワードやパスフレーズを読めるようになります。このファイルが安全であると確信できる場合にのみ、このオプションを使用してください。"
 
 msgctxt "dlgScMasterPasswordCreate.lbl:"
 msgid "This master password is case-sensitive and should contain lowercase and uppercase characters, digits and other characters. Longer passwords are in general more secure than shorter ones."
@@ -1710,7 +1710,7 @@ msgstr "SmartGit ライセンス"
 
 msgctxt "dlgScRegisterRequestRejected.fur:"
 msgid "The license server rejected the request. Please manually register the latest license file you've got by email or try again later."
-msgstr "ライセンスサーバーが要求を拒否しました。電子メールで受け取った最新のライセンスファイルを手動で登録するか、後ほどもう一度お試しください。"
+msgstr "ライセンスサーバーが要求を拒否しました。メールで受け取った最新のライセンスファイルを手動で登録するか、後でもう一度お試しください。"
 
 msgctxt "dlgScRegisterRequestRejected.hdl:"
 msgid "Failed to update license file."
@@ -1778,7 +1778,7 @@ msgstr "ライセンスファイルを登録"
 
 msgctxt "dlgScSetupLicense.inf:"
 msgid "Please provide your SmartGit license file you've received by email after purchase."
-msgstr "購入後にメールで送られてきたSmartGitのライセンスファイルを指定してください。"
+msgstr "購入後にメールで受け取ったSmartGitのライセンスファイルを指定してください。"
 
 msgctxt "dlgScSetupLicense.tle:"
 msgid "SmartGit License"
@@ -1795,11 +1795,11 @@ msgstr "今すぐ再起動"
 #, fuzzy
 msgctxt "dlgScSetupLicenseNeedsRestart.fur:"
 msgid "You can do that now or manually later."
-msgstr "今すぐそれを行うか、後で手動で行うことができます。"
+msgstr "今すぐ行うことも、後で手動で行うこともできます。"
 
 msgctxt "dlgScSetupLicenseNeedsRestart.hdl:"
 msgid "SmartGit has to be restarted for the license change to take effect."
-msgstr "ライセンスの変更を有効にするためには、SmartGitを再起動する必要があります。"
+msgstr "ライセンスの変更を有効にするには、SmartGitを再起動する必要があります。"
 
 msgctxt "dlgScSetupLicenseNeedsRestart.tle:"
 msgid "SmartGit License"
@@ -1863,7 +1863,7 @@ msgstr "サーバーのフィンガープリントが変更されました!こ�
 
 msgctxt "dlgScSslFingerprint.lbl:"
 msgid "This might indicate a security problem! When in doubt, contact your server administrator."
-msgstr "これは、セキュリティ上の問題を示している可能性があります。疑わしい場合は、サーバー管理者に連絡してください。"
+msgstr "これはセキュリティ上の問題を示している可能性があります。不明な点がある場合は、サーバー管理者に連絡してください。"
 
 msgctxt "dlgScSslFingerprint.tle:"
 msgid "Server Fingerprint"
@@ -1875,11 +1875,11 @@ msgstr "末尾から検索"
 
 msgctxt "dlgScTextFinderFindFromEnd.fur:"
 msgid "No occurrences have been found until the beginning of the document."
-msgstr "ドキュメントの先頭まで見つかりませんでした。"
+msgstr "ドキュメントの先頭まで一致する箇所は見つかりませんでした。"
 
 msgctxt "dlgScTextFinderFindFromEnd.hdl:"
 msgid "Do you want to continue from the end of the document?"
-msgstr "ドキュメントの最後から続けますか？"
+msgstr "ドキュメントの末尾から検索を続けますか？"
 
 msgctxt "dlgScTextFinderFindFromEnd.tle:"
 msgid "Find Text"
@@ -1887,15 +1887,15 @@ msgstr "テキストの検索"
 
 msgctxt "dlgScTextFinderFindFromStart.btn:"
 msgid "Find from Beginning"
-msgstr "初めから検索"
+msgstr "先頭から検索"
 
 msgctxt "dlgScTextFinderFindFromStart.fur:"
 msgid "No occurrences have been found until the end of the document."
-msgstr "ドキュメントの最後まで見つかりませんでした。"
+msgstr "ドキュメントの末尾まで一致する箇所は見つかりませんでした。"
 
 msgctxt "dlgScTextFinderFindFromStart.hdl:"
 msgid "Do you want to continue from the beginning of the document?"
-msgstr "ドキュメントの先頭から続けますか？"
+msgstr "ドキュメントの先頭から検索を続けますか？"
 
 msgctxt "dlgScTextFinderFindFromStart.tle:"
 msgid "Find Text"
@@ -1903,7 +1903,7 @@ msgstr "テキストの検索"
 
 msgctxt "dlgScTextFinderNothingFound.hdl:"
 msgid "No \\(more\\) occurrences have been found."
-msgstr "見つかりませんでした。"
+msgstr "（これ以上）一致する箇所は見つかりませんでした。"
 
 msgctxt "dlgScTextFinderNothingFound.tle:"
 msgid "Find Text"
@@ -1931,7 +1931,7 @@ msgstr "検索 >"
 
 msgctxt "dlgScTextReplace.btn:"
 msgid "Replace All"
-msgstr "全て置換"
+msgstr "すべて置換"
 
 msgctxt "dlgScTextReplace.btn:"
 msgid "Replace"
@@ -1947,11 +1947,11 @@ msgstr "正規表現検索"
 
 msgctxt "dlgScTextReplace.chk:"
 msgid "Replace With:"
-msgstr "置換文字列:"
+msgstr "置換後の文字列:"
 
 msgctxt "dlgScTextReplace.edt:"
 msgid "Text to Find"
-msgstr "検索文字列"
+msgstr "検索する文字列"
 
 msgctxt "dlgScTextReplace.tle:"
 msgid "Find and Replace"
@@ -1987,7 +1987,7 @@ msgstr "タブサイズ(スペース文字数)"
 
 msgctxt "dlgScTextSettings.rbt:"
 msgid "All"
-msgstr "全て"
+msgstr "すべて"
 
 msgctxt "dlgScTextSettings.rbt:"
 msgid "Alphanumeric words"
@@ -2059,11 +2059,11 @@ msgstr "SmartGit インストールの更新"
 
 msgctxt "dlgScUpdateInstallationUpdateManuallyInfo.fur:"
 msgid "Please get rid of '$1' manually and retry the upgrade."
-msgstr "'$1' を手動で削除して、アップグレードを再試行してください。"
+msgstr "'$1' を手動で削除してから、アップグレードを再試行してください。"
 
 msgctxt "dlgScUpdateInstallationUpdateManuallyInfo.hdl:"
 msgid "Clearing updater directory failed."
-msgstr "アップデータのディレクトリの消去に失敗しました。"
+msgstr "アップデータディレクトリの消去に失敗しました。"
 
 msgctxt "dlgScUpdateInstallationUpdateManuallyInfo.tle:"
 msgid "SmartGit Installation Update"
@@ -2095,7 +2095,7 @@ msgstr "差分比較ツールを選択する"
 
 msgctxt "dlgSelectDiff.inf:"
 msgid "Select which matching diff tool should be used."
-msgstr "どの差分比較ツールを使用するかを選択します。"
+msgstr "使用する差分比較ツールを選択します。"
 
 msgctxt "dlgSelectDiff.lbl:"
 msgid "Built-in file compare"
@@ -2115,7 +2115,7 @@ msgstr "問題箇所の特定('bisect')を中止"
 
 msgctxt "dlgSgAbortBisectingConfirm.fur:"
 msgid "Your working tree is in 'bisecting' state. You may abort it to get out of this state.\\n\\nAborting will checkout the branch or commit before starting bisect."
-msgstr "作業ツリーは「問題箇所の特定中」の状態になっています。\\n\\n中止すると、問題箇所の特定\\('bisect'\\) を開始する前のブランチまたはコミットがチェックアウトされます。"
+msgstr "作業ツリーは「bisect中」の状態です。この状態を抜けるために中止することができます。\\n\\n中止すると、bisectを開始する前のブランチまたはコミットがチェックアウトされます。"
 
 msgctxt "dlgSgAbortBisectingConfirm.hdl:"
 msgid "Do you want to reset your working tree?"
@@ -2216,7 +2216,7 @@ msgstr "ビルド日"
 
 msgctxt "dlgSgAbout.edt:"
 msgid "Demo Until"
-msgstr "デモ期間中"
+msgstr "デモ期間"
 
 msgctxt "dlgSgAbout.edt:"
 msgid "Email"
@@ -2284,11 +2284,11 @@ msgstr "削除"
 
 msgctxt "dlgSgAiAnnotatorDropAllNotes.fur:"
 msgid "This will remove all AI-related Git notes from the repository."
-msgstr "これにより、リポジトリからすべてのAI関連のGitノートが削除されます。"
+msgstr "これにより、リポジトリからAI関連のすべてのGit noteが削除されます。"
 
 msgctxt "dlgSgAiAnnotatorDropAllNotes.hdl:"
 msgid "Do you want to drop all AI-related Git notes?"
-msgstr "すべてのAI関連のGitノートを削除しますか？"
+msgstr "AI関連のすべてのGit noteを削除しますか？"
 
 msgctxt "dlgSgAiAnnotatorDropAllNotes.tle:"
 msgid "Drop AI Notes"
@@ -2389,7 +2389,7 @@ msgstr "AI統合を設定する"
 
 msgctxt "dlgSgAiIntegrationSetup.inf:"
 msgid "SmartGit supports AI-generated commit messages, with more AI features coming. GitHub models can be used out-of-the-box."
-msgstr "SmartGitはAI生成のコミットメッセージをサポートしており、さらに多くのAI機能が追加される予定です。GitHubモデルはすぐに使用可能です。"
+msgstr "SmartGitはAI生成のコミットメッセージをサポートしており、今後さらに多くのAI機能が追加される予定です。GitHubモデルはすぐに使用できます。"
 
 msgctxt "dlgSgAiIntegrationSetup.rbt:"
 msgid "Configure manually \\(view documentation\\)"
@@ -2447,7 +2447,7 @@ msgstr "コミットの説明を有効にする"
 
 msgctxt "dlgSgAiSetup.chk:"
 msgid "Enable commit rewording"
-msgstr "コミットのリワード\\(言い換え\\)を有効にする"
+msgstr "コミットの書き直し(rewording)を有効にする"
 
 msgctxt "dlgSgAiSetup.chk:"
 msgid "Only for current repository"
@@ -2463,11 +2463,11 @@ msgstr "モデル"
 
 msgctxt "dlgSgAiSetup.edt:"
 msgid "URL Query"
-msgstr "URL クエリパラメータ"
+msgstr "URLクエリパラメータ"
 
 msgctxt "dlgSgAiSetup.hdl:"
 msgid "Commit Rewording"
-msgstr "コミットメッセージの言い換え"
+msgstr "コミットメッセージの書き直し"
 
 msgctxt "dlgSgAiSetup.hdl:"
 msgid "Explain Commits"
@@ -2487,19 +2487,19 @@ msgstr "ようこそ"
 
 msgctxt "dlgSgAiSetup.inf:"
 msgid "SmartGit can automatically generate stash messages."
-msgstr "SmartGitは自動的にスタッシュメッセージを生成できます。"
+msgstr "SmartGitはスタッシュメッセージを自動生成できます。"
 
 msgctxt "dlgSgAiSetup.inf:"
 msgid "SmartGit can explain individual commits or commit ranges in the background. Results are stored in Git notes."
-msgstr "SmartGitは、個々のコミットやコミット範囲をバックグラウンドで説明できます。結果はGitノートに保存されます。"
+msgstr "SmartGitは、個々のコミットやコミット範囲をバックグラウンドで説明できます。結果はGit noteに保存されます。"
 
 msgctxt "dlgSgAiSetup.inf:"
 msgid "SmartGit can reword commit messages in the background when using special markers."
-msgstr "SmartGitは、特別なマーカーを使用することで、バックグラウンドでコミットメッセージを言い換えることができます。"
+msgstr "SmartGitは、特別なマーカーを使用することで、バックグラウンドでコミットメッセージを書き直すことができます。"
 
 msgctxt "dlgSgAiSetup.inf:"
 msgid "SmartGit offers AI-powered features to enhance productivity, simplify workflows, and assist you with your repositories."
-msgstr "SmartGitは、生産性を向上させ、ワークフローを簡素化し、リポジトリの管理を支援するためにAI駆動の機能を提供します。"
+msgstr "SmartGitは、生産性を向上させ、ワークフローを簡素化し、リポジトリの管理を支援するAI駆動の機能を提供します。"
 
 msgctxt "dlgSgAiSetup.inf:"
 msgid "Verifying connectivity..."
@@ -2511,15 +2511,15 @@ msgstr "接続を確認しています\\u2026"
 
 msgctxt "dlgSgAiSetup.lbl:"
 msgid "- Leave the stash message blank to enable auto-generation.\\n- SmartGit will generate a message and safely update the stash in the background.\\n- You can always enable or disable AI stash rewording in the Save Stash dialog.\\n"
-msgstr "- スタッシュメッセージを空白のままにすると、自動生成が有効になります。\\n- SmartGitはメッセージを生成し、バックグラウンドでスタッシュを安全に更新します。\\n- 保存スタッシュダイアログでAIスタッシュのリワードを常に有効または無効にすることができます。\\n"
+msgstr "- スタッシュメッセージを空にすると、自動生成が有効になります。\\n- SmartGitはメッセージを生成し、バックグラウンドで安全にスタッシュを更新します。\\n- 「スタッシュの保存」ダイアログで、AIによるスタッシュメッセージの書き直しをいつでも有効/無効にできます。\\n"
 
 msgctxt "dlgSgAiSetup.lbl:"
 msgid "- Select one or more commits to generate a natural language explanation.\\n- For multiple commits, explanations are generated in the background and saved in Git Notes.\\n- Select two different branches to generate an explanation of their differences.\\n"
-msgstr "- 自然言語の説明を生成するために、1つ以上のコミットを選択してください。\\n- 複数のコミットの場合、説明はバックグラウンドで生成され、Gitノートに保存されます。\\n- 2つの異なるブランチを選択して、それらの違いの説明を生成してください。\\n"
+msgstr "- 1つ以上のコミットを選択して、自然言語の説明を生成します。\\n- 複数のコミットの場合、説明はバックグラウンドで生成され、Git Noteに保存されます。\\n- 2つの異なるブランチを選択して、それらの違いの説明を生成します。\\n"
 
 msgctxt "dlgSgAiSetup.lbl:"
 msgid "- Use '@ai' to reword the entire commit message.\\n- 'WIP' will describe Work in Progress with an AI generated commit message.\\n- You can always enable or disable AI commit rewording features from the hamburger menu.\\n"
-msgstr "- '@ai'を使用して、コミットメッセージ全体を言い換えます。\\n- 'WIP'は、AI生成のコミットメッセージで進行中の作業を説明します。\\n- ハンバーガーメニューからAIコミット言い換え機能を常に有効または無効にできます。\\n"
+msgstr "- '@ai' を使用して、コミットメッセージ全体を書き直します。\\n- 'WIP' は、AIが生成したコミットメッセージで作業中の内容を説明します。\\n- ハンバーガーメニューからAIによるコミットメッセージ書き直し機能をいつでも有効/無効にできます。\\n"
 
 msgctxt "dlgSgAiSetup.lbl:"
 msgid "Optional parameters"
@@ -2535,7 +2535,7 @@ msgstr "しばらくお待ちください\\u2026"
 
 msgctxt "dlgSgAiSetup.lbl:"
 msgid "Select your AI provider. This is the service SmartGit will use to generate AI-powered content."
-msgstr "AIプロバイダーを選択してください。これはSmartGitがAI駆動のコンテンツを生成するために使用するサービスです。"
+msgstr "AIプロバイダーを選択してください。これはSmartGitがAIによるコンテンツを生成するために使用するサービスです。"
 
 msgctxt "dlgSgAiSetup.lbl:"
 msgid "SmartGit won't ask about AI features again."
@@ -2547,7 +2547,7 @@ msgstr "ステップ"
 
 msgctxt "dlgSgAiSetup.lbl:"
 msgid "Your GitHub credentials from the Hosting Provider configuration will be used. There is nothing more to set up here."
-msgstr "ホスティングプロバイダーの設定からのGitHub認証情報が使用されます。ここで設定する必要はありません。"
+msgstr "ホスティングプロバイダー設定のGitHub認証情報が使用されます。ここで他に設定する必要はありません。"
 
 msgctxt "dlgSgAiSetup.rbt:"
 msgid "Disable AI integration globally"
@@ -2563,7 +2563,7 @@ msgstr "AI セットアップ"
 
 msgctxt "dlgSgAiSetupConfigurationSuccess.fur:"
 msgid "The configuration has been saved to '$1', which is included by '$2'.\\n\\nYou can now start generating commit messages by clicking the AI button again.\\n\\nAdditional configuration options are available and can be tweaked directly in the configuration file. For details, refer to the \\[https://docs.syntevo.com/SmartGit/Latest/Manual/Integrations/AI documentation\\]."
-msgstr "設定は'$1'に保存され、'$2'によって含まれています。\\n\\nAIボタンを再度クリックすることで、コミットメッセージの生成を開始できます。\\n\\n追加の設定オプションが利用可能で、設定ファイル内で直接調整できます。詳細については、\\[https://docs.syntevo.com/SmartGit/Latest/Manual/Integrations/AI documentation\\]を参照してください。"
+msgstr "設定は'$1'に保存され、これは'$2'に含まれています。\\n\\nAIボタンを再度クリックすることで、コミットメッセージの生成を開始できます。\\n\\n追加の設定オプションは設定ファイルで直接調整できます。詳細については、\\[https://docs.syntevo.com/SmartGit/Latest/Manual/Integrations/AI ドキュメント\\]を参照してください。"
 
 msgctxt "dlgSgAiSetupConfigurationSuccess.hdl:"
 msgid "The AI integration has been configured successfully."
@@ -2595,11 +2595,11 @@ msgstr "有効化せずに終了"
 
 msgctxt "dlgSgAiSetupExitEarly.fur:"
 msgid "You have selected some AI features. Do you want to enable them now, or exit the setup without enabling them?"
-msgstr "AI機能のいくつかを選択しました。今すぐ有効にしますか、それとも有効にせずにセットアップを終了しますか？"
+msgstr "いくつかのAI機能を選択しました。今すぐ有効にしますか、それとも有効にせずにセットアップを終了しますか？"
 
 msgctxt "dlgSgAiSetupExitEarly.hdl:"
 msgid "Enable already selected AI features?"
-msgstr "既に選択されたAI機能を有効にしますか？"
+msgstr "既に選択されているAI機能を有効にしますか？"
 
 msgctxt "dlgSgAiSetupExitEarly.tle:"
 msgid "AI Setup"
@@ -2607,7 +2607,7 @@ msgstr "AI セットアップ"
 
 msgctxt "dlgSgAiSetupLlmConfigurationInvalid.fur:"
 msgid "API URL missing."
-msgstr "API URLに問題があります"
+msgstr "API URLが指定されていません。"
 
 msgctxt "dlgSgAiSetupLlmConfigurationInvalid.hdl:"
 msgid "Configuration is invalid."
@@ -2615,11 +2615,11 @@ msgstr "設定が無効です。"
 
 msgctxt "dlgSgApplicationAlreadyRunning.fur:"
 msgid "Instead of running separate instances you can open multiple project windows in SmartGit.\\n\\nIf you are sure that no SmartGit instance is running any more you should delete the lock file\\n$1"
-msgstr "別々のインスタンスを実行する代わりに、SmartGit で複数のプロジェクト ウィンドウを開くことができます。\\n\\n SmartGit のインスタンスがもう実行されていないことが確実な場合は、ロック ファイルを削除する必要があります。\\n $1"
+msgstr "別々のインスタンスを実行する代わりに、SmartGitで複数のプロジェクトウィンドウを開くことができます。\\n\\nSmartGitのインスタンスが実行中でないことが確実な場合は、ロックファイルを削除してください。\\n$1"
 
 msgctxt "dlgSgApplicationAlreadyRunning.hdl:"
 msgid "It seems that SmartGit is already running."
-msgstr "SmartGit が既に実行されているようです。"
+msgstr "SmartGitは既に実行されているようです。"
 
 msgctxt "dlgSgApplicationAlreadyRunning.tle:"
 msgid "SmartGit"
@@ -2639,7 +2639,7 @@ msgstr "アップグレード"
 
 msgctxt "dlgSgAuthenticationRemoveAllCredentials.btn:"
 msgid "Remove All"
-msgstr "全て削除"
+msgstr "すべて削除"
 
 msgctxt "dlgSgAuthenticationRemoveAllCredentials.fur:"
 msgid "You will have to re-enter all authentication details."
@@ -2651,7 +2651,7 @@ msgstr "既知の認証情報をすべて削除しますか？"
 
 msgctxt "dlgSgAuthenticationRemoveAllCredentials.tle:"
 msgid "Remove All"
-msgstr "全て削除"
+msgstr "すべて削除"
 
 msgctxt "dlgSgAuthenticationShowPassword.edt:"
 msgid "Password"
@@ -2695,11 +2695,11 @@ msgstr "Azure DevOps"
 
 msgctxt "dlgSgBisectResult.btn:"
 msgid "Continue Bisect"
-msgstr "問題箇所の特定を続行"
+msgstr "Bisectを続行"
 
 msgctxt "dlgSgBisectResult.btn:"
 msgid "Leave Bisect"
-msgstr "問題箇所の特定をやめる"
+msgstr "Bisectを終了"
 
 msgctxt "dlgSgBisectResult.fur:"
 msgid "$1"
@@ -2707,31 +2707,31 @@ msgstr "$1"
 
 msgctxt "dlgSgBisectResult.hdl:"
 msgid "Bisect has determined the first bad commit."
-msgstr "最初のバッドコミットを特定しました。"
+msgstr "Bisectにより最初の問題のあるコミットが特定されました。"
 
 msgctxt "dlgSgBisectResult.tle:"
 msgid "Bisect Finished"
-msgstr "問題箇所の特定を終了"
+msgstr "Bisectを終了"
 
 msgctxt "dlgSgBisectStartConfirm.btn:"
 msgid "Start Bisect with Bad HEAD"
-msgstr "ヘッドを 'bad' とマークして問題箇所の特定を開始"
+msgstr "HEADを 'bad' としてBisectを開始"
 
 msgctxt "dlgSgBisectStartConfirm.btn:"
 msgid "Start Bisect"
-msgstr "問題箇所の特定を開始"
+msgstr "Bisectを開始"
 
 msgctxt "dlgSgBisectStartConfirm.fur:"
 msgid "You need to mark 1 commit as good and 1 commit as bad before Git can start the binary search."
-msgstr "Gitが二分探索で問題箇所の特定を開始する前に、1つのコミットをgood、1つのコミットをbadとしてマークする必要があります。"
+msgstr "Gitが二分探索を開始する前に、1つのコミットをgood、もう1つのコミットをbadとしてマークする必要があります。"
 
 msgctxt "dlgSgBisectStartConfirm.hdl:"
 msgid "Should the bisect be started with a bad commit?"
-msgstr "バッドコミットで問題箇所の特定を開始する必要がありますか?"
+msgstr "badコミットでbisectを開始しますか？"
 
 msgctxt "dlgSgBisectStartConfirm.tle:"
 msgid "Start Bisect"
-msgstr "問題箇所の特定\\(bisect\\)を開始"
+msgstr "Bisectを開始"
 
 msgctxt "dlgSgBitbucketGenerateToken.edt:"
 msgid "Code"
@@ -2767,7 +2767,7 @@ msgstr "Bitbucket"
 
 msgctxt "dlgSgBranchAddCheckout.btn:"
 msgid "Add Branch && Checkout"
-msgstr "ブランチを追加しチェックアウト"
+msgstr "ブランチを追加してチェックアウト"
 
 msgctxt "dlgSgBranchAddCheckout.btn:"
 msgid "Add Branch"
@@ -2779,7 +2779,7 @@ msgstr "ブランチ"
 
 msgctxt "dlgSgBranchAddCheckout.err:"
 msgid "A remote branch with this name already exists. Use a different name."
-msgstr "この名前のリモートブランチはすでに存在しています。別の名前を使用してください。"
+msgstr "この名前のリモートブランチはすでに存在します。別の名前を使用してください。"
 
 msgctxt "dlgSgBranchAddCheckout.err:"
 msgid "Choose a different branch, the current branch can't be used."
@@ -2791,11 +2791,11 @@ msgstr "ローカルブランチの名前を入力してください。"
 
 msgctxt "dlgSgBranchAddCheckout.err:"
 msgid "The name must not end with a slash or dot."
-msgstr "名前の末尾にスラッシュまたはドットを使用することはできません。"
+msgstr "名前の末尾にスラッシュやドットは使用できません。"
 
 msgctxt "dlgSgBranchAddCheckout.err:"
 msgid "This branch already exists at this commit."
-msgstr "このブランチはこのコミットで既に存在しています。"
+msgstr "このブランチはこのコミットに既に存在します。"
 
 msgctxt "dlgSgBranchAddCheckout.hdl:"
 msgid "Add branch at commit $1"
@@ -2807,7 +2807,7 @@ msgstr "現在のHEADコミットにブランチを追加"
 
 msgctxt "dlgSgBranchAddCheckout.hdl:"
 msgid "Create new branch at current branch \\(HEAD\\)"
-msgstr "現在のブランチ \\(HEAD\\) に新しいブランチを作成します"
+msgstr "現在のブランチ (HEAD) から新しいブランチを作成します"
 
 msgctxt "dlgSgBranchAddCheckout.inf:"
 msgid "Enter the name of the local branch to create."
@@ -2827,7 +2827,7 @@ msgstr "「キャンセル」をクリックすると、別のブランチ名を
 
 msgctxt "dlgSgBranchAddCheckoutOverwriteExisting.hdl:"
 msgid "The branch '$1' already exists. Do you want to overwrite it?"
-msgstr "ブランチ '$1' はすでに存在しています。上書きしますか？"
+msgstr "ブランチ '$1' はすでに存在します。上書きしますか？"
 
 msgctxt "dlgSgBranchAddCheckoutOverwriteExisting.tle:"
 msgid "Add Branch"
@@ -2839,7 +2839,7 @@ msgstr "デフォルトでは、SmartGit は現在のブランチを削除する
 
 msgctxt "dlgSgBranchDeleteCurrentNotPossible.hdl:"
 msgid "You can't delete the current branch."
-msgstr "現在のブランチを削除することはできません。"
+msgstr "現在のブランチは削除できません。"
 
 msgctxt "dlgSgBranchDeleteCurrentNotPossible.tle:"
 msgid "Delete"
@@ -2863,7 +2863,7 @@ msgstr "リモートリポジトリから追跡ブランチを削除"
 
 msgctxt "dlgSgBranchDeleteLocalConfirmMultiple.chk:"
 msgid "Delete tracked branches"
-msgstr "追跡されたブランチを削除する"
+msgstr "追跡ブランチを削除する"
 
 msgctxt "dlgSgBranchDeleteLocalConfirmMultiple.fur:"
 msgid "It might be complicated to restore deleted branches.\\n\\nYou may only delete a branch from your local list of remote branches, but this may bring back the branch with the next fetch."
@@ -2911,7 +2911,7 @@ msgstr "ローカルブランチが '$1' ブランチを追跡しています。
 
 msgctxt "dlgSgBranchDeleteLocalConfirmSingle.hdl:"
 msgid "Do you want to delete the local branch '$1'?"
-msgstr "ローカル ブランチ '$1' を削除しますか?"
+msgstr "ローカルブランチ '$1' を削除しますか?"
 
 msgctxt "dlgSgBranchDeleteLocalConfirmSingle.tle:"
 msgid "Delete"
@@ -3011,7 +3011,7 @@ msgstr "内部エラー発生後、自動的に「クラッシュフットプリ
 
 msgctxt "dlgSgBugReportSettings.chk:"
 msgid "Send 'crash footprints' after an internal error has occurred"
-msgstr "内部エラー発生後の「クラッシュフットプリント」の送信"
+msgstr "内部エラー発生後に「クラッシュフットプリント」を送信する"
 
 msgctxt "dlgSgBugReportSettings.err:"
 msgid "Sending 'crash footprints' is required for preview builds, because their main purposes is to get as much as possible bugs reported and fixed before release."
@@ -3067,11 +3067,11 @@ msgstr "チェックアウトのみ"
 
 msgctxt "dlgSgCheckoutFastForwardMerge.fur:"
 msgid "Fast-forward-merging automatically moves the branch forward to the tracked remote branch."
-msgstr "ファストフォワードマージは、ブランチを追跡対象のリモート ブランチに自動的に移動します。"
+msgstr "ファストフォワードマージは、ブランチを追跡対象のリモートブランチまで自動的に進めます。"
 
 msgctxt "dlgSgCheckoutFastForwardMerge.hdl:"
 msgid "Do you want to fast-forward-merge remote changes after checking out '$1'?"
-msgstr "$1'をチェックアウトした後、リモートの変更を ファストフォワードマージしますか？"
+msgstr "'$1'をチェックアウトした後、リモートの変更をファストフォワードマージしますか？"
 
 msgctxt "dlgSgCheckoutFastForwardMerge.tle:"
 msgid "Check Out"
@@ -3087,7 +3087,7 @@ msgstr "次回から表示しない"
 
 msgctxt "dlgSgCheckoutLocalBranchConfirm.fur:"
 msgid "This will make '$1' your current branch."
-msgstr "この操作により '$1' が現在のブランチになります。"
+msgstr "これにより '$1' が現在のブランチになります。"
 
 msgctxt "dlgSgCheckoutLocalBranchConfirm.hdl:"
 msgid "Do you want to checkout the branch '$1'?"
@@ -3135,7 +3135,7 @@ msgstr "リモートブランチ '$1' を追跡"
 
 msgctxt "dlgSgCheckoutTarget.chk:"
 msgid "Track remote branch"
-msgstr "リモート ブランチの追跡"
+msgstr "リモートブランチを追跡"
 
 msgctxt "dlgSgCheckoutTarget.err:"
 msgid "The name must not end with a slash or dot."
@@ -3155,11 +3155,11 @@ msgstr "コミットをチェックアウト"
 
 msgctxt "dlgSgCheckoutTarget.hdl:"
 msgid "Checkout remote branch"
-msgstr "リモートブランチのチェックアウト"
+msgstr "リモートブランチをチェックアウト"
 
 msgctxt "dlgSgCheckoutTarget.inf:"
 msgid "Create and checkout a new local branch for the selected commit"
-msgstr "ローカルブランチではなくコミットをチェックアウトする場合は注意してください。コミットの上にあるコミットは簡単に失われてしまう可能性があります。"
+msgstr "選択したコミットに対して新しいローカルブランチを作成し、チェックアウトします。"
 
 msgctxt "dlgSgCheckoutTarget.rbt:"
 msgid "Checkout and fast-forward local branch '$1'"
@@ -3167,7 +3167,7 @@ msgstr "ローカルブランチ '$1' をチェックアウトしてファスト
 
 msgctxt "dlgSgCheckoutTarget.rbt:"
 msgid "Checkout local branch '$1'"
-msgstr "ローカルブランチ'$1'のチェックアウト"
+msgstr "ローカルブランチ'$1'をチェックアウト"
 
 msgctxt "dlgSgCheckoutTarget.rbt:"
 msgid "Create local branch:"
@@ -3191,7 +3191,7 @@ msgstr "ローカルブランチとリモートブランチが分岐していま
 
 msgctxt "dlgSgCheckoutTarget.wrn:"
 msgid "Local branch '$1' is behind checkout target '$2'."
-msgstr "ローカルブランチ '$1' はチェックアウトターゲット '$2' の後ろにあります。"
+msgstr "ローカルブランチ '$1' はチェックアウトターゲット '$2' より遅れています。"
 
 msgctxt "dlgSgCheckoutTarget.wrn:"
 msgid "Local branch '$1' is diverged from checkout target '$2'."
@@ -3207,11 +3207,11 @@ msgstr "上書き"
 
 msgctxt "dlgSgCheckoutTargetAlreadyExistsOverwrite.fur:"
 msgid "Click 'Cancel' to choose a different branch name."
-msgstr "「キャンセル」をクリックすると、別のブランチ名を選択することができます。"
+msgstr "「キャンセル」をクリックして、別のブランチ名を選択してください。"
 
 msgctxt "dlgSgCheckoutTargetAlreadyExistsOverwrite.hdl:"
 msgid "The branch '$1' already exists. Do you want to overwrite it?"
-msgstr "ブランチ '$1' はすでに存在しています。上書きしますか？"
+msgstr "ブランチ '$1' はすでに存在します。上書きしますか？"
 
 msgctxt "dlgSgCheckoutTargetAlreadyExistsOverwrite.tle:"
 msgid "Check Out"
@@ -3223,15 +3223,15 @@ msgstr "チェリーピック"
 
 msgctxt "dlgSgCherryPickConfigurationFile.fur:"
 msgid "Only changes of these files will be cherry-picked \\(without committing\\)."
-msgstr "これらのファイルの変更点のみが（コミットせずに）チェリーピックされます。"
+msgstr "これらのファイルの変更のみが（コミットせずに）チェリーピックされます。"
 
 msgctxt "dlgSgCherryPickConfigurationFile.hdl:"
 msgid "Do you want to cherry-pick changes of $1 files?"
-msgstr "$1 ファイルの変更をチェリーピックしますか?"
+msgstr "$1 個のファイルの変更をチェリーピックしますか？"
 
 msgctxt "dlgSgCherryPickConfigurationFile.hdl:"
 msgid "Do you want to cherry-pick changes of '$1'?"
-msgstr "'$1' の変更をチェリーピックしますか?"
+msgstr "'$1' の変更をチェリーピックしますか？"
 
 msgctxt "dlgSgCherryPickConfigurationFile.tle:"
 msgid "Cherry-Pick"
@@ -3239,7 +3239,7 @@ msgstr "チェリーピック"
 
 msgctxt "dlgSgCherryPickConfirmation.btn:"
 msgid "Cherry-Pick && Commit"
-msgstr "チェリーピック && コミット"
+msgstr "チェリーピックしてコミット"
 
 msgctxt "dlgSgCherryPickConfirmation.btn:"
 msgid "Cherry-Pick"
@@ -17599,11 +17599,11 @@ msgstr "コミットメッセージの履歴"
 
 msgctxt "wnd(Log|Project|Std|).tbt:"
 msgid "Hosting provider is not configured for the current repository. Go to the Preferences to add a configuration."
-msgstr "現在のリポジトリにホスティングプロバイダーが設定されていません。環境設定から、設定を追加してください。"
+msgstr "現在のリポジトリにホスティングプロバイダーが設定されていません。環境設定に移動して設定を追加してください。"
 
 msgctxt "wnd(Log|Project|Std|).tbt:"
 msgid "If selected and Index as well as Working Tree changes are available, show them separately."
-msgstr "選択され、インデックスと作業ツリーの変更がある場合、それらを個別に表示します。"
+msgstr "選択され、インデックスと作業ツリーの両方に変更がある場合、それらを個別に表示します。"
 
 msgctxt "wnd(Log|Project|Std|).tbt:"
 msgid "If selected, files from subdirectories are shown."
@@ -17643,11 +17643,11 @@ msgstr "$1'からリポジトリ情報を読み込んでいます。"
 
 msgctxt "wnd(Log|Project|Std|).tbt:"
 msgid "Refresh information from Bitbucket."
-msgstr "Bitbucket から情報を更新しています。"
+msgstr "Bitbucketから情報を更新します。"
 
 msgctxt "wnd(Log|Project|Std|).tbt:"
 msgid "Refresh information from GitLab."
-msgstr "GitLab からの情報を更新します。"
+msgstr "GitLabから情報を更新します。"
 
 msgctxt "wnd(Log|Project|Std|).tbt:"
 msgid "Show directories tree"
@@ -17715,11 +17715,11 @@ msgstr "新しいベースコミットをGit-Flowのfeatureに統合する。"
 
 msgctxt "wnd(Log|Project|Std|).tbtGoto-next-diff:"
 msgid "Go to next change."
-msgstr "次の変更点に移動します。"
+msgstr "次の変更に移動します。"
 
 msgctxt "wnd(Log|Project|Std|).tbtGoto-previous-diff:"
 msgid "Go to previous change."
-msgstr "前の変更点に移動します。"
+msgstr "前の変更に移動します。"
 
 msgctxt "wnd(Log|Project|Std|).tbtIgnore:"
 msgid "Mark unversioned local files/directories to be ignored."
@@ -17727,7 +17727,7 @@ msgstr "バージョン管理されていないローカル ファイル/ディ�
 
 msgctxt "wnd(Log|Project|Std|).tbtIndexEditor:"
 msgid "Edit the Index state of the selected file, e.g. to decide which lines should be staged."
-msgstr "行単位のステージングなど、選択したファイルのインデックスの状態を編集することができます。"
+msgstr "選択したファイルのインデックスの状態を編集します（例：どの行をステージングするかを決定する）。"
 
 msgctxt "wnd(Log|Project|Std|).tbtInvestigate:"
 msgid "Investigate history line-wise with DeepGit."
@@ -17735,7 +17735,7 @@ msgstr "DeepGit を使用して行ごとに履歴を調査します。"
 
 msgctxt "wnd(Log|Project|Std|).tbtLog:"
 msgid "Show the history for selected file or directory."
-msgstr "選択したファイルやディレクトリの履歴を表示します。"
+msgstr "選択したファイルまたはディレクトリの履歴を表示します。"
 
 msgctxt "wnd(Log|Project|Std|).tbtLogRepository:"
 msgid "Show the history for the whole repository."
@@ -17755,7 +17755,7 @@ msgstr "ローカルのコミットをリモートの origin リポジトリに�
 
 msgctxt "wnd(Log|Project|Std|).tbtPushTo:"
 msgid "Push local commits to a remote repository, allowing to choose the target repository."
-msgstr "ローカルコミットをリモートリポジトリにプッシュし、ターゲットリポジトリを選択できるようにします。"
+msgstr "ローカルコミットをリモートリポジトリにプッシュし、ターゲットリポジトリを選択できます。"
 
 msgctxt "wnd(Log|Project|Std|).tbtRebaseHeadTo:"
 msgid "Apply commits from your current branch to the selected commit."
@@ -17775,7 +17775,7 @@ msgstr "現在のリモートリポジトリからコミットを取得します
 
 msgctxt "wnd(Log|Project|Std|).tbtRemove:"
 msgid "Remove selected files or directories from repository."
-msgstr "選択したファイルやディレクトリをリポジトリから削除します。"
+msgstr "選択したファイルまたはディレクトリをリポジトリから削除します。"
 
 msgctxt "wnd(Log|Project|Std|).tbtRepositoryAdd:"
 msgid "Add or create a new repository."
@@ -17783,7 +17783,7 @@ msgstr "リポジトリを追加または新規作成します。"
 
 msgctxt "wnd(Log|Project|Std|).tbtRepositoryClone:"
 msgid "Clone a new repository."
-msgstr "新しいリポジトリのクローンを作成します。"
+msgstr "新しいリポジトリをクローンします。"
 
 msgctxt "wnd(Log|Project|Std|).tbtRepositorySearch:"
 msgid "Search for existing repositories."
@@ -17815,11 +17815,11 @@ msgstr "既存のコミットの変更を\"リバース\"マージして元に�
 
 msgctxt "wnd(Log|Project|Std|).tbtShowChanges:"
 msgid "Open the file compare for the selected file."
-msgstr "選択したファイルのファイル比較を開きます。"
+msgstr "選択したファイルの比較画面を開きます。"
 
 msgctxt "wnd(Log|Project|Std|).tbtStage:"
 msgid "Store working tree files in the index to prepare the next commit."
-msgstr "作業中のツリーファイルをインデックスに格納し、次のコミットに備えます。"
+msgstr "作業ツリーのファイルをインデックスに保存して、次のコミットを準備します。"
 
 msgctxt "wnd(Log|Project|Std|).tbtStashApply:"
 msgid "Reapply local changes from a stash."
@@ -17831,7 +17831,7 @@ msgstr "リポジトリから1つまたは複数のスタッシュを削除し�
 
 msgctxt "wnd(Log|Project|Std|).tbtStashSave:"
 msgid "Stash current local changes."
-msgstr "現在のローカルの変更をスタッシュに退避します。"
+msgstr "現在のローカルの変更をスタッシュします。"
 
 msgctxt "wnd(Log|Project|Std|).tbtStdSetModeHistory:"
 msgid "Show the history view."
