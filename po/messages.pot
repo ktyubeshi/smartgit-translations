@@ -17886,3 +17886,157 @@ msgstr ""
 msgctxt "wnd(Log|Std|).mniOpen:"
 msgid "Open from Working Tree"
 msgstr ""
+
+#. # Performing ', Delete'
+#. # Performing ', Set 'smartgit-25.1' to 'smartgit-25.1''
+#. # Performing '@smartgit.bFP'
+#. # Performing ', Fetch'
+#. # Showing dialog 11 (@Q5AFY5) '@N601LH - Reveal Commit' (owner: @7LSQ8B)
+#. # Performing ', Reconfigure...'
+#. # Showing dialog 12 (@GNJ0FM) '@5HWPGY - AI Setup' (owner: @7LSQ8B)
+#. # Performing ', Cancel'
+#. # Performing 'preferences, Preferences'
+#. # Showing dialog 13 (@2ZV2P5) '@54FJZM - Preferences' (owner: @7LSQ8B)
+msgctxt "dlgSgPreferences.chk:"
+msgid "Disable AI integration \\(globally\\)"
+msgstr ""
+
+#. # Showing dialog 1 (@B5A06T) '@CZQ884 - Pull' (owner: @16RUID)
+#. # Performing ', Pull'
+#. # Performing ', Reconfigure...'
+#. # Showing dialog 2 (@E0ZLRF) '@WYT5E8 - AI Setup' (owner: @16RUID)
+#. # Performing ', Cancel'
+#. # Performing ', Reconfigure...'
+#. # Showing dialog 3 (@MCJ78W) '@E4UL4K - AI Setup' (owner: @16RUID)
+#. # Performing ', Finish'
+#. # Performing 'preferences, Preferences'
+#. # Showing dialog 4 (@SCM4XX) '@RMEEDM - Preferences' (owner: @16RUID)
+msgctxt "dlgSgPreferences.chk:"
+msgid "Enable AI integration"
+msgstr ""
+
+#. # Performing ', Delete'
+#. # Performing ', Set 'smartgit-25.1' to 'smartgit-25.1''
+#. # Performing '@smartgit.bFP'
+#. # Performing ', Fetch'
+#. # Showing dialog 11 (@Q5AFY5) '@N601LH - Reveal Commit' (owner: @7LSQ8B)
+#. # Performing ', Reconfigure...'
+#. # Showing dialog 12 (@GNJ0FM) '@5HWPGY - AI Setup' (owner: @7LSQ8B)
+#. # Performing ', Cancel'
+#. # Performing 'preferences, Preferences'
+#. # Showing dialog 13 (@2ZV2P5) '@54FJZM - Preferences' (owner: @7LSQ8B)
+msgctxt "dlgSgPreferences.lbl:"
+msgid "The AI integration is \\*configured globally\\*. Change it via AI button > \\*Reconfigure\\*."
+msgstr ""
+
+#. # Showing dialog 1 (@B5A06T) '@CZQ884 - Pull' (owner: @16RUID)
+#. # Performing ', Pull'
+#. # Performing ', Reconfigure...'
+#. # Showing dialog 2 (@E0ZLRF) '@WYT5E8 - AI Setup' (owner: @16RUID)
+#. # Performing ', Cancel'
+#. # Performing ', Reconfigure...'
+#. # Showing dialog 3 (@MCJ78W) '@E4UL4K - AI Setup' (owner: @16RUID)
+#. # Performing ', Finish'
+#. # Performing 'preferences, Preferences'
+#. # Showing dialog 4 (@SCM4XX) '@RMEEDM - Preferences' (owner: @16RUID)
+msgctxt "dlgSgPreferences.lbl:"
+msgid "The AI integration is \\*disabled globally\\*."
+msgstr ""
+
+#. # Showing dialog 1 (@B5A06T) '@CZQ884 - Pull' (owner: @16RUID)
+#. # Performing ', Pull'
+#. # Performing ', Reconfigure...'
+#. # Showing dialog 2 (@E0ZLRF) '@WYT5E8 - AI Setup' (owner: @16RUID)
+#. # Performing ', Cancel'
+#. # Performing ', Reconfigure...'
+#. # Showing dialog 3 (@MCJ78W) '@E4UL4K - AI Setup' (owner: @16RUID)
+#. # Performing ', Finish'
+#. # Performing 'preferences, Preferences'
+#. # Showing dialog 4 (@SCM4XX) '@RMEEDM - Preferences' (owner: @16RUID)
+msgctxt "dlgSgPreferences.lbl:"
+msgid "When enabled, the AI button appears in the Commit Message view and the Commit dialog. Click it to complete the initial setup."
+msgstr ""
+
+#. # Performing ', Next >'
+#. # Performing ', Next >'
+#. # Performing ', Finish'
+#. # Showing dialog 3 (@BAN6CC) '@X0QIAW - AI Setup' (owner: @79PNNQ)
+#. # Performing ', OK'
+#. # Performing ', Reconfigure...'
+#. # Showing dialog 4 (@P2VW4X) '@M8282Z - AI Setup' (owner: @OORWX5)
+#. # Performing ', Cancel'
+#. # Performing ', generate (active)...'
+#. # Showing dialog 5 (@FSZ42E) '@EODJQ - AI Commit Message' (owner: @OORWX5)
+msgctxt "dlgSgAiCommitMessageSkippedUntrackedFiles.btn:"
+msgid "Continue"
+msgstr ""
+
+#. # Performing ', Next >'
+#. # Performing ', Next >'
+#. # Performing ', Finish'
+#. # Showing dialog 3 (@BAN6CC) '@X0QIAW - AI Setup' (owner: @79PNNQ)
+#. # Performing ', OK'
+#. # Performing ', Reconfigure...'
+#. # Showing dialog 4 (@P2VW4X) '@M8282Z - AI Setup' (owner: @OORWX5)
+#. # Performing ', Cancel'
+#. # Performing ', generate (active)...'
+#. # Showing dialog 5 (@FSZ42E) '@EODJQ - AI Commit Message' (owner: @OORWX5)
+msgctxt "dlgSgAiCommitMessageSkippedUntrackedFiles.chk:"
+msgid "Don't show again"
+msgstr ""
+
+#. # Performing ', Next >'
+#. # Performing ', Next >'
+#. # Performing ', Finish'
+#. # Showing dialog 3 (@BAN6CC) '@X0QIAW - AI Setup' (owner: @79PNNQ)
+#. # Performing ', OK'
+#. # Performing ', Reconfigure...'
+#. # Showing dialog 4 (@P2VW4X) '@M8282Z - AI Setup' (owner: @OORWX5)
+#. # Performing ', Cancel'
+#. # Performing ', generate (active)...'
+#. # Showing dialog 5 (@FSZ42E) '@EODJQ - AI Commit Message' (owner: @OORWX5)
+msgctxt "dlgSgAiCommitMessageSkippedUntrackedFiles.fur:"
+msgid "Your settings exclude untracked files from commits, so they will not be used to generate the AI commit message.\\n\\nTo include untracked files in commits, update the setting in Preferences."
+msgstr ""
+
+#. # Performing ', Next >'
+#. # Performing ', Next >'
+#. # Performing ', Finish'
+#. # Showing dialog 3 (@BAN6CC) '@X0QIAW - AI Setup' (owner: @79PNNQ)
+#. # Performing ', OK'
+#. # Performing ', Reconfigure...'
+#. # Showing dialog 4 (@P2VW4X) '@M8282Z - AI Setup' (owner: @OORWX5)
+#. # Performing ', Cancel'
+#. # Performing ', generate (active)...'
+#. # Showing dialog 5 (@FSZ42E) '@EODJQ - AI Commit Message' (owner: @OORWX5)
+msgctxt "dlgSgAiCommitMessageSkippedUntrackedFiles.hdl:"
+msgid "Untracked files are excluded."
+msgstr ""
+
+#. # Performing ', OK'
+#. # Performing ', Next >'
+#. # Performing ', Next >'
+#. # Performing ', Finish'
+#. # Showing dialog 3 (@BAN6CC) '@X0QIAW - AI Setup' (owner: @79PNNQ)
+#. # Performing ', OK'
+#. # Performing ', Reconfigure...'
+#. # Showing dialog 4 (@P2VW4X) '@M8282Z - AI Setup' (owner: @OORWX5)
+#. # Performing ', Cancel'
+#. # Performing ', generate (active)...'
+msgctxt "dlgSgAiCommitMessageSkippedUntrackedFiles.tle:"
+msgid "AI Commit Message"
+msgstr ""
+
+#. # Showing dialog 2 (@7U36LK) '@FIWJUP - Passwords' (owner: @79PNNQ)
+#. # Performing ', OK'
+#. # Performing ', Next >'
+#. # Performing ', Next >'
+#. # Performing ', Finish'
+#. # Showing dialog 3 (@BAN6CC) '@X0QIAW - AI Setup' (owner: @79PNNQ)
+#. # Performing ', OK'
+#. # Performing ', Reconfigure...'
+#. # Showing dialog 4 (@P2VW4X) '@M8282Z - AI Setup' (owner: @OORWX5)
+#. # Performing ', Cancel'
+msgctxt "wndLog.mni:"
+msgid "generate \\(active\\)"
+msgstr ""
