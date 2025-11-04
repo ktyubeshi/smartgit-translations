@@ -161,17 +161,14 @@ msgctxt "dlgCommitInvisibleIndex.tle:"
 msgid "Commit"
 msgstr ""
 
-#, fuzzy
 msgctxt "dlgCommitNoEmailConfigured.fur:"
 msgid "Before committing you will have to configure your name and email, e.g. in the SmartGit Preferences."
 msgstr ""
 
-#, fuzzy
 msgctxt "dlgCommitNoEmailConfigured.hdl:"
 msgid "Please configure the email for commit."
 msgstr ""
 
-#, fuzzy
 msgctxt "dlgCommitNoEmailConfigured.tle:"
 msgid "Commit"
 msgstr ""
@@ -1166,32 +1163,26 @@ msgctxt "dlgScExternalFileStarterCommandInvocationFailed.tle:"
 msgid "\\[$1\\] - Conflict Solver"
 msgstr ""
 
-#, fuzzy
 msgctxt "dlgScExternalFileStarterCommandNoFile.fur:"
 msgid "Be sure to add arguments to the appropriate input field."
 msgstr ""
 
-#, fuzzy
 msgctxt "dlgScExternalFileStarterCommandNoFile.hdl:"
 msgid "The specified command is no file."
 msgstr ""
 
-#, fuzzy
 msgctxt "dlgScExternalFileStarterCommandNoFile.tle:"
 msgid "Input Validation"
 msgstr ""
 
-#, fuzzy
 msgctxt "dlgScExternalFileStarterEmptyCommand.fur:"
 msgid "Select the command which should be invoked."
 msgstr ""
 
-#, fuzzy
 msgctxt "dlgScExternalFileStarterEmptyCommand.hdl:"
 msgid "The Command input field must not be empty!"
 msgstr ""
 
-#, fuzzy
 msgctxt "dlgScExternalFileStarterEmptyCommand.tle:"
 msgid "Input Validation"
 msgstr ""
@@ -1680,7 +1671,6 @@ msgctxt "dlgScRegisterFormLicenseConfirmDetails.edt:"
 msgid "Free Updates Until"
 msgstr ""
 
-#, fuzzy
 msgctxt "dlgScRegisterFormLicenseConfirmDetails.edt:"
 msgid "License ID"
 msgstr ""
@@ -1793,27 +1783,22 @@ msgctxt "dlgScSetupLicense.tle:"
 msgid "SmartGit License"
 msgstr ""
 
-#, fuzzy
 msgctxt "dlgScSetupLicenseNeedsRestart.btn:"
 msgid "Exit Later"
 msgstr ""
 
-#, fuzzy
 msgctxt "dlgScSetupLicenseNeedsRestart.btn:"
 msgid "Restart Now"
 msgstr ""
 
-#, fuzzy
 msgctxt "dlgScSetupLicenseNeedsRestart.fur:"
 msgid "You can do that now or manually later."
 msgstr ""
 
-#, fuzzy
 msgctxt "dlgScSetupLicenseNeedsRestart.hdl:"
 msgid "SmartGit has to be restarted for the license change to take effect."
 msgstr ""
 
-#, fuzzy
 msgctxt "dlgScSetupLicenseNeedsRestart.tle:"
 msgid "SmartGit License"
 msgstr ""
@@ -2206,7 +2191,6 @@ msgctxt "dlgSgAbortRevertingConfirm.tle:"
 msgid "Discard"
 msgstr ""
 
-#, fuzzy
 msgctxt "dlgSgAbout.btn:"
 msgid "Copy Evaluation-ID"
 msgstr ""
@@ -2227,7 +2211,6 @@ msgctxt "dlgSgAbout.edt:"
 msgid "Build Date"
 msgstr ""
 
-#, fuzzy
 msgctxt "dlgSgAbout.edt:"
 msgid "Demo Until"
 msgstr ""
@@ -2383,6 +2366,26 @@ msgstr ""
 
 msgctxt "dlgSgAiCommitMessageReworder.tle:"
 msgid "Commit Message Rewording"
+msgstr ""
+
+msgctxt "dlgSgAiCommitMessageSkippedUntrackedFiles.btn:"
+msgid "Continue"
+msgstr ""
+
+msgctxt "dlgSgAiCommitMessageSkippedUntrackedFiles.chk:"
+msgid "Don't show again"
+msgstr ""
+
+msgctxt "dlgSgAiCommitMessageSkippedUntrackedFiles.fur:"
+msgid "Your settings exclude untracked files from commits, so they will not be used to generate the AI commit message.\\n\\nTo include untracked files in commits, update the setting in Preferences."
+msgstr ""
+
+msgctxt "dlgSgAiCommitMessageSkippedUntrackedFiles.hdl:"
+msgid "Untracked files are excluded."
+msgstr ""
+
+msgctxt "dlgSgAiCommitMessageSkippedUntrackedFiles.tle:"
+msgid "AI Commit Message"
 msgstr ""
 
 msgctxt "dlgSgAiIntegrationSetup.hdl:"
@@ -3544,17 +3547,14 @@ msgctxt "dlgSgClone.mni:"
 msgid "Add Hosting Provider"
 msgstr ""
 
-#, fuzzy
 msgctxt "dlgSgClone.mni:"
 msgid "Own Repositories"
 msgstr ""
 
-#, fuzzy
 msgctxt "dlgSgClone.mni:"
 msgid "Starred Repositories"
 msgstr ""
 
-#, fuzzy
 msgctxt "dlgSgClone.mni:"
 msgid "Top Repositories"
 msgstr ""
@@ -5007,37 +5007,30 @@ msgctxt "dlgSgGitConfigEditConfigNotFound.tle:"
 msgid "Edit Config"
 msgstr ""
 
-#, fuzzy
 msgctxt "dlgSgGitHubCommitMessageSelect.btn:"
 msgid "Refresh"
 msgstr ""
 
-#, fuzzy
 msgctxt "dlgSgGitHubCommitMessageSelect.btn:"
 msgid "Select"
 msgstr ""
 
-#, fuzzy
 msgctxt "dlgSgGitHubCommitMessageSelect.col:"
 msgid "Number"
 msgstr ""
 
-#, fuzzy
 msgctxt "dlgSgGitHubCommitMessageSelect.col:"
 msgid "Title"
 msgstr ""
 
-#, fuzzy
 msgctxt "dlgSgGitHubCommitMessageSelect.hdl:"
 msgid "Select commit message by GitHub issue"
 msgstr ""
 
-#, fuzzy
 msgctxt "dlgSgGitHubCommitMessageSelect.inf:"
 msgid "The selected issue summary will be used as commit message."
 msgstr ""
 
-#, fuzzy
 msgctxt "dlgSgGitHubCommitMessageSelect.tle:"
 msgid "Select Issue"
 msgstr ""
@@ -5506,7 +5499,6 @@ msgctxt "dlgSgHistoryPushedCommitsModifyPushedCommits.hdl:"
 msgid "Do you want to modify commits which are already pushed?"
 msgstr ""
 
-#, fuzzy
 msgctxt "dlgSgHistoryPushedCommitsModifyPushedCommits.tle:"
 msgid "Edit Author"
 msgstr ""
@@ -5711,7 +5703,6 @@ msgctxt "dlgSgHostingProviderAdd.hdl:"
 msgid "Add GitHub account"
 msgstr ""
 
-#, fuzzy
 msgctxt "dlgSgHostingProviderAdd.hdl:"
 msgid "Add GitLab \\(Self Hosted\\) account"
 msgstr ""
@@ -5724,7 +5715,6 @@ msgctxt "dlgSgHostingProviderAdd.hdl:"
 msgid "Configure a new hosting provider account"
 msgstr ""
 
-#, fuzzy
 msgctxt "dlgSgHostingProviderAdd.inf:"
 msgid "Set or select the options according to your account."
 msgstr ""
@@ -7274,7 +7264,15 @@ msgid "Detect renames \\(for added and removed files, as command line Git does\\
 msgstr ""
 
 msgctxt "dlgSgPreferences.chk:"
+msgid "Disable AI integration \\(globally\\)"
+msgstr ""
+
+msgctxt "dlgSgPreferences.chk:"
 msgid "Distinguish between content and EOL-only changes \\(slightly more expensive\\)"
+msgstr ""
+
+msgctxt "dlgSgPreferences.chk:"
+msgid "Enable AI integration"
 msgstr ""
 
 msgctxt "dlgSgPreferences.chk:"
@@ -7896,6 +7894,14 @@ msgid "Stash"
 msgstr ""
 
 msgctxt "dlgSgPreferences.lbl:"
+msgid "The AI integration is \\*configured globally\\*. Change it via AI button > \\*Reconfigure\\*."
+msgstr ""
+
+msgctxt "dlgSgPreferences.lbl:"
+msgid "The AI integration is \\*disabled globally\\*."
+msgstr ""
+
+msgctxt "dlgSgPreferences.lbl:"
 msgid "The AI integration is \\*manually configured\\*."
 msgstr ""
 
@@ -7933,6 +7939,10 @@ msgstr ""
 
 msgctxt "dlgSgPreferences.lbl:"
 msgid "When comparing files, this list is searched from top to bottom to find a matching diff tool. If none is found, the built-in file compare is used for text files."
+msgstr ""
+
+msgctxt "dlgSgPreferences.lbl:"
+msgid "When enabled, the AI button appears in the Commit Message view and the Commit dialog. Click it to complete the initial setup."
 msgstr ""
 
 msgctxt "dlgSgPreferences.lbl:"
@@ -9872,7 +9882,6 @@ msgctxt "dlgSgRepositoryClose.btn:"
 msgid "Force Close"
 msgstr ""
 
-#, fuzzy
 msgctxt "dlgSgRepositoryClose.btn:"
 msgid "Force Exit"
 msgstr ""
@@ -10141,7 +10150,6 @@ msgctxt "dlgSgRepositorySettings.ttpGroupPatterns:"
 msgid "Patterns will show up in the GUI using auto-generated labels which are derived from their regular expression. You can assign a custom label <tt>label</tt> to a pattern by prefixing it by <tt>label:</tt>; a label may only contain letters, digits and '_'."
 msgstr ""
 
-#, fuzzy
 msgctxt "dlgSgRepositorySettings.wrn:"
 msgid "It is recommended to set an email address used for committing."
 msgstr ""
@@ -14430,6 +14438,10 @@ msgid "Stop"
 msgstr ""
 
 msgctxt "wndLog.mni:"
+msgid "generate \\(active\\)"
+msgstr ""
+
+msgctxt "wndLog.mni:"
 msgid "github \\(active\\)"
 msgstr ""
 
@@ -17885,158 +17897,4 @@ msgstr ""
 
 msgctxt "wnd(Log|Std|).mniOpen:"
 msgid "Open from Working Tree"
-msgstr ""
-
-#. # Performing ', Delete'
-#. # Performing ', Set 'smartgit-25.1' to 'smartgit-25.1''
-#. # Performing '@smartgit.bFP'
-#. # Performing ', Fetch'
-#. # Showing dialog 11 (@Q5AFY5) '@N601LH - Reveal Commit' (owner: @7LSQ8B)
-#. # Performing ', Reconfigure...'
-#. # Showing dialog 12 (@GNJ0FM) '@5HWPGY - AI Setup' (owner: @7LSQ8B)
-#. # Performing ', Cancel'
-#. # Performing 'preferences, Preferences'
-#. # Showing dialog 13 (@2ZV2P5) '@54FJZM - Preferences' (owner: @7LSQ8B)
-msgctxt "dlgSgPreferences.chk:"
-msgid "Disable AI integration \\(globally\\)"
-msgstr ""
-
-#. # Showing dialog 1 (@B5A06T) '@CZQ884 - Pull' (owner: @16RUID)
-#. # Performing ', Pull'
-#. # Performing ', Reconfigure...'
-#. # Showing dialog 2 (@E0ZLRF) '@WYT5E8 - AI Setup' (owner: @16RUID)
-#. # Performing ', Cancel'
-#. # Performing ', Reconfigure...'
-#. # Showing dialog 3 (@MCJ78W) '@E4UL4K - AI Setup' (owner: @16RUID)
-#. # Performing ', Finish'
-#. # Performing 'preferences, Preferences'
-#. # Showing dialog 4 (@SCM4XX) '@RMEEDM - Preferences' (owner: @16RUID)
-msgctxt "dlgSgPreferences.chk:"
-msgid "Enable AI integration"
-msgstr ""
-
-#. # Performing ', Delete'
-#. # Performing ', Set 'smartgit-25.1' to 'smartgit-25.1''
-#. # Performing '@smartgit.bFP'
-#. # Performing ', Fetch'
-#. # Showing dialog 11 (@Q5AFY5) '@N601LH - Reveal Commit' (owner: @7LSQ8B)
-#. # Performing ', Reconfigure...'
-#. # Showing dialog 12 (@GNJ0FM) '@5HWPGY - AI Setup' (owner: @7LSQ8B)
-#. # Performing ', Cancel'
-#. # Performing 'preferences, Preferences'
-#. # Showing dialog 13 (@2ZV2P5) '@54FJZM - Preferences' (owner: @7LSQ8B)
-msgctxt "dlgSgPreferences.lbl:"
-msgid "The AI integration is \\*configured globally\\*. Change it via AI button > \\*Reconfigure\\*."
-msgstr ""
-
-#. # Showing dialog 1 (@B5A06T) '@CZQ884 - Pull' (owner: @16RUID)
-#. # Performing ', Pull'
-#. # Performing ', Reconfigure...'
-#. # Showing dialog 2 (@E0ZLRF) '@WYT5E8 - AI Setup' (owner: @16RUID)
-#. # Performing ', Cancel'
-#. # Performing ', Reconfigure...'
-#. # Showing dialog 3 (@MCJ78W) '@E4UL4K - AI Setup' (owner: @16RUID)
-#. # Performing ', Finish'
-#. # Performing 'preferences, Preferences'
-#. # Showing dialog 4 (@SCM4XX) '@RMEEDM - Preferences' (owner: @16RUID)
-msgctxt "dlgSgPreferences.lbl:"
-msgid "The AI integration is \\*disabled globally\\*."
-msgstr ""
-
-#. # Showing dialog 1 (@B5A06T) '@CZQ884 - Pull' (owner: @16RUID)
-#. # Performing ', Pull'
-#. # Performing ', Reconfigure...'
-#. # Showing dialog 2 (@E0ZLRF) '@WYT5E8 - AI Setup' (owner: @16RUID)
-#. # Performing ', Cancel'
-#. # Performing ', Reconfigure...'
-#. # Showing dialog 3 (@MCJ78W) '@E4UL4K - AI Setup' (owner: @16RUID)
-#. # Performing ', Finish'
-#. # Performing 'preferences, Preferences'
-#. # Showing dialog 4 (@SCM4XX) '@RMEEDM - Preferences' (owner: @16RUID)
-msgctxt "dlgSgPreferences.lbl:"
-msgid "When enabled, the AI button appears in the Commit Message view and the Commit dialog. Click it to complete the initial setup."
-msgstr ""
-
-#. # Performing ', Next >'
-#. # Performing ', Next >'
-#. # Performing ', Finish'
-#. # Showing dialog 3 (@BAN6CC) '@X0QIAW - AI Setup' (owner: @79PNNQ)
-#. # Performing ', OK'
-#. # Performing ', Reconfigure...'
-#. # Showing dialog 4 (@P2VW4X) '@M8282Z - AI Setup' (owner: @OORWX5)
-#. # Performing ', Cancel'
-#. # Performing ', generate (active)...'
-#. # Showing dialog 5 (@FSZ42E) '@EODJQ - AI Commit Message' (owner: @OORWX5)
-msgctxt "dlgSgAiCommitMessageSkippedUntrackedFiles.btn:"
-msgid "Continue"
-msgstr ""
-
-#. # Performing ', Next >'
-#. # Performing ', Next >'
-#. # Performing ', Finish'
-#. # Showing dialog 3 (@BAN6CC) '@X0QIAW - AI Setup' (owner: @79PNNQ)
-#. # Performing ', OK'
-#. # Performing ', Reconfigure...'
-#. # Showing dialog 4 (@P2VW4X) '@M8282Z - AI Setup' (owner: @OORWX5)
-#. # Performing ', Cancel'
-#. # Performing ', generate (active)...'
-#. # Showing dialog 5 (@FSZ42E) '@EODJQ - AI Commit Message' (owner: @OORWX5)
-msgctxt "dlgSgAiCommitMessageSkippedUntrackedFiles.chk:"
-msgid "Don't show again"
-msgstr ""
-
-#. # Performing ', Next >'
-#. # Performing ', Next >'
-#. # Performing ', Finish'
-#. # Showing dialog 3 (@BAN6CC) '@X0QIAW - AI Setup' (owner: @79PNNQ)
-#. # Performing ', OK'
-#. # Performing ', Reconfigure...'
-#. # Showing dialog 4 (@P2VW4X) '@M8282Z - AI Setup' (owner: @OORWX5)
-#. # Performing ', Cancel'
-#. # Performing ', generate (active)...'
-#. # Showing dialog 5 (@FSZ42E) '@EODJQ - AI Commit Message' (owner: @OORWX5)
-msgctxt "dlgSgAiCommitMessageSkippedUntrackedFiles.fur:"
-msgid "Your settings exclude untracked files from commits, so they will not be used to generate the AI commit message.\\n\\nTo include untracked files in commits, update the setting in Preferences."
-msgstr ""
-
-#. # Performing ', Next >'
-#. # Performing ', Next >'
-#. # Performing ', Finish'
-#. # Showing dialog 3 (@BAN6CC) '@X0QIAW - AI Setup' (owner: @79PNNQ)
-#. # Performing ', OK'
-#. # Performing ', Reconfigure...'
-#. # Showing dialog 4 (@P2VW4X) '@M8282Z - AI Setup' (owner: @OORWX5)
-#. # Performing ', Cancel'
-#. # Performing ', generate (active)...'
-#. # Showing dialog 5 (@FSZ42E) '@EODJQ - AI Commit Message' (owner: @OORWX5)
-msgctxt "dlgSgAiCommitMessageSkippedUntrackedFiles.hdl:"
-msgid "Untracked files are excluded."
-msgstr ""
-
-#. # Performing ', OK'
-#. # Performing ', Next >'
-#. # Performing ', Next >'
-#. # Performing ', Finish'
-#. # Showing dialog 3 (@BAN6CC) '@X0QIAW - AI Setup' (owner: @79PNNQ)
-#. # Performing ', OK'
-#. # Performing ', Reconfigure...'
-#. # Showing dialog 4 (@P2VW4X) '@M8282Z - AI Setup' (owner: @OORWX5)
-#. # Performing ', Cancel'
-#. # Performing ', generate (active)...'
-msgctxt "dlgSgAiCommitMessageSkippedUntrackedFiles.tle:"
-msgid "AI Commit Message"
-msgstr ""
-
-#. # Showing dialog 2 (@7U36LK) '@FIWJUP - Passwords' (owner: @79PNNQ)
-#. # Performing ', OK'
-#. # Performing ', Next >'
-#. # Performing ', Next >'
-#. # Performing ', Finish'
-#. # Showing dialog 3 (@BAN6CC) '@X0QIAW - AI Setup' (owner: @79PNNQ)
-#. # Performing ', OK'
-#. # Performing ', Reconfigure...'
-#. # Showing dialog 4 (@P2VW4X) '@M8282Z - AI Setup' (owner: @OORWX5)
-#. # Performing ', Cancel'
-msgctxt "wndLog.mni:"
-msgid "generate \\(active\\)"
 msgstr ""
