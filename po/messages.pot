@@ -6986,6 +6986,10 @@ msgstr ""
 # TODO:Review
 #| msgid "stash failed \\(return code 1\\)"
 msgctxt "dlgSgOutput.lbl:"
+msgid "stash failed \\(return code $1\\)"
+msgstr ""
+
+msgctxt "dlgSgOutput.lbl:"
 msgid "unable to access '$1': Could not resolve host: $2"
 msgstr ""
 
@@ -12556,6 +12560,18 @@ msgctxt "ntmCredentialHelper:"
 msgid "To disable this configuration, open the above config file, locate the <b>\\[credential\\]</b>-section and comment out the <b>helper\\=</b> line using <b>#</b>"
 msgstr ""
 
+msgctxt "ntmFileMonitorDirectoriesExcluded:"
+msgid "Directory '$1' \\($2\\) has been excluded from file monitoring because it's listed in some .gitignore file."
+msgstr ""
+
+msgctxt "ntmFileMonitorDirectoriesExcluded:"
+msgid "Sometimes ignored directories are containing tracked files in which case changes to these files might not show up automatically. If this is the case for you, you may disable this optimization by setting system property 'fileMonitor.excludeIgnoredDirectories\\=false'."
+msgstr ""
+
+msgctxt "ntmFileMonitorDirectoriesExcluded:"
+msgid "Usually this does not cause any problems but improves Refreshing performance and reduces required inotify handles."
+msgstr ""
+
 msgctxt "ntmFollowUsOnTwitter:"
 msgid "<link1>Facebook</link1>: news"
 msgstr ""
@@ -12742,6 +12758,10 @@ msgstr ""
 
 msgctxt "nttCredentialHelper:"
 msgid "Let SmartGit handle Authentication"
+msgstr ""
+
+msgctxt "nttFileMonitorDirectoriesExcluded:"
+msgid "Ignored directories are not monitored"
 msgstr ""
 
 msgctxt "nttFollowUsOnTwitter:"
