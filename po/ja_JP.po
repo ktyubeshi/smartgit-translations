@@ -2347,6 +2347,15 @@ msgctxt "dlgSgAiCommitMessageComposeError.tle:"
 msgid "AI Commit Message Compose"
 msgstr "AI コミットメッセージ作成"
 
+#, pretranslated, fuzzy
+msgctxt "dlgSgAiCommitMessageNoModifications.fur:"
+msgid "There are no uncommitted changes in your working tree, so an AI commit message cannot be generated."
+msgstr "作業ツリーに未コミットの変更がないため、AI のコミットメッセージを生成できません。"
+
+msgctxt "dlgSgAiCommitMessageNoModifications.hdl:"
+msgid "No local changes detected."
+msgstr "ローカルの変更は検出されませんでした。"
+
 msgctxt "dlgSgAiCommitMessageReworder.btn:"
 msgid "Reword"
 msgstr "書き直す"
@@ -5019,6 +5028,7 @@ msgctxt "dlgSgGitHubCommitMessageSelect.btn:"
 msgid "Select"
 msgstr "選択"
 
+# GitHubのIssue一覧のリストの列ヘッダです。この列にはIssue番号が表示されます
 msgctxt "dlgSgGitHubCommitMessageSelect.col:"
 msgid "Number"
 msgstr "#"
@@ -5027,6 +5037,7 @@ msgctxt "dlgSgGitHubCommitMessageSelect.col:"
 msgid "Title"
 msgstr "タイトル"
 
+#, fuzzy
 msgctxt "dlgSgGitHubCommitMessageSelect.hdl:"
 msgid "Select commit message by GitHub issue"
 msgstr "GitHubのイシューによるコミットメッセージを選択してください"
@@ -5508,6 +5519,7 @@ msgctxt "dlgSgHistoryPushedCommitsModifyPushedCommits.hdl:"
 msgid "Do you want to modify commits which are already pushed?"
 msgstr "既にプッシュされているコミットを修正しますか?"
 
+#, fuzzy
 msgctxt "dlgSgHistoryPushedCommitsModifyPushedCommits.tle:"
 msgid "Edit Author"
 msgstr "作者を編集"
@@ -6296,8 +6308,9 @@ msgstr "LFSで追跡"
 
 msgctxt "dlgSgLocalChangesFormTakeBlockListenerRevertWorkingTreeFile.btn:"
 msgid "Revert"
-msgstr "リバート"
+msgstr "元に戻す"
 
+#, fuzzy
 msgctxt "dlgSgLocalChangesFormTakeBlockListenerRevertWorkingTreeFile.fur:"
 msgid "You are about to apply lines from the Index to the working tree file '$1'. The modifications will be saved immediately."
 msgstr "インデックスの行を作業ツリーのファイル '$1' に適用しようとしています。変更はすぐに保存されます。"
@@ -7858,6 +7871,11 @@ msgctxt "dlgSgPreferences.lbl:"
 msgid "In order to use all SmartGit functionality, you need to have command line Git installed on your system. Provide here the full path to the installed 'git' executable."
 msgstr "SmartGitのすべての機能を使用するには、システムにコマンドラインGitがインストールされている必要があります。インストールした'git'実行ファイルのフルパスを入力してください。"
 
+#, pretranslated, fuzzy
+msgctxt "dlgSgPreferences.lbl:"
+msgid "Learn how to tailor AI for your projects with the complete \\[https://docs.syntevo.com/SmartGit/Latest/Manual/Integrations/AI SmartGit AI Integration documentation\\]."
+msgstr "完全な \\[https://docs.syntevo.com/SmartGit/Latest/Manual/Integrations/AI SmartGit AI Integration documentation\\] を使用して、プロジェクト向けに AI をカスタマイズする方法を学びましょう。"
+
 msgctxt "dlgSgPreferences.lbl:"
 msgid "Local and Remote Changes"
 msgstr "ローカルとリモートの変更"
@@ -7915,6 +7933,10 @@ msgid "The AI integration is \\*disabled globally\\*."
 msgstr "AI統合は\\*グローバルに無効化されています\\*。"
 
 msgctxt "dlgSgPreferences.lbl:"
+msgid "The AI integration is \\*manually configured\\*."
+msgstr "AI統合は\\*手動で構成されています\\*。"
+
+msgctxt "dlgSgPreferences.lbl:"
 msgid "The AI integration is \\*not yet configured\\* \\(globally\\)."
 msgstr "AI統合は\\*まだ設定されていません\\* \\(グローバルに\\)。"
 
@@ -7929,6 +7951,11 @@ msgstr "このプロキシは、主に「新しいバージョンの確認」に
 msgctxt "dlgSgPreferences.lbl:"
 msgid "This file will be sent as is: $1"
 msgstr "このファイルはそのまま送信されます: $1"
+
+#, pretranslated, fuzzy
+msgctxt "dlgSgPreferences.lbl:"
+msgid "To change it, edit your Git config files directly."
+msgstr "それを変更するには、Git の設定ファイルを直接編集してください。"
 
 msgctxt "dlgSgPreferences.lbl:"
 msgid "To configure, click the AI button in the Commit Message view or the Commit dialog."
@@ -9119,7 +9146,6 @@ msgctxt "dlgSgRebaseContinueNothingToCommitModifyContinue.btn:"
 msgid "Continue \\(Resume\\)"
 msgstr "続ける \\(再開\\)"
 
-#, fuzzy
 msgctxt "dlgSgRebaseContinueNothingToCommitModifyContinue.chk:"
 msgid "Don't show again"
 msgstr "次回から表示しない"
@@ -9140,7 +9166,6 @@ msgctxt "dlgSgRebaseContinueNothingToCommitModifyStep.btn:"
 msgid "Step"
 msgstr "ステップ"
 
-#, fuzzy
 msgctxt "dlgSgRebaseContinueNothingToCommitModifyStep.chk:"
 msgid "Don't show again"
 msgstr "次回から表示しない"
@@ -12945,12 +12970,9 @@ msgctxt "ttpBranches:"
 msgid "<b>On: </b>$1"
 msgstr "<b>On: </b>$1"
 
+#| msgid "<b>Outgoing</b> from branch <b>$1</b> to repository <b>$2</b> branch <b>main</b>"
 msgctxt "ttpBranches:"
 msgid "<b>Outgoing</b> from branch <b>$1</b> to repository <b>$2</b> branch <b>$3</b>"
-msgstr "<b>$1</b> ブランチからリポジトリ <b>$2</b> のブランチ <b>$3</b> への <b>送信</b>"
-
-msgctxt "ttpBranches:"
-msgid "<b>Outgoing</b> from branch <b>$1</b> to repository <b>$2</b> branch <b>main</b>"
 msgstr "<b>$1</b> ブランチからリポジトリ <b>$2</b> のブランチ <b>$3</b> への <b>送信</b>"
 
 msgctxt "ttpBranches:"
@@ -13231,7 +13253,7 @@ msgstr "Finderで表示"
 
 msgctxt "wnd.mni:"
 msgid "SmartGit Website"
-msgstr "SmartGit ウェブサイト"
+msgstr "SmartGitのウェブサイト"
 
 msgctxt "wnd.mniBisectTryCommit:"
 msgid "Try Commit"
@@ -13252,6 +13274,10 @@ msgstr "マイヒストリーに表示"
 msgctxt "wnd.mniWindow-maximize:"
 msgid "Zoom"
 msgstr "ズーム"
+
+msgctxt "wnd.mniWindowMaximizeRestore:"
+msgid "Maximize View"
+msgstr "ビューを最大化"
 
 msgctxt "wndAnnotate.cmb:"
 msgid "Age"
@@ -14527,6 +14553,11 @@ msgctxt "wndProject.mni:"
 msgid "Select from GitHub"
 msgstr "GitHubから選択してください"
 
+#, pretranslated, fuzzy
+msgctxt "wndProject.mni:"
+msgid "Show Rewritten Behind Commits"
+msgstr "書き換えられた背後のコミットを表示"
+
 msgctxt "wndProject.mniCopyCommitId:"
 msgid "Copy"
 msgstr "コピー"
@@ -14534,6 +14565,10 @@ msgstr "コピー"
 msgctxt "wndProject.mniFixCaseChange:"
 msgid "Fix Case-Change"
 msgstr "大文字小文字の修正"
+
+msgctxt "wndProject.mniOpen:"
+msgid "Open"
+msgstr "開く"
 
 msgctxt "wndStd.btn:"
 msgid "Compare"
@@ -16559,7 +16594,7 @@ msgstr "作業ツリーを常に表示する"
 
 msgctxt "wnd(Log|Project|Std|).mniMailingList:"
 msgid "SmartGit Website"
-msgstr "SmartGitウェブサイト"
+msgstr "SmartGitのウェブサイト"
 
 msgctxt "wnd(Log|Project|Std|).mniMerge:"
 msgid "Merge"
@@ -17904,3 +17939,7 @@ msgstr "$1 \\[$2\\] - $3 のログ"
 msgctxt "wnd(Log|Std|).mniOpen:"
 msgid "Open from Working Tree"
 msgstr "作業ツリーから開く"
+
+#~ msgctxt "ttpBranches:"
+#~ msgid "<b>Outgoing</b> from branch <b>$1</b> to repository <b>$2</b> branch <b>main</b>"
+#~ msgstr "<b>$1</b> ブランチからリポジトリ <b>$2</b> のブランチ <b>$3</b> への <b>送信</b>"
