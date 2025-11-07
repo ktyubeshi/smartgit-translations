@@ -2347,7 +2347,7 @@ msgctxt "dlgSgAiCommitMessageComposeError.tle:"
 msgid "AI Commit Message Compose"
 msgstr "AI コミットメッセージ作成"
 
-#, pretranslated, fuzzy
+#, fuzzy
 msgctxt "dlgSgAiCommitMessageNoModifications.fur:"
 msgid "There are no uncommitted changes in your working tree, so an AI commit message cannot be generated."
 msgstr "作業ツリーに未コミットの変更がないため、AI のコミットメッセージを生成できません。"
@@ -6975,6 +6975,10 @@ msgctxt "dlgSgOutput.lbl:"
 msgid "Your local changes to the following files would be overwritten by checkout:\\ncould not detach HEAD"
 msgstr "次のファイルに対するローカルの変更は、チェックアウトによって上書きされます:\\n HEAD をデタッチできませんでした"
 
+msgctxt "dlgSgOutput.lbl:"
+msgid "stash failed \\(return code $1\\)"
+msgstr "スタッシュに失敗しました \\(return code $1\\)"
+
 # Needs Review
 msgctxt "dlgSgOutput.lbl:"
 msgid "unable to access '$1': Could not resolve host: $2"
@@ -7871,7 +7875,7 @@ msgctxt "dlgSgPreferences.lbl:"
 msgid "In order to use all SmartGit functionality, you need to have command line Git installed on your system. Provide here the full path to the installed 'git' executable."
 msgstr "SmartGitのすべての機能を使用するには、システムにコマンドラインGitがインストールされている必要があります。インストールした'git'実行ファイルのフルパスを入力してください。"
 
-#, pretranslated, fuzzy
+#, fuzzy
 msgctxt "dlgSgPreferences.lbl:"
 msgid "Learn how to tailor AI for your projects with the complete \\[https://docs.syntevo.com/SmartGit/Latest/Manual/Integrations/AI SmartGit AI Integration documentation\\]."
 msgstr "完全な \\[https://docs.syntevo.com/SmartGit/Latest/Manual/Integrations/AI SmartGit AI Integration documentation\\] を使用して、プロジェクト向けに AI をカスタマイズする方法を学びましょう。"
@@ -7952,7 +7956,7 @@ msgctxt "dlgSgPreferences.lbl:"
 msgid "This file will be sent as is: $1"
 msgstr "このファイルはそのまま送信されます: $1"
 
-#, pretranslated, fuzzy
+#, fuzzy
 msgctxt "dlgSgPreferences.lbl:"
 msgid "To change it, edit your Git config files directly."
 msgstr "それを変更するには、Git の設定ファイルを直接編集してください。"
@@ -12557,6 +12561,18 @@ msgctxt "ntmCredentialHelper:"
 msgid "To disable this configuration, open the above config file, locate the <b>\\[credential\\]</b>-section and comment out the <b>helper\\=</b> line using <b>#</b>"
 msgstr "この設定を無効にするには、上記の設定ファイルを開き、 <b>\\[credential\\]</b>セクションの<b>helper\\=</b>の行頭に<b>#</b>を付加してコメントアウトしてください。"
 
+msgctxt "ntmFileMonitorDirectoriesExcluded:"
+msgid "Directory '$1' \\($2\\) has been excluded from file monitoring because it's listed in some .gitignore file."
+msgstr "ディレクトリ'$1'\\($2\\)は、いくつかの.gitignoreファイルにリストされているため、ファイル監視から除外されました。"
+
+msgctxt "ntmFileMonitorDirectoriesExcluded:"
+msgid "Sometimes ignored directories are containing tracked files in which case changes to these files might not show up automatically. If this is the case for you, you may disable this optimization by setting system property 'fileMonitor.excludeIgnoredDirectories\\=false'."
+msgstr "時には無視されているディレクトリに追跡済みのファイルが含まれている場合があり、その場合、これらのファイルの変更が自動的に表示されないことがあります。もしそうであれば、システムプロパティ'fileMonitor.excludeIgnoredDirectories=false'を設定することで、この最適化を無効にすることができます。"
+
+msgctxt "ntmFileMonitorDirectoriesExcluded:"
+msgid "Usually this does not cause any problems but improves Refreshing performance and reduces required inotify handles."
+msgstr "通常、これは問題を引き起こすことはありませんが、リフレッシュのパフォーマンスを向上させ、必要なinotifyハンドル数を減らします。"
+
 msgctxt "ntmFollowUsOnTwitter:"
 msgid "<link1>Facebook</link1>: news"
 msgstr "<link1>Facebook</link1>: ニュース"
@@ -12741,6 +12757,10 @@ msgstr "外部の認証情報ヘルパーが検出されました"
 msgctxt "nttCredentialHelper:"
 msgid "Let SmartGit handle Authentication"
 msgstr "SmartGitに認証を処理させる"
+
+msgctxt "nttFileMonitorDirectoriesExcluded:"
+msgid "Ignored directories are not monitored"
+msgstr "無視されたディレクトリは監視されません。"
 
 msgctxt "nttFollowUsOnTwitter:"
 msgid "Follow SmartGit on Twitter!"
@@ -13274,10 +13294,6 @@ msgstr "マイヒストリーに表示"
 msgctxt "wnd.mniWindow-maximize:"
 msgid "Zoom"
 msgstr "ズーム"
-
-msgctxt "wnd.mniWindowMaximizeRestore:"
-msgid "Maximize View"
-msgstr "ビューを最大化"
 
 msgctxt "wndAnnotate.cmb:"
 msgid "Age"
@@ -14553,11 +14569,6 @@ msgctxt "wndProject.mni:"
 msgid "Select from GitHub"
 msgstr "GitHubから選択してください"
 
-#, pretranslated, fuzzy
-msgctxt "wndProject.mni:"
-msgid "Show Rewritten Behind Commits"
-msgstr "書き換えられた背後のコミットを表示"
-
 msgctxt "wndProject.mniCopyCommitId:"
 msgid "Copy"
 msgstr "コピー"
@@ -14565,10 +14576,6 @@ msgstr "コピー"
 msgctxt "wndProject.mniFixCaseChange:"
 msgid "Fix Case-Change"
 msgstr "大文字小文字の修正"
-
-msgctxt "wndProject.mniOpen:"
-msgid "Open"
-msgstr "開く"
 
 msgctxt "wndStd.btn:"
 msgid "Compare"
@@ -16012,6 +16019,11 @@ msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "Show Only Selected Refs"
 msgstr "選択されたRefのみ表示"
 
+#, fuzzy
+msgctxt "wnd(Log|Project|Std|).mni:"
+msgid "Show Rewritten Behind Commits"
+msgstr "書き換えられた背後のコミットを表示"
+
 msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "Show Rewritten Behind Commits"
 msgstr "コミットの背後にある書き換えを表示"
@@ -16844,17 +16856,19 @@ msgctxt "wnd(Log|Project|Std|).mniResolve:"
 msgid "Resolve"
 msgstr "解決"
 
+#, fuzzy
 msgctxt "wnd(Log|Project|Std|).mniResolveOurs:"
 msgid "Take Ours"
-msgstr "Ours を採用"
+msgstr "自分たちの変更を採用"
 
 msgctxt "wnd(Log|Project|Std|).mniResolveRecreateConflict:"
 msgid "Recreate Conflict"
 msgstr "競合した状態に戻す"
 
+#, fuzzy
 msgctxt "wnd(Log|Project|Std|).mniResolveTheirs:"
 msgid "Take Theirs"
-msgstr "Theirs を採用"
+msgstr "相手の変更を採用"
 
 msgctxt "wnd(Log|Project|Std|).mniRevealCommit:"
 msgid "Reveal Commit"
@@ -17939,7 +17953,3 @@ msgstr "$1 \\[$2\\] - $3 のログ"
 msgctxt "wnd(Log|Std|).mniOpen:"
 msgid "Open from Working Tree"
 msgstr "作業ツリーから開く"
-
-#~ msgctxt "ttpBranches:"
-#~ msgid "<b>Outgoing</b> from branch <b>$1</b> to repository <b>$2</b> branch <b>main</b>"
-#~ msgstr "<b>$1</b> ブランチからリポジトリ <b>$2</b> のブランチ <b>$3</b> への <b>送信</b>"
