@@ -17898,3 +17898,250 @@ msgstr ""
 msgctxt "wnd(Log|Std|).mniOpen:"
 msgid "Open from Working Tree"
 msgstr ""
+
+#. # opening smartgit.bFH@Y68AWW:SmartGit 25.1 (smartgit.bFH@DIP0OD)
+msgctxt "ntmUpdateCheckChannelSubscribePolls:"
+msgid "Occasionally, you'll be invited to quick polls here in the notification area. Your feedback helps shape SmartGit's future. You can turn this off anytime in the Preferences."
+msgstr ""
+
+#. # opening smartgit.bFH@Y68AWW:SmartGit 25.1 (smartgit.bFH@DIP0OD)
+msgctxt "nttUpdateCheckChannelSubscribePolls:"
+msgid "Turn on"
+msgstr ""
+
+#. # opening smartgit.bFH@Y68AWW:SmartGit 25.1 (smartgit.bFH@DIP0OD)
+msgctxt "nttUpdateCheckChannelSubscribePolls:"
+msgid "Want to influence SmartGit's development?"
+msgstr ""
+
+#. # opening smartgit.bFH@VEJE66:SmartGit 25.1 (smartgit.bFH@TM7QJ2)
+#. # Performing 'repositoryAdd, Add or Create..., Add or create a new repository.'
+#. # Showing dialog 0 (@VITF3J) '@G6STPB - Add or Create Repository' (owner: @TM7QJ2)
+#. # Performing ', Open directory chooser.'
+#. # Performing ', OK'
+#. # Performing ', Explain Diff'
+#. # Showing dialog 1 (@GGAJWH) '@155MV - Explain Diff' (owner: @TM7QJ2)
+msgctxt "dlgSgAiAnnotatorSelectOldAndNewCommit.btn:"
+msgid "Swap"
+msgstr ""
+
+#. # opening smartgit.bFH@VEJE66:SmartGit 25.1 (smartgit.bFH@TM7QJ2)
+#. # Performing 'repositoryAdd, Add or Create..., Add or create a new repository.'
+#. # Showing dialog 0 (@VITF3J) '@G6STPB - Add or Create Repository' (owner: @TM7QJ2)
+#. # Performing ', Open directory chooser.'
+#. # Performing ', OK'
+#. # Performing ', Explain Diff'
+#. # Showing dialog 1 (@GGAJWH) '@155MV - Explain Diff' (owner: @TM7QJ2)
+msgctxt "dlgSgAiAnnotatorSelectOldAndNewCommit.edt:"
+msgid "New \\(To\\)"
+msgstr ""
+
+#. # opening smartgit.bFH@VEJE66:SmartGit 25.1 (smartgit.bFH@TM7QJ2)
+#. # Performing 'repositoryAdd, Add or Create..., Add or create a new repository.'
+#. # Showing dialog 0 (@VITF3J) '@G6STPB - Add or Create Repository' (owner: @TM7QJ2)
+#. # Performing ', Open directory chooser.'
+#. # Performing ', OK'
+#. # Performing ', Explain Diff'
+#. # Showing dialog 1 (@GGAJWH) '@155MV - Explain Diff' (owner: @TM7QJ2)
+msgctxt "dlgSgAiAnnotatorSelectOldAndNewCommit.edt:"
+msgid "Old \\(From\\)"
+msgstr ""
+
+#. # opening smartgit.bFH@VEJE66:SmartGit 25.1 (smartgit.bFH@TM7QJ2)
+#. # Performing 'repositoryAdd, Add or Create..., Add or create a new repository.'
+#. # Showing dialog 0 (@VITF3J) '@G6STPB - Add or Create Repository' (owner: @TM7QJ2)
+#. # Performing ', Open directory chooser.'
+#. # Performing ', OK'
+#. # Performing ', Explain Diff'
+#. # Showing dialog 1 (@GGAJWH) '@155MV - Explain Diff' (owner: @TM7QJ2)
+msgctxt "dlgSgAiAnnotatorSelectOldAndNewCommit.hdl:"
+msgid "Choose the diff direction"
+msgstr ""
+
+#. # opening smartgit.bFH@VEJE66:SmartGit 25.1 (smartgit.bFH@TM7QJ2)
+#. # Performing 'repositoryAdd, Add or Create..., Add or create a new repository.'
+#. # Showing dialog 0 (@VITF3J) '@G6STPB - Add or Create Repository' (owner: @TM7QJ2)
+#. # Performing ', Open directory chooser.'
+#. # Performing ', OK'
+#. # Performing ', Explain Diff'
+#. # Showing dialog 1 (@GGAJWH) '@155MV - Explain Diff' (owner: @TM7QJ2)
+msgctxt "dlgSgAiAnnotatorSelectOldAndNewCommit.inf:"
+msgid "The two commits have diverged, so they can be compared in either direction. The diff represents the changes from Old to New."
+msgstr ""
+
+#. # opening smartgit.bFH@VEJE66:SmartGit 25.1 (smartgit.bFH@TM7QJ2)
+#. # Performing 'repositoryAdd, Add or Create..., Add or create a new repository.'
+#. # Showing dialog 0 (@VITF3J) '@G6STPB - Add or Create Repository' (owner: @TM7QJ2)
+#. # Performing ', Open directory chooser.'
+#. # Performing ', OK'
+#. # Performing ', Explain Diff'
+msgctxt "dlgSgAiAnnotatorSelectOldAndNewCommit.tle:"
+msgid "Explain Diff"
+msgstr ""
+
+#. # Performing ', Close'
+#. # Performing ', Abort'
+#. # Performing 'branchAbort, Abort'
+#. # Showing dialog 7 (@HYQDQT) '@XDGOPQ - Abort' (owner: @TM7QJ2)
+#. # Performing ', Abort Merge'
+#. # Performing ', Explain Diff'
+#. # Showing dialog 8 (@AABS62) '@JYYMWH - AI Upload Consent' (owner: @TM7QJ2)
+#. # Performing ', Allow'
+#. # Showing dialog 9 (@YFXXUD) '@SAPQZG - Passwords' (owner: @TM7QJ2)
+#. # Performing ', OK'
+msgctxt "dlgSgAiCommitAnnotatorOutput.tle:"
+msgid "Explain Diff"
+msgstr ""
+
+#. # Showing dialog 14 (@DHXX0B) '@I7UWUW - Merge' (owner: @9HE9N3)
+#. # Performing ', Cancel'
+#. # Performing 'merge, Merge..., Merge changes from other branches.'
+#. # Showing dialog 15 (@X6NDLZ) '@ABCYRA - Merge' (owner: @9HE9N3)
+#. # Performing ', Cancel'
+#. # Performing 'merge, Merge..., Merge changes from other branches.'
+#. # Showing dialog 16 (@A8F4NW) '@72883Q - Merge' (owner: @9HE9N3)
+#. # Performing ', Cancel'
+#. # Performing 'merge, Merge..., Merge changes from other branches.'
+#. # Showing dialog 17 (@2CMPIQ) '@6OOA2Z - Merge' (owner: @9HE9N3)
+msgctxt "dlgSgMergeHowToMerge.fur:"
+msgid "You are about to perform an Octopus Merge from 2 source branches.\\n\\nIf there is no conflict, Git can automatically create a merge commit. Alternatively, you can opt to merge to the working tree.\\nMerge to Working Tree will prepare a merge commit while Squash-Merge will prepare a normal commit \\(discarding the information about what commits were merged\\) - in both cases to be committed manually later."
+msgstr ""
+
+#. # Showing dialog 13 (@9M3O74) '@96S8XS - Merge' (owner: @9HE9N3)
+#. # Performing ', Cancel'
+#. # Performing 'merge, Merge..., Merge changes from other branches.'
+#. # Showing dialog 14 (@DHXX0B) '@I7UWUW - Merge' (owner: @9HE9N3)
+#. # Performing ', Cancel'
+#. # Performing 'merge, Merge..., Merge changes from other branches.'
+#. # Showing dialog 15 (@X6NDLZ) '@ABCYRA - Merge' (owner: @9HE9N3)
+#. # Performing ', Cancel'
+#. # Performing 'merge, Merge..., Merge changes from other branches.'
+#. # Showing dialog 16 (@A8F4NW) '@72883Q - Merge' (owner: @9HE9N3)
+msgctxt "dlgSgMergeHowToMerge.fur:"
+msgid "You are about to perform an Octopus Merge from 4 source branches.\\n\\nIf there is no conflict, Git can automatically create a merge commit. Alternatively, you can opt to merge to the working tree.\\nMerge to Working Tree will prepare a merge commit while Squash-Merge will prepare a normal commit \\(discarding the information about what commits were merged\\) - in both cases to be committed manually later."
+msgstr ""
+
+#. # Showing dialog 15 (@X6NDLZ) '@ABCYRA - Merge' (owner: @9HE9N3)
+#. # Performing ', Cancel'
+#. # Performing 'merge, Merge..., Merge changes from other branches.'
+#. # Showing dialog 16 (@A8F4NW) '@72883Q - Merge' (owner: @9HE9N3)
+#. # Performing ', Cancel'
+#. # Performing 'merge, Merge..., Merge changes from other branches.'
+#. # Showing dialog 17 (@2CMPIQ) '@6OOA2Z - Merge' (owner: @9HE9N3)
+#. # Performing ', Cancel'
+#. # Performing 'merge, Merge..., Merge changes from other branches.'
+#. # Showing dialog 18 (@EXCX1W) '@2WOK00 - Merge' (owner: @9HE9N3)
+msgctxt "dlgSgMergeHowToMerge.fur:"
+msgid "You are about to perform an Octopus Merge from 5 source branches.\\n\\nIf there is no conflict, Git can automatically create a merge commit. Alternatively, you can opt to merge to the working tree.\\nMerge to Working Tree will prepare a merge commit while Squash-Merge will prepare a normal commit \\(discarding the information about what commits were merged\\) - in both cases to be committed manually later."
+msgstr ""
+
+#. # Showing dialog 14 (@DHXX0B) '@I7UWUW - Merge' (owner: @9HE9N3)
+#. # Performing ', Cancel'
+#. # Performing 'merge, Merge..., Merge changes from other branches.'
+#. # Showing dialog 15 (@X6NDLZ) '@ABCYRA - Merge' (owner: @9HE9N3)
+#. # Performing ', Cancel'
+#. # Performing 'merge, Merge..., Merge changes from other branches.'
+#. # Showing dialog 16 (@A8F4NW) '@72883Q - Merge' (owner: @9HE9N3)
+#. # Performing ', Cancel'
+#. # Performing 'merge, Merge..., Merge changes from other branches.'
+#. # Showing dialog 17 (@2CMPIQ) '@6OOA2Z - Merge' (owner: @9HE9N3)
+msgctxt "dlgSgMergeHowToMerge.hdl:"
+msgid "How to merge the 2 selected branches?"
+msgstr ""
+
+#. # Showing dialog 13 (@9M3O74) '@96S8XS - Merge' (owner: @9HE9N3)
+#. # Performing ', Cancel'
+#. # Performing 'merge, Merge..., Merge changes from other branches.'
+#. # Showing dialog 14 (@DHXX0B) '@I7UWUW - Merge' (owner: @9HE9N3)
+#. # Performing ', Cancel'
+#. # Performing 'merge, Merge..., Merge changes from other branches.'
+#. # Showing dialog 15 (@X6NDLZ) '@ABCYRA - Merge' (owner: @9HE9N3)
+#. # Performing ', Cancel'
+#. # Performing 'merge, Merge..., Merge changes from other branches.'
+#. # Showing dialog 16 (@A8F4NW) '@72883Q - Merge' (owner: @9HE9N3)
+msgctxt "dlgSgMergeHowToMerge.hdl:"
+msgid "How to merge the 4 selected branches?"
+msgstr ""
+
+#. # Showing dialog 15 (@X6NDLZ) '@ABCYRA - Merge' (owner: @9HE9N3)
+#. # Performing ', Cancel'
+#. # Performing 'merge, Merge..., Merge changes from other branches.'
+#. # Showing dialog 16 (@A8F4NW) '@72883Q - Merge' (owner: @9HE9N3)
+#. # Performing ', Cancel'
+#. # Performing 'merge, Merge..., Merge changes from other branches.'
+#. # Showing dialog 17 (@2CMPIQ) '@6OOA2Z - Merge' (owner: @9HE9N3)
+#. # Performing ', Cancel'
+#. # Performing 'merge, Merge..., Merge changes from other branches.'
+#. # Showing dialog 18 (@EXCX1W) '@2WOK00 - Merge' (owner: @9HE9N3)
+msgctxt "dlgSgMergeHowToMerge.hdl:"
+msgid "How to merge the 5 selected branches?"
+msgstr ""
+
+#. # Performing ', Merge...'
+#. # Showing dialog 3 (@RIE9KC) '@O6YM5R - Merge' (owner: @TM7QJ2)
+#. # Performing ', Cancel'
+#. # Performing ', Merge...'
+#. # Showing dialog 4 (@B0VH7L) '@QR6Q7G - Merge' (owner: @TM7QJ2)
+#. # Performing ', Merge to Working Tree'
+#. # Performing ', Merge...'
+#. # Showing dialog 5 (@IJ845N) '@NWYJF7 - Merge' (owner: @TM7QJ2)
+#. # Performing ', Merge to Working Tree'
+#. # Showing dialog 6 (@70KHJ5) '@KVG79M - Command Failed' (owner: @TM7QJ2)
+msgctxt "dlgSgOutput.lbl:"
+msgid "You have not concluded your merge \\(MERGE_HEAD exists\\)."
+msgstr ""
+
+#. # opening smartgit.bFH@JH3DVF:SmartGit 25.1 (smartgit.bFH@VM5REQ)
+#. # Performing 'editFile, Edit File'
+#. # opening smartgit.chV@DCT1PJ:messages.pot - [~/git-projects/smartgit-translator/tmp/smartgit-translations/po] - Editor (smartgit.chV@FRY69L)
+#. # Performing 'fetch, Pull..., Fetch commits from a remote repository and (optionally) integrate them with possible local commits.'
+#. # Showing dialog 0 (@B6IY2Q) '@HDV8JL - Pull' (owner: @VM5REQ)
+#. # Performing ', Pull'
+#. # Showing dialog 1 (@JTA9UK) '@5VO1KI - Pull' (owner: @VM5REQ)
+#. # Performing ', Save Stash'
+#. # Showing dialog 2 (@RIXWIG) '@14P5Y9 - Command Failed' (owner: @VM5REQ)
+msgctxt "dlgSgOutput.lbl:"
+msgid "stash failed \\(return code 1\\)"
+msgstr ""
+
+#. # Performing 'branchAbort, Abort'
+#. # Showing dialog 7 (@HYQDQT) '@XDGOPQ - Abort' (owner: @TM7QJ2)
+#. # Performing ', Abort Merge'
+#. # Performing ', Explain Diff'
+#. # Showing dialog 8 (@AABS62) '@JYYMWH - AI Upload Consent' (owner: @TM7QJ2)
+#. # Performing ', Allow'
+#. # Showing dialog 9 (@YFXXUD) '@SAPQZG - Passwords' (owner: @TM7QJ2)
+#. # Performing ', OK'
+#. # Showing dialog 10 (@PG7M5J) '@4N0NW6 - Explain Diff' (owner: @TM7QJ2)
+#. # Performing ', Close'
+msgctxt "wndLog.mni:"
+msgid "Explain Diff"
+msgstr ""
+
+#. # Performing ', Abort Merge'
+#. # Performing ', Explain Diff'
+#. # Showing dialog 8 (@AABS62) '@JYYMWH - AI Upload Consent' (owner: @TM7QJ2)
+#. # Performing ', Allow'
+#. # Showing dialog 9 (@YFXXUD) '@SAPQZG - Passwords' (owner: @TM7QJ2)
+#. # Performing ', OK'
+#. # Showing dialog 10 (@PG7M5J) '@4N0NW6 - Explain Diff' (owner: @TM7QJ2)
+#. # Performing ', Close'
+#. # Performing 'newStandardWindow, Show Standard Window'
+#. # opening smartgit.aBC@QPDXZ2:null (smartgit.aBC@9HE9N3)
+msgctxt "wndStd.hnt:"
+msgid "The repository's\\nreflog is empty."
+msgstr ""
+
+#. # Performing ', Allow'
+#. # Showing dialog 9 (@YFXXUD) '@SAPQZG - Passwords' (owner: @TM7QJ2)
+#. # Performing ', OK'
+#. # Showing dialog 10 (@PG7M5J) '@4N0NW6 - Explain Diff' (owner: @TM7QJ2)
+#. # Performing ', Close'
+#. # Performing 'newStandardWindow, Show Standard Window'
+#. # opening smartgit.aBC@QPDXZ2:null (smartgit.aBC@9HE9N3)
+#. # Performing 'merge, Merge..., Merge changes from other branches.'
+#. # Showing dialog 11 (@R51LKL) '@3MGQFC - Merge' (owner: @9HE9N3)
+#. # Performing ', Merge to Working Tree'
+msgctxt "wndStd.hnt:"
+msgid "This repository has\\nno stashes yet."
+msgstr ""
