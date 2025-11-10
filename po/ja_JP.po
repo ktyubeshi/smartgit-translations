@@ -2294,6 +2294,30 @@ msgctxt "dlgSgAiAnnotatorDropAllNotes.tle:"
 msgid "Drop AI Notes"
 msgstr "AIノートを削除"
 
+msgctxt "dlgSgAiAnnotatorSelectOldAndNewCommit.btn:"
+msgid "Swap"
+msgstr "入れ替える"
+
+msgctxt "dlgSgAiAnnotatorSelectOldAndNewCommit.edt:"
+msgid "New \\(To\\)"
+msgstr "新\\(To\\)"
+
+msgctxt "dlgSgAiAnnotatorSelectOldAndNewCommit.edt:"
+msgid "Old \\(From\\)"
+msgstr "旧 \\(From\\)"
+
+msgctxt "dlgSgAiAnnotatorSelectOldAndNewCommit.hdl:"
+msgid "Choose the diff direction"
+msgstr "差分の方向を選択"
+
+msgctxt "dlgSgAiAnnotatorSelectOldAndNewCommit.inf:"
+msgid "The two commits have diverged, so they can be compared in either direction. The diff represents the changes from Old to New."
+msgstr "2つのコミットは分岐しているため、どちらの方向でも比較できます。diff は '旧' から '新' への変更を表します。"
+
+msgctxt "dlgSgAiAnnotatorSelectOldAndNewCommit.tle:"
+msgid "Explain Diff"
+msgstr "差分の説明"
+
 msgctxt "dlgSgAiApiKeyRepoLlmConsent.btn:"
 msgid "Allow"
 msgstr "許可"
@@ -2322,6 +2346,10 @@ msgstr "選択したコミットの注釈付けに失敗しました。"
 msgctxt "dlgSgAiCommitAnnotatorError.tle:"
 msgid "Annotate Commits"
 msgstr "コミットに注釈を付ける"
+
+msgctxt "dlgSgAiCommitAnnotatorOutput.tle:"
+msgid "Explain Diff"
+msgstr "差分の説明"
 
 msgctxt "dlgSgAiCommitMessageComposeActionSetup.fur:"
 msgid "Click the AI button again to generate your first commit message."
@@ -6627,6 +6655,10 @@ msgctxt "dlgSgMergeHowToMerge.fur:"
 msgid "If there is no conflict, Git can automatically create a merge commit. Alternatively, you can opt to merge to the working tree.\\nMerge to Working Tree will prepare a merge commit while Squash-Merge will prepare a normal commit \\(discarding the information about what commits were merged\\) - in both cases to be committed manually later."
 msgstr "競合がない場合、Gitは自動的にマージコミットを作成します。代わりに、作業ツリーにマージすることもできます。\\n作業ツリーにマージ を選択すると、マージコミットが作成されますが、スカッシュマージ を選択すると通常のコミットが作成されます \\(マージされたコミットに関する情報は破棄されます\\)。どちらの場合も、後で手動でコミットする必要があります。"
 
+msgctxt "dlgSgMergeHowToMerge.fur:"
+msgid "You are about to perform an Octopus Merge from $1 source branches.\\n\\nIf there is no conflict, Git can automatically create a merge commit. Alternatively, you can opt to merge to the working tree.\\nMerge to Working Tree will prepare a merge commit while Squash-Merge will prepare a normal commit \\(discarding the information about what commits were merged\\) - in both cases to be committed manually later."
+msgstr "$1 件のソースブランチからオクトパスマージを実行しようとしています。\\n\\nコンフリクトがなければ、Git は自動的にマージコミットを作成できます。あるいは、作業ツリーへのマージを選択することも可能です。\\n作業ツリーへのマージはマージコミットを準備し、Squash-Merge は通常のコミットを準備します（どのコミットがマージされたかという情報は破棄されます）—いずれの場合も後で手動でコミットする必要があります。"
+
 msgctxt "dlgSgMergeHowToMerge.hdl:"
 msgid "How to merge from branch '$1'?"
 msgstr "ブランチ '$1' からどのようにマージしますか?"
@@ -6634,6 +6666,11 @@ msgstr "ブランチ '$1' からどのようにマージしますか?"
 msgctxt "dlgSgMergeHowToMerge.hdl:"
 msgid "How to merge from tag '$1'?"
 msgstr "タグ '$1' からどのようにマージしますか?"
+
+#, pretranslated
+msgctxt "dlgSgMergeHowToMerge.hdl:"
+msgid "How to merge the $1 selected branches?"
+msgstr "選択した$1ブランチをマージする方法は？"
 
 msgctxt "dlgSgMergeHowToMerge.tle:"
 msgid "Merge"
@@ -6970,6 +7007,10 @@ msgstr "作業ツリーにローカルな変更があります。"
 msgctxt "dlgSgOutput.lbl:"
 msgid "Tool $1 succeeded."
 msgstr "ツール $1 が成功しました。"
+
+msgctxt "dlgSgOutput.lbl:"
+msgid "You have not concluded your merge \\(MERGE_HEAD exists\\)."
+msgstr "マージが完了していません \\(MERGE_HEAD が存在します\\)。"
 
 msgctxt "dlgSgOutput.lbl:"
 msgid "Your local changes to the following files would be overwritten by checkout:\\ncould not detach HEAD"
@@ -12714,6 +12755,10 @@ msgctxt "ntmSupportExpired:"
 msgid "You may continue to use SmartGit, just your support period expired."
 msgstr "サポート期間が終了しましたが、引き続きSmartGitを使用することができます。"
 
+msgctxt "ntmUpdateCheckChannelSubscribePolls:"
+msgid "Occasionally, you'll be invited to quick polls here in the notification area. Your feedback helps shape SmartGit's future. You can turn this off anytime in the Preferences."
+msgstr "時々、通知領域で簡単なアンケートにお誘いすることがあります。皆様からのフィードバックはSmartGitの将来を形作る上で役立ちます。設定でいつでもオフにすることができます。"
+
 msgctxt "ntmUpdateCheckFetchVersionStart:"
 msgid "After the new version has been downloaded successfully, you will be notified again."
 msgstr "新しいバージョンが正常にダウンロードされると、再度通知されます。"
@@ -12845,6 +12890,16 @@ msgstr "アップデートを購入"
 msgctxt "nttSupportExpired:"
 msgid "Your support period has expired on $1."
 msgstr "$1 にサポート期間が終了しました。"
+
+#, pretranslated
+msgctxt "nttUpdateCheckChannelSubscribePolls:"
+msgid "Turn on"
+msgstr "オンにする"
+
+#, pretranslated
+msgctxt "nttUpdateCheckChannelSubscribePolls:"
+msgid "Want to influence SmartGit's development?"
+msgstr "SmartGitの開発に影響を与えたいですか？"
 
 msgctxt "nttUpdateCheckFetchVersionStart:"
 msgid "Started downloading version $1 \\($2\\)."
@@ -13294,6 +13349,10 @@ msgstr "マイヒストリーに表示"
 msgctxt "wnd.mniWindow-maximize:"
 msgid "Zoom"
 msgstr "ズーム"
+
+msgctxt "wnd.mniWindowMaximizeRestore:"
+msgid "Maximize View"
+msgstr "ビューを最大化"
 
 msgctxt "wndAnnotate.cmb:"
 msgid "Age"
@@ -14473,6 +14532,11 @@ msgctxt "wndLog.mni:"
 msgid "Explain Commit"
 msgstr "コミットの説明"
 
+#, pretranslated
+msgctxt "wndLog.mni:"
+msgid "Explain Diff"
+msgstr "Diff を説明してください"
+
 msgctxt "wndLog.mni:"
 msgid "On Manual Intervention"
 msgstr "手動介入について"
@@ -14569,6 +14633,10 @@ msgctxt "wndProject.mni:"
 msgid "Select from GitHub"
 msgstr "GitHubから選択してください"
 
+msgctxt "wndProject.mni:"
+msgid "Show Rewritten Behind Commits"
+msgstr "書き換えられた過去のコミットを表示"
+
 msgctxt "wndProject.mniCopyCommitId:"
 msgid "Copy"
 msgstr "コピー"
@@ -14576,6 +14644,10 @@ msgstr "コピー"
 msgctxt "wndProject.mniFixCaseChange:"
 msgid "Fix Case-Change"
 msgstr "大文字小文字の修正"
+
+msgctxt "wndProject.mniOpen:"
+msgid "Open"
+msgstr "開く"
 
 msgctxt "wndStd.btn:"
 msgid "Compare"
@@ -14630,6 +14702,16 @@ msgstr "選択したディレクトリの下に変更されたローカルファ
 msgctxt "wndStd.hnt:"
 msgid "No locally changed files"
 msgstr "ローカルで変更されたファイルはありません"
+
+#, pretranslated
+msgctxt "wndStd.hnt:"
+msgid "The repository's\\nreflog is empty."
+msgstr "リポジトリの\\nreflog は空です。"
+
+#, pretranslated
+msgctxt "wndStd.hnt:"
+msgid "This repository has\\nno stashes yet."
+msgstr "このリポジトリには\\nまだスタッシュがありません。"
 
 msgctxt "wndStd.lbl:"
 msgid "Force Compare"
@@ -16023,10 +16105,6 @@ msgstr "選択されたRefのみ表示"
 msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "Show Rewritten Behind Commits"
 msgstr "書き換えられた背後のコミットを表示"
-
-msgctxt "wnd(Log|Project|Std|).mni:"
-msgid "Show Rewritten Behind Commits"
-msgstr "コミットの背後にある書き換えを表示"
 
 msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "Show Unchanged Directories"
