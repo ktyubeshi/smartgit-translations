@@ -6397,7 +6397,7 @@ msgstr "本当にコメント'$1'を削除しますか？"
 
 msgctxt "dlgSgLogComment(|s)DeleteConfirm.btn:"
 msgid "Delete Comment"
-msgstr "コミットを削除"
+msgstr "コメントを削除"
 
 msgctxt "dlgSgLogComment(|s)DeleteConfirm.fur:"
 msgid "Comments can't be restored after deletion."
@@ -6405,7 +6405,7 @@ msgstr "削除したコメントは元に戻せません。"
 
 msgctxt "dlgSgLogComment(|s)DeleteConfirm.tle:"
 msgid "Delete Comment"
-msgstr "コミットを削除"
+msgstr "コメントを削除"
 
 msgctxt "dlgSgLogCommentsDeleteConfirm.hdl:"
 msgid "Do you really want to delete $1 comments?"
@@ -14532,10 +14532,9 @@ msgctxt "wndLog.mni:"
 msgid "Explain Commit"
 msgstr "コミットの説明"
 
-#, pretranslated
 msgctxt "wndLog.mni:"
 msgid "Explain Diff"
-msgstr "Diff を説明してください"
+msgstr "差分の説明"
 
 msgctxt "wndLog.mni:"
 msgid "On Manual Intervention"
