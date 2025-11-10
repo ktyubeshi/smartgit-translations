@@ -18091,17 +18091,10 @@ msgctxt "dlgSgOutput.lbl:"
 msgid "You have not concluded your merge \\(MERGE_HEAD exists\\)."
 msgstr ""
 
-#. # opening smartgit.bFH@JH3DVF:SmartGit 25.1 (smartgit.bFH@VM5REQ)
-#. # Performing 'editFile, Edit File'
-#. # opening smartgit.chV@DCT1PJ:messages.pot - [~/git-projects/smartgit-translator/tmp/smartgit-translations/po] - Editor (smartgit.chV@FRY69L)
-#. # Performing 'fetch, Pull..., Fetch commits from a remote repository and (optionally) integrate them with possible local commits.'
-#. # Showing dialog 0 (@B6IY2Q) '@HDV8JL - Pull' (owner: @VM5REQ)
-#. # Performing ', Pull'
-#. # Showing dialog 1 (@JTA9UK) '@5VO1KI - Pull' (owner: @VM5REQ)
-#. # Performing ', Save Stash'
-#. # Showing dialog 2 (@RIXWIG) '@14P5Y9 - Command Failed' (owner: @VM5REQ)
+# TODO:Review
+#| msgid "stash failed \\(return code 1\\)"
 msgctxt "dlgSgOutput.lbl:"
-msgid "stash failed \\(return code 1\\)"
+msgid "stash failed \\(return code $1\\)"
 msgstr ""
 
 #. # Performing 'branchAbort, Abort'
