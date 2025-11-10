@@ -465,7 +465,7 @@ msgstr "強制終了"
 
 msgctxt "dlgQFrameManagerExit.fur:"
 msgid "Processes are still running. Exiting now will forcible stop them which might cause data-loss!"
-msgstr "プロセスがまだ実行中です。今すぐ終了すると強制的に停止され、データが失われる可能性があります！"
+msgstr "プロセスがまだ実行中です。今すぐ終了すると強制的に停止するため、データが失われる可能性があります！"
 
 msgctxt "dlgQFrameManagerExit.fur:"
 msgid "There are unsaved changes which would be lost when exiting now!"
@@ -629,7 +629,7 @@ msgstr "新しいバージョンにアップデートすることをお勧めし
 
 msgctxt "dlgQUpdateCheckNewVersion.hdl:"
 msgid "A new version of SmartGit is available."
-msgstr "SmartGitの新しいバージョンが利用可能です。"
+msgstr "新しいバージョンのSmartGitが利用できます。"
 
 msgctxt "dlgQUpdateCheckNewVersion.tle:"
 msgid "Check for New Version"
@@ -897,7 +897,7 @@ msgstr "除去"
 
 msgctxt "dlgScCustomizeToolBar.btn:"
 msgid "Reset to Default"
-msgstr "初期設定に戻す"
+msgstr "デフォルトにリセット"
 
 msgctxt "dlgScCustomizeToolBar.chk:"
 msgid "Show text below icon"
@@ -1170,7 +1170,7 @@ msgstr "適切な入力フィールドに引数を追加してください。"
 
 msgctxt "dlgScExternalFileStarterCommandNoFile.hdl:"
 msgid "The specified command is no file."
-msgstr "指定されたコマンドにはファイルがありません。"
+msgstr "指定されたコマンドはファイルではありません。"
 
 msgctxt "dlgScExternalFileStarterCommandNoFile.tle:"
 msgid "Input Validation"
@@ -2111,7 +2111,7 @@ msgstr "ファイルの比較"
 
 msgctxt "dlgSgAbortBisectingConfirm.btn:"
 msgid "Abort Bisect"
-msgstr "問題箇所の特定('bisect')を中止"
+msgstr "Bisectを中止"
 
 msgctxt "dlgSgAbortBisectingConfirm.fur:"
 msgid "Your working tree is in 'bisecting' state. You may abort it to get out of this state.\\n\\nAborting will checkout the branch or commit before starting bisect."
@@ -2296,7 +2296,7 @@ msgstr "AIノートを削除"
 
 msgctxt "dlgSgAiAnnotatorSelectOldAndNewCommit.btn:"
 msgid "Swap"
-msgstr "入れ替える"
+msgstr "入れ替え"
 
 msgctxt "dlgSgAiAnnotatorSelectOldAndNewCommit.edt:"
 msgid "New \\(To\\)"
@@ -2872,7 +2872,7 @@ msgstr "ブランチを追加"
 
 msgctxt "dlgSgBranchDeleteCurrentNotPossible.fur:"
 msgid "By default, SmartGit disallows to delete the current branch. To skip this restriction, switch to a different branch or set the low-level property 'branch.delete.allowToDeleteCurrentBranch'."
-msgstr "デフォルトでは、SmartGit は現在のブランチを削除することを許可していません。この制限を解除するには、ローレベルプロパティ 'branch.delete.allowToDeleteCurrentBranch' を設定します。"
+msgstr "デフォルトでは、SmartGitは現在のブランチの削除を許可していません。この制限を回避するには、別のブランチに切り替えるか、ローレベルプロパティ 'branch.delete.allowToDeleteCurrentBranch' を設定してください。"
 
 msgctxt "dlgSgBranchDeleteCurrentNotPossible.hdl:"
 msgid "You can't delete the current branch."
@@ -11032,7 +11032,7 @@ msgstr "ステップ"
 
 msgctxt "dlgSgSetup.lbl:"
 msgid "You confirm that you will use SmartGit solely for non-commercial purposes."
-msgstr "お客様は、SmartGitを非商業的な目的でのみ使用することを確認します。"
+msgstr "SmartGitを非商用目的にのみ使用することに同意します。"
 
 msgctxt "dlgSgSetup.lbl:"
 msgid "You have purchased a SmartGit license and are eligible to use SmartGit for both commercial and non-commercial purposes."
