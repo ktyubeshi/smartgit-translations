@@ -661,7 +661,7 @@ msgstr "新しいバージョンの確認"
 
 msgctxt "dlgRewriteTextFiles.btn:"
 msgid "Fix Line-Endings"
-msgstr "改行を修正"
+msgstr "改行コードを修正"
 
 msgctxt "dlgRewriteTextFiles.chk:"
 msgid "Enforce line-ending on end of file"
@@ -693,7 +693,7 @@ msgstr "テキストファイルの書き込みに使用する改行コードを
 
 msgctxt "dlgRewriteTextFiles.tle:"
 msgid "Fix Line-Endings"
-msgstr "改行コードを修正する"
+msgstr "改行コードを修正"
 
 msgctxt "dlgScAboutUpdateInstallation.btn:"
 msgid "Upgrade Installation"
@@ -2936,7 +2936,7 @@ msgstr "追跡ブランチ'$1'を削除"
 
 msgctxt "dlgSgBranchDeleteLocalConfirmSingle.fur:"
 msgid "It might be complicated to restore deleted branches."
-msgstr "削除されたブランチを復元するのは困難な場合があります。"
+msgstr "削除したブランチの復元は複雑な作業になる場合があります。"
 
 msgctxt "dlgSgBranchDeleteLocalConfirmSingle.fur:"
 msgid "You may lose unpushed changes or it might be complicated to restore the branch\\(es\\)!"
@@ -13336,7 +13336,7 @@ msgstr "コミットを試行"
 
 msgctxt "wnd.mniFixCaseChange:"
 msgid "Fix Case-Change"
-msgstr "大文字小文字の修正"
+msgstr "大文字小文字の変更を修正"
 
 msgctxt "wnd.mniIntegrateMain:"
 msgid "Integrate Main"
@@ -14570,7 +14570,7 @@ msgstr "コピー"
 
 msgctxt "wndLog.mniFixCaseChange:"
 msgid "Fix Case-Change"
-msgstr "大文字小文字の修正"
+msgstr "大文字小文字の変更を修正"
 
 msgctxt "wndLog.mniGitNoteAdd:"
 msgid "Add Note"
@@ -14642,7 +14642,7 @@ msgstr "コピー"
 
 msgctxt "wndProject.mniFixCaseChange:"
 msgid "Fix Case-Change"
-msgstr "大文字小文字の修正"
+msgstr "大文字小文字の変更を修正"
 
 msgctxt "wndProject.mniOpen:"
 msgid "Open"
