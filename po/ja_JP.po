@@ -7416,7 +7416,7 @@ msgstr "全てのタグをプッシュ"
 
 msgctxt "dlgSgPreferences.chk:"
 msgid "Quick Polls \\(help shape SmartGit\\)"
-msgstr "頻繁な更新確認 \\(SmartGitを形作る手助け\\)"
+msgstr "簡単なアンケート \\(SmartGitを形作る手助け\\)"
 
 msgctxt "dlgSgPreferences.chk:"
 msgid "Refresh file system also while SmartGit is in background"
@@ -12755,9 +12755,10 @@ msgctxt "ntmSupportExpired:"
 msgid "You may continue to use SmartGit, just your support period expired."
 msgstr "サポート期間が終了しましたが、引き続きSmartGitを使用することができます。"
 
+# ToDo: quick polls が具体的にどのようなものか要確認
 msgctxt "ntmUpdateCheckChannelSubscribePolls:"
 msgid "Occasionally, you'll be invited to quick polls here in the notification area. Your feedback helps shape SmartGit's future. You can turn this off anytime in the Preferences."
-msgstr "時々、通知領域で簡単なアンケートにお誘いすることがあります。皆様からのフィードバックはSmartGitの将来を形作る上で役立ちます。設定でいつでもオフにすることができます。"
+msgstr "時折、通知エリアに簡単なアンケートが表示されることがあります。皆様からいただいたフィードバックは、今後の製品改善に役立たせていただきます。この通知は設定からいつでも無効にできます。"
 
 msgctxt "ntmUpdateCheckFetchVersionStart:"
 msgid "After the new version has been downloaded successfully, you will be notified again."
@@ -12891,15 +12892,15 @@ msgctxt "nttSupportExpired:"
 msgid "Your support period has expired on $1."
 msgstr "$1 にサポート期間が終了しました。"
 
-#, pretranslated
+# 意訳した"SmartGitの機能改善にご協力いただけませんか？"のメッセージと整合させるため
 msgctxt "nttUpdateCheckChannelSubscribePolls:"
 msgid "Turn on"
 msgstr "オンにする"
 
-#, pretranslated
+# 直訳では"Want to influence"は"影響を与えたいですか？"のようになりますが、日本語として不自然なため、意訳しています。
 msgctxt "nttUpdateCheckChannelSubscribePolls:"
 msgid "Want to influence SmartGit's development?"
-msgstr "SmartGitの開発に影響を与えたいですか？"
+msgstr "SmartGitの機能改善にご協力いただけませんか？"
 
 msgctxt "nttUpdateCheckFetchVersionStart:"
 msgid "Started downloading version $1 \\($2\\)."
