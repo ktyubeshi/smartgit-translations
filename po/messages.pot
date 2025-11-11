@@ -17980,3 +17980,61 @@ msgstr ""
 msgctxt "wnd(Log|Std|).mniOpen:"
 msgid "Open from Working Tree"
 msgstr ""
+
+# BUILD: 251093
+#
+#. Performing 'logCommitsColoringDefault, Default Coloring'
+#. Performing 'logCommitsColoringBranch, Branch Coloring'
+#. Performing 'logCommitsColoringMerge, Mergeable Coloring'
+#. Performing 'logCommitsColoringBranch, Branch Coloring'
+#. Performing 'logCommitsColoringDefault, Default Coloring'
+#. Performing '@smartgit.bFP'
+#. Performing '@smartgit.bFP'
+#. Performing 'fetch, Pull..., Fetch commits from a remote repository and (optionally) integrate them with possible local commits.'
+#. Showing dialog 12 (@DLZOTK) '@EZNL0L - Pull' (owner: @8D1IT4)
+#. Performing ', Pull'
+msgctxt "dlgSgRepositoryClose.tle:"
+msgid "Exit"
+msgstr ""
+
+#. Performing ', OK'
+#. Performing 'goto-next-diff, Next Change, Go to next change.'
+#. Performing 'goto-next-diff, Next Change, Go to next change.'
+#. Performing 'goto-next-diff, Next Change, Go to next change.'
+#. Performing 'goto-next-diff, Next Change, Go to next change.'
+#. Performing 'goto-next-diff, Next Change, Go to next change.'
+#. Performing 'goto-previous-diff, Previous Change, Go to previous change.'
+#. Performing 'preferences, Preferences'
+#. Showing dialog 4 (@SVJAAW) '@GY9WG1 - Preferences' (owner: @8TF1S9)
+#. Performing ', OK'
+msgctxt "nttGeneral:"
+msgid "Skip this Poll"
+msgstr ""
+
+#. Performing ', OK'
+#. Performing 'goto-next-diff, Next Change, Go to next change.'
+#. Performing 'goto-next-diff, Next Change, Go to next change.'
+#. Performing 'goto-next-diff, Next Change, Go to next change.'
+#. Performing 'goto-next-diff, Next Change, Go to next change.'
+#. Performing 'goto-next-diff, Next Change, Go to next change.'
+#. Performing 'goto-previous-diff, Previous Change, Go to previous change.'
+#. Performing 'preferences, Preferences'
+#. Showing dialog 4 (@SVJAAW) '@GY9WG1 - Preferences' (owner: @8TF1S9)
+#. Performing ', OK'
+msgctxt "nttUpdateCheck:"
+msgid "Quick Poll: Native vs cross-platform look-and-feel"
+msgstr ""
+
+#. Performing ', OK'
+#. Performing 'goto-next-diff, Next Change, Go to next change.'
+#. Performing 'goto-next-diff, Next Change, Go to next change.'
+#. Performing 'goto-next-diff, Next Change, Go to next change.'
+#. Performing 'goto-next-diff, Next Change, Go to next change.'
+#. Performing 'goto-next-diff, Next Change, Go to next change.'
+#. Performing 'goto-previous-diff, Previous Change, Go to previous change.'
+#. Performing 'preferences, Preferences'
+#. Showing dialog 4 (@SVJAAW) '@GY9WG1 - Preferences' (owner: @8TF1S9)
+#. Performing ', OK'
+msgctxt "nttUpdateCheck:"
+msgid "Vote"
+msgstr ""
