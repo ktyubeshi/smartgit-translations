@@ -7120,7 +7120,7 @@ msgstr "インポート"
 
 msgctxt "dlgSgPreferences.btn:"
 msgid "Load All Stored Secrets"
-msgstr "すべての保存された秘密を読み込む"
+msgstr "保存されているすべてのシークレットを読み込む"
 
 msgctxt "dlgSgPreferences.btn:"
 msgid "Move Down"
@@ -7244,7 +7244,7 @@ msgstr "ツール"
 
 msgctxt "dlgSgPreferences.cdl:"
 msgid "User Interface"
-msgstr "ユーザインタフェース"
+msgstr "ユーザーインターフェース"
 
 msgctxt "dlgSgPreferences.chk:"
 msgid "Add untracked files"
@@ -7256,7 +7256,7 @@ msgstr "スタッシュとプルリクエストのコミットにすべてのコ
 
 msgctxt "dlgSgPreferences.chk:"
 msgid "Allow modifying pushed commits \\(e.g. forced-push\\)"
-msgstr "プッシュされたコミットの修正を許可する (例: force-push)"
+msgstr "プッシュされたコミットの修正を許可する (例: 強制プッシュ)"
 
 msgctxt "dlgSgPreferences.chk:"
 msgid "Allow modifying pushed commits \\(e.g. forced-push\\):"
@@ -7268,7 +7268,7 @@ msgstr "同一のリポジトリ/ファイルに対して複数のログウィ�
 
 msgctxt "dlgSgPreferences.chk:"
 msgid "Also detect renames for untracked and missing files"
-msgstr "トラックされていないファイルや行方不明のファイルのリネームも検出します。"
+msgstr "追跡されていないファイルや見つからないファイルのリネームも検出する"
 
 msgctxt "dlgSgPreferences.chk:"
 msgid "Always fetch new commits, tags and branches from submodule"
@@ -7462,9 +7462,10 @@ msgctxt "dlgSgPreferences.chk:"
 msgid "Show only fixed-width fonts"
 msgstr "等幅フォントのみを表示"
 
+# 現状は言語設定を日本語にしても相対的な日付や曜日は英語表記のままなので、敢えて英語のままで例示しています。
 msgctxt "dlgSgPreferences.chk:"
 msgid "Show verbose date for last days, e.g. Yesterday"
-msgstr "過去の日の詳細な日付を表示する（例：Yesterday"
+msgstr "最近の日付を`Yesterday`,`Monday`などで表示"
 
 msgctxt "dlgSgPreferences.chk:"
 msgid "Show welcome dialog if no repository has been reopened"
@@ -7686,7 +7687,7 @@ msgstr "フルネーム"
 
 msgctxt "dlgSgPreferences.edt:"
 msgid "Functionality\\*"
-msgstr "機能性\\*"
+msgstr "機能レベル\\*"
 
 msgctxt "dlgSgPreferences.edt:"
 msgid "GPG Program"
@@ -8060,7 +8061,7 @@ msgstr "ファイル/ディレクトリ"
 
 msgctxt "dlgSgPreferences.lbl:"
 msgid "may be harder to configure and use for new users, but is more flexible"
-msgstr "新しいユーザーにとっては設定や使い方が難しいかもしれませんが、より柔軟性があります。"
+msgstr "初心者には設定や使用が難しいかもしれませんが、より柔軟です。"
 
 msgctxt "dlgSgPreferences.mni:"
 msgid "Accelerator"
