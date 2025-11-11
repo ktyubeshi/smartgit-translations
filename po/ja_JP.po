@@ -3990,7 +3990,7 @@ msgstr "メッセージを使用するコミットを選択します。"
 
 msgctxt "dlgSgCommitSelectMessageFromLog.mni:"
 msgid "Author"
-msgstr "作者"
+msgstr "著者"
 
 msgctxt "dlgSgCommitSelectMessageFromLog.mni:"
 msgid "Branches and Tags"
@@ -5348,7 +5348,7 @@ msgstr "環境設定のローレベル・プロパティ 'history.disableOperati
 
 msgctxt "dlgSgHistoryEditAuthor.btn:"
 msgid "Set Author"
-msgstr "作者を設定"
+msgstr "著者を設定"
 
 msgctxt "dlgSgHistoryEditAuthor.edt:"
 msgid "Email"
@@ -5368,15 +5368,15 @@ msgstr "ユーザ名"
 
 msgctxt "dlgSgHistoryEditAuthor.hdl:"
 msgid "Edit commit author"
-msgstr "作者を編集"
+msgstr "著者を編集"
 
 msgctxt "dlgSgHistoryEditAuthor.inf:"
 msgid "Enter the new commit author and its email address."
-msgstr "新しいコミットの作者とそのメールアドレスを入力します。"
+msgstr "新しいコミットの著者とそのメールアドレスを入力します。"
 
 msgctxt "dlgSgHistoryEditAuthor.tle:"
 msgid "Edit Author"
-msgstr "作者を編集"
+msgstr "著者を編集"
 
 msgctxt "dlgSgHistoryEditChooseCommitMessage.btn:"
 msgid "From Commit"
@@ -5550,7 +5550,7 @@ msgstr "既にプッシュされているコミットを修正しますか?"
 #, fuzzy
 msgctxt "dlgSgHistoryPushedCommitsModifyPushedCommits.tle:"
 msgid "Edit Author"
-msgstr "作者を編集"
+msgstr "著者を編集"
 
 msgctxt "dlgSgHistoryPushedCommitsModifyPushedCommits.tle:"
 msgid "Edit Message"
@@ -6280,7 +6280,7 @@ msgstr "少なくとも1つの選択されたコミットを変更できませ�
 
 msgctxt "dlgSgJournalFormCommitCantBeModified.tle:"
 msgid "Edit Author"
-msgstr "作者を編集"
+msgstr "著者を編集"
 
 msgctxt "dlgSgLfsInstallConfirm.btn:"
 msgid "Install"
@@ -13004,7 +13004,7 @@ msgstr "<b>$1<\\/b> <col1>$2<\\/col1> で承認されました:"
 
 msgctxt "ttpBranches:"
 msgid "<b>Author:\\t</b>$1"
-msgstr "<b>作者:\\t</b>$1"
+msgstr "<b>著者:\\t</b>$1"
 
 msgctxt "ttpBranches:"
 msgid "<b>Comment:\\t</b>$1"
@@ -13361,7 +13361,7 @@ msgstr "Age"
 
 msgctxt "wndAnnotate.cmb:"
 msgid "Author"
-msgstr "作者"
+msgstr "著者"
 
 msgctxt "wndAnnotate.cmb:"
 msgid "Changes Since"
@@ -15319,7 +15319,7 @@ msgstr "担当者"
 
 msgctxt "wnd(Log|Project|Std|).col:"
 msgid "Author"
-msgstr "作者"
+msgstr "著者"
 
 msgctxt "wnd(Log|Project|Std|).col:"
 msgid "Branch"
@@ -15499,23 +15499,23 @@ msgstr "担当者"
 
 msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "Author Abbreviated"
-msgstr "作者の略称"
+msgstr "著者の略称"
 
 msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "Author Avatar"
-msgstr "作者のアバター"
+msgstr "著者のアバター"
 
 msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "Author with Full Name and Email"
-msgstr "作者\\(フルネーム\\)とEメール"
+msgstr "著者\\(フルネーム\\)とEメール"
 
 msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "Author with Full Name"
-msgstr "作者\\(フルネーム\\)"
+msgstr "著者\\(フルネーム\\)"
 
 msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "Author"
-msgstr "作者"
+msgstr "著者"
 
 msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "Branch Coloring"
@@ -15759,11 +15759,11 @@ msgstr "パッチを作成"
 
 msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "Full Author With Email"
-msgstr "作者(フルネーム)とメール"
+msgstr "著者(フルネーム)とメール"
 
 msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "Full Author"
-msgstr "作者(フルネーム)"
+msgstr "著者(フルネーム)"
 
 msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "Full Name With Email"
@@ -16472,7 +16472,7 @@ msgstr "行比較で大文字小文字を区別しない"
 
 msgctxt "wnd(Log|Project|Std|).mniEditCommitAuthor:"
 msgid "Edit Author"
-msgstr "作者を編集"
+msgstr "著者を編集"
 
 msgctxt "wnd(Log|Project|Std|).mniEditCommitMessage:"
 msgid "Edit Message"
