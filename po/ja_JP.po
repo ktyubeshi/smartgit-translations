@@ -12636,7 +12636,7 @@ msgstr "<link1>YouTube</link1>:  チュートリアルと専門家の動画"
 
 msgctxt "ntmFollowUsOnTwitter:"
 msgid "Follow us on your favorite social media platforms to receive news, learn about features or influence future versions of SmartGit with your requests and feedback!"
-msgstr "お気に入りのSNSで私たちをフォローして、最新ニュースや機能紹介をご覧ください。皆様のリクエストやフィードバックで開発チームと対話し、次世代のSmartGitづくりにご参加ください！"
+msgstr "お気に入りのSNSで私たちをフォローして、最新ニュースや機能紹介をご覧ください。 皆様のリクエストやフィードバックで開発チームと対話し、次世代のSmartGitづくりにご参加ください！"
 
 msgctxt "ntmFollowUsOnTwitter:"
 msgid "It's a great way to help shaping future versions of SmartGit!"
@@ -12741,11 +12741,11 @@ msgstr "SmartGit の再起動後にのみ適用される一部の設定オプシ
 
 msgctxt "ntmProblematicGcConfiguration:"
 msgid "Git's garbage collection is \\(by default\\) configured to run in background \\(gc.autoDetach\\) in your .gitconfig. This configuration is appropriate for command line client, but may cause troubles in combinations with GUI clients like SmartGit."
-msgstr "Gitのガベージコレクションは、\\(デフォルトでは\\) バックグラウンドで実行するように設定されています \\(.gitconfig 内の gc.autoDetach\\)。この設定はコマンドラインクライアントには適していますが、SmartGitのようなGUIクライアントとの組み合わせでは問題が発生する可能性があります。"
+msgstr "Gitのガベージコレクションは、\\(デフォルトでは\\) バックグラウンドで実行するように設定されています \\(.gitconfig 内の gc.autoDetach\\)。 この設定はコマンドラインクライアントには適していますが、SmartGitのようなGUIクライアントとの組み合わせでは問題が発生する可能性があります。"
 
 msgctxt "ntmRepositoryGitCleanup:"
 msgid "The repository '$1' contains a significant amount of loose or even unused 'objects'. Running a cleanup will reduce disk space and increase performance. SmartGit will try to do so, when it is idle."
-msgstr "リポジトリ '$1' には、多数の loose objects や使用されていないオブジェクトが含まれています。クリーンアップを実行すると、ディスクスペースが節約され、パフォーマンスが向上します。SmartGitは、アイドル状態のときにこれを試みます。"
+msgstr "リポジトリ '$1' には、多数の loose objects や使用されていないオブジェクトが含まれています。 クリーンアップを実行すると、ディスクスペースが節約され、パフォーマンスが向上します。 SmartGitは、アイドル状態のときにこれを試みます。"
 
 msgctxt "ntmSupportExpired:"
 msgid "To extend your support, please purchase an update license and upgrade to the latest SmartGit version."
@@ -12755,10 +12755,10 @@ msgctxt "ntmSupportExpired:"
 msgid "You may continue to use SmartGit, just your support period expired."
 msgstr "サポート期間が終了しましたが、引き続きSmartGitを使用することができます。"
 
-# ToDo: quick polls が具体的にどのようなものか要確認
+# "Quick polls" は簡単なアンケートを指します。有効にすると通知エリアにたまにアンケートが表示されるようになります。回答はWebベースのアンケートフォームに入力する方式で数件の質問に回答します。
 msgctxt "ntmUpdateCheckChannelSubscribePolls:"
 msgid "Occasionally, you'll be invited to quick polls here in the notification area. Your feedback helps shape SmartGit's future. You can turn this off anytime in the Preferences."
-msgstr "時折、通知エリアに簡単なアンケートが表示されることがあります。皆様からいただいたフィードバックは、今後の製品改善に役立たせていただきます。この通知は設定からいつでも無効にできます。"
+msgstr "時折、通知エリアに簡単なアンケートが表示されることがあります。 皆様からいただいたフィードバックは、今後の製品改善に役立たせていただきます。 この通知は設定からいつでも無効にできます。"
 
 msgctxt "ntmUpdateCheckFetchVersionStart:"
 msgid "After the new version has been downloaded successfully, you will be notified again."
@@ -12892,15 +12892,14 @@ msgctxt "nttSupportExpired:"
 msgid "Your support period has expired on $1."
 msgstr "$1 にサポート期間が終了しました。"
 
-# 意訳した"SmartGitの機能改善にご協力いただけませんか？"のメッセージと整合させるため
 msgctxt "nttUpdateCheckChannelSubscribePolls:"
 msgid "Turn on"
-msgstr "オンにする"
+msgstr "有効化"
 
 # 直訳では"Want to influence"は"影響を与えたいですか？"のようになりますが、日本語として不自然なため、意訳しています。
 msgctxt "nttUpdateCheckChannelSubscribePolls:"
 msgid "Want to influence SmartGit's development?"
-msgstr "SmartGitの機能改善にご協力いただけませんか？"
+msgstr "SmartGitの改善にご協力いただけませんか？"
 
 msgctxt "nttUpdateCheckFetchVersionStart:"
 msgid "Started downloading version $1 \\($2\\)."
