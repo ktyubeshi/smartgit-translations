@@ -15655,7 +15655,7 @@ msgstr "日付"
 
 msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "Default Coloring"
-msgstr "デフォルトカラーリング"
+msgstr "デフォルトの配色"
 
 msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "Delete 'Comment $1'"
@@ -16642,21 +16642,25 @@ msgctxt "wnd(Log|Project|Std|).mniLog:"
 msgid "Log"
 msgstr "ログ"
 
+# 現在のブランチのグラフだけが強調表示されます。
 msgctxt "wnd(Log|Project|Std|).mniLogCommitsColoringBranch:"
 msgid "Branch Coloring"
-msgstr "ブランチカラーリング"
+msgstr "現在のブランチを強調"
 
 msgctxt "wnd(Log|Project|Std|).mniLogCommitsColoringDefault:"
 msgid "Default Coloring"
-msgstr "デフォルトカラーリング"
+msgstr "デフォルト配色"
 
+# 混線したグラフでのブランチ識別をしやすくするための多色表示モード
 msgctxt "wnd(Log|Project|Std|).mniLogCommitsColoringLegacy:"
 msgid "Varying Coloring"
-msgstr "さまざまな色"
+msgstr "視認性重視の配色"
 
+# 現在のブランチに対してマージ可能なブランチだけ強調表示されます。
+# 複雑に分岐したブランチの中からまだマージされていないブランチを探したいときに便利なモードです
 msgctxt "wnd(Log|Project|Std|).mniLogCommitsColoringMerge:"
 msgid "Mergeable Coloring"
-msgstr "マージ可能なカラーリング"
+msgstr "マージ可能なブランチを強調"
 
 msgctxt "wnd(Log|Project|Std|).mniLogRepository:"
 msgid "Show Log Window"
