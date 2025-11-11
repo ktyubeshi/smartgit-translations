@@ -9940,6 +9940,10 @@ msgctxt "dlgSgRepositoryClose.tle:"
 msgid "Close"
 msgstr ""
 
+msgctxt "dlgSgRepositoryClose.tle:"
+msgid "Exit"
+msgstr ""
+
 msgctxt "dlgSgRepositoryFrameCloseWithoutPush.btn:"
 msgid "Close Now"
 msgstr ""
@@ -12788,6 +12792,10 @@ msgctxt "nttGeneral:"
 msgid "Remind me later"
 msgstr ""
 
+msgctxt "nttGeneral:"
+msgid "Skip this Poll"
+msgstr ""
+
 msgctxt "nttHighMemoryUsage:"
 msgid "Contact Support"
 msgstr ""
@@ -12846,6 +12854,15 @@ msgstr ""
 
 msgctxt "nttSupportExpired:"
 msgid "Your support period has expired on $1."
+msgstr ""
+
+# ToDo:Review
+msgctxt "nttUpdateCheck:"
+msgid "Quick Poll: Native vs cross-platform look-and-feel"
+msgstr ""
+
+msgctxt "nttUpdateCheck:"
+msgid "Vote"
 msgstr ""
 
 msgctxt "nttUpdateCheckChannelSubscribePolls:"
@@ -14714,6 +14731,14 @@ msgid "Changed files"
 msgstr ""
 
 msgctxt "wndStd.mni:"
+msgid "Close Others"
+msgstr ""
+
+msgctxt "wndStd.mni:"
+msgid "Close to the Right"
+msgstr ""
+
+msgctxt "wndStd.mni:"
 msgid "Continue in Background"
 msgstr ""
 
@@ -14722,7 +14747,15 @@ msgid "Continue with Description"
 msgstr ""
 
 msgctxt "wndStd.mni:"
+msgid "Copy Path"
+msgstr ""
+
+msgctxt "wndStd.mni:"
 msgid "Don't Show Pull Requests"
+msgstr ""
+
+msgctxt "wndStd.mni:"
+msgid "Drop All Notes"
 msgstr ""
 
 msgctxt "wndStd.mni:"
@@ -17979,118 +18012,4 @@ msgstr ""
 
 msgctxt "wnd(Log|Std|).mniOpen:"
 msgid "Open from Working Tree"
-msgstr ""
-
-# BUILD: 251093
-#
-#. Performing 'logCommitsColoringDefault, Default Coloring'
-#. Performing 'logCommitsColoringBranch, Branch Coloring'
-#. Performing 'logCommitsColoringMerge, Mergeable Coloring'
-#. Performing 'logCommitsColoringBranch, Branch Coloring'
-#. Performing 'logCommitsColoringDefault, Default Coloring'
-#. Performing '@smartgit.bFP'
-#. Performing '@smartgit.bFP'
-#. Performing 'fetch, Pull..., Fetch commits from a remote repository and (optionally) integrate them with possible local commits.'
-#. Showing dialog 12 (@DLZOTK) '@EZNL0L - Pull' (owner: @8D1IT4)
-#. Performing ', Pull'
-msgctxt "dlgSgRepositoryClose.tle:"
-msgid "Exit"
-msgstr ""
-
-#. Performing ', OK'
-#. Performing 'goto-next-diff, Next Change, Go to next change.'
-#. Performing 'goto-next-diff, Next Change, Go to next change.'
-#. Performing 'goto-next-diff, Next Change, Go to next change.'
-#. Performing 'goto-next-diff, Next Change, Go to next change.'
-#. Performing 'goto-next-diff, Next Change, Go to next change.'
-#. Performing 'goto-previous-diff, Previous Change, Go to previous change.'
-#. Performing 'preferences, Preferences'
-#. Showing dialog 4 (@SVJAAW) '@GY9WG1 - Preferences' (owner: @8TF1S9)
-#. Performing ', OK'
-msgctxt "nttGeneral:"
-msgid "Skip this Poll"
-msgstr ""
-
-#. Performing ', OK'
-#. Performing 'goto-next-diff, Next Change, Go to next change.'
-#. Performing 'goto-next-diff, Next Change, Go to next change.'
-#. Performing 'goto-next-diff, Next Change, Go to next change.'
-#. Performing 'goto-next-diff, Next Change, Go to next change.'
-#. Performing 'goto-next-diff, Next Change, Go to next change.'
-#. Performing 'goto-previous-diff, Previous Change, Go to previous change.'
-#. Performing 'preferences, Preferences'
-#. Showing dialog 4 (@SVJAAW) '@GY9WG1 - Preferences' (owner: @8TF1S9)
-#. Performing ', OK'
-msgctxt "nttUpdateCheck:"
-msgid "Quick Poll: Native vs cross-platform look-and-feel"
-msgstr ""
-
-#. Performing ', OK'
-#. Performing 'goto-next-diff, Next Change, Go to next change.'
-#. Performing 'goto-next-diff, Next Change, Go to next change.'
-#. Performing 'goto-next-diff, Next Change, Go to next change.'
-#. Performing 'goto-next-diff, Next Change, Go to next change.'
-#. Performing 'goto-next-diff, Next Change, Go to next change.'
-#. Performing 'goto-previous-diff, Previous Change, Go to previous change.'
-#. Performing 'preferences, Preferences'
-#. Showing dialog 4 (@SVJAAW) '@GY9WG1 - Preferences' (owner: @8TF1S9)
-#. Performing ', OK'
-msgctxt "nttUpdateCheck:"
-msgid "Vote"
-msgstr ""
-
-#. Showing dialog 10 (@YYO1CX) '@PS8GI1 - Replace Message' (owner: @AOZC2J)
-#. Performing ', Replace'
-#. Performing 'changesView.unified, Unified'
-#. Performing 'changesView.compact, Compact'
-#. Performing 'changesView.sideBySide, Side by Side'
-#. Performing 'changesView.unified, Unified'
-#. Performing 'view-settings, Settings…'
-#. Showing dialog 11 (@C18XFT) '@OTB2DX - Settings' (owner: @AOZC2J)
-#. Performing ', Close'
-#. Performing 'stdSetModeHistory, Show History, Show the history view.'
-msgctxt "wndStd.mni:"
-msgid "Close Others"
-msgstr ""
-
-#. Showing dialog 10 (@YYO1CX) '@PS8GI1 - Replace Message' (owner: @AOZC2J)
-#. Performing ', Replace'
-#. Performing 'changesView.unified, Unified'
-#. Performing 'changesView.compact, Compact'
-#. Performing 'changesView.sideBySide, Side by Side'
-#. Performing 'changesView.unified, Unified'
-#. Performing 'view-settings, Settings…'
-#. Showing dialog 11 (@C18XFT) '@OTB2DX - Settings' (owner: @AOZC2J)
-#. Performing ', Close'
-#. Performing 'stdSetModeHistory, Show History, Show the history view.'
-msgctxt "wndStd.mni:"
-msgid "Close to the Right"
-msgstr ""
-
-#. Showing dialog 10 (@YYO1CX) '@PS8GI1 - Replace Message' (owner: @AOZC2J)
-#. Performing ', Replace'
-#. Performing 'changesView.unified, Unified'
-#. Performing 'changesView.compact, Compact'
-#. Performing 'changesView.sideBySide, Side by Side'
-#. Performing 'changesView.unified, Unified'
-#. Performing 'view-settings, Settings…'
-#. Showing dialog 11 (@C18XFT) '@OTB2DX - Settings' (owner: @AOZC2J)
-#. Performing ', Close'
-#. Performing 'stdSetModeHistory, Show History, Show the history view.'
-msgctxt "wndStd.mni:"
-msgid "Copy Path"
-msgstr ""
-
-#. opening smartgit.aBC@MXW567:null (smartgit.aBC@AOZC2J)
-#. Performing 'stdSetModeHistory, Show History, Show the history view.'
-#. Performing ', Only current branch (HEAD)'
-#. Performing ', All my branches'
-#. Performing ', Show 'My' and Unassigned Pull Requests'
-#. Performing ', Show 'My' Pull Requests (involving me)'
-#. Performing 'stdSetModeWt, Show Local Changes, Show the local files of the repository (Working Tree).'
-#. Performing 'stdSetModeHistory, Show History, Show the history view.'
-#. Performing ', Show Local Changes'
-#. Performing 'stdSetModeWt, Show Local Changes, Show the local files of the repository (Working Tree).'
-msgctxt "wndStd.mni:"
-msgid "Drop All Notes"
 msgstr ""
