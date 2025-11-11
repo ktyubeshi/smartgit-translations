@@ -18038,3 +18038,59 @@ msgstr ""
 msgctxt "nttUpdateCheck:"
 msgid "Vote"
 msgstr ""
+
+#. Showing dialog 10 (@YYO1CX) '@PS8GI1 - Replace Message' (owner: @AOZC2J)
+#. Performing ', Replace'
+#. Performing 'changesView.unified, Unified'
+#. Performing 'changesView.compact, Compact'
+#. Performing 'changesView.sideBySide, Side by Side'
+#. Performing 'changesView.unified, Unified'
+#. Performing 'view-settings, Settings…'
+#. Showing dialog 11 (@C18XFT) '@OTB2DX - Settings' (owner: @AOZC2J)
+#. Performing ', Close'
+#. Performing 'stdSetModeHistory, Show History, Show the history view.'
+msgctxt "wndStd.mni:"
+msgid "Close Others"
+msgstr ""
+
+#. Showing dialog 10 (@YYO1CX) '@PS8GI1 - Replace Message' (owner: @AOZC2J)
+#. Performing ', Replace'
+#. Performing 'changesView.unified, Unified'
+#. Performing 'changesView.compact, Compact'
+#. Performing 'changesView.sideBySide, Side by Side'
+#. Performing 'changesView.unified, Unified'
+#. Performing 'view-settings, Settings…'
+#. Showing dialog 11 (@C18XFT) '@OTB2DX - Settings' (owner: @AOZC2J)
+#. Performing ', Close'
+#. Performing 'stdSetModeHistory, Show History, Show the history view.'
+msgctxt "wndStd.mni:"
+msgid "Close to the Right"
+msgstr ""
+
+#. Showing dialog 10 (@YYO1CX) '@PS8GI1 - Replace Message' (owner: @AOZC2J)
+#. Performing ', Replace'
+#. Performing 'changesView.unified, Unified'
+#. Performing 'changesView.compact, Compact'
+#. Performing 'changesView.sideBySide, Side by Side'
+#. Performing 'changesView.unified, Unified'
+#. Performing 'view-settings, Settings…'
+#. Showing dialog 11 (@C18XFT) '@OTB2DX - Settings' (owner: @AOZC2J)
+#. Performing ', Close'
+#. Performing 'stdSetModeHistory, Show History, Show the history view.'
+msgctxt "wndStd.mni:"
+msgid "Copy Path"
+msgstr ""
+
+#. opening smartgit.aBC@MXW567:null (smartgit.aBC@AOZC2J)
+#. Performing 'stdSetModeHistory, Show History, Show the history view.'
+#. Performing ', Only current branch (HEAD)'
+#. Performing ', All my branches'
+#. Performing ', Show 'My' and Unassigned Pull Requests'
+#. Performing ', Show 'My' Pull Requests (involving me)'
+#. Performing 'stdSetModeWt, Show Local Changes, Show the local files of the repository (Working Tree).'
+#. Performing 'stdSetModeHistory, Show History, Show the history view.'
+#. Performing ', Show Local Changes'
+#. Performing 'stdSetModeWt, Show Local Changes, Show the local files of the repository (Working Tree).'
+msgctxt "wndStd.mni:"
+msgid "Drop All Notes"
+msgstr ""
