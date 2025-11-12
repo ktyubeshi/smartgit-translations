@@ -12609,7 +12609,7 @@ msgstr "ディレクトリ'$1'\\($2\\)は、いくつかの.gitignoreファイ�
 
 msgctxt "ntmFileMonitorDirectoriesExcluded:"
 msgid "Sometimes ignored directories are containing tracked files in which case changes to these files might not show up automatically. If this is the case for you, you may disable this optimization by setting system property 'fileMonitor.excludeIgnoredDirectories\\=false'."
-msgstr "時には無視されているディレクトリに追跡済みのファイルが含まれている場合があり、その場合、これらのファイルの変更が自動的に表示されないことがあります。もしそうであれば、システムプロパティ'fileMonitor.excludeIgnoredDirectories=false'を設定することで、この最適化を無効にすることができます。"
+msgstr "時には無視されているディレクトリに追跡済みのファイルが含まれている場合があり、その場合、これらのファイルの変更が自動的に表示されないことがあります。 もしそうであれば、システムプロパティ'fileMonitor.excludeIgnoredDirectories=false'を設定することで、この最適化を無効にすることができます。"
 
 msgctxt "ntmFileMonitorDirectoriesExcluded:"
 msgid "Usually this does not cause any problems but improves Refreshing performance and reduces required inotify handles."
