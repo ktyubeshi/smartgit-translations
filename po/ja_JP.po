@@ -9801,9 +9801,10 @@ msgctxt "dlgSgRenameBranch.hdl:"
 msgid "Rename branch"
 msgstr "ブランチの名前を変更する"
 
+# $1: Current branch name
 msgctxt "dlgSgRenameBranch.inf:"
 msgid "Enter the new name for the branch '$1'."
-msgstr "ブランチの新しい名前 '$1' を入力してください。"
+msgstr "'$1'ブランチの新しい名前を入力してください。"
 
 msgctxt "dlgSgRenameBranch.tle:"
 msgid "Rename"
