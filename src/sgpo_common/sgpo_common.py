@@ -49,7 +49,7 @@ def get_master_mapping_file(base_dir: str) -> str:
 
 
 def create_meta_dict(locale_code: str) -> dict:
-    meta_data_dict = META_DATA_BASE_DICT
+    meta_data_dict = META_DATA_BASE_DICT.copy()
     meta_data_dict['Language'] = locale_code
 
     return meta_data_dict

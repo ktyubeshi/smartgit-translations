@@ -21,7 +21,6 @@ def main():
 
     # Import and specific format
     result = pot.import_unknown(unknown)
-    pot.sort()
     pot.format()
 
     print(f"Summary: added {result['added']} entries from unknown file.")

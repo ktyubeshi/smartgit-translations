@@ -38,13 +38,6 @@ def main():
         print('output:' + output_file)
 
 
-def create_meda_dict(locale_code: str) -> dict:
-    meta_data_dict = META_DATA_BASE_DICT
-    meta_data_dict['Language'] = locale_code
-
-    return meta_data_dict
-
-
 # ======================================================================
 def CombinedSgMap_to_po(combined_map: CombinedSgMap) -> polib.POFile:
     po = polib.POFile()

@@ -26,7 +26,6 @@ def main():
 
         # Import and specific format
         result = po.import_pot(pot)
-        po.sort()
         po.format()
 
         print(

@@ -6,6 +6,7 @@ from collections import namedtuple
 from typing import Callable, Iterator, Optional, Protocol
 
 import polib
+from sgpo_common import META_DATA_BASE_DICT as COMMON_METADATA_BASE_DICT
 
 Key_tuple = namedtuple('Key_tuple', ['msgctxt', 'msgid'])
 
@@ -88,19 +89,8 @@ def pofile_from_text(text: str, *, backend: Optional[PoBackend] = None) -> SGPoF
 
 class SGPoFile:
     """Domain wrapper around polib that adds SmartGit-specific behaviors."""
-    META_DATA_BASE_DICT = {
-        'Project-Id-Version': 'SmartGit',
-        'Report-Msgid-Bugs-To': 'https://github.com/syntevo/smartgit-translations',
-        'POT-Creation-Date': '',
-        'PO-Revision-Date': '',
-        'Last-Translator': '',
-        'Language-Team': '',
-        'Language': '',
-        'MIME-Version': '1.0',
-        'Content-Type': 'text/plain; charset=UTF-8',
-        'Content-Transfer-Encoding': '8bit',
-        'Plural-Forms': 'nplurals=1; plural=0;',
-    }
+
+    META_DATA_BASE_DICT = COMMON_METADATA_BASE_DICT
 
     def __init__(
         self,
@@ -184,6 +174,7 @@ class SGPoFile:
             if my_entry.msgid != mismatch_entry.msgid:
                 my_entry.previous_msgid = my_entry.msgid
                 my_entry.msgid = mismatch_entry.msgid
+                self._ensure_flag(my_entry, 'fuzzy')
                 modified += 1
 
         return {'added': added, 'modified': modified}
@@ -222,7 +213,7 @@ class SGPoFile:
             if pot_entry and (my_entry.msgid != pot_entry.msgid):
                 my_entry.previous_msgid = my_entry.msgid
                 my_entry.msgid = pot_entry.msgid
-                my_entry.flags = ['fuzzy']
+                self._ensure_flag(my_entry, 'fuzzy')
                 modified_entry_count += 1
 
         return {
@@ -326,6 +317,14 @@ class SGPoFile:
         """Normalize multi-key markers so they sort deterministically."""
         pattern = r"(?<!\\\\)\(([^)]+)\)(?!\\\\)"
         return re.sub(pattern, r'ZZZ\1', text)
+
+    @staticmethod
+    def _ensure_flag(entry: polib.POEntry, flag: str) -> None:
+        """Ensure *flag* is present on the entry without clobbering others."""
+        flags = list(getattr(entry, 'flags', []) or [])
+        if flag not in flags:
+            flags.append(flag)
+        entry.flags = flags
 
     @staticmethod
     def _validate_filename(filename: str) -> bool:
