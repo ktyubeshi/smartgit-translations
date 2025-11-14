@@ -1,4 +1,0 @@
-pytest
-pyparsing
-polib
-openai

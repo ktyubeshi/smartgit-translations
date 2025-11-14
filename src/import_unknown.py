@@ -20,9 +20,11 @@ def main():
         exit(-1)
 
     # Import and specific format
-    pot.import_unknown(unknown)
+    result = pot.import_unknown(unknown)
     pot.sort()
     pot.format()
+
+    print(f"Summary: added {result['added']} entries from unknown file.")
 
     # Save pot file
     pot.save(pot_file)

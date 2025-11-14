@@ -20,8 +20,14 @@ def main():
         exit(-1)
 
     # Import and specific format
-    pot.import_mismatch(mismatch)
+    result = pot.import_mismatch(mismatch)
     pot.sort()
+
+    print(
+        "Summary: added {added} entries, modified {modified} entries.".format(
+            added=result['added'], modified=result['modified']
+        )
+    )
 
     # Save pot file
     pot.save(pot_file)

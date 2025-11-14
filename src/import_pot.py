@@ -25,9 +25,17 @@ def main():
             exit(-1)
 
         # Import and specific format
-        po.import_pot(pot)
+        result = po.import_pot(pot)
         po.sort()
         po.format()
+
+        print(
+            "  Summary: added {added}, modified {modified}, marked obsolete {obsolete}.".format(
+                added=result['added'],
+                modified=result['modified'],
+                obsolete=result['obsolete'],
+            )
+        )
 
         # Save pot file
         po.save(po_file)

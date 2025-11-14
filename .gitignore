@@ -5,3 +5,9 @@
 **/unmapped*
 /.*/
 **/apikey*
+**/tmp/**
+
+# Python cache files
+**/*.egg-info/
+**/__pycache__/
+**/*.py[cod]

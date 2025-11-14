@@ -13,8 +13,9 @@ def main():
         print(e)
         exit(-1)
 
-    pot.delete_extracted_comments()
+    removed = pot.delete_extracted_comments()
     pot.save(pot_file)
+    print(f'Removed extracted comments from {removed} entries.')
 
 if __name__ == "__main__":
     main()

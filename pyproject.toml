@@ -1,0 +1,43 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "smartgit-translations-utils"
+version = "0.1.0"
+description = "Utility scripts for maintaining SmartGit localization PO/POT files."
+readme = "README.md"
+license = { file = "LICENSE.md" }
+requires-python = ">=3.10"
+authors = [
+  { name = "Syntevo GmbH" },
+  { name = "SmartGit translators" },
+]
+dependencies = [
+  "polib>=1.2",
+  "pyparsing>=3.2",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=9.0",
+]
+ai = [
+  "openai>=2.8",
+]
+
+[tool.setuptools]
+package-dir = { "" = "src" }
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = [
+  "sgpo*",
+  "sgpo_common*",
+  "path_finder*",
+  "sgv23_mapping*",
+]
+
+[tool.pytest.ini_options]
+addopts = "-ra"
+testpaths = ["src/tests"]
