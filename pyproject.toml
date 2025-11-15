@@ -16,7 +16,11 @@ authors = [
 dependencies = [
   "polib>=1.2",
   "pyparsing>=3.2",
+  "questionary>=2.0.1",
 ]
+
+[project.scripts]
+sgpo = "sgpo.cli:main"
 
 [project.optional-dependencies]
 dev = [
