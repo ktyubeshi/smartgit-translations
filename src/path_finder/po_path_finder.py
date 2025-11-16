@@ -1,6 +1,7 @@
-import os
 import glob
-from typing import AnyStr
+import os
+
+from sgpo_common.sgpo_common import get_repository_root as _common_repository_root
 
 
 class PoPathFinder:
@@ -18,7 +19,7 @@ class PoPathFinder:
 
     def get_po_files(self, translation_file_only=True) -> list:
         if translation_file_only:
-            pathname = os.path.join(self.get_po_file_dir(), '??_??.po')
+            pathname = os.path.join(self.get_po_file_dir(), '*_*.po')
         else:
             pathname = os.path.join(self.get_po_file_dir(), '*.po')
         po_files = glob.glob(pathname)
@@ -37,17 +38,8 @@ class PoPathFinder:
     def get_unknown_file(self) -> str:
         return os.path.join(self.get_po_file_dir(), f'unknown.{self.version}')
 
-
 def get_repository_root() -> str:
-    return dirname(dirname(dirname(os.path.abspath(__file__))))
-
-
-def dirname(p: os.PathLike[AnyStr]) -> AnyStr:
-    """
-    Alias for os.path.dirname()
-    """
-
-    return os.path.dirname(p)
+    return _common_repository_root()
 
 
 def main():
