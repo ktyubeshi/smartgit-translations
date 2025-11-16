@@ -12589,8 +12589,16 @@ msgid "Feature branch is empty."
 msgstr "Feature ブランチは空です。"
 
 msgctxt "dlgStdFeatureIntegrateProgress.fur:"
+msgid "Branch '$1' is ahead of '$2'.\\n\\nConsolidate the '$3'-branch, then invoke Integrate again."
+msgstr "ブランチ「$1」は「$2」より進んでいます。\\n\\n「$3」ブランチを整理してから、再度「統合」を実行してください。"
+
+msgctxt "dlgStdFeatureIntegrateProgress.fur:"
 msgid "The local feature branch has been rebased onto the remote branch '$1'.\\n\\nYou may now verify and push the branch, then invoke Integrate again."
 msgstr "ローカルの feature ブランチはリモートブランチ '$1' にリベースされました。\\n\\nブランチを確認してプッシュし、その後再度 Integrate を実行してください。"
+
+msgctxt "dlgStdFeatureIntegrateProgress.hdl:"
+msgid "Resolve diverged main branch."
+msgstr "分岐したメインブランチの解決"
 
 msgctxt "dlgStdFeatureIntegrateProgress.hdl:"
 msgid "Verify integrated remote changes."
