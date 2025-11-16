@@ -9286,7 +9286,7 @@ msgstr "続ける"
 
 msgctxt "dlgSgRebaseContinueWithDirtyWorkingTreeAndIndex.fur:"
 msgid "Rebase Continue will store both, staged changes and the working tree changes, in the new commit!\\n\\nIf the staged changes should go to a seperate commit, first commit them, and then invoke Continue again."
-msgstr "リベース継続時に、ステージされた変更と作業ツリーの変更の両方が新しいコミットに保存されます！\n\nステージされた変更を別のコミットにしたい場合は、先にそれらをコミットしてから、再度リベースを継続してください。"
+msgstr "リベース継続時に、ステージされた変更と作業ツリーの変更の両方が新しいコミットに保存されます！\\n\\nステージされた変更を別のコミットにしたい場合は、先にそれらをコミットしてから、再度リベースを継続してください。"
 
 msgctxt "dlgSgRebaseContinueWithDirtyWorkingTreeAndIndex.hdl:"
 msgid "Do you want the working tree changes to be applied, too?"
