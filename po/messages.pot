@@ -12432,6 +12432,18 @@ msgctxt "dlgStdCheckoutCommit.inf:"
 msgid "Enter the name of the local branch to create. It will be checked out."
 msgstr ""
 
+msgctxt "dlgStdDiscard.btn:"
+msgid "Discard"
+msgstr ""
+
+msgctxt "dlgStdDiscard.fur:"
+msgid "You won't be able to restore them."
+msgstr ""
+
+msgctxt "dlgStdDiscard.hdl:"
+msgid "Do you want to discard local changes?"
+msgstr ""
+
 msgctxt "dlgStdDiscardConfirmUntrackedFiles.btn:"
 msgid "Discard"
 msgstr ""
@@ -12554,11 +12566,19 @@ msgid "Branch '$1' is ahead of '$2'.\\n\\nConsolidate the '$3'-branch, then invo
 msgstr ""
 
 msgctxt "dlgStdFeatureIntegrateProgress.fur:"
+msgid "The feature branch has been rebased onto '$1'.\\n\\nYou may now verify and push the branch."
+msgstr ""
+
+msgctxt "dlgStdFeatureIntegrateProgress.fur:"
 msgid "The local feature branch has been rebased onto the remote branch '$1'.\\n\\nYou may now verify and push the branch, then invoke Integrate again."
 msgstr ""
 
 msgctxt "dlgStdFeatureIntegrateProgress.hdl:"
 msgid "Resolve diverged main branch."
+msgstr ""
+
+msgctxt "dlgStdFeatureIntegrateProgress.hdl:"
+msgid "Verify integrated main changes."
 msgstr ""
 
 msgctxt "dlgStdFeatureIntegrateProgress.hdl:"
@@ -12599,6 +12619,14 @@ msgstr ""
 
 msgctxt "dlgStdFeatureStartNotOnMainBranchesAndLocalChanges.hdl:"
 msgid "Do you want to switch to a different branch despite having local changes?"
+msgstr ""
+
+msgctxt "dlgStdOutputCommandConflicts.fur:"
+msgid "These conflicts must be resolved before continuing. Select the conflicted files in the Local Files view and use the Conflict Solver to resolve them, then continue the operation."
+msgstr ""
+
+msgctxt "dlgStdOutputCommandConflicts.hdl:"
+msgid "SmartGit encountered conflicts during the Integrate main operation."
 msgstr ""
 
 msgctxt "dlgStdPickCommitWtDirty.fur:"
