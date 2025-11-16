@@ -12436,7 +12436,7 @@ msgctxt "dlgStdDiscardConfirmUntrackedFiles.tle:"
 msgid "Discard"
 msgstr ""
 
-msgctxt "dlgStdFeature*:"
+msgctxt "dlgStdFeatureConfiguration.lbl:"
 msgid "The 'main branch' represents the main development branch of your repository and serves as a foundation for releases. Usually it is named 'develop', 'master' or 'main'.\\n\\nBranches that are used to develop a single new feature, bugfix or other related changes \\(temporarily\\) isolated from the main branch are called 'feature branch' \\(or short 'feature'\\). They typically have a special name prefix, e.g. 'feature/'.\\n\\nNew features will be forked off from a main branch using 'Start'. For an existing feature, new changes from the main branch will be integrated using 'Integrate'. Once you have finished the feature, you can incorporate it into the main branch using 'Finish'.\\n\\nFor extended configuration options, invoke '\\u30d6\\u30e9\\u30f3\\u30c1 \\| Feature \\u306e\\u8a2d\\u5b9a'."
 msgstr ""
 
