@@ -9472,6 +9472,14 @@ msgctxt "dlgSgRebaseNoop.tle:"
 msgid "Merge"
 msgstr "マージ"
 
+msgctxt "dlgSgRebaseNoopParent.fur:"
+msgid "Rebasing a commit onto its parent is allowed by Git but will not create a new commit or any meaningful changes."
+msgstr "コミットをその親にリベースすることはGitで許可されていますが、新しいコミットや意味のある変更は作成されません。"
+
+msgctxt "dlgSgRebaseNoopParent.hdl:"
+msgid "There is nothing to rebase."
+msgstr "リベースするものは何もありません。"
+
 msgctxt "dlgSgRebaseNoopSelf.fur:"
 msgid "Rebasing a commit onto itself is allowed by Git but will not create a new commit or any meaningful changes."
 msgstr "コミットを自身にリベースすることはGitで可能ですが、新しいコミットや意味のある変更は一切発生しません。"
@@ -9483,6 +9491,18 @@ msgstr "リベースするものは何もありません。"
 msgctxt "dlgSgRebaseNoopSelf.tle:"
 msgid "Rebase"
 msgstr "リベース"
+
+msgctxt "dlgSgRebaseSingleCommitConfirm.btn:"
+msgid "Rebase Single Commit"
+msgstr "単一のコミットをリベース"
+
+msgctxt "dlgSgRebaseSingleCommitConfirm.fur:"
+msgid "You are about to rebase your branch onto its own history. This action is allowed by Git but will not create a new commit or any meaningful changes.\\n\\nTo rebase a single commit, you can do so now.\\n\\nTo rebase a range of commits, select them in the Graph and drag & drop to the target commit."
+msgstr "ブランチを自身の履歴にリベースしようとしています。この操作はGitで許可されていますが、新しいコミットや意味のある変更は作成されません。\\n\\n単一のコミットをリベースする場合は、このまま実行できます。\\n\\n複数のコミットをリベースするには、グラフでそれらを選択し、ターゲットコミットにドラッグ＆ドロップしてください。"
+
+msgctxt "dlgSgRebaseSingleCommitConfirm.hdl:"
+msgid "Do you want to rebase only the HEAD commit?"
+msgstr "HEADコミットのみをリベースしますか？"
 
 msgctxt "dlgSgRebaseTagCommit.btn:"
 msgid "Add Tag"
