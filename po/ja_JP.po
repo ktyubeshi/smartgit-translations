@@ -12472,6 +12472,18 @@ msgctxt "dlgStdCheckoutCommit.inf:"
 msgid "Enter the name of the local branch to create. It will be checked out."
 msgstr "作成するローカルブランチの名前を入力してください。そのブランチがチェックアウトされます。"
 
+msgctxt "dlgStdDiscard.btn:"
+msgid "Discard"
+msgstr "破棄"
+
+msgctxt "dlgStdDiscard.fur:"
+msgid "You won't be able to restore them."
+msgstr "復元できなくなります。"
+
+msgctxt "dlgStdDiscard.hdl:"
+msgid "Do you want to discard local changes?"
+msgstr "ローカルの変更を破棄しますか？"
+
 msgctxt "dlgStdDiscardConfirmUntrackedFiles.btn:"
 msgid "Discard"
 msgstr "破棄"
@@ -12593,12 +12605,20 @@ msgid "Branch '$1' is ahead of '$2'.\\n\\nConsolidate the '$3'-branch, then invo
 msgstr "ブランチ「$1」は「$2」より進んでいます。\\n\\n「$3」ブランチを整理してから、再度「統合」を実行してください。"
 
 msgctxt "dlgStdFeatureIntegrateProgress.fur:"
+msgid "The feature branch has been rebased onto '$1'.\\n\\nYou may now verify and push the branch."
+msgstr "フィーチャーブランチは '$1' にリベースされました。\\n\\nブランチを確認してプッシュしてください。"
+
+msgctxt "dlgStdFeatureIntegrateProgress.fur:"
 msgid "The local feature branch has been rebased onto the remote branch '$1'.\\n\\nYou may now verify and push the branch, then invoke Integrate again."
 msgstr "ローカルの feature ブランチはリモートブランチ '$1' にリベースされました。\\n\\nブランチを確認してプッシュし、その後再度 Integrate を実行してください。"
 
 msgctxt "dlgStdFeatureIntegrateProgress.hdl:"
 msgid "Resolve diverged main branch."
 msgstr "分岐したメインブランチの解決"
+
+msgctxt "dlgStdFeatureIntegrateProgress.hdl:"
+msgid "Verify integrated main changes."
+msgstr "統合されたメインの変更を確認してください。"
 
 msgctxt "dlgStdFeatureIntegrateProgress.hdl:"
 msgid "Verify integrated remote changes."
@@ -12639,6 +12659,14 @@ msgstr "現在、作業ツリーにはローカルでの変更があり、あな
 msgctxt "dlgStdFeatureStartNotOnMainBranchesAndLocalChanges.hdl:"
 msgid "Do you want to switch to a different branch despite having local changes?"
 msgstr "ローカルに変更がありますが、別のブランチに切り替えますか？"
+
+msgctxt "dlgStdOutputCommandConflicts.fur:"
+msgid "These conflicts must be resolved before continuing. Select the conflicted files in the Local Files view and use the Conflict Solver to resolve them, then continue the operation."
+msgstr "続行する前に、これらの競合を解決する必要があります。ローカルファイルビューで競合しているファイルを選択し、コンフリクトソルバーを使用して解決してから、操作を続行してください。"
+
+msgctxt "dlgStdOutputCommandConflicts.hdl:"
+msgid "SmartGit encountered conflicts during the Integrate main operation."
+msgstr "メインブランチの統合操作中に競合が発生しました。"
 
 msgctxt "dlgStdPickCommitWtDirty.fur:"
 msgid "Commit or stash local changes before cherry-picking."
