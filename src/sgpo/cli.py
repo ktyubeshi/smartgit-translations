@@ -302,6 +302,28 @@ def _format_pot(finder: PoPathFinder) -> Iterator[str]:
     yield f"formatted: {pot_path}"
 
 
+def _is_untranslated(entry) -> bool:
+    """Return True if entry has no translation (singular or plural)."""
+
+    if getattr(entry, "obsolete", False):
+        return False
+
+    if hasattr(entry, "msgstr_plural") and entry.msgstr_plural:
+        return all(not text.strip() for text in entry.msgstr_plural.values())
+
+    return not bool(getattr(entry, "msgstr", "").strip())
+
+
+def _special_sort_locales(finder: PoPathFinder, po_paths: Iterable[str]) -> Iterator[str]:
+    """Sort locales while moving untranslated entries to the end."""
+
+    for po_path in po_paths:
+        po = sgpo.pofile(po_path)
+        po.sort(key=lambda entry: (_is_untranslated(entry), po._po_entry_to_sort_key(entry)))  # type: ignore[attr-defined]  # noqa: SLF001
+        po.save(po_path)
+        yield f"special-sorted: {po_path} (untranslated entries moved to bottom)"
+
+
 def _ensure_file_exists(path: str, hint: str) -> None:
     if not Path(path).exists():
         raise FileNotFoundError(f"[missing] {path}\n{hint}")
@@ -411,6 +433,7 @@ def _menu_choices(finder: PoPathFinder) -> list:
             [
                 ("Format locale .po files (format)", "format_po"),
                 ("Import POT into locale .po files (import-pot)", "import_pot"),
+                ("Special sort locale .po files (special-sort)", "special_sort_po"),
             ],
         ),
         (
@@ -506,6 +529,21 @@ def _interactive_format(finder: PoPathFinder) -> None:
         return
 
 
+def _interactive_special_sort(finder: PoPathFinder) -> None:
+    while True:
+        targets = _select_po_files(finder, "Special sort all locales")
+        if targets is None:
+            return
+        if not targets:
+            questionary.print(
+                "No locales selected. Please choose at least one locale.",
+                style="bold fg:yellow",
+            )
+            continue
+        _run_with_feedback(lambda: _special_sort_locales(finder, targets))
+        return
+
+
 def _interactive_simple(action, finder: PoPathFinder) -> None:
     _run_with_feedback(lambda: action(finder))
 
@@ -546,6 +584,8 @@ def run_tui(repo_root: str | None, version_suffix: str | None) -> int:
             _interactive_import_pot(finder)
         elif action == "format_po":
             _interactive_format(finder)
+        elif action == "special_sort_po":
+            _interactive_special_sort(finder)
         elif action == "format_pot":
             _interactive_simple(_format_pot, finder)
         elif action == "import_unknown":
@@ -583,6 +623,14 @@ def run_cli(args: argparse.Namespace) -> int:
             print(exc, file=sys.stderr)
             return 2
         return _run_cli_lines(_format_locales(finder, po_paths))
+
+    if args.command == "special-sort":
+        try:
+            po_paths = _targets_from_args(finder, args.locales)
+        except ValueError as exc:
+            print(exc, file=sys.stderr)
+            return 2
+        return _run_cli_lines(_special_sort_locales(finder, po_paths))
 
     if args.command == "format-pot":
         return _run_cli_lines(_format_pot(finder))
@@ -627,6 +675,9 @@ def _build_parser() -> argparse.ArgumentParser:
     sub.add_argument("--locales", nargs="*", help="Target locales (e.g. ja_JP zh_CN)")
 
     sub = subparsers.add_parser("format", help="Format locale .po files")
+    sub.add_argument("--locales", nargs="*", help="Target locales (e.g. ja_JP zh_CN)")
+
+    sub = subparsers.add_parser("special-sort", help="Special sort locale .po files (move untranslated entries to bottom)")
     sub.add_argument("--locales", nargs="*", help="Target locales (e.g. ja_JP zh_CN)")
 
     subparsers.add_parser("format-pot", help="Format messages.pot")
