@@ -5521,7 +5521,7 @@ msgstr "リモートブランチをコミット $1 で置き換えますか？"
 
 msgctxt "dlgSgHistoryPushCommitsReplaceRemoteBranch.tle:"
 msgid "Push Up To"
-msgstr "プッシュアップ"
+msgstr "ここまでをプッシュ"
 
 msgctxt "dlgSgHistoryPushCommitsUpToCommit.btn:"
 msgid "Push"
@@ -5537,7 +5537,7 @@ msgstr "コミット$1まで変更をプッシュしますか？"
 
 msgctxt "dlgSgHistoryPushCommitsUpToCommit.tle:"
 msgid "Push Up To"
-msgstr "プッシュアップ"
+msgstr "ここまでをプッシュ"
 
 msgctxt "dlgSgHistoryPushedCommitsModifyPushedCommits.btn:"
 msgid "Modify Pushed Commits"
@@ -9759,7 +9759,7 @@ msgstr "リモートが検出されませんでした。"
 
 msgctxt "dlgSgRemotesNoRemoteDetected.tle:"
 msgid "Push Up To"
-msgstr "プッシュアップ"
+msgstr "ここまでをプッシュ"
 
 msgctxt "dlgSgRemove.btn:"
 msgid "Remove"
@@ -17094,7 +17094,7 @@ msgstr "プッシュ"
 
 msgctxt "wnd(Log|Project|Std|).mniPushCommits:"
 msgid "Push Up To"
-msgstr "プッシュアップ"
+msgstr "ここまでをプッシュ"
 
 msgctxt "wnd(Log|Project|Std|).mniPushTo:"
 msgid "Push To"
