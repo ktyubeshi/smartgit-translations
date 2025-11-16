@@ -12436,10 +12436,6 @@ msgctxt "dlgStdDiscardConfirmUntrackedFiles.tle:"
 msgid "Discard"
 msgstr ""
 
-msgctxt "dlgStdFeatureConfiguration.lbl:"
-msgid "The 'main branch' represents the main development branch of your repository and serves as a foundation for releases. Usually it is named 'develop', 'master' or 'main'.\\n\\nBranches that are used to develop a single new feature, bugfix or other related changes \\(temporarily\\) isolated from the main branch are called 'feature branch' \\(or short 'feature'\\). They typically have a special name prefix, e.g. 'feature/'.\\n\\nNew features will be forked off from a main branch using 'Start'. For an existing feature, new changes from the main branch will be integrated using 'Integrate'. Once you have finished the feature, you can incorporate it into the main branch using 'Finish'.\\n\\nFor extended configuration options, invoke '\\u30d6\\u30e9\\u30f3\\u30c1 \\| Feature \\u306e\\u8a2d\\u5b9a'."
-msgstr ""
-
 msgctxt "dlgStdFeatureConfiguration.btn:"
 msgid "Confirm"
 msgstr ""
@@ -12476,6 +12472,10 @@ msgctxt "dlgStdFeatureConfiguration.lbl:"
 msgid "Example: develop, release-.\\*"
 msgstr ""
 
+msgctxt "dlgStdFeatureConfiguration.lbl:"
+msgid "The 'main branch' represents the main development branch of your repository and serves as a foundation for releases. Usually it is named 'develop', 'master' or 'main'.\\n\\nBranches that are used to develop a single new feature, bugfix or other related changes \\(temporarily\\) isolated from the main branch are called 'feature branch' \\(or short 'feature'\\). They typically have a special name prefix, e.g. 'feature/'.\\n\\nNew features will be forked off from a main branch using 'Start'. For an existing feature, new changes from the main branch will be integrated using 'Integrate'. Once you have finished the feature, you can incorporate it into the main branch using 'Finish'.\\n\\nFor extended configuration options, invoke '\\u30d6\\u30e9\\u30f3\\u30c1 \\| Feature \\u306e\\u8a2d\\u5b9a'."
+msgstr ""
+
 msgctxt "dlgStdFeatureConfiguration.ttp:"
 msgid "The <b>Feature Prefix</b> is optional. <tt>feature/</tt>is commonly used and compatible with Git-Flow."
 msgstr ""
@@ -12486,6 +12486,62 @@ msgstr ""
 
 msgctxt "dlgStdFeatureConfigurationSimple.hdl:"
 msgid "'master' has been configured as main branch and 'feature/' as feature-prefix."
+msgstr ""
+
+msgctxt "dlgStdFeatureFinish.btn:"
+msgid "Select"
+msgstr ""
+
+msgctxt "dlgStdFeatureFinish.chk:"
+msgid "Create merge commit"
+msgstr ""
+
+msgctxt "dlgStdFeatureFinish.chk:"
+msgid "Delete feature branch"
+msgstr ""
+
+msgctxt "dlgStdFeatureFinish.chk:"
+msgid "Push results"
+msgstr ""
+
+msgctxt "dlgStdFeatureFinish.edt:"
+msgid "Merge Message"
+msgstr ""
+
+msgctxt "dlgStdFeatureFinish.hdl:"
+msgid "Finish feature '$1'"
+msgstr ""
+
+msgctxt "dlgStdFeatureFinish.inf:"
+msgid "Choose how to finish the feature branch '$1'. This operation will integrate the feature branch into the '$2' branch."
+msgstr ""
+
+msgctxt "dlgStdFeatureFinish.rbt:"
+msgid "Create Pull Request"
+msgstr ""
+
+msgctxt "dlgStdFeatureFinish.rbt:"
+msgid "Finish to main branch"
+msgstr ""
+
+msgctxt "dlgStdFeatureFinishFeatureEmpty.fur:"
+msgid "Your feature branch does not contain any new commits. Finishing now will simply remove the branch."
+msgstr ""
+
+msgctxt "dlgStdFeatureFinishFeatureEmpty.hdl:"
+msgid "Feature branch is empty."
+msgstr ""
+
+msgctxt "dlgStdFeatureIntegrateProgress.fur:"
+msgid "The local feature branch has been rebased onto the remote branch '$1'.\\n\\nYou may now verify and push the branch, then invoke Integrate again."
+msgstr ""
+
+msgctxt "dlgStdFeatureIntegrateProgress.hdl:"
+msgid "Verify integrated remote changes."
+msgstr ""
+
+msgctxt "dlgStdFeatureIntegrateProgress.lbl:"
+msgid "Steps"
 msgstr ""
 
 msgctxt "dlgStdFeatureStart.btn:"
@@ -13042,6 +13098,10 @@ msgstr ""
 
 msgctxt "pop:"
 msgid "$1 succeeded."
+msgstr ""
+
+msgctxt "pop:"
+msgid "Already up-to-date"
 msgstr ""
 
 msgctxt "pop:"
@@ -14807,6 +14867,10 @@ msgid "Loading \\u2026"
 msgstr ""
 
 msgctxt "wndStd.hnt:"
+msgid "No files below the selected directory"
+msgstr ""
+
+msgctxt "wndStd.hnt:"
 msgid "No graph roots selected."
 msgstr ""
 
@@ -15030,6 +15094,10 @@ msgctxt "wndStd.mniStdOpenSubmoduleFromFile:"
 msgid "Open this Submodule"
 msgstr ""
 
+msgctxt "wndStd.mniStdProviderOpenFileInBrowser:"
+msgid "Open in GitHub"
+msgstr ""
+
 msgctxt "wndStd.mniStdProviderOpenInBrowser:"
 msgid "Open in $1"
 msgstr ""
@@ -15060,6 +15128,10 @@ msgstr ""
 
 msgctxt "wndStd.tbt:"
 msgid "Show filter input field."
+msgstr ""
+
+msgctxt "wndStd.tbtFlowFeatureFinish:"
+msgid "Finish the current feature branch."
 msgstr ""
 
 msgctxt "wndStd.tbtFlowFeatureStart:"
