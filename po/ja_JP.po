@@ -37,6 +37,10 @@ msgctxt "*.btn:"
 msgid "OK"
 msgstr "OK"
 
+msgctxt "*.chk:"
+msgid "Don't show again"
+msgstr "次回から表示しない"
+
 msgctxt "*.hnt:"
 msgid "Filter"
 msgstr "フィルタ"
@@ -2406,7 +2410,7 @@ msgstr "続行"
 
 msgctxt "dlgSgAiCommitMessageSkippedUntrackedFiles.chk:"
 msgid "Don't show again"
-msgstr "今後表示しない"
+msgstr "次回から表示しない"
 
 msgctxt "dlgSgAiCommitMessageSkippedUntrackedFiles.fur:"
 msgid "Your settings exclude untracked files from commits, so they will not be used to generate the AI commit message.\\n\\nTo include untracked files in commits, update the setting in Preferences."
@@ -11458,7 +11462,7 @@ msgstr "ローカルの変更をスタッシュに保存して、コミットの
 
 msgctxt "dlgSgStashOnDemandConfirmation.hdl:"
 msgid "Do you want to save local changes to a stash and retry Squash Commits?"
-msgstr ""
+msgstr "ローカルの変更をスタッシュに保存して、コミットのスカッシュを再試行しますか？"
 
 msgctxt "dlgSgStashOnDemandConfirmation.hdl:"
 msgid "Do you want to save untracked files to a stash and retry Edit Message?"
@@ -12478,7 +12482,7 @@ msgstr "確認"
 
 msgctxt "dlgStdFeatureConfiguration.edt:"
 msgid "Feature Prefix"
-msgstr ""
+msgstr "フィーチャーブランチのプレフィックス"
 
 msgctxt "dlgStdFeatureConfiguration.edt:"
 msgid "Main Branch"
@@ -12490,7 +12494,7 @@ msgstr "メインブランチ"
 
 msgctxt "dlgStdFeatureConfiguration.hdl:"
 msgid "Configure main and feature branches"
-msgstr ""
+msgstr "メインブランチとフィーチャーブランチの設定"
 
 msgctxt "dlgStdFeatureConfiguration.hdl:"
 msgid "Configure main branch"
@@ -12498,7 +12502,7 @@ msgstr "メインブランチの設定"
 
 msgctxt "dlgStdFeatureConfiguration.inf:"
 msgid "Set the main branch for your repository and an optional prefix for feature branches."
-msgstr ""
+msgstr "リポジトリのメインブランチと、フィーチャーブランチのオプションのプレフィックスを設定します。"
 
 msgctxt "dlgStdFeatureConfiguration.inf:"
 msgid "Set the main branch for your repository."
@@ -12506,31 +12510,123 @@ msgstr "リポジトリのメインブランチを設定します。"
 
 msgctxt "dlgStdFeatureConfiguration.lbl:"
 msgid "Example: develop, release-.\\*"
-msgstr ""
+msgstr "例: develop, release-.\\*"
 
 msgctxt "dlgStdFeatureConfiguration.lbl:"
 msgid "The 'main branch' represents the main development branch of your repository and serves as a foundation for releases. Usually it is named 'develop', 'master' or 'main'.\\n\\nBranches that are used to develop a single new feature, bugfix or other related changes \\(temporarily\\) isolated from the main branch are called 'feature branch' \\(or short 'feature'\\). They typically have a special name prefix, e.g. 'feature/'.\\n\\nNew features will be forked off from a main branch using 'Start'. For an existing feature, new changes from the main branch will be integrated using 'Integrate'. Once you have finished the feature, you can incorporate it into the main branch using 'Finish'.\\n\\nFor extended configuration options, invoke '\\u30d6\\u30e9\\u30f3\\u30c1 \\| Feature \\u306e\\u8a2d\\u5b9a'."
-msgstr "「メインブランチ」は、リポジトリの主要な開発ブランチであり、リリースの基盤となります。通常、「develop」、「master」、または「main」と名付けられます。\\n\\n単一の新機能、バグ修正、またはその他の関連する変更を開発するためにメインブランチから（一時的に）分離されたブランチは、「feature branch」（または単に「feature」）と呼ばれます。これらは通常、「feature/」などの特別な名前のプレフィックスを持ちます。\\n\\n新しい機能は、「Start」を使用してメインブランチからフォークされます。既存の機能については、メインブランチからの新しい変更が「Integrate」を使用して統合されます。機能の開発が完了したら、「Finish」を使用してメインブランチに組み込むことができます。\\n\\n拡張設定オプションについては、「ブランチ | Feature の設定」を呼び出してください。"
+msgstr "「メインブランチ」は、リポジトリの主要な開発ブランチであり、リリースの基盤となります。通常、「develop」、「master」、または「main」と名付けられます。\\n\\n単一の新機能、バグ修正、またはその他の関連する変更を開発するためにメインブランチから（一時的に）分離されたブランチは、「feature branch」（または単に「feature」）と呼ばれます。これらは通常、「feature/」などの特別な名前のプレフィックスを持ちます。\\n\\n新しい機能は、「開始」を使用してメインブランチからフォークされます。既存の機能については、メインブランチからの新しい変更が「統合」を使用して統合されます。機能の開発が完了したら、「完了」を使用してメインブランチに組み込むことができます。\\n\\n拡張設定オプションについては、「ブランチ | Feature の設定」を呼び出してください。"
 
 msgctxt "dlgStdFeatureConfiguration.ttp:"
 msgid "The <b>Feature Prefix</b> is optional. <tt>feature/</tt>is commonly used and compatible with Git-Flow."
-msgstr ""
+msgstr "<b>フィーチャープレフィックス</b>はオプションです。<tt>feature/</tt>は一般的に使用され、Git-Flowと互換性があります。"
 
 msgctxt "dlgStdFeatureConfiguration.ttp:"
 msgid "You can configure one or more <b>Main Branches</b> by specifying their names separated by semicolon. To specify patterns instead of singular names, use regular expressions. For example: <tt>main,release-.\\*</tt>."
-msgstr ""
+msgstr "セミコロンで区切って名前を指定することで、1つまたは複数の<b>メインブランチ</b>を設定できます。単一の名前の代わりにパターンを指定するには、正規表現を使用します。例: <tt>main,release-.*</tt>。"
+
+msgctxt "dlgStdFeatureConfigurationSimple.hdl:"
+msgid "'master' has been configured as main branch and 'feature/' as feature-prefix."
+msgstr "「master」がメインブランチとして、「feature/」がフィーチャープレフィックスとして設定されました。"
+
+msgctxt "dlgStdFeatureFinish.btn:"
+msgid "Select"
+msgstr "選択"
+
+msgctxt "dlgStdFeatureFinish.chk:"
+msgid "Create merge commit"
+msgstr "マージコミットを作成"
+
+msgctxt "dlgStdFeatureFinish.chk:"
+msgid "Delete feature branch"
+msgstr "Feature ブランチを削除"
+
+msgctxt "dlgStdFeatureFinish.chk:"
+msgid "Push results"
+msgstr "結果をプッシュ"
+
+msgctxt "dlgStdFeatureFinish.edt:"
+msgid "Merge Message"
+msgstr "マージメッセージ"
+
+msgctxt "dlgStdFeatureFinish.hdl:"
+msgid "Finish feature '$1'"
+msgstr "feature '$1' を完了"
+
+msgctxt "dlgStdFeatureFinish.inf:"
+msgid "Choose how to finish the feature branch '$1'. This operation will integrate the feature branch into the '$2' branch."
+msgstr "feature ブランチ '$1' の完了方法を選択します。この操作により、feature ブランチが '$2' ブランチに統合されます。"
+
+msgctxt "dlgStdFeatureFinish.rbt:"
+msgid "Create Pull Request"
+msgstr "プルリクエストを作成"
+
+msgctxt "dlgStdFeatureFinish.rbt:"
+msgid "Finish to main branch"
+msgstr "メインブランチで完了"
+
+msgctxt "dlgStdFeatureFinishFeatureEmpty.fur:"
+msgid "Your feature branch does not contain any new commits. Finishing now will simply remove the branch."
+msgstr "あなたの feature ブランチには新しいコミットが含まれていません。今完了すると、ブランチが削除されるだけです。"
+
+msgctxt "dlgStdFeatureFinishFeatureEmpty.hdl:"
+msgid "Feature branch is empty."
+msgstr "Feature ブランチは空です。"
+
+msgctxt "dlgStdFeatureIntegrateProgress.fur:"
+msgid "The local feature branch has been rebased onto the remote branch '$1'.\\n\\nYou may now verify and push the branch, then invoke Integrate again."
+msgstr "ローカルの feature ブランチはリモートブランチ '$1' にリベースされました。\\n\\nブランチを確認してプッシュし、その後再度 Integrate を実行してください。"
+
+msgctxt "dlgStdFeatureIntegrateProgress.hdl:"
+msgid "Verify integrated remote changes."
+msgstr "統合されたリモートの変更を確認してください。"
+
+msgctxt "dlgStdFeatureIntegrateProgress.lbl:"
+msgid "Steps"
+msgstr "ステップ"
+
+msgctxt "dlgStdFeatureStart.btn:"
+msgid "Start"
+msgstr "開始"
+
+msgctxt "dlgStdFeatureStart.edt:"
+msgid "Feature Name"
+msgstr "Feature名"
+
+msgctxt "dlgStdFeatureStart.hdl:"
+msgid "Start a new feature"
+msgstr "新しい feature を開始する"
+
+msgctxt "dlgStdFeatureStart.inf:"
+msgid "Enter the name of the new feature branch. This operation will fork a new branch from '$1'."
+msgstr "新しいFeatureブランチの名前を入力します。この操作により、'$1' ブランチから新しいブランチがフォークされます。"
+
+msgctxt "dlgStdFeatureStart.lbl:"
+msgid "Resulting Branch: $1"
+msgstr "作成されるブランチ名: $1"
+
+msgctxt "dlgStdFeatureStartNotOnMainBranchesAndLocalChanges.btn:"
+msgid "Switch Anyway"
+msgstr "このまま切り替える"
+
+msgctxt "dlgStdFeatureStartNotOnMainBranchesAndLocalChanges.fur:"
+msgid "Your working tree currently has local modifications, and you are not currently on the main branch. Initiating a new feature now will require switching commits, which can potentially fail due to the presence of local changes.\\n\\nThe recommended course of action is either to commit your local changes \\(if they pertain to the current branch\\) or stash them away in order to have a clean working tree before starting a new feature."
+msgstr "現在、作業ツリーにはローカルでの変更があり、あなたはメインブランチにいません。今から新しいフィーチャーを開始するにはコミットの切り替えが必要ですが、ローカルでの変更が存在するため失敗する可能性があります。\\n\\n推奨される対応策は、新しいフィーチャーを開始する前に、ローカルでの変更をコミットする（現在のブランチに関連する場合）か、スタッシュに退避させてクリーンな作業ツリーにすることです。"
+
+msgctxt "dlgStdFeatureStartNotOnMainBranchesAndLocalChanges.hdl:"
+msgid "Do you want to switch to a different branch despite having local changes?"
+msgstr "ローカルに変更がありますが、別のブランチに切り替えますか？"
 
 msgctxt "dlgStdPickCommitWtDirty.fur:"
 msgid "Commit or stash local changes before cherry-picking."
-msgstr ""
+msgstr "チェリーピックする前にローカルの変更をコミットまたはスタッシュしてください。"
 
 msgctxt "dlgStdPickCommitWtDirty.fur:"
 msgid "Commit or stash local changes before reverting."
-msgstr ""
+msgstr "リバートする前にローカルの変更をコミットまたはスタッシュしてください。"
 
 msgctxt "dlgStdPickCommitWtDirty.hdl:"
 msgid "The working tree contains local changes."
-msgstr ""
+msgstr "作業ツリーにはローカルの変更が含まれています。"
 
 msgctxt "dlgTxtEditor.fileModified.btn:"
 msgid "Keep Content"
@@ -12817,10 +12913,10 @@ msgctxt "ntmRepositoryGitCleanup:"
 msgid "The repository '$1' contains a significant amount of loose or even unused 'objects'. Running a cleanup will reduce disk space and increase performance. SmartGit will try to do so, when it is idle."
 msgstr "リポジトリ '$1' には、多数の loose objects や使用されていないオブジェクトが含まれています。 クリーンアップを実行すると、ディスクスペースが節約され、パフォーマンスが向上します。 SmartGitは、アイドル状態のときにこれを試みます。"
 
-#| msgid "The repository 'repomix' contains many 'loose' refs which makes refreshing inefficient. Repacking the refs will improve performance."
+#| msgid "The repository 'REPOSITORY_NAME' contains many 'loose' refs which makes refreshing inefficient. Repacking the refs will improve performance."
 msgctxt "ntmRepositoryRefsReadingManyLoose:"
-msgid "The repository '$1' contains many '$2' refs which makes refreshing inefficient. Repacking the refs will improve performance."
-msgstr ""
+msgid "The repository '$1' contains many 'loose' refs which makes refreshing inefficient. Repacking the refs will improve performance."
+msgstr "リポジトリ '$1' には多数の 'loose' ref が含まれているため、更新が非効率です。ref をリパックするとパフォーマンスが向上します。"
 
 msgctxt "ntmSupportExpired:"
 msgid "To extend your support, please purchase an update license and upgrade to the latest SmartGit version."
@@ -12842,7 +12938,7 @@ msgstr "新しいバージョンが正常にダウンロードされると、再
 #| msgid "SmartGit 25.1.093 needs to be restarted now for the changes to take effect."
 msgctxt "ntmUpdateCheckFetchVersionSuccess:"
 msgid "$1 needs to be restarted now for the changes to take effect."
-msgstr ""
+msgstr "$1 は、変更を有効にするために今すぐ再起動する必要があります。"
 
 msgctxt "ntmUpdateCheckFetchVersionSuccess:"
 msgid "SmartGit $1 Preview needs to be restarted now for the changes to take effect."
@@ -12970,15 +13066,15 @@ msgstr "今すぐガベージコレクタを実行"
 
 msgctxt "nttRepositoryRefsReadingManyLoose:"
 msgid "Do not warn me again for this repository"
-msgstr ""
+msgstr "このリポジトリについて再度警告しない"
 
 msgctxt "nttRepositoryRefsReadingManyLoose:"
 msgid "Many loose refs"
-msgstr ""
+msgstr "多数の loose ref"
 
 msgctxt "nttRepositoryRefsReadingManyLoose:"
 msgid "Repack"
-msgstr ""
+msgstr "リパック"
 
 msgctxt "nttSupportExpired:"
 msgid "Purchase Update"
@@ -12992,7 +13088,7 @@ msgstr "$1 にサポート期間が終了しました。"
 #| msgid "Quick Poll: Native vs cross-platform look-and-feel"
 msgctxt "nttUpdateCheck:"
 msgid "Quick Poll: $1"
-msgstr ""
+msgstr "アンケート: $1"
 
 msgctxt "nttUpdateCheck:"
 msgid "Vote"
@@ -13048,6 +13144,10 @@ msgid "$1 succeeded."
 msgstr "$1 が成功しました。"
 
 msgctxt "pop:"
+msgid "Already up-to-date"
+msgstr "すでに最新です"
+
+msgctxt "pop:"
 msgid "Command $1 has been aborted."
 msgstr "コマンド$1が中止されました。"
 
@@ -13090,6 +13190,10 @@ msgstr "名前を変更するスタッシュを選択します。"
 msgctxt "pop:"
 msgid "The dropped directory is no Git repository."
 msgstr "ドロップされたディレクトリは Git リポジトリではありません。"
+
+msgctxt "pop:"
+msgid "The working tree contains local changes."
+msgstr "作業ツリーにローカルな変更があります。"
 
 msgctxt "pop:"
 msgid "There are no obsolete repositories."
@@ -14717,7 +14821,11 @@ msgstr "GitHub から情報を更新します。"
 #| msgid "Rewording 1 commits\\u2026"
 msgctxt "wndLog.tbtAi.commitMessageCompose:"
 msgid "Rewording $1 commits\\u2026"
-msgstr ""
+msgstr "$1 件のコミットを書き換え中..."
+
+msgctxt "wndLog.tbtFlowContext:"
+msgid "Start a new Git-Flow feature."
+msgstr "新しい Git-Flow の feature を開始します。"
 
 msgctxt "wndProject.mni:"
 msgid "Base"
@@ -14800,6 +14908,10 @@ msgstr "読み込み中…"
 msgctxt "wndStd.hnt:"
 msgid "Loading \\u2026"
 msgstr "読み込み中\\u2026"
+
+msgctxt "wndStd.hnt:"
+msgid "No files below the selected directory"
+msgstr "選択したディレクトリ以下にファイルはありません"
 
 msgctxt "wndStd.hnt:"
 msgid "No graph roots selected."
@@ -14937,7 +15049,7 @@ msgstr "現在のブランチのみ \\(HEAD\\)"
 
 msgctxt "wndStd.mni:"
 msgid "Open in GitHub"
-msgstr ""
+msgstr "GitHubで開く"
 
 msgctxt "wndStd.mni:"
 msgid "Open"
@@ -15027,9 +15139,17 @@ msgctxt "wndStd.mniStdOpenSubmoduleFromFile:"
 msgid "Open this Submodule"
 msgstr "このサブモジュールを開く"
 
+msgctxt "wndStd.mniStdProviderOpenFileInBrowser:"
+msgid "Open in GitHub"
+msgstr "GitHubで開く"
+
 msgctxt "wndStd.mniStdProviderOpenInBrowser:"
 msgid "Open in $1"
 msgstr "$1で開く"
+
+msgctxt "wndStd.mniStdProviderOpenRefInBrowser:"
+msgid "Open in GitHub"
+msgstr "GitHubで開く"
 
 msgctxt "wndStd.mniStdSetModeHistory:"
 msgid "Show History"
@@ -15053,11 +15173,19 @@ msgstr "履歴"
 
 msgctxt "wndStd.tbt:"
 msgid "Show filter input field."
-msgstr ""
+msgstr "フィルター入力フィールドを表示します。"
+
+msgctxt "wndStd.tbtFlowFeatureFinish:"
+msgid "Finish the current feature branch."
+msgstr "現在の feature ブランチを完了させます。"
 
 msgctxt "wndStd.tbtFlowFeatureStart:"
 msgid "Start a new feature branch."
 msgstr "新しいフィーチャーブランチを開始します。"
+
+msgctxt "wndStd.tbtIntegrateMain:"
+msgid "Integrate latest changes from the main branch into the current feature branch."
+msgstr "メインブランチの最新の変更を現在のフィーチャーブランチに統合します。"
 
 msgctxt "wnd(Annotate|Compare|ConflictSolver|Deepgit|Git.indexEditor|Editor|Log|Project|Std|).lblStatusBarMessage:"
 msgid "Ready"
@@ -18169,8 +18297,3 @@ msgstr "$1 \\[$2\\] - $3 のログ"
 msgctxt "wnd(Log|Std|).mniOpen:"
 msgid "Open from Working Tree"
 msgstr "作業ツリーから開く"
-
-# ToDo:Review
-#~ msgctxt "nttUpdateCheck:"
-#~ msgid "Quick Poll: Native vs cross-platform look-and-feel"
-#~ msgstr ""
