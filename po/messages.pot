@@ -6636,6 +6636,10 @@ msgid "You are about to perform an Octopus Merge from $1 source branches.\\n\\nI
 msgstr ""
 
 msgctxt "dlgSgMergeHowToMerge.hdl:"
+msgid "How to merge from branch '$1'?"
+msgstr ""
+
+msgctxt "dlgSgMergeHowToMerge.hdl:"
 msgid "How to merge from tag '$1'?"
 msgstr ""
 
