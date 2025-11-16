@@ -12416,6 +12416,22 @@ msgctxt "dlgShPushTrackingLocalSvnBranches.tle:"
 msgid "Push"
 msgstr ""
 
+msgctxt "dlgStdCheckoutCommit.btn:"
+msgid "Add Branch && Checkout"
+msgstr ""
+
+msgctxt "dlgStdCheckoutCommit.edt:"
+msgid "Branch"
+msgstr ""
+
+msgctxt "dlgStdCheckoutCommit.hdl:"
+msgid "Add branch at commit $1"
+msgstr ""
+
+msgctxt "dlgStdCheckoutCommit.inf:"
+msgid "Enter the name of the local branch to create. It will be checked out."
+msgstr ""
+
 msgctxt "dlgStdDiscardConfirmUntrackedFiles.btn:"
 msgid "Discard"
 msgstr ""
