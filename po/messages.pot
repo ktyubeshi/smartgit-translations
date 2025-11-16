@@ -12548,8 +12548,17 @@ msgctxt "dlgStdFeatureFinishFeatureEmpty.hdl:"
 msgid "Feature branch is empty."
 msgstr ""
 
+#| msgid "Branch 'main' is ahead of 'origin/main'.\\n\\nConsolidate the 'main'-branch, then invoke Integrate again."
+msgctxt "dlgStdFeatureIntegrateProgress.fur:"
+msgid "Branch '$1' is ahead of '$2'.\\n\\nConsolidate the '$3'-branch, then invoke Integrate again."
+msgstr ""
+
 msgctxt "dlgStdFeatureIntegrateProgress.fur:"
 msgid "The local feature branch has been rebased onto the remote branch '$1'.\\n\\nYou may now verify and push the branch, then invoke Integrate again."
+msgstr ""
+
+msgctxt "dlgStdFeatureIntegrateProgress.hdl:"
+msgid "Resolve diverged main branch."
 msgstr ""
 
 msgctxt "dlgStdFeatureIntegrateProgress.hdl:"
