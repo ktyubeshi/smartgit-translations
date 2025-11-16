@@ -12472,6 +12472,14 @@ msgctxt "dlgStdCheckoutCommit.inf:"
 msgid "Enter the name of the local branch to create. It will be checked out."
 msgstr "作成するローカルブランチの名前を入力してください。そのブランチがチェックアウトされます。"
 
+msgctxt "dlgStdCheckoutCommit.rbt:"
+msgid "Checkout local branch:"
+msgstr "ローカルブランチをチェックアウト:"
+
+msgctxt "dlgStdCheckoutCommit.rbt:"
+msgid "Create local branch:"
+msgstr "ローカルブランチを作成:"
+
 msgctxt "dlgStdDiscard.btn:"
 msgid "Discard"
 msgstr "破棄"
