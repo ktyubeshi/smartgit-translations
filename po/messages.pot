@@ -37,6 +37,10 @@ msgctxt "*.btn:"
 msgid "OK"
 msgstr ""
 
+msgctxt "*.chk:"
+msgid "Don't show again"
+msgstr ""
+
 msgctxt "*.hnt:"
 msgid "Filter"
 msgstr ""
@@ -11417,6 +11421,10 @@ msgid "Do you want to save local changes to a stash and retry Reorder Commits?"
 msgstr ""
 
 msgctxt "dlgSgStashOnDemandConfirmation.hdl:"
+msgid "Do you want to save local changes to a stash and retry Squash Commits?"
+msgstr ""
+
+msgctxt "dlgSgStashOnDemandConfirmation.hdl:"
 msgid "Do you want to save untracked files to a stash and retry Edit Message?"
 msgstr ""
 
@@ -12428,6 +12436,102 @@ msgctxt "dlgStdDiscardConfirmUntrackedFiles.tle:"
 msgid "Discard"
 msgstr ""
 
+msgctxt "dlgStdFeature*:"
+msgid "The 'main branch' represents the main development branch of your repository and serves as a foundation for releases. Usually it is named 'develop', 'master' or 'main'.\\n\\nBranches that are used to develop a single new feature, bugfix or other related changes \\(temporarily\\) isolated from the main branch are called 'feature branch' \\(or short 'feature'\\). They typically have a special name prefix, e.g. 'feature/'.\\n\\nNew features will be forked off from a main branch using 'Start'. For an existing feature, new changes from the main branch will be integrated using 'Integrate'. Once you have finished the feature, you can incorporate it into the main branch using 'Finish'.\\n\\nFor extended configuration options, invoke '\\u30d6\\u30e9\\u30f3\\u30c1 \\| Feature \\u306e\\u8a2d\\u5b9a'."
+msgstr ""
+
+msgctxt "dlgStdFeatureConfiguration.btn:"
+msgid "Confirm"
+msgstr ""
+
+msgctxt "dlgStdFeatureConfiguration.edt:"
+msgid "Feature Prefix"
+msgstr ""
+
+msgctxt "dlgStdFeatureConfiguration.edt:"
+msgid "Main Branch"
+msgstr ""
+
+msgctxt "dlgStdFeatureConfiguration.edt:"
+msgid "Main Branches"
+msgstr ""
+
+msgctxt "dlgStdFeatureConfiguration.hdl:"
+msgid "Configure main and feature branches"
+msgstr ""
+
+msgctxt "dlgStdFeatureConfiguration.hdl:"
+msgid "Configure main branch"
+msgstr ""
+
+msgctxt "dlgStdFeatureConfiguration.inf:"
+msgid "Set the main branch for your repository and an optional prefix for feature branches."
+msgstr ""
+
+msgctxt "dlgStdFeatureConfiguration.inf:"
+msgid "Set the main branch for your repository."
+msgstr ""
+
+msgctxt "dlgStdFeatureConfiguration.lbl:"
+msgid "Example: develop, release-.\\*"
+msgstr ""
+
+msgctxt "dlgStdFeatureConfiguration.ttp:"
+msgid "The <b>Feature Prefix</b> is optional. <tt>feature/</tt>is commonly used and compatible with Git-Flow."
+msgstr ""
+
+msgctxt "dlgStdFeatureConfiguration.ttp:"
+msgid "You can configure one or more <b>Main Branches</b> by specifying their names separated by semicolon. To specify patterns instead of singular names, use regular expressions. For example: <tt>main,release-.\\*</tt>."
+msgstr ""
+
+msgctxt "dlgStdFeatureConfigurationSimple.hdl:"
+msgid "'master' has been configured as main branch and 'feature/' as feature-prefix."
+msgstr ""
+
+msgctxt "dlgStdFeatureStart.btn:"
+msgid "Start"
+msgstr ""
+
+msgctxt "dlgStdFeatureStart.edt:"
+msgid "Feature Name"
+msgstr ""
+
+msgctxt "dlgStdFeatureStart.hdl:"
+msgid "Start a new feature"
+msgstr ""
+
+msgctxt "dlgStdFeatureStart.inf:"
+msgid "Enter the name of the new feature branch. This operation will fork a new branch from '$1'."
+msgstr ""
+
+msgctxt "dlgStdFeatureStart.lbl:"
+msgid "Resulting Branch: $1"
+msgstr ""
+
+msgctxt "dlgStdFeatureStartNotOnMainBranchesAndLocalChanges.btn:"
+msgid "Switch Anyway"
+msgstr ""
+
+msgctxt "dlgStdFeatureStartNotOnMainBranchesAndLocalChanges.fur:"
+msgid "Your working tree currently has local modifications, and you are not currently on the main branch. Initiating a new feature now will require switching commits, which can potentially fail due to the presence of local changes.\\n\\nThe recommended course of action is either to commit your local changes \\(if they pertain to the current branch\\) or stash them away in order to have a clean working tree before starting a new feature."
+msgstr ""
+
+msgctxt "dlgStdFeatureStartNotOnMainBranchesAndLocalChanges.hdl:"
+msgid "Do you want to switch to a different branch despite having local changes?"
+msgstr ""
+
+msgctxt "dlgStdPickCommitWtDirty.fur:"
+msgid "Commit or stash local changes before cherry-picking."
+msgstr ""
+
+msgctxt "dlgStdPickCommitWtDirty.fur:"
+msgid "Commit or stash local changes before reverting."
+msgstr ""
+
+msgctxt "dlgStdPickCommitWtDirty.hdl:"
+msgid "The working tree contains local changes."
+msgstr ""
+
 msgctxt "dlgTxtEditor.fileModified.btn:"
 msgid "Keep Content"
 msgstr ""
@@ -12712,6 +12816,11 @@ msgctxt "ntmRepositoryGitCleanup:"
 msgid "The repository '$1' contains a significant amount of loose or even unused 'objects'. Running a cleanup will reduce disk space and increase performance. SmartGit will try to do so, when it is idle."
 msgstr ""
 
+#| msgid "The repository 'REPOSITORY_NAME' contains many 'loose' refs which makes refreshing inefficient. Repacking the refs will improve performance."
+msgctxt "ntmRepositoryRefsReadingManyLoose:"
+msgid "The repository '$1' contains many 'loose' refs which makes refreshing inefficient. Repacking the refs will improve performance."
+msgstr ""
+
 msgctxt "ntmSupportExpired:"
 msgid "To extend your support, please purchase an update license and upgrade to the latest SmartGit version."
 msgstr ""
@@ -12726,6 +12835,11 @@ msgstr ""
 
 msgctxt "ntmUpdateCheckFetchVersionStart:"
 msgid "After the new version has been downloaded successfully, you will be notified again."
+msgstr ""
+
+#| msgid "SmartGit 25.1.093 needs to be restarted now for the changes to take effect."
+msgctxt "ntmUpdateCheckFetchVersionSuccess:"
+msgid "$1 needs to be restarted now for the changes to take effect."
 msgstr ""
 
 msgctxt "ntmUpdateCheckFetchVersionSuccess:"
@@ -12852,6 +12966,18 @@ msgctxt "nttRepositoryGitCleanup:"
 msgid "Run Garbage Collector Now"
 msgstr ""
 
+msgctxt "nttRepositoryRefsReadingManyLoose:"
+msgid "Do not warn me again for this repository"
+msgstr ""
+
+msgctxt "nttRepositoryRefsReadingManyLoose:"
+msgid "Many loose refs"
+msgstr ""
+
+msgctxt "nttRepositoryRefsReadingManyLoose:"
+msgid "Repack"
+msgstr ""
+
 msgctxt "nttSupportExpired:"
 msgid "Purchase Update"
 msgstr ""
@@ -12861,8 +12987,9 @@ msgid "Your support period has expired on $1."
 msgstr ""
 
 # ToDo:Review
+#| msgid "Quick Poll: Native vs cross-platform look-and-feel"
 msgctxt "nttUpdateCheck:"
-msgid "Quick Poll: Native vs cross-platform look-and-feel"
+msgid "Quick Poll: $1"
 msgstr ""
 
 msgctxt "nttUpdateCheck:"
@@ -12959,6 +13086,10 @@ msgstr ""
 
 msgctxt "pop:"
 msgid "The dropped directory is no Git repository."
+msgstr ""
+
+msgctxt "pop:"
+msgid "The working tree contains local changes."
 msgstr ""
 
 msgctxt "pop:"
@@ -14584,6 +14715,15 @@ msgctxt "wndLog.tbt:"
 msgid "Refresh information from GitHub."
 msgstr ""
 
+#| msgid "Rewording 1 commits\\u2026"
+msgctxt "wndLog.tbtAi.commitMessageCompose:"
+msgid "Rewording $1 commits\\u2026"
+msgstr ""
+
+msgctxt "wndLog.tbtFlowContext:"
+msgid "Start a new Git-Flow feature."
+msgstr ""
+
 msgctxt "wndProject.mni:"
 msgid "Base"
 msgstr ""
@@ -14799,6 +14939,10 @@ msgid "Only current branch \\(HEAD\\)"
 msgstr ""
 
 msgctxt "wndStd.mni:"
+msgid "Open in GitHub"
+msgstr ""
+
+msgctxt "wndStd.mni:"
 msgid "Open"
 msgstr ""
 
@@ -14890,6 +15034,10 @@ msgctxt "wndStd.mniStdProviderOpenInBrowser:"
 msgid "Open in $1"
 msgstr ""
 
+msgctxt "wndStd.mniStdProviderOpenRefInBrowser:"
+msgid "Open in GitHub"
+msgstr ""
+
 msgctxt "wndStd.mniStdSetModeHistory:"
 msgid "Show History"
 msgstr ""
@@ -14910,8 +15058,16 @@ msgctxt "wndStd.tbt:"
 msgid "History"
 msgstr ""
 
+msgctxt "wndStd.tbt:"
+msgid "Show filter input field."
+msgstr ""
+
 msgctxt "wndStd.tbtFlowFeatureStart:"
 msgid "Start a new feature branch."
+msgstr ""
+
+msgctxt "wndStd.tbtIntegrateMain:"
+msgid "Integrate latest changes from the main branch into the current feature branch."
 msgstr ""
 
 msgctxt "wnd(Annotate|Compare|ConflictSolver|Deepgit|Git.indexEditor|Editor|Log|Project|Std|).lblStatusBarMessage:"
