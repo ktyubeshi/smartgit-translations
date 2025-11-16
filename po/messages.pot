@@ -12432,6 +12432,14 @@ msgctxt "dlgStdCheckoutCommit.inf:"
 msgid "Enter the name of the local branch to create. It will be checked out."
 msgstr ""
 
+msgctxt "dlgStdCheckoutCommit.rbt:"
+msgid "Checkout local branch:"
+msgstr ""
+
+msgctxt "dlgStdCheckoutCommit.rbt:"
+msgid "Create local branch:"
+msgstr ""
+
 msgctxt "dlgStdDiscard.btn:"
 msgid "Discard"
 msgstr ""
