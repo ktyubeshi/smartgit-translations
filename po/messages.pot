@@ -9440,6 +9440,14 @@ msgctxt "dlgSgRebaseNoop.tle:"
 msgid "Merge"
 msgstr ""
 
+msgctxt "dlgSgRebaseNoopParent.fur:"
+msgid "Rebasing a commit onto its parent is allowed by Git but will not create a new commit or any meaningful changes."
+msgstr ""
+
+msgctxt "dlgSgRebaseNoopParent.hdl:"
+msgid "There is nothing to rebase."
+msgstr ""
+
 msgctxt "dlgSgRebaseNoopSelf.fur:"
 msgid "Rebasing a commit onto itself is allowed by Git but will not create a new commit or any meaningful changes."
 msgstr ""
@@ -9450,6 +9458,18 @@ msgstr ""
 
 msgctxt "dlgSgRebaseNoopSelf.tle:"
 msgid "Rebase"
+msgstr ""
+
+msgctxt "dlgSgRebaseSingleCommitConfirm.btn:"
+msgid "Rebase Single Commit"
+msgstr ""
+
+msgctxt "dlgSgRebaseSingleCommitConfirm.fur:"
+msgid "You are about to rebase your branch onto its own history. This action is allowed by Git but will not create a new commit or any meaningful changes.\\n\\nTo rebase a single commit, you can do so now.\\n\\nTo rebase a range of commits, select them in the Graph and drag & drop to the target commit."
+msgstr ""
+
+msgctxt "dlgSgRebaseSingleCommitConfirm.hdl:"
+msgid "Do you want to rebase only the HEAD commit?"
 msgstr ""
 
 msgctxt "dlgSgRebaseTagCommit.btn:"
