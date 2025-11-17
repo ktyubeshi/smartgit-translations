@@ -18326,3 +18326,87 @@ msgstr ""
 msgctxt "wnd(Log|Std|).mniOpen:"
 msgid "Open from Working Tree"
 msgstr ""
+
+#. # Performing ', Pull'
+#. # Performing ',   Open in VSCode'
+#. # Performing 'fetch, Pull..., Fetch commits from a remote repository and (optionally) integrate them with possible local commits.'
+#. # Showing dialog 14 (@HZNP9B) '@SMQ6PW - Pull' (owner: @IPG9GF)
+#. # Performing ', Pull'
+#. # Performing 'viewUnchanged, Show Unchanged Files, If selected, unchanged files will be shown.'
+#. # Performing 'viewIgnored, Show Ignored Files, If selected, ignored files will be shown.'
+#. # Performing 'squashCommits, Squash...'
+#. # Showing dialog 15 (@2RRXT8) '@VE3EIE - Squash Commits' (owner: @IPG9GF)
+#. # Performing ', Squash Commits'
+msgctxt "dlgSgStashOnDemandConfirmation.tle:"
+msgid "Squash Commits"
+msgstr ""
+
+#. # Performing ', Ignore'
+#. # Performing 'stage, Stage, Store working tree files in the index to prepare the next commit.'
+#. # Performing 'stage, Stage, Store working tree files in the index to prepare the next commit.'
+#. # Performing 'configureToolbar, Configure Toolbar...'
+#. # Showing dialog 23 (@BG414J) '@976UIO - Configure Toolbar' (owner: @3VKO1D)
+#. # Performing ', Add'
+#. # Performing ', OK'
+#. # Performing 'log, Log, Show the history for selected file or directory.'
+#. # opening smartgit.bBY@6XEZTZ:test_cli_properties.py [smartgit-translations-sgpo_tui] - Log for src/tests/test_cli_properties.py@d43166e4 (smartgit.bBY@8MAOXJ)
+#. # Showing dialog 24 (@QY50I4) '@7DUTKU - Follow Copies' (owner: @8MAOXJ)
+msgctxt "dlgSgFileLogFollowCopiesConfirmation.btn:"
+msgid "Rerun"
+msgstr ""
+
+#. # Performing ', Ignore'
+#. # Performing 'stage, Stage, Store working tree files in the index to prepare the next commit.'
+#. # Performing 'stage, Stage, Store working tree files in the index to prepare the next commit.'
+#. # Performing 'configureToolbar, Configure Toolbar...'
+#. # Showing dialog 23 (@BG414J) '@976UIO - Configure Toolbar' (owner: @3VKO1D)
+#. # Performing ', Add'
+#. # Performing ', OK'
+#. # Performing 'log, Log, Show the history for selected file or directory.'
+#. # opening smartgit.bBY@6XEZTZ:test_cli_properties.py [smartgit-translations-sgpo_tui] - Log for src/tests/test_cli_properties.py@d43166e4 (smartgit.bBY@8MAOXJ)
+#. # Showing dialog 24 (@QY50I4) '@7DUTKU - Follow Copies' (owner: @8MAOXJ)
+msgctxt "dlgSgFileLogFollowCopiesConfirmation.fur:"
+msgid "For the initial commit\\(s\\) where the file was added, SmartGit will try to find a similar pre-existing file. If it finds one, it will continue the Log for that file as the source from which it might have been copied.\\n\\nTo enable this feature by default, set the Low-Level Property `log.file.followCopies` in the Preferences."
+msgstr ""
+
+#. # Performing ', Ignore'
+#. # Performing 'stage, Stage, Store working tree files in the index to prepare the next commit.'
+#. # Performing 'stage, Stage, Store working tree files in the index to prepare the next commit.'
+#. # Performing 'configureToolbar, Configure Toolbar...'
+#. # Showing dialog 23 (@BG414J) '@976UIO - Configure Toolbar' (owner: @3VKO1D)
+#. # Performing ', Add'
+#. # Performing ', OK'
+#. # Performing 'log, Log, Show the history for selected file or directory.'
+#. # opening smartgit.bBY@6XEZTZ:test_cli_properties.py [smartgit-translations-sgpo_tui] - Log for src/tests/test_cli_properties.py@d43166e4 (smartgit.bBY@8MAOXJ)
+#. # Showing dialog 24 (@QY50I4) '@7DUTKU - Follow Copies' (owner: @8MAOXJ)
+msgctxt "dlgSgFileLogFollowCopiesConfirmation.hdl:"
+msgid "Do you want to re-run the Log with copy-detection enabled?"
+msgstr ""
+
+#. # Showing dialog 22 (@UP9YU1) '@1KW1EH - Ignore' (owner: @3VKO1D)
+#. # Performing ', Ignore'
+#. # Performing 'stage, Stage, Store working tree files in the index to prepare the next commit.'
+#. # Performing 'stage, Stage, Store working tree files in the index to prepare the next commit.'
+#. # Performing 'configureToolbar, Configure Toolbar...'
+#. # Showing dialog 23 (@BG414J) '@976UIO - Configure Toolbar' (owner: @3VKO1D)
+#. # Performing ', Add'
+#. # Performing ', OK'
+#. # Performing 'log, Log, Show the history for selected file or directory.'
+#. # opening smartgit.bBY@6XEZTZ:test_cli_properties.py [smartgit-translations-sgpo_tui] - Log for src/tests/test_cli_properties.py@d43166e4 (smartgit.bBY@8MAOXJ)
+msgctxt "dlgSgFileLogFollowCopiesConfirmation.tle:"
+msgid "Follow Copies"
+msgstr ""
+
+#. # Performing ', Add Branch'
+#. # Performing ', Check Out'
+#. # Showing dialog 27 (@7RY7XY) '@96J2FU - Check Out' (owner: @3VKO1D)
+#. # Performing ', Checkout'
+#. # Performing 'viewUnchanged, Show Unchanged Files, If selected, unchanged files will be shown.'
+#. # Showing dialog 28 (@T6VDJS) '@83DE53 - AI Upload Consent' (owner: @3VKO1D)
+#. # Performing ', Allow'
+#. # Showing dialog 29 (@EDX8YG) '@F6U3CG - Passwords' (owner: @3VKO1D)
+#. # Performing ', OK'
+#. # Performing ', Move Commit'
+msgctxt "dlgSgStashOnDemandConfirmation.tle:"
+msgid "Reorder Commits"
+msgstr ""
