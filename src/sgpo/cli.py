@@ -7,6 +7,7 @@ import re
 import textwrap
 import tomllib
 from typing import Iterable, Iterator, Sequence
+import os
 
 import questionary
 from questionary import Style, Choice
@@ -105,24 +106,54 @@ def _read_properties(path: Path) -> dict[str, str]:
     return props
 
 
-def _find_smartgit_properties() -> Path | None:
-    """Best-effort search for smartgit.properties in common locations."""
+def _find_smartgit_properties() -> list[Path]:
+    """Best-effort search for *all* smartgit.properties in common locations.
+
+    Returns a list ordered by (newer version first) then platform-specific preference.
+    """
 
     home = Path.home()
-    candidates = [
+    xdg_config_home = Path(os.environ.get("XDG_CONFIG_HOME", home / ".config"))
+
+    # Order matters for tie‑breaking after version priority.
+    candidates: list[Path] = [
         home / "Library" / "Preferences" / "SmartGit",  # macOS
-        home / ".config" / "SmartGit",
-        home / ".config" / "smartgit",
-        home / "AppData" / "Roaming" / "syntevo" / "SmartGit",
-        home / "AppData" / "Roaming" / "SmartGit",
+        xdg_config_home / "smartgit",  # Linux (current default)
+        xdg_config_home / "SmartGit",  # Linux (older installers / case variants)
+        xdg_config_home / "syntevo" / "SmartGit",  # Linux (older Syntevo layout)
+        home / ".smartgit",  # Linux legacy
+        home / ".SmartGit",  # Linux legacy (case variant)
+        home / "AppData" / "Roaming" / "syntevo" / "SmartGit",  # Windows
+        home / "AppData" / "Roaming" / "SmartGit",  # Windows (legacy)
     ]
 
-    for base in candidates:
+    found: list[tuple[int, Path]] = []
+    seen_paths: set[Path] = set()
+    for idx, base in enumerate(candidates):
+        if base in seen_paths:
+            continue
+        seen_paths.add(base)
         if not base.exists():
             continue
         for path in base.glob(f"**/{_SMARTGIT_PROP_NAME}"):
-            return path
-    return None
+            if path in seen_paths:
+                continue
+            seen_paths.add(path)
+            found.append((idx, path))
+
+    def _version_key(item: tuple[int, Path]) -> tuple[int, int, int, int]:
+        idx, path = item
+        ver = _derive_version_from_properties_path(path)
+        if ver and "_" in ver:
+            major, minor = ver.split("_", 1)
+            try:
+                return (0, -int(major), -int(minor), idx)
+            except ValueError:
+                pass
+        return (1, 0, 0, idx)
+
+    found.sort(key=_version_key)
+    return [path for _, path in found]
 
 
 def _derive_repo_from_properties(props: dict[str, str]) -> str | None:
@@ -201,10 +232,35 @@ def _write_config(path: Path, repo_root: str, version: str) -> None:
 
 
 def _init_config(repo_root: str, version_suffix: str | None) -> int:
-    props_path = _find_smartgit_properties()
-    props = _read_properties(props_path) if props_path else {}
+    props_paths = _find_smartgit_properties()
+
+    selected_props: Path | None = None
+    if props_paths:
+        if len(props_paths) == 1:
+            selected_props = props_paths[0]
+        else:
+            choices = [
+                questionary.Choice(
+                    title=f"{path} (version: {_derive_version_from_properties_path(path) or 'unknown'})",
+                    value=path,
+                )
+                for path in props_paths
+            ]
+            prompt = questionary.select(
+                "Detected multiple smartgit.properties files. Choose one:",
+                choices=choices + [questionary.Choice(title="Cancel", value=None)],
+                qmark="❯",
+                instruction="(Enter to confirm, Esc to cancel)",
+                style=MENU_STYLE,
+            )
+            selected_props = _enable_escape_cancel(prompt).ask(kbi_msg="")
+            if selected_props is None:
+                questionary.print("Canceled init.", style="bold fg:yellow")
+                return 1
+
+    props = _read_properties(selected_props) if selected_props else {}
     repo_from_props = _derive_repo_from_properties(props)
-    props_version_hint = _derive_version_from_properties_path(props_path) if props_path else None
+    props_version_hint = _derive_version_from_properties_path(selected_props) if selected_props else None
 
     cwd = str(Path.cwd())
     repo = repo_root or repo_from_props or cwd
@@ -214,8 +270,8 @@ def _init_config(repo_root: str, version_suffix: str | None) -> int:
         prompt = questionary.select(
             "Select repository root for sgpo.toml:",
             choices=[
-                questionary.Choice(title=f"Use current working directory ({cwd})", value="cwd"),
                 questionary.Choice(title=f"Use SmartGit config path ({repo_from_props})", value="props"),
+                questionary.Choice(title=f"Use current working directory ({cwd})", value="cwd"),
                 questionary.Choice(title="Cancel", value="cancel"),
             ],
             qmark="❯",
@@ -237,12 +293,24 @@ def _init_config(repo_root: str, version_suffix: str | None) -> int:
     config_path = Path.cwd() / CONFIG_FILENAME
 
     if config_path.exists():
-        questionary.print(f"[skip] {CONFIG_FILENAME} already exists at {config_path}", style="bold fg:yellow")
-        return 1
+        prompt = questionary.select(
+            f"{CONFIG_FILENAME} already exists at {config_path}. Overwrite?",
+            choices=[
+                questionary.Choice(title="Overwrite", value="overwrite"),
+                questionary.Choice(title="Keep existing (cancel)", value="cancel"),
+            ],
+            qmark="❯",
+            instruction="(Enter to confirm, Esc to cancel)",
+            style=MENU_STYLE,
+        )
+        choice = _enable_escape_cancel(prompt).ask(kbi_msg="")
+        if choice != "overwrite":
+            questionary.print(f"[skip] Kept existing {CONFIG_FILENAME}.", style="bold fg:yellow")
+            return 1
 
     _write_config(config_path, str(Path(repo).resolve()), version)
-    if props_path:
-        questionary.print(f"Detected {props_path} and used it as a hint.", style="fg:cyan")
+    if selected_props:
+        questionary.print(f"Detected {selected_props} and used it as a hint.", style="fg:cyan")
     questionary.print(f"Created {CONFIG_FILENAME} at {config_path}", style="bold fg:green")
     return 0
 
