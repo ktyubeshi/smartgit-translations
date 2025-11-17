@@ -13,7 +13,7 @@ import questionary
 from questionary import Style, Choice
 from prompt_toolkit.keys import Keys
 import sgpo
-from path_finder import PoPathFinder
+from path_finder import PoPathFinder, get_repository_root
 
 
 def _patch_shortcut_rendering() -> None:
@@ -31,9 +31,6 @@ def _patch_shortcut_rendering() -> None:
         Choice.get_shortcut_title = _no_shortcut_prefix  # type: ignore[assignment]
     except Exception:  # pragma: no cover - extremely defensive
         Choice.get_shortcut_title = original  # type: ignore[assignment]
-
-
-_patch_shortcut_rendering()
 
 
 def _enable_escape_cancel(question: questionary.Question) -> questionary.Question:
@@ -404,7 +401,7 @@ def _import_unknown(finder: PoPathFinder) -> Iterator[str]:
         unknown_path,
         (
             f"unknown.* file not found (suffix: {finder.version}). Adjust --version or use "
-            'the TUI option "Misc → Change unknown/mismatch suffix" to update it.'
+            "--version to specify the suffix explicitly."
         ),
     )
     pot = sgpo.pofile(pot_path)
@@ -424,7 +421,7 @@ def _import_mismatch(finder: PoPathFinder) -> Iterator[str]:
         mismatch_path,
         (
             f"mismatch.* file not found (suffix: {finder.version}). Adjust --version or use "
-            'the TUI option "Misc → Change unknown/mismatch suffix" to update it.'
+            "--version to specify the suffix explicitly."
         ),
     )
     pot = sgpo.pofile(pot_path)
@@ -617,9 +614,11 @@ def _interactive_simple(action, finder: PoPathFinder) -> None:
 
 
 def run_tui(repo_root: str | None, version_suffix: str | None) -> int:
+    _patch_shortcut_rendering()
+
     repo_arg = repo_root or ""
     config_repo, config_version = _load_config(Path(repo_arg or ".").resolve())
-    repo = repo_arg or config_repo or ""
+    repo = repo_arg or config_repo or get_repository_root()
     version = _resolve_version(repo, version_suffix or config_version, interactive=True)
     finder = PoPathFinder(repository_root_dir=repo, version=version)
 
@@ -669,8 +668,8 @@ def run_tui(repo_root: str | None, version_suffix: str | None) -> int:
 def run_cli(args: argparse.Namespace) -> int:
     repo_arg = args.repo_root or ""
     config_repo, config_version = _load_config(Path(repo_arg or ".").resolve())
-    repo = repo_arg or config_repo or ""
-    version = _resolve_version(repo, args.version or config_version, interactive=True)
+    repo = repo_arg or config_repo or get_repository_root()
+    version = _resolve_version(repo, args.version or config_version, interactive=not args.non_interactive)
     finder = PoPathFinder(repository_root_dir=repo, version=version)
 
     if args.command == "import-pot":
@@ -735,6 +734,11 @@ def _build_parser() -> argparse.ArgumentParser:
         "--version",
         default=None,
         help="Suffix for unknown./mismatch. files (e.g. 24_1). Auto-detect when omitted.",
+    )
+    parser.add_argument(
+        "--non-interactive",
+        action="store_true",
+        help="Run without interactive prompts (chooses first detected version/candidate)",
     )
     subparsers = parser.add_subparsers(dest="command")
 

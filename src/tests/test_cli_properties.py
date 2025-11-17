@@ -60,6 +60,25 @@ class TestFindSmartGitProperties(unittest.TestCase):
             self.assertEqual(newer / "smartgit.properties", found[0])
             self.assertEqual(older / "smartgit.properties", found[1])
 
+    def test_prefers_newer_version_across_platforms(self):
+        """Newer version wins even if path order differs (macOS vs Windows)."""
+
+        with tempfile.TemporaryDirectory() as tmp:
+            home = Path(tmp)
+
+            mac_dir = home / "Library" / "Preferences" / "SmartGit" / "24.1"
+            win_dir = home / "AppData" / "Roaming" / "syntevo" / "SmartGit" / "25.1"
+            for path in (mac_dir, win_dir):
+                path.mkdir(parents=True)
+                (path / "smartgit.properties").write_text("smartgit.i18n=ja_JP\n", encoding="utf-8")
+
+            with mock.patch.dict(os.environ, {}, clear=True):
+                with mock.patch("pathlib.Path.home", return_value=home):
+                    found = _find_smartgit_properties()
+
+            self.assertEqual(win_dir / "smartgit.properties", found[0])
+            self.assertEqual(mac_dir / "smartgit.properties", found[1])
+
 
 if __name__ == "__main__":
     unittest.main()
