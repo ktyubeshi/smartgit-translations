@@ -299,7 +299,7 @@ msgstr "GitLabホスティングプロバイダーを設定しますか？"
 
 msgctxt "dlgInfo.tle:"
 msgid "Discard"
-msgstr "破棄"
+msgstr "(200) ★破棄"
 
 msgctxt "dlgProgress.btn:"
 msgid "Stop"
@@ -895,9 +895,10 @@ msgctxt "dlgScCustomizeToolBar.btn:"
 msgid "Add"
 msgstr "追加"
 
+# ツールバーのカスタマイズ画面で表示される「削除」ボタンです
 msgctxt "dlgScCustomizeToolBar.btn:"
 msgid "Remove"
-msgstr "除去"
+msgstr "削除"
 
 msgctxt "dlgScCustomizeToolBar.btn:"
 msgid "Reset to Default"
@@ -937,7 +938,7 @@ msgstr "上へ移動"
 
 msgctxt "dlgScCustomizeToolBar.mni:"
 msgid "Remove"
-msgstr "削除"
+msgstr "(100) ★削除"
 
 msgctxt "dlgScCustomizeToolBar.tle:"
 msgid "Configure Toolbar"
@@ -1119,7 +1120,6 @@ msgctxt "dlgScEvaluationReminderContinue.hdl:"
 msgid "Your SmartGit evaluation ends in $1 days."
 msgstr "SmartGit の評価期間はあと $1 日で終了します。"
 
-#, fuzzy
 msgctxt "dlgScEvaluationReminderContinue.hdl:"
 msgid "Your SmartGit evaluation ends today."
 msgstr "SmartGitの評価期間は本日で終了します。"
@@ -1302,7 +1302,7 @@ msgstr "外部ビューア\\(比較対象ファイルの両方に対して呼び
 
 msgctxt "dlgScFileCompareFileChanged.btn:"
 msgid "Discard"
-msgstr "破棄"
+msgstr "(201) ★破棄"
 
 msgctxt "dlgScFileCompareFileChanged.btn:"
 msgid "Save"
@@ -1796,7 +1796,6 @@ msgctxt "dlgScSetupLicenseNeedsRestart.btn:"
 msgid "Restart Now"
 msgstr "今すぐ再起動"
 
-#, fuzzy
 msgctxt "dlgScSetupLicenseNeedsRestart.fur:"
 msgid "You can do that now or manually later."
 msgstr "今すぐ行うことも、後で手動で行うこともできます。"
@@ -2196,7 +2195,7 @@ msgstr "中止"
 
 msgctxt "dlgSgAbortRevertingConfirm.tle:"
 msgid "Discard"
-msgstr "破棄"
+msgstr "(202) ★破棄"
 
 msgctxt "dlgSgAbout.btn:"
 msgid "Copy Evaluation-ID"
@@ -2284,7 +2283,7 @@ msgstr "SmartGitについて"
 
 msgctxt "dlgSgAiAnnotatorDropAllNotes.btn:"
 msgid "Drop"
-msgstr "削除"
+msgstr "(101) ★削除"
 
 msgctxt "dlgSgAiAnnotatorDropAllNotes.fur:"
 msgid "This will remove all AI-related Git notes from the repository."
@@ -2678,6 +2677,7 @@ msgctxt "dlgSgApplicationUpgradeError.tle:"
 msgid "Upgrade"
 msgstr "アップグレード"
 
+#, fuzzy
 msgctxt "dlgSgAuthenticationRemoveAllCredentials.btn:"
 msgid "Remove All"
 msgstr "すべて削除"
@@ -2690,6 +2690,7 @@ msgctxt "dlgSgAuthenticationRemoveAllCredentials.hdl:"
 msgid "Do you want to remove all known credentials?"
 msgstr "既知の認証情報をすべて削除しますか？"
 
+#, fuzzy
 msgctxt "dlgSgAuthenticationRemoveAllCredentials.tle:"
 msgid "Remove All"
 msgstr "すべて削除"
@@ -2884,11 +2885,11 @@ msgstr "現在のブランチは削除できません。"
 
 msgctxt "dlgSgBranchDeleteCurrentNotPossible.tle:"
 msgid "Delete"
-msgstr "削除"
+msgstr "(102) ★削除"
 
 msgctxt "dlgSgBranchDeleteLocalConfirmMultiple.btn:"
 msgid "Delete"
-msgstr "削除"
+msgstr "(103) ★削除"
 
 msgctxt "dlgSgBranchDeleteLocalConfirmMultiple.chk:"
 msgid "Delete branch '$1' from remote repository '$2'"
@@ -2920,11 +2921,11 @@ msgstr "$1 件のローカル ブランチを削除しますか?"
 
 msgctxt "dlgSgBranchDeleteLocalConfirmMultiple.tle:"
 msgid "Delete"
-msgstr "削除"
+msgstr "(104) ★削除"
 
 msgctxt "dlgSgBranchDeleteLocalConfirmSingle.btn:"
 msgid "Delete"
-msgstr "削除"
+msgstr "(105) ★削除"
 
 msgctxt "dlgSgBranchDeleteLocalConfirmSingle.chk:"
 msgid "Delete branch '$1' from remote repository '$2'"
@@ -2956,19 +2957,19 @@ msgstr "ローカルブランチ '$1' を削除しますか?"
 
 msgctxt "dlgSgBranchDeleteLocalConfirmSingle.tle:"
 msgid "Delete"
-msgstr "削除"
+msgstr "(106) ★削除"
 
 msgctxt "dlgSgBranchDeleteRemoteConfirmMultiple.btn:"
 msgid "Delete"
-msgstr "削除"
+msgstr "(107) ★削除"
 
 msgctxt "dlgSgBranchDeleteRemoteConfirmMultiple.tle:"
 msgid "Delete"
-msgstr "削除"
+msgstr "(108) ★削除"
 
 msgctxt "dlgSgBranchDeleteRemoteConfirmSingle.btn:"
 msgid "Delete"
-msgstr "削除"
+msgstr "(109) ★削除"
 
 msgctxt "dlgSgBranchDeleteRemoteConfirmSingle.chk:"
 msgid "Delete from remote '$1'"
@@ -2992,7 +2993,7 @@ msgstr "リモートブランチ'$1'を削除しますか？"
 
 msgctxt "dlgSgBranchDeleteRemoteConfirmSingle.tle:"
 msgid "Delete"
-msgstr "削除"
+msgstr "(110) ★削除"
 
 msgctxt "dlgSgBranchTrackingResetConfirm.btn:"
 msgid "Stop Tracking"
@@ -3342,17 +3343,19 @@ msgctxt "dlgSgClean.btn:"
 msgid "Clean Working Tree"
 msgstr "作業ツリーのクリーンアップ"
 
+#, fuzzy
 msgctxt "dlgSgClean.chk:"
 msgid "Remove only ignored files"
 msgstr "無視されたファイルのみ削除"
 
+#, fuzzy
 msgctxt "dlgSgClean.chk:"
 msgid "Remove untracked directories"
 msgstr "追跡されていないディレクトリを削除する"
 
 msgctxt "dlgSgClean.edt:"
 msgid "Delete"
-msgstr "削除"
+msgstr "(111) ★削除"
 
 msgctxt "dlgSgClean.hdl:"
 msgid "Delete unversioned files"
@@ -4190,7 +4193,7 @@ msgstr "クリア"
 
 msgctxt "dlgSgCustomizeProjectUi.btn:"
 msgid "Remove"
-msgstr "除去"
+msgstr "(2)★除去"
 
 msgctxt "dlgSgCustomizeProjectUi.btn:"
 msgid "Reset"
@@ -4242,7 +4245,7 @@ msgstr "カスタマイズ"
 
 msgctxt "dlgSgDeleteDirTrash.btn:"
 msgid "Delete"
-msgstr "削除"
+msgstr "(112) ★削除"
 
 msgctxt "dlgSgDeleteDirTrash.btn:"
 msgid "Move to Trash"
@@ -4258,7 +4261,7 @@ msgstr "'$1' を再帰的に削除しますか？"
 
 msgctxt "dlgSgDeleteDirTrash.tle:"
 msgid "Delete"
-msgstr "削除"
+msgstr "(113) ★削除"
 
 msgctxt "dlgSgDeleteFileTrash.hdl:"
 msgid "Do you want to delete '$1'?"
@@ -4334,7 +4337,7 @@ msgstr "インデックス"
 
 msgctxt "dlgSgDiscard.tle:"
 msgid "Discard"
-msgstr "破棄"
+msgstr "(204) ★破棄"
 
 msgctxt "dlgSgDiscardNoFilesFound.fur:"
 msgid "Neither staged files nor locally changed files were found."
@@ -4346,7 +4349,7 @@ msgstr "破棄するものはありません。"
 
 msgctxt "dlgSgDiscardNoFilesFound.tle:"
 msgid "Discard"
-msgstr "破棄"
+msgstr "(205) ★破棄"
 
 msgctxt "dlgSgDiscardNotApplicableForIndexFiles.fur:"
 msgid "You have selected to discard only the Index changes of one or more files. However, at least one of the files is also modified in the working tree. It is not possible to discard only Index changes in this case.\\n\\nIf you actually want to discard the working tree changes, select the file in the working tree table."
@@ -4358,7 +4361,7 @@ msgstr "インデックスの変更を破棄することはできません。"
 
 msgctxt "dlgSgDiscardNotApplicableForIndexFiles.tle:"
 msgid "Discard"
-msgstr "破棄"
+msgstr "(206) ★破棄"
 
 msgctxt "dlgSgDiscardRevertToHead.hdl:"
 msgid "Do you want to reset $1 files back to their HEAD state?"
@@ -4370,7 +4373,7 @@ msgstr "$1 個のファイルをインデックスの状態に戻しますか?"
 
 msgctxt "dlgSgDiscardRevertTo(Head|Index).btn:"
 msgid "Discard"
-msgstr "破棄"
+msgstr "(207) ★破棄"
 
 msgctxt "dlgSgDiscardRevertTo(Head|Index).fur:"
 msgid "The content might be hard to restore!"
@@ -4378,7 +4381,7 @@ msgstr "内容を復元するのは難しいかもしれません。"
 
 msgctxt "dlgSgDiscardRevertTo(Head|Index).tle:"
 msgid "Discard"
-msgstr "破棄"
+msgstr "(208) ★破棄"
 
 msgctxt "dlgSgErrorUtilsClientException.fur:"
 msgid "Commit '$1' was not found in repository."
@@ -4396,13 +4399,6 @@ msgctxt "dlgSgErrorUtilsClientException.fur:"
 msgid "No valid worktree state of the repository."
 msgstr "リポジトリの有効な作業ツリー状態がありません。"
 
-# TODO: Review
-# Multiple different messages (msgid) were detected.
-# msgid "Server returned HTTP response code: 400 for URL: https://gitlab.com/oauth/token"
-# msgid "Repository 'XXXXXX' is not valid."
-# msgid "No valid worktree state of the repository."
-# msgid "Server returned HTTP response code: 401 for URL: https://gitlab.com/api/v4/user:\\n\\nToken was revoked. You have to re-authorize from the user."
-#, fuzzy
 msgctxt "dlgSgErrorUtilsClientException.fur:"
 msgid "Repository '$1' is not valid."
 msgstr "リポジトリ '$1' は無効です。"
@@ -4997,7 +4993,7 @@ msgstr "サポートを開始"
 
 msgctxt "dlgSgGarbageCollector.btn:"
 msgid "Run Garbage Collector"
-msgstr "ガベージコレクタ"
+msgstr "ガベージコレクタを実行"
 
 msgctxt "dlgSgGarbageCollector.chk:"
 msgid "Also prune recently created objects"
@@ -5013,7 +5009,7 @@ msgstr "リポジトリの最適化をより積極的に行う \\(時間がか�
 
 msgctxt "dlgSgGarbageCollector.hdl:"
 msgid "Run Garbage Collector"
-msgstr "ガベージコレクタ"
+msgstr "ガベージコレクタを実行"
 
 msgctxt "dlgSgGarbageCollector.inf:"
 msgid "Running the Git garbage collector will prune unreachable objects and optimize the local repository in order to reduce disk space and increase performance."
@@ -5021,7 +5017,7 @@ msgstr "Gitガベージコレクタを実行すると、到達できないオブ
 
 msgctxt "dlgSgGarbageCollector.tle:"
 msgid "Run Garbage Collector"
-msgstr "ガベージコレクタ"
+msgstr "ガベージコレクタを実行"
 
 msgctxt "dlgSgGarbageCollectorDeleteAllStashes.btn:"
 msgid "Delete Stashes"
@@ -5037,7 +5033,7 @@ msgstr "すべてのスタッシュも削除しますか？"
 
 msgctxt "dlgSgGarbageCollectorDeleteAllStashes.tle:"
 msgid "Run Garbage Collector"
-msgstr "ガベージコレクタの実行"
+msgstr "ガベージコレクタを実行"
 
 msgctxt "dlgSgGitConfigEditConfigNotFound.fur:"
 msgid "The file $1config could not be opened for editing."
@@ -6170,6 +6166,7 @@ msgctxt "dlgSgIgnoreFile.btn:"
 msgid "Ignore"
 msgstr "無視"
 
+#, fuzzy
 msgctxt "dlgSgIgnoreFile.btn:"
 msgid "Remove && Ignore"
 msgstr "除去して無視する"
@@ -6236,7 +6233,7 @@ msgstr "改行コードが混合しているため、ファイルを編集でき
 
 msgctxt "dlgSgIndexEditorSaveOrDiscard.btn:"
 msgid "Discard"
-msgstr "破棄"
+msgstr "(209) ★破棄"
 
 msgctxt "dlgSgIndexEditorSaveOrDiscard.btn:"
 msgid "Save"
@@ -6567,6 +6564,7 @@ msgctxt "dlgSgLogRefreshRepositoryInvalid.btn:"
 msgid "Close Repository"
 msgstr "リポジトリを閉じる"
 
+#, fuzzy
 msgctxt "dlgSgLogRefreshRepositoryInvalid.btn:"
 msgid "Remove Repository"
 msgstr "リポジトリを削除"
@@ -6786,7 +6784,7 @@ msgstr "コマンド「中止」に失敗しました!"
 
 msgctxt "dlgSgOutput.lbl:"
 msgid "Command Add Branch failed!"
-msgstr "コマンド ブランチの追加に失敗しました！"
+msgstr "コマンド「ブランチを追加」に失敗しました！"
 
 msgctxt "dlgSgOutput.lbl:"
 msgid "Command Add Submodule failed!"
@@ -6926,12 +6924,13 @@ msgstr "コマンド 「対話的なリベース」 に失敗しました!"
 
 msgctxt "dlgSgOutput.lbl:"
 msgid "Command Rebase failed!"
-msgstr "コマンド 「リベース」 に失敗した！"
+msgstr "コマンド 「リベース」 に失敗しました！"
 
 msgctxt "dlgSgOutput.lbl:"
 msgid "Command Rebase produced warnings."
 msgstr "コマンド 「リベース」 が警告を発しました。"
 
+#, fuzzy
 msgctxt "dlgSgOutput.lbl:"
 msgid "Command Remove Worktree failed!"
 msgstr "コマンド ワークツリーの削除に失敗しました！"
@@ -7140,11 +7139,11 @@ msgstr "デフォルト項目を追加し直す"
 
 msgctxt "dlgSgPreferences.btn:"
 msgid "Remove All"
-msgstr "全て削除"
+msgstr "すべて削除"
 
 msgctxt "dlgSgPreferences.btn:"
 msgid "Remove"
-msgstr "除去"
+msgstr "(3)★除去"
 
 msgctxt "dlgSgPreferences.btn:"
 msgid "Reset to Defaults"
@@ -7430,10 +7429,12 @@ msgctxt "dlgSgPreferences.chk:"
 msgid "Remember from last used single Log or Working Tree window"
 msgstr "最後に使用したウィンドウタイプ(ロググラフ or ワーキングツリー)を記憶する"
 
+#, fuzzy
 msgctxt "dlgSgPreferences.chk:"
 msgid "Remove leading and trailing whitespace from commit message"
 msgstr "コミットメッセージから先頭と末尾のホワイトスペースを削除する"
 
+#, fuzzy
 msgctxt "dlgSgPreferences.chk:"
 msgid "Remove missing files"
 msgstr "見つからないファイルの削除"
@@ -7891,7 +7892,7 @@ msgstr "外部ツール:"
 
 msgctxt "dlgSgPreferences.lbl:"
 msgid "Finish Feature"
-msgstr "フィーチャーブランチの完了"
+msgstr "Featureを完了"
 
 msgctxt "dlgSgPreferences.lbl:"
 msgid "Garbage Collector"
@@ -8586,7 +8587,7 @@ msgstr "マージリクエストを作成"
 
 msgctxt "dlgSgProviderPullRequestDropConfirmMr.btn:"
 msgid "Drop"
-msgstr "削除"
+msgstr "(114) ★削除"
 
 msgctxt "dlgSgProviderPullRequestDropConfirmMr.fur:"
 msgid "The merge request itself will not be deleted on the server."
@@ -8602,7 +8603,7 @@ msgstr "マージ リクエストの削除"
 
 msgctxt "dlgSgProviderPullRequestDropConfirmPr.btn:"
 msgid "Drop"
-msgstr "削除"
+msgstr "(115) ★削除"
 
 msgctxt "dlgSgProviderPullRequestDropConfirmPr.fur:"
 msgid "The pull request itself will not be deleted on the server."
@@ -9008,6 +9009,7 @@ msgctxt "dlgSgPushToRemote.chk:"
 msgid "Force pushing \\(even if it's not fast-forward\\)"
 msgstr "強制プッシュ \\(ファストフォワードでなくても\\)"
 
+#, fuzzy
 msgctxt "dlgSgPushToRemote.chk:"
 msgid "Remove remote branches which don't have a local counterpart"
 msgstr "ローカルと対応するブランチがないリモートブランチを削除する"
@@ -9030,8 +9032,9 @@ msgstr "プッシュ先"
 
 msgctxt "dlgSgPushToRemoteRemoveTargetBranches.btn:"
 msgid "Remove"
-msgstr "除去"
+msgstr "(4)★除去"
 
+#, fuzzy
 msgctxt "dlgSgPushToRemoteRemoveTargetBranches.fur:"
 msgid "Removed branches and their commits in the target remote which will be lost afterwards."
 msgstr "ターゲットリモートのブランチとそのコミットを削除しました。これは後で失われます。"
@@ -9374,7 +9377,7 @@ msgstr "リベース"
 
 msgctxt "dlgSgRebaseInteractive.btn:"
 msgid "Remove"
-msgstr "除去"
+msgstr "(5)★除去"
 
 msgctxt "dlgSgRebaseInteractive.btn:"
 msgid "Squash"
@@ -9446,7 +9449,7 @@ msgstr "メッセージの編集"
 
 msgctxt "dlgSgRebaseInteractiveRemoveCommit.btn:"
 msgid "Remove"
-msgstr "除去"
+msgstr "(6)★除去"
 
 msgctxt "dlgSgRebaseInteractiveRemoveCommit.fur:"
 msgid "It might become hard or impossible to recover the commit again."
@@ -9456,6 +9459,7 @@ msgctxt "dlgSgRebaseInteractiveRemoveCommit.hdl:"
 msgid "Do you want to remove the selected commit $1?"
 msgstr "選択したコミット $1 を削除しますか?"
 
+#, fuzzy
 msgctxt "dlgSgRebaseInteractiveRemoveCommit.tle:"
 msgid "Remove Commit"
 msgstr "コミットを削除"
@@ -9603,7 +9607,7 @@ msgstr "名前"
 
 msgctxt "dlgSgRemoteDeleteConfirm.btn:"
 msgid "Delete"
-msgstr "削除"
+msgstr "(116) ★削除"
 
 msgctxt "dlgSgRemoteDeleteConfirm.fur:"
 msgid "This will just delete the link to the remote repository."
@@ -9781,9 +9785,11 @@ msgctxt "dlgSgRemotesNoRemoteDetected.tle:"
 msgid "Push Up To"
 msgstr "ここまでをプッシュ"
 
+# リポジトリからファイルを削除する確認画面などで使用されます。
+# ToDo: 影響範囲の確認
 msgctxt "dlgSgRemove.btn:"
 msgid "Remove"
-msgstr "除去"
+msgstr "削除"
 
 msgctxt "dlgSgRemove.chk:"
 msgid "Delete local files"
@@ -9799,7 +9805,7 @@ msgstr "名前"
 
 msgctxt "dlgSgRemove.hdl:"
 msgid "Remove files from the repository"
-msgstr "リポジトリからをファイル削除"
+msgstr "リポジトリからファイルを削除"
 
 msgctxt "dlgSgRemove.inf:"
 msgid "Select the files you want to remove from the repository or working tree \\(stopped from tracking\\)."
@@ -9807,7 +9813,7 @@ msgstr "リポジトリや作業ツリーから削除したい（追跡を停止
 
 msgctxt "dlgSgRemove.tle:"
 msgid "Remove"
-msgstr "除去"
+msgstr "(8)★除去"
 
 msgctxt "dlgSgRenameBranch.btn:"
 msgid "Rename"
@@ -10028,7 +10034,7 @@ msgstr "閉じる"
 
 msgctxt "dlgSgRepositoryOpen.btn:"
 msgid "Remove"
-msgstr "除去"
+msgstr "(9)★除去"
 
 msgctxt "dlgSgRepositoryOpen.fur:"
 msgid "If it is relocated, remove it and add its new location."
@@ -10052,7 +10058,7 @@ msgstr "リポジトリ '$1' を削除できませんでした。"
 
 msgctxt "dlgSgRepositoryRemoveFailed1.tle:"
 msgid "Remove"
-msgstr "除去"
+msgstr "(10)★除去"
 
 msgctxt "dlgSgRepositoryRemoveMultiGroup.fur:"
 msgid "Repositories inside a removed group will be moved out of the group."
@@ -10060,7 +10066,7 @@ msgstr "削除されたグループ内のリポジトリは、グループの外
 
 msgctxt "dlgSgRepositoryRemoveMultiGroup.hdl:"
 msgid "Do you want to remove $1 groups?"
-msgstr "グループ'$1'を削除しますか？"
+msgstr "$1 個のグループを削除しますか？"
 
 msgctxt "dlgSgRepositoryRemoveMultiRepo.fur:"
 msgid "This will keep the repositories on disk, but just let SmartGit forget about them."
@@ -10068,7 +10074,7 @@ msgstr "これは、ディスク上のリポジトリを維持しつつ、SmartG
 
 msgctxt "dlgSgRepositoryRemoveMultiRepo.hdl:"
 msgid "Do you want to remove $1 repositories?"
-msgstr "リポジトリ'$1'を削除しますか？"
+msgstr "$1 個のリポジトリを削除しますか？"
 
 msgctxt "dlgSgRepositoryRemoveMultiRepoMultiGroup.fur:"
 msgid "This will keep the repositories on disk, but just let SmartGit forget about them. Repositories inside a removed group will be moved out of the group."
@@ -10076,7 +10082,7 @@ msgstr "これにより、ディスク上のリポジトリは維持されます
 
 msgctxt "dlgSgRepositoryRemoveMultiRepoMultiGroup.hdl:"
 msgid "Do you want to remove $1 repositories and $2 groups?"
-msgstr "リポジトリ'$1'とグループ'$2'を削除しますか？"
+msgstr "$1 個のリポジトリと $2 個のグループを削除しますか？"
 
 msgctxt "dlgSgRepositoryRemoveMultiRepoSingleGroup.fur:"
 msgid "This will keep the repositories on disk, but just let SmartGit forget about them. Repositories inside a removed group will be moved out of the group."
@@ -10084,7 +10090,7 @@ msgstr "これにより、ディスク上のリポジトリは維持されます
 
 msgctxt "dlgSgRepositoryRemoveMultiRepoSingleGroup.hdl:"
 msgid "Do you want to remove $1 repositories and the group \"$2\"?"
-msgstr "リポジトリ'$1'とグループ'$2'を削除しますか？"
+msgstr "$1 個のリポジトリとグループ \"$2\" を削除しますか？"
 
 msgctxt "dlgSgRepositoryRemoveSingleGroup.fur:"
 msgid "Repositories inside a removed group will be moved out of the group."
@@ -10802,7 +10808,7 @@ msgstr "インポート"
 
 msgctxt "dlgSgReviewUsersEdit.btn:"
 msgid "Remove"
-msgstr "除去"
+msgstr "(11)★除去"
 
 msgctxt "dlgSgReviewUsersEdit.col:"
 msgid "Aliases"
@@ -11414,7 +11420,7 @@ msgstr "スタッシュを適用"
 
 msgctxt "dlgSgStashOnDemandConfirmation.btn:"
 msgid "Discard"
-msgstr "破棄"
+msgstr "(210) ★破棄"
 
 msgctxt "dlgSgStashOnDemandConfirmation.btn:"
 msgid "Save Stash"
@@ -11522,7 +11528,7 @@ msgstr "リセット"
 
 msgctxt "dlgSgStashOnDemandDiscardConfirmation.btn:"
 msgid "Discard"
-msgstr "破棄"
+msgstr "(211) ★破棄"
 
 msgctxt "dlgSgStashOnDemandDiscardConfirmation.fur:"
 msgid "It might be hard or impossible to restore them!"
@@ -12126,7 +12132,7 @@ msgstr "タグを追加"
 
 msgctxt "dlgSgTagDeleteConfirmSingle.btn:"
 msgid "Delete"
-msgstr "削除"
+msgstr "(117) ★削除"
 
 msgctxt "dlgSgTagDeleteConfirmSingle.chk:"
 msgid "Delete from all remotes"
@@ -12146,7 +12152,7 @@ msgstr "タグ'$1'を削除しますか？"
 
 msgctxt "dlgSgTagDeleteConfirmSingle.tle:"
 msgid "Delete"
-msgstr "削除"
+msgstr "(118) ★削除"
 
 msgctxt "dlgSgToolAdd.edt:"
 msgid "Keyboard Shortcut"
@@ -12502,7 +12508,7 @@ msgstr "ローカルブランチを作成:"
 
 msgctxt "dlgStdDiscard.btn:"
 msgid "Discard"
-msgstr "破棄"
+msgstr "(212) ★破棄"
 
 msgctxt "dlgStdDiscard.fur:"
 msgid "You won't be able to restore them."
@@ -12514,7 +12520,7 @@ msgstr "ローカルの変更を破棄しますか？"
 
 msgctxt "dlgStdDiscardConfirmUntrackedFiles.btn:"
 msgid "Discard"
-msgstr "破棄"
+msgstr "(213) ★破棄"
 
 msgctxt "dlgStdDiscardConfirmUntrackedFiles.chk:"
 msgid "Don't show again"
@@ -12530,7 +12536,7 @@ msgstr "未追跡のファイルを削除しますか？"
 
 msgctxt "dlgStdDiscardConfirmUntrackedFiles.tle:"
 msgid "Discard"
-msgstr "破棄"
+msgstr "(214) ★破棄"
 
 msgctxt "dlgStdFeatureConfiguration.btn:"
 msgid "Confirm"
@@ -12780,6 +12786,7 @@ msgctxt "dlg(ScConflictSolverAdd|ScConflictSolverEdit|ScFileComparatorAdd|ScFile
 msgid "You must use the variables \\$\\{leftFile\\} and \\$\\{rightFile\\}."
 msgstr "変数 \\$\\{leftFile\\}, \\$\\{rightFile\\} を使用する必要があります。"
 
+# ファイルを削除するかゴミ箱へ移動するかの選択ダイアログで表示されます
 msgctxt "dlg(SgDeleteFileTrash|SgDeleteFilesTrash).btn:"
 msgid "Delete"
 msgstr "削除"
@@ -12794,11 +12801,11 @@ msgstr "「削除」をクリックすると、削除されたファイルを復
 
 msgctxt "dlg(SgDeleteFileTrash|SgDeleteFilesTrash).tle:"
 msgid "Delete"
-msgstr "削除"
+msgstr "(120) ★削除"
 
 msgctxt "dlg(SgRepositoryRemoveMultiGroup|SgRepositoryRemoveMultiRepo|SgRepositoryRemoveMultiRepoMultiGroup|SgRepositoryRemoveMultiRepoSingleGroup|SgRepositoryRemoveSingleGroup|SgRepositoryRemoveSingleRepo|SgRepositoryRemoveSingleRepoMultiGroup|SgRepositoryRemoveSingleRepoSingleGroup).btn:"
 msgid "Remove"
-msgstr "除去"
+msgstr "削除"
 
 msgctxt "dlg(SgRepositoryRemoveMultiGroup|SgRepositoryRemoveMultiRepo|SgRepositoryRemoveMultiRepoMultiGroup|SgRepositoryRemoveMultiRepoSingleGroup|SgRepositoryRemoveSingleGroup|SgRepositoryRemoveSingleRepo|SgRepositoryRemoveSingleRepoMultiGroup|SgRepositoryRemoveSingleRepoSingleGroup).chk:"
 msgid "Don't show again"
@@ -12806,7 +12813,7 @@ msgstr "次回から表示しない"
 
 msgctxt "dlg(SgRepositoryRemoveMultiGroup|SgRepositoryRemoveMultiRepo|SgRepositoryRemoveMultiRepoMultiGroup|SgRepositoryRemoveMultiRepoSingleGroup|SgRepositoryRemoveSingleGroup|SgRepositoryRemoveSingleRepo|SgRepositoryRemoveSingleRepoMultiGroup|SgRepositoryRemoveSingleRepoSingleGroup).tle:"
 msgid "Remove"
-msgstr "除去"
+msgstr "(13)★除去"
 
 msgctxt "edt:"
 msgid "Search For"
@@ -12963,7 +12970,7 @@ msgstr "構成されたメモリ制限がすでに非常に多いと思われる
 
 msgctxt "ntmHighMemoryUsage:"
 msgid "SmartGit is close to the configured memory limit."
-msgstr "SmartGit に対して設定されたメモリ制限に近づいています。"
+msgstr "SmartGitのメモリ使用量が設定された上限に近づいています。"
 
 msgctxt "ntmHostingProviderIntegrationNotYetConfigured:"
 msgid "SmartGit provides special support for $1. The integration can be configured in the Preferences."
@@ -14788,7 +14795,7 @@ msgstr "前の変更点に移動します。"
 
 msgctxt "wndGit.indexEditor.tle:"
 msgid "$1 - Index Editor"
-msgstr "$1 - index エディタ"
+msgstr "$1 - インデックス エディタ"
 
 msgctxt "wndLog.hnt:"
 msgid "No commit matches the filter."
@@ -15141,7 +15148,7 @@ msgstr "リベース"
 
 msgctxt "wndStd.mni:"
 msgid "Remove"
-msgstr "削除"
+msgstr "(121) ★削除"
 
 msgctxt "wndStd.mni:"
 msgid "Reset Adv."
@@ -16005,7 +16012,7 @@ msgstr "コメント '$1' を削除"
 
 msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "Delete"
-msgstr "削除"
+msgstr "(122) ★削除"
 
 msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "Diff Tool"
@@ -16041,7 +16048,7 @@ msgstr "コミット '$1' を編集"
 
 msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "Edit in Index Editor"
-msgstr "indexエディタで編集する"
+msgstr "インデックス エディタで編集する"
 
 msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "Edit"
@@ -16614,7 +16621,7 @@ msgstr "続ける"
 
 msgctxt "wnd(Log|Project|Std|).mniBranchDelete:"
 msgid "Delete"
-msgstr "削除"
+msgstr "(123) ★削除"
 
 msgctxt "wnd(Log|Project|Std|).mniBranchRename:"
 msgid "Rename"
@@ -16800,13 +16807,15 @@ msgctxt "wnd(Log|Project|Std|).mniDebugRunGc:"
 msgid "Run GC"
 msgstr "Run GC"
 
+# ファイルを削除します(この操作のあと、「削除」か「ゴミ箱へ移動」の選択がポップアップで表示されます)
 msgctxt "wnd(Log|Project|Std|).mniDelete:"
 msgid "Delete"
-msgstr "削除"
+msgstr "ファイルを削除"
 
+# グラフビューのコンテキストメニュー
 msgctxt "wnd(Log|Project|Std|).mniDiscard:"
 msgid "Discard"
-msgstr "破棄"
+msgstr "変更を破棄"
 
 msgctxt "wnd(Log|Project|Std|).mniEdit-ignore-case-changes:"
 msgid "Ignore Case Change for Line Comparison"
@@ -16946,7 +16955,7 @@ msgstr "追跡されたリモート ブランチを含める"
 
 msgctxt "wnd(Log|Project|Std|).mniIndexEditor:"
 msgid "Index Editor"
-msgstr "indexエディタ"
+msgstr "インデックス エディタ"
 
 msgctxt "wnd(Log|Project|Std|).mniInvestigate:"
 msgid "Investigate"
@@ -16978,7 +16987,7 @@ msgstr "使用許諾契約"
 
 msgctxt "wnd(Log|Project|Std|).mniLocalGc:"
 msgid "Run Garbage Collector"
-msgstr "ガベージコレクタ"
+msgstr "ガベージコレクタを実行"
 
 msgctxt "wnd(Log|Project|Std|).mniLog:"
 msgid "Log"
@@ -17174,7 +17183,7 @@ msgstr "URL をコピー"
 
 msgctxt "wnd(Log|Project|Std|).mniRemoteDelete:"
 msgid "Delete"
-msgstr "削除"
+msgstr "(125) ★削除"
 
 msgctxt "wnd(Log|Project|Std|).mniRemoteFetch:"
 msgid "Fetch"
@@ -17196,9 +17205,10 @@ msgctxt "wnd(Log|Project|Std|).mniRemoteRename:"
 msgid "Rename"
 msgstr "リネーム"
 
+# git rm の操作と対応する操作です
 msgctxt "wnd(Log|Project|Std|).mniRemove:"
 msgid "Remove"
-msgstr "除去"
+msgstr "リポジトリから削除"
 
 msgctxt "wnd(Log|Project|Std|).mniRename:"
 msgid "Move or Rename"
@@ -17248,9 +17258,10 @@ msgctxt "wnd(Log|Project|Std|).mniRepositoryOpenInNewWindow:"
 msgid "Open Repository in New Window"
 msgstr "リポジトリを新しいウィンドウで開く"
 
+# リポジトリビューのグループを削除します。
 msgctxt "wnd(Log|Project|Std|).mniRepositoryRemove:"
 msgid "Remove"
-msgstr "除去"
+msgstr "削除"
 
 msgctxt "wnd(Log|Project|Std|).mniRepositoryRename:"
 msgid "Rename"
@@ -17280,7 +17291,6 @@ msgctxt "wnd(Log|Project|Std|).mniResolve:"
 msgid "Resolve"
 msgstr "解決"
 
-#, fuzzy
 msgctxt "wnd(Log|Project|Std|).mniResolveOurs:"
 msgid "Take Ours"
 msgstr "自分たちの変更を採用"
@@ -17289,7 +17299,6 @@ msgctxt "wnd(Log|Project|Std|).mniResolveRecreateConflict:"
 msgid "Recreate Conflict"
 msgstr "競合した状態に戻す"
 
-#, fuzzy
 msgctxt "wnd(Log|Project|Std|).mniResolveTheirs:"
 msgid "Take Theirs"
 msgstr "相手の変更を採用"
@@ -17666,6 +17675,7 @@ msgctxt "wnd(Log|Project|Std|).mniWorktreePrune:"
 msgid "Prune Obsolete Worktrees"
 msgstr "廃止されたワークツリーを整理する"
 
+#, fuzzy
 msgctxt "wnd(Log|Project|Std|).mniWorktreeRemove:"
 msgid "Remove Worktree"
 msgstr "ワークツリーを削除する"
@@ -17928,11 +17938,11 @@ msgstr "コンフリクトソルバー"
 
 msgctxt "wnd(Log|Project|Std|).tbr:"
 msgid "Delete"
-msgstr "削除"
+msgstr "(127) ★削除"
 
 msgctxt "wnd(Log|Project|Std|).tbr:"
 msgid "Discard"
-msgstr "破棄"
+msgstr "(216) ★破棄"
 
 msgctxt "wnd(Log|Project|Std|).tbr:"
 msgid "Drop Stash"
@@ -17960,7 +17970,7 @@ msgstr "無視"
 
 msgctxt "wnd(Log|Project|Std|).tbr:"
 msgid "Index Editor"
-msgstr "indexエディタ"
+msgstr "インデックス エディタ"
 
 msgctxt "wnd(Log|Project|Std|).tbr:"
 msgid "Integrate"
@@ -18012,7 +18022,7 @@ msgstr "更新"
 
 msgctxt "wnd(Log|Project|Std|).tbr:"
 msgid "Remove"
-msgstr "除去"
+msgstr "(16)★除去"
 
 msgctxt "wnd(Log|Project|Std|).tbr:"
 msgid "Reset Adv."
@@ -18246,6 +18256,7 @@ msgctxt "wnd(Log|Project|Std|).tbtRemoteFetch:"
 msgid "Fetch commits from current remote repository."
 msgstr "現在のリモートリポジトリからコミットを取得します。"
 
+#, fuzzy
 msgctxt "wnd(Log|Project|Std|).tbtRemove:"
 msgid "Remove selected files or directories from repository."
 msgstr "選択したファイルまたはディレクトリをリポジトリから削除します。"
@@ -18318,6 +18329,7 @@ msgctxt "wnd(Log|Project|Std|).tbtSync:"
 msgid "Push local commits of the current branch and pull remote changes."
 msgstr "現在のブランチのローカルコミットをプッシュし、リモートの変更をプルします。"
 
+#, fuzzy
 msgctxt "wnd(Log|Project|Std|).tbtUnstage:"
 msgid "Remove staged changes from index."
 msgstr "インデックスからステージングされた変更を削除します。"
