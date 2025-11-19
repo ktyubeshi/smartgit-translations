@@ -18020,9 +18020,10 @@ msgctxt "wnd(Log|Project|Std|).tbr:"
 msgid "Refresh"
 msgstr "更新"
 
+# ツールバーのアイコンの下に表示されます。「リポジトリから削除」機能と対応します。「ファイルを削除」と混同しないようにする必要があります。
 msgctxt "wnd(Log|Project|Std|).tbr:"
 msgid "Remove"
-msgstr "(16)★除去"
+msgstr "リポジトリから削除"
 
 msgctxt "wnd(Log|Project|Std|).tbr:"
 msgid "Reset Adv."
