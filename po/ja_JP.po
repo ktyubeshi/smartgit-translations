@@ -17936,7 +17936,7 @@ msgstr "コンフリクトソルバー"
 
 msgctxt "wnd(Log|Project|Std|).tbr:"
 msgid "Delete"
-msgstr "(127) ★削除"
+msgstr "削除"
 
 # 画面上部のツールバーのアイコンの下に表示されます
 msgctxt "wnd(Log|Project|Std|).tbr:"
