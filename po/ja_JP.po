@@ -9815,7 +9815,7 @@ msgstr "(8)★除去"
 
 msgctxt "dlgSgRenameBranch.btn:"
 msgid "Rename"
-msgstr "リネーム"
+msgstr "名前を変更"
 
 msgctxt "dlgSgRenameBranch.edt:"
 msgid "Name"
@@ -9827,7 +9827,7 @@ msgstr "名前はスラッシュまたはドットで終わってはいけませ
 
 msgctxt "dlgSgRenameBranch.hdl:"
 msgid "Rename branch"
-msgstr "ブランチの名前を変更する"
+msgstr "ブランチ名を変更"
 
 # $1: Current branch name
 msgctxt "dlgSgRenameBranch.inf:"
@@ -9836,11 +9836,11 @@ msgstr "'$1'ブランチの新しい名前を入力してください。"
 
 msgctxt "dlgSgRenameBranch.tle:"
 msgid "Rename"
-msgstr "リネーム"
+msgstr "名前を変更"
 
 msgctxt "dlgSgRenameFile.btn:"
 msgid "Rename"
-msgstr "リネーム"
+msgstr "名前を変更"
 
 msgctxt "dlgSgRenameFile.edt:"
 msgid "Path"
@@ -9864,7 +9864,7 @@ msgstr "移動または名前を変更"
 
 msgctxt "dlgSgRenameRemote.btn:"
 msgid "Rename"
-msgstr "リネーム"
+msgstr "名前を変更"
 
 msgctxt "dlgSgRenameRemote.edt:"
 msgid "Name"
@@ -9880,11 +9880,11 @@ msgstr "選択したリモートの新しい名前を入力します。"
 
 msgctxt "dlgSgRenameRemote.tle:"
 msgid "Rename Remote Repository"
-msgstr "リモートリポジトリの名前を変更する"
+msgstr "リモートリポジトリの名前を変更"
 
 msgctxt "dlgSgRenameRepository.btn:"
 msgid "Rename"
-msgstr "リネーム"
+msgstr "名前を変更"
 
 msgctxt "dlgSgRenameRepository.edt:"
 msgid "Name"
@@ -9892,7 +9892,7 @@ msgstr "名前"
 
 msgctxt "dlgSgRenameRepository.hdl:"
 msgid "Rename repository"
-msgstr "リポジトリの名前を変更する"
+msgstr "リポジトリ名を変更"
 
 msgctxt "dlgSgRenameRepository.inf:"
 msgid "Provide the new name for the repository. The repository directory will not be renamed."
@@ -9900,7 +9900,7 @@ msgstr "リポジトリの新しい名前を指定します。リポジトリデ
 
 msgctxt "dlgSgRenameRepository.tle:"
 msgid "Rename"
-msgstr "リネーム"
+msgstr "名前を変更"
 
 msgctxt "dlgSgRepositoriesSearch.btn:"
 msgid "Start Search"
@@ -11570,7 +11570,7 @@ msgstr "リセット"
 
 msgctxt "dlgSgStashRename.btn:"
 msgid "Rename"
-msgstr "リネーム"
+msgstr "名前を変更"
 
 msgctxt "dlgSgStashRename.edt:"
 msgid "Message"
@@ -11578,7 +11578,7 @@ msgstr "メッセージ"
 
 msgctxt "dlgSgStashRename.hdl:"
 msgid "Rename Stash"
-msgstr "リネーム"
+msgstr "スタッシュ名を変更"
 
 msgctxt "dlgSgStashRename.inf:"
 msgid "Enter the new message for the stash"
@@ -11586,7 +11586,7 @@ msgstr "スタッシュの新しいメッセージを入力してください"
 
 msgctxt "dlgSgStashRename.tle:"
 msgid "Rename"
-msgstr "リネーム"
+msgstr "名前を変更"
 
 msgctxt "dlgSgStashesDropConfirm.btn:"
 msgid "Drop Stash"
@@ -14355,7 +14355,7 @@ msgstr "無視できないマージを追跡する \\(実験的\\)"
 
 msgctxt "wndDeepgit.mniDgFollowRenames:"
 msgid "Follow Renames"
-msgstr "リネームを追跡"
+msgstr "名前変更を追跡"
 
 msgctxt "wndDeepgit.mniDgForward:"
 msgid "Go Forward"
@@ -15726,7 +15726,7 @@ msgstr "相対パス"
 
 msgctxt "wnd(Log|Project|Std|).col:"
 msgid "Renamed Path"
-msgstr "名前変更したパス"
+msgstr "名前変更されたパス"
 
 msgctxt "wnd(Log|Project|Std|).col:"
 msgid "Size"
@@ -16322,11 +16322,11 @@ msgstr "パターンを記憶"
 
 msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "Rename"
-msgstr "リネーム"
+msgstr "名前を変更"
 
 msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "Renamed Path"
-msgstr "名前変更したパス"
+msgstr "名前変更されたパス"
 
 msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "Reorder Commits"
@@ -16623,7 +16623,7 @@ msgstr "(123) ★削除"
 
 msgctxt "wnd(Log|Project|Std|).mniBranchRename:"
 msgid "Rename"
-msgstr "リネーム"
+msgstr "名前を変更"
 
 msgctxt "wnd(Log|Project|Std|).mniBranchResetTracking:"
 msgid "Stop Tracking"
@@ -17201,7 +17201,7 @@ msgstr "プロパティ"
 
 msgctxt "wnd(Log|Project|Std|).mniRemoteRename:"
 msgid "Rename"
-msgstr "リネーム"
+msgstr "名前を変更"
 
 # git rm の操作と対応する操作です
 msgctxt "wnd(Log|Project|Std|).mniRemove:"
@@ -17263,7 +17263,7 @@ msgstr "削除"
 
 msgctxt "wnd(Log|Project|Std|).mniRepositoryRename:"
 msgid "Rename"
-msgstr "リネーム"
+msgstr "名前を変更"
 
 msgctxt "wnd(Log|Project|Std|).mniRepositorySearch:"
 msgid "Search for Repositories"
@@ -17443,7 +17443,7 @@ msgstr "スタッシュを削除"
 
 msgctxt "wnd(Log|Project|Std|).mniStashRename:"
 msgid "Rename Stash"
-msgstr "リネーム"
+msgstr "スタッシュ名を変更"
 
 msgctxt "wnd(Log|Project|Std|).mniStashSave:"
 msgid "Stash All"
@@ -17555,7 +17555,7 @@ msgstr "サブディレクトリのファイル"
 
 msgctxt "wnd(Log|Project|Std|).mniViewRenameSource:"
 msgid "Show Rename Source Files"
-msgstr "名前変更元のファイルを表示"
+msgstr "リネーム元のファイルを表示"
 
 msgctxt "wnd(Log|Project|Std|).mniViewSeparateWtAndIndex:"
 msgid "Separate Working Tree and Index"
