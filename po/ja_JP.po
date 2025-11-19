@@ -17938,9 +17938,10 @@ msgctxt "wnd(Log|Project|Std|).tbr:"
 msgid "Delete"
 msgstr "(127) ★削除"
 
+# 画面上部のツールバーのアイコンの下に表示されます
 msgctxt "wnd(Log|Project|Std|).tbr:"
 msgid "Discard"
-msgstr "(216) ★破棄"
+msgstr "破棄"
 
 msgctxt "wnd(Log|Project|Std|).tbr:"
 msgid "Drop Stash"
