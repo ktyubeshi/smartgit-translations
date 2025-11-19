@@ -15144,9 +15144,10 @@ msgctxt "wndStd.mni:"
 msgid "Rebase"
 msgstr "リベース"
 
+# ツールバーを右クリックしたときに表示されます。「リポジトリから削除」機能を呼び出すメニュー項目です
 msgctxt "wndStd.mni:"
 msgid "Remove"
-msgstr "(121) ★削除"
+msgstr "リポジトリから削除"
 
 msgctxt "wndStd.mni:"
 msgid "Reset Adv."
