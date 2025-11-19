@@ -2883,11 +2883,11 @@ msgstr "現在のブランチは削除できません。"
 
 msgctxt "dlgSgBranchDeleteCurrentNotPossible.tle:"
 msgid "Delete"
-msgstr "(102) ★削除"
+msgstr "削除"
 
 msgctxt "dlgSgBranchDeleteLocalConfirmMultiple.btn:"
 msgid "Delete"
-msgstr "(103) ★削除"
+msgstr "削除"
 
 msgctxt "dlgSgBranchDeleteLocalConfirmMultiple.chk:"
 msgid "Delete branch '$1' from remote repository '$2'"
@@ -2919,11 +2919,11 @@ msgstr "$1 件のローカル ブランチを削除しますか?"
 
 msgctxt "dlgSgBranchDeleteLocalConfirmMultiple.tle:"
 msgid "Delete"
-msgstr "(104) ★削除"
+msgstr "削除"
 
 msgctxt "dlgSgBranchDeleteLocalConfirmSingle.btn:"
 msgid "Delete"
-msgstr "(105) ★削除"
+msgstr "削除"
 
 msgctxt "dlgSgBranchDeleteLocalConfirmSingle.chk:"
 msgid "Delete branch '$1' from remote repository '$2'"
@@ -2955,19 +2955,19 @@ msgstr "ローカルブランチ '$1' を削除しますか?"
 
 msgctxt "dlgSgBranchDeleteLocalConfirmSingle.tle:"
 msgid "Delete"
-msgstr "(106) ★削除"
+msgstr "削除"
 
 msgctxt "dlgSgBranchDeleteRemoteConfirmMultiple.btn:"
 msgid "Delete"
-msgstr "(107) ★削除"
+msgstr "削除"
 
 msgctxt "dlgSgBranchDeleteRemoteConfirmMultiple.tle:"
 msgid "Delete"
-msgstr "(108) ★削除"
+msgstr "削除"
 
 msgctxt "dlgSgBranchDeleteRemoteConfirmSingle.btn:"
 msgid "Delete"
-msgstr "(109) ★削除"
+msgstr "削除"
 
 msgctxt "dlgSgBranchDeleteRemoteConfirmSingle.chk:"
 msgid "Delete from remote '$1'"
@@ -2991,7 +2991,7 @@ msgstr "リモートブランチ'$1'を削除しますか？"
 
 msgctxt "dlgSgBranchDeleteRemoteConfirmSingle.tle:"
 msgid "Delete"
-msgstr "(110) ★削除"
+msgstr "削除"
 
 msgctxt "dlgSgBranchTrackingResetConfirm.btn:"
 msgid "Stop Tracking"
@@ -3353,7 +3353,7 @@ msgstr "追跡されていないディレクトリを削除する"
 
 msgctxt "dlgSgClean.edt:"
 msgid "Delete"
-msgstr "(111) ★削除"
+msgstr "削除"
 
 msgctxt "dlgSgClean.hdl:"
 msgid "Delete unversioned files"
@@ -4243,7 +4243,7 @@ msgstr "カスタマイズ"
 
 msgctxt "dlgSgDeleteDirTrash.btn:"
 msgid "Delete"
-msgstr "(112) ★削除"
+msgstr "削除"
 
 msgctxt "dlgSgDeleteDirTrash.btn:"
 msgid "Move to Trash"
@@ -4259,7 +4259,7 @@ msgstr "'$1' を再帰的に削除しますか？"
 
 msgctxt "dlgSgDeleteDirTrash.tle:"
 msgid "Delete"
-msgstr "(113) ★削除"
+msgstr "削除"
 
 msgctxt "dlgSgDeleteFileTrash.hdl:"
 msgid "Do you want to delete '$1'?"
@@ -9605,7 +9605,7 @@ msgstr "名前"
 
 msgctxt "dlgSgRemoteDeleteConfirm.btn:"
 msgid "Delete"
-msgstr "(116) ★削除"
+msgstr "削除"
 
 msgctxt "dlgSgRemoteDeleteConfirm.fur:"
 msgid "This will just delete the link to the remote repository."
@@ -11726,22 +11726,27 @@ msgctxt "dlgSgSubmoduleAdd.tle:"
 msgid "Add Submodule"
 msgstr "サブモジュールを追加"
 
+#, fuzzy
 msgctxt "dlgSgSubmoduleDeinitConfirm.btn:"
 msgid "Deinit"
 msgstr "削除\\(Deinit\\)"
 
+#, fuzzy
 msgctxt "dlgSgSubmoduleDeinitConfirm.chk:"
 msgid "Force \\(for modified submodules\\)"
 msgstr "強制 \\(変更されたサブモジュール用\\)"
 
+#, fuzzy
 msgctxt "dlgSgSubmoduleDeinitConfirm.fur:"
 msgid "The submodule will be skipped from the working tree. To get rid from the \\(remote\\) repository, you have to use Unregister instead."
 msgstr "サブモジュールは作業ツリーからスキップされます。 \\(リモート\\) リポジトリから削除するには、代わりに 「登録を解除」 を使用する必要があります。"
 
+#, fuzzy
 msgctxt "dlgSgSubmoduleDeinitConfirm.hdl:"
 msgid "Do you want to deinit submodule '$1'?"
 msgstr "サブモジュール'$1'をdeinitしますか？"
 
+#, fuzzy
 msgctxt "dlgSgSubmoduleDeinitConfirm.tle:"
 msgid "Deinit Submodule"
 msgstr "サブモジュールの削除"
@@ -11878,6 +11883,7 @@ msgctxt "dlgSgSubmoduleUnregisterConfirm.btn:"
 msgid "Unregister"
 msgstr "登録を解除"
 
+#, fuzzy
 msgctxt "dlgSgSubmoduleUnregisterConfirm.fur:"
 msgid "All relevant files will be adjusted. Afterwards you will only need to perform a commit to finish the operation. To just skip the submodule from the working tree, use Deinit."
 msgstr "関連するすべてのファイルが調整されます。その後、操作を完了するにはコミットを実行するだけで済みます。作業ツリーからサブモジュールをスキップするには、Deinit を使用します。"
@@ -12130,7 +12136,7 @@ msgstr "タグを追加"
 
 msgctxt "dlgSgTagDeleteConfirmSingle.btn:"
 msgid "Delete"
-msgstr "(117) ★削除"
+msgstr "削除"
 
 msgctxt "dlgSgTagDeleteConfirmSingle.chk:"
 msgid "Delete from all remotes"
@@ -12150,7 +12156,7 @@ msgstr "タグ'$1'を削除しますか？"
 
 msgctxt "dlgSgTagDeleteConfirmSingle.tle:"
 msgid "Delete"
-msgstr "(118) ★削除"
+msgstr "削除"
 
 msgctxt "dlgSgToolAdd.edt:"
 msgid "Keyboard Shortcut"
@@ -17458,6 +17464,7 @@ msgctxt "wnd(Log|Project|Std|).mniSubmoduleDeactivate:"
 msgid "Deactivate"
 msgstr "無効にする"
 
+#, fuzzy
 msgctxt "wnd(Log|Project|Std|).mniSubmoduleDeinit:"
 msgid "Deinit"
 msgstr "削除\\(Deinit\\)"
