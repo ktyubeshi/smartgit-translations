@@ -7139,9 +7139,10 @@ msgctxt "dlgSgPreferences.btn:"
 msgid "Remove All"
 msgstr "すべて削除"
 
+# 設定画面の「認証」「ツール」「ホスティングプロバイダ」などを削除するときに使用するボタンです
 msgctxt "dlgSgPreferences.btn:"
 msgid "Remove"
-msgstr "(3)★除去"
+msgstr "削除"
 
 msgctxt "dlgSgPreferences.btn:"
 msgid "Reset to Defaults"
@@ -15545,7 +15546,7 @@ msgstr "競合した状態に戻す"
 
 msgctxt "wnd(Log|Project|Std|).:"
 msgid "Rerun Thoroughly"
-msgstr "徹底的な再実行"
+msgstr "詳細条件を設定"
 
 msgctxt "wnd(Log|Project|Std|).:"
 msgid "Reset"
@@ -15607,9 +15608,11 @@ msgctxt "wnd(Log|Project|Std|).btn:"
 msgid "Recreate Conflict"
 msgstr "競合した状態に戻す"
 
+# ToolTip:　Rerun the filter, this time also searching for the filter text in commit messages, authors, ...
+# 明らかに原文から逸脱していますが、このボタンをクリックすると詳細な条件を設定するためのボタンが出現するというGUIの挙動から意図的に変更しています。
 msgctxt "wnd(Log|Project|Std|).btn:"
 msgid "Rerun Thoroughly"
-msgstr "徹底的な再実行"
+msgstr "詳細条件を設定"
 
 msgctxt "wnd(Log|Project|Std|).btn:"
 msgid "Reset"
@@ -16482,11 +16485,11 @@ msgstr "時間順でソート"
 
 msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "Sort First Parents before Merge Parents"
-msgstr "最初の親、マージの親の順にソートする"
+msgstr "最初の親、マージの親の順にソート"
 
 msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "Sort Merge Parents before First Parents"
-msgstr "マージの親、最初の親の順にソートする"
+msgstr "マージの親、最初の親の順にソート"
 
 msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "Squash"
@@ -17422,11 +17425,11 @@ msgstr "時間順でソート"
 
 msgctxt "wnd(Log|Project|Std|).mniSortCommitsFirstParentsBeforeMergeParents:"
 msgid "Sort First Parents before Merge Parents"
-msgstr "最初の親、マージの親の順にソートする"
+msgstr "最初の親、マージの親の順にソート"
 
 msgctxt "wnd(Log|Project|Std|).mniSortCommitsMergeParentsBeforeFirstParents:"
 msgid "Sort Merge Parents before First Parents"
-msgstr "マージの親、最初の親の順にソートする"
+msgstr "マージの親、最初の親の順にソート"
 
 msgctxt "wnd(Log|Project|Std|).mniSplitCommit:"
 msgid "Split"
