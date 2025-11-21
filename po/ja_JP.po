@@ -16017,7 +16017,7 @@ msgstr "コメント '$1' を削除"
 
 msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "Delete"
-msgstr "(122) ★削除"
+msgstr "削除"
 
 msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "Diff Tool"
@@ -16626,7 +16626,7 @@ msgstr "続ける"
 
 msgctxt "wnd(Log|Project|Std|).mniBranchDelete:"
 msgid "Delete"
-msgstr "(123) ★削除"
+msgstr "削除"
 
 msgctxt "wnd(Log|Project|Std|).mniBranchRename:"
 msgid "Rename"
@@ -17188,7 +17188,7 @@ msgstr "URL をコピー"
 
 msgctxt "wnd(Log|Project|Std|).mniRemoteDelete:"
 msgid "Delete"
-msgstr "(125) ★削除"
+msgstr "削除"
 
 msgctxt "wnd(Log|Project|Std|).mniRemoteFetch:"
 msgid "Fetch"
