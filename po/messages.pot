@@ -11754,6 +11754,14 @@ msgctxt "dlgSgSubmoduleInitAll.tle:"
 msgid "Initialize Submodule"
 msgstr ""
 
+msgctxt "dlgSgSubmoduleInitAllConfigured.fur:"
+msgid "You may now pull individual submodules or on the root directory to clone the configured repositories."
+msgstr ""
+
+msgctxt "dlgSgSubmoduleInitAllConfigured.hdl:"
+msgid "Submodules have been configured."
+msgstr ""
+
 msgctxt "dlgSgSubmoduleInitGit.btn:"
 msgid "Initialize && Pull"
 msgstr ""
