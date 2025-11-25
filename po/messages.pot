@@ -18480,3 +18480,31 @@ msgstr ""
 msgctxt "wndStd.mniIndexEditor:"
 msgid "Edit in Index Editor"
 msgstr ""
+
+#. # Showing dialog 15 (@FOYQ8Z) '@L8IWZ6 - Rebase HEAD to Selected Commit' (owner: @EVKMVM)
+#. # Performing ', Rebase Interactively'
+#. # Showing dialog 16 (@X8LKZO) '@Z4YSGV - Rebase Interactive' (owner: @EVKMVM)
+#. # Performing ', Remove…'
+#. # Showing dialog 17 (@UH7IA0) '@OIKUX2 - Remove Commit' (owner: @X8LKZO)
+#. # Performing ', Cancel'
+#. # Performing ', Auto-Squash'
+#. # Performing ', Auto-Squash'
+#. # Performing ', To Top Commit'
+#. # Showing dialog 18 (@U6EKVV) '@9DPG75 - Rebase Interactive' (owner: @X8LKZO)
+msgctxt "dlgSgRebaseInteractiveNoAutomaticSquashableCommitsFound.fur:"
+msgid "Auto-Squash searches for commits with identical messages and amend-commits them."
+msgstr ""
+
+#. # Showing dialog 15 (@FOYQ8Z) '@L8IWZ6 - Rebase HEAD to Selected Commit' (owner: @EVKMVM)
+#. # Performing ', Rebase Interactively'
+#. # Showing dialog 16 (@X8LKZO) '@Z4YSGV - Rebase Interactive' (owner: @EVKMVM)
+#. # Performing ', Remove…'
+#. # Showing dialog 17 (@UH7IA0) '@OIKUX2 - Remove Commit' (owner: @X8LKZO)
+#. # Performing ', Cancel'
+#. # Performing ', Auto-Squash'
+#. # Performing ', Auto-Squash'
+#. # Performing ', To Top Commit'
+#. # Showing dialog 18 (@U6EKVV) '@9DPG75 - Rebase Interactive' (owner: @X8LKZO)
+msgctxt "dlgSgRebaseInteractiveNoAutomaticSquashableCommitsFound.hdl:"
+msgid "No automatic squashable commits found."
+msgstr ""
