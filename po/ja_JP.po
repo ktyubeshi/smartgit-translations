@@ -8585,10 +8585,9 @@ msgctxt "dlgSgProviderPullRequestCreatePushLocalCommits.tle:"
 msgid "Create Merge Request"
 msgstr "マージリクエストを作成"
 
-# GitLabのマージリクエスト削除確認ダイアログの「削除」ボタン
 msgctxt "dlgSgProviderPullRequestDropConfirmMr.btn:"
 msgid "Drop"
-msgstr "(114) ★削除"
+msgstr "削除"
 
 msgctxt "dlgSgProviderPullRequestDropConfirmMr.fur:"
 msgid "The merge request itself will not be deleted on the server."
@@ -8602,10 +8601,9 @@ msgctxt "dlgSgProviderPullRequestDropConfirmMr.tle:"
 msgid "Drop Merge Request"
 msgstr "マージ リクエストの削除"
 
-# GitHubのプルリクエスト削除確認ダイアログの「削除」ボタン
 msgctxt "dlgSgProviderPullRequestDropConfirmPr.btn:"
 msgid "Drop"
-msgstr "(115) ★削除"
+msgstr "削除"
 
 msgctxt "dlgSgProviderPullRequestDropConfirmPr.fur:"
 msgid "The pull request itself will not be deleted on the server."
@@ -9377,10 +9375,9 @@ msgctxt "dlgSgRebaseInteractive.btn:"
 msgid "Rebase"
 msgstr "リベース"
 
-# Branch → Rebase Interactive でインタラクティブリベース画面を開き、コミットを除去
 msgctxt "dlgSgRebaseInteractive.btn:"
 msgid "Remove"
-msgstr "(5)★除去"
+msgstr "削除"
 
 msgctxt "dlgSgRebaseInteractive.btn:"
 msgid "Squash"
@@ -9450,10 +9447,17 @@ msgctxt "dlgSgRebaseInteractiveMessage.tle:"
 msgid "Edit Message"
 msgstr "メッセージの編集"
 
-# インタラクティブリベースでコミット除去確認ダイアログのボタン
+msgctxt "dlgSgRebaseInteractiveNoAutomaticSquashableCommitsFound.fur:"
+msgid "Auto-Squash searches for commits with identical messages and amend-commits them."
+msgstr "Auto-Squashは同一メッセージのコミットを検索し、それらを修正コミットとして統合します。"
+
+msgctxt "dlgSgRebaseInteractiveNoAutomaticSquashableCommitsFound.hdl:"
+msgid "No automatic squashable commits found."
+msgstr "自動スカッシュ可能なコミットが見つかりませんでした。"
+
 msgctxt "dlgSgRebaseInteractiveRemoveCommit.btn:"
 msgid "Remove"
-msgstr "(6)★除去"
+msgstr "削除"
 
 msgctxt "dlgSgRebaseInteractiveRemoveCommit.fur:"
 msgid "It might become hard or impossible to recover the commit again."
