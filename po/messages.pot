@@ -18410,3 +18410,59 @@ msgstr ""
 msgctxt "dlgSgStashOnDemandConfirmation.tle:"
 msgid "Reorder Commits"
 msgstr ""
+
+#. # Performing ', Remove'
+#. # Performing ', Remove'
+#. # Performing ', Ignore'
+#. # Performing ', Ignore'
+#. # Performing ', Remove'
+#. # Performing 'delete, Delete…, Delete the selected local files or directory.'
+#. # Showing dialog 137 (@E5SGGO) '@PBHUKL - Delete' (owner: @3ML2WC)
+#. # Performing ', Cancel'
+#. # Performing 'remove, Remove…, Remove selected files or directories from repository.'
+#. # Showing dialog 138 (@CJVE8Y) '@42UW7Z - Remove' (owner: @3ML2WC)
+msgctxt "dlgStdRemove.btn:"
+msgid "Delete Local Files"
+msgstr ""
+
+#. # Performing ', Remove'
+#. # Performing ', Remove'
+#. # Performing ', Ignore'
+#. # Performing ', Ignore'
+#. # Performing ', Remove'
+#. # Performing 'delete, Delete…, Delete the selected local files or directory.'
+#. # Showing dialog 137 (@E5SGGO) '@PBHUKL - Delete' (owner: @3ML2WC)
+#. # Performing ', Cancel'
+#. # Performing 'remove, Remove…, Remove selected files or directories from repository.'
+#. # Showing dialog 138 (@CJVE8Y) '@42UW7Z - Remove' (owner: @3ML2WC)
+msgctxt "dlgStdRemove.btn:"
+msgid "Keep Local Files"
+msgstr ""
+
+#. # Performing ', Remove'
+#. # Performing ', Remove'
+#. # Performing ', Ignore'
+#. # Performing ', Ignore'
+#. # Performing ', Remove'
+#. # Performing 'delete, Delete…, Delete the selected local files or directory.'
+#. # Showing dialog 137 (@E5SGGO) '@PBHUKL - Delete' (owner: @3ML2WC)
+#. # Performing ', Cancel'
+#. # Performing 'remove, Remove…, Remove selected files or directories from repository.'
+#. # Showing dialog 138 (@CJVE8Y) '@42UW7Z - Remove' (owner: @3ML2WC)
+msgctxt "dlgStdRemove.fur:"
+msgid "You can just remove the files from the repository \\(keeping the local files, e.g. to mark them later as ignored\\), or also delete the local files."
+msgstr ""
+
+#. # Performing ', Remove'
+#. # Performing ', Remove'
+#. # Performing ', Ignore'
+#. # Performing ', Ignore'
+#. # Performing ', Remove'
+#. # Performing 'delete, Delete…, Delete the selected local files or directory.'
+#. # Showing dialog 137 (@E5SGGO) '@PBHUKL - Delete' (owner: @3ML2WC)
+#. # Performing ', Cancel'
+#. # Performing 'remove, Remove…, Remove selected files or directories from repository.'
+#. # Showing dialog 138 (@CJVE8Y) '@42UW7Z - Remove' (owner: @3ML2WC)
+msgctxt "dlgStdRemove.hdl:"
+msgid "How do you want to remove the files from the repository?"
+msgstr ""
