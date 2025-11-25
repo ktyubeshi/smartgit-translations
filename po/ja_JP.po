@@ -6175,10 +6175,9 @@ msgctxt "dlgSgIgnoreFile.btn:"
 msgid "Ignore"
 msgstr "無視"
 
-#, fuzzy
 msgctxt "dlgSgIgnoreFile.btn:"
 msgid "Remove && Ignore"
-msgstr "除去して無視する"
+msgstr "削除して無視する"
 
 msgctxt "dlgSgIgnoreFile.cmb:"
 msgid ".git/info/exclude \\(only for this repository\\)"
@@ -6210,7 +6209,7 @@ msgstr "無視するファイルを指定する"
 
 msgctxt "dlgSgIgnoreFile.inf:"
 msgid "Choose whether to ignore only the selected file or all files matching the specified pattern. Tracked files will be removed \\(stopped from tracking\\)."
-msgstr "選択したファイルだけを無視するか、指定したパターンに一致するすべてのファイルを無視するかを選択します。\\r追跡されたファイルは以降のバージョン管理の対象から除外されます。"
+msgstr "選択したファイルのみを無視するか、指定パターンに一致するすべてのファイルを無視するかを選択してください。\\r追跡中のファイルは追跡対象から除外されます。"
 
 msgctxt "dlgSgIgnoreFile.lbl:"
 msgid "Use ? to match a single or \\* to match multiple arbitrary characters. The pattern will be saved in the .gitignore file of the same directory."
@@ -7440,12 +7439,10 @@ msgctxt "dlgSgPreferences.chk:"
 msgid "Remember from last used single Log or Working Tree window"
 msgstr "最後に使用したウィンドウタイプ(ロググラフ or ワーキングツリー)を記憶する"
 
-#, fuzzy
 msgctxt "dlgSgPreferences.chk:"
 msgid "Remove leading and trailing whitespace from commit message"
-msgstr "コミットメッセージから先頭と末尾のホワイトスペースを削除する"
+msgstr "コミットメッセージから先頭と末尾の空白文字を削除する"
 
-#, fuzzy
 msgctxt "dlgSgPreferences.chk:"
 msgid "Remove missing files"
 msgstr "見つからないファイルの削除"
