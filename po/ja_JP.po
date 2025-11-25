@@ -297,6 +297,7 @@ msgctxt "dlgHostingProvider.canBeConfigured.hdl:"
 msgid "Do you want to configure a GitLab hosting provider?"
 msgstr "GitLabホスティングプロバイダーを設定しますか？"
 
+# 情報ダイアログのタイトル（一般的な情報表示）
 msgctxt "dlgInfo.tle:"
 msgid "Discard"
 msgstr "(200) ★破棄"
@@ -2195,6 +2196,7 @@ msgctxt "dlgSgAbortRevertingConfirm.tle:"
 msgid "Abort"
 msgstr "中止"
 
+# リバート操作を中止する確認ダイアログのタイトル
 msgctxt "dlgSgAbortRevertingConfirm.tle:"
 msgid "Discard"
 msgstr "(202) ★破棄"
@@ -4192,6 +4194,7 @@ msgctxt "dlgSgCustomizeProjectUi.btn:"
 msgid "Clear"
 msgstr "クリア"
 
+# プロジェクトUIカスタマイズダイアログの「除去」ボタン
 msgctxt "dlgSgCustomizeProjectUi.btn:"
 msgid "Remove"
 msgstr "(2)★除去"
@@ -4336,6 +4339,7 @@ msgctxt "dlgSgDiscard.rbt:"
 msgid "Index"
 msgstr "インデックス"
 
+# Local → Discard メニューから開く「破棄」ダイアログのタイトル
 msgctxt "dlgSgDiscard.tle:"
 msgid "Discard"
 msgstr "(204) ★破棄"
@@ -4348,6 +4352,7 @@ msgctxt "dlgSgDiscardNoFilesFound.hdl:"
 msgid "There is nothing to discard."
 msgstr "破棄するものはありません。"
 
+# 破棄対象のファイルがない場合に表示されるダイアログのタイトル
 msgctxt "dlgSgDiscardNoFilesFound.tle:"
 msgid "Discard"
 msgstr "(205) ★破棄"
@@ -4360,6 +4365,7 @@ msgctxt "dlgSgDiscardNotApplicableForIndexFiles.hdl:"
 msgid "Discarding Index changes is not possible."
 msgstr "インデックスの変更を破棄することはできません。"
 
+# インデックスファイルの変更が破棄できない場合のダイアログタイトル
 msgctxt "dlgSgDiscardNotApplicableForIndexFiles.tle:"
 msgid "Discard"
 msgstr "(206) ★破棄"
@@ -4372,6 +4378,7 @@ msgctxt "dlgSgDiscardRevertToIndex.hdl:"
 msgid "Do you want to reset $1 files back to their Index state?"
 msgstr "$1 個のファイルをインデックスの状態に戻しますか?"
 
+# ファイルをHEADまたはインデックス状態に戻す確認ダイアログの「破棄」ボタン
 msgctxt "dlgSgDiscardRevertTo(Head|Index).btn:"
 msgid "Discard"
 msgstr "(207) ★破棄"
@@ -4380,6 +4387,7 @@ msgctxt "dlgSgDiscardRevertTo(Head|Index).fur:"
 msgid "The content might be hard to restore!"
 msgstr "内容を復元するのは難しいかもしれません。"
 
+# ファイルをHEADまたはインデックス状態に戻す確認ダイアログのタイトル
 msgctxt "dlgSgDiscardRevertTo(Head|Index).tle:"
 msgid "Discard"
 msgstr "(208) ★破棄"
@@ -8588,6 +8596,7 @@ msgctxt "dlgSgProviderPullRequestCreatePushLocalCommits.tle:"
 msgid "Create Merge Request"
 msgstr "マージリクエストを作成"
 
+# GitLabのマージリクエスト削除確認ダイアログの「削除」ボタン
 msgctxt "dlgSgProviderPullRequestDropConfirmMr.btn:"
 msgid "Drop"
 msgstr "(114) ★削除"
@@ -8604,6 +8613,7 @@ msgctxt "dlgSgProviderPullRequestDropConfirmMr.tle:"
 msgid "Drop Merge Request"
 msgstr "マージ リクエストの削除"
 
+# GitHubのプルリクエスト削除確認ダイアログの「削除」ボタン
 msgctxt "dlgSgProviderPullRequestDropConfirmPr.btn:"
 msgid "Drop"
 msgstr "(115) ★削除"
@@ -9033,6 +9043,7 @@ msgctxt "dlgSgPushToRemote.tle:"
 msgid "Push To"
 msgstr "プッシュ先"
 
+# Remote → Push To でプッシュ先ダイアログを開き、対象ブランチを除去
 msgctxt "dlgSgPushToRemoteRemoveTargetBranches.btn:"
 msgid "Remove"
 msgstr "(4)★除去"
@@ -9378,6 +9389,7 @@ msgctxt "dlgSgRebaseInteractive.btn:"
 msgid "Rebase"
 msgstr "リベース"
 
+# Branch → Rebase Interactive でインタラクティブリベース画面を開き、コミットを除去
 msgctxt "dlgSgRebaseInteractive.btn:"
 msgid "Remove"
 msgstr "(5)★除去"
@@ -9450,6 +9462,7 @@ msgctxt "dlgSgRebaseInteractiveMessage.tle:"
 msgid "Edit Message"
 msgstr "メッセージの編集"
 
+# インタラクティブリベースでコミット除去確認ダイアログのボタン
 msgctxt "dlgSgRebaseInteractiveRemoveCommit.btn:"
 msgid "Remove"
 msgstr "(6)★除去"
@@ -9814,6 +9827,7 @@ msgctxt "dlgSgRemove.inf:"
 msgid "Select the files you want to remove from the repository or working tree \\(stopped from tracking\\)."
 msgstr "リポジトリや作業ツリーから削除したい（追跡を停止したい）ファイルを選択します。"
 
+# Local → Remove でファイルをリポジトリ/作業ツリーから除去するダイアログのタイトル
 msgctxt "dlgSgRemove.tle:"
 msgid "Remove"
 msgstr "(8)★除去"
@@ -10062,6 +10076,7 @@ msgctxt "dlgSgRepositoryRemoveFailed1.hdl:"
 msgid "The repository '$1' could not be removed."
 msgstr "リポジトリ '$1' を削除できませんでした。"
 
+# リポジトリ除去に失敗した場合のエラーダイアログタイトル
 msgctxt "dlgSgRepositoryRemoveFailed1.tle:"
 msgid "Remove"
 msgstr "(10)★除去"
@@ -10812,6 +10827,7 @@ msgctxt "dlgSgReviewUsersEdit.btn:"
 msgid "Import"
 msgstr "インポート"
 
+# レビューユーザー編集画面の「除去」ボタン（レビュー機能内）
 msgctxt "dlgSgReviewUsersEdit.btn:"
 msgid "Remove"
 msgstr "(11)★除去"
@@ -11424,6 +11440,7 @@ msgctxt "dlgSgStashApplyWithoutRestoringIndex.tle:"
 msgid "Apply Stash"
 msgstr "スタッシュを適用"
 
+# スタッシュ適用時の確認ダイアログの「破棄」ボタン
 msgctxt "dlgSgStashOnDemandConfirmation.btn:"
 msgid "Discard"
 msgstr "(210) ★破棄"
@@ -11532,6 +11549,7 @@ msgctxt "dlgSgStashOnDemandConfirmation.tle:"
 msgid "Reset"
 msgstr "リセット"
 
+# スタッシュ破棄確認ダイアログの「破棄」ボタン
 msgctxt "dlgSgStashOnDemandDiscardConfirmation.btn:"
 msgid "Discard"
 msgstr "(211) ★破棄"
@@ -12518,6 +12536,7 @@ msgctxt "dlgStdCheckoutCommit.rbt:"
 msgid "Create local branch:"
 msgstr "ローカルブランチを作成:"
 
+# 標準の「破棄」ダイアログのボタン
 msgctxt "dlgStdDiscard.btn:"
 msgid "Discard"
 msgstr "(212) ★破棄"
@@ -12530,6 +12549,7 @@ msgctxt "dlgStdDiscard.hdl:"
 msgid "Do you want to discard local changes?"
 msgstr "ローカルの変更を破棄しますか？"
 
+# 未追跡ファイル削除確認ダイアログの「破棄」ボタン
 msgctxt "dlgStdDiscardConfirmUntrackedFiles.btn:"
 msgid "Discard"
 msgstr "(213) ★破棄"
@@ -12546,6 +12566,7 @@ msgctxt "dlgStdDiscardConfirmUntrackedFiles.hdl:"
 msgid "Do you want to delete untracked files?"
 msgstr "未追跡のファイルを削除しますか？"
 
+# 未追跡ファイル削除確認ダイアログのタイトル
 msgctxt "dlgStdDiscardConfirmUntrackedFiles.tle:"
 msgid "Discard"
 msgstr "(214) ★破棄"
