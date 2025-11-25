@@ -1300,9 +1300,10 @@ msgctxt "dlgScFileComparator(Add|Edit).rbt:"
 msgid "External viewer \\(invoked for both compared files\\):"
 msgstr "外部ビューア\\(比較対象ファイルの両方に対して呼び出されます。\\)"
 
+# ファイル比較/ファイル編集画面でファイルを変更したあとウィンドウを閉じようとしたときに表示されるダイアログの「破棄」ボタン
 msgctxt "dlgScFileCompareFileChanged.btn:"
 msgid "Discard"
-msgstr "(201) ★破棄"
+msgstr "破棄"
 
 msgctxt "dlgScFileCompareFileChanged.btn:"
 msgid "Save"
@@ -10031,9 +10032,12 @@ msgctxt "dlgSgRepositoryFrameCloseWithoutPush.tle:"
 msgid "Close"
 msgstr "閉じる"
 
+# SmartGit起動時に見つからないリポジトリがある場合の確認ダイアログで表示されるボタンです。
+# ダイアログメッセージ:
+# 見つからないリポジトリ`<RepositoryName>`を削除しますか？
 msgctxt "dlgSgRepositoryOpen.btn:"
 msgid "Remove"
-msgstr "(9)★除去"
+msgstr "削除"
 
 msgctxt "dlgSgRepositoryOpen.fur:"
 msgid "If it is relocated, remove it and add its new location."
@@ -17684,7 +17688,6 @@ msgctxt "wnd(Log|Project|Std|).mniWorktreePrune:"
 msgid "Prune Obsolete Worktrees"
 msgstr "廃止されたワークツリーを整理する"
 
-#, fuzzy
 msgctxt "wnd(Log|Project|Std|).mniWorktreeRemove:"
 msgid "Remove Worktree"
 msgstr "ワークツリーを削除する"
