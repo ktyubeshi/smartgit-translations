@@ -6232,9 +6232,10 @@ msgctxt "dlgSgIndexEditorMixedLineEndings.hdl:"
 msgid "The file is not editable because of mixed line-endings."
 msgstr "改行コードが混合しているため、ファイルを編集できません。"
 
+# インデックスエディタで保存または破棄を選択するダイアログの「破棄」ボタン
 msgctxt "dlgSgIndexEditorSaveOrDiscard.btn:"
 msgid "Discard"
-msgstr "(209) ★破棄"
+msgstr "破棄"
 
 msgctxt "dlgSgIndexEditorSaveOrDiscard.btn:"
 msgid "Save"
