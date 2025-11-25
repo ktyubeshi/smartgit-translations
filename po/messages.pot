@@ -18466,3 +18466,17 @@ msgstr ""
 msgctxt "dlgStdRemove.hdl:"
 msgid "How do you want to remove the files from the repository?"
 msgstr ""
+
+#. # Performing 'goto-next-diff, Next Change, Go to next change.'
+#. # Performing 'goto-next-diff, Next Change, Go to next change.'
+#. # Showing dialog 134 (@EYFFS9) '@FZP452 - Commit' (owner: @BIEDNF)
+#. # Performing ', Cancel'
+#. # Showing dialog 135 (@UXUC2M) '@KL9J5D - Commit' (owner: @BIEDNF)
+#. # Performing ', Cancel'
+#. # Performing 'stage, Stage, Store working tree files in the index to prepare the next commit.'
+#. # Performing ', Fetch'
+#. # Showing dialog 136 (@WI6MTL) '@BKU3QH - Command Output' (owner: @BIEDNF)
+#. # Performing ', Close'
+msgctxt "wndStd.mniIndexEditor:"
+msgid "Edit in Index Editor"
+msgstr ""
