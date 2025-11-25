@@ -63,7 +63,7 @@ msgstr "次に、グループに残っているリファレンス\\(refs\\)の�
 
 msgctxt "(dlgSgPreferences|dlgSgRepositorySettings).ttpGroupPatterns:"
 msgid "Patterns will be matched against the full ref-name, including the <tt>refs</tt>-prefix. For a matching ref, its name will be shortened to the last path-segment \\('\\\\/'\\). For example, <tt>refs/tags/build-.\\*</tt> will match a tag <tt>refs/tags/build-123</tt> and its name will be shortened to <tt>build-123</tt>. You may add a <i>named regex capturing group</i> called <tt>name</tt> to further customize the name extraction. For example, <tt>refs/tags/build-\\(?&lt;name&gt;.\\*\\)</tt> will match <tt>refs/tags/build-123</tt> and its name will be shortened to <tt>123</tt>."
-msgstr "パターンは、'refs' プレフィックスを含む完全なリファレンス名に対してマッチングされます。マッチングしたリファレンス名は、最後のパスセグメント ('/') に短縮されます。たとえば、<tt>refs/tags/build-.\\*<\\/tt> はタグ <tt>refs/tags/build-123<\\/tt> にマッチし、その名前は <tt>build-123<\\/tt> に短縮されます。<i>name<\\/i> という名前付き正規表現キャプチャグループを追加することで、名前の抽出をさらにカスタマイズできます。たとえば、<tt>refs/tags/build-\\\\(?&lt;name&gt;.\\*\\\\)<\\/tt> は <tt>refs/tags/build-123<\\/tt> にマッチし、その名前は <tt>123<\\/tt> に短縮されます。"
+msgstr "パターンは、<tt>refs</tt> プレフィックスを含む完全なリファレンス名に対してマッチングされます。マッチングしたリファレンス名は、最後のパスセグメント \\('\\\\/'\\) に短縮されます。たとえば、<tt>refs/tags/build-.\\*</tt> はタグ <tt>refs/tags/build-123</tt> にマッチし、その名前は <tt>build-123</tt> に短縮されます。<i>名前付き正規表現キャプチャグループ</i>（<tt>name</tt>）を追加することで、名前の抽出をさらにカスタマイズできます。たとえば、<tt>refs/tags/build-\\(?&lt;name&gt;.\\*\\)</tt> は <tt>refs/tags/build-123</tt> にマッチし、その名前は <tt>123</tt> に短縮されます。"
 
 msgctxt "(dlgSgPreferences|dlgSgRepositorySettings).ttpGroupPatterns:"
 msgid "Refs will be categorized into groups: when traversing the repository root log, refs will first be assigned to matching groups. Every group will store only the most recently encountered ref, i.e. if a new ref is encountered, it will replace all existing refs in the current group."
@@ -13317,7 +13317,7 @@ msgstr "1回目のコミットで不要な変更をアンステージし、コ�
 
 msgctxt "ttpBranches:"
 msgid "<b>$1</b> <col1>approved</col1> on <b>$2</b>:"
-msgstr "<b>$1<\\/b> <col1>$2<\\/col1> で承認されました:"
+msgstr "<b>$1</b> <b>$2</b> で<col1>承認</col1>されました:"
 
 msgctxt "ttpBranches:"
 msgid "<b>Author:\\t</b>$1"
@@ -13474,7 +13474,7 @@ msgstr "まだロードされていないか、プロバイダー サーバー�
 
 msgctxt "ttpBranches:"
 msgid "Pull from <b>$1</b> to <b>$2</b>"
-msgstr "<b>$1<\\/b> から <b>$2<\\/b> にプル"
+msgstr "<b>$1</b> から <b>$2</b> にプル"
 
 msgctxt "ttpClonePartialWarning:"
 msgid "<b>Warning!</b>"
@@ -13506,7 +13506,7 @@ msgstr "<b>コミット:\\t</b>$1"
 
 msgctxt "ttpRepositories:"
 msgid "<b>Git Repository:\\t</b>$1"
-msgstr "<b>Git リポジトリ:\\t$1"
+msgstr "<b>Git リポジトリ:\\t</b>$1"
 
 msgctxt "ttpRepositories:"
 msgid "<b>Incoming Changes:\\t</b>$1 commit to merge/rebase"
