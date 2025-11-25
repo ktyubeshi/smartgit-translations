@@ -6460,7 +6460,7 @@ msgstr "作業ツリーとの比較"
 
 msgctxt "dlgSgLogGraphRootSwitch.chk:"
 msgid "Include tracked remote branches"
-msgstr "追跡されたリモート ブランチを含める"
+msgstr "追跡中のリモートブランチを含める"
 
 msgctxt "dlgSgLogGraphRootSwitch.hdl:"
 msgid "Select shown branches"
@@ -16994,7 +16994,7 @@ msgstr "無視リストを編集"
 
 msgctxt "wnd(Log|Project|Std|).mniIncludeTrackedRemoteBranches:"
 msgid "Include Tracked Remote Branches"
-msgstr "追跡されたリモート ブランチを含める"
+msgstr "追跡中のリモートブランチを含める"
 
 msgctxt "wnd(Log|Project|Std|).mniIndexEditor:"
 msgid "Index Editor"
