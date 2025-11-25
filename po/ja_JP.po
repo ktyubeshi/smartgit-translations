@@ -936,9 +936,10 @@ msgctxt "dlgScCustomizeToolBar.mni:"
 msgid "Move Up"
 msgstr "上へ移動"
 
+# ツールバーのカスタマイズ画面を開き、右側のリストで項目を右クリック → 「削除」
 msgctxt "dlgScCustomizeToolBar.mni:"
 msgid "Remove"
-msgstr "(100) ★削除"
+msgstr "削除"
 
 msgctxt "dlgScCustomizeToolBar.tle:"
 msgid "Configure Toolbar"
