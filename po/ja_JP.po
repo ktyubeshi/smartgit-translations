@@ -297,10 +297,9 @@ msgctxt "dlgHostingProvider.canBeConfigured.hdl:"
 msgid "Do you want to configure a GitLab hosting provider?"
 msgstr "GitLabホスティングプロバイダーを設定しますか？"
 
-# 情報ダイアログのタイトル（一般的な情報表示）
 msgctxt "dlgInfo.tle:"
 msgid "Discard"
-msgstr "(200) ★破棄"
+msgstr "破棄"
 
 msgctxt "dlgProgress.btn:"
 msgid "Stop"
@@ -2196,10 +2195,9 @@ msgctxt "dlgSgAbortRevertingConfirm.tle:"
 msgid "Abort"
 msgstr "中止"
 
-# リバート操作を中止する確認ダイアログのタイトル
 msgctxt "dlgSgAbortRevertingConfirm.tle:"
 msgid "Discard"
-msgstr "(202) ★破棄"
+msgstr "破棄"
 
 msgctxt "dlgSgAbout.btn:"
 msgid "Copy Evaluation-ID"
@@ -4339,10 +4337,9 @@ msgctxt "dlgSgDiscard.rbt:"
 msgid "Index"
 msgstr "インデックス"
 
-# Local → Discard メニューから開く「破棄」ダイアログのタイトル
 msgctxt "dlgSgDiscard.tle:"
 msgid "Discard"
-msgstr "(204) ★破棄"
+msgstr "破棄"
 
 msgctxt "dlgSgDiscardNoFilesFound.fur:"
 msgid "Neither staged files nor locally changed files were found."
@@ -4352,10 +4349,9 @@ msgctxt "dlgSgDiscardNoFilesFound.hdl:"
 msgid "There is nothing to discard."
 msgstr "破棄するものはありません。"
 
-# 破棄対象のファイルがない場合に表示されるダイアログのタイトル
 msgctxt "dlgSgDiscardNoFilesFound.tle:"
 msgid "Discard"
-msgstr "(205) ★破棄"
+msgstr "破棄"
 
 msgctxt "dlgSgDiscardNotApplicableForIndexFiles.fur:"
 msgid "You have selected to discard only the Index changes of one or more files. However, at least one of the files is also modified in the working tree. It is not possible to discard only Index changes in this case.\\n\\nIf you actually want to discard the working tree changes, select the file in the working tree table."
@@ -4365,10 +4361,9 @@ msgctxt "dlgSgDiscardNotApplicableForIndexFiles.hdl:"
 msgid "Discarding Index changes is not possible."
 msgstr "インデックスの変更を破棄することはできません。"
 
-# インデックスファイルの変更が破棄できない場合のダイアログタイトル
 msgctxt "dlgSgDiscardNotApplicableForIndexFiles.tle:"
 msgid "Discard"
-msgstr "(206) ★破棄"
+msgstr "破棄"
 
 msgctxt "dlgSgDiscardRevertToHead.hdl:"
 msgid "Do you want to reset $1 files back to their HEAD state?"
@@ -4378,19 +4373,17 @@ msgctxt "dlgSgDiscardRevertToIndex.hdl:"
 msgid "Do you want to reset $1 files back to their Index state?"
 msgstr "$1 個のファイルをインデックスの状態に戻しますか?"
 
-# ファイルをHEADまたはインデックス状態に戻す確認ダイアログの「破棄」ボタン
 msgctxt "dlgSgDiscardRevertTo(Head|Index).btn:"
 msgid "Discard"
-msgstr "(207) ★破棄"
+msgstr "破棄"
 
 msgctxt "dlgSgDiscardRevertTo(Head|Index).fur:"
 msgid "The content might be hard to restore!"
 msgstr "内容を復元するのは難しいかもしれません。"
 
-# ファイルをHEADまたはインデックス状態に戻す確認ダイアログのタイトル
 msgctxt "dlgSgDiscardRevertTo(Head|Index).tle:"
 msgid "Discard"
-msgstr "(208) ★破棄"
+msgstr "破棄"
 
 msgctxt "dlgSgErrorUtilsClientException.fur:"
 msgid "Commit '$1' was not found in repository."
@@ -6678,7 +6671,6 @@ msgctxt "dlgSgMergeHowToMerge.hdl:"
 msgid "How to merge from tag '$1'?"
 msgstr "タグ '$1' からどのようにマージしますか?"
 
-#, pretranslated
 msgctxt "dlgSgMergeHowToMerge.hdl:"
 msgid "How to merge the $1 selected branches?"
 msgstr "選択した $1 個のブランチをどのようにマージしますか？"
@@ -11437,10 +11429,9 @@ msgctxt "dlgSgStashApplyWithoutRestoringIndex.tle:"
 msgid "Apply Stash"
 msgstr "スタッシュを適用"
 
-# スタッシュ適用時の確認ダイアログの「破棄」ボタン
 msgctxt "dlgSgStashOnDemandConfirmation.btn:"
 msgid "Discard"
-msgstr "(210) ★破棄"
+msgstr "破棄"
 
 msgctxt "dlgSgStashOnDemandConfirmation.btn:"
 msgid "Save Stash"
@@ -11546,10 +11537,9 @@ msgctxt "dlgSgStashOnDemandConfirmation.tle:"
 msgid "Reset"
 msgstr "リセット"
 
-# スタッシュ破棄確認ダイアログの「破棄」ボタン
 msgctxt "dlgSgStashOnDemandDiscardConfirmation.btn:"
 msgid "Discard"
-msgstr "(211) ★破棄"
+msgstr "破棄"
 
 msgctxt "dlgSgStashOnDemandDiscardConfirmation.fur:"
 msgid "It might be hard or impossible to restore them!"
@@ -12533,10 +12523,9 @@ msgctxt "dlgStdCheckoutCommit.rbt:"
 msgid "Create local branch:"
 msgstr "ローカルブランチを作成:"
 
-# 標準の「破棄」ダイアログのボタン
 msgctxt "dlgStdDiscard.btn:"
 msgid "Discard"
-msgstr "(212) ★破棄"
+msgstr "破棄"
 
 msgctxt "dlgStdDiscard.fur:"
 msgid "You won't be able to restore them."
@@ -12546,10 +12535,9 @@ msgctxt "dlgStdDiscard.hdl:"
 msgid "Do you want to discard local changes?"
 msgstr "ローカルの変更を破棄しますか？"
 
-# 未追跡ファイル削除確認ダイアログの「破棄」ボタン
 msgctxt "dlgStdDiscardConfirmUntrackedFiles.btn:"
 msgid "Discard"
-msgstr "(213) ★破棄"
+msgstr "破棄"
 
 msgctxt "dlgStdDiscardConfirmUntrackedFiles.chk:"
 msgid "Don't show again"
@@ -12563,10 +12551,9 @@ msgctxt "dlgStdDiscardConfirmUntrackedFiles.hdl:"
 msgid "Do you want to delete untracked files?"
 msgstr "未追跡のファイルを削除しますか？"
 
-# 未追跡ファイル削除確認ダイアログのタイトル
 msgctxt "dlgStdDiscardConfirmUntrackedFiles.tle:"
 msgid "Discard"
-msgstr "(214) ★破棄"
+msgstr "破棄"
 
 msgctxt "dlgStdFeatureConfiguration.btn:"
 msgid "Confirm"
@@ -15044,12 +15031,10 @@ msgctxt "wndStd.hnt:"
 msgid "No locally changed files"
 msgstr "ローカルで変更されたファイルはありません"
 
-#, pretranslated
 msgctxt "wndStd.hnt:"
 msgid "The repository's\\nreflog is empty."
 msgstr "リポジトリの\\nreflog は空です。"
 
-#, pretranslated
 msgctxt "wndStd.hnt:"
 msgid "This repository has\\nno stashes yet."
 msgstr "このリポジトリには\\nまだスタッシュがありません。"
