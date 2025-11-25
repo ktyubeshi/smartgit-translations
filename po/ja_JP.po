@@ -11734,27 +11734,24 @@ msgstr "サブモジュールを追加"
 
 msgctxt "dlgSgSubmoduleDeinitConfirm.btn:"
 msgid "Deinit"
-msgstr "登録解除\\(Deinit\\)"
+msgstr "初期化解除"
 
 #, fuzzy
 msgctxt "dlgSgSubmoduleDeinitConfirm.chk:"
 msgid "Force \\(for modified submodules\\)"
 msgstr "強制 \\(変更されたサブモジュール用\\)"
 
-#, fuzzy
 msgctxt "dlgSgSubmoduleDeinitConfirm.fur:"
 msgid "The submodule will be skipped from the working tree. To get rid from the \\(remote\\) repository, you have to use Unregister instead."
-msgstr "サブモジュールは作業ツリーからスキップされます。 \\(リモート\\) リポジトリから削除するには、代わりに 「登録を解除」 を使用する必要があります。"
+msgstr "サブモジュールは作業ツリーから除外されます。親リポジトリからサブモジュール自体を削除するには、代わりに「登録解除」を使用してください。"
 
-#, fuzzy
 msgctxt "dlgSgSubmoduleDeinitConfirm.hdl:"
 msgid "Do you want to deinit submodule '$1'?"
-msgstr "サブモジュール'$1'をdeinitしますか？"
+msgstr "サブモジュール '$1' を初期化解除しますか？"
 
-#, fuzzy
 msgctxt "dlgSgSubmoduleDeinitConfirm.tle:"
 msgid "Deinit Submodule"
-msgstr "サブモジュールの削除"
+msgstr "サブモジュールの初期化解除"
 
 msgctxt "dlgSgSubmoduleInitAll.btn:"
 msgid "Initialize"
@@ -11886,19 +11883,19 @@ msgstr "サブモジュールの同期"
 
 msgctxt "dlgSgSubmoduleUnregisterConfirm.btn:"
 msgid "Unregister"
-msgstr "登録を解除"
+msgstr "登録解除"
 
 msgctxt "dlgSgSubmoduleUnregisterConfirm.fur:"
 msgid "All relevant files will be adjusted. Afterwards you will only need to perform a commit to finish the operation. To just skip the submodule from the working tree, use Deinit."
-msgstr "関連するすべてのファイルが調整されます。その後、操作を完了するにはコミットを実行するだけで済みます。作業ツリーからサブモジュールを除外するだけの場合は、Deinit を使用してください。"
+msgstr "関連するすべてのファイルが調整されます。その後、操作を完了するにはコミットを実行するだけで済みます。作業ツリーからサブモジュールを除外するだけの場合は、「初期化解除」を使用してください。"
 
 msgctxt "dlgSgSubmoduleUnregisterConfirm.hdl:"
 msgid "Do you want to unregister submodule '$1'?"
-msgstr "サブモジュール '$1' の登録を解除しますか？"
+msgstr "サブモジュール '$1' を登録解除しますか？"
 
 msgctxt "dlgSgSubmoduleUnregisterConfirm.tle:"
 msgid "Unregister Submodule"
-msgstr "サブモジュールの登録を解除"
+msgstr "サブモジュールの登録解除"
 
 msgctxt "dlgSgSubtreeAdd.btn:"
 msgid "Configure"
@@ -17486,11 +17483,11 @@ msgstr "選択した変更を隠す"
 
 msgctxt "wnd(Log|Project|Std|).mniSubmoduleDeactivate:"
 msgid "Deactivate"
-msgstr "無効にする"
+msgstr "非アクティブ化"
 
 msgctxt "wnd(Log|Project|Std|).mniSubmoduleDeinit:"
 msgid "Deinit"
-msgstr "登録解除\\(Deinit\\)"
+msgstr "初期化解除"
 
 msgctxt "wnd(Log|Project|Std|).mniSubmoduleInit:"
 msgid "Initialize"
@@ -17510,7 +17507,7 @@ msgstr "同期"
 
 msgctxt "wnd(Log|Project|Std|).mniSubmoduleUnregister:"
 msgid "Unregister"
-msgstr "登録を解除"
+msgstr "登録解除"
 
 msgctxt "wnd(Log|Project|Std|).mniSubtreeAdd:"
 msgid "Add"
