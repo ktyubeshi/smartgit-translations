@@ -2283,9 +2283,10 @@ msgctxt "dlgSgAbout.tle:"
 msgid "About SmartGit"
 msgstr "SmartGitについて"
 
+# コミットビューの右上のAIボタン→「すべてのAI関連ノートを削除」
 msgctxt "dlgSgAiAnnotatorDropAllNotes.btn:"
 msgid "Drop"
-msgstr "(101) ★削除"
+msgstr "削除"
 
 msgctxt "dlgSgAiAnnotatorDropAllNotes.fur:"
 msgid "This will remove all AI-related Git notes from the repository."
@@ -14832,6 +14833,7 @@ msgctxt "wndLog.mni:"
 msgid "Copy Name <email>"
 msgstr "名前をコピー <email>"
 
+# ToDo: AIボタン配下に表示される項目なので、コンテキストからAI関連のGitノートとしているが、合っているかを確認すること。
 msgctxt "wndLog.mni:"
 msgid "Drop All Notes"
 msgstr "すべてのAI関連のGitノートを削除"
