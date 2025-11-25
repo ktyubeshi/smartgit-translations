@@ -5547,7 +5547,6 @@ msgctxt "dlgSgHistoryPushedCommitsModifyPushedCommits.hdl:"
 msgid "Do you want to modify commits which are already pushed?"
 msgstr "既にプッシュされているコミットを修正しますか?"
 
-#, fuzzy
 msgctxt "dlgSgHistoryPushedCommitsModifyPushedCommits.tle:"
 msgid "Edit Author"
 msgstr "著者を編集"
@@ -7919,10 +7918,9 @@ msgctxt "dlgSgPreferences.lbl:"
 msgid "In order to use all SmartGit functionality, you need to have command line Git installed on your system. Provide here the full path to the installed 'git' executable."
 msgstr "SmartGitのすべての機能を使用するには、システムにコマンドラインGitがインストールされている必要があります。インストールした'git'実行ファイルのフルパスを入力してください。"
 
-#, fuzzy
 msgctxt "dlgSgPreferences.lbl:"
 msgid "Learn how to tailor AI for your projects with the complete \\[https://docs.syntevo.com/SmartGit/Latest/Manual/Integrations/AI SmartGit AI Integration documentation\\]."
-msgstr "完全な \\[https://docs.syntevo.com/SmartGit/Latest/Manual/Integrations/AI SmartGit AI Integration documentation\\] を使用して、プロジェクト向けに AI をカスタマイズする方法を学びましょう。"
+msgstr "プロジェクトに合わせた AI のカスタマイズ方法については、\\[https://docs.syntevo.com/SmartGit/Latest/Manual/Integrations/AI SmartGit AI 統合ドキュメント\\] をご覧ください。"
 
 msgctxt "dlgSgPreferences.lbl:"
 msgid "Local and Remote Changes"
@@ -11734,10 +11732,9 @@ msgctxt "dlgSgSubmoduleAdd.tle:"
 msgid "Add Submodule"
 msgstr "サブモジュールを追加"
 
-#, fuzzy
 msgctxt "dlgSgSubmoduleDeinitConfirm.btn:"
 msgid "Deinit"
-msgstr "削除\\(Deinit\\)"
+msgstr "登録解除\\(Deinit\\)"
 
 #, fuzzy
 msgctxt "dlgSgSubmoduleDeinitConfirm.chk:"
@@ -11891,10 +11888,9 @@ msgctxt "dlgSgSubmoduleUnregisterConfirm.btn:"
 msgid "Unregister"
 msgstr "登録を解除"
 
-#, fuzzy
 msgctxt "dlgSgSubmoduleUnregisterConfirm.fur:"
 msgid "All relevant files will be adjusted. Afterwards you will only need to perform a commit to finish the operation. To just skip the submodule from the working tree, use Deinit."
-msgstr "関連するすべてのファイルが調整されます。その後、操作を完了するにはコミットを実行するだけで済みます。作業ツリーからサブモジュールをスキップするには、Deinit を使用します。"
+msgstr "関連するすべてのファイルが調整されます。その後、操作を完了するにはコミットを実行するだけで済みます。作業ツリーからサブモジュールを除外するだけの場合は、Deinit を使用してください。"
 
 msgctxt "dlgSgSubmoduleUnregisterConfirm.hdl:"
 msgid "Do you want to unregister submodule '$1'?"
@@ -17492,10 +17488,9 @@ msgctxt "wnd(Log|Project|Std|).mniSubmoduleDeactivate:"
 msgid "Deactivate"
 msgstr "無効にする"
 
-#, fuzzy
 msgctxt "wnd(Log|Project|Std|).mniSubmoduleDeinit:"
 msgid "Deinit"
-msgstr "削除\\(Deinit\\)"
+msgstr "登録解除\\(Deinit\\)"
 
 msgctxt "wnd(Log|Project|Std|).mniSubmoduleInit:"
 msgid "Initialize"
