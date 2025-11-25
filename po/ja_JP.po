@@ -6681,7 +6681,7 @@ msgstr "タグ '$1' からどのようにマージしますか?"
 #, pretranslated
 msgctxt "dlgSgMergeHowToMerge.hdl:"
 msgid "How to merge the $1 selected branches?"
-msgstr "選択した$1ブランチをマージする方法は？"
+msgstr "選択した $1 個のブランチをどのようにマージしますか？"
 
 msgctxt "dlgSgMergeHowToMerge.tle:"
 msgid "Merge"
