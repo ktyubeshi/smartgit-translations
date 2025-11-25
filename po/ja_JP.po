@@ -12731,58 +12731,18 @@ msgctxt "dlgStdPickCommitWtDirty.hdl:"
 msgid "The working tree contains local changes."
 msgstr "作業ツリーにはローカルの変更が含まれています。"
 
-#. # Performing ', Remove'
-#. # Performing ', Remove'
-#. # Performing ', Ignore'
-#. # Performing ', Ignore'
-#. # Performing ', Remove'
-#. # Performing 'delete, Delete…, Delete the selected local files or directory.'
-#. # Showing dialog 137 (@E5SGGO) '@PBHUKL - Delete' (owner: @3ML2WC)
-#. # Performing ', Cancel'
-#. # Performing 'remove, Remove…, Remove selected files or directories from repository.'
-#. # Showing dialog 138 (@CJVE8Y) '@42UW7Z - Remove' (owner: @3ML2WC)
 msgctxt "dlgStdRemove.btn:"
 msgid "Delete Local Files"
 msgstr "ローカルファイルを削除"
 
-#. # Performing ', Remove'
-#. # Performing ', Remove'
-#. # Performing ', Ignore'
-#. # Performing ', Ignore'
-#. # Performing ', Remove'
-#. # Performing 'delete, Delete…, Delete the selected local files or directory.'
-#. # Showing dialog 137 (@E5SGGO) '@PBHUKL - Delete' (owner: @3ML2WC)
-#. # Performing ', Cancel'
-#. # Performing 'remove, Remove…, Remove selected files or directories from repository.'
-#. # Showing dialog 138 (@CJVE8Y) '@42UW7Z - Remove' (owner: @3ML2WC)
 msgctxt "dlgStdRemove.btn:"
 msgid "Keep Local Files"
 msgstr "ローカルファイルを保持"
 
-#. # Performing ', Remove'
-#. # Performing ', Remove'
-#. # Performing ', Ignore'
-#. # Performing ', Ignore'
-#. # Performing ', Remove'
-#. # Performing 'delete, Delete…, Delete the selected local files or directory.'
-#. # Showing dialog 137 (@E5SGGO) '@PBHUKL - Delete' (owner: @3ML2WC)
-#. # Performing ', Cancel'
-#. # Performing 'remove, Remove…, Remove selected files or directories from repository.'
-#. # Showing dialog 138 (@CJVE8Y) '@42UW7Z - Remove' (owner: @3ML2WC)
 msgctxt "dlgStdRemove.fur:"
 msgid "You can just remove the files from the repository \\(keeping the local files, e.g. to mark them later as ignored\\), or also delete the local files."
 msgstr "ファイルをリポジトリから削除するだけ\\(ローカルファイルは保持し、後で無視対象に設定するなど\\)にするか、ローカルファイルも削除するかを選択できます。"
 
-#. # Performing ', Remove'
-#. # Performing ', Remove'
-#. # Performing ', Ignore'
-#. # Performing ', Ignore'
-#. # Performing ', Remove'
-#. # Performing 'delete, Delete…, Delete the selected local files or directory.'
-#. # Showing dialog 137 (@E5SGGO) '@PBHUKL - Delete' (owner: @3ML2WC)
-#. # Performing ', Cancel'
-#. # Performing 'remove, Remove…, Remove selected files or directories from repository.'
-#. # Showing dialog 138 (@CJVE8Y) '@42UW7Z - Remove' (owner: @3ML2WC)
 msgctxt "dlgStdRemove.hdl:"
 msgid "How do you want to remove the files from the repository?"
 msgstr "リポジトリからファイルをどのように削除しますか?"
