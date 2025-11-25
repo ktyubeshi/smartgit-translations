@@ -4192,10 +4192,9 @@ msgctxt "dlgSgCustomizeProjectUi.btn:"
 msgid "Clear"
 msgstr "クリア"
 
-# プロジェクトUIカスタマイズダイアログの「除去」ボタン
 msgctxt "dlgSgCustomizeProjectUi.btn:"
 msgid "Remove"
-msgstr "(2)★除去"
+msgstr "削除"
 
 msgctxt "dlgSgCustomizeProjectUi.btn:"
 msgid "Reset"
@@ -5223,10 +5222,9 @@ msgid "Paste the OAuth code from your browser."
 msgstr "ブラウザのOAuthコードを貼り付けます。"
 
 # ToDo: 類似のメッセージとの一貫性を確認する
-#, fuzzy
 msgctxt "dlgSgGitLabGenerateToken.lbl:"
 msgid "Your browser should have opened automatically, let you authenticate with your preferred account at GitLab and grant access to SmartGit. If this didn't happen, manually open following link:"
-msgstr "ブラウザが自動的に開き、GitLabのアカウントで認証を行い、SmartGitへのアクセスを許可します。自動的に開かなかった場合は、以下のリンクを手動で開いてください："
+msgstr "ブラウザが自動的に開いて、GitLabのアカウントで認証を行い、SmartGitへのアクセス許可を求める画面が表示されるはずです。表示されなかった場合は、以下のリンクを手動で開いてください："
 
 msgctxt "dlgSgGitLabGenerateToken.tle:"
 msgid "Request Access Token"
@@ -5771,7 +5769,6 @@ msgid "Set or select the options according to your account."
 msgstr "アカウントに応じてオプションを設定または選択してください。"
 
 # Needs review: Check whether the URL needs to be made variable
-#, fuzzy
 msgctxt "dlgSgHostingProviderAdd.lbl:"
 msgid "Also provide the collection, e.g.: https://azure.devops.server/DefaultCollection"
 msgstr "コレクションも指定してください。例：https://azure.devops.server/DefaultCollection"
@@ -9793,8 +9790,6 @@ msgctxt "dlgSgRemotesNoRemoteDetected.tle:"
 msgid "Push Up To"
 msgstr "ここまでをプッシュ"
 
-# リポジトリからファイルを削除する確認画面などで使用されます。
-# ToDo: 影響範囲の確認
 msgctxt "dlgSgRemove.btn:"
 msgid "Remove"
 msgstr "削除"
@@ -9819,10 +9814,9 @@ msgctxt "dlgSgRemove.inf:"
 msgid "Select the files you want to remove from the repository or working tree \\(stopped from tracking\\)."
 msgstr "リポジトリや作業ツリーから削除したい（追跡を停止したい）ファイルを選択します。"
 
-# Local → Remove でファイルをリポジトリ/作業ツリーから除去するダイアログのタイトル
 msgctxt "dlgSgRemove.tle:"
 msgid "Remove"
-msgstr "(8)★除去"
+msgstr "削除"
 
 msgctxt "dlgSgRenameBranch.btn:"
 msgid "Rename"
@@ -10068,10 +10062,9 @@ msgctxt "dlgSgRepositoryRemoveFailed1.hdl:"
 msgid "The repository '$1' could not be removed."
 msgstr "リポジトリ '$1' を削除できませんでした。"
 
-# リポジトリ除去に失敗した場合のエラーダイアログタイトル
 msgctxt "dlgSgRepositoryRemoveFailed1.tle:"
 msgid "Remove"
-msgstr "(10)★除去"
+msgstr "削除"
 
 msgctxt "dlgSgRepositoryRemoveMultiGroup.fur:"
 msgid "Repositories inside a removed group will be moved out of the group."
@@ -10819,10 +10812,9 @@ msgctxt "dlgSgReviewUsersEdit.btn:"
 msgid "Import"
 msgstr "インポート"
 
-# レビューユーザー編集画面の「除去」ボタン（レビュー機能内）
 msgctxt "dlgSgReviewUsersEdit.btn:"
 msgid "Remove"
-msgstr "(11)★除去"
+msgstr "削除"
 
 msgctxt "dlgSgReviewUsersEdit.col:"
 msgid "Aliases"
@@ -12822,7 +12814,6 @@ msgctxt "dlg(ScConflictSolverAdd|ScConflictSolverEdit|ScFileComparatorAdd|ScFile
 msgid "You must use the variables \\$\\{leftFile\\} and \\$\\{rightFile\\}."
 msgstr "変数 \\$\\{leftFile\\}, \\$\\{rightFile\\} を使用する必要があります。"
 
-# ファイルを削除するかゴミ箱へ移動するかの選択ダイアログで表示されます
 msgctxt "dlg(SgDeleteFileTrash|SgDeleteFilesTrash).btn:"
 msgid "Delete"
 msgstr "削除"
@@ -12847,7 +12838,7 @@ msgctxt "dlg(SgRepositoryRemoveMultiGroup|SgRepositoryRemoveMultiRepo|SgReposito
 msgid "Don't show again"
 msgstr "次回から表示しない"
 
-# リポジトリ一覧のコンテキストメニューで"削除" でリポジトリをSmartGitから削除(管理外に)するダイアログのタイトル
+# リポジトリ一覧のコンテキストメニューで"削除" で選択されたリポジトリをSmartGitから削除(管理外に)するダイアログのタイトル
 msgctxt "dlg(SgRepositoryRemoveMultiGroup|SgRepositoryRemoveMultiRepo|SgRepositoryRemoveMultiRepoMultiGroup|SgRepositoryRemoveMultiRepoSingleGroup|SgRepositoryRemoveSingleGroup|SgRepositoryRemoveSingleRepo|SgRepositoryRemoveSingleRepoMultiGroup|SgRepositoryRemoveSingleRepoSingleGroup).tle:"
 msgid "Remove"
 msgstr "削除"
@@ -15182,7 +15173,7 @@ msgctxt "wndStd.mni:"
 msgid "Rebase"
 msgstr "リベース"
 
-# ツールバーを右クリックしたときに表示されます。「リポジトリから削除」機能を呼び出すメニュー項目です
+# ツールバーを右クリックしたときに表示されます。「リポジトリから削除」機能を呼び出すメニュー項目です。DeleteとRemoveの区別のために操作対象を明示した翻訳にしています。
 msgctxt "wndStd.mni:"
 msgid "Remove"
 msgstr "リポジトリから削除"
@@ -16850,7 +16841,6 @@ msgctxt "wnd(Log|Project|Std|).mniDebugRunGc:"
 msgid "Run GC"
 msgstr "Run GC"
 
-# ファイルを削除します(この操作のあと、「削除」か「ゴミ箱へ移動」の選択がポップアップで表示されます)
 msgctxt "wnd(Log|Project|Std|).mniDelete:"
 msgid "Delete"
 msgstr "ファイルを削除"
