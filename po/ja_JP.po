@@ -9032,10 +9032,9 @@ msgctxt "dlgSgPushToRemote.tle:"
 msgid "Push To"
 msgstr "プッシュ先"
 
-# Remote → Push To でプッシュ先ダイアログを開き、対象ブランチを除去
 msgctxt "dlgSgPushToRemoteRemoveTargetBranches.btn:"
 msgid "Remove"
-msgstr "(4)★除去"
+msgstr "削除"
 
 #, fuzzy
 msgctxt "dlgSgPushToRemoteRemoveTargetBranches.fur:"
