@@ -17487,15 +17487,15 @@ msgstr "非アクティブ化"
 
 msgctxt "wnd(Log|Project|Std|).mniSubmoduleDeinit:"
 msgid "Deinit"
-msgstr "初期化解除"
+msgstr "初期化解除 \\(deinit\\)"
 
 msgctxt "wnd(Log|Project|Std|).mniSubmoduleInit:"
 msgid "Initialize"
-msgstr "初期化"
+msgstr "初期化 \\(init\\)"
 
 msgctxt "wnd(Log|Project|Std|).mniSubmoduleRegister:"
 msgid "Add"
-msgstr "追加"
+msgstr "追加 \\(add\\)"
 
 msgctxt "wnd(Log|Project|Std|).mniSubmoduleReset:"
 msgid "Reset"
@@ -17503,11 +17503,13 @@ msgstr "リセット"
 
 msgctxt "wnd(Log|Project|Std|).mniSubmoduleSync:"
 msgid "Synchronize"
-msgstr "同期"
+msgstr "同期 \\(sync\\)"
 
+# https://docs.syntevo.com/SmartGit/Latest/Manual/GUI/Repository/Submodules
+# 複合コマンド
 msgctxt "wnd(Log|Project|Std|).mniSubmoduleUnregister:"
 msgid "Unregister"
-msgstr "登録解除"
+msgstr "登録解除 \\(deinit ＆ rm\\)"
 
 msgctxt "wnd(Log|Project|Std|).mniSubtreeAdd:"
 msgid "Add"
