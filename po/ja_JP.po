@@ -15244,6 +15244,10 @@ msgctxt "wndStd.mniGitNoteAdd:"
 msgid "Add Note"
 msgstr "ノートを追加"
 
+msgctxt "wndStd.mniIndexEditor:"
+msgid "Edit in Index Editor"
+msgstr "Index エディタで編集"
+
 msgctxt "wndStd.mniIntegrateMain:"
 msgid "Integrate Main"
 msgstr "メインを統合"
