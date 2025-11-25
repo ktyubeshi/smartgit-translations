@@ -12821,9 +12821,10 @@ msgctxt "dlg(SgRepositoryRemoveMultiGroup|SgRepositoryRemoveMultiRepo|SgReposito
 msgid "Don't show again"
 msgstr "次回から表示しない"
 
+# リポジトリ一覧のコンテキストメニューで"削除" でリポジトリをSmartGitから削除(管理外に)するダイアログのタイトル
 msgctxt "dlg(SgRepositoryRemoveMultiGroup|SgRepositoryRemoveMultiRepo|SgRepositoryRemoveMultiRepoMultiGroup|SgRepositoryRemoveMultiRepoSingleGroup|SgRepositoryRemoveSingleGroup|SgRepositoryRemoveSingleRepo|SgRepositoryRemoveSingleRepoMultiGroup|SgRepositoryRemoveSingleRepoSingleGroup).tle:"
 msgid "Remove"
-msgstr "(13)★除去"
+msgstr "削除"
 
 msgctxt "edt:"
 msgid "Search For"
