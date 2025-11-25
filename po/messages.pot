@@ -4467,58 +4467,18 @@ msgctxt "dlgSgFileCompareNoChanges.tle:"
 msgid "File Compare"
 msgstr ""
 
-#. # Performing ', Ignore'
-#. # Performing 'stage, Stage, Store working tree files in the index to prepare the next commit.'
-#. # Performing 'stage, Stage, Store working tree files in the index to prepare the next commit.'
-#. # Performing 'configureToolbar, Configure Toolbar...'
-#. # Showing dialog 23 (@BG414J) '@976UIO - Configure Toolbar' (owner: @3VKO1D)
-#. # Performing ', Add'
-#. # Performing ', OK'
-#. # Performing 'log, Log, Show the history for selected file or directory.'
-#. # opening smartgit.bBY@6XEZTZ:test_cli_properties.py [smartgit-translations-sgpo_tui] - Log for src/tests/test_cli_properties.py@d43166e4 (smartgit.bBY@8MAOXJ)
-#. # Showing dialog 24 (@QY50I4) '@7DUTKU - Follow Copies' (owner: @8MAOXJ)
 msgctxt "dlgSgFileLogFollowCopiesConfirmation.btn:"
 msgid "Rerun"
 msgstr ""
 
-#. # Performing ', Ignore'
-#. # Performing 'stage, Stage, Store working tree files in the index to prepare the next commit.'
-#. # Performing 'stage, Stage, Store working tree files in the index to prepare the next commit.'
-#. # Performing 'configureToolbar, Configure Toolbar...'
-#. # Showing dialog 23 (@BG414J) '@976UIO - Configure Toolbar' (owner: @3VKO1D)
-#. # Performing ', Add'
-#. # Performing ', OK'
-#. # Performing 'log, Log, Show the history for selected file or directory.'
-#. # opening smartgit.bBY@6XEZTZ:test_cli_properties.py [smartgit-translations-sgpo_tui] - Log for src/tests/test_cli_properties.py@d43166e4 (smartgit.bBY@8MAOXJ)
-#. # Showing dialog 24 (@QY50I4) '@7DUTKU - Follow Copies' (owner: @8MAOXJ)
 msgctxt "dlgSgFileLogFollowCopiesConfirmation.fur:"
 msgid "For the initial commit\\(s\\) where the file was added, SmartGit will try to find a similar pre-existing file. If it finds one, it will continue the Log for that file as the source from which it might have been copied.\\n\\nTo enable this feature by default, set the Low-Level Property `log.file.followCopies` in the Preferences."
 msgstr ""
 
-#. # Performing ', Ignore'
-#. # Performing 'stage, Stage, Store working tree files in the index to prepare the next commit.'
-#. # Performing 'stage, Stage, Store working tree files in the index to prepare the next commit.'
-#. # Performing 'configureToolbar, Configure Toolbar...'
-#. # Showing dialog 23 (@BG414J) '@976UIO - Configure Toolbar' (owner: @3VKO1D)
-#. # Performing ', Add'
-#. # Performing ', OK'
-#. # Performing 'log, Log, Show the history for selected file or directory.'
-#. # opening smartgit.bBY@6XEZTZ:test_cli_properties.py [smartgit-translations-sgpo_tui] - Log for src/tests/test_cli_properties.py@d43166e4 (smartgit.bBY@8MAOXJ)
-#. # Showing dialog 24 (@QY50I4) '@7DUTKU - Follow Copies' (owner: @8MAOXJ)
 msgctxt "dlgSgFileLogFollowCopiesConfirmation.hdl:"
 msgid "Do you want to re-run the Log with copy-detection enabled?"
 msgstr ""
 
-#. # Showing dialog 22 (@UP9YU1) '@1KW1EH - Ignore' (owner: @3VKO1D)
-#. # Performing ', Ignore'
-#. # Performing 'stage, Stage, Store working tree files in the index to prepare the next commit.'
-#. # Performing 'stage, Stage, Store working tree files in the index to prepare the next commit.'
-#. # Performing 'configureToolbar, Configure Toolbar...'
-#. # Showing dialog 23 (@BG414J) '@976UIO - Configure Toolbar' (owner: @3VKO1D)
-#. # Performing ', Add'
-#. # Performing ', OK'
-#. # Performing 'log, Log, Show the history for selected file or directory.'
-#. # opening smartgit.bBY@6XEZTZ:test_cli_properties.py [smartgit-translations-sgpo_tui] - Log for src/tests/test_cli_properties.py@d43166e4 (smartgit.bBY@8MAOXJ)
 msgctxt "dlgSgFileLogFollowCopiesConfirmation.tle:"
 msgid "Follow Copies"
 msgstr ""
@@ -9468,30 +9428,10 @@ msgctxt "dlgSgRebaseInteractiveMessage.tle:"
 msgid "Edit Message"
 msgstr ""
 
-#. # Showing dialog 15 (@FOYQ8Z) '@L8IWZ6 - Rebase HEAD to Selected Commit' (owner: @EVKMVM)
-#. # Performing ', Rebase Interactively'
-#. # Showing dialog 16 (@X8LKZO) '@Z4YSGV - Rebase Interactive' (owner: @EVKMVM)
-#. # Performing ', Remove…'
-#. # Showing dialog 17 (@UH7IA0) '@OIKUX2 - Remove Commit' (owner: @X8LKZO)
-#. # Performing ', Cancel'
-#. # Performing ', Auto-Squash'
-#. # Performing ', Auto-Squash'
-#. # Performing ', To Top Commit'
-#. # Showing dialog 18 (@U6EKVV) '@9DPG75 - Rebase Interactive' (owner: @X8LKZO)
 msgctxt "dlgSgRebaseInteractiveNoAutomaticSquashableCommitsFound.fur:"
 msgid "Auto-Squash searches for commits with identical messages and amend-commits them."
 msgstr ""
 
-#. # Showing dialog 15 (@FOYQ8Z) '@L8IWZ6 - Rebase HEAD to Selected Commit' (owner: @EVKMVM)
-#. # Performing ', Rebase Interactively'
-#. # Showing dialog 16 (@X8LKZO) '@Z4YSGV - Rebase Interactive' (owner: @EVKMVM)
-#. # Performing ', Remove…'
-#. # Showing dialog 17 (@UH7IA0) '@OIKUX2 - Remove Commit' (owner: @X8LKZO)
-#. # Performing ', Cancel'
-#. # Performing ', Auto-Squash'
-#. # Performing ', Auto-Squash'
-#. # Performing ', To Top Commit'
-#. # Showing dialog 18 (@U6EKVV) '@9DPG75 - Rebase Interactive' (owner: @X8LKZO)
 msgctxt "dlgSgRebaseInteractiveNoAutomaticSquashableCommitsFound.hdl:"
 msgid "No automatic squashable commits found."
 msgstr ""
@@ -11560,16 +11500,6 @@ msgctxt "dlgSgStashOnDemandConfirmation.tle:"
 msgid "Pull"
 msgstr ""
 
-#. # Performing ', Add Branch'
-#. # Performing ', Check Out'
-#. # Showing dialog 27 (@7RY7XY) '@96J2FU - Check Out' (owner: @3VKO1D)
-#. # Performing ', Checkout'
-#. # Performing 'viewUnchanged, Show Unchanged Files, If selected, unchanged files will be shown.'
-#. # Showing dialog 28 (@T6VDJS) '@83DE53 - AI Upload Consent' (owner: @3VKO1D)
-#. # Performing ', Allow'
-#. # Showing dialog 29 (@EDX8YG) '@F6U3CG - Passwords' (owner: @3VKO1D)
-#. # Performing ', OK'
-#. # Performing ', Move Commit'
 msgctxt "dlgSgStashOnDemandConfirmation.tle:"
 msgid "Reorder Commits"
 msgstr ""
@@ -11578,16 +11508,6 @@ msgctxt "dlgSgStashOnDemandConfirmation.tle:"
 msgid "Reset"
 msgstr ""
 
-#. # Performing ', Pull'
-#. # Performing ',   Open in VSCode'
-#. # Performing 'fetch, Pull..., Fetch commits from a remote repository and (optionally) integrate them with possible local commits.'
-#. # Showing dialog 14 (@HZNP9B) '@SMQ6PW - Pull' (owner: @IPG9GF)
-#. # Performing ', Pull'
-#. # Performing 'viewUnchanged, Show Unchanged Files, If selected, unchanged files will be shown.'
-#. # Performing 'viewIgnored, Show Ignored Files, If selected, ignored files will be shown.'
-#. # Performing 'squashCommits, Squash...'
-#. # Showing dialog 15 (@2RRXT8) '@VE3EIE - Squash Commits' (owner: @IPG9GF)
-#. # Performing ', Squash Commits'
 msgctxt "dlgSgStashOnDemandConfirmation.tle:"
 msgid "Squash Commits"
 msgstr ""
@@ -12781,58 +12701,18 @@ msgctxt "dlgStdPickCommitWtDirty.hdl:"
 msgid "The working tree contains local changes."
 msgstr ""
 
-#. # Performing ', Remove'
-#. # Performing ', Remove'
-#. # Performing ', Ignore'
-#. # Performing ', Ignore'
-#. # Performing ', Remove'
-#. # Performing 'delete, Delete…, Delete the selected local files or directory.'
-#. # Showing dialog 137 (@E5SGGO) '@PBHUKL - Delete' (owner: @3ML2WC)
-#. # Performing ', Cancel'
-#. # Performing 'remove, Remove…, Remove selected files or directories from repository.'
-#. # Showing dialog 138 (@CJVE8Y) '@42UW7Z - Remove' (owner: @3ML2WC)
 msgctxt "dlgStdRemove.btn:"
 msgid "Delete Local Files"
 msgstr ""
 
-#. # Performing ', Remove'
-#. # Performing ', Remove'
-#. # Performing ', Ignore'
-#. # Performing ', Ignore'
-#. # Performing ', Remove'
-#. # Performing 'delete, Delete…, Delete the selected local files or directory.'
-#. # Showing dialog 137 (@E5SGGO) '@PBHUKL - Delete' (owner: @3ML2WC)
-#. # Performing ', Cancel'
-#. # Performing 'remove, Remove…, Remove selected files or directories from repository.'
-#. # Showing dialog 138 (@CJVE8Y) '@42UW7Z - Remove' (owner: @3ML2WC)
 msgctxt "dlgStdRemove.btn:"
 msgid "Keep Local Files"
 msgstr ""
 
-#. # Performing ', Remove'
-#. # Performing ', Remove'
-#. # Performing ', Ignore'
-#. # Performing ', Ignore'
-#. # Performing ', Remove'
-#. # Performing 'delete, Delete…, Delete the selected local files or directory.'
-#. # Showing dialog 137 (@E5SGGO) '@PBHUKL - Delete' (owner: @3ML2WC)
-#. # Performing ', Cancel'
-#. # Performing 'remove, Remove…, Remove selected files or directories from repository.'
-#. # Showing dialog 138 (@CJVE8Y) '@42UW7Z - Remove' (owner: @3ML2WC)
 msgctxt "dlgStdRemove.fur:"
 msgid "You can just remove the files from the repository \\(keeping the local files, e.g. to mark them later as ignored\\), or also delete the local files."
 msgstr ""
 
-#. # Performing ', Remove'
-#. # Performing ', Remove'
-#. # Performing ', Ignore'
-#. # Performing ', Ignore'
-#. # Performing ', Remove'
-#. # Performing 'delete, Delete…, Delete the selected local files or directory.'
-#. # Showing dialog 137 (@E5SGGO) '@PBHUKL - Delete' (owner: @3ML2WC)
-#. # Performing ', Cancel'
-#. # Performing 'remove, Remove…, Remove selected files or directories from repository.'
-#. # Showing dialog 138 (@CJVE8Y) '@42UW7Z - Remove' (owner: @3ML2WC)
 msgctxt "dlgStdRemove.hdl:"
 msgid "How do you want to remove the files from the repository?"
 msgstr ""
@@ -15327,16 +15207,6 @@ msgctxt "wndStd.mniGitNoteAdd:"
 msgid "Add Note"
 msgstr ""
 
-#. # Performing 'goto-next-diff, Next Change, Go to next change.'
-#. # Performing 'goto-next-diff, Next Change, Go to next change.'
-#. # Showing dialog 134 (@EYFFS9) '@FZP452 - Commit' (owner: @BIEDNF)
-#. # Performing ', Cancel'
-#. # Showing dialog 135 (@UXUC2M) '@KL9J5D - Commit' (owner: @BIEDNF)
-#. # Performing ', Cancel'
-#. # Performing 'stage, Stage, Store working tree files in the index to prepare the next commit.'
-#. # Performing ', Fetch'
-#. # Showing dialog 136 (@WI6MTL) '@BKU3QH - Command Output' (owner: @BIEDNF)
-#. # Performing ', Close'
 msgctxt "wndStd.mniIndexEditor:"
 msgid "Edit in Index Editor"
 msgstr ""
