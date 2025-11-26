@@ -3449,7 +3449,7 @@ msgctxt "dlgSgClone.chk:"
 msgid "Map SVN trunk, tags and branches to Git"
 msgstr ""
 
-msgctxt "dlgSgClone.chk\"Skip large files \\(\\\"partial clone\\\"\\)\":"
+msgctxt "dlgSgClone.chk:"
 msgid "Skip large files \\(\"partial clone\"\\)"
 msgstr ""
 
@@ -3803,7 +3803,7 @@ msgctxt "dlgSgCommit.rbt:"
 msgid "Merge commit \\(multiple parents\\)"
 msgstr ""
 
-msgctxt "dlgSgCommit.rbt\"Simple commit \\(one parent, \\\"squash\\\"\\)\":"
+msgctxt "dlgSgCommit.rbt:"
 msgid "Simple commit \\(one parent, \"squash\"\\)"
 msgstr ""
 
@@ -12985,7 +12985,7 @@ msgctxt "ntmHostingProviderIntegrationNotYetConfigured:"
 msgid "SmartGit provides special support for $1. The integration can be configured in the Preferences."
 msgstr ""
 
-msgctxt "ntmLcTypeProblem\"If you experience problems with garbled file names/paths containing non-US-ASCII characters, consider to set the environment variables <tt>LC_ALL</tt>, or both <tt>LC_CTYPE</tt> and <tt>LANG</tt> to a country code which ends with \\\"<tt>.UTF-8</tt>\\\".\""
+msgctxt "ntmLcTypeProblem:"
 msgid "If you experience problems with garbled file names/paths containing non-US-ASCII characters, consider to set the environment variables <tt>LC_ALL</tt>, or both <tt>LC_CTYPE</tt> and <tt>LANG</tt> to a country code which ends with \"<tt>.UTF-8</tt>\"."
 msgstr ""
 
@@ -17871,7 +17871,7 @@ msgctxt "wnd(Log|Project|Std|).tab:"
 msgid "Repositories"
 msgstr ""
 
-msgctxt "wnd(Log|Project|Std|).tbr\"  History  \":"
+msgctxt "wnd(Log|Project|Std|).tbr:"
 msgid "History"
 msgstr ""
 
