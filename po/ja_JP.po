@@ -12793,11 +12793,11 @@ msgstr "引数には、変数 \\$\\{file\\} が必要です。"
 
 msgctxt "dlg(ScConflictSolverAdd|ScConflictSolverEdit|ScFileComparatorAdd|ScFileComparatorEdit).err:"
 msgid "The Arguments require the variables \\$\\{leftFile\\} and \\$\\{rightFile\\}."
-msgstr "引数には変数 \\${leftFile}, \\${rightFile} が必要です。"
+msgstr "引数には変数 \\$\\{leftFile\\}, \\$\\{rightFile\\} が必要です。"
 
 msgctxt "dlg(ScConflictSolverAdd|ScConflictSolverEdit|ScFileComparatorAdd|ScFileComparatorEdit).err:"
 msgid "The Arguments require the variables \\$\\{leftFile\\}, \\$\\{rightFile\\} and \\$\\{mergedFile\\}."
-msgstr "引数には変数 \\${leftFile}, \\${rightFile}, \\${mergedFile} が必要です。"
+msgstr "引数には変数 \\$\\{leftFile\\}, \\$\\{rightFile\\}, \\$\\{mergedFile\\} が必要です。"
 
 msgctxt "dlg(ScConflictSolverAdd|ScConflictSolverEdit|ScFileComparatorAdd|ScFileComparatorEdit).lbl:"
 msgid "You must use the variable \\$\\{file\\}."
