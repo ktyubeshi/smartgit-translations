@@ -18386,3 +18386,325 @@ msgstr ""
 msgctxt "wnd(Log|Std|).mniOpen:"
 msgid "Open from Working Tree"
 msgstr ""
+
+#. # Performing '@smartgit.bFP'
+#. # Performing '@smartgit.bFP'
+#. # Performing '@smartgit.bFP'
+#. # Performing '@smartgit.bFP'
+#. # Performing '@smartgit.bFP'
+#. # Performing '@smartgit.bFP'
+#. # Performing ',   Open in VSCode'
+#. # Performing 'subtreeAdd, Add…'
+#. # Showing dialog 73 (@WKVPYQ) '@ZE6MG5 - Add Subtree' (owner: @J9ET9C)
+#. # Performing ', Continue'
+msgctxt "dlgSgSubtreeAdd.err:"
+msgid "A local branch with this name already exists. Use a different name."
+msgstr ""
+
+#. # Performing '@smartgit.bFP'
+#. # Performing '@smartgit.bFP'
+#. # Performing '@smartgit.bFP'
+#. # Performing '@smartgit.bFP'
+#. # Performing '@smartgit.bFP'
+#. # Performing '@smartgit.bFP'
+#. # Performing ',   Open in VSCode'
+#. # Performing 'subtreeAdd, Add…'
+#. # Showing dialog 73 (@WKVPYQ) '@ZE6MG5 - Add Subtree' (owner: @J9ET9C)
+#. # Performing ', Continue'
+msgctxt "dlgSgSubtreeAdd.err:"
+msgid "Enter the name of the local branch."
+msgstr ""
+
+#. # Performing ', Cancel'
+#. # Performing '@smartgit.bFP'
+#. # Performing '@smartgit.bFP'
+#. # Performing '@smartgit.bFP'
+#. # Performing 'subtreeAdd, Add…'
+#. # Showing dialog 54 (@SH5Z4G) '@AZI9CS - Add Subtree' (owner: @J9ET9C)
+#. # Performing ', Continue'
+#. # Performing ', Go Back'
+#. # Performing ', Continue'
+#. # Performing ', Go Back'
+msgctxt "dlgSgSubtreeAdd.err:"
+msgid "Please select a valid branch."
+msgstr ""
+
+#. # Performing '@smartgit.bFP'
+#. # Performing 'subtreeAdd, Add…'
+#. # Showing dialog 54 (@SH5Z4G) '@AZI9CS - Add Subtree' (owner: @J9ET9C)
+#. # Performing ', Continue'
+#. # Performing ', Go Back'
+#. # Performing ', Continue'
+#. # Performing ', Go Back'
+#. # Performing ', Continue'
+#. # Performing ', Finish'
+#. # Showing dialog 55 (@N6KXPT) '@L1GAQH - Add Subtree' (owner: @J9ET9C)
+msgctxt "dlgSgSubtreeAddSuccess.fur:"
+msgid "Subtree operations are now available in \\*Branches\\* and \\*Graph\\* view, for refs belonging to the \\*gitlab\\* remote."
+msgstr ""
+
+#. # Performing '@smartgit.bFP'
+#. # Performing 'subtreeAdd, Add…'
+#. # Showing dialog 54 (@SH5Z4G) '@AZI9CS - Add Subtree' (owner: @J9ET9C)
+#. # Performing ', Continue'
+#. # Performing ', Go Back'
+#. # Performing ', Continue'
+#. # Performing ', Go Back'
+#. # Performing ', Continue'
+#. # Performing ', Finish'
+#. # Showing dialog 55 (@N6KXPT) '@L1GAQH - Add Subtree' (owner: @J9ET9C)
+msgctxt "dlgSgSubtreeAddSuccess.hdl:"
+msgid "Subtree 'test' has been successfully added."
+msgstr ""
+
+#. # Performing ', Cancel'
+#. # Performing 'remoteFetch, Fetch, Fetch commits from current remote repository.'
+#. # Performing 'fetch, Pull…, Fetch commits from a remote repository and (optionally) integrate them with possible local commits.'
+#. # Showing dialog 62 (@M8BOCC) '@LKLFAS - Pull' (owner: @J9ET9C)
+#. # Performing ', Fetch Only'
+#. # Performing 'subtreeSplit, Split…'
+#. # Showing dialog 63 (@GOERKF) '@WM4X6M - Subtree Split' (owner: @J9ET9C)
+#. # Performing ', Cancel'
+#. # Performing 'merge, Merge…, Merge changes from other branches.'
+#. # Showing dialog 64 (@A1G6WS) '@28L8OK - Subtree Merge' (owner: @J9ET9C)
+msgctxt "dlgSgSubtreeMergeWithPrefix.btn:"
+msgid "Merge"
+msgstr ""
+
+#. # Performing ', Cancel'
+#. # Performing 'remoteFetch, Fetch, Fetch commits from current remote repository.'
+#. # Performing 'fetch, Pull…, Fetch commits from a remote repository and (optionally) integrate them with possible local commits.'
+#. # Showing dialog 62 (@M8BOCC) '@LKLFAS - Pull' (owner: @J9ET9C)
+#. # Performing ', Fetch Only'
+#. # Performing 'subtreeSplit, Split…'
+#. # Showing dialog 63 (@GOERKF) '@WM4X6M - Subtree Split' (owner: @J9ET9C)
+#. # Performing ', Cancel'
+#. # Performing 'merge, Merge…, Merge changes from other branches.'
+#. # Showing dialog 64 (@A1G6WS) '@28L8OK - Subtree Merge' (owner: @J9ET9C)
+msgctxt "dlgSgSubtreeMergeWithPrefix.fur:"
+msgid "Changes from 'master' will be merged into sub-directory 'test'."
+msgstr ""
+
+#. # Performing ', Cancel'
+#. # Performing 'remoteFetch, Fetch, Fetch commits from current remote repository.'
+#. # Performing 'fetch, Pull…, Fetch commits from a remote repository and (optionally) integrate them with possible local commits.'
+#. # Showing dialog 62 (@M8BOCC) '@LKLFAS - Pull' (owner: @J9ET9C)
+#. # Performing ', Fetch Only'
+#. # Performing 'subtreeSplit, Split…'
+#. # Showing dialog 63 (@GOERKF) '@WM4X6M - Subtree Split' (owner: @J9ET9C)
+#. # Performing ', Cancel'
+#. # Performing 'merge, Merge…, Merge changes from other branches.'
+#. # Showing dialog 64 (@A1G6WS) '@28L8OK - Subtree Merge' (owner: @J9ET9C)
+msgctxt "dlgSgSubtreeMergeWithPrefix.hdl:"
+msgid "Do you want to merge subtree 'test'?"
+msgstr ""
+
+#. # Showing dialog 63 (@GOERKF) '@WM4X6M - Subtree Split' (owner: @J9ET9C)
+#. # Performing ', Cancel'
+#. # Performing 'merge, Merge…, Merge changes from other branches.'
+#. # Showing dialog 64 (@A1G6WS) '@28L8OK - Subtree Merge' (owner: @J9ET9C)
+#. # Performing ', Cancel'
+#. # Performing 'subtreeSplit, Split…'
+#. # Showing dialog 65 (@V6VR0J) '@4WHFH5 - Subtree Split' (owner: @J9ET9C)
+#. # Performing ', Cancel'
+#. # Performing 'subtreePush, Push…'
+#. # Showing dialog 66 (@BKH0PK) '@J60I1L - Subtree Push' (owner: @J9ET9C)
+msgctxt "dlgSgSubtreePush.chk:"
+msgid "Annotate generated history with prefix"
+msgstr ""
+
+#. # Showing dialog 63 (@GOERKF) '@WM4X6M - Subtree Split' (owner: @J9ET9C)
+#. # Performing ', Cancel'
+#. # Performing 'merge, Merge…, Merge changes from other branches.'
+#. # Showing dialog 64 (@A1G6WS) '@28L8OK - Subtree Merge' (owner: @J9ET9C)
+#. # Performing ', Cancel'
+#. # Performing 'subtreeSplit, Split…'
+#. # Showing dialog 65 (@V6VR0J) '@4WHFH5 - Subtree Split' (owner: @J9ET9C)
+#. # Performing ', Cancel'
+#. # Performing 'subtreePush, Push…'
+#. # Showing dialog 66 (@BKH0PK) '@J60I1L - Subtree Push' (owner: @J9ET9C)
+msgctxt "dlgSgSubtreePush.chk:"
+msgid "Rejoin generated history \\(for more efficient future splits\\)"
+msgstr ""
+
+#. # Showing dialog 63 (@GOERKF) '@WM4X6M - Subtree Split' (owner: @J9ET9C)
+#. # Performing ', Cancel'
+#. # Performing 'merge, Merge…, Merge changes from other branches.'
+#. # Showing dialog 64 (@A1G6WS) '@28L8OK - Subtree Merge' (owner: @J9ET9C)
+#. # Performing ', Cancel'
+#. # Performing 'subtreeSplit, Split…'
+#. # Showing dialog 65 (@V6VR0J) '@4WHFH5 - Subtree Split' (owner: @J9ET9C)
+#. # Performing ', Cancel'
+#. # Performing 'subtreePush, Push…'
+#. # Showing dialog 66 (@BKH0PK) '@J60I1L - Subtree Push' (owner: @J9ET9C)
+msgctxt "dlgSgSubtreePush.edt:"
+msgid "Prefix"
+msgstr ""
+
+#. # Showing dialog 63 (@GOERKF) '@WM4X6M - Subtree Split' (owner: @J9ET9C)
+#. # Performing ', Cancel'
+#. # Performing 'merge, Merge…, Merge changes from other branches.'
+#. # Showing dialog 64 (@A1G6WS) '@28L8OK - Subtree Merge' (owner: @J9ET9C)
+#. # Performing ', Cancel'
+#. # Performing 'subtreeSplit, Split…'
+#. # Showing dialog 65 (@V6VR0J) '@4WHFH5 - Subtree Split' (owner: @J9ET9C)
+#. # Performing ', Cancel'
+#. # Performing 'subtreePush, Push…'
+#. # Showing dialog 66 (@BKH0PK) '@J60I1L - Subtree Push' (owner: @J9ET9C)
+msgctxt "dlgSgSubtreePush.hdl:"
+msgid "Do you want to push back subtree '$1'?"
+msgstr ""
+
+#. # Showing dialog 63 (@GOERKF) '@WM4X6M - Subtree Split' (owner: @J9ET9C)
+#. # Performing ', Cancel'
+#. # Performing 'merge, Merge…, Merge changes from other branches.'
+#. # Showing dialog 64 (@A1G6WS) '@28L8OK - Subtree Merge' (owner: @J9ET9C)
+#. # Performing ', Cancel'
+#. # Performing 'subtreeSplit, Split…'
+#. # Showing dialog 65 (@V6VR0J) '@4WHFH5 - Subtree Split' (owner: @J9ET9C)
+#. # Performing ', Cancel'
+#. # Performing 'subtreePush, Push…'
+#. # Showing dialog 66 (@BKH0PK) '@J60I1L - Subtree Push' (owner: @J9ET9C)
+msgctxt "dlgSgSubtreePush.inf:"
+msgid "HEAD changes from sub-directory '$1' will be rewritten onto '$2' and pushed back."
+msgstr ""
+
+#. # Showing dialog 57 (@5R87IA) '@TXY5AG - Add Subtree' (owner: @J9ET9C)
+#. # Performing ', Cancel'
+#. # Performing 'branchAdd, Add Branch…, Add a new branch for the current commit.'
+#. # Showing dialog 58 (@IBYOQL) '@CI1W2P - Add Branch' (owner: @J9ET9C)
+#. # Performing ', Add Branch'
+#. # Performing 'subtreeSplit, Split…'
+#. # Showing dialog 59 (@VL99J1) '@DA0INM - Subtree Split' (owner: @J9ET9C)
+#. # Performing ', Cancel'
+#. # Performing 'subtreeReset, Reset…'
+#. # Showing dialog 60 (@BA3WWB) '@T9BHHY - Subtree Reset' (owner: @J9ET9C)
+msgctxt "dlgSgSubtreeReset.btn:"
+msgid "Reset"
+msgstr ""
+
+#. # Showing dialog 57 (@5R87IA) '@TXY5AG - Add Subtree' (owner: @J9ET9C)
+#. # Performing ', Cancel'
+#. # Performing 'branchAdd, Add Branch…, Add a new branch for the current commit.'
+#. # Showing dialog 58 (@IBYOQL) '@CI1W2P - Add Branch' (owner: @J9ET9C)
+#. # Performing ', Add Branch'
+#. # Performing 'subtreeSplit, Split…'
+#. # Showing dialog 59 (@VL99J1) '@DA0INM - Subtree Split' (owner: @J9ET9C)
+#. # Performing ', Cancel'
+#. # Performing 'subtreeReset, Reset…'
+#. # Showing dialog 60 (@BA3WWB) '@T9BHHY - Subtree Reset' (owner: @J9ET9C)
+msgctxt "dlgSgSubtreeReset.fur:"
+msgid "This will reset the sub-directory '$1' in your main history to the same state as in the subtree history at 'master'.\\n\\nChanges in the sub-directory which are only present in your main history commits will be lost. Only use this operation after your changes have been merged into the subtree history!"
+msgstr ""
+
+#. # Showing dialog 57 (@5R87IA) '@TXY5AG - Add Subtree' (owner: @J9ET9C)
+#. # Performing ', Cancel'
+#. # Performing 'branchAdd, Add Branch…, Add a new branch for the current commit.'
+#. # Showing dialog 58 (@IBYOQL) '@CI1W2P - Add Branch' (owner: @J9ET9C)
+#. # Performing ', Add Branch'
+#. # Performing 'subtreeSplit, Split…'
+#. # Showing dialog 59 (@VL99J1) '@DA0INM - Subtree Split' (owner: @J9ET9C)
+#. # Performing ', Cancel'
+#. # Performing 'subtreeReset, Reset…'
+#. # Showing dialog 60 (@BA3WWB) '@T9BHHY - Subtree Reset' (owner: @J9ET9C)
+msgctxt "dlgSgSubtreeReset.hdl:"
+msgid "Do you want to reset subtree '$1'?"
+msgstr ""
+
+#. # Showing dialog 69 (@O3YPUD) '@I8JRT1 - Synchronize' (owner: @J9ET9C)
+#. # Performing ', Cancel'
+#. # Performing 'lfsInstall, Install…'
+#. # Showing dialog 70 (@WI6KEF) '@I36VH6 - LFS Install' (owner: @J9ET9C)
+#. # Performing ', Cancel'
+#. # Performing 'reviewConfigure, Configure…'
+#. # Showing dialog 71 (@B9XT90) '@LI8WRH - Configure Review System' (owner: @J9ET9C)
+#. # Performing ', Cancel'
+#. # Performing 'subtreeSplit, Split…'
+#. # Showing dialog 72 (@F28WUY) '@CH6VK9 - Subtree Split' (owner: @J9ET9C)
+msgctxt "dlgSgSubtreeSplit.chk:"
+msgid "Annotate generated history with prefix"
+msgstr ""
+
+#. # Showing dialog 69 (@O3YPUD) '@I8JRT1 - Synchronize' (owner: @J9ET9C)
+#. # Performing ', Cancel'
+#. # Performing 'lfsInstall, Install…'
+#. # Showing dialog 70 (@WI6KEF) '@I36VH6 - LFS Install' (owner: @J9ET9C)
+#. # Performing ', Cancel'
+#. # Performing 'reviewConfigure, Configure…'
+#. # Showing dialog 71 (@B9XT90) '@LI8WRH - Configure Review System' (owner: @J9ET9C)
+#. # Performing ', Cancel'
+#. # Performing 'subtreeSplit, Split…'
+#. # Showing dialog 72 (@F28WUY) '@CH6VK9 - Subtree Split' (owner: @J9ET9C)
+msgctxt "dlgSgSubtreeSplit.chk:"
+msgid "Rejoin generated history \\(for more efficient future splits\\)"
+msgstr ""
+
+#. # Showing dialog 69 (@O3YPUD) '@I8JRT1 - Synchronize' (owner: @J9ET9C)
+#. # Performing ', Cancel'
+#. # Performing 'lfsInstall, Install…'
+#. # Showing dialog 70 (@WI6KEF) '@I36VH6 - LFS Install' (owner: @J9ET9C)
+#. # Performing ', Cancel'
+#. # Performing 'reviewConfigure, Configure…'
+#. # Showing dialog 71 (@B9XT90) '@LI8WRH - Configure Review System' (owner: @J9ET9C)
+#. # Performing ', Cancel'
+#. # Performing 'subtreeSplit, Split…'
+#. # Showing dialog 72 (@F28WUY) '@CH6VK9 - Subtree Split' (owner: @J9ET9C)
+msgctxt "dlgSgSubtreeSplit.edt:"
+msgid "Prefix"
+msgstr ""
+
+#. # Showing dialog 69 (@O3YPUD) '@I8JRT1 - Synchronize' (owner: @J9ET9C)
+#. # Performing ', Cancel'
+#. # Performing 'lfsInstall, Install…'
+#. # Showing dialog 70 (@WI6KEF) '@I36VH6 - LFS Install' (owner: @J9ET9C)
+#. # Performing ', Cancel'
+#. # Performing 'reviewConfigure, Configure…'
+#. # Showing dialog 71 (@B9XT90) '@LI8WRH - Configure Review System' (owner: @J9ET9C)
+#. # Performing ', Cancel'
+#. # Performing 'subtreeSplit, Split…'
+#. # Showing dialog 72 (@F28WUY) '@CH6VK9 - Subtree Split' (owner: @J9ET9C)
+msgctxt "dlgSgSubtreeSplit.edt:"
+msgid "Subtree-Branch to update"
+msgstr ""
+
+#. # Showing dialog 69 (@O3YPUD) '@I8JRT1 - Synchronize' (owner: @J9ET9C)
+#. # Performing ', Cancel'
+#. # Performing 'lfsInstall, Install…'
+#. # Showing dialog 70 (@WI6KEF) '@I36VH6 - LFS Install' (owner: @J9ET9C)
+#. # Performing ', Cancel'
+#. # Performing 'reviewConfigure, Configure…'
+#. # Showing dialog 71 (@B9XT90) '@LI8WRH - Configure Review System' (owner: @J9ET9C)
+#. # Performing ', Cancel'
+#. # Performing 'subtreeSplit, Split…'
+#. # Showing dialog 72 (@F28WUY) '@CH6VK9 - Subtree Split' (owner: @J9ET9C)
+msgctxt "dlgSgSubtreeSplit.hdl:"
+msgid "Do you want to update subtree 'test'?"
+msgstr ""
+
+#. # Showing dialog 69 (@O3YPUD) '@I8JRT1 - Synchronize' (owner: @J9ET9C)
+#. # Performing ', Cancel'
+#. # Performing 'lfsInstall, Install…'
+#. # Showing dialog 70 (@WI6KEF) '@I36VH6 - LFS Install' (owner: @J9ET9C)
+#. # Performing ', Cancel'
+#. # Performing 'reviewConfigure, Configure…'
+#. # Showing dialog 71 (@B9XT90) '@LI8WRH - Configure Review System' (owner: @J9ET9C)
+#. # Performing ', Cancel'
+#. # Performing 'subtreeSplit, Split…'
+#. # Showing dialog 72 (@F28WUY) '@CH6VK9 - Subtree Split' (owner: @J9ET9C)
+msgctxt "dlgSgSubtreeSplit.inf:"
+msgid "HEAD changes from sub-directory 'test' will be rewritten onto 'master'."
+msgstr ""
+
+#. # Showing dialog 69 (@O3YPUD) '@I8JRT1 - Synchronize' (owner: @J9ET9C)
+#. # Performing ', Cancel'
+#. # Performing 'lfsInstall, Install…'
+#. # Showing dialog 70 (@WI6KEF) '@I36VH6 - LFS Install' (owner: @J9ET9C)
+#. # Performing ', Cancel'
+#. # Performing 'reviewConfigure, Configure…'
+#. # Showing dialog 71 (@B9XT90) '@LI8WRH - Configure Review System' (owner: @J9ET9C)
+#. # Performing ', Cancel'
+#. # Performing 'subtreeSplit, Split…'
+#. # Showing dialog 72 (@F28WUY) '@CH6VK9 - Subtree Split' (owner: @J9ET9C)
+msgctxt "dlgSgSubtreeSplit.lbl:"
+msgid "The selected branch pointer will be set to the HEAD of the generated history."
+msgstr ""
