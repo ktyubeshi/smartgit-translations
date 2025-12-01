@@ -11975,9 +11975,10 @@ msgctxt "dlgSgSubtreeAdd.inf:"
 msgid "Specify the repository to clone as subtree.\\nTo configure multiple accounts of the same hosting provider, use the Preferences."
 msgstr "サブツリーとしてクローンするリポジトリを指定してください。\\n同じホスティングプロバイダーの複数のアカウントを設定するには、環境設定から設定してください。"
 
+# サブツリーの追加画面でローカルブランチの作成のチェックを有効にするとこのメッセージが表示されます。
 msgctxt "dlgSgSubtreeAdd.lbl:"
 msgid "Local branches for subtrees will only be useful if you plan to use Subtree-Split and Subtree-Reset operations."
-msgstr "サブツリーのローカル ブランチは、Subtree-Split および Subtree-Reset を使用する予定がある場合にのみ役立ちます。"
+msgstr "サブツリーのローカルブランチは、サブツリーの「分割 (split)」や「リセット」を行う予定がある場合に役立ちます。"
 
 msgctxt "dlgSgSubtreeAdd.lbl:"
 msgid "Steps"
@@ -17513,15 +17514,15 @@ msgstr "登録解除 \\(deinit ＆ rm\\)"
 
 msgctxt "wnd(Log|Project|Std|).mniSubtreeAdd:"
 msgid "Add"
-msgstr "追加"
+msgstr "追加 (add)"
 
 msgctxt "wnd(Log|Project|Std|).mniSubtreeMerge:"
 msgid "Merge"
-msgstr "マージ"
+msgstr "マージ (merge)"
 
 msgctxt "wnd(Log|Project|Std|).mniSubtreePush:"
 msgid "Push"
-msgstr "プッシュ"
+msgstr "プッシュ (push)"
 
 msgctxt "wnd(Log|Project|Std|).mniSubtreeReset:"
 msgid "Reset"
@@ -17529,7 +17530,7 @@ msgstr "リセット"
 
 msgctxt "wnd(Log|Project|Std|).mniSubtreeSplit:"
 msgid "Split"
-msgstr "分割"
+msgstr "分割 (split)"
 
 msgctxt "wnd(Log|Project|Std|).mniSync:"
 msgid "Synchronize"
