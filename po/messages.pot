@@ -18678,7 +18678,7 @@ msgstr ""
 #. # Performing 'subtreeSplit, Split…'
 #. # Showing dialog 72 (@F28WUY) '@CH6VK9 - Subtree Split' (owner: @J9ET9C)
 msgctxt "dlgSgSubtreeSplit.hdl:"
-msgid "Do you want to update subtree 'test'?"
+msgid "Do you want to update subtree '$1'?"
 msgstr ""
 
 #. # Showing dialog 69 (@O3YPUD) '@I8JRT1 - Synchronize' (owner: @J9ET9C)
@@ -18692,7 +18692,7 @@ msgstr ""
 #. # Performing 'subtreeSplit, Split…'
 #. # Showing dialog 72 (@F28WUY) '@CH6VK9 - Subtree Split' (owner: @J9ET9C)
 msgctxt "dlgSgSubtreeSplit.inf:"
-msgid "HEAD changes from sub-directory 'test' will be rewritten onto 'master'."
+msgid "HEAD changes from sub-directory '$1' will be rewritten onto '$2'."
 msgstr ""
 
 #. # Showing dialog 69 (@O3YPUD) '@I8JRT1 - Synchronize' (owner: @J9ET9C)
