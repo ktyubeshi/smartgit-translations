@@ -11935,6 +11935,14 @@ msgid "A local branch with this name already exists. Use a different name."
 msgstr ""
 
 msgctxt "dlgSgSubtreeAdd.err:"
+msgid "Consecutive dots are not allowed."
+msgstr ""
+
+msgctxt "dlgSgSubtreeAdd.err:"
+msgid "Consecutive slashes are not allowed."
+msgstr ""
+
+msgctxt "dlgSgSubtreeAdd.err:"
 msgid "Directory '$1' already exists."
 msgstr ""
 
@@ -11948,6 +11956,14 @@ msgstr ""
 
 msgctxt "dlgSgSubtreeAdd.err:"
 msgid "Please select a valid branch."
+msgstr ""
+
+msgctxt "dlgSgSubtreeAdd.err:"
+msgid "The name must not contain control characters, space, ~, ^, :, ?, \\*, \\[, < or >."
+msgstr ""
+
+msgctxt "dlgSgSubtreeAdd.err:"
+msgid "The name must not end with a slash or dot."
 msgstr ""
 
 msgctxt "dlgSgSubtreeAdd.hdl:"
@@ -12000,16 +12016,20 @@ msgctxt "dlgSgSubtreeAdd.tle:"
 msgid "Add Subtree"
 msgstr ""
 
+msgctxt "dlgSgSubtreeAddSuccess.fur:"
+msgid "Subtree operations are now available in \\*Branches\\* and \\*Graph\\* view, for \\*$1\\* and refs belonging to the \\*$2\\* remote."
+msgstr ""
+
 # FIXME: '\\*gitlab\\*' should be a variable like '$1'
 #, fuzzy
 msgctxt "dlgSgSubtreeAddSuccess.fur:"
-msgid "Subtree operations are now available in \\*Branches\\* and \\*Graph\\* view, for refs belonging to the \\*gitlab\\* remote."
+msgid "Subtree operations are now available in \\*Branches\\* and \\*Graph\\* view, for refs belonging to the \\*$1\\* remote."
 msgstr ""
 
 # FIXME: 'test' should be a variable like '$1'
 #, fuzzy
 msgctxt "dlgSgSubtreeAddSuccess.hdl:"
-msgid "Subtree 'test' has been successfully added."
+msgid "Subtree '$1' has been successfully added."
 msgstr ""
 
 msgctxt "dlgSgSubtreeMergeWithPrefix.btn:"
@@ -12019,13 +12039,13 @@ msgstr ""
 # FIXME: 'master' and 'test' should be variables like '$1' and '$2'
 #, fuzzy
 msgctxt "dlgSgSubtreeMergeWithPrefix.fur:"
-msgid "Changes from 'master' will be merged into sub-directory 'test'."
+msgid "Changes from '$1' will be merged into sub-directory '$2'."
 msgstr ""
 
 # FIXME: 'test' should be a variable like '$1'
 #, fuzzy
 msgctxt "dlgSgSubtreeMergeWithPrefix.hdl:"
-msgid "Do you want to merge subtree 'test'?"
+msgid "Do you want to merge subtree '$1'?"
 msgstr ""
 
 msgctxt "dlgSgSubtreePush.chk:"
@@ -12050,6 +12070,10 @@ msgstr ""
 
 msgctxt "dlgSgSubtreeReset.btn:"
 msgid "Reset"
+msgstr ""
+
+msgctxt "dlgSgSubtreeReset.fur:"
+msgid "This will reset the sub-directory '$1' in your main history to the same state as in the subtree history at '$2'.\\n\\nChanges in the sub-directory which are only present in your main history commits will be lost. Only use this operation after your changes have been merged into the subtree history!"
 msgstr ""
 
 # FIXME: 'master' should be a variable like '$2'
