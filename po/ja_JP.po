@@ -3458,7 +3458,7 @@ msgctxt "dlgSgClone.chk:"
 msgid "Map SVN trunk, tags and branches to Git"
 msgstr "SVNのトランク、タグ、ブランチをGitにマップする"
 
-msgctxt "dlgSgClone.chk\"Skip large files \\(\\\"partial clone\\\"\\)\":"
+msgctxt "dlgSgClone.chk:"
 msgid "Skip large files \\(\"partial clone\"\\)"
 msgstr "大きなファイルをスキップする \\(\"partial clone\"\\)"
 
@@ -3812,7 +3812,7 @@ msgctxt "dlgSgCommit.rbt:"
 msgid "Merge commit \\(multiple parents\\)"
 msgstr "マージ コミット \\(複数の親\\)"
 
-msgctxt "dlgSgCommit.rbt\"Simple commit \\(one parent, \\\"squash\\\"\\)\":"
+msgctxt "dlgSgCommit.rbt:"
 msgid "Simple commit \\(one parent, \"squash\"\\)"
 msgstr "シンプルなコミット \\(一つの親 、\"スカッシュ\" \\)"
 
@@ -4475,6 +4475,22 @@ msgstr "変更は表示されませんが、ファイルの比較を開きます
 msgctxt "dlgSgFileCompareNoChanges.tle:"
 msgid "File Compare"
 msgstr "ファイルの比較"
+
+msgctxt "dlgSgFileLogFollowCopiesConfirmation.btn:"
+msgid "Rerun"
+msgstr "再実行"
+
+msgctxt "dlgSgFileLogFollowCopiesConfirmation.fur:"
+msgid "For the initial commit\\(s\\) where the file was added, SmartGit will try to find a similar pre-existing file. If it finds one, it will continue the Log for that file as the source from which it might have been copied.\\n\\nTo enable this feature by default, set the Low-Level Property `log.file.followCopies` in the Preferences."
+msgstr "ファイルが追加された最初のコミットで、SmartGitは類似する既存のファイルを検索します。見つかった場合、そのファイルをコピー元としてログを続行します。\\n\\nこの機能をデフォルトで有効にするには、設定の低レベルプロパティで `log.file.followCopies` を設定してください。"
+
+msgctxt "dlgSgFileLogFollowCopiesConfirmation.hdl:"
+msgid "Do you want to re-run the Log with copy-detection enabled?"
+msgstr "コピー検出を有効にしてログを再実行しますか？"
+
+msgctxt "dlgSgFileLogFollowCopiesConfirmation.tle:"
+msgid "Follow Copies"
+msgstr "コピーを追跡"
 
 msgctxt "dlgSgFindObject.edt:"
 msgid "Repository Path, Commit ID or Ref"
@@ -11527,8 +11543,16 @@ msgid "Pull"
 msgstr "プル"
 
 msgctxt "dlgSgStashOnDemandConfirmation.tle:"
+msgid "Reorder Commits"
+msgstr "コミットの並べ替え"
+
+msgctxt "dlgSgStashOnDemandConfirmation.tle:"
 msgid "Reset"
 msgstr "リセット"
+
+msgctxt "dlgSgStashOnDemandConfirmation.tle:"
+msgid "Squash Commits"
+msgstr "コミットのスカッシュ"
 
 msgctxt "dlgSgStashOnDemandDiscardConfirmation.btn:"
 msgid "Discard"
@@ -11773,6 +11797,14 @@ msgctxt "dlgSgSubmoduleInitAll.tle:"
 msgid "Initialize Submodule"
 msgstr "サブモジュールを初期化"
 
+msgctxt "dlgSgSubmoduleInitAllConfigured.fur:"
+msgid "You may now pull individual submodules or on the root directory to clone the configured repositories."
+msgstr "個々のサブモジュールまたはルートディレクトリでプルして、設定されたリポジトリをクローンできます。"
+
+msgctxt "dlgSgSubmoduleInitAllConfigured.hdl:"
+msgid "Submodules have been configured."
+msgstr "サブモジュールが設定されました。"
+
 msgctxt "dlgSgSubmoduleInitGit.btn:"
 msgid "Initialize && Pull"
 msgstr "初期化してプル"
@@ -11942,12 +11974,40 @@ msgid "Repository URL"
 msgstr "リポジトリ URL"
 
 msgctxt "dlgSgSubtreeAdd.err:"
+msgid "A local branch with this name already exists. Use a different name."
+msgstr "この名前のローカルブランチは既に存在します。別の名前を使用してください。"
+
+msgctxt "dlgSgSubtreeAdd.err:"
+msgid "Consecutive dots are not allowed."
+msgstr "連続するドットは使用できません。"
+
+msgctxt "dlgSgSubtreeAdd.err:"
+msgid "Consecutive slashes are not allowed."
+msgstr "連続するスラッシュは使用できません。"
+
+msgctxt "dlgSgSubtreeAdd.err:"
 msgid "Directory '$1' already exists."
 msgstr "ディレクトリ '$1' はすでに存在します。"
 
 msgctxt "dlgSgSubtreeAdd.err:"
+msgid "Enter the name of the local branch."
+msgstr "ローカルブランチの名前を入力してください。"
+
+msgctxt "dlgSgSubtreeAdd.err:"
 msgid "Please enter a valid relative path. The submodule will be created at this path inside the repository."
 msgstr "有効な相対パスを入力してください。このパス内にサブモジュールがリポジトリ内に作成されます。"
+
+msgctxt "dlgSgSubtreeAdd.err:"
+msgid "Please select a valid branch."
+msgstr "有効なブランチを選択してください。"
+
+msgctxt "dlgSgSubtreeAdd.err:"
+msgid "The name must not contain control characters, space, ~, ^, :, ?, \\*, \\[, < or >."
+msgstr "名前に制御文字、スペース、~、^、:、?、\\*、\\[、< または > は使用できません。"
+
+msgctxt "dlgSgSubtreeAdd.err:"
+msgid "The name must not end with a slash or dot."
+msgstr "名前の末尾にスラッシュやドットは使用できません。"
 
 msgctxt "dlgSgSubtreeAdd.hdl:"
 msgid "Path"
@@ -11999,6 +12059,94 @@ msgstr "リモートリポジトリ"
 msgctxt "dlgSgSubtreeAdd.tle:"
 msgid "Add Subtree"
 msgstr "サブツリーを追加"
+
+msgctxt "dlgSgSubtreeAddSuccess.fur:"
+msgid "Subtree operations are now available in \\*Branches\\* and \\*Graph\\* view, for \\*$1\\* and refs belonging to the \\*$2\\* remote."
+msgstr "\\*$1\\* および \\*$2\\* リモートに属するリファレンスに対して、\\*ブランチ\\* および \\*グラフ\\* ビューでサブツリー操作が利用可能になりました。"
+
+msgctxt "dlgSgSubtreeAddSuccess.fur:"
+msgid "Subtree operations are now available in \\*Branches\\* and \\*Graph\\* view, for refs belonging to the \\*$1\\* remote."
+msgstr "\\*$1\\* リモートに属するリファレンスに対して、\\*ブランチ\\* および \\*グラフ\\* ビューでサブツリー操作が利用可能になりました。"
+
+msgctxt "dlgSgSubtreeAddSuccess.hdl:"
+msgid "Subtree '$1' has been successfully added."
+msgstr "サブツリー '$1' が正常に追加されました。"
+
+msgctxt "dlgSgSubtreeMergeWithPrefix.btn:"
+msgid "Merge"
+msgstr "マージ"
+
+msgctxt "dlgSgSubtreeMergeWithPrefix.fur:"
+msgid "Changes from '$1' will be merged into sub-directory '$2'."
+msgstr "'$1' からの変更がサブディレクトリ '$2' にマージされます。"
+
+msgctxt "dlgSgSubtreeMergeWithPrefix.hdl:"
+msgid "Do you want to merge subtree '$1'?"
+msgstr "サブツリー '$1' をマージしますか？"
+
+msgctxt "dlgSgSubtreePush.chk:"
+msgid "Annotate generated history with prefix"
+msgstr "生成された履歴にプレフィックスを付加"
+
+msgctxt "dlgSgSubtreePush.chk:"
+msgid "Rejoin generated history \\(for more efficient future splits\\)"
+msgstr "生成された履歴を再結合 \\(将来の分割を効率化\\)"
+
+msgctxt "dlgSgSubtreePush.edt:"
+msgid "Prefix"
+msgstr "プレフィックス"
+
+msgctxt "dlgSgSubtreePush.hdl:"
+msgid "Do you want to push back subtree '$1'?"
+msgstr "サブツリー '$1' をプッシュバックしますか？"
+
+msgctxt "dlgSgSubtreePush.inf:"
+msgid "HEAD changes from sub-directory '$1' will be rewritten onto '$2' and pushed back."
+msgstr "サブディレクトリ '$1' からのHEADの変更が '$2' に書き換えられ、プッシュバックされます。"
+
+msgctxt "dlgSgSubtreeReset.btn:"
+msgid "Reset"
+msgstr "リセット"
+
+msgctxt "dlgSgSubtreeReset.fur:"
+msgid "This will reset the sub-directory '$1' in your main history to the same state as in the subtree history at '$2'.\\n\\nChanges in the sub-directory which are only present in your main history commits will be lost. Only use this operation after your changes have been merged into the subtree history!"
+msgstr "これにより、メイン履歴のサブディレクトリ '$1' が、サブツリー履歴の '$2' と同じ状態にリセットされます。\\n\\nメイン履歴のコミットにのみ存在するサブディレクトリの変更は失われます。この操作は、変更がサブツリー履歴にマージされた後にのみ使用してください！"
+
+msgctxt "dlgSgSubtreeReset.fur:"
+msgid "This will reset the sub-directory '$1' in your main history to the same state as in the subtree history at 'master'.\\n\\nChanges in the sub-directory which are only present in your main history commits will be lost. Only use this operation after your changes have been merged into the subtree history!"
+msgstr "これにより、メイン履歴のサブディレクトリ '$1' が、サブツリー履歴の 'master' と同じ状態にリセットされます。\\n\\nメイン履歴のコミットにのみ存在するサブディレクトリの変更は失われます。この操作は、変更がサブツリー履歴にマージされた後にのみ使用してください！"
+
+msgctxt "dlgSgSubtreeReset.hdl:"
+msgid "Do you want to reset subtree '$1'?"
+msgstr "サブツリー '$1' をリセットしますか？"
+
+msgctxt "dlgSgSubtreeSplit.chk:"
+msgid "Annotate generated history with prefix"
+msgstr "生成された履歴にプレフィックスを付加"
+
+msgctxt "dlgSgSubtreeSplit.chk:"
+msgid "Rejoin generated history \\(for more efficient future splits\\)"
+msgstr "生成された履歴を再結合 \\(将来の分割を効率化\\)"
+
+msgctxt "dlgSgSubtreeSplit.edt:"
+msgid "Prefix"
+msgstr "プレフィックス"
+
+msgctxt "dlgSgSubtreeSplit.edt:"
+msgid "Subtree-Branch to update"
+msgstr "更新するサブツリーブランチ"
+
+msgctxt "dlgSgSubtreeSplit.hdl:"
+msgid "Do you want to update subtree '$1'?"
+msgstr "サブツリー '$1' を更新しますか？"
+
+msgctxt "dlgSgSubtreeSplit.inf:"
+msgid "HEAD changes from sub-directory '$1' will be rewritten onto '$2'."
+msgstr "サブディレクトリ '$1' からのHEADの変更が '$2' に書き換えられます。"
+
+msgctxt "dlgSgSubtreeSplit.lbl:"
+msgid "The selected branch pointer will be set to the HEAD of the generated history."
+msgstr "選択したブランチポインタは、生成された履歴のHEADに設定されます。"
 
 msgctxt "dlgSgSvnClientCertificate.btn:"
 msgid "Login"
@@ -12998,7 +13146,7 @@ msgctxt "ntmHostingProviderIntegrationNotYetConfigured:"
 msgid "SmartGit provides special support for $1. The integration can be configured in the Preferences."
 msgstr "SmartGit は、$1 との連携に対応しています。連携機能は「環境設定」で設定することができます。"
 
-msgctxt "ntmLcTypeProblem\"If you experience problems with garbled file names/paths containing non-US-ASCII characters, consider to set the environment variables <tt>LC_ALL</tt>, or both <tt>LC_CTYPE</tt> and <tt>LANG</tt> to a country code which ends with \\\"<tt>.UTF-8</tt>\\\".\""
+msgctxt "ntmLcTypeProblem:"
 msgid "If you experience problems with garbled file names/paths containing non-US-ASCII characters, consider to set the environment variables <tt>LC_ALL</tt>, or both <tt>LC_CTYPE</tt> and <tt>LANG</tt> to a country code which ends with \"<tt>.UTF-8</tt>\"."
 msgstr "非ASCII文字を含むファイル名やパスで文字化けが発生する場合は、環境変数 <tt>LC_ALL</tt>、あるいは <tt>LC_CTYPE</tt> と <tt>LANG</tt> の両方に、末尾が「<tt>.UTF-8</tt>」となるロケールを設定してみてください。"
 
@@ -13193,8 +13341,6 @@ msgctxt "nttSupportExpired:"
 msgid "Your support period has expired on $1."
 msgstr "$1 にサポート期間が終了しました。"
 
-# ToDo:Review
-#| msgid "Quick Poll: Native vs cross-platform look-and-feel"
 msgctxt "nttUpdateCheck:"
 msgid "Quick Poll: $1"
 msgstr "アンケート: $1"
@@ -17900,10 +18046,6 @@ msgctxt "wnd(Log|Project|Std|).tab:"
 msgid "Repositories"
 msgstr "リポジトリ"
 
-msgctxt "wnd(Log|Project|Std|).tbr\"  History  \":"
-msgid "History"
-msgstr "履歴"
-
 msgctxt "wnd(Log|Project|Std|).tbr:"
 msgid "Add Branch"
 msgstr "ブランチを追加"
@@ -17988,6 +18130,10 @@ msgstr "完了"
 msgctxt "wnd(Log|Project|Std|).tbr:"
 msgid "Git-Flow"
 msgstr "Git-Flow"
+
+msgctxt "wnd(Log|Project|Std|).tbr:"
+msgid "History"
+msgstr "履歴"
 
 msgctxt "wnd(Log|Project|Std|).tbr:"
 msgid "Ignore WS"
@@ -18359,7 +18505,6 @@ msgctxt "wnd(Log|Project|Std|).tbtSync:"
 msgid "Push local commits of the current branch and pull remote changes."
 msgstr "現在のブランチのローカルコミットをプッシュし、リモートの変更をプルします。"
 
-#, fuzzy
 msgctxt "wnd(Log|Project|Std|).tbtUnstage:"
 msgid "Remove staged changes from index."
 msgstr "インデックスからステージングされた変更を削除します。"
