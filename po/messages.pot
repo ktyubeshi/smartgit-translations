@@ -309,7 +309,6 @@ msgctxt "dlgProgress.lbl:"
 msgid "Please wait ..."
 msgstr ""
 
-# [decode] msgctxt "dlgProgress.lbl:"
 # [decode] msgid "Please wait …"
 msgctxt "dlgProgress.lbl:"
 msgid "Please wait \\u2026"
@@ -3537,7 +3536,6 @@ msgctxt "dlgSgClone.hnt:"
 msgid "Searching ..."
 msgstr ""
 
-# [decode] msgctxt "dlgSgClone.hnt"Searching …""
 # [decode] msgid "Searching …"
 msgctxt "dlgSgClone.hnt:"
 msgid "Searching \\u2026"
@@ -6763,6 +6761,11 @@ msgctxt "dlgSgOutput.chk:"
 msgid "Show automatically for failed command"
 msgstr ""
 
+# $1: Command name, $2: Return code
+msgctxt "dlgSgOutput.lbl:"
+msgid "$1 failed \\(return code $2\\)"
+msgstr ""
+
 msgctxt "dlgSgOutput.lbl:"
 msgid "Authentication using OAuth failed \\(see details below\\)"
 msgstr ""
@@ -7005,12 +7008,6 @@ msgstr ""
 
 msgctxt "dlgSgOutput.lbl:"
 msgid "Your local changes to the following files would be overwritten by checkout:\\ncould not detach HEAD"
-msgstr ""
-
-# TODO:Review
-#| msgid "stash failed \\(return code 1\\)"
-msgctxt "dlgSgOutput.lbl:"
-msgid "stash failed \\(return code $1\\)"
 msgstr ""
 
 msgctxt "dlgSgOutput.lbl:"
@@ -7521,7 +7518,6 @@ msgctxt "dlgSgPreferences.cmb:"
 msgid "Custom..."
 msgstr ""
 
-# [decode] msgctxt "dlgSgPreferences.cmb"Custom…""
 # [decode] msgid "Custom…"
 msgctxt "dlgSgPreferences.cmb:"
 msgid "Custom\\u2026"
@@ -8499,7 +8495,6 @@ msgctxt "dlgSgProviderCredentialsAutoGeneratorSelector.inf:"
 msgid "Select which account you want to use for connecting to '$1'."
 msgstr ""
 
-# Verify that there’s no issue, since the `msgctxt` does not end with “:” and contains a proper noun.
 msgctxt "dlgSgProviderCredentialsAutoGeneratorSelector.tle:"
 msgid "Select GitHub account"
 msgstr ""
@@ -11668,7 +11663,6 @@ msgctxt "dlgSgSubmoduleAdd.hnt:"
 msgid "Searching ..."
 msgstr ""
 
-# [decode] msgctxt "dlgSgSubmoduleAdd.hnt"Searching …""
 # [decode] msgid "Searching …"
 msgctxt "dlgSgSubmoduleAdd.hnt:"
 msgid "Searching \\u2026"
@@ -11974,7 +11968,6 @@ msgctxt "dlgSgSubtreeAdd.hdl:"
 msgid "Repository"
 msgstr ""
 
-# [decode] msgctxt "dlgSgSubtreeAdd.hnt"Searching …""
 # [decode] msgid "Searching …"
 msgctxt "dlgSgSubtreeAdd.hnt:"
 msgid "Searching \\u2026"
@@ -12020,14 +12013,10 @@ msgctxt "dlgSgSubtreeAddSuccess.fur:"
 msgid "Subtree operations are now available in \\*Branches\\* and \\*Graph\\* view, for \\*$1\\* and refs belonging to the \\*$2\\* remote."
 msgstr ""
 
-# FIXME: '\\*gitlab\\*' should be a variable like '$1'
-#, fuzzy
 msgctxt "dlgSgSubtreeAddSuccess.fur:"
 msgid "Subtree operations are now available in \\*Branches\\* and \\*Graph\\* view, for refs belonging to the \\*$1\\* remote."
 msgstr ""
 
-# FIXME: 'test' should be a variable like '$1'
-#, fuzzy
 msgctxt "dlgSgSubtreeAddSuccess.hdl:"
 msgid "Subtree '$1' has been successfully added."
 msgstr ""
@@ -12036,14 +12025,10 @@ msgctxt "dlgSgSubtreeMergeWithPrefix.btn:"
 msgid "Merge"
 msgstr ""
 
-# FIXME: 'master' and 'test' should be variables like '$1' and '$2'
-#, fuzzy
 msgctxt "dlgSgSubtreeMergeWithPrefix.fur:"
 msgid "Changes from '$1' will be merged into sub-directory '$2'."
 msgstr ""
 
-# FIXME: 'test' should be a variable like '$1'
-#, fuzzy
 msgctxt "dlgSgSubtreeMergeWithPrefix.hdl:"
 msgid "Do you want to merge subtree '$1'?"
 msgstr ""
@@ -12074,12 +12059,6 @@ msgstr ""
 
 msgctxt "dlgSgSubtreeReset.fur:"
 msgid "This will reset the sub-directory '$1' in your main history to the same state as in the subtree history at '$2'.\\n\\nChanges in the sub-directory which are only present in your main history commits will be lost. Only use this operation after your changes have been merged into the subtree history!"
-msgstr ""
-
-# FIXME: 'master' should be a variable like '$2'
-#, fuzzy
-msgctxt "dlgSgSubtreeReset.fur:"
-msgid "This will reset the sub-directory '$1' in your main history to the same state as in the subtree history at 'master'.\\n\\nChanges in the sub-directory which are only present in your main history commits will be lost. Only use this operation after your changes have been merged into the subtree history!"
 msgstr ""
 
 msgctxt "dlgSgSubtreeReset.hdl:"
@@ -12707,7 +12686,7 @@ msgid "You can configure one or more <b>Main Branches</b> by specifying their na
 msgstr ""
 
 msgctxt "dlgStdFeatureConfigurationSimple.hdl:"
-msgid "'master' has been configured as main branch and 'feature/' as feature-prefix."
+msgid "'$1' has been configured as main branch and '$2' as feature-prefix."
 msgstr ""
 
 msgctxt "dlgStdFeatureFinish.btn:"
@@ -12754,7 +12733,6 @@ msgctxt "dlgStdFeatureFinishFeatureEmpty.hdl:"
 msgid "Feature branch is empty."
 msgstr ""
 
-#| msgid "Branch 'main' is ahead of 'origin/main'.\\n\\nConsolidate the 'main'-branch, then invoke Integrate again."
 msgctxt "dlgStdFeatureIntegrateProgress.fur:"
 msgid "Branch '$1' is ahead of '$2'.\\n\\nConsolidate the '$3'-branch, then invoke Integrate again."
 msgstr ""
@@ -13135,7 +13113,6 @@ msgctxt "ntmRepositoryGitCleanup:"
 msgid "The repository '$1' contains a significant amount of loose or even unused 'objects'. Running a cleanup will reduce disk space and increase performance. SmartGit will try to do so, when it is idle."
 msgstr ""
 
-#| msgid "The repository 'REPOSITORY_NAME' contains many 'loose' refs which makes refreshing inefficient. Repacking the refs will improve performance."
 msgctxt "ntmRepositoryRefsReadingManyLoose:"
 msgid "The repository '$1' contains many 'loose' refs which makes refreshing inefficient. Repacking the refs will improve performance."
 msgstr ""
@@ -13156,13 +13133,9 @@ msgctxt "ntmUpdateCheckFetchVersionStart:"
 msgid "After the new version has been downloaded successfully, you will be notified again."
 msgstr ""
 
-#| msgid "SmartGit 25.1.093 needs to be restarted now for the changes to take effect."
+# $1: Software name and version
 msgctxt "ntmUpdateCheckFetchVersionSuccess:"
 msgid "$1 needs to be restarted now for the changes to take effect."
-msgstr ""
-
-msgctxt "ntmUpdateCheckFetchVersionSuccess:"
-msgid "SmartGit $1 Preview needs to be restarted now for the changes to take effect."
 msgstr ""
 
 msgctxt "ntmUpdateCheckFetchVersionSuccess:"
@@ -13303,12 +13276,6 @@ msgstr ""
 
 msgctxt "nttSupportExpired:"
 msgid "Your support period has expired on $1."
-msgstr ""
-
-# ToDo:Review
-#| msgid "Quick Poll: Native vs cross-platform look-and-feel"
-msgctxt "nttUpdateCheck:"
-msgid "Quick Poll: $1"
 msgstr ""
 
 msgctxt "nttUpdateCheck:"
@@ -13475,7 +13442,6 @@ msgctxt "ttpBranches:"
 msgid "<b>On: </b>$1"
 msgstr ""
 
-#| msgid "<b>Outgoing</b> from branch <b>$1</b> to repository <b>$2</b> branch <b>main</b>"
 msgctxt "ttpBranches:"
 msgid "<b>Outgoing</b> from branch <b>$1</b> to repository <b>$2</b> branch <b>$3</b>"
 msgstr ""
@@ -14242,7 +14208,6 @@ msgctxt "wndDeepgit.lblBlameHeader:"
 msgid "Blame \\(in progress...\\)"
 msgstr ""
 
-# [decode] msgctxt "wndDeepgit.lblBlameHeader"Blame \(in progress…\)""
 # [decode] msgid "Blame \(in progress…\)"
 msgctxt "wndDeepgit.lblBlameHeader:"
 msgid "Blame \\(in progress\\u2026\\)"
@@ -14656,7 +14621,6 @@ msgctxt "wndDeepgit.tab:"
 msgid "Navigation \\(initializing...\\)"
 msgstr ""
 
-# [decode] msgctxt "wndDeepgit.tab"Navigation \(initializing…\)""
 # [decode] msgid "Navigation \(initializing…\)"
 msgctxt "wndDeepgit.tab:"
 msgid "Navigation \\(initializing\\u2026\\)"
@@ -15006,25 +14970,21 @@ msgctxt "wndLog.mniGitNoteAdd:"
 msgid "Add Note"
 msgstr ""
 
-# [decode] msgctxt "wndLog.tab"Graph \(Initializing Subtree-Cache…\)""
 # [decode] msgid "Graph \(Initializing Subtree-Cache…\)"
 msgctxt "wndLog.tab:"
 msgid "Graph \\(Initializing Subtree-Cache\\u2026\\)"
 msgstr ""
 
-# [decode] msgctxt "wndLog.tab"Graph \(Loading…\)""
 # [decode] msgid "Graph \(Loading…\)"
 msgctxt "wndLog.tab:"
 msgid "Graph \\(Loading\\u2026\\)"
 msgstr ""
 
-# [decode] msgctxt "wndLog.tab"Graph \(Running log…\)""
 # [decode] msgid "Graph \(Running log…\)"
 msgctxt "wndLog.tab:"
 msgid "Graph \\(Running log\\u2026\\)"
 msgstr ""
 
-# [decode] msgctxt "wndLog.tab"Graph \(Scanning WT…\)""
 # [decode] msgid "Graph \(Scanning WT…\)"
 msgctxt "wndLog.tab:"
 msgid "Graph \\(Scanning WT\\u2026\\)"
@@ -15038,7 +14998,6 @@ msgctxt "wndLog.tbt:"
 msgid "Refresh information from GitHub."
 msgstr ""
 
-#| msgid "Rewording 1 commits\\u2026"
 msgctxt "wndLog.tbtAi.commitMessageCompose:"
 msgid "Rewording $1 commits\\u2026"
 msgstr ""
@@ -15123,7 +15082,6 @@ msgctxt "wndStd.hnt:"
 msgid "Loading ..."
 msgstr ""
 
-# [decode] msgctxt "wndStd.hnt"Loading …""
 # [decode] msgid "Loading …"
 msgctxt "wndStd.hnt:"
 msgid "Loading \\u2026"
