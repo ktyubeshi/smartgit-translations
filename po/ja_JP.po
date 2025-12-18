@@ -13822,7 +13822,7 @@ msgstr "著者"
 
 msgctxt "wndAnnotate.cmb:"
 msgid "Changes Since"
-msgstr "変更日時"
+msgstr "以降の変更"
 
 msgctxt "wndAnnotate.edt:"
 msgid "By"
