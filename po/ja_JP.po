@@ -4468,7 +4468,7 @@ msgstr "次回から表示しない"
 
 msgctxt "dlgSgFileCompareNoChanges.fur:"
 msgid "Both file contents are byte-wise equal.\\nTo see the file contents anyway, click 'Open'."
-msgstr "ファイルの内容を確認するには、「開く」をクリックしてください。"
+msgstr "ファイルの内容はバイトレベルで一致しています。\\nそれでも表示するには「開く」をクリックしてください。"
 
 msgctxt "dlgSgFileCompareNoChanges.hdl:"
 msgid "Open the file compare though no changes will be shown?"
