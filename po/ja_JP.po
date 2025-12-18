@@ -10427,10 +10427,9 @@ msgctxt "dlgSgResolve.rbt:"
 msgid "Set to $1 \\(\"theirs\", $2\\)"
 msgstr "Set to $1 \\(\"theirs\", $2\\)"
 
-#, fuzzy
 msgctxt "dlgSgResolve.rbt:"
 msgid "Set to rebase target \\(\"theirs\", $1\\)"
-msgstr "Set to rebase target \\(\"theirs\", $1\\)"
+msgstr "リベースターゲットに設定 \\(\"theirs\", $1\\)"
 
 #, fuzzy
 msgctxt "dlgSgResolve.rbt:"
