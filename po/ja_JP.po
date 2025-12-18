@@ -8605,7 +8605,7 @@ msgstr "マージリクエストを作成"
 
 msgctxt "dlgSgProviderPullRequestDropConfirmMr.btn:"
 msgid "Drop"
-msgstr "削除"
+msgstr "破棄"
 
 msgctxt "dlgSgProviderPullRequestDropConfirmMr.fur:"
 msgid "The merge request itself will not be deleted on the server."
@@ -8613,15 +8613,15 @@ msgstr "マージリクエスト自体はサーバー上で削除されません
 
 msgctxt "dlgSgProviderPullRequestDropConfirmMr.hdl:"
 msgid "Do you really want to drop the local commits of merge request $1?"
-msgstr "本当にマージリクエスト$1のローカルコミットを削除しますか?"
+msgstr "本当にマージリクエスト$1のローカルコミットを破棄しますか?"
 
 msgctxt "dlgSgProviderPullRequestDropConfirmMr.tle:"
 msgid "Drop Merge Request"
-msgstr "マージ リクエストの削除"
+msgstr "マージリクエストの破棄"
 
 msgctxt "dlgSgProviderPullRequestDropConfirmPr.btn:"
 msgid "Drop"
-msgstr "削除"
+msgstr "破棄"
 
 msgctxt "dlgSgProviderPullRequestDropConfirmPr.fur:"
 msgid "The pull request itself will not be deleted on the server."
@@ -8629,11 +8629,11 @@ msgstr "プルリクエスト自体はサーバー上で削除されることは
 
 msgctxt "dlgSgProviderPullRequestDropConfirmPr.hdl:"
 msgid "Do you want to drop the local commits of pull request $1?"
-msgstr "プルリクエスト $1 のローカルコミットを本当に削除しますか?"
+msgstr "プルリクエスト $1 のローカルコミットを本当に破棄しますか?"
 
 msgctxt "dlgSgProviderPullRequestDropConfirmPr.tle:"
 msgid "Drop Pull Request"
-msgstr "プルリクエストの削除"
+msgstr "プルリクエストの破棄"
 
 msgctxt "dlgSgProviderPullRequestRetractMr.btn:"
 msgid "Retract"
