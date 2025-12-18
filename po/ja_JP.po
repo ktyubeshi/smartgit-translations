@@ -6138,6 +6138,8 @@ msgctxt "dlgSgIgnoreDirectoryConfirm.cmb:"
 msgid ".gitignore in repository root directory"
 msgstr "リポジトリのルートディレクトリの .gitignore"
 
+# どこにある .gitignore ファイルを使うかを選択するためのコンボボックスのラベルです。
+# ここでは「ファイルを無視」のような翻訳は不適切です。
 msgctxt "dlgSgIgnoreDirectoryConfirm.edt:"
 msgid "Ignore File"
 msgstr "Ignoreファイル"
