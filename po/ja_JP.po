@@ -701,7 +701,7 @@ msgstr "改行コードを修正"
 
 msgctxt "dlgScAboutUpdateInstallation.btn:"
 msgid "Upgrade Installation"
-msgstr "アップグレードのインストール"
+msgstr "アップグレードをインストール"
 
 msgctxt "dlgScAboutUpdateInstallation.fur:"
 msgid "This will take a few moments and has to restart SmartGit."
