@@ -76,7 +76,7 @@ Anaconda などを使用した環境での検証はしていません。
     自動的にvenv による仮想環境の作成、venvのアクティベーション、依存関係ライブラリのインストールなどが行われます。
     その後、venvをアクティーベション済みのコマンドプロンプトが開き、ユーザが任意のスクリプトを実行できるようになります。
     ```
-    <Repository_root>/src/setup_venv.bat
+    <Repository_root>/tools/sgpo/src/setup_venv.bat
     ```
     依存関係のライブラリは `requirements.txt` に記述されたものがインストールされます。
 
