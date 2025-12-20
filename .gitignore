@@ -11,3 +11,4 @@
 **/*.egg-info/
 **/__pycache__/
 **/*.py[cod]
+tools/**/site/

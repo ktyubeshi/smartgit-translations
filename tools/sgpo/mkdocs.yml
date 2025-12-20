@@ -1,0 +1,17 @@
+site_name: sgpo
+theme:
+  name: material
+
+plugins:
+  - search
+  - mkdocstrings:
+      handlers:
+        python:
+          options:
+            show_source: false
+            docstring_style: google   # numpyでも可
+            show_signature_annotations: true
+
+nav:
+  - Home: index.md
+  - API: api.md
