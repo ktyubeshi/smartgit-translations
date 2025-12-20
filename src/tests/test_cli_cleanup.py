@@ -1,7 +1,7 @@
 import unittest
 
 import sgpo
-from sgpo.cli import _cleanup_obsolete_empty_msgstr
+from sgpo.actions import _cleanup_obsolete_empty_msgstr
 
 
 TEST_PO_CONTENT = """msgid ""
