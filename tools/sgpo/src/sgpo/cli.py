@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import argparse
+import subprocess
 import sys
 import re
 import textwrap
@@ -480,7 +481,149 @@ def _prompt_version_suffix(repo: str, default: str) -> str | None:
     return _prompt_required_text("Enter version suffix (e.g. 25_1):", default=default)
 
 
-def _interactive_config(repo: str, version: str, config_base_dir: Path) -> tuple[str, str]:
+def _discover_repo_root(start: Path) -> Path | None:
+    start_dir = start.resolve() if start.is_dir() else start.resolve().parent
+
+    for parent in [start_dir] + list(start_dir.parents):
+        if (parent / ".git").exists():
+            return parent
+
+    for parent in [start_dir] + list(start_dir.parents):
+        if (parent / "po").is_dir():
+            return parent
+
+    return None
+
+
+def _run_git(args: list[str], cwd: Path) -> str | None:
+    try:
+        proc = subprocess.run(
+            ["git", *args],
+            cwd=str(cwd),
+            check=True,
+            stdout=subprocess.PIPE,
+            stderr=subprocess.PIPE,
+            text=True,
+            timeout=5,
+        )
+    except (OSError, subprocess.CalledProcessError, subprocess.TimeoutExpired):
+        return None
+    return proc.stdout
+
+
+def _git_toplevel(start: Path) -> Path | None:
+    start_dir = start if start.is_dir() else start.parent
+    out = _run_git(["rev-parse", "--show-toplevel"], cwd=start_dir)
+    if not out:
+        return None
+    line = out.splitlines()[0].strip() if out.splitlines() else ""
+    if not line:
+        return None
+    return Path(line).expanduser().resolve()
+
+
+def _git_worktrees(repo_dir: Path) -> list[tuple[Path, str | None]]:
+    out = _run_git(["worktree", "list", "--porcelain"], cwd=repo_dir)
+    if not out:
+        return []
+
+    worktrees: list[tuple[Path, str | None]] = []
+    current_path: Path | None = None
+    current_branch: str | None = None
+
+    for raw in out.splitlines():
+        line = raw.strip()
+        if line.startswith("worktree "):
+            if current_path is not None:
+                worktrees.append((current_path, current_branch))
+            current_path = Path(line[len("worktree ") :].strip()).expanduser()
+            current_branch = None
+            continue
+
+        if line.startswith("branch "):
+            ref = line[len("branch ") :].strip()
+            current_branch = ref.removeprefix("refs/heads/")
+            continue
+
+        if line == "detached":
+            current_branch = "detached"
+            continue
+
+    if current_path is not None:
+        worktrees.append((current_path, current_branch))
+
+    return [(path.resolve(), branch) for path, branch in worktrees]
+
+
+def _repo_root_choice_sections(repo: str, config_base_dir: Path) -> list[tuple[str, list[tuple[str, Path]]]]:
+    """Return repo root candidates grouped into labeled sections for selection."""
+
+    tool_cwd = Path.cwd().resolve()
+    session_repo = Path(repo).expanduser()
+    if not session_repo.is_absolute():
+        session_repo = (tool_cwd / session_repo).resolve()
+    config_base_dir = config_base_dir.expanduser()
+    if not config_base_dir.is_absolute():
+        config_base_dir = (tool_cwd / config_base_dir).resolve()
+    else:
+        config_base_dir = config_base_dir.resolve()
+
+    sections: dict[str, list[tuple[str, Path]]] = {}
+    seen: set[str] = set()
+
+    def _add(section: str, label: str, path: Path) -> None:
+        resolved = path.expanduser()
+        if not resolved.is_absolute():
+            resolved = (tool_cwd / resolved).resolve()
+        else:
+            resolved = resolved.resolve()
+        key = str(resolved)
+        if key in seen:
+            return
+        seen.add(key)
+        sections.setdefault(section, []).append((label, resolved))
+
+    _add("Execution", "Tool working directory (cwd)", tool_cwd)
+    _add("Execution", "Current session repo root", session_repo)
+    _add("Execution", "Config base dir", config_base_dir)
+
+    config_repo, _config_version = _load_config(config_base_dir)
+    if config_repo:
+        _add("Config", f"repo_root from {CONFIG_FILENAME}", Path(config_repo))
+
+    discovered = _discover_repo_root(tool_cwd)
+    if discovered:
+        _add("Discovery", "Parent search (.git / po) from cwd", discovered)
+
+    git_root_cwd = _git_toplevel(tool_cwd)
+    if git_root_cwd:
+        _add("Git", "Git top-level from cwd", git_root_cwd)
+
+    git_root_session = _git_toplevel(session_repo)
+    if git_root_session:
+        _add("Git", "Git top-level from session repo", git_root_session)
+
+    worktree_base = git_root_session or git_root_cwd
+    if worktree_base:
+        for path, branch in _git_worktrees(worktree_base):
+            suffix = f" ({branch})" if branch else ""
+            _add("Git worktrees", f"Worktree{suffix}", path)
+
+    for props_path in _find_smartgit_properties():
+        try:
+            props = _read_properties(props_path)
+        except Exception:
+            continue
+        repo_from_props = _derive_repo_from_properties(props)
+        if not repo_from_props:
+            continue
+        ver_hint = _derive_version_from_properties_path(props_path) or "unknown"
+        _add("SmartGit", f"From {props_path} (ver: {ver_hint})", Path(repo_from_props))
+
+    return [(name, items) for name, items in sections.items() if items]
+
+
+def _interactive_config(repo: str, version: str, config_base_dir: Path) -> tuple[str, str, Path]:
     while True:
         questionary.print("")
         questionary.print("=== Config ===", style="bold")
@@ -492,7 +635,7 @@ def _interactive_config(repo: str, version: str, config_base_dir: Path) -> tuple
                 questionary.Choice(title="Show current settings", value="show"),
                 questionary.Choice(title=f"Write {CONFIG_FILENAME} from current settings", value="write"),
                 questionary.Choice(title=f"Reload settings from {CONFIG_FILENAME}", value="reload"),
-                questionary.Choice(title="Set repo root (session)", value="set_repo"),
+                questionary.Choice(title="Set working directory (repo root)", value="set_repo"),
                 questionary.Choice(title="Set version suffix (session)", value="set_version"),
                 questionary.Choice(title="Back", value="back"),
             ],
@@ -503,7 +646,7 @@ def _interactive_config(repo: str, version: str, config_base_dir: Path) -> tuple
         action = _enable_escape_cancel(prompt).ask(kbi_msg="")
 
         if action in (None, "back"):
-            return repo, version
+            return repo, version, config_base_dir
 
         if action == "show":
             _print_current_settings(repo, version, config_base_dir)
@@ -548,26 +691,32 @@ def _interactive_config(repo: str, version: str, config_base_dir: Path) -> tuple
             continue
 
         if action == "set_repo":
-            detected_repo = get_repository_root()
+            sections = _repo_root_choice_sections(repo, config_base_dir)
+            choices: list = []
+            for section, entries in sections:
+                choices.append(questionary.Separator(f" {section}"))
+                for label, path in entries:
+                    missing = " (missing)" if not path.exists() else ""
+                    title = f"    ↳ {label}: {path}{missing}"
+                    choices.append(questionary.Choice(title=title, value=str(path)))
+
+            choices.append(questionary.Separator(" Manual"))
+            choices.append(questionary.Choice(title="    ↳ Enter custom path…", value="custom"))
+            choices.append(questionary.Choice(title="    ↳ Cancel", value=None))
+
             repo_prompt = questionary.select(
-                "Select repository root:",
-                choices=[
-                    questionary.Choice(title=f"Keep current ({Path(repo).resolve()})", value="keep"),
-                    questionary.Choice(title=f"Auto-detect ({Path(detected_repo).resolve()})", value="detect"),
-                    questionary.Choice(title="Enter custom path…", value="custom"),
-                    questionary.Choice(title="Cancel", value="cancel"),
-                ],
+                "Select working directory / repo root:",
+                choices=choices,
                 qmark="❯",
                 instruction="(Enter to confirm, Esc to cancel)",
                 style=MENU_STYLE,
+                use_shortcuts=True,
             )
-            repo_choice = _enable_escape_cancel(repo_prompt).ask(kbi_msg="")
-            if repo_choice in (None, "cancel", "keep"):
+            selection = _enable_escape_cancel(repo_prompt).ask(kbi_msg="")
+            if selection is None:
                 continue
 
-            if repo_choice == "detect":
-                repo_candidate = detected_repo
-            else:
+            if selection == "custom":
                 value = _prompt_required_text(
                     "Enter repository root path:",
                     default=str(Path(repo).resolve()),
@@ -575,23 +724,40 @@ def _interactive_config(repo: str, version: str, config_base_dir: Path) -> tuple
                 if value is None:
                     continue
                 repo_candidate = value
+            else:
+                repo_candidate = selection
 
             candidate_path = Path(repo_candidate).expanduser()
             if not candidate_path.is_absolute():
                 candidate_path = (Path.cwd() / candidate_path).resolve()
+            else:
+                candidate_path = candidate_path.resolve()
+
             if not candidate_path.exists() or not candidate_path.is_dir():
                 questionary.print("Repository root must be an existing directory.", style="bold fg:red")
                 continue
 
             repo = str(candidate_path)
+            config_base_dir = candidate_path
+
+            _cfg_repo, cfg_version = _load_config(config_base_dir)
+            version_prompt_choices: list[questionary.Choice] = [
+                questionary.Choice(title=f"Keep current ({version})", value="keep"),
+            ]
+            if cfg_version:
+                version_prompt_choices.append(
+                    questionary.Choice(title=f"Use {CONFIG_FILENAME} value ({cfg_version})", value="config")
+                )
+            version_prompt_choices.extend(
+                [
+                    questionary.Choice(title="Auto-detect from unknown./mismatch. files", value="detect"),
+                    questionary.Choice(title="Select / enter manually…", value="manual"),
+                ]
+            )
 
             version_prompt = questionary.select(
                 "Update version suffix too?",
-                choices=[
-                    questionary.Choice(title=f"Keep current ({version})", value="keep"),
-                    questionary.Choice(title="Auto-detect from unknown./mismatch. files", value="detect"),
-                    questionary.Choice(title="Select / enter manually…", value="manual"),
-                ],
+                choices=version_prompt_choices,
                 qmark="❯",
                 instruction="(Enter to confirm, Esc to keep current)",
                 style=MENU_STYLE,
@@ -599,12 +765,15 @@ def _interactive_config(repo: str, version: str, config_base_dir: Path) -> tuple
             ver_choice = _enable_escape_cancel(version_prompt).ask(kbi_msg="")
             if ver_choice == "detect":
                 version = _resolve_version(repo, None, interactive=True)
+            elif ver_choice == "config" and cfg_version:
+                version = _resolve_version(repo, cfg_version, interactive=True)
             elif ver_choice == "manual":
-                chosen = _prompt_version_suffix(repo, default=version)
+                chosen = _prompt_version_suffix(repo, default=(cfg_version or version))
                 if chosen is not None:
                     version = chosen
 
-            questionary.print("Updated session settings.", style="bold fg:green")
+            questionary.print("Updated working directory.", style="bold fg:green")
+            questionary.print(f"Config base dir: {config_base_dir}", style="fg:cyan")
             questionary.print(f"Repo root (session): {Path(repo).resolve()}", style="fg:cyan")
             questionary.print(f"Version suffix (session): {version}", style="fg:cyan")
             continue
@@ -677,7 +846,7 @@ def run_tui(repo_root: str | None, version_suffix: str | None) -> int:
         elif action == "special_sort_po":
             _interactive_special_sort(finder)
         elif action == "config":
-            repo, version = _interactive_config(repo, version, config_base_dir)
+            repo, version, config_base_dir = _interactive_config(repo, version, config_base_dir)
             finder = PoPathFinder(repository_root_dir=repo, version=version)
         elif action == "format_pot":
             _interactive_simple(_format_pot, finder)
