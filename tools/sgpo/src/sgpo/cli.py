@@ -107,17 +107,26 @@ def _find_smartgit_properties() -> list[Path]:
     ]
 
     found: list[tuple[int, Path]] = []
-    seen_paths: set[Path] = set()
+    seen_dirs: set[tuple[int, int]] = set()
+    seen_files: set[tuple[int, int]] = set()
     for idx, base in enumerate(candidates):
-        if base in seen_paths:
+        try:
+            base_stat = base.stat()
+        except OSError:
             continue
-        seen_paths.add(base)
-        if not base.exists():
+        base_id = (base_stat.st_dev, base_stat.st_ino)
+        if base_id in seen_dirs:
             continue
+        seen_dirs.add(base_id)
         for path in base.glob(f"**/{_SMARTGIT_PROP_NAME}"):
-            if path in seen_paths:
+            try:
+                path_stat = path.stat()
+            except OSError:
                 continue
-            seen_paths.add(path)
+            path_id = (path_stat.st_dev, path_stat.st_ino)
+            if path_id in seen_files:
+                continue
+            seen_files.add(path_id)
             found.append((idx, path))
 
     def _version_key(item: tuple[int, Path]) -> tuple[int, int, int, int]:
