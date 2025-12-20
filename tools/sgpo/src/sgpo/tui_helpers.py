@@ -279,6 +279,12 @@ def _menu_choices(finder: PoPathFinder) -> list:
             ],
         ),
         (
+            "Config",
+            [
+                ("Configure sgpo.toml / repo root / version", "config"),
+            ],
+        ),
+        (
             "Misc",
             [
                 ("Quit", "quit"),

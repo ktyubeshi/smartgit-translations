@@ -422,11 +422,225 @@ def _interactive_simple(action, finder: PoPathFinder) -> None:
     _run_with_feedback(lambda: action(finder))
 
 
+def _print_current_settings(repo: str, version: str, config_base_dir: Path) -> None:
+    config_path = config_base_dir / CONFIG_FILENAME
+    questionary.print("=== Current settings ===", style="bold")
+    questionary.print(f"Config base dir: {config_base_dir}", style="fg:cyan")
+    questionary.print(
+        f"Config file: {config_path} ({'present' if config_path.exists() else 'missing'})",
+        style="fg:cyan",
+    )
+    questionary.print(f"Repo root (session): {Path(repo).resolve()}", style="fg:cyan")
+    questionary.print(f"Version suffix (session): {version}", style="fg:cyan")
+
+    config_repo, config_version = _load_config(config_base_dir)
+    if config_repo or config_version:
+        questionary.print("")
+        questionary.print("Loaded from config file:", style="bold")
+        if config_repo:
+            questionary.print(f"  repo_root = {config_repo}", style="fg:cyan")
+        if config_version:
+            questionary.print(f"  version = {config_version}", style="fg:cyan")
+
+    if config_path.exists():
+        try:
+            content = config_path.read_text(encoding="utf-8").rstrip()
+        except Exception:
+            content = ""
+        if content:
+            questionary.print("")
+            questionary.print("--- sgpo.toml ---", style="bold")
+            questionary.print(content)
+
+
+def _prompt_version_suffix(repo: str, default: str) -> str | None:
+    po_dir = Path(repo) / "po"
+    candidates = _version_suffix_candidates(po_dir)
+
+    if candidates:
+        choices: list[questionary.Choice] = []
+        for ver in candidates:
+            label = f"{ver} (current)" if ver == default else ver
+            choices.append(questionary.Choice(title=label, value=ver))
+        choices.append(questionary.Choice(title="Enter custom value…", value="custom"))
+        choices.append(questionary.Choice(title="Cancel", value=None))
+
+        prompt = questionary.select(
+            "Select version suffix:",
+            choices=choices,
+            qmark="❯",
+            instruction="(Enter to confirm, Esc to cancel)",
+            style=MENU_STYLE,
+        )
+        selection = _enable_escape_cancel(prompt).ask(kbi_msg="")
+        if selection == "custom":
+            return _prompt_required_text("Enter version suffix (e.g. 25_1):", default=default)
+        return selection
+
+    return _prompt_required_text("Enter version suffix (e.g. 25_1):", default=default)
+
+
+def _interactive_config(repo: str, version: str, config_base_dir: Path) -> tuple[str, str]:
+    while True:
+        questionary.print("")
+        questionary.print("=== Config ===", style="bold")
+
+        config_path = config_base_dir / CONFIG_FILENAME
+        prompt = questionary.select(
+            "Choose a config operation:",
+            choices=[
+                questionary.Choice(title="Show current settings", value="show"),
+                questionary.Choice(title=f"Write {CONFIG_FILENAME} from current settings", value="write"),
+                questionary.Choice(title=f"Reload settings from {CONFIG_FILENAME}", value="reload"),
+                questionary.Choice(title="Set repo root (session)", value="set_repo"),
+                questionary.Choice(title="Set version suffix (session)", value="set_version"),
+                questionary.Choice(title="Back", value="back"),
+            ],
+            qmark="❯",
+            instruction="(Enter to confirm, Esc to go back)",
+            style=MENU_STYLE,
+        )
+        action = _enable_escape_cancel(prompt).ask(kbi_msg="")
+
+        if action in (None, "back"):
+            return repo, version
+
+        if action == "show":
+            _print_current_settings(repo, version, config_base_dir)
+            continue
+
+        if action == "write":
+            if config_path.exists():
+                overwrite_prompt = questionary.select(
+                    f"{CONFIG_FILENAME} already exists at {config_path}. Overwrite?",
+                    choices=[
+                        questionary.Choice(title="Overwrite", value="overwrite"),
+                        questionary.Choice(title="Cancel", value="cancel"),
+                    ],
+                    qmark="❯",
+                    instruction="(Enter to confirm, Esc to cancel)",
+                    style=MENU_STYLE,
+                )
+                choice = _enable_escape_cancel(overwrite_prompt).ask(kbi_msg="")
+                if choice != "overwrite":
+                    questionary.print("Canceled.", style="bold fg:yellow")
+                    continue
+
+            _write_config(config_path, str(Path(repo).resolve()), version)
+            questionary.print(f"Wrote {CONFIG_FILENAME} to {config_path}", style="bold fg:green")
+            continue
+
+        if action == "reload":
+            config_repo, config_version = _load_config(config_base_dir)
+            if not config_repo and not config_version:
+                questionary.print(
+                    f"No {CONFIG_FILENAME} found (or it could not be read).",
+                    style="bold fg:yellow",
+                )
+                continue
+
+            if config_repo:
+                repo = config_repo
+            version = _resolve_version(repo, config_version, interactive=True)
+            questionary.print("Reloaded settings.", style="bold fg:green")
+            questionary.print(f"Repo root (session): {Path(repo).resolve()}", style="fg:cyan")
+            questionary.print(f"Version suffix (session): {version}", style="fg:cyan")
+            continue
+
+        if action == "set_repo":
+            detected_repo = get_repository_root()
+            repo_prompt = questionary.select(
+                "Select repository root:",
+                choices=[
+                    questionary.Choice(title=f"Keep current ({Path(repo).resolve()})", value="keep"),
+                    questionary.Choice(title=f"Auto-detect ({Path(detected_repo).resolve()})", value="detect"),
+                    questionary.Choice(title="Enter custom path…", value="custom"),
+                    questionary.Choice(title="Cancel", value="cancel"),
+                ],
+                qmark="❯",
+                instruction="(Enter to confirm, Esc to cancel)",
+                style=MENU_STYLE,
+            )
+            repo_choice = _enable_escape_cancel(repo_prompt).ask(kbi_msg="")
+            if repo_choice in (None, "cancel", "keep"):
+                continue
+
+            if repo_choice == "detect":
+                repo_candidate = detected_repo
+            else:
+                value = _prompt_required_text(
+                    "Enter repository root path:",
+                    default=str(Path(repo).resolve()),
+                )
+                if value is None:
+                    continue
+                repo_candidate = value
+
+            candidate_path = Path(repo_candidate).expanduser()
+            if not candidate_path.is_absolute():
+                candidate_path = (Path.cwd() / candidate_path).resolve()
+            if not candidate_path.exists() or not candidate_path.is_dir():
+                questionary.print("Repository root must be an existing directory.", style="bold fg:red")
+                continue
+
+            repo = str(candidate_path)
+
+            version_prompt = questionary.select(
+                "Update version suffix too?",
+                choices=[
+                    questionary.Choice(title=f"Keep current ({version})", value="keep"),
+                    questionary.Choice(title="Auto-detect from unknown./mismatch. files", value="detect"),
+                    questionary.Choice(title="Select / enter manually…", value="manual"),
+                ],
+                qmark="❯",
+                instruction="(Enter to confirm, Esc to keep current)",
+                style=MENU_STYLE,
+            )
+            ver_choice = _enable_escape_cancel(version_prompt).ask(kbi_msg="")
+            if ver_choice == "detect":
+                version = _resolve_version(repo, None, interactive=True)
+            elif ver_choice == "manual":
+                chosen = _prompt_version_suffix(repo, default=version)
+                if chosen is not None:
+                    version = chosen
+
+            questionary.print("Updated session settings.", style="bold fg:green")
+            questionary.print(f"Repo root (session): {Path(repo).resolve()}", style="fg:cyan")
+            questionary.print(f"Version suffix (session): {version}", style="fg:cyan")
+            continue
+
+        if action == "set_version":
+            choice_prompt = questionary.select(
+                "Select version suffix:",
+                choices=[
+                    questionary.Choice(title="Auto-detect from unknown./mismatch. files", value="detect"),
+                    questionary.Choice(title="Select / enter manually…", value="manual"),
+                    questionary.Choice(title="Cancel", value="cancel"),
+                ],
+                qmark="❯",
+                instruction="(Enter to confirm, Esc to cancel)",
+                style=MENU_STYLE,
+            )
+            ver_choice = _enable_escape_cancel(choice_prompt).ask(kbi_msg="")
+            if ver_choice in (None, "cancel"):
+                continue
+            if ver_choice == "detect":
+                version = _resolve_version(repo, None, interactive=True)
+            else:
+                chosen = _prompt_version_suffix(repo, default=version)
+                if chosen is None:
+                    continue
+                version = chosen
+            questionary.print(f"Version suffix updated: {version}", style="bold fg:green")
+            continue
+
+
 def run_tui(repo_root: str | None, version_suffix: str | None) -> int:
     _patch_shortcut_rendering()
 
     repo_arg = repo_root or ""
-    config_repo, config_version = _load_config(Path(repo_arg or ".").resolve())
+    config_base_dir = Path(repo_arg or ".").resolve()
+    config_repo, config_version = _load_config(config_base_dir)
     repo = repo_arg or config_repo or get_repository_root()
     version = _resolve_version(repo, version_suffix or config_version, interactive=True)
     finder = PoPathFinder(repository_root_dir=repo, version=version)
@@ -462,6 +676,9 @@ def run_tui(repo_root: str | None, version_suffix: str | None) -> int:
             _interactive_format(finder)
         elif action == "special_sort_po":
             _interactive_special_sort(finder)
+        elif action == "config":
+            repo, version = _interactive_config(repo, version, config_base_dir)
+            finder = PoPathFinder(repository_root_dir=repo, version=version)
         elif action == "format_pot":
             _interactive_simple(_format_pot, finder)
         elif action == "import_unknown":
