@@ -1,4 +1,5 @@
 import os
+from pathlib import Path
 
 import polib
 
@@ -37,7 +38,18 @@ def optimize_po_entry(po_entry: polib.POEntry) -> polib.POEntry:
 
     return new_po_entry
 
+
 def get_repository_root() -> str:
+    start_dir = Path(__file__).resolve().parent
+
+    for parent in [start_dir] + list(start_dir.parents):
+        if (parent / ".git").exists():
+            return str(parent)
+
+    for parent in [start_dir] + list(start_dir.parents):
+        if (parent / "po").is_dir():
+            return str(parent)
+
     return os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 def get_po_dir(base_dir: str) -> str:
