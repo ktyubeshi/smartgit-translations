@@ -1,7 +1,7 @@
 from __future__ import annotations
 
 from pathlib import Path
-from typing import Iterable
+from typing import Iterable, cast
 
 import questionary
 from questionary import Style, Choice
@@ -160,7 +160,7 @@ def _select_po_and_pot_files(finder: PoPathFinder) -> list[str] | None:
         if action in (None, "cancel"):
             return None
         if action == "all":
-            return [c.value for c in choices]
+            return [str(c.value) for c in choices]
 
         q_choices = [
             questionary.Choice(title=f"    ↳ {c.title}", value=c.value) for c in choices
@@ -175,7 +175,8 @@ def _select_po_and_pot_files(finder: PoPathFinder) -> list[str] | None:
         selected = _enable_escape_cancel(prompt).ask(kbi_msg="")
         if selected is None:
             return None
-        ordered = [c.value for c in choices if c.value in selected]
+        selected_set = set(cast(list[str], selected))
+        ordered = [str(c.value) for c in choices if c.value in selected_set]
         return ordered
 
 
