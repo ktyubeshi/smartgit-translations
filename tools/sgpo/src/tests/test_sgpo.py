@@ -1,13 +1,13 @@
 import os
 import unittest
+from pathlib import Path
 
 import sgpo
-from path_finder import get_repository_root
 from sgpo.sgpo import SgPo, Key_tuple
 
 
 def get_test_data_dir() -> str:
-    return os.path.join(get_repository_root(), "src", "tests", "data", "test_sgpo")
+    return str(Path(__file__).resolve().parent / "data" / "test_sgpo")
 
 
 def get_test_data_path(*paths: str) -> str:
