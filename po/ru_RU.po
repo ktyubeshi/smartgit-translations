@@ -16350,27 +16350,3 @@ msgstr "$1 \\[$2\\] - Журнал для $3"
 #~ msgctxt "(wndLog|wndProject).lblStatusBarMessage:"
 #~ msgid "Please wait"
 #~ msgstr "Пожалуйста, подождите..."
-
-#~ msgctxt "dlgScConflictSolverInconsistentLineEndings.tle"
-#~ msgid "\\[$1\\] - $2"
-#~ msgstr ""
-
-#~ msgctxt "dlgSgAbortRevertingConfirm.hdl"
-#~ msgid "Do you want to abort the current revert?"
-#~ msgstr ""
-
-#~ msgctxt "dlgSgCompareTwoFilesFrameMixedLineEndingsRight.tle"
-#~ msgid "\\[$1\\] - \\[$2\\] - $3"
-#~ msgstr ""
-
-#~ msgctxt "dlgSgHostingProviderAdd.inf"
-#~ msgid "Set or select the options according to your account."
-#~ msgstr ""
-
-#~ msgctxt "dlgSgProviderGenerateToken.hdl"
-#~ msgid "Generate a new API token for $1"
-#~ msgstr ""
-
-#~ msgctxt "dlgSgResetAdv.inf"
-#~ msgid "Reset the current branch (HEAD) to the selected commit and optionally update Index and working tree."
-#~ msgstr ""
