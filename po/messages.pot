@@ -730,11 +730,11 @@ msgid "The file contains mixed \\(inconsistent\\) line-endings."
 msgstr ""
 
 msgctxt "dlgScConflictSolverInconsistentLineEndings.tle:"
-msgid "\\[$1\\] - Conflict Solver"
+msgid "\\[$1\\] - $2"
 msgstr ""
 
 msgctxt "dlgScConflictSolverInconsistentLineEndings.tle:"
-msgid "\\[$1\\] - $2"
+msgid "\\[$1\\] - Conflict Solver"
 msgstr ""
 
 msgctxt "dlgScConflictSolverUnresolvedConflicts.chk:"
@@ -2017,10 +2017,6 @@ msgctxt "dlgSgAbortRebasingConfirm.tle:"
 msgid "Abort"
 msgstr ""
 
-msgctxt "dlgSgAbortRebasingConfirm.tle:"
-msgid "Abort"
-msgstr ""
-
 msgctxt "dlgSgAbortRevertingConfirm.btn:"
 msgid "Abort Revert"
 msgstr ""
@@ -2377,10 +2373,6 @@ msgctxt "dlgSgBranchDeleteLocalConfirmMultiple.hdl:"
 msgid "Do you want to delete $1 local branches?"
 msgstr ""
 
-msgctxt "dlgSgBranchDeleteLocalConfirmMultiple.hdl:"
-msgid "Do you want to delete $1 local branches?"
-msgstr ""
-
 msgctxt "dlgSgBranchDeleteLocalConfirmMultiple.tle:"
 msgid "Delete"
 msgstr ""
@@ -2417,10 +2409,6 @@ msgctxt "dlgSgBranchDeleteLocalConfirmSingle.hdl:"
 msgid "Do you want to delete the local branch '$1'?"
 msgstr ""
 
-msgctxt "dlgSgBranchDeleteLocalConfirmSingle.hdl:"
-msgid "Do you want to delete the local branch '$1'?"
-msgstr ""
-
 msgctxt "dlgSgBranchDeleteLocalConfirmSingle.tle:"
 msgid "Delete"
 msgstr ""
@@ -2445,10 +2433,6 @@ msgctxt "dlgSgBranchDeleteRemoteConfirmSingle.chk:"
 msgid "Delete from remote repository '$1'"
 msgstr ""
 
-msgctxt "dlgSgBranchDeleteRemoteConfirmSingle.chk:"
-msgid "Delete from remote repository '$1'"
-msgstr ""
-
 msgctxt "dlgSgBranchDeleteRemoteConfirmSingle.fur:"
 msgid "If you don't delete the branch from the remote repository, it may come back with the next fetch."
 msgstr ""
@@ -2459,10 +2443,6 @@ msgstr ""
 
 msgctxt "dlgSgBranchDeleteRemoteConfirmSingle.hdl:"
 msgid "Do you want to delete the remote branch '$1'?"
-msgstr ""
-
-msgctxt "dlgSgBranchDeleteRemoteConfirmSingle.hdl:"
-msgid "Do you want to delete the branch '$1'?"
 msgstr ""
 
 msgctxt "dlgSgBranchDeleteRemoteConfirmSingle.tle:"
@@ -3770,10 +3750,6 @@ msgid "Discard"
 msgstr ""
 
 msgctxt "dlgSgErrorUtilsClientException.fur:"
-msgid "Server returned HTTP response code: 400 for URL: https://gitlab.com/oauth/token"
-msgstr ""
-
-msgctxt "dlgSgErrorUtilsClientException.fur:"
 msgid "Commit '$1' was not found in repository."
 msgstr ""
 
@@ -3787,6 +3763,10 @@ msgstr ""
 
 msgctxt "dlgSgErrorUtilsClientException.fur:"
 msgid "Repository '$1' is not valid."
+msgstr ""
+
+msgctxt "dlgSgErrorUtilsClientException.fur:"
+msgid "Server returned HTTP response code: 400 for URL: https://gitlab.com/oauth/token"
 msgstr ""
 
 msgctxt "dlgSgErrorUtilsClientException.fur:"
@@ -10322,15 +10302,15 @@ msgid "What to do with the working tree or Index changes?"
 msgstr ""
 
 msgctxt "dlgSgStashOnDemandConfirmation.tle:"
-msgid "Reset"
-msgstr ""
-
-msgctxt "dlgSgStashOnDemandConfirmation.tle:"
 msgid "Checkout"
 msgstr ""
 
 msgctxt "dlgSgStashOnDemandConfirmation.tle:"
 msgid "Pull"
+msgstr ""
+
+msgctxt "dlgSgStashOnDemandConfirmation.tle:"
+msgid "Reset"
 msgstr ""
 
 msgctxt "dlgSgStashOnDemandLocalChangesCantBeReapplied.fur:"
@@ -14814,10 +14794,6 @@ msgid "Use Message for Commit"
 msgstr ""
 
 msgctxt "wnd(Log|Project|Std|).mniFlowConfigure:"
-msgid "Configure"
-msgstr ""
-
-msgctxt "wnd(Log|Project|Std|).mniFlowConfigure:"
 msgid "Configure Features"
 msgstr ""
 
@@ -15006,10 +14982,6 @@ msgid "Open from Working Tree"
 msgstr ""
 
 msgctxt "wnd(Log|Project|Std|).mniOpen:"
-msgid "Open from Working Tree"
-msgstr ""
-
-msgctxt "wnd(Log|Project|Std|).mniOpen:"
 msgid "Open"
 msgstr ""
 
@@ -15103,10 +15075,6 @@ msgstr ""
 
 msgctxt "wnd(Log|Project|Std|).mniRebaseStep:"
 msgid "Step"
-msgstr ""
-
-msgctxt "wnd(Log|Project|Std|).mniRebaseToHead:"
-msgid "Rebase to HEAD"
 msgstr ""
 
 msgctxt "wnd(Log|Project|Std|).mniRebaseToHead:"
@@ -15287,10 +15255,6 @@ msgstr ""
 
 msgctxt "wnd(Log|Project|Std|).mniReviewDumpDatabase:"
 msgid "Dump Database"
-msgstr ""
-
-msgctxt "wnd(Log|Project|Std|).mniReviewPullRequestCreate:"
-msgid "Create Pull Request"
 msgstr ""
 
 msgctxt "wnd(Log|Project|Std|).mniReviewPullRequestCreate:"
@@ -16199,10 +16163,6 @@ msgstr ""
 
 msgctxt "wnd(Log|Project|Std|).tbtRefresh:"
 msgid "Refresh the log view."
-msgstr ""
-
-msgctxt "wnd(Log|Project|Std|).tbtRemoteFetch:"
-msgid "Fetch commits from current remote repository."
 msgstr ""
 
 msgctxt "wnd(Log|Project|Std|).tbtRemoteFetch:"
