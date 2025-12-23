@@ -198,10 +198,16 @@ def _ensure_colon(po) -> int:
 
 
 def _ensure_colon_suffix_po(finder: PoPathFinder) -> Iterator[str]:
+    pot_path = finder.get_pot_file()
     po_files = finder.get_po_files(translation_file_only=True)
 
+    targets: list[str] = []
+    if pot_path:
+        targets.append(pot_path)
+    targets.extend(po_files)
+
     total = 0
-    for po_path in po_files:
+    for po_path in targets:
         po = sgpo.pofile(po_path)
         changed = _ensure_colon(po)
         if changed:
