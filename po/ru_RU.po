@@ -2008,9 +2008,9 @@ msgstr "Прервать перемещение"
 
 # Could a native Russian speaker please confirm whether the current translation of “rebasing” is reasonable here?
 # Also, please confirm that $1 correctly refers to the localized menu item for “Branch | Rebase | Rebase”.
-#| msgid "Your working tree is in 'rebasing' state. You may abort rebasing; if you just want to skip the current patch, use Branch \\| Rebase \\| Rebase instead.\\n\\nAborting will clean any local modification \\(by invoking 'git rebase --abort'\\)!"
-#| msgstr "Рабочий каталог находится в состоянии «перемещения». Вы можете прервать перемещение. Если хотите просто пропустить текущий патч, используйте Ветки\\|Переместить\\|Пропустить.\\n\\nПри отмене будут удалены любые локальные изменения \\(путем вызова 'git rebase --abort'\\)!"
+# msgstr "Рабочий каталог находится в состоянии «перемещения». Вы можете прервать перемещение. Если хотите просто пропустить текущий патч, используйте Ветки\\|Переместить\\|Пропустить.\\n\\nПри отмене будут удалены любые локальные изменения \\(путем вызова 'git rebase --abort'\\)!"
 #, fuzzy
+#| msgid "Your working tree is in 'rebasing' state. You may abort rebasing; if you just want to skip the current patch, use Branch \\| Rebase \\| Rebase instead.\\n\\nAborting will clean any local modification \\(by invoking 'git rebase --abort'\\)!"
 msgctxt "dlgSgAbortRebasingConfirm.fur"
 msgid "Your working tree is in 'rebasing' state. You may abort rebasing; if you just want to skip the current patch, use $1 instead.\\n\\nAborting will clean any local modification \\(by invoking 'git rebase --abort'\\)!"
 msgstr "Рабочий каталог находится в состоянии «перемещения». Вы можете прервать перемещение. Если хотите просто пропустить текущий патч, используйте $1.\\n\\nПри отмене будут удалены любые локальные изменения \\(путем вызова 'git rebase --abort'\\)!"
@@ -6935,7 +6935,7 @@ msgctxt "dlgSgPreferences.lbl:"
 msgid "Changing these low-level properties can be harmful to the stability or performance of SmartGit. You should only continue if you are sure of what you are doing. Changed properties with a trailing \\* need a restart to be applied."
 msgstr "Изменение низкоуровневых параметров может привести к нарушению стабильности или производительности Smartgit. Продолжайте, только если вы уверены в том, что делаете. Измененные свойства со знаком \\* в конце требуют перезапуска для применения."
 
-msgctxt "dlgSgPreferences.lbl\"Checkout \\(Switch branch\\)\""
+msgctxt "dlgSgPreferences.lbl:"
 msgid "Checkout \\(Switch branch\\)"
 msgstr "Переключение \\(Смена ветки\\)"
 
@@ -7183,7 +7183,7 @@ msgctxt "dlgSgPreferences.mni:"
 msgid "GitHub"
 msgstr "GitHub"
 
-msgctxt "dlgSgPreferences.mni\"GitLab \\(Self Hosted\\)\""
+msgctxt "dlgSgPreferences.mni:"
 msgid "GitLab \\(Self Hosted\\)"
 msgstr ""
 
