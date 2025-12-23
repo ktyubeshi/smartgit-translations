@@ -24,6 +24,7 @@ from sgpo.actions import (
     _import_pot,
     _import_unknown,
     _propagate_ellipsis_translation_po,
+    _remove_duplicate_entries_all,
     _special_sort_locales,
     _strip_msgctxt_placeholders_po,
     _extract_added_entries,
@@ -866,6 +867,8 @@ def run_tui(repo_root: str | None, version_suffix: str | None) -> int:
             _interactive_simple(_propagate_ellipsis_translation_po, finder)
         elif action == "cleanup_obsolete_empty_msgstr":
             _interactive_simple(_cleanup_obsolete_empty_msgstr_po, finder)
+        elif action == "remove_duplicate_entries":
+            _interactive_simple(_remove_duplicate_entries_all, finder)
         elif action == "export_placeholder_msgids":
             _interactive_placeholder_msgids(finder)
         elif action == "extract_added_entries":

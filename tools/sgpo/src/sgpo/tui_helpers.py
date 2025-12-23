@@ -264,6 +264,7 @@ def _menu_choices(finder: PoPathFinder) -> list:
             "Cleanup",
             [
                 ("Remove obsolete entries with empty msgstr", "cleanup_obsolete_empty_msgstr"),
+                ("Remove duplicate entries", "remove_duplicate_entries"),
             ],
         ),
         (

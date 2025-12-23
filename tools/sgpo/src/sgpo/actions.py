@@ -358,6 +358,107 @@ def _cleanup_obsolete_empty_msgstr_po(finder: PoPathFinder) -> Iterator[str]:
     yield f"Total removed: {total}"
 
 
+def _mark_fuzzy(entry) -> bool:
+    flags = list(getattr(entry, "flags", []) or [])
+    if "fuzzy" in flags:
+        return False
+    flags.append("fuzzy")
+    entry.flags = flags
+    return True
+
+
+def _remove_duplicate_entries_pot(po) -> int:
+    removed = 0
+    kept_entries = []
+    seen: set[tuple[str, str]] = set()
+    for entry in po:
+        if getattr(entry, "obsolete", False):
+            kept_entries.append(entry)
+            continue
+        if entry.msgid == "":
+            kept_entries.append(entry)
+            continue
+        msgctxt = getattr(entry, "msgctxt", "") or ""
+        key = (msgctxt, entry.msgid)
+        if key in seen:
+            removed += 1
+            continue
+        seen.add(key)
+        kept_entries.append(entry)
+    if removed:
+        po._po[:] = kept_entries  # type: ignore[attr-defined]  # noqa: SLF001
+    return removed
+
+
+def _remove_duplicate_entries_po(po) -> tuple[int, int]:
+    removed = 0
+    fuzzy_marked = 0
+    keep_entries: set[object] = set()
+    groups: dict[tuple[str, str], list] = {}
+    original_entries = list(po)
+
+    for entry in original_entries:
+        if getattr(entry, "obsolete", False):
+            keep_entries.add(entry)
+            continue
+        if entry.msgid == "":
+            keep_entries.add(entry)
+            continue
+        msgctxt = getattr(entry, "msgctxt", "") or ""
+        key = (msgctxt, entry.msgid)
+        groups.setdefault(key, []).append(entry)
+
+    for entries in groups.values():
+        if len(entries) == 1:
+            keep_entries.add(entries[0])
+            continue
+
+        translated = [entry for entry in entries if _is_translated(entry)]
+        if translated:
+            for entry in translated:
+                keep_entries.add(entry)
+            removed += len(entries) - len(translated)
+            if len(translated) > 1:
+                for entry in translated:
+                    if _mark_fuzzy(entry):
+                        fuzzy_marked += 1
+            continue
+
+        keep_entries.add(entries[0])
+        removed += len(entries) - 1
+
+    if removed:
+        po._po[:] = [entry for entry in original_entries if entry in keep_entries]  # type: ignore[attr-defined]  # noqa: SLF001
+    return removed, fuzzy_marked
+
+
+def _remove_duplicate_entries_all(finder: PoPathFinder) -> Iterator[str]:
+    pot_path = finder.get_pot_file()
+    po_files = finder.get_po_files(translation_file_only=True)
+
+    total_removed = 0
+    total_fuzzy = 0
+
+    if pot_path:
+        pot = sgpo.pofile(pot_path)
+        removed = _remove_duplicate_entries_pot(pot)
+        if removed:
+            pot.save(pot_path)
+        yield f"{pot_path}: removed {removed} duplicate entries."
+        total_removed += removed
+
+    for po_path in po_files:
+        po = sgpo.pofile(po_path)
+        removed, fuzzy_marked = _remove_duplicate_entries_po(po)
+        if removed or fuzzy_marked:
+            po.save(po_path)
+        yield f"{po_path}: removed {removed} duplicate entries, marked {fuzzy_marked} fuzzy."
+        total_removed += removed
+        total_fuzzy += fuzzy_marked
+
+    yield f"Total removed: {total_removed}, total fuzzy marked: {total_fuzzy}"
+
+
 def _placeholder_entries(po) -> list:
     entries: list = []
     for entry in po:
