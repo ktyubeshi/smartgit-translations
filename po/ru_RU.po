@@ -731,12 +731,12 @@ msgid "The file contains mixed \\(inconsistent\\) line-endings."
 msgstr ""
 
 msgctxt "dlgScConflictSolverInconsistentLineEndings.tle:"
-msgid "\\[$1\\] - Conflict Solver"
-msgstr "\\[$1\\] - Решатель конфликтов"
-
-msgctxt "dlgScConflictSolverInconsistentLineEndings.tle:"
 msgid "\\[$1\\] - $2"
 msgstr ""
+
+msgctxt "dlgScConflictSolverInconsistentLineEndings.tle:"
+msgid "\\[$1\\] - Conflict Solver"
+msgstr "\\[$1\\] - Решатель конфликтов"
 
 msgctxt "dlgScConflictSolverUnresolvedConflicts.chk:"
 msgid "Don't warn me again"
@@ -2021,10 +2021,6 @@ msgstr "Хотите прервать перемещение?"
 
 msgctxt "dlgSgAbortRebasingConfirm.tle:"
 msgid "Abort"
-msgstr "Прервать"
-
-msgctxt "dlgSgAbortRebasingConfirm.tle:"
-msgid "Abort"
 msgstr "Прерывание операции"
 
 msgctxt "dlgSgAbortRevertingConfirm.btn:"
@@ -2383,10 +2379,6 @@ msgctxt "dlgSgBranchDeleteLocalConfirmMultiple.hdl:"
 msgid "Do you want to delete $1 local branches?"
 msgstr "Вы хотите удалить $1 локальные ветки?"
 
-msgctxt "dlgSgBranchDeleteLocalConfirmMultiple.hdl:"
-msgid "Do you want to delete $1 local branches?"
-msgstr ""
-
 msgctxt "dlgSgBranchDeleteLocalConfirmMultiple.tle:"
 msgid "Delete"
 msgstr "Удалить"
@@ -2423,10 +2415,6 @@ msgctxt "dlgSgBranchDeleteLocalConfirmSingle.hdl:"
 msgid "Do you want to delete the local branch '$1'?"
 msgstr "Хотите удалить локальную ветку «$1»?"
 
-msgctxt "dlgSgBranchDeleteLocalConfirmSingle.hdl:"
-msgid "Do you want to delete the local branch '$1'?"
-msgstr "Хотите удалить локальную ветку «$1»?"
-
 msgctxt "dlgSgBranchDeleteLocalConfirmSingle.tle:"
 msgid "Delete"
 msgstr "Удаление"
@@ -2449,10 +2437,6 @@ msgstr ""
 
 msgctxt "dlgSgBranchDeleteRemoteConfirmSingle.chk:"
 msgid "Delete from remote repository '$1'"
-msgstr ""
-
-msgctxt "dlgSgBranchDeleteRemoteConfirmSingle.chk:"
-msgid "Delete from remote repository '$1'"
 msgstr "Удалить во внешнем репозитории '$1'"
 
 msgctxt "dlgSgBranchDeleteRemoteConfirmSingle.fur:"
@@ -2461,15 +2445,11 @@ msgstr "Если не удалить ветку во внешнем репози
 
 msgctxt "dlgSgBranchDeleteRemoteConfirmSingle.hdl:"
 msgid "Do you want to delete the branch '$1'?"
-msgstr ""
+msgstr "Хотите удалить ветку '$1'?"
 
 msgctxt "dlgSgBranchDeleteRemoteConfirmSingle.hdl:"
 msgid "Do you want to delete the remote branch '$1'?"
 msgstr ""
-
-msgctxt "dlgSgBranchDeleteRemoteConfirmSingle.hdl:"
-msgid "Do you want to delete the branch '$1'?"
-msgstr "Хотите удалить ветку '$1'?"
 
 msgctxt "dlgSgBranchDeleteRemoteConfirmSingle.tle:"
 msgid "Delete"
@@ -3776,10 +3756,6 @@ msgid "Discard"
 msgstr "Отклонить"
 
 msgctxt "dlgSgErrorUtilsClientException.fur:"
-msgid "Server returned HTTP response code: 400 for URL: https://gitlab.com/oauth/token"
-msgstr ""
-
-msgctxt "dlgSgErrorUtilsClientException.fur:"
 msgid "Commit '$1' was not found in repository."
 msgstr ""
 
@@ -3794,6 +3770,10 @@ msgstr ""
 msgctxt "dlgSgErrorUtilsClientException.fur:"
 msgid "Repository '$1' is not valid."
 msgstr "Репозиторий «$1» не является допустимым."
+
+msgctxt "dlgSgErrorUtilsClientException.fur:"
+msgid "Server returned HTTP response code: 400 for URL: https://gitlab.com/oauth/token"
+msgstr ""
 
 msgctxt "dlgSgErrorUtilsClientException.fur:"
 msgid "svn: $1"
@@ -10328,16 +10308,16 @@ msgid "What to do with the working tree or Index changes?"
 msgstr "Что делать с изменениями в рабочем каталоге или индексе?"
 
 msgctxt "dlgSgStashOnDemandConfirmation.tle:"
-msgid "Reset"
-msgstr "Сброс изменений"
-
-msgctxt "dlgSgStashOnDemandConfirmation.tle:"
 msgid "Checkout"
 msgstr ""
 
 msgctxt "dlgSgStashOnDemandConfirmation.tle:"
 msgid "Pull"
 msgstr ""
+
+msgctxt "dlgSgStashOnDemandConfirmation.tle:"
+msgid "Reset"
+msgstr "Сброс изменений"
 
 msgctxt "dlgSgStashOnDemandLocalChangesCantBeReapplied.fur:"
 msgid "Once you have concluded the Pull, you should manually apply the latest stash to get your local changes back into the working tree."
@@ -13225,7 +13205,7 @@ msgstr ""
 
 msgctxt "wndStd.tbr:"
 msgid "History  "
-msgstr "История  "
+msgstr "История"
 
 msgctxt "wndStd.tbr:"
 msgid "Submodule"
@@ -14820,16 +14800,12 @@ msgid "Use Message for Commit"
 msgstr "Использовать сообщение для коммита"
 
 msgctxt "wnd(Log|Project|Std|).mniFlowConfigure:"
-msgid "Configure"
-msgstr "Настроить"
-
-msgctxt "wnd(Log|Project|Std|).mniFlowConfigure:"
 msgid "Configure Features"
 msgstr ""
 
 msgctxt "wnd(Log|Project|Std|).mniFlowConfigure:"
 msgid "Configure"
-msgstr ""
+msgstr "Настроить"
 
 msgctxt "wnd(Log|Project|Std|).mniFlowContext:"
 msgid "Git-Flow"
@@ -15012,10 +14988,6 @@ msgid "Open from Working Tree"
 msgstr "Открыть в рабочем каталоге"
 
 msgctxt "wnd(Log|Project|Std|).mniOpen:"
-msgid "Open from Working Tree"
-msgstr "Открыть в рабочем каталоге"
-
-msgctxt "wnd(Log|Project|Std|).mniOpen:"
 msgid "Open"
 msgstr ""
 
@@ -15110,10 +15082,6 @@ msgstr "Пропустить"
 msgctxt "wnd(Log|Project|Std|).mniRebaseStep:"
 msgid "Step"
 msgstr "Далее"
-
-msgctxt "wnd(Log|Project|Std|).mniRebaseToHead:"
-msgid "Rebase to HEAD"
-msgstr ""
 
 msgctxt "wnd(Log|Project|Std|).mniRebaseToHead:"
 msgid "Rebase to HEAD \\($1\\)"
@@ -15294,10 +15262,6 @@ msgstr ""
 msgctxt "wnd(Log|Project|Std|).mniReviewDumpDatabase:"
 msgid "Dump Database"
 msgstr ""
-
-msgctxt "wnd(Log|Project|Std|).mniReviewPullRequestCreate:"
-msgid "Create Pull Request"
-msgstr "Создать PR"
 
 msgctxt "wnd(Log|Project|Std|).mniReviewPullRequestCreate:"
 msgid "Create Merge Request"
@@ -16206,10 +16170,6 @@ msgstr "Применение коммитов текущей ветки пове
 msgctxt "wnd(Log|Project|Std|).tbtRefresh:"
 msgid "Refresh the log view."
 msgstr "Обновить представление журнала."
-
-msgctxt "wnd(Log|Project|Std|).tbtRemoteFetch:"
-msgid "Fetch commits from current remote repository."
-msgstr ""
 
 msgctxt "wnd(Log|Project|Std|).tbtRemoteFetch:"
 msgid "Fetch commits from all remote repositories."
