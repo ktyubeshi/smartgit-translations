@@ -671,15 +671,6 @@ wheels = [
 ]
 
 [[package]]
-name = "polib"
-version = "1.2.0"
-source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/10/9a/79b1067d27e38ddf84fe7da6ec516f1743f31f752c6122193e7bce38bdbf/polib-1.2.0.tar.gz", hash = "sha256:f3ef94aefed6e183e342a8a269ae1fc4742ba193186ad76f175938621dbfc26b", size = 161658, upload-time = "2023-02-23T17:53:56.873Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/6b/99/45bb1f9926efe370c6dbe324741c749658e44cb060124f28dad201202274/polib-1.2.0-py2.py3-none-any.whl", hash = "sha256:1c77ee1b81feb31df9bca258cbc58db1bbb32d10214b173882452c73af06d62d", size = 20634, upload-time = "2023-02-23T17:53:59.919Z" },
-]
-
-[[package]]
 name = "prompt-toolkit"
 version = "3.0.52"
 source = { registry = "https://pypi.org/simple" }
@@ -989,13 +980,23 @@ wheels = [
 ]
 
 [[package]]
+name = "rspolib"
+version = "0.1.1"
+source = { registry = "https://pypi.org/simple" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/91/42/3dfc943715686f3e94d3600b409c216f171c69ef82e1f77abb9327b3e393/rspolib-0.1.1-cp311-cp311-macosx_11_0_arm64.whl", hash = "sha256:78575cfd4c7f3ac26603c3d994e9e0e42bd889b06e8f75837461876ed38e2b60", size = 460740, upload-time = "2025-01-20T20:30:56.942Z" },
+    { url = "https://files.pythonhosted.org/packages/66/39/d5dc71b15d9f0b5c23532347073f49d5c90ebd49edce1dc4a666a841c164/rspolib-0.1.1-cp312-cp312-macosx_11_0_arm64.whl", hash = "sha256:73eebf10a3653e0fabd5ff8afff49bd9a725233312594af14094c2ff38650c00", size = 453669, upload-time = "2025-01-20T20:30:58.415Z" },
+    { url = "https://files.pythonhosted.org/packages/f6/62/f2b124d5e6bb2b97f09c1e0a9404cc0005fe89149c7bc22d09b276c5d2f3/rspolib-0.1.1-cp313-cp313-macosx_11_0_arm64.whl", hash = "sha256:3e11c7eb7879c73c97bc55d65500c6747e56adea6396e98b5fd397e8480aad42", size = 453061, upload-time = "2025-01-20T20:31:00.188Z" },
+]
+
+[[package]]
 name = "sgpo"
 version = "0.1.0"
 source = { editable = "tools/sgpo" }
 dependencies = [
-    { name = "polib" },
     { name = "pyparsing" },
     { name = "questionary" },
+    { name = "rspolib" },
 ]
 
 [package.optional-dependencies]
@@ -1016,10 +1017,10 @@ docs = [
 [package.metadata]
 requires-dist = [
     { name = "openai", marker = "extra == 'ai'", specifier = ">=2.8" },
-    { name = "polib", specifier = ">=1.2" },
     { name = "pyparsing", specifier = ">=3.2" },
     { name = "pytest", marker = "extra == 'dev'", specifier = ">=9.0" },
     { name = "questionary", specifier = ">=2.0.1" },
+    { name = "rspolib", specifier = ">=0.1.1" },
 ]
 provides-extras = ["dev", "ai"]
 

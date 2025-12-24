@@ -5,7 +5,7 @@ import re
 from collections import namedtuple
 from typing import Callable, Iterator, Optional, Protocol
 
-import polib
+import rspolib
 from sgpo_common import META_DATA_BASE_DICT as COMMON_METADATA_BASE_DICT
 
 Key_tuple = namedtuple('Key_tuple', ['msgctxt', 'msgid'])
@@ -17,9 +17,7 @@ class PoBackend(Protocol):
         filename: str,
         *,
         wrapwidth: int,
-        encoding: str,
-        check_for_duplicates: bool,
-    ) -> polib.POFile:
+    ) -> rspolib.POFile:
         ...
 
     def load_text(
@@ -27,85 +25,63 @@ class PoBackend(Protocol):
         text: str,
         *,
         wrapwidth: int,
-        encoding: str,
-        check_for_duplicates: bool,
-    ) -> polib.POFile:
+    ) -> rspolib.POFile:
         ...
 
 
-class PolibBackend:
-    """Default backend that loads PO data via polib with strict defaults."""
+class RspolibBackend:
+    """Default backend that loads PO data via rspolib."""
     def load_file(
         self,
         filename: str,
         *,
         wrapwidth: int,
-        encoding: str,
-        check_for_duplicates: bool,
-    ) -> polib.POFile:
-        """Load a PO/POT file from disk via polib."""
-        return polib.pofile(
-            filename,
-            wrapwidth=wrapwidth,
-            encoding=encoding,
-            check_for_duplicates=check_for_duplicates,
-        )
+    ) -> rspolib.POFile:
+        """Load a PO/POT file from disk via rspolib."""
+        return rspolib.pofile(filename, wrapwidth=wrapwidth)
 
     def load_text(
         self,
         text: str,
         *,
         wrapwidth: int,
-        encoding: str,
-        check_for_duplicates: bool,
-    ) -> polib.POFile:
-        """Load PO content from an in-memory string via polib."""
-        return polib.pofile(
-            text,
-            wrapwidth=wrapwidth,
-            encoding=encoding,
-            check_for_duplicates=check_for_duplicates,
-        )
+    ) -> rspolib.POFile:
+        """Load PO content from an in-memory string via rspolib."""
+        return rspolib.pofile(text, wrapwidth=wrapwidth)
 
 
 def pofile(filename: str, *, backend: Optional[PoBackend] = None) -> SGPoFile:
     """Return an SGPoFile loaded from a PO/POT path with validation."""
     SGPoFile._validate_filename(filename)
-    backend = backend or PolibBackend()
-    po = backend.load_file(
-        filename, wrapwidth=9999, encoding='utf-8', check_for_duplicates=True
-    )
+    backend = backend or RspolibBackend()
+    po = backend.load_file(filename, wrapwidth=9999)
     return SGPoFile(po, backend=backend)
 
 
 def pofile_from_text(text: str, *, backend: Optional[PoBackend] = None) -> SGPoFile:
     """Return an SGPoFile loaded from raw PO text."""
-    backend = backend or PolibBackend()
-    po = backend.load_text(
-        text, wrapwidth=9999, encoding='utf-8', check_for_duplicates=True
-    )
+    backend = backend or RspolibBackend()
+    po = backend.load_text(text, wrapwidth=9999)
     return SGPoFile(po, backend=backend)
 
 
 class SGPoFile:
-    """Domain wrapper around polib that adds SmartGit-specific behaviors."""
+    """Domain wrapper around rspolib that adds SmartGit-specific behaviors."""
 
     META_DATA_BASE_DICT = COMMON_METADATA_BASE_DICT
 
     def __init__(
         self,
-        po: Optional[polib.POFile] = None,
+        po: Optional[rspolib.POFile] = None,
         *,
         backend: Optional[PoBackend] = None,
     ) -> None:
-        """Create a new SGPoFile wrapping an existing or fresh polib.POFile."""
-        self._backend = backend or PolibBackend()
-        self._po = po or polib.POFile()
-        self._po.wrapwidth = 9999
-        setattr(self._po, 'encoding', 'utf-8')
-        self._po.check_for_duplicates = True
+        """Create a new SGPoFile wrapping an existing or fresh rspolib.POFile."""
+        self._backend = backend or RspolibBackend()
+        self._po = po or rspolib.POFile("", wrapwidth=9999)
+        self._wrapwidth = getattr(self._po, "wrapwidth", 9999)
 
-    def __iter__(self) -> Iterator[polib.POEntry]:
+    def __iter__(self) -> Iterator[rspolib.POEntry]:
         """Iterate over contained PO entries."""
         return iter(self._po)
 
@@ -113,17 +89,21 @@ class SGPoFile:
         """Return the number of PO entries."""
         return len(self._po)
 
-    def __getitem__(self, index: int) -> polib.POEntry:
+    def __getitem__(self, index: int) -> rspolib.POEntry:
         """Return entry at *index*."""
         return self._po[index]
 
-    def append(self, entry: polib.POEntry) -> None:
-        """Append a polib entry to the underlying PO file."""
+    def append(self, entry: rspolib.POEntry) -> None:
+        """Append an entry to the underlying PO file."""
         self._po.append(entry)
 
+    def replace_entries(self, entries: list[rspolib.POEntry]) -> None:
+        """Replace the PO file entries wholesale."""
+        self.replace_entries(entries)
+
     def __unicode__(self) -> str:
-        """Return the PO file text the way polib renders it."""
-        return self._po.__unicode__()
+        """Return the PO file text the way rspolib renders it."""
+        return str(self._po)
 
     def __str__(self) -> str:
         return self.__unicode__()
@@ -131,6 +111,8 @@ class SGPoFile:
     @property
     def metadata(self) -> dict:
         """Return the PO metadata dictionary."""
+        if hasattr(self._po, "get_metadata"):
+            return self._po.get_metadata()
         return self._po.metadata
 
     @metadata.setter
@@ -140,13 +122,15 @@ class SGPoFile:
 
     @property
     def wrapwidth(self) -> int:
-        """Return the wrap width used by polib when rendering."""
-        return getattr(self._po, 'wrapwidth', 9999)
+        """Return the wrap width used by rspolib when rendering."""
+        return self._wrapwidth
 
     @wrapwidth.setter
     def wrapwidth(self, value: int) -> None:
-        """Set the wrap width used by polib."""
-        self._po.wrapwidth = value
+        """Set the wrap width used by rspolib."""
+        self._wrapwidth = value
+        if hasattr(self._po, "wrapwidth"):
+            self._po.wrapwidth = value
 
     def import_unknown(self, unknown: 'SGPoFile') -> dict[str, int]:
         """Merge entries from *unknown* while tracking the number added."""
@@ -207,9 +191,10 @@ class SGPoFile:
             obsolete_count += 1
 
         for my_entry in self:
-            if my_entry.msgctxt.endswith(':'):
+            entry_msgctxt = my_entry.msgctxt or ""
+            if entry_msgctxt.endswith(':'):
                 continue
-            pot_entry = pot.find_by_key(my_entry.msgctxt, None)
+            pot_entry = pot.find_by_key(entry_msgctxt, None)
             if pot_entry and (my_entry.msgid != pot_entry.msgid):
                 my_entry.previous_msgid = my_entry.msgid
                 my_entry.msgid = pot_entry.msgid
@@ -233,16 +218,17 @@ class SGPoFile:
 
     def find_by_key(
         self, msgctxt: str, msgid: Optional[str]
-    ) -> Optional[polib.POEntry]:
+    ) -> Optional[rspolib.POEntry]:
         for entry in self:
             # If the msgctxt ends with ':', the combination of msgid and
             # msgctxt becomes the key that identifies the entry.
             # Otherwise, only msgctxt is the key to identify the entry.
-            if entry.msgctxt.endswith(':'):
-                if entry.msgctxt == msgctxt and entry.msgid == msgid:
+            entry_msgctxt = entry.msgctxt or ""
+            if entry_msgctxt.endswith(':'):
+                if entry_msgctxt == msgctxt and entry.msgid == msgid:
                     return entry
             else:
-                if entry.msgctxt == msgctxt:
+                if entry_msgctxt == msgctxt:
                     return entry
 
         return None
@@ -250,17 +236,14 @@ class SGPoFile:
     def sort(
         self,
         *,
-        key: Optional[Callable[[polib.POEntry], str]] = None,
+        key: Optional[Callable[[rspolib.POEntry], str]] = None,
         reverse: bool = False,
     ) -> None:
         """Sort entries with SmartGit's special key ordering."""
-        if key is None:
-            self._po.sort(
-                key=lambda entry: self._po_entry_to_sort_key(entry),
-                reverse=reverse,
-            )
-        else:
-            self._po.sort(key=key, reverse=reverse)
+        entries = list(self._po)
+        sort_key = key or (lambda entry: self._po_entry_to_sort_key(entry))
+        entries.sort(key=sort_key, reverse=reverse)
+        self._po.entries = entries
 
     def format(self) -> None:
         """Normalize metadata ordering/values and sort entries."""
@@ -273,8 +256,10 @@ class SGPoFile:
         repr_method: str = '__unicode__',
         newline: str = '\n',
     ) -> None:
-        """Persist the PO file using polib's saver."""
-        self._po.save(fpath=fpath, repr_method=repr_method, newline=newline)
+        """Persist the PO file using rspolib's saver."""
+        if not fpath:
+            raise ValueError("fpath is required to save a PO file")
+        self._po.save(fpath)
 
     def get_key_list(self) -> list[Key_tuple]:
         """Return SmartGit key tuples for all entries."""
@@ -291,26 +276,29 @@ class SGPoFile:
                 new_meta_dict[meta_key] = meta_value
         return new_meta_dict
 
-    def _po_entry_to_sort_key(self, po_entry: polib.POEntry) -> str:
+    def _po_entry_to_sort_key(self, po_entry: rspolib.POEntry) -> str:
         """Return the sortable key string for the given entry."""
-        if po_entry.msgctxt.startswith('*'):
+        msgctxt = po_entry.msgctxt or ""
+        if msgctxt.startswith('*'):
             # Add a character with an ASCII code of 1 at the beginning to make the sort order come first.
             return chr(1) + self._po_entry_to_legacy_key(po_entry)
         return self._multi_keys_filter(self._po_entry_to_legacy_key(po_entry))
 
     @staticmethod
-    def _po_entry_to_legacy_key(po_entry: polib.POEntry) -> str:
+    def _po_entry_to_legacy_key(po_entry: rspolib.POEntry) -> str:
         """Return the legacy string key used for ordering."""
-        if po_entry.msgctxt.endswith(':'):
-            return po_entry.msgctxt.rstrip(':') + '"' + po_entry.msgid + '"'
-        return po_entry.msgctxt
+        msgctxt = po_entry.msgctxt or ""
+        if msgctxt.endswith(':'):
+            return msgctxt.rstrip(':') + '"' + po_entry.msgid + '"'
+        return msgctxt
 
     @staticmethod
-    def _po_entry_to_key_tuple(po_entry: polib.POEntry) -> Key_tuple:
+    def _po_entry_to_key_tuple(po_entry: rspolib.POEntry) -> Key_tuple:
         """Return the SmartGit key tuple for this entry."""
-        if po_entry.msgctxt.endswith(':'):
-            return Key_tuple(msgctxt=po_entry.msgctxt, msgid=po_entry.msgid)
-        return Key_tuple(msgctxt=po_entry.msgctxt, msgid=None)
+        msgctxt = po_entry.msgctxt or ""
+        if msgctxt.endswith(':'):
+            return Key_tuple(msgctxt=msgctxt, msgid=po_entry.msgid)
+        return Key_tuple(msgctxt=msgctxt, msgid=None)
 
     @staticmethod
     def _multi_keys_filter(text: str) -> str:
@@ -319,9 +307,12 @@ class SGPoFile:
         return re.sub(pattern, r'ZZZ\1', text)
 
     @staticmethod
-    def _ensure_flag(entry: polib.POEntry, flag: str) -> None:
+    def _ensure_flag(entry: rspolib.POEntry, flag: str) -> None:
         """Ensure *flag* is present on the entry without clobbering others."""
-        flags = list(getattr(entry, 'flags', []) or [])
+        if hasattr(entry, "get_flags"):
+            flags = list(entry.get_flags())
+        else:
+            flags = list(getattr(entry, 'flags', []) or [])
         if flag not in flags:
             flags.append(flag)
         entry.flags = flags

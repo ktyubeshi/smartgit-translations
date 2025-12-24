@@ -14,7 +14,6 @@ from pathlib import Path
 
 import sgpo
 from sgpo import Key_tuple
-from sgpo.sgpo import PolibBackend
 from sgpo_common.sgpo_common import get_repository_root
 
 
@@ -39,40 +38,6 @@ def _resolve_target_path(po_path: str, repo_root: Path) -> tuple[Path, str]:
     return target_abs, rel
 
 
-class _LenientBackend(PolibBackend):
-    """polib の重複チェックを緩めて読み込みを許容するためのバックエンド。"""
-
-    def load_text(
-        self,
-        text: str,
-        *,
-        wrapwidth: int,
-        encoding: str,
-        check_for_duplicates: bool = False,
-    ) -> sgpo.SGPoFile:
-        return super().load_text(
-            text,
-            wrapwidth=wrapwidth,
-            encoding=encoding,
-            check_for_duplicates=False,
-        )
-
-    def load_file(
-        self,
-        filename: str,
-        *,
-        wrapwidth: int,
-        encoding: str,
-        check_for_duplicates: bool = False,
-    ) -> sgpo.SGPoFile:
-        return super().load_file(
-            filename,
-            wrapwidth=wrapwidth,
-            encoding=encoding,
-            check_for_duplicates=False,
-        )
-
-
 def _load_po_from_commit(commit: str, rel_path: str, repo_root: Path) -> sgpo.SGPoFile:
     """Read a PO/POT from git show output."""
     cmd = ["git", "-C", str(repo_root), "show", f"{commit}:{rel_path}"]
@@ -80,8 +45,7 @@ def _load_po_from_commit(commit: str, rel_path: str, repo_root: Path) -> sgpo.SG
         content = subprocess.check_output(cmd, encoding="utf-8")
     except subprocess.CalledProcessError as exc:
         raise SystemExit(f"git show {commit}:{rel_path} failed: {exc}") from exc
-    backend = _LenientBackend()
-    return sgpo.pofile_from_text(content, backend=backend)
+    return sgpo.pofile_from_text(content)
 
 
 def _build_added_po(old_po: sgpo.SGPoFile, new_po: sgpo.SGPoFile) -> tuple[sgpo.SGPoFile, int]:

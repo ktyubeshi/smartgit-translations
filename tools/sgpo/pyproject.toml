@@ -14,7 +14,7 @@ authors = [
   { name = "SmartGit translators" },
 ]
 dependencies = [
-  "polib>=1.2",
+  "rspolib>=0.1.1",
   "pyparsing>=3.2",
   "questionary>=2.0.1",
 ]

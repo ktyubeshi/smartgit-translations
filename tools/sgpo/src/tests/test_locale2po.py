@@ -1,5 +1,6 @@
 import unittest
 
+import rspolib
 from locale2po import CombinedSgMap_to_po
 from sgpo_common import *
 from sgv23_mapping import SgMap, CombinedSgMap
@@ -12,7 +13,7 @@ def create_combined_sg_map(master_str: str, locale_str: str, state_str: str, loc
     return CombinedSgMap(master_map, locale_map, state_map)
 
 
-def find_po_entry(po: polib.POFile, msgctxt: str, msgid: str) -> polib.POEntry:
+def find_po_entry(po: rspolib.POFile, msgctxt: str, msgid: str) -> rspolib.POEntry:
     for entry in po:
         if entry.msgctxt == msgctxt and entry.msgid == msgid:
             return entry
@@ -41,7 +42,7 @@ class TestCombinedSgMapToPoFile(unittest.TestCase):
         self.assertIsNone(entry.previous_msgid)
 
         # fuzzy=false because it is obvious that work is needed on untranslated entry.
-        self.assertFalse(entry.fuzzy)
+        self.assertNotIn("fuzzy", entry.get_flags())
         print(po)
 
     def test_translated_entry_with_comment(self):
@@ -65,7 +66,7 @@ class TestCombinedSgMapToPoFile(unittest.TestCase):
         self.assertIsNone(entry.previous_msgid)
 
         # fuzzy = True because the comment line in mapping.dev have not been removed.
-        self.assertTrue(entry.fuzzy)
+        self.assertIn("fuzzy", entry.get_flags())
         print(po)
 
     def test_translated_entry(self):
@@ -87,7 +88,7 @@ class TestCombinedSgMapToPoFile(unittest.TestCase):
         self.assertEqual('是否确定要退出 SmartGit ？', entry.msgstr)
         self.assertEqual('', entry.comment)
         self.assertIsNone(entry.previous_msgid)
-        self.assertFalse(entry.fuzzy)
+        self.assertNotIn("fuzzy", entry.get_flags())
         print(po)
 
     def test_translated_entry_with_unexpected_comment(self):
@@ -109,7 +110,7 @@ class TestCombinedSgMapToPoFile(unittest.TestCase):
         self.assertEqual('是否确定要退出 SmartGit ？', entry.msgstr)
         self.assertEqual('!=foo', entry.comment)
         self.assertIsNone(entry.previous_msgid)
-        self.assertTrue(entry.fuzzy)
+        self.assertIn("fuzzy", entry.get_flags())
         print(po)
 
     def test_untranslated_entry_with_original_modified(self):
@@ -131,7 +132,7 @@ class TestCombinedSgMapToPoFile(unittest.TestCase):
         self.assertEqual('', entry.msgstr)
         self.assertEqual('', entry.comment)
         self.assertIsNone(entry.previous_msgid)
-        self.assertFalse(entry.fuzzy)
+        self.assertNotIn("fuzzy", entry.get_flags())
         print(po)
 
     def test_translated_entry_with_comment_and_original_modified(self):
@@ -153,7 +154,7 @@ class TestCombinedSgMapToPoFile(unittest.TestCase):
         self.assertEqual('是否确定要退出 SmartGit ？', entry.msgstr)
         self.assertEqual('', entry.comment)
         self.assertEqual('Do you want to exit SmartGit?', entry.previous_msgid)
-        self.assertTrue(entry.fuzzy)
+        self.assertIn("fuzzy", entry.get_flags())
         print(po)
 
     def test_translated_entry_with_original_modified(self):
@@ -175,7 +176,7 @@ class TestCombinedSgMapToPoFile(unittest.TestCase):
         self.assertEqual('是否确定要退出 SmartGit ？', entry.msgstr)
         self.assertEqual('', entry.comment)
         self.assertEqual('Do you want to exit SmartGit?', entry.previous_msgid)
-        self.assertTrue(entry.fuzzy)
+        self.assertIn("fuzzy", entry.get_flags())
         print(po)
 
     def test_translated_entry_with_unexpected_comment_and_original_modified(self):
@@ -197,7 +198,7 @@ class TestCombinedSgMapToPoFile(unittest.TestCase):
         self.assertEqual('是否确定要退出 SmartGit ？', entry.msgstr)
         self.assertEqual('!=foo', entry.comment)
         self.assertEqual('Do you want to exit SmartGit?', entry.previous_msgid)
-        self.assertTrue(entry.fuzzy)
+        self.assertIn("fuzzy", entry.get_flags())
         print(po)
 
 

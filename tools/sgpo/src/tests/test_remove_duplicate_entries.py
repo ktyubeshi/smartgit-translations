@@ -72,7 +72,7 @@ class TestRemoveDuplicateEntriesPo(unittest.TestCase):
 
         dup_two = [entry for entry in po if entry.msgctxt == "dup.two"]
         self.assertEqual(2, len(dup_two))
-        self.assertTrue(all("fuzzy" in (entry.flags or []) for entry in dup_two))
+        self.assertTrue(all("fuzzy" in entry.get_flags() for entry in dup_two))
 
         dup_three = [entry for entry in po if entry.msgctxt == "dup.three"]
         self.assertEqual(1, len(dup_three))

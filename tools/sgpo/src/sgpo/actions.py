@@ -70,8 +70,9 @@ def _is_untranslated(entry) -> bool:
     if getattr(entry, "obsolete", False):
         return False
 
-    if hasattr(entry, "msgstr_plural") and entry.msgstr_plural:
-        return all(not text.strip() for text in entry.msgstr_plural.values())
+    plurals = _get_msgstr_plural_list(entry)
+    if plurals:
+        return all(not (text or "").strip() for text in plurals)
 
     return not bool(getattr(entry, "msgstr", "").strip())
 
@@ -81,7 +82,7 @@ def _special_sort_locales(finder: PoPathFinder, po_paths: Iterable[str]) -> Iter
 
     for po_path in po_paths:
         po = sgpo.pofile(po_path)
-        po.sort(key=lambda entry: (_is_untranslated(entry), po._po_entry_to_sort_key(entry)))  # type: ignore[attr-defined]  # noqa: SLF001
+        po.sort(key=lambda entry: (_is_untranslated(entry), po._po_entry_to_sort_key(entry)))
         po.save(po_path)
         yield f"special-sorted: {po_path} (untranslated entries moved to bottom)"
 
@@ -154,7 +155,7 @@ def _compress_msgctxt(po) -> int:
         if not msgctxt:
             continue
 
-        pattern = '"' + entry.msgid + '"'  # polib でアンエスケープ済み前提
+        pattern = '"' + entry.msgid + '"'  # rspolib でアンエスケープ済み前提
         if msgctxt.endswith(pattern):
             entry.msgctxt = msgctxt[: -len(pattern)] + ":"
             changed += 1
@@ -266,17 +267,19 @@ def _normalize_ellipsis(text: str) -> str:
 def _is_translated(entry) -> bool:
     if getattr(entry, "obsolete", False):
         return False
-    if hasattr(entry, "msgstr_plural") and entry.msgstr_plural:
-        return any(val.strip() for val in entry.msgstr_plural.values())
+    plurals = _get_msgstr_plural_list(entry)
+    if plurals:
+        return any((val or "").strip() for val in plurals)
     return bool(getattr(entry, "msgstr", "").strip())
 
 
 def _copy_translation(source, target) -> None:
     """Copy translation from source to target entry."""
 
-    if hasattr(source, "msgstr_plural") and source.msgstr_plural:
+    plurals = _get_msgstr_plural_list(source)
+    if plurals:
         # Copy plural forms if present.
-        target.msgstr_plural = {k: v for k, v in source.msgstr_plural.items()}
+        target.msgstr_plural = list(plurals)
         target.msgstr = ""
     else:
         target.msgstr = getattr(source, "msgstr", "")
@@ -324,11 +327,20 @@ def _propagate_ellipsis_translation_po(finder: PoPathFinder) -> Iterator[str]:
 
 
 def _has_msgstr_text(entry) -> bool:
-    plurals = getattr(entry, "msgstr_plural", None)
+    plurals = _get_msgstr_plural_list(entry)
     if plurals:
-        return any((val or "").strip() for val in plurals.values())
+        return any((val or "").strip() for val in plurals)
     msgstr = getattr(entry, "msgstr", "") or ""
     return bool(msgstr.strip())
+
+
+def _get_msgstr_plural_list(entry) -> list[str]:
+    if hasattr(entry, "get_msgstr_plural"):
+        return list(entry.get_msgstr_plural())
+    plurals = getattr(entry, "msgstr_plural", None)
+    if isinstance(plurals, dict):
+        return list(plurals.values())
+    return list(plurals or [])
 
 
 def _cleanup_obsolete_empty_msgstr(po) -> int:
@@ -340,7 +352,7 @@ def _cleanup_obsolete_empty_msgstr(po) -> int:
             continue
         kept_entries.append(entry)
     if removed:
-        po._po[:] = kept_entries  # type: ignore[attr-defined]  # noqa: SLF001
+        po.replace_entries(kept_entries)
     return removed
 
 
@@ -359,7 +371,10 @@ def _cleanup_obsolete_empty_msgstr_po(finder: PoPathFinder) -> Iterator[str]:
 
 
 def _mark_fuzzy(entry) -> bool:
-    flags = list(getattr(entry, "flags", []) or [])
+    if hasattr(entry, "get_flags"):
+        flags = list(entry.get_flags())
+    else:
+        flags = list(getattr(entry, "flags", []) or [])
     if "fuzzy" in flags:
         return False
     flags.append("fuzzy")
@@ -386,23 +401,23 @@ def _remove_duplicate_entries_pot(po) -> int:
         seen.add(key)
         kept_entries.append(entry)
     if removed:
-        po._po[:] = kept_entries  # type: ignore[attr-defined]  # noqa: SLF001
+        po.replace_entries(kept_entries)
     return removed
 
 
 def _remove_duplicate_entries_po(po) -> tuple[int, int]:
     removed = 0
     fuzzy_marked = 0
-    keep_entries: set[object] = set()
+    keep_entries: set[int] = set()
     groups: dict[tuple[str, str], list] = {}
     original_entries = list(po)
 
     for entry in original_entries:
         if getattr(entry, "obsolete", False):
-            keep_entries.add(entry)
+            keep_entries.add(id(entry))
             continue
         if entry.msgid == "":
-            keep_entries.add(entry)
+            keep_entries.add(id(entry))
             continue
         msgctxt = getattr(entry, "msgctxt", "") or ""
         key = (msgctxt, entry.msgid)
@@ -410,13 +425,13 @@ def _remove_duplicate_entries_po(po) -> tuple[int, int]:
 
     for entries in groups.values():
         if len(entries) == 1:
-            keep_entries.add(entries[0])
+            keep_entries.add(id(entries[0]))
             continue
 
         translated = [entry for entry in entries if _is_translated(entry)]
         if translated:
             for entry in translated:
-                keep_entries.add(entry)
+                keep_entries.add(id(entry))
             removed += len(entries) - len(translated)
             if len(translated) > 1:
                 for entry in translated:
@@ -424,11 +439,11 @@ def _remove_duplicate_entries_po(po) -> tuple[int, int]:
                         fuzzy_marked += 1
             continue
 
-        keep_entries.add(entries[0])
+        keep_entries.add(id(entries[0]))
         removed += len(entries) - 1
 
     if removed:
-        po._po[:] = [entry for entry in original_entries if entry in keep_entries]  # type: ignore[attr-defined]  # noqa: SLF001
+        po.replace_entries([entry for entry in original_entries if id(entry) in keep_entries])
     return removed, fuzzy_marked
 
 

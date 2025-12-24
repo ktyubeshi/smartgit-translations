@@ -1,3 +1,4 @@
+import rspolib
 from sgpo_common import *
 from sgv23_mapping import SgMap, CombinedSgMap
 
@@ -39,21 +40,19 @@ def main():
 
 
 # ======================================================================
-def CombinedSgMap_to_po(combined_map: CombinedSgMap) -> polib.POFile:
-    po = polib.POFile()
-    po.wrapwidth = 1000
+def CombinedSgMap_to_po(combined_map: CombinedSgMap) -> rspolib.POFile:
+    po = rspolib.POFile("", wrapwidth=1000)
 
     meta_dict = create_meta_dict(combined_map.locale_code)
 
-    for key, value in meta_dict.items():
-        po.metadata[key] = value
+    po.metadata = meta_dict
 
     for map_entry in combined_map.get_values():
         flags = []
         if map_entry.fuzzy:
             flags.append('fuzzy')
 
-        entry = polib.POEntry(
+        entry = rspolib.POEntry(
             msgctxt=map_entry.key,
             msgid=map_entry.original_msg,
             msgstr=map_entry.translated_msg,

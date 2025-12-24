@@ -63,7 +63,7 @@ class TestCleanupObsoleteEmptyMsgstr(unittest.TestCase):
 
         plural_kept = next(entry for entry in po if entry.msgctxt == "obsolete.plural.keep")
         self.assertTrue(getattr(plural_kept, "obsolete", False))
-        self.assertEqual("one", plural_kept.msgstr_plural.get(0))
+        self.assertEqual("one", plural_kept.get_msgstr_plural()[0])
 
         non_obsolete_blank = next(entry for entry in po if entry.msgctxt == "needs.translation")
         self.assertFalse(getattr(non_obsolete_blank, "obsolete", False))

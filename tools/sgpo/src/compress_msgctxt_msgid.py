@@ -12,7 +12,7 @@ def _compress_one_po(po) -> int:
         if not getattr(entry, "msgctxt", None):
             continue
 
-        pattern = '"' + entry.msgid + '"'  # polib でアンエスケープ済み前提
+        pattern = '"' + entry.msgid + '"'  # rspolib でアンエスケープ済み前提
         if entry.msgctxt.endswith(pattern):
             entry.msgctxt = entry.msgctxt[: -len(pattern)] + ":"
             changed += 1

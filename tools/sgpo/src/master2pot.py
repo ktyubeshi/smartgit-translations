@@ -1,3 +1,4 @@
+import rspolib
 from sgpo_common import *
 from sgv23_mapping import SgMap
 
@@ -24,16 +25,14 @@ def main():
 
 # ======================================================================
 def SgMap_to_pot_file(master_map: SgMap, pot_file_path: str) -> None:
-    pot = polib.POFile()
-    pot.wrapwidth = 1000
+    pot = rspolib.POFile("", wrapwidth=1000)
 
     meta_dict = create_meta_dict(master_map.locale_code)
 
-    for key, value in meta_dict.items():
-        pot.metadata[key] = value
+    pot.metadata = meta_dict
 
     for map_entry in master_map.get_values():
-        entry = polib.POEntry(
+        entry = rspolib.POEntry(
             msgctxt=map_entry.key, msgid=map_entry.value, msgstr="")
 
         # convert to optimized entry
