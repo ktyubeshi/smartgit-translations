@@ -1,0 +1,17 @@
+[project]
+name = "smartgittranslations-tools"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+  "sgpo",
+  "sgpo-migration",
+  "sgpo-tools",
+]
+
+[tool.uv.sources]
+sgpo = { workspace = true }
+sgpo-migration = { workspace = true }
+sgpo-tools = { workspace = true }
+
+[tool.uv.workspace]
+members = ["python/packages/*"]
