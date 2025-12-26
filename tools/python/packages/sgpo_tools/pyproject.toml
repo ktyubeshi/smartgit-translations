@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sgpo-tools"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+  "sgpo",
+]
+
+[project.optional-dependencies]
+dev = ["pytest"]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+packages = {find = {where = ["src"]}}
+py-modules = [
+  "delete_extracted_comments",
+  "format_po_files",
+  "import_mismatch",
+  "import_pot",
+  "import_unknown",
+]

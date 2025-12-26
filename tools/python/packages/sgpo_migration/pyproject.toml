@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sgpo-migration"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+  "polib",
+  "pyparsing",
+]
+
+[project.optional-dependencies]
+dev = ["pytest"]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+packages = {find = {where = ["src"]}}
+py-modules = [
+  "locale2po",
+  "master2pot",
+]
