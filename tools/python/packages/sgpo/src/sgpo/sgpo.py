@@ -139,76 +139,38 @@ class SgPo(polib.POFile):
 
         return instance
 
-    def import_unknown(self, unknown: SgPo) -> None:
+    def import_unknown(self, unknown: SgPo) -> dict:
         success_count = 0
-        print('\nImport unknown entry...')
         for unknown_entry in unknown:
             # unknown_entry.flags = ['New']  # For debugging.
             my_entry = self.find_by_key(unknown_entry.msgctxt, unknown_entry.msgid)
 
-            if my_entry is not None:
-                if my_entry.msgid == unknown_entry.msgid:
-                    print(f'\nAlready exists.(Skipped)')
-                    print(f'\t\tmsgctxt "{unknown_entry.msgctxt}"')
-                    print(f'\t\tmsgid "{unknown_entry.msgid}"')
-                else:
-                    print(f'\nAlready exists. but,msgid has been changed.(Skipped)')
-                    print(f'\t\t#| msgid "{my_entry.msgid}"')
-                    print(f'\t\tmsgctxt "{unknown_entry.msgctxt}"')
-                    print(f'\t\tmsgid "{unknown_entry.msgid}"')
-            else:
-                try:
-                    self.append(unknown_entry)
-                    print(f'\nNew entry added.')
-                    print(f'\t\tmsgctxt "{unknown_entry.msgctxt}')
-                    print(f'\t\tmsgid "{unknown_entry.msgid}')
-                    success_count += 1
-                except ValueError as e:
-                    print(e)
-                except IOError as e:
-                    print(e)
+            if my_entry is None:
+                self.append(unknown_entry)
+                success_count += 1
 
-        print(f'{success_count} entries added.')
+        return {'added': success_count}
 
-    def import_mismatch(self, mismatch: SgPo) -> None:
+    def import_mismatch(self, mismatch: SgPo) -> dict:
         new_entry_count = 0
         modified_entry_count = 0
 
-        print('\nImport unknown entry...')
         for mismatch_entry in mismatch:
             # mismatch_entry.flags = ['Modified']  # For debugging.
             my_entry = self.find_by_key(mismatch_entry.msgctxt, mismatch_entry.msgid)
 
             if my_entry is not None:
-                if my_entry.msgid == mismatch_entry.msgid:
-                    print(f'\nAlready exists.(Skipped)')
-                    print(f'\t\t#| msgid "{my_entry.previous_msgid}"')
-                    print(f'\t\tmsgctxt "{my_entry.msgctxt}"')
-                    print(f'\t\tmsgid "{my_entry.msgid}"')
-                else:
-                    print(f'\nmsgid has been changed.')
-                    print(f'\t\t#| msgid "{my_entry.msgid}"')
-                    print(f'\t\tmsgctxt "{mismatch_entry.msgctxt}"')
-                    print(f'\t\tmsgid "{mismatch_entry.msgid}"')
+                if my_entry.msgid != mismatch_entry.msgid:
                     my_entry.previous_msgid = my_entry.msgid
                     my_entry.msgid = mismatch_entry.msgid
                     modified_entry_count += 1
             else:
-                try:
-                    self.append(mismatch_entry)
-                    print(f'\nNew entry added.')
-                    print(f'\t\tmsgctxt "{mismatch_entry.msgctxt}"')
-                    print(f'\t\tmsgid "{mismatch_entry.msgid}"')
-                    new_entry_count += 1
-                except ValueError as e:
-                    print(e)
-                except IOError as e:
-                    print(e)
+                self.append(mismatch_entry)
+                new_entry_count += 1
 
-        print(f'{new_entry_count} entries added.')
-        print(f'{modified_entry_count} entries modified.')
+        return {'added': new_entry_count, 'modified': modified_entry_count}
 
-    def import_pot(self, pot: SgPo) -> None:
+    def import_pot(self, pot: SgPo) -> dict:
         new_entry_count = 0
         modified_entry_count = 0
         po_key_set = set(self.get_key_list())
@@ -216,24 +178,18 @@ class SgPo(polib.POFile):
 
         diff_pot_only_key = pot_key_set - po_key_set
         diff_po_only_key = po_key_set - pot_key_set
+        obsolete_entry_count = 0
 
         # Add new my_entry
-        print(f'\npot file only: {len(diff_pot_only_key)}')
         for key in diff_pot_only_key:
-            print(f'msgctxt:\t"{key.msgctxt}"\n'
-                  f'  msgid:\t"{key.msgid}"\n')
-
             self.append(pot.find_by_key(key.msgctxt, key.msgid))
             new_entry_count += 1
 
         # Remove obsolete entry
-        print(f'\npo file only: {len(diff_po_only_key)}')
         for key in diff_po_only_key:
-            print(f'msgctxt:\t"{key.msgctxt}"\n'
-                  f'  msgid:\t"{key.msgid}"\n')
-
             entry = self.find_by_key(key.msgctxt, key.msgid)
             entry.obsolete = True
+            obsolete_entry_count += 1
 
         # Modified entry
         for my_entry in self:
@@ -241,15 +197,16 @@ class SgPo(polib.POFile):
                 pot_entry = pot.find_by_key(my_entry.msgctxt, None)
 
                 if pot_entry and (my_entry.msgid != pot_entry.msgid):
-                    print(f'msgctxt:\t{my_entry.msgctxt}\n'
-                          f'  msgid:\t{my_entry.msgid}\n')
                     my_entry.previous_msgid = my_entry.msgid
                     my_entry.msgid = pot_entry.msgid
                     my_entry.flags = ['fuzzy']
                     modified_entry_count += 1
 
-        print(f'\n     new entry:\t{new_entry_count}')
-        print(f'\nmodified entry:\t{modified_entry_count}')
+        return {
+            'added': new_entry_count,
+            'modified': modified_entry_count,
+            'obsolete': obsolete_entry_count,
+        }
 
     def delete_extracted_comments(self):
         """
