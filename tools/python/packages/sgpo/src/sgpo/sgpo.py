@@ -74,7 +74,7 @@ def pofile_from_text(text: str, *, backend: Optional[PoBackend] = None) -> SgPo:
     return SgPo._from_text(text, backend=backend)
 
 
-class SgPo(polib.POFile):
+class SgPo:
     META_DATA_BASE_DICT = {
         'Project-Id-Version': 'SmartGit',
         'Report-Msgid-Bugs-To': 'https://github.com/syntevo/smartgit-translations',
@@ -89,11 +89,58 @@ class SgPo(polib.POFile):
         'Plural-Forms': 'nplurals=1; plural=0;',
     }
 
-    def __init__(self) -> None:
-        super().__init__(self)
-        self.wrapwidth = 9999
-        self.charset = 'utf-8'
-        self.check_for_duplicates = True
+    def __init__(self, po: Optional[polib.POFile] = None) -> None:
+        self._po = po or polib.POFile(wrapwidth=9999, check_for_duplicates=True)
+        if po is None:
+            self.wrapwidth = 9999
+            self.charset = 'utf-8'
+            self.check_for_duplicates = True
+        else:
+            self.charset = getattr(po, "encoding", "utf-8")
+
+    def __iter__(self):
+        return iter(self._po)
+
+    def __len__(self) -> int:
+        return len(self._po)
+
+    def __getitem__(self, index: int):
+        return self._po[index]
+
+    def __unicode__(self) -> str:
+        if hasattr(self._po, "__unicode__"):
+            return self._po.__unicode__()
+        return str(self._po)
+
+    def __str__(self) -> str:
+        return self.__unicode__()
+
+    def __getattr__(self, name: str):
+        return getattr(self._po, name)
+
+    @property
+    def metadata(self) -> dict:
+        return self._po.metadata
+
+    @metadata.setter
+    def metadata(self, value: dict) -> None:
+        self._po.metadata = value
+
+    @property
+    def wrapwidth(self) -> int:
+        return self._po.wrapwidth
+
+    @wrapwidth.setter
+    def wrapwidth(self, value: int) -> None:
+        self._po.wrapwidth = value
+
+    @property
+    def check_for_duplicates(self) -> bool:
+        return self._po.check_for_duplicates
+
+    @check_for_duplicates.setter
+    def check_for_duplicates(self, value: bool) -> None:
+        self._po.check_for_duplicates = value
 
     @classmethod
     def _from_file(cls, filename: str, *, backend: Optional[PoBackend] = None):
@@ -132,12 +179,7 @@ class SgPo(polib.POFile):
 
     @classmethod
     def _create_instance(cls, po: polib.POFile) -> SgPo:
-        instance = cls.__new__(cls)
-        instance.__dict__ = po.__dict__
-        for entry in po:
-            instance.append(entry)
-
-        return instance
+        return cls(po)
 
     def import_unknown(self, unknown: SgPo) -> dict:
         success_count = 0
@@ -238,9 +280,9 @@ class SgPo(polib.POFile):
 
     def sort(self, *, key=None, reverse=False):
         if key is None:
-            super().sort(key=lambda entry: (self._po_entry_to_sort_key(entry)), reverse=reverse)
+            self._po.sort(key=lambda entry: (self._po_entry_to_sort_key(entry)), reverse=reverse)
         else:
-            super().sort(key=key, reverse=reverse)
+            self._po.sort(key=key, reverse=reverse)
 
     def format(self):
         self.metadata = self._filter_po_metadata(self.metadata)
@@ -248,7 +290,7 @@ class SgPo(polib.POFile):
 
     def save(self, fpath=None, repr_method='__unicode__', newline='\n') -> None:
         # Change the default value of newline to \n (LF).
-        super().save(fpath=fpath, repr_method=repr_method, newline=newline)
+        self._po.save(fpath=fpath, repr_method=repr_method, newline=newline)
 
     def get_key_list(self) -> list:
         return [self._po_entry_to_key_tuple(entry) for entry in self]
