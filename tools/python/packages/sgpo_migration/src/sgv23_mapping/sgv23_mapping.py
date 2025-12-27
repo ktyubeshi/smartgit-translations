@@ -110,9 +110,9 @@ class SgMap:
     def _create_parser():
 
         equals = MatchFirst([
-            Literal('=\\').setResultsName('split_line_operator') + LineEnd() + Optional(White()),
-            Literal('==').setResultsName('double_equals'),
-            Literal('=').setResultsName('single_equal')
+            Literal('=\\').set_results_name('split_line_operator') + LineEnd() + Optional(White()),
+            Literal('==').set_results_name('double_equals'),
+            Literal('=').set_results_name('single_equal')
         ])
 
         # Define key content
@@ -140,7 +140,7 @@ class SgMap:
         try:
             output_entry = None
 
-            parsed_items = list(parser.parseString(file_content))
+            parsed_items = list(parser.parse_string(file_content))
             for single_item in parsed_items:
                 if 'comment' in single_item:
 
