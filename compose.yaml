@@ -1,0 +1,17 @@
+services:
+  tools:
+    build:
+      context: .
+      dockerfile: tools/docker/Dockerfile
+    volumes:
+      - .:/repo
+      - uv-cache:/root/.cache/uv
+      - cargo-registry:/usr/local/cargo/registry
+      - cargo-git:/usr/local/cargo/git
+    working_dir: /repo
+    command: sleep infinity
+
+volumes:
+  uv-cache:
+  cargo-registry:
+  cargo-git:
