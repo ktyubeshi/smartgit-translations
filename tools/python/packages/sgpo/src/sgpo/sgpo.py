@@ -158,8 +158,11 @@ class SgPo:
 
     @property
     def metadata(self) -> dict:
-        if hasattr(self._po, "get_metadata"):
-            return self._po.get_metadata()
+        getter = getattr(self._po, "get_metadata", None)
+        if callable(getter):
+            value = getter()
+            if isinstance(value, dict):
+                return value
         return self._po.metadata
 
     @metadata.setter
@@ -336,7 +339,7 @@ class SgPo:
         entries = list(self._po)
         entries.sort(key=sort_key, reverse=reverse)
         if hasattr(self._po, "entries"):
-            self._po.entries = entries
+            setattr(self._po, "entries", entries)
             return
         if hasattr(self._po, "clear") and hasattr(self._po, "extend"):
             self._po.clear()
