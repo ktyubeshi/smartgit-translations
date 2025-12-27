@@ -3,7 +3,7 @@ from sgv23_mapping import SgMap
 
 
 def main():
-    base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    base_dir = get_repository_root()
 
     master_map_file = get_master_mapping_file(base_dir)
     po_dir = get_po_dir(base_dir)

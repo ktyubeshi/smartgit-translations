@@ -39,7 +39,14 @@ class PoPathFinder:
 
 
 def get_repository_root() -> str:
-    return dirname(dirname(dirname(os.path.abspath(__file__))))
+    current = os.path.abspath(os.path.dirname(__file__))
+    while True:
+        if os.path.isdir(os.path.join(current, "po")) and os.path.isdir(os.path.join(current, "tools")):
+            return current
+        parent = os.path.dirname(current)
+        if parent == current:
+            return current
+        current = parent
 
 
 def dirname(p: os.PathLike[AnyStr]) -> AnyStr:

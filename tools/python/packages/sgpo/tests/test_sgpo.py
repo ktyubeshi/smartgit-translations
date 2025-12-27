@@ -7,7 +7,7 @@ from sgpo.sgpo import SgPo, Key_tuple
 
 
 def get_test_data_dir() -> str:
-    return os.path.join(get_repository_root(), "src", "tests", "data", "test_sgpo")
+    return os.path.join(get_repository_root(), "tools", "python", "packages", "sgpo", "tests", "data", "test_sgpo")
 
 
 def get_test_data_path(*paths: str) -> str:

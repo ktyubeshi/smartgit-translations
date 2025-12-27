@@ -4,7 +4,7 @@ from sgv23_mapping import SgMap, CombinedSgMap
 
 
 def main():
-    base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    base_dir = get_repository_root()
 
     master_map_file = os.path.normpath(os.path.join(base_dir, "mapping"))
     po_dir = get_po_dir(base_dir)

@@ -38,7 +38,14 @@ def optimize_po_entry(po_entry: polib.POEntry) -> polib.POEntry:
     return new_po_entry
 
 def get_repository_root() -> str:
-    return os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+    current = os.path.abspath(os.path.dirname(__file__))
+    while True:
+        if os.path.isdir(os.path.join(current, "po")) and os.path.isdir(os.path.join(current, "tools")):
+            return current
+        parent = os.path.dirname(current)
+        if parent == current:
+            return current
+        current = parent
 
 def get_po_dir(base_dir: str) -> str:
     return os.path.normpath(os.path.join(base_dir, "po"))
