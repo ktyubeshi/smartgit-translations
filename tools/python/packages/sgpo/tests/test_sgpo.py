@@ -2,12 +2,12 @@ import os
 import unittest
 
 import sgpo
-from path_finder import get_repository_root
 from sgpo.sgpo import SgPo, Key_tuple
 
 
 def get_test_data_dir() -> str:
-    return os.path.join(get_repository_root(), "tools", "python", "packages", "sgpo", "tests", "data", "test_sgpo")
+    base_dir = os.path.abspath(os.path.dirname(__file__))
+    return os.path.join(base_dir, "data", "test_sgpo")
 
 
 def get_test_data_path(*paths: str) -> str:
