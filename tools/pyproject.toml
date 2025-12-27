@@ -21,4 +21,5 @@ members = ["python/packages/*"]
 dev = [
     "pytest",
     "pyright>=1.1.407",
+    "hypothesis>=6.148.8",
 ]
