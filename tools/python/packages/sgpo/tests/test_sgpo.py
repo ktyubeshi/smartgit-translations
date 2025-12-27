@@ -1,3 +1,4 @@
+import importlib.util
 import os
 import unittest
 
@@ -288,6 +289,17 @@ class TestSgpo(unittest.TestCase):
         print(pot)
 
         self.assertEqual(expected_result_pot.__unicode__(), pot.__unicode__())
+
+
+class TestSgpoRspolibBackend(unittest.TestCase):
+    @unittest.skipUnless(importlib.util.find_spec("rspolib"), "rspolib not installed")
+    def test_rspolib_backend_loads_file(self):
+        po_file = get_test_data_path('common', 'language.po')
+        po = sgpo.pofile(po_file, backend=sgpo.RspolibBackend())
+        self.assertIsNotNone(po)
+        entry = po.find_by_key('context:', 'msgid_2')
+        self.assertIsNotNone(entry)
+        self.assertEqual('msgstr_2', entry.msgstr)
 
 
 # ====== Test data ====

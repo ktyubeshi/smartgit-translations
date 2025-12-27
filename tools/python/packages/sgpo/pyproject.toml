@@ -12,6 +12,7 @@ dependencies = [
 
 [project.optional-dependencies]
 dev = ["pytest"]
+rspolib = ["rspolib"]
 
 [tool.setuptools]
 package-dir = {"" = "src"}

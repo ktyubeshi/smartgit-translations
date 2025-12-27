@@ -3,11 +3,13 @@ from __future__ import annotations
 import os
 import re
 from collections import namedtuple
-from typing import Optional, Protocol
+from typing import Any, Optional, Protocol
 
 import polib
 
 Key_tuple = namedtuple('Key_tuple', ['msgctxt', 'msgid'])
+PoFile = Any
+PoEntry = Any
 
 
 class PoBackend(Protocol):
@@ -18,7 +20,7 @@ class PoBackend(Protocol):
         wrapwidth: int,
         chraset: str,
         check_for_duplicates: bool,
-    ) -> polib.POFile:
+    ) -> PoFile:
         ...
 
     def load_text(
@@ -28,7 +30,7 @@ class PoBackend(Protocol):
         wrapwidth: int,
         chraset: str,
         check_for_duplicates: bool,
-    ) -> polib.POFile:
+    ) -> PoFile:
         ...
 
 
@@ -66,6 +68,42 @@ class PolibBackend:
         )
 
 
+class RspolibBackend:
+    """Backend that loads PO data via rspolib."""
+
+    def _load_module(self):
+        try:
+            import rspolib
+        except ImportError as exc:
+            raise ImportError(
+                "rspolib is required for RspolibBackend. Install sgpo[rspolib] "
+                "or add rspolib to your environment."
+            ) from exc
+        return rspolib
+
+    def load_file(
+        self,
+        filename: str,
+        *,
+        wrapwidth: int,
+        chraset: str,
+        check_for_duplicates: bool,
+    ) -> PoFile:
+        rspolib = self._load_module()
+        return rspolib.pofile(filename, wrapwidth=wrapwidth)
+
+    def load_text(
+        self,
+        text: str,
+        *,
+        wrapwidth: int,
+        chraset: str,
+        check_for_duplicates: bool,
+    ) -> PoFile:
+        rspolib = self._load_module()
+        return rspolib.pofile(text, wrapwidth=wrapwidth)
+
+
 def pofile(filename: str, *, backend: Optional[PoBackend] = None) -> SgPo:
     return SgPo._from_file(filename, backend=backend)
 
@@ -89,14 +127,11 @@ class SgPo:
         'Plural-Forms': 'nplurals=1; plural=0;',
     }
 
-    def __init__(self, po: Optional[polib.POFile] = None) -> None:
+    def __init__(self, po: Optional[PoFile] = None) -> None:
         self._po = po or polib.POFile(wrapwidth=9999, check_for_duplicates=True)
-        if po is None:
-            self.wrapwidth = 9999
-            self.charset = 'utf-8'
-            self.check_for_duplicates = True
-        else:
-            self.charset = getattr(po, "encoding", "utf-8")
+        self._wrapwidth = getattr(self._po, "wrapwidth", 9999)
+        self._check_for_duplicates = getattr(self._po, "check_for_duplicates", True)
+        self.charset = getattr(self._po, "encoding", "utf-8")
 
     def __iter__(self):
         return iter(self._po)
@@ -118,8 +153,13 @@ class SgPo:
     def __getattr__(self, name: str):
         return getattr(self._po, name)
 
+    def append(self, entry: PoEntry) -> None:
+        self._po.append(entry)
+
     @property
     def metadata(self) -> dict:
+        if hasattr(self._po, "get_metadata"):
+            return self._po.get_metadata()
         return self._po.metadata
 
     @metadata.setter
@@ -128,19 +168,23 @@ class SgPo:
 
     @property
     def wrapwidth(self) -> int:
-        return self._po.wrapwidth
+        return self._wrapwidth
 
     @wrapwidth.setter
     def wrapwidth(self, value: int) -> None:
-        self._po.wrapwidth = value
+        self._wrapwidth = value
+        if hasattr(self._po, "wrapwidth"):
+            self._po.wrapwidth = value
 
     @property
     def check_for_duplicates(self) -> bool:
-        return self._po.check_for_duplicates
+        return self._check_for_duplicates
 
     @check_for_duplicates.setter
     def check_for_duplicates(self, value: bool) -> None:
-        self._po.check_for_duplicates = value
+        self._check_for_duplicates = value
+        if hasattr(self._po, "check_for_duplicates"):
+            self._po.check_for_duplicates = value
 
     @classmethod
     def _from_file(cls, filename: str, *, backend: Optional[PoBackend] = None):
@@ -178,7 +222,7 @@ class SgPo:
         return cls._create_instance(po)
 
     @classmethod
-    def _create_instance(cls, po: polib.POFile) -> SgPo:
+    def _create_instance(cls, po: PoFile) -> SgPo:
         return cls(po)
 
     def import_unknown(self, unknown: SgPo) -> dict:
@@ -246,7 +290,7 @@ class SgPo:
                 if pot_entry and (my_entry.msgid != pot_entry.msgid):
                     my_entry.previous_msgid = my_entry.msgid
                     my_entry.msgid = pot_entry.msgid
-                    my_entry.flags = ['fuzzy']
+                    self._ensure_flag(my_entry, 'fuzzy')
                     modified_entry_count += 1
 
         return {
@@ -264,25 +308,39 @@ class SgPo:
             if entry.comment:
                 entry.comment = ""
 
-    def find_by_key(self, msgctxt: str, msgid: Optional[str]) -> Optional[polib.POEntry]:
+    def find_by_key(self, msgctxt: str, msgid: Optional[str]) -> Optional[PoEntry]:
         for entry in self:
             # If the msgctxt ends with ':', the combination of msgid and
             # msgctxt becomes the key that identifies the entry.
             # Otherwise, only msgctxt is the key to identify the entry.
-            if entry.msgctxt.endswith(':'):
-                if entry.msgctxt == msgctxt and entry.msgid == msgid:
+            entry_msgctxt = entry.msgctxt or ""
+            if entry_msgctxt.endswith(':'):
+                if entry_msgctxt == msgctxt and entry.msgid == msgid:
                     return entry
             else:
-                if entry.msgctxt == msgctxt:
+                if entry_msgctxt == msgctxt:
                     return entry
 
         return None
 
     def sort(self, *, key=None, reverse=False):
         if key is None:
-            self._po.sort(key=lambda entry: (self._po_entry_to_sort_key(entry)), reverse=reverse)
+            sort_key = lambda entry: (self._po_entry_to_sort_key(entry))
         else:
-            self._po.sort(key=key, reverse=reverse)
+            sort_key = key
+
+        if hasattr(self._po, "sort"):
+            self._po.sort(key=sort_key, reverse=reverse)
+            return
+
+        entries = list(self._po)
+        entries.sort(key=sort_key, reverse=reverse)
+        if hasattr(self._po, "entries"):
+            self._po.entries = entries
+            return
+        if hasattr(self._po, "clear") and hasattr(self._po, "extend"):
+            self._po.clear()
+            self._po.extend(entries)
 
     def format(self):
         self.metadata = self._filter_po_metadata(self.metadata)
@@ -290,7 +348,12 @@ class SgPo:
 
     def save(self, fpath=None, repr_method='__unicode__', newline='\n') -> None:
         # Change the default value of newline to \n (LF).
-        self._po.save(fpath=fpath, repr_method=repr_method, newline=newline)
+        try:
+            self._po.save(fpath=fpath, repr_method=repr_method, newline=newline)
+        except TypeError:
+            if fpath is None:
+                raise
+            self._po.save(fpath)
 
     def get_key_list(self) -> list:
         return [self._po_entry_to_key_tuple(entry) for entry in self]
@@ -309,31 +372,34 @@ class SgPo:
                 new_meta_dict[meta_key] = meta_value
         return new_meta_dict
 
-    def _po_entry_to_sort_key(self, po_entry: polib.POEntry) -> str:
+    def _po_entry_to_sort_key(self, po_entry: PoEntry) -> str:
         """
         Reorders the sort results by rewriting the sort key as intended.
         Entries starting with a '*' are greeted with a character of ASCII code 1 at the beginning to be placed at the start of the file.
         Keys other than these are further rewritten through a key filter.
         """
-        if po_entry.msgctxt.startswith('*'):
+        msgctxt = po_entry.msgctxt or ""
+        if msgctxt.startswith('*'):
             # Add a character with an ASCII code of 1 at the beginning to make the sort order come first.
             return chr(1) + self._po_entry_to_legacy_key(po_entry)
         else:
             return self._multi_keys_filter(self._po_entry_to_legacy_key(po_entry))
 
     @staticmethod
-    def _po_entry_to_legacy_key(po_entry: polib.POEntry) -> str:
-        if po_entry.msgctxt.endswith(':'):
-            return po_entry.msgctxt.rstrip(':') + '"' + po_entry.msgid + '"'
+    def _po_entry_to_legacy_key(po_entry: PoEntry) -> str:
+        msgctxt = po_entry.msgctxt or ""
+        if msgctxt.endswith(':'):
+            return msgctxt.rstrip(':') + '"' + po_entry.msgid + '"'
         else:
-            return po_entry.msgctxt
+            return msgctxt
 
     @staticmethod
-    def _po_entry_to_key_tuple(po_entry: polib.POEntry) -> Key_tuple:
-        if po_entry.msgctxt.endswith(':'):
-            return Key_tuple(msgctxt=po_entry.msgctxt, msgid=po_entry.msgid)
+    def _po_entry_to_key_tuple(po_entry: PoEntry) -> Key_tuple:
+        msgctxt = po_entry.msgctxt or ""
+        if msgctxt.endswith(':'):
+            return Key_tuple(msgctxt=msgctxt, msgid=po_entry.msgid)
         else:
-            return Key_tuple(msgctxt=po_entry.msgctxt, msgid=None)
+            return Key_tuple(msgctxt=msgctxt, msgid=None)
 
     @staticmethod
     def _multi_keys_filter(text):
@@ -347,6 +413,16 @@ class SgPo:
         modified_text = re.sub(pattern, 'ZZZ\\1', text)
 
         return modified_text
+
+    @staticmethod
+    def _ensure_flag(entry: PoEntry, flag: str) -> None:
+        if hasattr(entry, "get_flags"):
+            flags = list(entry.get_flags())
+        else:
+            flags = list(getattr(entry, "flags", []) or [])
+        if flag not in flags:
+            flags.append(flag)
+        entry.flags = flags
 
     @staticmethod
     def _validate_filename(filename: str) -> bool:
