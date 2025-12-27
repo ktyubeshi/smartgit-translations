@@ -191,35 +191,30 @@ name = "smartgittranslations-tools"
 version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
+    { name = "rspolib" },
     { name = "sgpo" },
     { name = "sgpo-migration" },
     { name = "sgpo-tools" },
 ]
 
-[package.optional-dependencies]
-dev = [
-    { name = "pytest" },
-]
-
 [package.dev-dependencies]
 dev = [
     { name = "pyright" },
-    { name = "rspolib" },
+    { name = "pytest" },
 ]
 
 [package.metadata]
 requires-dist = [
-    { name = "pytest", marker = "extra == 'dev'" },
+    { name = "rspolib", specifier = ">=0.1.1" },
     { name = "sgpo", editable = "python/packages/sgpo" },
     { name = "sgpo-migration", editable = "python/packages/sgpo_migration" },
     { name = "sgpo-tools", editable = "python/packages/sgpo_tools" },
 ]
-provides-extras = ["dev"]
 
 [package.metadata.requires-dev]
 dev = [
     { name = "pyright", specifier = ">=1.1.407" },
-    { name = "rspolib", specifier = ">=0.1.1" },
+    { name = "pytest" },
 ]
 
 [[package]]

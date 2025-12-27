@@ -3,13 +3,11 @@ name = "smartgittranslations-tools"
 version = "0.1.0"
 requires-python = ">=3.12"
 dependencies = [
+  "rspolib>=0.1.1",
   "sgpo",
   "sgpo-migration",
   "sgpo-tools",
 ]
-
-[project.optional-dependencies]
-dev = ["pytest"]
 
 [tool.uv.sources]
 sgpo = { workspace = true }
@@ -21,6 +19,6 @@ members = ["python/packages/*"]
 
 [dependency-groups]
 dev = [
+    "pytest",
     "pyright>=1.1.407",
-    "rspolib>=0.1.1",
 ]
