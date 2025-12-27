@@ -3,18 +3,75 @@ from __future__ import annotations
 import os
 import re
 from collections import namedtuple
+from typing import Optional, Protocol
 
 import polib
 
 Key_tuple = namedtuple('Key_tuple', ['msgctxt', 'msgid'])
 
 
-def pofile(filename: str) -> SgPo:
-    return SgPo._from_file(filename)
+class PoBackend(Protocol):
+    def load_file(
+        self,
+        filename: str,
+        *,
+        wrapwidth: int,
+        chraset: str,
+        check_for_duplicates: bool,
+    ) -> polib.POFile:
+        ...
+
+    def load_text(
+        self,
+        text: str,
+        *,
+        wrapwidth: int,
+        chraset: str,
+        check_for_duplicates: bool,
+    ) -> polib.POFile:
+        ...
 
 
-def pofile_from_text(text: str) -> SgPo:
-    return SgPo._from_text(text)
+class PolibBackend:
+    """Default backend that loads PO data via polib."""
+
+    def load_file(
+        self,
+        filename: str,
+        *,
+        wrapwidth: int,
+        chraset: str,
+        check_for_duplicates: bool,
+    ) -> polib.POFile:
+        return polib.pofile(
+            filename,
+            wrapwidth=wrapwidth,
+            chraset=chraset,
+            check_for_duplicates=check_for_duplicates,
+        )
+
+    def load_text(
+        self,
+        text: str,
+        *,
+        wrapwidth: int,
+        chraset: str,
+        check_for_duplicates: bool,
+    ) -> polib.POFile:
+        return polib.pofile(
+            text,
+            wrapwidth=wrapwidth,
+            chraset=chraset,
+            check_for_duplicates=check_for_duplicates,
+        )
+
+
+def pofile(filename: str, *, backend: Optional[PoBackend] = None) -> SgPo:
+    return SgPo._from_file(filename, backend=backend)
+
+
+def pofile_from_text(text: str, *, backend: Optional[PoBackend] = None) -> SgPo:
+    return SgPo._from_text(text, backend=backend)
 
 
 class SgPo(polib.POFile):
@@ -39,19 +96,43 @@ class SgPo(polib.POFile):
         self.check_for_duplicates = True
 
     @classmethod
-    def _from_file(cls, filename: str):
+    def _from_file(cls, filename: str, *, backend: Optional[PoBackend] = None):
         cls._validate_filename(filename)
-        return cls._create_instance(filename)
+        return cls._create_instance_from_file(filename, backend=backend)
 
     @classmethod
-    def _from_text(cls, text: str):
-        return cls._create_instance(text)
+    def _from_text(cls, text: str, *, backend: Optional[PoBackend] = None):
+        return cls._create_instance_from_text(text, backend=backend)
 
     @classmethod
-    def _create_instance(cls, filename) -> SgPo:
+    def _create_instance_from_file(
+        cls, filename: str, *, backend: Optional[PoBackend] = None
+    ) -> SgPo:
+        backend = backend or PolibBackend()
+        po = backend.load_file(
+            filename,
+            wrapwidth=9999,
+            chraset='utf-8',
+            check_for_duplicates=True,
+        )
+        return cls._create_instance(po)
+
+    @classmethod
+    def _create_instance_from_text(
+        cls, text: str, *, backend: Optional[PoBackend] = None
+    ) -> SgPo:
+        backend = backend or PolibBackend()
+        po = backend.load_text(
+            text,
+            wrapwidth=9999,
+            chraset='utf-8',
+            check_for_duplicates=True,
+        )
+        return cls._create_instance(po)
+
+    @classmethod
+    def _create_instance(cls, po: polib.POFile) -> SgPo:
         instance = cls.__new__(cls)
-        po = polib.pofile(filename, wrapwidth=9999, chraset='utf-8', check_for_duplicates=True)
-
         instance.__dict__ = po.__dict__
         for entry in po:
             instance.append(entry)
