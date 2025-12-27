@@ -18,3 +18,9 @@ sgpo-tools = { workspace = true }
 
 [tool.uv.workspace]
 members = ["python/packages/*"]
+
+[dependency-groups]
+dev = [
+    "pyright>=1.1.407",
+    "rspolib>=0.1.1",
+]
