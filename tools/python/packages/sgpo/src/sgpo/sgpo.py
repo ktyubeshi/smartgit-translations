@@ -182,12 +182,17 @@ class SgPo(polib.POFile):
 
         # Add new my_entry
         for key in diff_pot_only_key:
-            self.append(pot.find_by_key(key.msgctxt, key.msgid))
+            entry = pot.find_by_key(key.msgctxt, key.msgid)
+            if entry is None:
+                continue
+            self.append(entry)
             new_entry_count += 1
 
         # Remove obsolete entry
         for key in diff_po_only_key:
             entry = self.find_by_key(key.msgctxt, key.msgid)
+            if entry is None:
+                continue
             entry.obsolete = True
             obsolete_entry_count += 1
 
@@ -215,9 +220,9 @@ class SgPo(polib.POFile):
         """
         for entry in self:
             if entry.comment:
-                entry.comment = None
+                entry.comment = ""
 
-    def find_by_key(self, msgctxt: str, msgid: str) -> polib.POEntry:
+    def find_by_key(self, msgctxt: str, msgid: Optional[str]) -> Optional[polib.POEntry]:
         for entry in self:
             # If the msgctxt ends with ':', the combination of msgid and
             # msgctxt becomes the key that identifies the entry.
