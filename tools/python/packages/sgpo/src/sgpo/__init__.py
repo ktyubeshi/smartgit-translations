@@ -1,6 +1,5 @@
 from .sgpo import (
     PoBackend,
-    PolibBackend,
     RspolibBackend,
     SgPo,
     pofile,
@@ -9,7 +8,6 @@ from .sgpo import (
 
 __all__ = (
     "PoBackend",
-    "PolibBackend",
     "RspolibBackend",
     "SgPo",
     "pofile",
