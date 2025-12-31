@@ -5,7 +5,7 @@ import re
 from collections import namedtuple
 from typing import Any, Optional, Protocol
 
-import polib
+import rspolib
 
 Key_tuple = namedtuple('Key_tuple', ['msgctxt', 'msgid'])
 PoFile = Any
@@ -34,51 +34,10 @@ class PoBackend(Protocol):
         ...
 
 
-class PolibBackend:
-    """Default backend that loads PO data via polib."""
-
-    def load_file(
-        self,
-        filename: str,
-        *,
-        wrapwidth: int,
-        chraset: str,
-        check_for_duplicates: bool,
-    ) -> polib.POFile:
-        return polib.pofile(
-            filename,
-            wrapwidth=wrapwidth,
-            chraset=chraset,
-            check_for_duplicates=check_for_duplicates,
-        )
-
-    def load_text(
-        self,
-        text: str,
-        *,
-        wrapwidth: int,
-        chraset: str,
-        check_for_duplicates: bool,
-    ) -> polib.POFile:
-        return polib.pofile(
-            text,
-            wrapwidth=wrapwidth,
-            chraset=chraset,
-            check_for_duplicates=check_for_duplicates,
-        )
-
-
 class RspolibBackend:
     """Backend that loads PO data via rspolib."""
 
     def _load_module(self):
-        try:
-            import rspolib
-        except ImportError as exc:
-            raise ImportError(
-                "rspolib is required for RspolibBackend. Install sgpo[rspolib] "
-                "or add rspolib to your environment."
-            ) from exc
         return rspolib
 
     def load_file(
@@ -128,7 +87,7 @@ class SgPo:
     }
 
     def __init__(self, po: Optional[PoFile] = None) -> None:
-        self._po = po or polib.POFile(wrapwidth=9999, check_for_duplicates=True)
+        self._po = po or rspolib.POFile("", wrapwidth=9999)
         self._wrapwidth = getattr(self._po, "wrapwidth", 9999)
         self._check_for_duplicates = getattr(self._po, "check_for_duplicates", True)
         self.charset = getattr(self._po, "encoding", "utf-8")
@@ -155,6 +114,33 @@ class SgPo:
 
     def append(self, entry: PoEntry) -> None:
         self._po.append(entry)
+
+    def _iter_entries(self) -> list[PoEntry]:
+        return list(self._po)
+
+    def _replace_entries(self, entries: list[PoEntry]) -> None:
+        try:
+            setattr(self._po, "entries", entries)
+            return
+        except Exception:
+            pass
+        if hasattr(self._po, "clear") and hasattr(self._po, "extend"):
+            self._po.clear()
+            self._po.extend(entries)
+
+    @staticmethod
+    def _find_by_key_in_entries(
+        entries: list[PoEntry], msgctxt: str, msgid: Optional[str]
+    ) -> Optional[PoEntry]:
+        for entry in entries:
+            entry_msgctxt = entry.msgctxt or ""
+            if entry_msgctxt.endswith(':'):
+                if entry_msgctxt == msgctxt and entry.msgid == msgid:
+                    return entry
+            else:
+                if entry_msgctxt == msgctxt:
+                    return entry
+        return None
 
     @property
     def metadata(self) -> dict:
@@ -202,7 +188,7 @@ class SgPo:
     def _create_instance_from_file(
         cls, filename: str, *, backend: Optional[PoBackend] = None
     ) -> SgPo:
-        backend = backend or PolibBackend()
+        backend = backend or RspolibBackend()
         po = backend.load_file(
             filename,
             wrapwidth=9999,
@@ -215,7 +201,7 @@ class SgPo:
     def _create_instance_from_text(
         cls, text: str, *, backend: Optional[PoBackend] = None
     ) -> SgPo:
-        backend = backend or PolibBackend()
+        backend = backend or RspolibBackend()
         po = backend.load_text(
             text,
             wrapwidth=9999,
@@ -230,23 +216,30 @@ class SgPo:
 
     def import_unknown(self, unknown: SgPo) -> dict:
         success_count = 0
+        entries = self._iter_entries()
         for unknown_entry in unknown:
             # unknown_entry.flags = ['New']  # For debugging.
-            my_entry = self.find_by_key(unknown_entry.msgctxt, unknown_entry.msgid)
+            my_entry = self._find_by_key_in_entries(
+                entries, unknown_entry.msgctxt, unknown_entry.msgid
+            )
 
             if my_entry is None:
-                self.append(unknown_entry)
+                entries.append(unknown_entry)
                 success_count += 1
 
+        self._replace_entries(entries)
         return {'added': success_count}
 
     def import_mismatch(self, mismatch: SgPo) -> dict:
         new_entry_count = 0
         modified_entry_count = 0
 
+        entries = self._iter_entries()
         for mismatch_entry in mismatch:
             # mismatch_entry.flags = ['Modified']  # For debugging.
-            my_entry = self.find_by_key(mismatch_entry.msgctxt, mismatch_entry.msgid)
+            my_entry = self._find_by_key_in_entries(
+                entries, mismatch_entry.msgctxt, mismatch_entry.msgid
+            )
 
             if my_entry is not None:
                 if my_entry.msgid != mismatch_entry.msgid:
@@ -254,15 +247,17 @@ class SgPo:
                     my_entry.msgid = mismatch_entry.msgid
                     modified_entry_count += 1
             else:
-                self.append(mismatch_entry)
+                entries.append(mismatch_entry)
                 new_entry_count += 1
 
+        self._replace_entries(entries)
         return {'added': new_entry_count, 'modified': modified_entry_count}
 
     def import_pot(self, pot: SgPo) -> dict:
         new_entry_count = 0
         modified_entry_count = 0
-        po_key_set = set(self.get_key_list())
+        entries = self._iter_entries()
+        po_key_set = set(self._po_entry_to_key_tuple(entry) for entry in entries)
         pot_key_set = set(pot.get_key_list())
 
         diff_pot_only_key = pot_key_set - po_key_set
@@ -274,19 +269,19 @@ class SgPo:
             entry = pot.find_by_key(key.msgctxt, key.msgid)
             if entry is None:
                 continue
-            self.append(entry)
+            entries.append(entry)
             new_entry_count += 1
 
         # Remove obsolete entry
         for key in diff_po_only_key:
-            entry = self.find_by_key(key.msgctxt, key.msgid)
+            entry = self._find_by_key_in_entries(entries, key.msgctxt, key.msgid)
             if entry is None:
                 continue
             entry.obsolete = True
             obsolete_entry_count += 1
 
         # Modified entry
-        for my_entry in self:
+        for my_entry in entries:
             if not my_entry.msgctxt.endswith(':'):
                 pot_entry = pot.find_by_key(my_entry.msgctxt, None)
 
@@ -296,6 +291,7 @@ class SgPo:
                     self._ensure_flag(my_entry, 'fuzzy')
                     modified_entry_count += 1
 
+        self._replace_entries(entries)
         return {
             'added': new_entry_count,
             'modified': modified_entry_count,
@@ -307,9 +303,12 @@ class SgPo:
         Deletes the extracted comments that originate from unknown or mismatch files.
         In the case of SmartGit, this is where the activity log is output.
         """
-        for entry in self:
+        entries = self._iter_entries()
+        for entry in entries:
             if entry.comment:
                 entry.comment = ""
+
+        self._replace_entries(entries)
 
     def find_by_key(self, msgctxt: str, msgid: Optional[str]) -> Optional[PoEntry]:
         for entry in self:
@@ -332,18 +331,9 @@ class SgPo:
         else:
             sort_key = key
 
-        if hasattr(self._po, "sort"):
-            self._po.sort(key=sort_key, reverse=reverse)
-            return
-
-        entries = list(self._po)
+        entries = self._iter_entries()
         entries.sort(key=sort_key, reverse=reverse)
-        if hasattr(self._po, "entries"):
-            setattr(self._po, "entries", entries)
-            return
-        if hasattr(self._po, "clear") and hasattr(self._po, "extend"):
-            self._po.clear()
-            self._po.extend(entries)
+        self._replace_entries(entries)
 
     def format(self):
         self.metadata = self._filter_po_metadata(self.metadata)
