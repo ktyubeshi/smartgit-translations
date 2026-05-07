@@ -18901,3 +18901,31 @@ msgstr ""
 msgctxt "wndStd.tbtStdProviderButton:"
 msgid "No hosting provider available"
 msgstr ""
+
+#. Performing ', Edit in Index Editor'
+#. opening smartgit.bfh@XFVNVI:messages.pot - Index Editor (smartgit.bfh@SHF7KQ)
+#. Performing 'file-save, Save, Save file modifications.'
+#. Performing 'preferences, Preferences'
+#. Showing dialog 0 (@VR7BE) '@FU77DG - Preferences' (owner: @E5151G)
+#. Performing ', OK'
+#. Performing 'repositorySettings, Settings...'
+#. Showing dialog 1 (@56DTFF) '@1Z3JRX - Repository Settings' (owner: @E5151G)
+#. Performing ', Cancel'
+#. Performing 'stage, Stage, Store working tree files in the index to prepare the next commit.'
+msgctxt "wndLog.mni:"
+msgid "Ask AI"
+msgstr ""
+
+#. Performing ', Overlap'
+#. Performing ', Overlap'
+#. Performing 'logCommitsColoringLegacy, Varying Coloring'
+#. Performing 'logCommitsColoringMerge, Mergeable Coloring'
+#. Performing 'logCommitsColoringBranch, Branch Coloring'
+#. Performing 'logCommitsColoringDefault, Default Coloring'
+#. Performing 'logCommitsColoringLegacy, Varying Coloring'
+#. Performing 'logCommitsColoringMerge, Mergeable Coloring'
+#. Performing 'logCommitsColoringBranch, Branch Coloring'
+#. Performing 'logCommitsColoringDefault, Default Coloring'
+msgctxt "wndLog.tbtRevealPrevCommit:"
+msgid "Go back to previous graph selection."
+msgstr ""
