@@ -18568,64 +18568,73 @@ msgstr "作業ツリーから開く"
 #. opening smartgit.bJA@OKBJBN:SmartGit 26.1 RC Evaluation until Jun 6 (smartgit.bJA@41IZG4)
 #. Performing 'discoverWindow, Discover Windows, Discover the different main windows.'
 #. Showing dialog 0 (@L7GL7P) '@VC8WLC - Discover Other SmartGit Windows' (owner: @41IZG4)
+#, fuzzy
 msgctxt "dlgDiscover.btn:"
 msgid "Change Default in Preferences"
-msgstr ""
+msgstr "デフォルトを環境設定で変更"
 
 #. opening smartgit.bJA@OKBJBN:SmartGit 26.1 RC Evaluation until Jun 6 (smartgit.bJA@41IZG4)
 #. Performing 'discoverWindow, Discover Windows, Discover the different main windows.'
 #. Showing dialog 0 (@L7GL7P) '@VC8WLC - Discover Other SmartGit Windows' (owner: @41IZG4)
+#, fuzzy
 msgctxt "dlgDiscover.lbl:"
 msgid "- Working Tree and Graph\\n- repository tabs"
-msgstr ""
+msgstr "- 作業ツリーとグラフ\\n- リポジトリタブ"
 
 #. opening smartgit.bJA@OKBJBN:SmartGit 26.1 RC Evaluation until Jun 6 (smartgit.bJA@41IZG4)
 #. Performing 'discoverWindow, Discover Windows, Discover the different main windows.'
 #. Showing dialog 0 (@L7GL7P) '@VC8WLC - Discover Other SmartGit Windows' (owner: @41IZG4)
+#, fuzzy
 msgctxt "dlgDiscover.lbl:"
 msgid "- Working Tree as graph node\\n- full feature set"
-msgstr ""
+msgstr "- グラフノードとしての作業ツリー\\n- すべての機能セット"
 
 #. opening smartgit.bJA@OKBJBN:SmartGit 26.1 RC Evaluation until Jun 6 (smartgit.bJA@41IZG4)
 #. Performing 'discoverWindow, Discover Windows, Discover the different main windows.'
 #. Showing dialog 0 (@L7GL7P) '@VC8WLC - Discover Other SmartGit Windows' (owner: @41IZG4)
+#, fuzzy
 msgctxt "dlgDiscover.lbl:"
 msgid "- needs Log window for full history\\n- file display from submodules"
-msgstr ""
+msgstr "- 完全な履歴にはログウィンドウが必要\\n- サブモジュールからのファイル表示"
 
 #. opening smartgit.bJA@OKBJBN:SmartGit 26.1 RC Evaluation until Jun 6 (smartgit.bJA@41IZG4)
 #. Performing 'discoverWindow, Discover Windows, Discover the different main windows.'
 #. Showing dialog 0 (@L7GL7P) '@VC8WLC - Discover Other SmartGit Windows' (owner: @41IZG4)
+#, fuzzy
 msgctxt "dlgDiscover.lbl:"
 msgid "\\[https://www.smartgit.dev/window-styles-and-cat-toys/ What are these icons?\\]"
-msgstr ""
+msgstr "\\[https://www.smartgit.dev/window-styles-and-cat-toys/ これらのアイコンは何ですか？\\]"
 
 #. opening smartgit.bJA@OKBJBN:SmartGit 26.1 RC Evaluation until Jun 6 (smartgit.bJA@41IZG4)
 #. Performing 'discoverWindow, Discover Windows, Discover the different main windows.'
 #. Showing dialog 0 (@L7GL7P) '@VC8WLC - Discover Other SmartGit Windows' (owner: @41IZG4)
+#, fuzzy
 msgctxt "dlgDiscover.rbt:"
 msgid "Log Graph \\(commit oriented\\)"
-msgstr ""
+msgstr "ロググラフ \\(コミット指向\\)"
 
 #. opening smartgit.bJA@OKBJBN:SmartGit 26.1 RC Evaluation until Jun 6 (smartgit.bJA@41IZG4)
 #. Performing 'discoverWindow, Discover Windows, Discover the different main windows.'
 #. Showing dialog 0 (@L7GL7P) '@VC8WLC - Discover Other SmartGit Windows' (owner: @41IZG4)
+#, fuzzy
 msgctxt "dlgDiscover.rbt:"
 msgid "Standard \\(workflow oriented\\)"
-msgstr ""
+msgstr "標準 \\(ワークフロー指向\\)"
 
 #. opening smartgit.bJA@OKBJBN:SmartGit 26.1 RC Evaluation until Jun 6 (smartgit.bJA@41IZG4)
 #. Performing 'discoverWindow, Discover Windows, Discover the different main windows.'
 #. Showing dialog 0 (@L7GL7P) '@VC8WLC - Discover Other SmartGit Windows' (owner: @41IZG4)
+#, fuzzy
 msgctxt "dlgDiscover.rbt:"
 msgid "Working Tree \\(file oriented\\)"
-msgstr ""
+msgstr "作業ツリー \\(ファイル指向\\)"
 
 #. opening smartgit.bJA@OKBJBN:SmartGit 26.1 RC Evaluation until Jun 6 (smartgit.bJA@41IZG4)
 #. Performing 'discoverWindow, Discover Windows, Discover the different main windows.'
+#, fuzzy
 msgctxt "dlgDiscover.tle:"
 msgid "Discover Other SmartGit Windows"
-msgstr ""
+msgstr "他の SmartGit ウィンドウを検出"
 
 #. opening smartgit.bJA@OKBJBN:SmartGit 26.1 RC Evaluation until Jun 6 (smartgit.bJA@41IZG4)
 #. Performing 'preferences, Preferences'
@@ -18633,9 +18642,10 @@ msgstr ""
 #. Performing ', Cancel'
 #. Performing 'preferences, Preferences'
 #. Showing dialog 1 (@WKO20Z) '@XAUOS8 - Preferences' (owner: @41IZG4)
+#, fuzzy
 msgctxt "dlgSgPreferences.cdl:"
 msgid "Main Window"
-msgstr ""
+msgstr "メインウィンドウ"
 
 #. opening smartgit.bJA@OKBJBN:SmartGit 26.1 RC Evaluation until Jun 6 (smartgit.bJA@41IZG4)
 #. Performing 'preferences, Preferences'
@@ -18643,9 +18653,10 @@ msgstr ""
 #. Performing ', Cancel'
 #. Performing 'preferences, Preferences'
 #. Showing dialog 1 (@WKO20Z) '@XAUOS8 - Preferences' (owner: @41IZG4)
+#, fuzzy
 msgctxt "dlgSgPreferences.chk:"
 msgid "Delete merged local branches if the remote branch has been deleted"
-msgstr ""
+msgstr "リモートブランチが削除されている場合、マージ済みのローカルブランチを削除"
 
 #. opening smartgit.bJA@OKBJBN:SmartGit 26.1 RC Evaluation until Jun 6 (smartgit.bJA@41IZG4)
 #. Performing 'preferences, Preferences'
@@ -18653,9 +18664,10 @@ msgstr ""
 #. Performing ', Cancel'
 #. Performing 'preferences, Preferences'
 #. Showing dialog 1 (@WKO20Z) '@XAUOS8 - Preferences' (owner: @41IZG4)
+#, fuzzy
 msgctxt "dlgSgPreferences.chk:"
 msgid "Force disabling AI integration \\(globally\\)"
-msgstr ""
+msgstr "AI 連携を強制的に無効化 \\(全体\\)"
 
 #. opening smartgit.bJA@OKBJBN:SmartGit 26.1 RC Evaluation until Jun 6 (smartgit.bJA@41IZG4)
 #. Performing 'preferences, Preferences'
@@ -18663,9 +18675,10 @@ msgstr ""
 #. Performing ', Cancel'
 #. Performing 'preferences, Preferences'
 #. Showing dialog 1 (@WKO20Z) '@XAUOS8 - Preferences' (owner: @41IZG4)
+#, fuzzy
 msgctxt "dlgSgPreferences.chk:"
 msgid "Reopen the last used repositories on startup"
-msgstr ""
+msgstr "起動時に最後に使用したリポジトリを再度開く"
 
 #. opening smartgit.bJA@OKBJBN:SmartGit 26.1 RC Evaluation until Jun 6 (smartgit.bJA@41IZG4)
 #. Performing 'preferences, Preferences'
@@ -18673,9 +18686,10 @@ msgstr ""
 #. Performing ', Cancel'
 #. Performing 'preferences, Preferences'
 #. Showing dialog 1 (@WKO20Z) '@XAUOS8 - Preferences' (owner: @41IZG4)
+#, fuzzy
 msgctxt "dlgSgPreferences.chk:"
 msgid "Show Discover toolbar button"
-msgstr ""
+msgstr "「検出」ツールバーボタンを表示"
 
 #. opening smartgit.bJA@OKBJBN:SmartGit 26.1 RC Evaluation until Jun 6 (smartgit.bJA@41IZG4)
 #. Performing 'preferences, Preferences'
@@ -18683,9 +18697,10 @@ msgstr ""
 #. Performing ', Cancel'
 #. Performing 'preferences, Preferences'
 #. Showing dialog 1 (@WKO20Z) '@XAUOS8 - Preferences' (owner: @41IZG4)
+#, fuzzy
 msgctxt "dlgSgPreferences.lbl:"
 msgid "- Working Tree and Graph\\n- repository tabs"
-msgstr ""
+msgstr "- 作業ツリーとグラフ\\n- リポジトリタブ"
 
 #. opening smartgit.bJA@OKBJBN:SmartGit 26.1 RC Evaluation until Jun 6 (smartgit.bJA@41IZG4)
 #. Performing 'preferences, Preferences'
@@ -18693,9 +18708,10 @@ msgstr ""
 #. Performing ', Cancel'
 #. Performing 'preferences, Preferences'
 #. Showing dialog 1 (@WKO20Z) '@XAUOS8 - Preferences' (owner: @41IZG4)
+#, fuzzy
 msgctxt "dlgSgPreferences.lbl:"
 msgid "- Working Tree as graph node\\n- full feature set"
-msgstr ""
+msgstr "- グラフノードとしての作業ツリー\\n- すべての機能セット"
 
 #. opening smartgit.bJA@OKBJBN:SmartGit 26.1 RC Evaluation until Jun 6 (smartgit.bJA@41IZG4)
 #. Performing 'preferences, Preferences'
@@ -18703,9 +18719,10 @@ msgstr ""
 #. Performing ', Cancel'
 #. Performing 'preferences, Preferences'
 #. Showing dialog 1 (@WKO20Z) '@XAUOS8 - Preferences' (owner: @41IZG4)
+#, fuzzy
 msgctxt "dlgSgPreferences.lbl:"
 msgid "- needs Log window for full history\\n- file display from submodules"
-msgstr ""
+msgstr "- 完全な履歴にはログウィンドウが必要\\n- サブモジュールからのファイル表示"
 
 #. opening smartgit.bJA@OKBJBN:SmartGit 26.1 RC Evaluation until Jun 6 (smartgit.bJA@41IZG4)
 #. Performing 'preferences, Preferences'
@@ -18713,9 +18730,10 @@ msgstr ""
 #. Performing ', Cancel'
 #. Performing 'preferences, Preferences'
 #. Showing dialog 1 (@WKO20Z) '@XAUOS8 - Preferences' (owner: @41IZG4)
+#, fuzzy
 msgctxt "dlgSgPreferences.lbl:"
 msgid "Pull"
-msgstr ""
+msgstr "プル"
 
 #. opening smartgit.bJA@OKBJBN:SmartGit 26.1 RC Evaluation until Jun 6 (smartgit.bJA@41IZG4)
 #. Performing 'preferences, Preferences'
@@ -18723,9 +18741,10 @@ msgstr ""
 #. Performing ', Cancel'
 #. Performing 'preferences, Preferences'
 #. Showing dialog 1 (@WKO20Z) '@XAUOS8 - Preferences' (owner: @41IZG4)
+#, fuzzy
 msgctxt "dlgSgPreferences.lbl:"
 msgid "\\[https://www.smartgit.dev/window-styles-and-cat-toys/ What are these icons?\\]"
-msgstr ""
+msgstr "\\[https://www.smartgit.dev/window-styles-and-cat-toys/ これらのアイコンは何ですか？\\]"
 
 #. opening smartgit.bJA@OKBJBN:SmartGit 26.1 RC Evaluation until Jun 6 (smartgit.bJA@41IZG4)
 #. Performing 'preferences, Preferences'
@@ -18733,9 +18752,10 @@ msgstr ""
 #. Performing ', Cancel'
 #. Performing 'preferences, Preferences'
 #. Showing dialog 1 (@WKO20Z) '@XAUOS8 - Preferences' (owner: @41IZG4)
+#, fuzzy
 msgctxt "dlgSgPreferences.rbt:"
 msgid "Log Graph \\(commit oriented\\)"
-msgstr ""
+msgstr "ロググラフ \\(コミット指向\\)"
 
 #. opening smartgit.bJA@OKBJBN:SmartGit 26.1 RC Evaluation until Jun 6 (smartgit.bJA@41IZG4)
 #. Performing 'preferences, Preferences'
@@ -18743,9 +18763,10 @@ msgstr ""
 #. Performing ', Cancel'
 #. Performing 'preferences, Preferences'
 #. Showing dialog 1 (@WKO20Z) '@XAUOS8 - Preferences' (owner: @41IZG4)
+#, fuzzy
 msgctxt "dlgSgPreferences.rbt:"
 msgid "Working Tree \\(file oriented\\)"
-msgstr ""
+msgstr "作業ツリー \\(ファイル指向\\)"
 
 #. Showing dialog 4 (@E68PKP) '@7F32G8 - Configure Toolbar' (owner: @41IZG4)
 #. Performing ', Remove'
@@ -18757,13 +18778,15 @@ msgstr ""
 #. Performing ', OK'
 #. Performing 'investigate, Investigate, Investigate history line-wise with DeepGit.'
 #. opening smartgit.bfS@N6UPP8:Investigate (smartgit.bfS@HP2W3A)
+#, fuzzy
 msgctxt "wndDeepgit.tbtDgPerspectiveOrigins:"
 msgid "Find out what else happened where the line originates from.\\n\\nIn order to inspect available Origins, switch to Blame+Origins view first."
-msgstr ""
+msgstr "その行の由来となった場所で他に何が起きたかを調べます。\\n\\n利用可能な由来を調べるには、まず Blame+Origins ビューに切り替えてください。"
 
+#, fuzzy
 msgctxt "wndLog.mnu:"
 msgid "Provider"
-msgstr ""
+msgstr "プロバイダー"
 
 #. Performing ', Cancel'
 #. Performing 'preferences, Preferences'
@@ -18775,9 +18798,10 @@ msgstr ""
 #. Performing '@smartgit.bJK'
 #. Performing '@smartgit.bJK'
 #. Performing '@smartgit.bJK'
+#, fuzzy
 msgctxt "wndLog.tbr:"
 msgid "Discover"
-msgstr ""
+msgstr "検出"
 
 #. Performing ', Cancel'
 #. Performing 'preferences, Preferences'
@@ -18789,9 +18813,10 @@ msgstr ""
 #. Performing '@smartgit.bJK'
 #. Performing '@smartgit.bJK'
 #. Performing '@smartgit.bJK'
+#, fuzzy
 msgctxt "wndLog.tbt:"
 msgid "Close"
-msgstr ""
+msgstr "閉じる"
 
 #. Showing dialog 1 (@2S8FFF) '@8LR841 - Preferences' (owner: @41IZG4)
 #. Performing ', Actions'
@@ -18803,9 +18828,10 @@ msgstr ""
 #. Performing ', Variables'
 #. Performing ', Cancel'
 #. Performing ', Cancel'
+#, fuzzy
 msgctxt "wndLog.tbtDiscoverWindow:"
 msgid "Discover the different main windows."
-msgstr ""
+msgstr "さまざまなメインウィンドウを検出します。"
 
 #. Showing dialog 1 (@2S8FFF) '@8LR841 - Preferences' (owner: @41IZG4)
 #. Performing ', Actions'
@@ -18817,17 +18843,20 @@ msgstr ""
 #. Performing ', Variables'
 #. Performing ', Cancel'
 #. Performing ', Cancel'
+#, fuzzy
 msgctxt "wndLog.tbtFlowContext:"
 msgid "Configure Git-Flow."
-msgstr ""
+msgstr "Git-Flow を設定します。"
 
+#, fuzzy
 msgctxt "wndProject.mnu:"
 msgid "Provider"
-msgstr ""
+msgstr "プロバイダー"
 
+#, fuzzy
 msgctxt "wndStd.mnu:"
 msgid "Provider"
-msgstr ""
+msgstr "プロバイダー"
 
 #. opening smartgit.bJA@5Y5WPC:SmartGit 26.1 RC Evaluation until Jun 6 (smartgit.bJA@MIB5LP)
 #. Performing 'discoverWindow, Discover Windows, Discover the different main windows.'
@@ -18835,18 +18864,20 @@ msgstr ""
 #. Performing ', Close'
 #. Performing 'ai.commitMessageCompose, AI Commit Message Compose'
 #. Showing dialog 1 (@ER4MEO) '@PX1559 - AI Commit Message' (owner: @MIB5LP)
+#, fuzzy
 msgctxt "dlgSgAiCommitMessageComposeError.fur:"
 msgid "smartgit.qT: Cancelled"
-msgstr ""
+msgstr "smartgit.qT: キャンセルされました"
 
 #. opening smartgit.bJA@5Y5WPC:SmartGit 26.1 RC Evaluation until Jun 6 (smartgit.bJA@MIB5LP)
 #. Performing 'discoverWindow, Discover Windows, Discover the different main windows.'
 #. Showing dialog 0 (@HBGURM) '@X9UB26 - Discover Other SmartGit Windows' (owner: @MIB5LP)
 #. Performing ', Close'
 #. Performing 'ai.commitMessageCompose, AI Commit Message Compose'
+#, fuzzy
 msgctxt "dlgSgAiCommitMessageComposeError.tle:"
 msgid "AI Commit Message"
-msgstr ""
+msgstr "AI コミットメッセージ"
 
 #. opening smartgit.bJA@5Y5WPC:SmartGit 26.1 RC Evaluation until Jun 6 (smartgit.bJA@MIB5LP)
 #. Performing 'discoverWindow, Discover Windows, Discover the different main windows.'
@@ -18855,9 +18886,10 @@ msgstr ""
 #. Performing 'ai.commitMessageCompose, AI Commit Message Compose'
 #. Showing dialog 1 (@ER4MEO) '@PX1559 - AI Commit Message' (owner: @MIB5LP)
 #. Performing ', OK'
+#, fuzzy
 msgctxt "wndLog.mni:"
 msgid "Reword '@ai' commits"
-msgstr ""
+msgstr "'@ai' コミットを書き換え"
 
 #. opening smartgit.bJA@5Y5WPC:SmartGit 26.1 RC Evaluation until Jun 6 (smartgit.bJA@MIB5LP)
 #. Performing 'discoverWindow, Discover Windows, Discover the different main windows.'
@@ -18866,9 +18898,10 @@ msgstr ""
 #. Performing 'ai.commitMessageCompose, AI Commit Message Compose'
 #. Showing dialog 1 (@ER4MEO) '@PX1559 - AI Commit Message' (owner: @MIB5LP)
 #. Performing ', OK'
+#, fuzzy
 msgctxt "wndLog.tbtAi.commitMessageCompose:"
 msgid "smartgit.qT: Cancelled"
-msgstr ""
+msgstr "smartgit.qT: キャンセルされました"
 
 #. opening smartgit.bJA@UV1WWG:SmartGit 26.1 RC Evaluation until Jun 6 (smartgit.bJA@YB7QZ9)
 #. Performing 'newStandardWindow, Show Standard Window'
@@ -18880,14 +18913,16 @@ msgstr ""
 #. Performing ', Reconfigure...'
 #. Showing dialog 1 (@8Z7GT4) '@PGMG65 - AI Setup' (owner: @XFVNVI)
 #. Performing ', Next >'
+#, fuzzy
 msgctxt "dlgSgAiSetupLlmConfigurationInvalid.tle:"
 msgid "AI Setup"
-msgstr ""
+msgstr "AI セットアップ"
 
 #. opening smartgit.bJA@UV1WWG:SmartGit 26.1 RC Evaluation until Jun 6 (smartgit.bJA@YB7QZ9)
+#, fuzzy
 msgctxt "wndLog.mni:"
 msgid "Overlap"
-msgstr ""
+msgstr "重ね合わせ"
 
 #. Performing 'discoverWindow, Discover Windows, Discover the different main windows.'
 #. Showing dialog 0 (@N10L6O) '@GSVIBM - Discover Other SmartGit Windows' (owner: @XFVNVI)
@@ -18899,9 +18934,10 @@ msgstr ""
 #. Performing ', OK'
 #. Performing ', Cancel'
 #. Performing 'stdSetModeHistory, Show History, Show the history view.'
+#, fuzzy
 msgctxt "wndStd.hnt:"
 msgid "This repository has\\nno local branches yet."
-msgstr ""
+msgstr "このリポジトリには\\nまだローカルブランチがありません。"
 
 #. opening smartgit.bJA@UV1WWG:SmartGit 26.1 RC Evaluation until Jun 6 (smartgit.bJA@YB7QZ9)
 #. Performing 'newStandardWindow, Show Standard Window'
@@ -18910,9 +18946,10 @@ msgstr ""
 #. Performing 'discoverWindow, Discover Windows, Discover the different main windows.'
 #. Showing dialog 0 (@N10L6O) '@GSVIBM - Discover Other SmartGit Windows' (owner: @XFVNVI)
 #. Performing ', Close'
+#, fuzzy
 msgctxt "wndStd.mni:"
 msgid "Reconfigure"
-msgstr ""
+msgstr "再設定"
 
 #. opening smartgit.bJA@UV1WWG:SmartGit 26.1 RC Evaluation until Jun 6 (smartgit.bJA@YB7QZ9)
 #. Performing 'newStandardWindow, Show Standard Window'
@@ -18921,15 +18958,17 @@ msgstr ""
 #. Performing 'discoverWindow, Discover Windows, Discover the different main windows.'
 #. Showing dialog 0 (@N10L6O) '@GSVIBM - Discover Other SmartGit Windows' (owner: @XFVNVI)
 #. Performing ', Close'
+#, fuzzy
 msgctxt "wndStd.mni:"
 msgid "Reword '@ai' commits"
-msgstr ""
+msgstr "'@ai' コミットを書き換え"
 
 #. opening smartgit.bJA@UV1WWG:SmartGit 26.1 RC Evaluation until Jun 6 (smartgit.bJA@YB7QZ9)
 #. Performing 'newStandardWindow, Show Standard Window'
+#, fuzzy
 msgctxt "wndStd.mniStdProviderButton:"
 msgid "Browse"
-msgstr ""
+msgstr "参照"
 
 #. Performing 'discoverWindow, Discover Windows, Discover the different main windows.'
 #. Showing dialog 0 (@N10L6O) '@GSVIBM - Discover Other SmartGit Windows' (owner: @XFVNVI)
@@ -18941,9 +18980,10 @@ msgstr ""
 #. Performing ', OK'
 #. Performing ', Cancel'
 #. Performing 'stdSetModeHistory, Show History, Show the history view.'
+#, fuzzy
 msgctxt "wndStd.tbr:"
 msgid "Browse"
-msgstr ""
+msgstr "参照"
 
 #. Performing 'discoverWindow, Discover Windows, Discover the different main windows.'
 #. Showing dialog 0 (@N10L6O) '@GSVIBM - Discover Other SmartGit Windows' (owner: @XFVNVI)
@@ -18955,9 +18995,10 @@ msgstr ""
 #. Performing ', OK'
 #. Performing ', Cancel'
 #. Performing 'stdSetModeHistory, Show History, Show the history view.'
+#, fuzzy
 msgctxt "wndStd.tbr:"
 msgid "Discover"
-msgstr ""
+msgstr "検出"
 
 #. opening smartgit.bJA@UV1WWG:SmartGit 26.1 RC Evaluation until Jun 6 (smartgit.bJA@YB7QZ9)
 #. Performing 'newStandardWindow, Show Standard Window'
@@ -18966,9 +19007,10 @@ msgstr ""
 #. Performing 'discoverWindow, Discover Windows, Discover the different main windows.'
 #. Showing dialog 0 (@N10L6O) '@GSVIBM - Discover Other SmartGit Windows' (owner: @XFVNVI)
 #. Performing ', Close'
+#, fuzzy
 msgctxt "wndStd.tbtDiscoverWindow:"
 msgid "Discover the different main windows."
-msgstr ""
+msgstr "さまざまなメインウィンドウを検出します。"
 
 #. Performing 'discoverWindow, Discover Windows, Discover the different main windows.'
 #. Showing dialog 0 (@N10L6O) '@GSVIBM - Discover Other SmartGit Windows' (owner: @XFVNVI)
@@ -18980,9 +19022,10 @@ msgstr ""
 #. Performing ', OK'
 #. Performing ', Cancel'
 #. Performing 'stdSetModeHistory, Show History, Show the history view.'
+#, fuzzy
 msgctxt "wndStd.tbtStdOpenSubmodule:"
 msgid "Open the submodule in a new tab."
-msgstr ""
+msgstr "サブモジュールを新しいタブで開きます。"
 
 #. opening smartgit.bJA@UV1WWG:SmartGit 26.1 RC Evaluation until Jun 6 (smartgit.bJA@YB7QZ9)
 #. Performing 'newStandardWindow, Show Standard Window'
@@ -18991,9 +19034,10 @@ msgstr ""
 #. Performing 'discoverWindow, Discover Windows, Discover the different main windows.'
 #. Showing dialog 0 (@N10L6O) '@GSVIBM - Discover Other SmartGit Windows' (owner: @XFVNVI)
 #. Performing ', Close'
+#, fuzzy
 msgctxt "wndStd.tbtStdProviderButton:"
 msgid "No hosting provider available"
-msgstr ""
+msgstr "利用可能なホスティングプロバイダーがありません"
 
 #. Performing ', Edit in Index Editor'
 #. opening smartgit.bfh@XFVNVI:messages.pot - Index Editor (smartgit.bfh@SHF7KQ)
@@ -19005,9 +19049,10 @@ msgstr ""
 #. Showing dialog 1 (@56DTFF) '@1Z3JRX - Repository Settings' (owner: @E5151G)
 #. Performing ', Cancel'
 #. Performing 'stage, Stage, Store working tree files in the index to prepare the next commit.'
+#, fuzzy
 msgctxt "wndLog.mni:"
 msgid "Ask AI"
-msgstr ""
+msgstr "AI に尋ねる"
 
 #. Performing ', Overlap'
 #. Performing ', Overlap'
@@ -19019,9 +19064,10 @@ msgstr ""
 #. Performing 'logCommitsColoringMerge, Mergeable Coloring'
 #. Performing 'logCommitsColoringBranch, Branch Coloring'
 #. Performing 'logCommitsColoringDefault, Default Coloring'
+#, fuzzy
 msgctxt "wndLog.tbtRevealPrevCommit:"
 msgid "Go back to previous graph selection."
-msgstr ""
+msgstr "前のグラフ選択に戻ります。"
 
 #~ msgctxt "dlgSgOutput.lbl:"
 #~ msgid "stash failed \\(return code $1\\)"
