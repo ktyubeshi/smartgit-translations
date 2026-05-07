@@ -18564,6 +18564,465 @@ msgctxt "wnd(Log|Std|).mniOpen:"
 msgid "Open from Working Tree"
 msgstr "作業ツリーから開く"
 
+# BUILD: 261029 
+#. opening smartgit.bJA@OKBJBN:SmartGit 26.1 RC Evaluation until Jun 6 (smartgit.bJA@41IZG4)
+#. Performing 'discoverWindow, Discover Windows, Discover the different main windows.'
+#. Showing dialog 0 (@L7GL7P) '@VC8WLC - Discover Other SmartGit Windows' (owner: @41IZG4)
+msgctxt "dlgDiscover.btn:"
+msgid "Change Default in Preferences"
+msgstr ""
+
+#. opening smartgit.bJA@OKBJBN:SmartGit 26.1 RC Evaluation until Jun 6 (smartgit.bJA@41IZG4)
+#. Performing 'discoverWindow, Discover Windows, Discover the different main windows.'
+#. Showing dialog 0 (@L7GL7P) '@VC8WLC - Discover Other SmartGit Windows' (owner: @41IZG4)
+msgctxt "dlgDiscover.lbl:"
+msgid "- Working Tree and Graph\\n- repository tabs"
+msgstr ""
+
+#. opening smartgit.bJA@OKBJBN:SmartGit 26.1 RC Evaluation until Jun 6 (smartgit.bJA@41IZG4)
+#. Performing 'discoverWindow, Discover Windows, Discover the different main windows.'
+#. Showing dialog 0 (@L7GL7P) '@VC8WLC - Discover Other SmartGit Windows' (owner: @41IZG4)
+msgctxt "dlgDiscover.lbl:"
+msgid "- Working Tree as graph node\\n- full feature set"
+msgstr ""
+
+#. opening smartgit.bJA@OKBJBN:SmartGit 26.1 RC Evaluation until Jun 6 (smartgit.bJA@41IZG4)
+#. Performing 'discoverWindow, Discover Windows, Discover the different main windows.'
+#. Showing dialog 0 (@L7GL7P) '@VC8WLC - Discover Other SmartGit Windows' (owner: @41IZG4)
+msgctxt "dlgDiscover.lbl:"
+msgid "- needs Log window for full history\\n- file display from submodules"
+msgstr ""
+
+#. opening smartgit.bJA@OKBJBN:SmartGit 26.1 RC Evaluation until Jun 6 (smartgit.bJA@41IZG4)
+#. Performing 'discoverWindow, Discover Windows, Discover the different main windows.'
+#. Showing dialog 0 (@L7GL7P) '@VC8WLC - Discover Other SmartGit Windows' (owner: @41IZG4)
+msgctxt "dlgDiscover.lbl:"
+msgid "\\[https://www.smartgit.dev/window-styles-and-cat-toys/ What are these icons?\\]"
+msgstr ""
+
+#. opening smartgit.bJA@OKBJBN:SmartGit 26.1 RC Evaluation until Jun 6 (smartgit.bJA@41IZG4)
+#. Performing 'discoverWindow, Discover Windows, Discover the different main windows.'
+#. Showing dialog 0 (@L7GL7P) '@VC8WLC - Discover Other SmartGit Windows' (owner: @41IZG4)
+msgctxt "dlgDiscover.rbt:"
+msgid "Log Graph \\(commit oriented\\)"
+msgstr ""
+
+#. opening smartgit.bJA@OKBJBN:SmartGit 26.1 RC Evaluation until Jun 6 (smartgit.bJA@41IZG4)
+#. Performing 'discoverWindow, Discover Windows, Discover the different main windows.'
+#. Showing dialog 0 (@L7GL7P) '@VC8WLC - Discover Other SmartGit Windows' (owner: @41IZG4)
+msgctxt "dlgDiscover.rbt:"
+msgid "Standard \\(workflow oriented\\)"
+msgstr ""
+
+#. opening smartgit.bJA@OKBJBN:SmartGit 26.1 RC Evaluation until Jun 6 (smartgit.bJA@41IZG4)
+#. Performing 'discoverWindow, Discover Windows, Discover the different main windows.'
+#. Showing dialog 0 (@L7GL7P) '@VC8WLC - Discover Other SmartGit Windows' (owner: @41IZG4)
+msgctxt "dlgDiscover.rbt:"
+msgid "Working Tree \\(file oriented\\)"
+msgstr ""
+
+#. opening smartgit.bJA@OKBJBN:SmartGit 26.1 RC Evaluation until Jun 6 (smartgit.bJA@41IZG4)
+#. Performing 'discoverWindow, Discover Windows, Discover the different main windows.'
+msgctxt "dlgDiscover.tle:"
+msgid "Discover Other SmartGit Windows"
+msgstr ""
+
+#. opening smartgit.bJA@OKBJBN:SmartGit 26.1 RC Evaluation until Jun 6 (smartgit.bJA@41IZG4)
+#. Performing 'preferences, Preferences'
+#. Showing dialog 0 (@1XD9QX) '@5L0Z2O - Preferences' (owner: @41IZG4)
+#. Performing ', Cancel'
+#. Performing 'preferences, Preferences'
+#. Showing dialog 1 (@WKO20Z) '@XAUOS8 - Preferences' (owner: @41IZG4)
+msgctxt "dlgSgPreferences.cdl:"
+msgid "Main Window"
+msgstr ""
+
+#. opening smartgit.bJA@OKBJBN:SmartGit 26.1 RC Evaluation until Jun 6 (smartgit.bJA@41IZG4)
+#. Performing 'preferences, Preferences'
+#. Showing dialog 0 (@1XD9QX) '@5L0Z2O - Preferences' (owner: @41IZG4)
+#. Performing ', Cancel'
+#. Performing 'preferences, Preferences'
+#. Showing dialog 1 (@WKO20Z) '@XAUOS8 - Preferences' (owner: @41IZG4)
+msgctxt "dlgSgPreferences.chk:"
+msgid "Delete merged local branches if the remote branch has been deleted"
+msgstr ""
+
+#. opening smartgit.bJA@OKBJBN:SmartGit 26.1 RC Evaluation until Jun 6 (smartgit.bJA@41IZG4)
+#. Performing 'preferences, Preferences'
+#. Showing dialog 0 (@1XD9QX) '@5L0Z2O - Preferences' (owner: @41IZG4)
+#. Performing ', Cancel'
+#. Performing 'preferences, Preferences'
+#. Showing dialog 1 (@WKO20Z) '@XAUOS8 - Preferences' (owner: @41IZG4)
+msgctxt "dlgSgPreferences.chk:"
+msgid "Force disabling AI integration \\(globally\\)"
+msgstr ""
+
+#. opening smartgit.bJA@OKBJBN:SmartGit 26.1 RC Evaluation until Jun 6 (smartgit.bJA@41IZG4)
+#. Performing 'preferences, Preferences'
+#. Showing dialog 0 (@1XD9QX) '@5L0Z2O - Preferences' (owner: @41IZG4)
+#. Performing ', Cancel'
+#. Performing 'preferences, Preferences'
+#. Showing dialog 1 (@WKO20Z) '@XAUOS8 - Preferences' (owner: @41IZG4)
+msgctxt "dlgSgPreferences.chk:"
+msgid "Reopen the last used repositories on startup"
+msgstr ""
+
+#. opening smartgit.bJA@OKBJBN:SmartGit 26.1 RC Evaluation until Jun 6 (smartgit.bJA@41IZG4)
+#. Performing 'preferences, Preferences'
+#. Showing dialog 0 (@1XD9QX) '@5L0Z2O - Preferences' (owner: @41IZG4)
+#. Performing ', Cancel'
+#. Performing 'preferences, Preferences'
+#. Showing dialog 1 (@WKO20Z) '@XAUOS8 - Preferences' (owner: @41IZG4)
+msgctxt "dlgSgPreferences.chk:"
+msgid "Show Discover toolbar button"
+msgstr ""
+
+#. opening smartgit.bJA@OKBJBN:SmartGit 26.1 RC Evaluation until Jun 6 (smartgit.bJA@41IZG4)
+#. Performing 'preferences, Preferences'
+#. Showing dialog 0 (@1XD9QX) '@5L0Z2O - Preferences' (owner: @41IZG4)
+#. Performing ', Cancel'
+#. Performing 'preferences, Preferences'
+#. Showing dialog 1 (@WKO20Z) '@XAUOS8 - Preferences' (owner: @41IZG4)
+msgctxt "dlgSgPreferences.lbl:"
+msgid "- Working Tree and Graph\\n- repository tabs"
+msgstr ""
+
+#. opening smartgit.bJA@OKBJBN:SmartGit 26.1 RC Evaluation until Jun 6 (smartgit.bJA@41IZG4)
+#. Performing 'preferences, Preferences'
+#. Showing dialog 0 (@1XD9QX) '@5L0Z2O - Preferences' (owner: @41IZG4)
+#. Performing ', Cancel'
+#. Performing 'preferences, Preferences'
+#. Showing dialog 1 (@WKO20Z) '@XAUOS8 - Preferences' (owner: @41IZG4)
+msgctxt "dlgSgPreferences.lbl:"
+msgid "- Working Tree as graph node\\n- full feature set"
+msgstr ""
+
+#. opening smartgit.bJA@OKBJBN:SmartGit 26.1 RC Evaluation until Jun 6 (smartgit.bJA@41IZG4)
+#. Performing 'preferences, Preferences'
+#. Showing dialog 0 (@1XD9QX) '@5L0Z2O - Preferences' (owner: @41IZG4)
+#. Performing ', Cancel'
+#. Performing 'preferences, Preferences'
+#. Showing dialog 1 (@WKO20Z) '@XAUOS8 - Preferences' (owner: @41IZG4)
+msgctxt "dlgSgPreferences.lbl:"
+msgid "- needs Log window for full history\\n- file display from submodules"
+msgstr ""
+
+#. opening smartgit.bJA@OKBJBN:SmartGit 26.1 RC Evaluation until Jun 6 (smartgit.bJA@41IZG4)
+#. Performing 'preferences, Preferences'
+#. Showing dialog 0 (@1XD9QX) '@5L0Z2O - Preferences' (owner: @41IZG4)
+#. Performing ', Cancel'
+#. Performing 'preferences, Preferences'
+#. Showing dialog 1 (@WKO20Z) '@XAUOS8 - Preferences' (owner: @41IZG4)
+msgctxt "dlgSgPreferences.lbl:"
+msgid "Pull"
+msgstr ""
+
+#. opening smartgit.bJA@OKBJBN:SmartGit 26.1 RC Evaluation until Jun 6 (smartgit.bJA@41IZG4)
+#. Performing 'preferences, Preferences'
+#. Showing dialog 0 (@1XD9QX) '@5L0Z2O - Preferences' (owner: @41IZG4)
+#. Performing ', Cancel'
+#. Performing 'preferences, Preferences'
+#. Showing dialog 1 (@WKO20Z) '@XAUOS8 - Preferences' (owner: @41IZG4)
+msgctxt "dlgSgPreferences.lbl:"
+msgid "\\[https://www.smartgit.dev/window-styles-and-cat-toys/ What are these icons?\\]"
+msgstr ""
+
+#. opening smartgit.bJA@OKBJBN:SmartGit 26.1 RC Evaluation until Jun 6 (smartgit.bJA@41IZG4)
+#. Performing 'preferences, Preferences'
+#. Showing dialog 0 (@1XD9QX) '@5L0Z2O - Preferences' (owner: @41IZG4)
+#. Performing ', Cancel'
+#. Performing 'preferences, Preferences'
+#. Showing dialog 1 (@WKO20Z) '@XAUOS8 - Preferences' (owner: @41IZG4)
+msgctxt "dlgSgPreferences.rbt:"
+msgid "Log Graph \\(commit oriented\\)"
+msgstr ""
+
+#. opening smartgit.bJA@OKBJBN:SmartGit 26.1 RC Evaluation until Jun 6 (smartgit.bJA@41IZG4)
+#. Performing 'preferences, Preferences'
+#. Showing dialog 0 (@1XD9QX) '@5L0Z2O - Preferences' (owner: @41IZG4)
+#. Performing ', Cancel'
+#. Performing 'preferences, Preferences'
+#. Showing dialog 1 (@WKO20Z) '@XAUOS8 - Preferences' (owner: @41IZG4)
+msgctxt "dlgSgPreferences.rbt:"
+msgid "Working Tree \\(file oriented\\)"
+msgstr ""
+
+#. Showing dialog 4 (@E68PKP) '@7F32G8 - Configure Toolbar' (owner: @41IZG4)
+#. Performing ', Remove'
+#. Performing ', Add'
+#. Performing ', OK'
+#. Performing 'configureToolbar, Configure Toolbar...'
+#. Showing dialog 5 (@8HVOUT) '@13I2SU - Configure Toolbar' (owner: @41IZG4)
+#. Performing ', Remove'
+#. Performing ', OK'
+#. Performing 'investigate, Investigate, Investigate history line-wise with DeepGit.'
+#. opening smartgit.bfS@N6UPP8:Investigate (smartgit.bfS@HP2W3A)
+msgctxt "wndDeepgit.tbtDgPerspectiveOrigins:"
+msgid "Find out what else happened where the line originates from.\\n\\nIn order to inspect available Origins, switch to Blame+Origins view first."
+msgstr ""
+
+msgctxt "wndLog.mnu:"
+msgid "Provider"
+msgstr ""
+
+#. Performing ', Cancel'
+#. Performing 'preferences, Preferences'
+#. Showing dialog 1 (@WKO20Z) '@XAUOS8 - Preferences' (owner: @41IZG4)
+#. Performing ', Edit...'
+#. Showing dialog 2 (@5PDK9O) '@PP8V7Y - Edit Property' (owner: @WKO20Z)
+#. Performing ', Cancel'
+#. Performing ', Cancel'
+#. Performing '@smartgit.bJK'
+#. Performing '@smartgit.bJK'
+#. Performing '@smartgit.bJK'
+msgctxt "wndLog.tbr:"
+msgid "Discover"
+msgstr ""
+
+#. Performing ', Cancel'
+#. Performing 'preferences, Preferences'
+#. Showing dialog 1 (@WKO20Z) '@XAUOS8 - Preferences' (owner: @41IZG4)
+#. Performing ', Edit...'
+#. Showing dialog 2 (@5PDK9O) '@PP8V7Y - Edit Property' (owner: @WKO20Z)
+#. Performing ', Cancel'
+#. Performing ', Cancel'
+#. Performing '@smartgit.bJK'
+#. Performing '@smartgit.bJK'
+#. Performing '@smartgit.bJK'
+msgctxt "wndLog.tbt:"
+msgid "Close"
+msgstr ""
+
+#. Showing dialog 1 (@2S8FFF) '@8LR841 - Preferences' (owner: @41IZG4)
+#. Performing ', Actions'
+#. Performing ', Actions'
+#. Performing ', Add'
+#. Performing ', Edit...'
+#. Showing dialog 2 (@KE0P6G) '@JPMCYK - Edit' (owner: @2S8FFF)
+#. Performing ', Variables'
+#. Performing ', Variables'
+#. Performing ', Cancel'
+#. Performing ', Cancel'
+msgctxt "wndLog.tbtDiscoverWindow:"
+msgid "Discover the different main windows."
+msgstr ""
+
+#. Showing dialog 1 (@2S8FFF) '@8LR841 - Preferences' (owner: @41IZG4)
+#. Performing ', Actions'
+#. Performing ', Actions'
+#. Performing ', Add'
+#. Performing ', Edit...'
+#. Showing dialog 2 (@KE0P6G) '@JPMCYK - Edit' (owner: @2S8FFF)
+#. Performing ', Variables'
+#. Performing ', Variables'
+#. Performing ', Cancel'
+#. Performing ', Cancel'
+msgctxt "wndLog.tbtFlowContext:"
+msgid "Configure Git-Flow."
+msgstr ""
+
+msgctxt "wndProject.mnu:"
+msgid "Provider"
+msgstr ""
+
+msgctxt "wndStd.mnu:"
+msgid "Provider"
+msgstr ""
+
+#. opening smartgit.bJA@5Y5WPC:SmartGit 26.1 RC Evaluation until Jun 6 (smartgit.bJA@MIB5LP)
+#. Performing 'discoverWindow, Discover Windows, Discover the different main windows.'
+#. Showing dialog 0 (@HBGURM) '@X9UB26 - Discover Other SmartGit Windows' (owner: @MIB5LP)
+#. Performing ', Close'
+#. Performing 'ai.commitMessageCompose, AI Commit Message Compose'
+#. Showing dialog 1 (@ER4MEO) '@PX1559 - AI Commit Message' (owner: @MIB5LP)
+msgctxt "dlgSgAiCommitMessageComposeError.fur:"
+msgid "smartgit.qT: Cancelled"
+msgstr ""
+
+#. opening smartgit.bJA@5Y5WPC:SmartGit 26.1 RC Evaluation until Jun 6 (smartgit.bJA@MIB5LP)
+#. Performing 'discoverWindow, Discover Windows, Discover the different main windows.'
+#. Showing dialog 0 (@HBGURM) '@X9UB26 - Discover Other SmartGit Windows' (owner: @MIB5LP)
+#. Performing ', Close'
+#. Performing 'ai.commitMessageCompose, AI Commit Message Compose'
+msgctxt "dlgSgAiCommitMessageComposeError.tle:"
+msgid "AI Commit Message"
+msgstr ""
+
+#. opening smartgit.bJA@5Y5WPC:SmartGit 26.1 RC Evaluation until Jun 6 (smartgit.bJA@MIB5LP)
+#. Performing 'discoverWindow, Discover Windows, Discover the different main windows.'
+#. Showing dialog 0 (@HBGURM) '@X9UB26 - Discover Other SmartGit Windows' (owner: @MIB5LP)
+#. Performing ', Close'
+#. Performing 'ai.commitMessageCompose, AI Commit Message Compose'
+#. Showing dialog 1 (@ER4MEO) '@PX1559 - AI Commit Message' (owner: @MIB5LP)
+#. Performing ', OK'
+msgctxt "wndLog.mni:"
+msgid "Reword '@ai' commits"
+msgstr ""
+
+#. opening smartgit.bJA@5Y5WPC:SmartGit 26.1 RC Evaluation until Jun 6 (smartgit.bJA@MIB5LP)
+#. Performing 'discoverWindow, Discover Windows, Discover the different main windows.'
+#. Showing dialog 0 (@HBGURM) '@X9UB26 - Discover Other SmartGit Windows' (owner: @MIB5LP)
+#. Performing ', Close'
+#. Performing 'ai.commitMessageCompose, AI Commit Message Compose'
+#. Showing dialog 1 (@ER4MEO) '@PX1559 - AI Commit Message' (owner: @MIB5LP)
+#. Performing ', OK'
+msgctxt "wndLog.tbtAi.commitMessageCompose:"
+msgid "smartgit.qT: Cancelled"
+msgstr ""
+
+#. opening smartgit.bJA@UV1WWG:SmartGit 26.1 RC Evaluation until Jun 6 (smartgit.bJA@YB7QZ9)
+#. Performing 'newStandardWindow, Show Standard Window'
+#. opening smartgit.aCW@SQPSVN:null (smartgit.aCW@XFVNVI)
+#. Performing 'repositoryOpen, Open Repository'
+#. Performing 'discoverWindow, Discover Windows, Discover the different main windows.'
+#. Showing dialog 0 (@N10L6O) '@GSVIBM - Discover Other SmartGit Windows' (owner: @XFVNVI)
+#. Performing ', Close'
+#. Performing ', Reconfigure...'
+#. Showing dialog 1 (@8Z7GT4) '@PGMG65 - AI Setup' (owner: @XFVNVI)
+#. Performing ', Next >'
+msgctxt "dlgSgAiSetupLlmConfigurationInvalid.tle:"
+msgid "AI Setup"
+msgstr ""
+
+#. opening smartgit.bJA@UV1WWG:SmartGit 26.1 RC Evaluation until Jun 6 (smartgit.bJA@YB7QZ9)
+msgctxt "wndLog.mni:"
+msgid "Overlap"
+msgstr ""
+
+#. Performing 'discoverWindow, Discover Windows, Discover the different main windows.'
+#. Showing dialog 0 (@N10L6O) '@GSVIBM - Discover Other SmartGit Windows' (owner: @XFVNVI)
+#. Performing ', Close'
+#. Performing ', Reconfigure...'
+#. Showing dialog 1 (@8Z7GT4) '@PGMG65 - AI Setup' (owner: @XFVNVI)
+#. Performing ', Next >'
+#. Showing dialog 2 (@MCIE7O) '@2NT3AK - AI Setup' (owner: @8Z7GT4)
+#. Performing ', OK'
+#. Performing ', Cancel'
+#. Performing 'stdSetModeHistory, Show History, Show the history view.'
+msgctxt "wndStd.hnt:"
+msgid "This repository has\\nno local branches yet."
+msgstr ""
+
+#. opening smartgit.bJA@UV1WWG:SmartGit 26.1 RC Evaluation until Jun 6 (smartgit.bJA@YB7QZ9)
+#. Performing 'newStandardWindow, Show Standard Window'
+#. opening smartgit.aCW@SQPSVN:null (smartgit.aCW@XFVNVI)
+#. Performing 'repositoryOpen, Open Repository'
+#. Performing 'discoverWindow, Discover Windows, Discover the different main windows.'
+#. Showing dialog 0 (@N10L6O) '@GSVIBM - Discover Other SmartGit Windows' (owner: @XFVNVI)
+#. Performing ', Close'
+msgctxt "wndStd.mni:"
+msgid "Reconfigure"
+msgstr ""
+
+#. opening smartgit.bJA@UV1WWG:SmartGit 26.1 RC Evaluation until Jun 6 (smartgit.bJA@YB7QZ9)
+#. Performing 'newStandardWindow, Show Standard Window'
+#. opening smartgit.aCW@SQPSVN:null (smartgit.aCW@XFVNVI)
+#. Performing 'repositoryOpen, Open Repository'
+#. Performing 'discoverWindow, Discover Windows, Discover the different main windows.'
+#. Showing dialog 0 (@N10L6O) '@GSVIBM - Discover Other SmartGit Windows' (owner: @XFVNVI)
+#. Performing ', Close'
+msgctxt "wndStd.mni:"
+msgid "Reword '@ai' commits"
+msgstr ""
+
+#. opening smartgit.bJA@UV1WWG:SmartGit 26.1 RC Evaluation until Jun 6 (smartgit.bJA@YB7QZ9)
+#. Performing 'newStandardWindow, Show Standard Window'
+msgctxt "wndStd.mniStdProviderButton:"
+msgid "Browse"
+msgstr ""
+
+#. Performing 'discoverWindow, Discover Windows, Discover the different main windows.'
+#. Showing dialog 0 (@N10L6O) '@GSVIBM - Discover Other SmartGit Windows' (owner: @XFVNVI)
+#. Performing ', Close'
+#. Performing ', Reconfigure...'
+#. Showing dialog 1 (@8Z7GT4) '@PGMG65 - AI Setup' (owner: @XFVNVI)
+#. Performing ', Next >'
+#. Showing dialog 2 (@MCIE7O) '@2NT3AK - AI Setup' (owner: @8Z7GT4)
+#. Performing ', OK'
+#. Performing ', Cancel'
+#. Performing 'stdSetModeHistory, Show History, Show the history view.'
+msgctxt "wndStd.tbr:"
+msgid "Browse"
+msgstr ""
+
+#. Performing 'discoverWindow, Discover Windows, Discover the different main windows.'
+#. Showing dialog 0 (@N10L6O) '@GSVIBM - Discover Other SmartGit Windows' (owner: @XFVNVI)
+#. Performing ', Close'
+#. Performing ', Reconfigure...'
+#. Showing dialog 1 (@8Z7GT4) '@PGMG65 - AI Setup' (owner: @XFVNVI)
+#. Performing ', Next >'
+#. Showing dialog 2 (@MCIE7O) '@2NT3AK - AI Setup' (owner: @8Z7GT4)
+#. Performing ', OK'
+#. Performing ', Cancel'
+#. Performing 'stdSetModeHistory, Show History, Show the history view.'
+msgctxt "wndStd.tbr:"
+msgid "Discover"
+msgstr ""
+
+#. opening smartgit.bJA@UV1WWG:SmartGit 26.1 RC Evaluation until Jun 6 (smartgit.bJA@YB7QZ9)
+#. Performing 'newStandardWindow, Show Standard Window'
+#. opening smartgit.aCW@SQPSVN:null (smartgit.aCW@XFVNVI)
+#. Performing 'repositoryOpen, Open Repository'
+#. Performing 'discoverWindow, Discover Windows, Discover the different main windows.'
+#. Showing dialog 0 (@N10L6O) '@GSVIBM - Discover Other SmartGit Windows' (owner: @XFVNVI)
+#. Performing ', Close'
+msgctxt "wndStd.tbtDiscoverWindow:"
+msgid "Discover the different main windows."
+msgstr ""
+
+#. Performing 'discoverWindow, Discover Windows, Discover the different main windows.'
+#. Showing dialog 0 (@N10L6O) '@GSVIBM - Discover Other SmartGit Windows' (owner: @XFVNVI)
+#. Performing ', Close'
+#. Performing ', Reconfigure...'
+#. Showing dialog 1 (@8Z7GT4) '@PGMG65 - AI Setup' (owner: @XFVNVI)
+#. Performing ', Next >'
+#. Showing dialog 2 (@MCIE7O) '@2NT3AK - AI Setup' (owner: @8Z7GT4)
+#. Performing ', OK'
+#. Performing ', Cancel'
+#. Performing 'stdSetModeHistory, Show History, Show the history view.'
+msgctxt "wndStd.tbtStdOpenSubmodule:"
+msgid "Open the submodule in a new tab."
+msgstr ""
+
+#. opening smartgit.bJA@UV1WWG:SmartGit 26.1 RC Evaluation until Jun 6 (smartgit.bJA@YB7QZ9)
+#. Performing 'newStandardWindow, Show Standard Window'
+#. opening smartgit.aCW@SQPSVN:null (smartgit.aCW@XFVNVI)
+#. Performing 'repositoryOpen, Open Repository'
+#. Performing 'discoverWindow, Discover Windows, Discover the different main windows.'
+#. Showing dialog 0 (@N10L6O) '@GSVIBM - Discover Other SmartGit Windows' (owner: @XFVNVI)
+#. Performing ', Close'
+msgctxt "wndStd.tbtStdProviderButton:"
+msgid "No hosting provider available"
+msgstr ""
+
+#. Performing ', Edit in Index Editor'
+#. opening smartgit.bfh@XFVNVI:messages.pot - Index Editor (smartgit.bfh@SHF7KQ)
+#. Performing 'file-save, Save, Save file modifications.'
+#. Performing 'preferences, Preferences'
+#. Showing dialog 0 (@VR7BE) '@FU77DG - Preferences' (owner: @E5151G)
+#. Performing ', OK'
+#. Performing 'repositorySettings, Settings...'
+#. Showing dialog 1 (@56DTFF) '@1Z3JRX - Repository Settings' (owner: @E5151G)
+#. Performing ', Cancel'
+#. Performing 'stage, Stage, Store working tree files in the index to prepare the next commit.'
+msgctxt "wndLog.mni:"
+msgid "Ask AI"
+msgstr ""
+
+#. Performing ', Overlap'
+#. Performing ', Overlap'
+#. Performing 'logCommitsColoringLegacy, Varying Coloring'
+#. Performing 'logCommitsColoringMerge, Mergeable Coloring'
+#. Performing 'logCommitsColoringBranch, Branch Coloring'
+#. Performing 'logCommitsColoringDefault, Default Coloring'
+#. Performing 'logCommitsColoringLegacy, Varying Coloring'
+#. Performing 'logCommitsColoringMerge, Mergeable Coloring'
+#. Performing 'logCommitsColoringBranch, Branch Coloring'
+#. Performing 'logCommitsColoringDefault, Default Coloring'
+msgctxt "wndLog.tbtRevealPrevCommit:"
+msgid "Go back to previous graph selection."
+msgstr ""
+
 #~ msgctxt "dlgSgOutput.lbl:"
 #~ msgid "stash failed \\(return code $1\\)"
 #~ msgstr "スタッシュに失敗しました \\(return code $1\\)"
