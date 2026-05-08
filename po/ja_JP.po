@@ -19081,9 +19081,10 @@ msgstr "前のグラフ選択に戻ります。"
 #. Performing 'stage, Stage, Store working tree files in the index to prepare the next commit.'
 #. Performing 'editCommitMessage, Edit Message...'
 #. Showing dialog 9 (@527MAN) '@PL6Z95 - Edit Message' (owner: @T9F38C)
+#, fuzzy
 msgctxt "dlgSgHistoryEditMessage.btn:"
 msgid "AI "
-msgstr ""
+msgstr "AI "
 
 #. Performing 'file-save, Save, Save file modifications.'
 #. Performing ',   Open in VSCode'
@@ -19095,9 +19096,10 @@ msgstr ""
 #. Performing 'editCommitMessage, Edit Message...'
 #. Showing dialog 9 (@527MAN) '@PL6Z95 - Edit Message' (owner: @T9F38C)
 #. Performing '@smartgit.aSl'
+#, fuzzy
 msgctxt "dlgSgHistoryEditMessage.mni:"
 msgid "Reconfigure"
-msgstr ""
+msgstr "再設定"
 
 #. Performing 'file-save, Save, Save file modifications.'
 #. Performing ',   Open in VSCode'
@@ -19109,9 +19111,10 @@ msgstr ""
 #. Performing 'editCommitMessage, Edit Message...'
 #. Showing dialog 9 (@527MAN) '@PL6Z95 - Edit Message' (owner: @T9F38C)
 #. Performing '@smartgit.aSl'
+#, fuzzy
 msgctxt "dlgSgHistoryEditMessage.mni:"
 msgid "github \\(active\\)"
-msgstr ""
+msgstr "github \\(アクティブ\\)"
 
 #~ msgctxt "dlgSgOutput.lbl:"
 #~ msgid "stash failed \\(return code $1\\)"
