@@ -18608,26 +18608,23 @@ msgstr "\\[https://www.smartgit.dev/window-styles-and-cat-toys/ これらのア�
 #. opening smartgit.bJA@OKBJBN:SmartGit 26.1 RC Evaluation until Jun 6 (smartgit.bJA@41IZG4)
 #. Performing 'discoverWindow, Discover Windows, Discover the different main windows.'
 #. Showing dialog 0 (@L7GL7P) '@VC8WLC - Discover Other SmartGit Windows' (owner: @41IZG4)
-#, fuzzy
 msgctxt "dlgDiscover.rbt:"
 msgid "Log Graph \\(commit oriented\\)"
-msgstr "ロググラフ \\(コミット指向\\)"
+msgstr "ロググラフ \\(コミット中心\\)"
 
 #. opening smartgit.bJA@OKBJBN:SmartGit 26.1 RC Evaluation until Jun 6 (smartgit.bJA@41IZG4)
 #. Performing 'discoverWindow, Discover Windows, Discover the different main windows.'
 #. Showing dialog 0 (@L7GL7P) '@VC8WLC - Discover Other SmartGit Windows' (owner: @41IZG4)
-#, fuzzy
 msgctxt "dlgDiscover.rbt:"
 msgid "Standard \\(workflow oriented\\)"
-msgstr "標準 \\(ワークフロー指向\\)"
+msgstr "スタンダード\\(ワークフロー中心\\)"
 
 #. opening smartgit.bJA@OKBJBN:SmartGit 26.1 RC Evaluation until Jun 6 (smartgit.bJA@41IZG4)
 #. Performing 'discoverWindow, Discover Windows, Discover the different main windows.'
 #. Showing dialog 0 (@L7GL7P) '@VC8WLC - Discover Other SmartGit Windows' (owner: @41IZG4)
-#, fuzzy
 msgctxt "dlgDiscover.rbt:"
 msgid "Working Tree \\(file oriented\\)"
-msgstr "作業ツリー \\(ファイル指向\\)"
+msgstr "作業ツリー \\(ファイル中心\\)"
 
 #. opening smartgit.bJA@OKBJBN:SmartGit 26.1 RC Evaluation until Jun 6 (smartgit.bJA@41IZG4)
 #. Performing 'discoverWindow, Discover Windows, Discover the different main windows.'
@@ -18752,10 +18749,9 @@ msgstr "\\[https://www.smartgit.dev/window-styles-and-cat-toys/ これらのア�
 #. Performing ', Cancel'
 #. Performing 'preferences, Preferences'
 #. Showing dialog 1 (@WKO20Z) '@XAUOS8 - Preferences' (owner: @41IZG4)
-#, fuzzy
 msgctxt "dlgSgPreferences.rbt:"
 msgid "Log Graph \\(commit oriented\\)"
-msgstr "ロググラフ \\(コミット指向\\)"
+msgstr "ロググラフ \\(コミット中心\\)"
 
 #. opening smartgit.bJA@OKBJBN:SmartGit 26.1 RC Evaluation until Jun 6 (smartgit.bJA@41IZG4)
 #. Performing 'preferences, Preferences'
@@ -18763,10 +18759,9 @@ msgstr "ロググラフ \\(コミット指向\\)"
 #. Performing ', Cancel'
 #. Performing 'preferences, Preferences'
 #. Showing dialog 1 (@WKO20Z) '@XAUOS8 - Preferences' (owner: @41IZG4)
-#, fuzzy
 msgctxt "dlgSgPreferences.rbt:"
 msgid "Working Tree \\(file oriented\\)"
-msgstr "作業ツリー \\(ファイル指向\\)"
+msgstr "作業ツリー \\(ファイル中心\\)"
 
 #. Showing dialog 4 (@E68PKP) '@7F32G8 - Configure Toolbar' (owner: @41IZG4)
 #. Performing ', Remove'
@@ -18874,10 +18869,9 @@ msgstr "smartgit.qT: キャンセルされました"
 #. Showing dialog 0 (@HBGURM) '@X9UB26 - Discover Other SmartGit Windows' (owner: @MIB5LP)
 #. Performing ', Close'
 #. Performing 'ai.commitMessageCompose, AI Commit Message Compose'
-#, fuzzy
 msgctxt "dlgSgAiCommitMessageComposeError.tle:"
 msgid "AI Commit Message"
-msgstr "AI コミットメッセージ"
+msgstr "AIコミットメッセージ"
 
 #. opening smartgit.bJA@5Y5WPC:SmartGit 26.1 RC Evaluation until Jun 6 (smartgit.bJA@MIB5LP)
 #. Performing 'discoverWindow, Discover Windows, Discover the different main windows.'
