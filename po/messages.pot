@@ -19500,3 +19500,129 @@ msgstr ""
 msgctxt "wndStd.tbtResetAdvanced:"
 msgid "Reset current branch \\(HEAD\\) to another commit and keep the difference in Index or Working Tree."
 msgstr ""
+
+# DON'T EDIT, this file will be rewritten!
+# 
+# BUILD: 261029
+#
+#. Performing ', Close'
+#. Performing 'discoverWindow, Discover Windows, Discover the different main windows.'
+#. Showing dialog 1 (@MZUYAG) '@TH63MT - Discover Other SmartGit Windows' (owner: @1KXWU5)
+#. opening smartgit.aCW@UEDNO4:null (smartgit.aCW@37JKQE)
+#. Performing 'discoverWindow, Discover Windows, Discover the different main windows.'
+#. Showing dialog 2 (@IGTXAG) '@DN7RY0 - Discover Other SmartGit Windows' (owner: @37JKQE)
+#. opening smartgit.bTY@GQVHYR:SmartGit 26.1 RC (Working Tree) Evaluation until Jun 6 (smartgit.bTY@B3OD2V) (index=0)
+#. Showing dialog 3 (@SUSZH1) '@G4MFPE - Move and Squash Commit' (owner: @B3OD2V)
+#. Performing ', OK'
+#. Performing ', Close'
+msgctxt "dlgSgHistoryPushedCommitsModifyDisallowed.tle:"
+msgid "Move and Squash Commit"
+msgstr ""
+
+#. Performing ', Investigate'
+#. Performing ', Fetch All'
+#. Performing ', Fetch'
+#. Performing 'remoteFetchAll, Fetch All, Fetch commits from all remote repositories.'
+#. Performing 'revert, Revert..., Undo the changes of an existing commit by "reverse" merging it.'
+#. Showing dialog 29 (@LB2GPO) '@T0FREW - Revert' (owner: @LZXAB0)
+#. Performing ', OK'
+#. Performing 'stdSetModeHistory, Show History, Show the history view.'
+#. Performing 'reset, Reset..., Reset current branch (HEAD) to another commit.'
+#. Showing dialog 30 (@1L92FG) '@PYIXL5 - Reset' (owner: @LZXAB0)
+#. placeholder: $1=<branch_name>, $2=<commit_id>
+msgctxt "dlgSgResetConfirm.hdl:"
+msgid "Do you want to reset '$1' to commit $2?"
+msgstr ""
+
+#. Showing dialog 0 (@N6U9M7) '@MTA4BZ - Setup SmartGit 26.1 RC' (owner: null)
+#. Performing ', Next >'
+#. Showing dialog 1 (@4F9RVP) '@DLGOS5 - Setup SmartGit 26.1 RC' (owner: @N6U9M7)
+#. Performing ', Cancel'
+#. Performing ', Next >'
+msgctxt "dlgSgSetup.hdl:"
+msgid "Looking for a Git installation"
+msgstr ""
+
+#. Showing dialog 0 (@N6U9M7) '@MTA4BZ - Setup SmartGit 26.1 RC' (owner: null)
+msgctxt "dlgSgSetup.lbl:"
+msgid "- Working Tree and Graph\\n- repository tabs"
+msgstr ""
+
+#. Showing dialog 0 (@N6U9M7) '@MTA4BZ - Setup SmartGit 26.1 RC' (owner: null)
+msgctxt "dlgSgSetup.lbl:"
+msgid "- Working Tree as graph node\\n- full feature set"
+msgstr ""
+
+#. Showing dialog 0 (@N6U9M7) '@MTA4BZ - Setup SmartGit 26.1 RC' (owner: null)
+msgctxt "dlgSgSetup.lbl:"
+msgid "- needs Log window for full history\\n- file display from submodules"
+msgstr ""
+
+#. Showing dialog 0 (@N6U9M7) '@MTA4BZ - Setup SmartGit 26.1 RC' (owner: null)
+msgctxt "dlgSgSetup.lbl:"
+msgid "\\[https://www.youtube.com/watch?v\\=T7kLnlS4pC8&t\\=22s Watch our short introduction video\\] to help you choose the best style for your workflow."
+msgstr ""
+
+#. Showing dialog 0 (@N6U9M7) '@MTA4BZ - Setup SmartGit 26.1 RC' (owner: null)
+msgctxt "dlgSgSetup.rbt:"
+msgid "Working Tree \\(file oriented\\)"
+msgstr ""
+
+#. Showing dialog 6 (@7Y4U21) '@ITB2DP - Preferences' (owner: @B3OD2V)
+#. Performing ', Cancel'
+#. Performing 'discoverWindow, Discover Windows, Discover the different main windows.'
+#. Showing dialog 7 (@I84WIT) '@SGIVZ5 - Discover Other SmartGit Windows' (owner: @B3OD2V)
+#. Performing 'preferences, Preferences'
+#. Showing dialog 8 (@M2792) '@EFJI6F - Preferences' (owner: @1KXWU5)
+#. Performing ', Paste'
+#. Performing 'preferences, Preferences'
+#. Showing dialog 9 (@AHK02F) '@J86XES - Preferences' (owner: @B3OD2V)
+#. Performing ', OK'
+msgctxt "wndProject.tbtViewSeparateWtAndIndex:"
+msgid "If selected and Index as well as Working Tree changes are available, show them separately."
+msgstr ""
+
+#. Performing 'preferences, Preferences'
+#. Showing dialog 21 (@8QDTTM) '@C7G5UO - Preferences' (owner: @UY1G4X)
+#. Showing dialog 22 (@YBCWK0) '@5LSZXP - Commit' (owner: @LZXAB0)
+#. Performing ', Don't Replace'
+#. Performing 'stdSetModeHistory, Show History, Show the history view.'
+#. Performing 'showInMyHistory, Show in My History'
+#. Performing ', Show Local Changes'
+#. Performing 'stdSetModeWt, Show Local Changes, Show the local files of the repository (Working Tree).'
+#. Performing 'stdSetModeHistory, Show History, Show the history view.'
+#. Performing ', Regular Expressions, Interpret the search pattern as regular expression.'
+#. placeholder: $1=<remote_name>
+msgctxt "wndStd.mni:"
+msgid "Fetch '\\ud83d\\udd12$1'"
+msgstr ""
+
+#. Performing 'preferences, Preferences'
+#. Showing dialog 21 (@8QDTTM) '@C7G5UO - Preferences' (owner: @UY1G4X)
+#. Showing dialog 22 (@YBCWK0) '@5LSZXP - Commit' (owner: @LZXAB0)
+#. Performing ', Don't Replace'
+#. Performing 'stdSetModeHistory, Show History, Show the history view.'
+#. Performing 'showInMyHistory, Show in My History'
+#. Performing ', Show Local Changes'
+#. Performing 'stdSetModeWt, Show Local Changes, Show the local files of the repository (Working Tree).'
+#. Performing 'stdSetModeHistory, Show History, Show the history view.'
+#. Performing ', Regular Expressions, Interpret the search pattern as regular expression.'
+#. placeholder: $1=<remote_name>
+msgctxt "wndStd.mni:"
+msgid "Fetch '$1' \\(current\\) "
+msgstr ""
+
+#. Performing 'preferences, Preferences'
+#. Showing dialog 21 (@8QDTTM) '@C7G5UO - Preferences' (owner: @UY1G4X)
+#. Showing dialog 22 (@YBCWK0) '@5LSZXP - Commit' (owner: @LZXAB0)
+#. Performing ', Don't Replace'
+#. Performing 'stdSetModeHistory, Show History, Show the history view.'
+#. Performing 'showInMyHistory, Show in My History'
+#. Performing ', Show Local Changes'
+#. Performing 'stdSetModeWt, Show Local Changes, Show the local files of the repository (Working Tree).'
+#. Performing 'stdSetModeHistory, Show History, Show the history view.'
+#. Performing ', Regular Expressions, Interpret the search pattern as regular expression.'
+#. placeholder: $1=<remote_name>
+msgctxt "wndStd.mni:"
+msgid "Fetch '$1'"
+msgstr ""
