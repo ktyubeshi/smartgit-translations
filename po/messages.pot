@@ -18929,3 +18929,47 @@ msgstr ""
 msgctxt "wndLog.tbtRevealPrevCommit:"
 msgid "Go back to previous graph selection."
 msgstr ""
+
+# BUILD: 261029
+# 
+#. opening smartgit.cnT@30B4F8:ja_JP.po - [<repository>\po] - Editor (smartgit.cnT@43ZZDI)
+#. Performing 'file-save, Save, Save file modifications.'
+#. Performing ',   Open in VSCode'
+#. Performing 'stage, Stage, Store working tree files in the index to prepare the next commit.'
+#. Performing 'editCommitMessage, Edit Message...'
+#. Showing dialog 8 (@C9KK0H) '@VVY7TP - Edit Message' (owner: @T9F38C)
+#. Performing ', Cancel'
+#. Performing 'stage, Stage, Store working tree files in the index to prepare the next commit.'
+#. Performing 'editCommitMessage, Edit Message...'
+#. Showing dialog 9 (@527MAN) '@PL6Z95 - Edit Message' (owner: @T9F38C)
+msgctxt "dlgSgHistoryEditMessage.btn:"
+msgid "AI "
+msgstr ""
+
+#. Performing 'file-save, Save, Save file modifications.'
+#. Performing ',   Open in VSCode'
+#. Performing 'stage, Stage, Store working tree files in the index to prepare the next commit.'
+#. Performing 'editCommitMessage, Edit Message...'
+#. Showing dialog 8 (@C9KK0H) '@VVY7TP - Edit Message' (owner: @T9F38C)
+#. Performing ', Cancel'
+#. Performing 'stage, Stage, Store working tree files in the index to prepare the next commit.'
+#. Performing 'editCommitMessage, Edit Message...'
+#. Showing dialog 9 (@527MAN) '@PL6Z95 - Edit Message' (owner: @T9F38C)
+#. Performing '@smartgit.aSl'
+msgctxt "dlgSgHistoryEditMessage.mni:"
+msgid "Reconfigure"
+msgstr ""
+
+#. Performing 'file-save, Save, Save file modifications.'
+#. Performing ',   Open in VSCode'
+#. Performing 'stage, Stage, Store working tree files in the index to prepare the next commit.'
+#. Performing 'editCommitMessage, Edit Message...'
+#. Showing dialog 8 (@C9KK0H) '@VVY7TP - Edit Message' (owner: @T9F38C)
+#. Performing ', Cancel'
+#. Performing 'stage, Stage, Store working tree files in the index to prepare the next commit.'
+#. Performing 'editCommitMessage, Edit Message...'
+#. Showing dialog 9 (@527MAN) '@PL6Z95 - Edit Message' (owner: @T9F38C)
+#. Performing '@smartgit.aSl'
+msgctxt "dlgSgHistoryEditMessage.mni:"
+msgid "github \\(active\\)"
+msgstr ""
