@@ -19125,9 +19125,10 @@ msgstr "github \\(アクティブ\\)"
 #. Performing 'dgPerspectiveOrigins, Origins Perspective, Find out what else happened where the line originates from.
 #. Selected origin candidate can't be investigated because it doesn't reflect a real change.'
 #. Showing dialog 38 (@COS03A) '@1V3OK9 - Origins Perspective' (owner: @15L735)
+#, fuzzy
 msgctxt "dlgDgSetPerspectiveCantSwitch.fur:"
 msgid "Selected origin candidate can't be investigated because it doesn't reflect a real change."
-msgstr ""
+msgstr "選択した由来候補は実際の変更を反映していないため調査できません。"
 
 #. Performing 'fixup, Use Message for Commit'
 #. Performing ', github (active)...'
@@ -19139,9 +19140,10 @@ msgstr ""
 #. Performing ', Cancel'
 #. Performing ', Close'
 #. Performing ', github (active)...'
+#, fuzzy
 msgctxt "dlgScSecretToken.tle:"
 msgid "API Key"
-msgstr ""
+msgstr "APIキー"
 
 #. Performing ', Regular Expressions, Interpret the search pattern as regular expression.'
 #. Performing 'branchAdd, Add Branch..., Add a new branch for the current commit.'
@@ -19153,9 +19155,10 @@ msgstr ""
 #. Performing ', OK'
 #. Performing 'rebaseHeadTo, Rebase..., Apply commits from your current branch to the selected commit.'
 #. Showing dialog 26 (@CCLM6L) '@K3TN5 - Rebase' (owner: @LZXAB0)
+#, fuzzy
 msgctxt "dlgSgHistoryPushedCommitsModifyDisallowed.fur:"
 msgid "If you understand the implications and still wish to proceed, you can enable the option 'Allow modifying pushed commits' in the Preferences."
-msgstr ""
+msgstr "影響を理解したうえで続行する場合は、環境設定で 'Allow modifying pushed commits' オプションを有効にできます。"
 
 #. Performing ', Regular Expressions, Interpret the search pattern as regular expression.'
 #. Performing 'branchAdd, Add Branch..., Add a new branch for the current commit.'
@@ -19167,9 +19170,10 @@ msgstr ""
 #. Performing ', OK'
 #. Performing 'rebaseHeadTo, Rebase..., Apply commits from your current branch to the selected commit.'
 #. Showing dialog 26 (@CCLM6L) '@K3TN5 - Rebase' (owner: @LZXAB0)
+#, fuzzy
 msgctxt "dlgSgHistoryPushedCommitsModifyDisallowed.hdl:"
 msgid "Can't modify an already pushed commit."
-msgstr ""
+msgstr "すでにプッシュされたコミットは変更できません。"
 
 #. Performing 'stdSetModeHistory, Show History, Show the history view.'
 #. Performing ', Regular Expressions, Interpret the search pattern as regular expression.'
@@ -19181,9 +19185,10 @@ msgstr ""
 #. Showing dialog 25 (@YGVTNX) '@746GP9 - Merge' (owner: @LZXAB0)
 #. Performing ', OK'
 #. Performing 'rebaseHeadTo, Rebase..., Apply commits from your current branch to the selected commit.'
+#, fuzzy
 msgctxt "dlgSgHistoryPushedCommitsModifyDisallowed.tle:"
 msgid "Rebase"
-msgstr ""
+msgstr "リベース"
 
 #. Performing 'remoteFetchAll, Fetch All, Fetch commits from all remote repositories.'
 #. Performing 'revert, Revert..., Undo the changes of an existing commit by "reverse" merging it.'
@@ -19195,9 +19200,10 @@ msgstr ""
 #. Performing ', Cancel'
 #. Performing 'resetAdvanced, Reset Advanced..., Reset current branch (HEAD) to another commit and keep the difference in Index or Working Tree.'
 #. Showing dialog 31 (@F88MLG) '@H9RKK8 - Reset' (owner: @LZXAB0)
+#, fuzzy
 msgctxt "dlgSgResetAdv.inf:"
 msgid "Reset the current branch \\(HEAD\\) to the selected commit and optionally update Index and working tree."
-msgstr ""
+msgstr "現在のブランチ \\(HEAD\\) を選択したコミットにリセットし、必要に応じてインデックスと作業ツリーを更新します。"
 
 #. Performing ', Investigate'
 #. Performing ', Fetch All'
@@ -19210,9 +19216,10 @@ msgstr ""
 #. Performing 'reset, Reset..., Reset current branch (HEAD) to another commit.'
 #. Showing dialog 30 (@1L92FG) '@PYIXL5 - Reset' (owner: @LZXAB0)
 #. placeholder: $1=<branch_name>, $2=<commit_id>
+#, fuzzy
 msgctxt "dlgSgResetConfirm.hdl:"
 msgid "Do you want to reset '$1' to commit $2?"
-msgstr ""
+msgstr "'$1' をコミット $2 にリセットしますか？"
 
 #. Performing 'stdSetModeHistory, Show History, Show the history view.'
 #. Performing 'showInMyHistory, Show in My History'
@@ -19224,9 +19231,10 @@ msgstr ""
 #. Showing dialog 23 (@WS7OF7) '@BPH8SB - Add Branch' (owner: @LZXAB0)
 #. Performing 'branchAddTag, Add Tag..., Add a new tag for the current commit.'
 #. Showing dialog 24 (@OWGWS2) '@O08AZZ - Add Tag' (owner: @LZXAB0)
+#, fuzzy
 msgctxt "dlgSgTagAdd.hdl:"
 msgid "Add tag to current branch \\(HEAD\\)"
-msgstr ""
+msgstr "現在のブランチ \\(HEAD\\) にタグを追加"
 
 #. Showing dialog 23 (@WS7OF7) '@BPH8SB - Add Branch' (owner: @LZXAB0)
 #. Performing 'branchAddTag, Add Tag..., Add a new tag for the current commit.'
@@ -19238,9 +19246,10 @@ msgstr ""
 #. Showing dialog 26 (@CCLM6L) '@K3TN5 - Rebase' (owner: @LZXAB0)
 #. Performing ', OK'
 #. Performing 'cherryPick, Cherry-Pick..., Cherry-pick commits from other branches.'
+#, fuzzy
 msgctxt "dlgStdPickCommitWtDirty.tle:"
 msgid "Cherry-Pick"
-msgstr ""
+msgstr "チェリーピック"
 
 #. Performing 'stdSetModeHistory, Show History, Show the history view.'
 #. Performing ', Reset'
@@ -19252,9 +19261,10 @@ msgstr ""
 #. Performing ', Fetch'
 #. Performing 'remoteFetchAll, Fetch All, Fetch commits from all remote repositories.'
 #. Performing 'revert, Revert..., Undo the changes of an existing commit by "reverse" merging it.'
+#, fuzzy
 msgctxt "dlgStdPickCommitWtDirty.tle:"
 msgid "Revert"
-msgstr ""
+msgstr "リバート"
 
 #. Performing ', OK'
 #. Performing 'stdSetModeHistory, Show History, Show the history view.'
@@ -19266,9 +19276,10 @@ msgstr ""
 #. Performing ', Fetch All'
 #. Performing ', Fetch'
 #. Performing 'remoteFetchAll, Fetch All, Fetch commits from all remote repositories.'
+#, fuzzy
 msgctxt "pop:"
 msgid "Fetched nothing new"
-msgstr ""
+msgstr "新しくフェッチされたものはありません"
 
 #. Performing 'refresh, Refresh, Refresh the log view.'
 #. Performing 'showChanges, Show Changes, Open the file compare for the selected file.'
@@ -19280,9 +19291,10 @@ msgstr ""
 #. Performing 'dgPerspectiveHistory, Diff Perspective, Investigate Diff between file's revisions.'
 #. Performing 'dgPerspectiveBlameSimple, Blame Perspective, Find where the line originates from in simple cases when there are no alternative Origins.'
 #. Performing 'dgPerspectiveBlameOrigin, Blame+Origins Perspective, Find where the line originates from in cases where you need to choose from one of possible Origins.'
+#, fuzzy
 msgctxt "wndDeepgit.tbtDgPerspectiveOrigins:"
 msgid "Find out what else happened where the line originates from.\\n\\nSelected origin candidate can't be investigated because it doesn't reflect a real change."
-msgstr ""
+msgstr "その行の由来となった場所で他に何が起きたかを調べます。\\n\\n選択した由来候補は実際の変更を反映していないため調査できません。"
 
 #. Showing dialog 6 (@81JEF) '@2YVFX2 - AI Upload Consent' (owner: @2DC2B)
 #. Performing ', Allow'
@@ -19294,9 +19306,10 @@ msgstr ""
 #. Performing ', github (active)...'
 #. Showing dialog 9 (@RKZ6UC) '@5BKZ6O - API Key' (owner: @2DC2B)
 #. Performing ', Cancel'
+#, fuzzy
 msgctxt "wndLog.tbt:"
 msgid "No hosting provider available"
-msgstr ""
+msgstr "利用可能なホスティングプロバイダーがありません"
 
 #. Performing 'previewCompareHeadVsIndex, HEAD vs. Index, Show changes between index (staged state) and HEAD (repository state).'
 #. Performing 'previewCompareIndexVsWT, Index vs. Working Tree, Show changes between local file (working tree) and Index (staged state).'
@@ -19308,9 +19321,10 @@ msgstr ""
 #. Performing 'view-ignore-whitespaces, Ignore Whitespace, Ignore irrelevant whitespace'
 #. Performing 'preferences, Preferences'
 #. Showing dialog 21 (@8QDTTM) '@C7G5UO - Preferences' (owner: @UY1G4X)
+#, fuzzy
 msgctxt "wndProject.tbr:"
 msgid "Discover"
-msgstr ""
+msgstr "スタイルを試す"
 
 #. Performing 'flowContext, Git-Flow..., Configure Git-Flow.'
 #. Performing 'flowConfigure, Configure...'
@@ -19322,9 +19336,10 @@ msgstr ""
 #. Performing ', Cancel'
 #. Performing ', Cancel'
 #. Performing ', Close'
+#, fuzzy
 msgctxt "wndProject.tbt:"
 msgid "Close"
-msgstr ""
+msgstr "閉じる"
 
 #. Performing 'previewCompareHeadVsIndex, HEAD vs. Index, Show changes between index (staged state) and HEAD (repository state).'
 #. Performing 'previewCompareIndexVsWT, Index vs. Working Tree, Show changes between local file (working tree) and Index (staged state).'
@@ -19336,9 +19351,10 @@ msgstr ""
 #. Performing 'view-ignore-whitespaces, Ignore Whitespace, Ignore irrelevant whitespace'
 #. Performing 'preferences, Preferences'
 #. Showing dialog 21 (@8QDTTM) '@C7G5UO - Preferences' (owner: @UY1G4X)
+#, fuzzy
 msgctxt "wndProject.tbtDiscoverWindow:"
 msgid "Discover the different main windows."
-msgstr ""
+msgstr "SmartGit のウィンドウスタイルを試します。"
 
 #. Performing ', Close'
 #. Performing 'discoverWindow, Discover Windows, Discover the different main windows.'
@@ -19350,9 +19366,10 @@ msgstr ""
 #. Performing 'flowContext, Git-Flow..., Configure Git-Flow.'
 #. Performing 'flowConfigure, Configure...'
 #. Showing dialog 18 (@SZM9NW) '@39VXY3 - Configure Git-Flow' (owner: @UY1G4X)
+#, fuzzy
 msgctxt "wndProject.tbtFlowContext:"
 msgid "Configure Git-Flow."
-msgstr ""
+msgstr "Git-Flow を設定します。"
 
 #. Performing 'view-ignore-whitespaces, Ignore Whitespace, Ignore irrelevant whitespace'
 #. Performing 'preferences, Preferences'
@@ -19364,9 +19381,10 @@ msgstr ""
 #. Performing ', Show Local Changes'
 #. Performing 'stdSetModeWt, Show Local Changes, Show the local files of the repository (Working Tree).'
 #. Performing 'stdSetModeHistory, Show History, Show the history view.'
+#, fuzzy
 msgctxt "wndStd.hnt:"
 msgid "This commit is empty."
-msgstr ""
+msgstr "このコミットは空です。"
 
 #. Performing 'preferences, Preferences'
 #. Showing dialog 21 (@8QDTTM) '@C7G5UO - Preferences' (owner: @UY1G4X)
@@ -19378,9 +19396,10 @@ msgstr ""
 #. Performing 'stdSetModeWt, Show Local Changes, Show the local files of the repository (Working Tree).'
 #. Performing 'stdSetModeHistory, Show History, Show the history view.'
 #. Performing ', Regular Expressions, Interpret the search pattern as regular expression.'
+#, fuzzy
 msgctxt "wndStd.mni:"
 msgid "Always Show Tags"
-msgstr ""
+msgstr "常にタグを表示"
 
 #. Performing 'changesView.sideBySide, Side by Side'
 #. Performing 'changesView.compact, Compact'
@@ -19392,9 +19411,10 @@ msgstr ""
 #. Showing dialog 22 (@YBCWK0) '@5LSZXP - Commit' (owner: @LZXAB0)
 #. Performing ', Don't Replace'
 #. Performing 'stdSetModeHistory, Show History, Show the history view.'
+#, fuzzy
 msgctxt "wndStd.mni:"
 msgid "Ask AI"
-msgstr ""
+msgstr "AI に尋ねる"
 
 #. Performing 'revert, Revert..., Undo the changes of an existing commit by "reverse" merging it.'
 #. Showing dialog 28 (@XQDN09) '@ZA858E - Revert' (owner: @LZXAB0)
@@ -19406,9 +19426,10 @@ msgstr ""
 #. Performing ', Blame'
 #. Performing ', Investigate'
 #. Performing ', Fetch All'
+#, fuzzy
 msgctxt "wndStd.mni:"
 msgid "Browse"
-msgstr ""
+msgstr "参照"
 
 #. Performing 'revert, Revert..., Undo the changes of an existing commit by "reverse" merging it.'
 #. Showing dialog 28 (@XQDN09) '@ZA858E - Revert' (owner: @LZXAB0)
@@ -19420,9 +19441,10 @@ msgstr ""
 #. Performing ', Blame'
 #. Performing ', Investigate'
 #. Performing ', Fetch All'
+#, fuzzy
 msgctxt "wndStd.mni:"
 msgid "Cherry-Pick"
-msgstr ""
+msgstr "チェリーピック"
 
 #. Performing 'previewCompareHeadVsIndex, HEAD vs. Index, Show changes between index (staged state) and HEAD (repository state).'
 #. Performing 'previewCompareIndexVsWT, Index vs. Working Tree, Show changes between local file (working tree) and Index (staged state).'
@@ -19434,9 +19456,10 @@ msgstr ""
 #. Performing 'view-ignore-whitespaces, Ignore Whitespace, Ignore irrelevant whitespace'
 #. Performing 'preferences, Preferences'
 #. Showing dialog 21 (@8QDTTM) '@C7G5UO - Preferences' (owner: @UY1G4X)
+#, fuzzy
 msgctxt "wndStd.mni:"
 msgid "Discard"
-msgstr ""
+msgstr "破棄"
 
 #. Performing 'preferences, Preferences'
 #. Showing dialog 21 (@8QDTTM) '@C7G5UO - Preferences' (owner: @UY1G4X)
@@ -19449,9 +19472,10 @@ msgstr ""
 #. Performing 'stdSetModeHistory, Show History, Show the history view.'
 #. Performing ', Regular Expressions, Interpret the search pattern as regular expression.'
 #. placeholder: $1=<remote_name>
+#, fuzzy
 msgctxt "wndStd.mni:"
 msgid "Fetch '\\ud83d\\udd12$1'"
-msgstr ""
+msgstr "'\\ud83d\\udd12$1' をフェッチ"
 
 #. Performing 'preferences, Preferences'
 #. Showing dialog 21 (@8QDTTM) '@C7G5UO - Preferences' (owner: @UY1G4X)
@@ -19464,9 +19488,10 @@ msgstr ""
 #. Performing 'stdSetModeHistory, Show History, Show the history view.'
 #. Performing ', Regular Expressions, Interpret the search pattern as regular expression.'
 #. placeholder: $1=<remote_name>
+#, fuzzy
 msgctxt "wndStd.mni:"
 msgid "Fetch '$1' \\(current\\) "
-msgstr ""
+msgstr "'$1' をフェッチ \\(現在\\) "
 
 #. Performing 'preferences, Preferences'
 #. Showing dialog 21 (@8QDTTM) '@C7G5UO - Preferences' (owner: @UY1G4X)
@@ -19479,9 +19504,10 @@ msgstr ""
 #. Performing 'stdSetModeHistory, Show History, Show the history view.'
 #. Performing ', Regular Expressions, Interpret the search pattern as regular expression.'
 #. placeholder: $1=<remote_name>
+#, fuzzy
 msgctxt "wndStd.mni:"
 msgid "Fetch '$1'"
-msgstr ""
+msgstr "'$1' をフェッチ"
 
 #. Performing 'preferences, Preferences'
 #. Showing dialog 21 (@8QDTTM) '@C7G5UO - Preferences' (owner: @UY1G4X)
@@ -19493,9 +19519,10 @@ msgstr ""
 #. Performing 'stdSetModeWt, Show Local Changes, Show the local files of the repository (Working Tree).'
 #. Performing 'stdSetModeHistory, Show History, Show the history view.'
 #. Performing ', Regular Expressions, Interpret the search pattern as regular expression.'
+#, fuzzy
 msgctxt "wndStd.mni:"
 msgid "Pull from all remotes"
-msgstr ""
+msgstr "すべてのリモートからプル"
 
 #. Performing 'revert, Revert..., Undo the changes of an existing commit by "reverse" merging it.'
 #. Showing dialog 28 (@XQDN09) '@ZA858E - Revert' (owner: @LZXAB0)
@@ -19507,9 +19534,10 @@ msgstr ""
 #. Performing ', Blame'
 #. Performing ', Investigate'
 #. Performing ', Fetch All'
+#, fuzzy
 msgctxt "wndStd.mni:"
 msgid "Revert"
-msgstr ""
+msgstr "リバート"
 
 #. Performing 'view-ignore-whitespaces, Ignore Whitespace, Ignore irrelevant whitespace'
 #. Performing 'preferences, Preferences'
@@ -19521,9 +19549,10 @@ msgstr ""
 #. Performing ', Show Local Changes'
 #. Performing 'stdSetModeWt, Show Local Changes, Show the local files of the repository (Working Tree).'
 #. Performing 'stdSetModeHistory, Show History, Show the history view.'
+#, fuzzy
 msgctxt "wndStd.mni:"
 msgid "Show Intermediate Commits"
-msgstr ""
+msgstr "中間コミットを表示"
 
 #. Performing 'preferences, Preferences'
 #. Showing dialog 21 (@8QDTTM) '@C7G5UO - Preferences' (owner: @UY1G4X)
@@ -19535,9 +19564,10 @@ msgstr ""
 #. Performing 'stdSetModeWt, Show Local Changes, Show the local files of the repository (Working Tree).'
 #. Performing 'stdSetModeHistory, Show History, Show the history view.'
 #. Performing ', Regular Expressions, Interpret the search pattern as regular expression.'
+#, fuzzy
 msgctxt "wndStd.mni:"
 msgid "Sort By Date"
-msgstr ""
+msgstr "日付で並べ替え"
 
 #. Performing 'preferences, Preferences'
 #. Showing dialog 21 (@8QDTTM) '@C7G5UO - Preferences' (owner: @UY1G4X)
@@ -19549,9 +19579,10 @@ msgstr ""
 #. Performing 'stdSetModeWt, Show Local Changes, Show the local files of the repository (Working Tree).'
 #. Performing 'stdSetModeHistory, Show History, Show the history view.'
 #. Performing ', Regular Expressions, Interpret the search pattern as regular expression.'
+#, fuzzy
 msgctxt "wndStd.mni:"
 msgid "Sort By Name \\(numbers reversed\\)"
-msgstr ""
+msgstr "名前で並べ替え \\(数値は逆順\\)"
 
 #. Performing 'preferences, Preferences'
 #. Showing dialog 21 (@8QDTTM) '@C7G5UO - Preferences' (owner: @UY1G4X)
@@ -19563,9 +19594,10 @@ msgstr ""
 #. Performing 'stdSetModeWt, Show Local Changes, Show the local files of the repository (Working Tree).'
 #. Performing 'stdSetModeHistory, Show History, Show the history view.'
 #. Performing ', Regular Expressions, Interpret the search pattern as regular expression.'
+#, fuzzy
 msgctxt "wndStd.mni:"
 msgid "Sort By Name"
-msgstr ""
+msgstr "名前で並べ替え"
 
 #. Performing 'changesView.sideBySide, Side by Side'
 #. Performing 'changesView.compact, Compact'
@@ -19577,9 +19609,10 @@ msgstr ""
 #. Showing dialog 22 (@YBCWK0) '@5LSZXP - Commit' (owner: @LZXAB0)
 #. Performing ', Don't Replace'
 #. Performing 'stdSetModeHistory, Show History, Show the history view.'
+#, fuzzy
 msgctxt "wndStd.mniShowInMyHistory:"
 msgid "Show in My History"
-msgstr ""
+msgstr "マイヒストリーに表示"
 
 #. Performing ', OK'
 #. Performing 'stdSetModeHistory, Show History, Show the history view.'
@@ -19591,9 +19624,10 @@ msgstr ""
 #. Performing ', Cancel'
 #. Performing 'log, Log, Show the history for selected file or directory.'
 #. opening smartgit.bFP@XDIYDG:messages.pot [<repository>] - Log for po/messages.pot@<commit> (smartgit.bFP@Z2EOIY)
+#, fuzzy
 msgctxt "wndStd.tbr:"
 msgid "Fetch All"
-msgstr ""
+msgstr "すべてフェッチ"
 
 #. Performing ', OK'
 #. Performing 'stdSetModeHistory, Show History, Show the history view.'
@@ -19605,9 +19639,10 @@ msgstr ""
 #. Performing ', Fetch All'
 #. Performing ', Fetch'
 #. Performing 'remoteFetchAll, Fetch All, Fetch commits from all remote repositories.'
+#, fuzzy
 msgctxt "wndStd.tbtRemoteFetchAll:"
 msgid "Fetch commits from all remote repositories."
-msgstr ""
+msgstr "すべてのリモートリポジトリからコミットを取得します。"
 
 #. Performing ', Log'
 #. Performing ', Blame'
@@ -19619,9 +19654,10 @@ msgstr ""
 #. Showing dialog 29 (@LB2GPO) '@T0FREW - Revert' (owner: @LZXAB0)
 #. Performing ', OK'
 #. Performing 'stdSetModeHistory, Show History, Show the history view.'
+#, fuzzy
 msgctxt "wndStd.tbtReset:"
 msgid "Reset current branch \\(HEAD\\) to another commit."
-msgstr ""
+msgstr "現在のブランチ \\(HEAD\\) を別のコミットにリセットします。"
 
 #. Performing ', Fetch All'
 #. Performing ', Fetch'
@@ -19633,9 +19669,10 @@ msgstr ""
 #. Performing 'reset, Reset..., Reset current branch (HEAD) to another commit.'
 #. Showing dialog 30 (@1L92FG) '@PYIXL5 - Reset' (owner: @LZXAB0)
 #. Performing ', Cancel'
+#, fuzzy
 msgctxt "wndStd.tbtResetAdvanced:"
 msgid "Reset current branch \\(HEAD\\) to another commit and keep the difference in Index or Working Tree."
-msgstr ""
+msgstr "現在のブランチ \\(HEAD\\) を別のコミットにリセットし、差分をインデックスまたは作業ツリーに残します。"
 
 #~ msgctxt "dlgSgOutput.lbl:"
 #~ msgid "stash failed \\(return code $1\\)"
