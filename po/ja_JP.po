@@ -18568,7 +18568,6 @@ msgstr "作業ツリーから開く"
 #. opening smartgit.bJA@OKBJBN:SmartGit 26.1 RC Evaluation until Jun 6 (smartgit.bJA@41IZG4)
 #. Performing 'discoverWindow, Discover Windows, Discover the different main windows.'
 #. Showing dialog 0 (@L7GL7P) '@VC8WLC - Discover Other SmartGit Windows' (owner: @41IZG4)
-#, fuzzy
 msgctxt "dlgDiscover.btn:"
 msgid "Change Default in Preferences"
 msgstr "デフォルトを環境設定で変更"
@@ -18576,7 +18575,6 @@ msgstr "デフォルトを環境設定で変更"
 #. opening smartgit.bJA@OKBJBN:SmartGit 26.1 RC Evaluation until Jun 6 (smartgit.bJA@41IZG4)
 #. Performing 'discoverWindow, Discover Windows, Discover the different main windows.'
 #. Showing dialog 0 (@L7GL7P) '@VC8WLC - Discover Other SmartGit Windows' (owner: @41IZG4)
-#, fuzzy
 msgctxt "dlgDiscover.lbl:"
 msgid "- Working Tree and Graph\\n- repository tabs"
 msgstr "- 作業ツリーとグラフ\\n- リポジトリタブ"
@@ -18584,7 +18582,6 @@ msgstr "- 作業ツリーとグラフ\\n- リポジトリタブ"
 #. opening smartgit.bJA@OKBJBN:SmartGit 26.1 RC Evaluation until Jun 6 (smartgit.bJA@41IZG4)
 #. Performing 'discoverWindow, Discover Windows, Discover the different main windows.'
 #. Showing dialog 0 (@L7GL7P) '@VC8WLC - Discover Other SmartGit Windows' (owner: @41IZG4)
-#, fuzzy
 msgctxt "dlgDiscover.lbl:"
 msgid "- Working Tree as graph node\\n- full feature set"
 msgstr "- グラフノードとしての作業ツリー\\n- すべての機能セット"
@@ -18592,7 +18589,6 @@ msgstr "- グラフノードとしての作業ツリー\\n- すべての機能�
 #. opening smartgit.bJA@OKBJBN:SmartGit 26.1 RC Evaluation until Jun 6 (smartgit.bJA@41IZG4)
 #. Performing 'discoverWindow, Discover Windows, Discover the different main windows.'
 #. Showing dialog 0 (@L7GL7P) '@VC8WLC - Discover Other SmartGit Windows' (owner: @41IZG4)
-#, fuzzy
 msgctxt "dlgDiscover.lbl:"
 msgid "- needs Log window for full history\\n- file display from submodules"
 msgstr "- 完全な履歴にはログウィンドウが必要\\n- サブモジュールからのファイル表示"
@@ -18600,7 +18596,6 @@ msgstr "- 完全な履歴にはログウィンドウが必要\\n- サブモジ�
 #. opening smartgit.bJA@OKBJBN:SmartGit 26.1 RC Evaluation until Jun 6 (smartgit.bJA@41IZG4)
 #. Performing 'discoverWindow, Discover Windows, Discover the different main windows.'
 #. Showing dialog 0 (@L7GL7P) '@VC8WLC - Discover Other SmartGit Windows' (owner: @41IZG4)
-#, fuzzy
 msgctxt "dlgDiscover.lbl:"
 msgid "\\[https://www.smartgit.dev/window-styles-and-cat-toys/ What are these icons?\\]"
 msgstr "\\[https://www.smartgit.dev/window-styles-and-cat-toys/ これらのアイコンは何ですか？\\]"
@@ -18628,7 +18623,6 @@ msgstr "作業ツリー \\(ファイル中心\\)"
 
 #. opening smartgit.bJA@OKBJBN:SmartGit 26.1 RC Evaluation until Jun 6 (smartgit.bJA@41IZG4)
 #. Performing 'discoverWindow, Discover Windows, Discover the different main windows.'
-#, fuzzy
 msgctxt "dlgDiscover.tle:"
 msgid "Discover Other SmartGit Windows"
 msgstr "SmartGit のウィンドウスタイルを選択"
@@ -18683,7 +18677,6 @@ msgstr "起動時に最後に使用したリポジトリを再度開く"
 #. Performing ', Cancel'
 #. Performing 'preferences, Preferences'
 #. Showing dialog 1 (@WKO20Z) '@XAUOS8 - Preferences' (owner: @41IZG4)
-#, fuzzy
 msgctxt "dlgSgPreferences.chk:"
 msgid "Show Discover toolbar button"
 msgstr "「スタイル」ツールバーボタンを表示"
@@ -18694,7 +18687,6 @@ msgstr "「スタイル」ツールバーボタンを表示"
 #. Performing ', Cancel'
 #. Performing 'preferences, Preferences'
 #. Showing dialog 1 (@WKO20Z) '@XAUOS8 - Preferences' (owner: @41IZG4)
-#, fuzzy
 msgctxt "dlgSgPreferences.lbl:"
 msgid "- Working Tree and Graph\\n- repository tabs"
 msgstr "- 作業ツリーとグラフ\\n- リポジトリタブ"
@@ -18705,7 +18697,6 @@ msgstr "- 作業ツリーとグラフ\\n- リポジトリタブ"
 #. Performing ', Cancel'
 #. Performing 'preferences, Preferences'
 #. Showing dialog 1 (@WKO20Z) '@XAUOS8 - Preferences' (owner: @41IZG4)
-#, fuzzy
 msgctxt "dlgSgPreferences.lbl:"
 msgid "- Working Tree as graph node\\n- full feature set"
 msgstr "- グラフノードとしての作業ツリー\\n- すべての機能セット"
@@ -18716,7 +18707,6 @@ msgstr "- グラフノードとしての作業ツリー\\n- すべての機能�
 #. Performing ', Cancel'
 #. Performing 'preferences, Preferences'
 #. Showing dialog 1 (@WKO20Z) '@XAUOS8 - Preferences' (owner: @41IZG4)
-#, fuzzy
 msgctxt "dlgSgPreferences.lbl:"
 msgid "- needs Log window for full history\\n- file display from submodules"
 msgstr "- 完全な履歴にはログウィンドウが必要\\n- サブモジュールからのファイル表示"
@@ -18738,7 +18728,6 @@ msgstr "プル"
 #. Performing ', Cancel'
 #. Performing 'preferences, Preferences'
 #. Showing dialog 1 (@WKO20Z) '@XAUOS8 - Preferences' (owner: @41IZG4)
-#, fuzzy
 msgctxt "dlgSgPreferences.lbl:"
 msgid "\\[https://www.smartgit.dev/window-styles-and-cat-toys/ What are these icons?\\]"
 msgstr "\\[https://www.smartgit.dev/window-styles-and-cat-toys/ これらのアイコンは何ですか？\\]"
@@ -18793,10 +18782,9 @@ msgstr "プロバイダー"
 #. Performing '@smartgit.bJK'
 #. Performing '@smartgit.bJK'
 #. Performing '@smartgit.bJK'
-#, fuzzy
 msgctxt "wndLog.tbr:"
 msgid "Discover"
-msgstr "スタイルを試す"
+msgstr "スタイル"
 
 #. Performing ', Cancel'
 #. Performing 'preferences, Preferences'
@@ -18823,7 +18811,6 @@ msgstr "閉じる"
 #. Performing ', Variables'
 #. Performing ', Cancel'
 #. Performing ', Cancel'
-#, fuzzy
 msgctxt "wndLog.tbtDiscoverWindow:"
 msgid "Discover the different main windows."
 msgstr "SmartGit のウィンドウスタイルを試します。"
@@ -18989,10 +18976,9 @@ msgstr "参照"
 #. Performing ', OK'
 #. Performing ', Cancel'
 #. Performing 'stdSetModeHistory, Show History, Show the history view.'
-#, fuzzy
 msgctxt "wndStd.tbr:"
 msgid "Discover"
-msgstr "スタイルを試す"
+msgstr "スタイル"
 
 #. opening smartgit.bJA@UV1WWG:SmartGit 26.1 RC Evaluation until Jun 6 (smartgit.bJA@YB7QZ9)
 #. Performing 'newStandardWindow, Show Standard Window'
@@ -19001,7 +18987,6 @@ msgstr "スタイルを試す"
 #. Performing 'discoverWindow, Discover Windows, Discover the different main windows.'
 #. Showing dialog 0 (@N10L6O) '@GSVIBM - Discover Other SmartGit Windows' (owner: @XFVNVI)
 #. Performing ', Close'
-#, fuzzy
 msgctxt "wndStd.tbtDiscoverWindow:"
 msgid "Discover the different main windows."
 msgstr "SmartGit のウィンドウスタイルを試します。"
@@ -19305,10 +19290,9 @@ msgstr "利用可能なホスティングプロバイダーがありません"
 #. Performing 'view-ignore-whitespaces, Ignore Whitespace, Ignore irrelevant whitespace'
 #. Performing 'preferences, Preferences'
 #. Showing dialog 21 (@8QDTTM) '@C7G5UO - Preferences' (owner: @UY1G4X)
-#, fuzzy
 msgctxt "wndProject.tbr:"
 msgid "Discover"
-msgstr "スタイルを試す"
+msgstr "スタイル"
 
 #. Performing 'flowContext, Git-Flow..., Configure Git-Flow.'
 #. Performing 'flowConfigure, Configure...'
@@ -19335,7 +19319,6 @@ msgstr "閉じる"
 #. Performing 'view-ignore-whitespaces, Ignore Whitespace, Ignore irrelevant whitespace'
 #. Performing 'preferences, Preferences'
 #. Showing dialog 21 (@8QDTTM) '@C7G5UO - Preferences' (owner: @UY1G4X)
-#, fuzzy
 msgctxt "wndProject.tbtDiscoverWindow:"
 msgid "Discover the different main windows."
 msgstr "SmartGit のウィンドウスタイルを試します。"
@@ -19656,31 +19639,26 @@ msgid "Looking for a Git installation"
 msgstr "Git インストールを検索中"
 
 #. Showing dialog 0 (@N6U9M7) '@MTA4BZ - Setup SmartGit 26.1 RC' (owner: null)
-#, fuzzy
 msgctxt "dlgSgSetup.lbl:"
 msgid "- Working Tree and Graph\\n- repository tabs"
 msgstr "- 作業ツリーとグラフ\\n- リポジトリタブ"
 
 #. Showing dialog 0 (@N6U9M7) '@MTA4BZ - Setup SmartGit 26.1 RC' (owner: null)
-#, fuzzy
 msgctxt "dlgSgSetup.lbl:"
 msgid "- Working Tree as graph node\\n- full feature set"
 msgstr "- グラフノードとしての作業ツリー\\n- すべての機能セット"
 
 #. Showing dialog 0 (@N6U9M7) '@MTA4BZ - Setup SmartGit 26.1 RC' (owner: null)
-#, fuzzy
 msgctxt "dlgSgSetup.lbl:"
 msgid "- needs Log window for full history\\n- file display from submodules"
 msgstr "- 完全な履歴にはログウィンドウが必要\\n- サブモジュールからのファイル表示"
 
 #. Showing dialog 0 (@N6U9M7) '@MTA4BZ - Setup SmartGit 26.1 RC' (owner: null)
-#, fuzzy
 msgctxt "dlgSgSetup.lbl:"
 msgid "\\[https://www.youtube.com/watch?v\\=T7kLnlS4pC8&t\\=22s Watch our short introduction video\\] to help you choose the best style for your workflow."
 msgstr "\\[https://www.youtube.com/watch?v\\=T7kLnlS4pC8&t\\=22s 短い紹介動画を見る\\] と、ワークフローに最適なスタイルを選ぶ参考になります。"
 
 #. Showing dialog 0 (@N6U9M7) '@MTA4BZ - Setup SmartGit 26.1 RC' (owner: null)
-#, fuzzy
 msgctxt "dlgSgSetup.rbt:"
 msgid "Working Tree \\(file oriented\\)"
 msgstr "作業ツリー \\(ファイル中心\\)"
