@@ -19767,3 +19767,45 @@ msgstr ""
 msgctxt "wndStd.tbtStdProviderButton:"
 msgid "Select a provider"
 msgstr ""
+
+# DON'T EDIT, this file will be rewritten!
+#
+# BUILD: 261030
+#
+#. Performing 'editFile, Edit File'
+#. opening smartgit.cnX@YBUNGG:<file_name> - [<directory>] - Editor (smartgit.cnX@6JY7GI)
+#. Performing 'editFile, Edit File'
+#. opening smartgit.cnX@CDPQKI:messages.pot - [<directory>] - Editor (smartgit.cnX@N7UD4X)
+#. Performing 'file-save, Save, Save file modifications.'
+#. Performing 'stage, Stage, Store working tree files in the index to prepare the next commit.'
+#. Performing ', Close'
+#. Performing 'branchesSectionizeCompact,   Except for single refs'
+#. Performing 'branchesSectionizeCompact,   Except for single refs'
+#. Performing 'branchesSelectObsolete, Select Obsolete Local Branches'
+msgctxt "pop:"
+msgid "There are no obsolete local branches."
+msgstr ""
+
+#. opening smartgit.bJA@17M3SU:SmartGit 26.1 RC Evaluation until <date> (smartgit.bJA@4LR1I8)
+#. Performing ', Close'
+#. Performing 'stage, Stage, Store working tree files in the index to prepare the next commit.'
+#. Performing 'fixup, Use Message for Commit'
+#. Performing ', Close'
+#. Performing ', Push'
+#. Showing dialog 0 (@VUCTUV) '@CCLW38 - Push' (owner: @4LR1I8)
+#. Performing ', Push'
+msgctxt "wndLog.mni:"
+msgid "Providers"
+msgstr ""
+
+#. opening smartgit.bJA@17M3SU:SmartGit 26.1 RC Evaluation until <date> (smartgit.bJA@4LR1I8)
+#. Performing ', Close'
+#. Performing 'stage, Stage, Store working tree files in the index to prepare the next commit.'
+#. Performing 'fixup, Use Message for Commit'
+#. Performing ', Close'
+#. Performing ', Push'
+#. Showing dialog 0 (@VUCTUV) '@CCLW38 - Push' (owner: @4LR1I8)
+#. Performing ', Push'
+msgctxt "wndLog.tbt:"
+msgid "Select a provider"
+msgstr ""
