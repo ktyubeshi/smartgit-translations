@@ -19063,21 +19063,6 @@ msgctxt "dlgSgResetAdv.inf:"
 msgid "Reset the current branch \\(HEAD\\) to the selected commit and optionally update Index and working tree."
 msgstr ""
 
-#. Performing ', Investigate'
-#. Performing ', Fetch All'
-#. Performing ', Fetch'
-#. Performing 'remoteFetchAll, Fetch All, Fetch commits from all remote repositories.'
-#. Performing 'revert, Revert..., Undo the changes of an existing commit by "reverse" merging it.'
-#. Showing dialog 29 (@LB2GPO) '@T0FREW - Revert' (owner: @LZXAB0)
-#. Performing ', OK'
-#. Performing 'stdSetModeHistory, Show History, Show the history view.'
-#. Performing 'reset, Reset..., Reset current branch (HEAD) to another commit.'
-#. Showing dialog 30 (@1L92FG) '@PYIXL5 - Reset' (owner: @LZXAB0)
-#. placeholder: $1=<branch_name>, $2=<commit_id>
-msgctxt "dlgSgResetConfirm.hdl:"
-msgid "Do you want to reset '$1' to commit $2?"
-msgstr ""
-
 #. Performing 'stdSetModeHistory, Show History, Show the history view.'
 #. Performing 'showInMyHistory, Show in My History'
 #. Performing ', Show Local Changes'
@@ -19300,51 +19285,6 @@ msgstr ""
 #. Showing dialog 21 (@8QDTTM) '@C7G5UO - Preferences' (owner: @UY1G4X)
 msgctxt "wndStd.mni:"
 msgid "Discard"
-msgstr ""
-
-#. Performing 'preferences, Preferences'
-#. Showing dialog 21 (@8QDTTM) '@C7G5UO - Preferences' (owner: @UY1G4X)
-#. Showing dialog 22 (@YBCWK0) '@5LSZXP - Commit' (owner: @LZXAB0)
-#. Performing ', Don't Replace'
-#. Performing 'stdSetModeHistory, Show History, Show the history view.'
-#. Performing 'showInMyHistory, Show in My History'
-#. Performing ', Show Local Changes'
-#. Performing 'stdSetModeWt, Show Local Changes, Show the local files of the repository (Working Tree).'
-#. Performing 'stdSetModeHistory, Show History, Show the history view.'
-#. Performing ', Regular Expressions, Interpret the search pattern as regular expression.'
-#. placeholder: $1=<remote_name>
-msgctxt "wndStd.mni:"
-msgid "Fetch '\\ud83d\\udd12$1'"
-msgstr ""
-
-#. Performing 'preferences, Preferences'
-#. Showing dialog 21 (@8QDTTM) '@C7G5UO - Preferences' (owner: @UY1G4X)
-#. Showing dialog 22 (@YBCWK0) '@5LSZXP - Commit' (owner: @LZXAB0)
-#. Performing ', Don't Replace'
-#. Performing 'stdSetModeHistory, Show History, Show the history view.'
-#. Performing 'showInMyHistory, Show in My History'
-#. Performing ', Show Local Changes'
-#. Performing 'stdSetModeWt, Show Local Changes, Show the local files of the repository (Working Tree).'
-#. Performing 'stdSetModeHistory, Show History, Show the history view.'
-#. Performing ', Regular Expressions, Interpret the search pattern as regular expression.'
-#. placeholder: $1=<remote_name>
-msgctxt "wndStd.mni:"
-msgid "Fetch '$1' \\(current\\) "
-msgstr ""
-
-#. Performing 'preferences, Preferences'
-#. Showing dialog 21 (@8QDTTM) '@C7G5UO - Preferences' (owner: @UY1G4X)
-#. Showing dialog 22 (@YBCWK0) '@5LSZXP - Commit' (owner: @LZXAB0)
-#. Performing ', Don't Replace'
-#. Performing 'stdSetModeHistory, Show History, Show the history view.'
-#. Performing 'showInMyHistory, Show in My History'
-#. Performing ', Show Local Changes'
-#. Performing 'stdSetModeWt, Show Local Changes, Show the local files of the repository (Working Tree).'
-#. Performing 'stdSetModeHistory, Show History, Show the history view.'
-#. Performing ', Regular Expressions, Interpret the search pattern as regular expression.'
-#. placeholder: $1=<remote_name>
-msgctxt "wndStd.mni:"
-msgid "Fetch '$1'"
 msgstr ""
 
 #. Performing 'preferences, Preferences'
@@ -19625,4 +19565,205 @@ msgstr ""
 #. placeholder: $1=<remote_name>
 msgctxt "wndStd.mni:"
 msgid "Fetch '$1'"
+msgstr ""
+
+# DON'T EDIT, this file will be rewritten!
+# 
+# BUILD: 261030
+# 
+#. Performing ', Refresh'
+#. Performing ', Log'
+#. Performing ', Blame'
+#. Performing 'log, Log, Show the history for selected file or directory.'
+#. opening smartgit.bFP@53O46I:ja_JP.po [<repository>] - Log for po/ja_JP.po@<commit_id> (smartgit.bFP@JEBXPF)
+#. Performing ', Merge'
+#. Performing ', Rebase'
+#. Performing ', Save Stash'
+#. Performing 'stashSave, Stash All..., Stash current local changes.'
+#. Showing dialog 3 (@5YRBQT) '@44Q1WM - Save Stash' (owner: @TEUOYL)
+msgctxt "dlgSgStashAll.chk:"
+msgid "Create AI-generated stash message"
+msgstr ""
+
+#. Showing dialog 8 (@1IAL9U) '@HO3W51 - Delete' (owner: @TEUOYL)
+#. Performing ', Cancel'
+#. Performing 'remove, Remove..., Remove selected files or directories from repository.'
+#. Showing dialog 9 (@TEDH7A) '@P0XGMA - Remove' (owner: @TEUOYL)
+#. Performing ', Cancel'
+#. Performing ', All files, incl. ignored'
+#. Performing 'indexEditor, Index Editor, Edit the Index state of the selected file, e.g. to decide which lines should be staged.'
+#. opening smartgit.bfh@P4E4ZR:__init__.py - Index Editor (smartgit.bfh@JUNGVN)
+#. Performing 'flowFeatureStart, Start Feature..., Start a new feature branch.'
+#. Showing dialog 10 (@SU4MNH) '@8K041J - Feature Configuration' (owner: @TEUOYL)
+msgctxt "dlgStdFeatureConfiguration.edt:"
+msgid "Trunk Branch"
+msgstr ""
+
+#. Showing dialog 8 (@1IAL9U) '@HO3W51 - Delete' (owner: @TEUOYL)
+#. Performing ', Cancel'
+#. Performing 'remove, Remove..., Remove selected files or directories from repository.'
+#. Showing dialog 9 (@TEDH7A) '@P0XGMA - Remove' (owner: @TEUOYL)
+#. Performing ', Cancel'
+#. Performing ', All files, incl. ignored'
+#. Performing 'indexEditor, Index Editor, Edit the Index state of the selected file, e.g. to decide which lines should be staged.'
+#. opening smartgit.bfh@P4E4ZR:__init__.py - Index Editor (smartgit.bfh@JUNGVN)
+#. Performing 'flowFeatureStart, Start Feature..., Start a new feature branch.'
+#. Showing dialog 10 (@SU4MNH) '@8K041J - Feature Configuration' (owner: @TEUOYL)
+msgctxt "dlgStdFeatureConfiguration.hdl:"
+msgid "Configure trunk branch"
+msgstr ""
+
+#. Showing dialog 8 (@1IAL9U) '@HO3W51 - Delete' (owner: @TEUOYL)
+#. Performing ', Cancel'
+#. Performing 'remove, Remove..., Remove selected files or directories from repository.'
+#. Showing dialog 9 (@TEDH7A) '@P0XGMA - Remove' (owner: @TEUOYL)
+#. Performing ', Cancel'
+#. Performing ', All files, incl. ignored'
+#. Performing 'indexEditor, Index Editor, Edit the Index state of the selected file, e.g. to decide which lines should be staged.'
+#. opening smartgit.bfh@P4E4ZR:__init__.py - Index Editor (smartgit.bfh@JUNGVN)
+#. Performing 'flowFeatureStart, Start Feature..., Start a new feature branch.'
+#. Showing dialog 10 (@SU4MNH) '@8K041J - Feature Configuration' (owner: @TEUOYL)
+msgctxt "dlgStdFeatureConfiguration.inf:"
+msgid "Set the trunk branch for your repository."
+msgstr ""
+
+#. Showing dialog 8 (@1IAL9U) '@HO3W51 - Delete' (owner: @TEUOYL)
+#. Performing ', Cancel'
+#. Performing 'remove, Remove..., Remove selected files or directories from repository.'
+#. Showing dialog 9 (@TEDH7A) '@P0XGMA - Remove' (owner: @TEUOYL)
+#. Performing ', Cancel'
+#. Performing ', All files, incl. ignored'
+#. Performing 'indexEditor, Index Editor, Edit the Index state of the selected file, e.g. to decide which lines should be staged.'
+#. opening smartgit.bfh@P4E4ZR:__init__.py - Index Editor (smartgit.bfh@JUNGVN)
+#. Performing 'flowFeatureStart, Start Feature..., Start a new feature branch.'
+#. Showing dialog 10 (@SU4MNH) '@8K041J - Feature Configuration' (owner: @TEUOYL)
+msgctxt "dlgStdFeatureConfiguration.lbl:"
+msgid "The 'trunk branch' represents the primary development branch of your repository and serves as a foundation for releases. Usually it is named 'develop', 'master' or 'main'.\\n\\nBranches that are used to develop a single new feature, bugfix or other related changes \\(temporarily\\) isolated from the trunk branch are called 'feature branch' \\(or short 'feature'\\). They typically have a special name prefix, e.g. 'feature/'.\\n\\nNew features will be forked off from a trunk branch using 'Start'. For an existing feature, new changes from the trunk branch will be integrated using 'Integrate'. Once you have finished the feature, you can incorporate it into the trunk branch using 'Finish'.\\n\\nFor extended configuration options, invoke '\\u30d6\\u30e9\\u30f3\\u30c1 \\| Feature \\u306e\\u8a2d\\u5b9a'."
+msgstr ""
+
+#. Performing 'delete, Delete..., Delete the selected local files or directory.'
+#. Showing dialog 8 (@1IAL9U) '@HO3W51 - Delete' (owner: @TEUOYL)
+#. Performing ', Cancel'
+#. Performing 'remove, Remove..., Remove selected files or directories from repository.'
+#. Showing dialog 9 (@TEDH7A) '@P0XGMA - Remove' (owner: @TEUOYL)
+#. Performing ', Cancel'
+#. Performing ', All files, incl. ignored'
+#. Performing 'indexEditor, Index Editor, Edit the Index state of the selected file, e.g. to decide which lines should be staged.'
+#. opening smartgit.bfh@P4E4ZR:__init__.py - Index Editor (smartgit.bfh@JUNGVN)
+#. Performing 'flowFeatureStart, Start Feature..., Start a new feature branch.'
+msgctxt "dlgStdFeatureConfiguration.tle:"
+msgid "Feature Configuration"
+msgstr ""
+
+#. Performing ', Blame'
+#. Performing ', Investigate'
+#. Performing ', All files, excl. ignored'
+#. Performing 'remove, Remove..., Remove selected files or directories from repository.'
+#. Showing dialog 7 (@YTD074) '@FK86HT - Remove' (owner: @TEUOYL)
+#. Performing ', Cancel'
+#. Performing 'delete, Delete..., Delete the selected local files or directory.'
+#. Showing dialog 8 (@1IAL9U) '@HO3W51 - Delete' (owner: @TEUOYL)
+#. Performing ', Cancel'
+#. Performing 'remove, Remove..., Remove selected files or directories from repository.'
+msgctxt "dlgStdRemove.tle:"
+msgid "Remove"
+msgstr ""
+
+#. opening smartgit.bFP@53O46I:ja_JP.po [<repository>] - Log for po/ja_JP.po@<commit_id> (smartgit.bFP@JEBXPF)
+#. Performing ', Merge'
+#. Performing ', Rebase'
+#. Performing ', Save Stash'
+#. Performing 'stashSave, Stash All..., Stash current local changes.'
+#. Showing dialog 3 (@5YRBQT) '@44Q1WM - Save Stash' (owner: @TEUOYL)
+#. Performing ', Cancel'
+#. Performing 'stashApply, Apply Stash..., Reapply local changes from a stash.'
+#. Showing dialog 4 (@GKGQ9K) '@WTRNW0 - Apply Stash' (owner: @TEUOYL)
+#. Performing ', Cancel'
+msgctxt "wndStd.mni:"
+msgid "GitLab"
+msgstr ""
+
+#. opening smartgit.bFP@53O46I:ja_JP.po [<repository>] - Log for po/ja_JP.po@<commit_id> (smartgit.bFP@JEBXPF)
+#. Performing ', Merge'
+#. Performing ', Rebase'
+#. Performing ', Save Stash'
+#. Performing 'stashSave, Stash All..., Stash current local changes.'
+#. Showing dialog 3 (@5YRBQT) '@44Q1WM - Save Stash' (owner: @TEUOYL)
+#. Performing ', Cancel'
+#. Performing 'stashApply, Apply Stash..., Reapply local changes from a stash.'
+#. Showing dialog 4 (@GKGQ9K) '@WTRNW0 - Apply Stash' (owner: @TEUOYL)
+#. Performing ', Cancel'
+msgctxt "wndStd.mni:"
+msgid "Multiple Selected Providers"
+msgstr ""
+
+#. opening smartgit.bFP@53O46I:ja_JP.po [<repository>] - Log for po/ja_JP.po@<commit_id> (smartgit.bFP@JEBXPF)
+#. Performing ', Merge'
+#. Performing ', Rebase'
+#. Performing ', Save Stash'
+#. Performing 'stashSave, Stash All..., Stash current local changes.'
+#. Showing dialog 3 (@5YRBQT) '@44Q1WM - Save Stash' (owner: @TEUOYL)
+#. Performing ', Cancel'
+#. Performing 'stashApply, Apply Stash..., Reapply local changes from a stash.'
+#. Showing dialog 4 (@GKGQ9K) '@WTRNW0 - Apply Stash' (owner: @TEUOYL)
+#. Performing ', Cancel'
+#. placeholder: $1=<branch_name>
+msgctxt "wndStd.mni:"
+msgid "On $1: SmartGit: automatic stash on Edit Message."
+msgstr ""
+
+#. opening smartgit.bFP@53O46I:ja_JP.po [<repository>] - Log for po/ja_JP.po@<commit_id> (smartgit.bFP@JEBXPF)
+#. Performing ', Merge'
+#. Performing ', Rebase'
+#. Performing ', Save Stash'
+#. Performing 'stashSave, Stash All..., Stash current local changes.'
+#. Showing dialog 3 (@5YRBQT) '@44Q1WM - Save Stash' (owner: @TEUOYL)
+#. Performing ', Cancel'
+#. Performing 'stashApply, Apply Stash..., Reapply local changes from a stash.'
+#. Showing dialog 4 (@GKGQ9K) '@WTRNW0 - Apply Stash' (owner: @TEUOYL)
+#. Performing ', Cancel'
+msgctxt "wndStd.mni:"
+msgid "Refresh"
+msgstr ""
+
+#. opening smartgit.bFP@53O46I:ja_JP.po [<repository>] - Log for po/ja_JP.po@<commit_id> (smartgit.bFP@JEBXPF)
+#. Performing ', Merge'
+#. Performing ', Rebase'
+#. Performing ', Save Stash'
+#. Performing 'stashSave, Stash All..., Stash current local changes.'
+#. Showing dialog 3 (@5YRBQT) '@44Q1WM - Save Stash' (owner: @TEUOYL)
+#. Performing ', Cancel'
+#. Performing 'stashApply, Apply Stash..., Reapply local changes from a stash.'
+#. Showing dialog 4 (@GKGQ9K) '@WTRNW0 - Apply Stash' (owner: @TEUOYL)
+#. Performing ', Cancel'
+msgctxt "wndStd.mni:"
+msgid "github.com"
+msgstr ""
+
+#. Performing 'investigate, Investigate, Investigate history line-wise with DeepGit.'
+#. opening smartgit.bfS@T5MHJE:Investigate (smartgit.bfS@UI9U88)
+#. Performing ', Fetch'
+#. Performing ', Fetch All'
+#. Performing ', Add Branch'
+#. Performing ', Add Tag'
+#. Performing 'branchAdd, Add Branch..., Add a new branch for the current commit.'
+#. Showing dialog 5 (@3OU24J) '@45ORK6 - Add Branch' (owner: @TEUOYL)
+#. Performing 'branchAddTag, Add Tag..., Add a new tag for the current commit.'
+#. Showing dialog 6 (@E6V7Y3) '@LWWB1 - Add Tag' (owner: @TEUOYL)
+msgctxt "wndStd.tbtIntegrateMain:"
+msgid "Integrate latest changes from the trunk branch into the current feature branch."
+msgstr ""
+
+#. Performing ', Cancel'
+#. Performing 'delete, Delete..., Delete the selected local files or directory.'
+#. Showing dialog 8 (@1IAL9U) '@HO3W51 - Delete' (owner: @TEUOYL)
+#. Performing ', Cancel'
+#. Performing 'remove, Remove..., Remove selected files or directories from repository.'
+#. Showing dialog 9 (@TEDH7A) '@P0XGMA - Remove' (owner: @TEUOYL)
+#. Performing ', Cancel'
+#. Performing ', All files, incl. ignored'
+#. Performing 'indexEditor, Index Editor, Edit the Index state of the selected file, e.g. to decide which lines should be staged.'
+#. opening smartgit.bfh@P4E4ZR:__init__.py - Index Editor (smartgit.bfh@JUNGVN)
+msgctxt "wndStd.tbtStdProviderButton:"
+msgid "Select a provider"
 msgstr ""
