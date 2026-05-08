@@ -18796,7 +18796,7 @@ msgstr "プロバイダー"
 #, fuzzy
 msgctxt "wndLog.tbr:"
 msgid "Discover"
-msgstr "スタイル"
+msgstr "スタイルを試す"
 
 #. Performing ', Cancel'
 #. Performing 'preferences, Preferences'
@@ -18992,7 +18992,7 @@ msgstr "参照"
 #, fuzzy
 msgctxt "wndStd.tbr:"
 msgid "Discover"
-msgstr "スタイル"
+msgstr "スタイルを試す"
 
 #. opening smartgit.bJA@UV1WWG:SmartGit 26.1 RC Evaluation until Jun 6 (smartgit.bJA@YB7QZ9)
 #. Performing 'newStandardWindow, Show Standard Window'
