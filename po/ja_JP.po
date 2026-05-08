@@ -18631,7 +18631,7 @@ msgstr "作業ツリー \\(ファイル中心\\)"
 #, fuzzy
 msgctxt "dlgDiscover.tle:"
 msgid "Discover Other SmartGit Windows"
-msgstr "他の SmartGit ウィンドウを検出"
+msgstr "SmartGit のウィンドウスタイルを選択"
 
 #. opening smartgit.bJA@OKBJBN:SmartGit 26.1 RC Evaluation until Jun 6 (smartgit.bJA@41IZG4)
 #. Performing 'preferences, Preferences'
@@ -18686,7 +18686,7 @@ msgstr "起動時に最後に使用したリポジトリを再度開く"
 #, fuzzy
 msgctxt "dlgSgPreferences.chk:"
 msgid "Show Discover toolbar button"
-msgstr "「検出」ツールバーボタンを表示"
+msgstr "「スタイル」ツールバーボタンを表示"
 
 #. opening smartgit.bJA@OKBJBN:SmartGit 26.1 RC Evaluation until Jun 6 (smartgit.bJA@41IZG4)
 #. Performing 'preferences, Preferences'
@@ -18796,7 +18796,7 @@ msgstr "プロバイダー"
 #, fuzzy
 msgctxt "wndLog.tbr:"
 msgid "Discover"
-msgstr "検出"
+msgstr "スタイル"
 
 #. Performing ', Cancel'
 #. Performing 'preferences, Preferences'
@@ -18826,7 +18826,7 @@ msgstr "閉じる"
 #, fuzzy
 msgctxt "wndLog.tbtDiscoverWindow:"
 msgid "Discover the different main windows."
-msgstr "さまざまなメインウィンドウを検出します。"
+msgstr "SmartGit のウィンドウスタイルを試します。"
 
 #. Showing dialog 1 (@2S8FFF) '@8LR841 - Preferences' (owner: @41IZG4)
 #. Performing ', Actions'
@@ -18992,7 +18992,7 @@ msgstr "参照"
 #, fuzzy
 msgctxt "wndStd.tbr:"
 msgid "Discover"
-msgstr "検出"
+msgstr "スタイル"
 
 #. opening smartgit.bJA@UV1WWG:SmartGit 26.1 RC Evaluation until Jun 6 (smartgit.bJA@YB7QZ9)
 #. Performing 'newStandardWindow, Show Standard Window'
@@ -19004,7 +19004,7 @@ msgstr "検出"
 #, fuzzy
 msgctxt "wndStd.tbtDiscoverWindow:"
 msgid "Discover the different main windows."
-msgstr "さまざまなメインウィンドウを検出します。"
+msgstr "SmartGit のウィンドウスタイルを試します。"
 
 #. Performing 'discoverWindow, Discover Windows, Discover the different main windows.'
 #. Showing dialog 0 (@N10L6O) '@GSVIBM - Discover Other SmartGit Windows' (owner: @XFVNVI)
