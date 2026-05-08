@@ -19809,3 +19809,49 @@ msgstr ""
 msgctxt "wndLog.tbt:"
 msgid "Select a provider"
 msgstr ""
+
+# DON'T EDIT, this file will be rewritten!
+#
+# BUILD: 261030
+#
+#. Performing ', github.com...'
+#. Showing dialog 7 (@BTVN65) '@MW39X8 - GitHub Projects' (owner: @GNC9KI)
+#. Performing ', Cancel'
+#. Performing ', Provider'
+#. Performing ', Bitbucket...'
+#. Showing dialog 8 (@3GD0OM) '@1AZS1K - Add Hosting Provider' (owner: @GNC9KI)
+#. Performing ', Generate Token'
+#. Showing dialog 9 (@JSL5GM) '@U7W62E - Generate API Token' (owner: @3GD0OM)
+#. Performing ', Add'
+#. Showing dialog 10 (@IEDGEX) '@V1SI0F - Checking connectivity' (owner: @3GD0OM)
+msgctxt "dlgSgHostingProviderSelectRepository.tle:"
+msgid "Bitbucket Projects"
+msgstr ""
+
+#. Performing ', Pull'
+#. Showing dialog 3 (@W8LMWF) '@Z0Q2RZ - SSH Authentication' (owner: @4LR1I8)
+#. Performing ', Open file chooser.'
+#. Performing ', Login'
+#. Showing dialog 4 (@6BGV8Y) '@LRX770 - Passwords' (owner: @W8LMWF)
+#. Performing ', OK'
+#. Performing 'remoteAdd, Add...'
+#. Showing dialog 5 (@GNC9KI) '@73FWTT - Add Remote Repository' (owner: @4LR1I8)
+#. Performing ', Provider'
+#. Performing ', GitLab...'
+msgctxt "dlgSgHostingProviderSelectRepository.tle:"
+msgid "GitLab Projects"
+msgstr ""
+
+#. Performing ', Close'
+#. Performing 'editFile, Edit File'
+#. opening smartgit.cnX@GG6LE:<file_name> - [<directory>] - Editor (smartgit.cnX@JTVTQ7)
+#. Performing 'editFile, Edit File'
+#. opening smartgit.cnX@A0JRJZ:<file_name> - [<directory>] - Editor (smartgit.cnX@O3MFZ9)
+#. Showing dialog 12 (@YRJI1E) '@4IABQ6 - File Changed' (owner: @O3MFZ9)
+#. Performing ', Cancel'
+#. Showing dialog 13 (@X6EQFZ) '@N4PZXG - File Changed' (owner: @O3MFZ9)
+#. Performing ', Discard'
+#. Performing 'stage, Stage, Store working tree files in the index to prepare the next commit.'
+msgctxt "wndLog.mni:"
+msgid "Select from GitLab"
+msgstr ""
