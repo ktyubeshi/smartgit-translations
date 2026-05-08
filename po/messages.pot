@@ -18973,3 +18973,530 @@ msgstr ""
 msgctxt "dlgSgHistoryEditMessage.mni:"
 msgid "github \\(active\\)"
 msgstr ""
+
+# DON'T EDIT, this file will be rewritten!
+# 
+# BUILD: 261029
+# 
+#. opening smartgit.brR@NLHXN6:[po/messages.pot] - File Compare (smartgit.brR@UZYDY6)
+#. Performing 'investigate, Investigate, Investigate history line-wise with DeepGit.'
+#. opening smartgit.bfS@H3RY7D:Investigate (smartgit.bfS@15L735)
+#. Performing 'dgPerspectiveCommit, Log Perspective, Investigate Log.'
+#. Showing dialog 37 (@2UJ1FY) '@PXPWSI - Layouting Graph' (owner: @15L735)
+#. Performing 'dgPerspectiveHistory, Diff Perspective, Investigate Diff between file's revisions.'
+#. Performing 'dgPerspectiveBlameSimple, Blame Perspective, Find where the line originates from in simple cases when there are no alternative Origins.'
+#. Performing 'dgPerspectiveBlameOrigin, Blame+Origins Perspective, Find where the line originates from in cases where you need to choose from one of possible Origins.'
+#. Performing 'dgPerspectiveOrigins, Origins Perspective, Find out what else happened where the line originates from.
+#. Selected origin candidate can't be investigated because it doesn't reflect a real change.'
+#. Showing dialog 38 (@COS03A) '@1V3OK9 - Origins Perspective' (owner: @15L735)
+msgctxt "dlgDgSetPerspectiveCantSwitch.fur:"
+msgid "Selected origin candidate can't be investigated because it doesn't reflect a real change."
+msgstr ""
+
+#. Performing 'fixup, Use Message for Commit'
+#. Performing ', github (active)...'
+#. Showing dialog 6 (@81JEF) '@2YVFX2 - AI Upload Consent' (owner: @2DC2B)
+#. Performing ', Allow'
+#. Showing dialog 7 (@GP8L9B) '@MP4P8P - Master Password' (owner: @2DC2B)
+#. Performing ', OK'
+#. Showing dialog 8 (@X12VOW) '@LBNUNA - API Key' (owner: @2DC2B)
+#. Performing ', Cancel'
+#. Performing ', Close'
+#. Performing ', github (active)...'
+msgctxt "dlgScSecretToken.tle:"
+msgid "API Key"
+msgstr ""
+
+#. Performing ', Regular Expressions, Interpret the search pattern as regular expression.'
+#. Performing 'branchAdd, Add Branch..., Add a new branch for the current commit.'
+#. Showing dialog 23 (@WS7OF7) '@BPH8SB - Add Branch' (owner: @LZXAB0)
+#. Performing 'branchAddTag, Add Tag..., Add a new tag for the current commit.'
+#. Showing dialog 24 (@OWGWS2) '@O08AZZ - Add Tag' (owner: @LZXAB0)
+#. Performing 'merge, Merge..., Merge changes from other branches.'
+#. Showing dialog 25 (@YGVTNX) '@746GP9 - Merge' (owner: @LZXAB0)
+#. Performing ', OK'
+#. Performing 'rebaseHeadTo, Rebase..., Apply commits from your current branch to the selected commit.'
+#. Showing dialog 26 (@CCLM6L) '@K3TN5 - Rebase' (owner: @LZXAB0)
+msgctxt "dlgSgHistoryPushedCommitsModifyDisallowed.fur:"
+msgid "If you understand the implications and still wish to proceed, you can enable the option 'Allow modifying pushed commits' in the Preferences."
+msgstr ""
+
+#. Performing ', Regular Expressions, Interpret the search pattern as regular expression.'
+#. Performing 'branchAdd, Add Branch..., Add a new branch for the current commit.'
+#. Showing dialog 23 (@WS7OF7) '@BPH8SB - Add Branch' (owner: @LZXAB0)
+#. Performing 'branchAddTag, Add Tag..., Add a new tag for the current commit.'
+#. Showing dialog 24 (@OWGWS2) '@O08AZZ - Add Tag' (owner: @LZXAB0)
+#. Performing 'merge, Merge..., Merge changes from other branches.'
+#. Showing dialog 25 (@YGVTNX) '@746GP9 - Merge' (owner: @LZXAB0)
+#. Performing ', OK'
+#. Performing 'rebaseHeadTo, Rebase..., Apply commits from your current branch to the selected commit.'
+#. Showing dialog 26 (@CCLM6L) '@K3TN5 - Rebase' (owner: @LZXAB0)
+msgctxt "dlgSgHistoryPushedCommitsModifyDisallowed.hdl:"
+msgid "Can't modify an already pushed commit."
+msgstr ""
+
+#. Performing 'stdSetModeHistory, Show History, Show the history view.'
+#. Performing ', Regular Expressions, Interpret the search pattern as regular expression.'
+#. Performing 'branchAdd, Add Branch..., Add a new branch for the current commit.'
+#. Showing dialog 23 (@WS7OF7) '@BPH8SB - Add Branch' (owner: @LZXAB0)
+#. Performing 'branchAddTag, Add Tag..., Add a new tag for the current commit.'
+#. Showing dialog 24 (@OWGWS2) '@O08AZZ - Add Tag' (owner: @LZXAB0)
+#. Performing 'merge, Merge..., Merge changes from other branches.'
+#. Showing dialog 25 (@YGVTNX) '@746GP9 - Merge' (owner: @LZXAB0)
+#. Performing ', OK'
+#. Performing 'rebaseHeadTo, Rebase..., Apply commits from your current branch to the selected commit.'
+msgctxt "dlgSgHistoryPushedCommitsModifyDisallowed.tle:"
+msgid "Rebase"
+msgstr ""
+
+#. Performing 'remoteFetchAll, Fetch All, Fetch commits from all remote repositories.'
+#. Performing 'revert, Revert..., Undo the changes of an existing commit by "reverse" merging it.'
+#. Showing dialog 29 (@LB2GPO) '@T0FREW - Revert' (owner: @LZXAB0)
+#. Performing ', OK'
+#. Performing 'stdSetModeHistory, Show History, Show the history view.'
+#. Performing 'reset, Reset..., Reset current branch (HEAD) to another commit.'
+#. Showing dialog 30 (@1L92FG) '@PYIXL5 - Reset' (owner: @LZXAB0)
+#. Performing ', Cancel'
+#. Performing 'resetAdvanced, Reset Advanced..., Reset current branch (HEAD) to another commit and keep the difference in Index or Working Tree.'
+#. Showing dialog 31 (@F88MLG) '@H9RKK8 - Reset' (owner: @LZXAB0)
+msgctxt "dlgSgResetAdv.inf:"
+msgid "Reset the current branch \\(HEAD\\) to the selected commit and optionally update Index and working tree."
+msgstr ""
+
+#. Performing ', Investigate'
+#. Performing ', Fetch All'
+#. Performing ', Fetch'
+#. Performing 'remoteFetchAll, Fetch All, Fetch commits from all remote repositories.'
+#. Performing 'revert, Revert..., Undo the changes of an existing commit by "reverse" merging it.'
+#. Showing dialog 29 (@LB2GPO) '@T0FREW - Revert' (owner: @LZXAB0)
+#. Performing ', OK'
+#. Performing 'stdSetModeHistory, Show History, Show the history view.'
+#. Performing 'reset, Reset..., Reset current branch (HEAD) to another commit.'
+#. Showing dialog 30 (@1L92FG) '@PYIXL5 - Reset' (owner: @LZXAB0)
+#. placeholder: $1=<branch_name>, $2=<commit_id>
+msgctxt "dlgSgResetConfirm.hdl:"
+msgid "Do you want to reset '$1' to commit $2?"
+msgstr ""
+
+#. Performing 'stdSetModeHistory, Show History, Show the history view.'
+#. Performing 'showInMyHistory, Show in My History'
+#. Performing ', Show Local Changes'
+#. Performing 'stdSetModeWt, Show Local Changes, Show the local files of the repository (Working Tree).'
+#. Performing 'stdSetModeHistory, Show History, Show the history view.'
+#. Performing ', Regular Expressions, Interpret the search pattern as regular expression.'
+#. Performing 'branchAdd, Add Branch..., Add a new branch for the current commit.'
+#. Showing dialog 23 (@WS7OF7) '@BPH8SB - Add Branch' (owner: @LZXAB0)
+#. Performing 'branchAddTag, Add Tag..., Add a new tag for the current commit.'
+#. Showing dialog 24 (@OWGWS2) '@O08AZZ - Add Tag' (owner: @LZXAB0)
+msgctxt "dlgSgTagAdd.hdl:"
+msgid "Add tag to current branch \\(HEAD\\)"
+msgstr ""
+
+#. Showing dialog 23 (@WS7OF7) '@BPH8SB - Add Branch' (owner: @LZXAB0)
+#. Performing 'branchAddTag, Add Tag..., Add a new tag for the current commit.'
+#. Showing dialog 24 (@OWGWS2) '@O08AZZ - Add Tag' (owner: @LZXAB0)
+#. Performing 'merge, Merge..., Merge changes from other branches.'
+#. Showing dialog 25 (@YGVTNX) '@746GP9 - Merge' (owner: @LZXAB0)
+#. Performing ', OK'
+#. Performing 'rebaseHeadTo, Rebase..., Apply commits from your current branch to the selected commit.'
+#. Showing dialog 26 (@CCLM6L) '@K3TN5 - Rebase' (owner: @LZXAB0)
+#. Performing ', OK'
+#. Performing 'cherryPick, Cherry-Pick..., Cherry-pick commits from other branches.'
+msgctxt "dlgStdPickCommitWtDirty.tle:"
+msgid "Cherry-Pick"
+msgstr ""
+
+#. Performing 'stdSetModeHistory, Show History, Show the history view.'
+#. Performing ', Reset'
+#. Performing ', Reset Adv.'
+#. Performing ', Log'
+#. Performing ', Blame'
+#. Performing ', Investigate'
+#. Performing ', Fetch All'
+#. Performing ', Fetch'
+#. Performing 'remoteFetchAll, Fetch All, Fetch commits from all remote repositories.'
+#. Performing 'revert, Revert..., Undo the changes of an existing commit by "reverse" merging it.'
+msgctxt "dlgStdPickCommitWtDirty.tle:"
+msgid "Revert"
+msgstr ""
+
+#. Performing ', OK'
+#. Performing 'stdSetModeHistory, Show History, Show the history view.'
+#. Performing ', Reset'
+#. Performing ', Reset Adv.'
+#. Performing ', Log'
+#. Performing ', Blame'
+#. Performing ', Investigate'
+#. Performing ', Fetch All'
+#. Performing ', Fetch'
+#. Performing 'remoteFetchAll, Fetch All, Fetch commits from all remote repositories.'
+msgctxt "pop:"
+msgid "Fetched nothing new"
+msgstr ""
+
+#. Performing 'refresh, Refresh, Refresh the log view.'
+#. Performing 'showChanges, Show Changes, Open the file compare for the selected file.'
+#. opening smartgit.brR@NLHXN6:[po/messages.pot] - File Compare (smartgit.brR@UZYDY6)
+#. Performing 'investigate, Investigate, Investigate history line-wise with DeepGit.'
+#. opening smartgit.bfS@H3RY7D:Investigate (smartgit.bfS@15L735)
+#. Performing 'dgPerspectiveCommit, Log Perspective, Investigate Log.'
+#. Showing dialog 37 (@2UJ1FY) '@PXPWSI - Layouting Graph' (owner: @15L735)
+#. Performing 'dgPerspectiveHistory, Diff Perspective, Investigate Diff between file's revisions.'
+#. Performing 'dgPerspectiveBlameSimple, Blame Perspective, Find where the line originates from in simple cases when there are no alternative Origins.'
+#. Performing 'dgPerspectiveBlameOrigin, Blame+Origins Perspective, Find where the line originates from in cases where you need to choose from one of possible Origins.'
+msgctxt "wndDeepgit.tbtDgPerspectiveOrigins:"
+msgid "Find out what else happened where the line originates from.\\n\\nSelected origin candidate can't be investigated because it doesn't reflect a real change."
+msgstr ""
+
+#. Showing dialog 6 (@81JEF) '@2YVFX2 - AI Upload Consent' (owner: @2DC2B)
+#. Performing ', Allow'
+#. Showing dialog 7 (@GP8L9B) '@MP4P8P - Master Password' (owner: @2DC2B)
+#. Performing ', OK'
+#. Showing dialog 8 (@X12VOW) '@LBNUNA - API Key' (owner: @2DC2B)
+#. Performing ', Cancel'
+#. Performing ', Close'
+#. Performing ', github (active)...'
+#. Showing dialog 9 (@RKZ6UC) '@5BKZ6O - API Key' (owner: @2DC2B)
+#. Performing ', Cancel'
+msgctxt "wndLog.tbt:"
+msgid "No hosting provider available"
+msgstr ""
+
+#. Performing 'previewCompareHeadVsIndex, HEAD vs. Index, Show changes between index (staged state) and HEAD (repository state).'
+#. Performing 'previewCompareIndexVsWT, Index vs. Working Tree, Show changes between local file (working tree) and Index (staged state).'
+#. Performing 'changesView.unified, Unified'
+#. Performing 'changesView.sideBySide, Side by Side'
+#. Performing 'changesView.compact, Compact'
+#. Performing 'view-ignore-whitespaces, Ignore Whitespace, Ignore irrelevant whitespace'
+#. Performing 'changesView.compact, Compact'
+#. Performing 'view-ignore-whitespaces, Ignore Whitespace, Ignore irrelevant whitespace'
+#. Performing 'preferences, Preferences'
+#. Showing dialog 21 (@8QDTTM) '@C7G5UO - Preferences' (owner: @UY1G4X)
+msgctxt "wndProject.tbr:"
+msgid "Discover"
+msgstr ""
+
+#. Performing 'flowContext, Git-Flow..., Configure Git-Flow.'
+#. Performing 'flowConfigure, Configure...'
+#. Showing dialog 18 (@SZM9NW) '@39VXY3 - Configure Git-Flow' (owner: @UY1G4X)
+#. Performing 'preferences, Preferences'
+#. Showing dialog 19 (@Y0AFCA) '@G5YB14 - Preferences' (owner: @UY1G4X)
+#. Performing ', Edit...'
+#. Showing dialog 20 (@49UVQ5) '@3D57WE - Edit Property' (owner: @Y0AFCA)
+#. Performing ', Cancel'
+#. Performing ', Cancel'
+#. Performing ', Close'
+msgctxt "wndProject.tbt:"
+msgid "Close"
+msgstr ""
+
+#. Performing 'previewCompareHeadVsIndex, HEAD vs. Index, Show changes between index (staged state) and HEAD (repository state).'
+#. Performing 'previewCompareIndexVsWT, Index vs. Working Tree, Show changes between local file (working tree) and Index (staged state).'
+#. Performing 'changesView.unified, Unified'
+#. Performing 'changesView.sideBySide, Side by Side'
+#. Performing 'changesView.compact, Compact'
+#. Performing 'view-ignore-whitespaces, Ignore Whitespace, Ignore irrelevant whitespace'
+#. Performing 'changesView.compact, Compact'
+#. Performing 'view-ignore-whitespaces, Ignore Whitespace, Ignore irrelevant whitespace'
+#. Performing 'preferences, Preferences'
+#. Showing dialog 21 (@8QDTTM) '@C7G5UO - Preferences' (owner: @UY1G4X)
+msgctxt "wndProject.tbtDiscoverWindow:"
+msgid "Discover the different main windows."
+msgstr ""
+
+#. Performing ', Close'
+#. Performing 'discoverWindow, Discover Windows, Discover the different main windows.'
+#. Showing dialog 16 (@L58VKR) '@SG5B5B - Discover Other SmartGit Windows' (owner: @2DC2B)
+#. opening smartgit.aCW@6ZJZUH:null (smartgit.aCW@LZXAB0)
+#. Performing 'discoverWindow, Discover Windows, Discover the different main windows.'
+#. Showing dialog 17 (@1PMJMJ) '@ASJU4F - Discover Other SmartGit Windows' (owner: @LZXAB0)
+#. opening smartgit.bTY@B7U009:SmartGit 26.1 RC (Working Tree) Evaluation until Jun 6 (smartgit.bTY@UY1G4X) (index=0)
+#. Performing 'flowContext, Git-Flow..., Configure Git-Flow.'
+#. Performing 'flowConfigure, Configure...'
+#. Showing dialog 18 (@SZM9NW) '@39VXY3 - Configure Git-Flow' (owner: @UY1G4X)
+msgctxt "wndProject.tbtFlowContext:"
+msgid "Configure Git-Flow."
+msgstr ""
+
+#. Performing 'view-ignore-whitespaces, Ignore Whitespace, Ignore irrelevant whitespace'
+#. Performing 'preferences, Preferences'
+#. Showing dialog 21 (@8QDTTM) '@C7G5UO - Preferences' (owner: @UY1G4X)
+#. Showing dialog 22 (@YBCWK0) '@5LSZXP - Commit' (owner: @LZXAB0)
+#. Performing ', Don't Replace'
+#. Performing 'stdSetModeHistory, Show History, Show the history view.'
+#. Performing 'showInMyHistory, Show in My History'
+#. Performing ', Show Local Changes'
+#. Performing 'stdSetModeWt, Show Local Changes, Show the local files of the repository (Working Tree).'
+#. Performing 'stdSetModeHistory, Show History, Show the history view.'
+msgctxt "wndStd.hnt:"
+msgid "This commit is empty."
+msgstr ""
+
+#. Performing 'preferences, Preferences'
+#. Showing dialog 21 (@8QDTTM) '@C7G5UO - Preferences' (owner: @UY1G4X)
+#. Showing dialog 22 (@YBCWK0) '@5LSZXP - Commit' (owner: @LZXAB0)
+#. Performing ', Don't Replace'
+#. Performing 'stdSetModeHistory, Show History, Show the history view.'
+#. Performing 'showInMyHistory, Show in My History'
+#. Performing ', Show Local Changes'
+#. Performing 'stdSetModeWt, Show Local Changes, Show the local files of the repository (Working Tree).'
+#. Performing 'stdSetModeHistory, Show History, Show the history view.'
+#. Performing ', Regular Expressions, Interpret the search pattern as regular expression.'
+msgctxt "wndStd.mni:"
+msgid "Always Show Tags"
+msgstr ""
+
+#. Performing 'changesView.sideBySide, Side by Side'
+#. Performing 'changesView.compact, Compact'
+#. Performing 'view-ignore-whitespaces, Ignore Whitespace, Ignore irrelevant whitespace'
+#. Performing 'changesView.compact, Compact'
+#. Performing 'view-ignore-whitespaces, Ignore Whitespace, Ignore irrelevant whitespace'
+#. Performing 'preferences, Preferences'
+#. Showing dialog 21 (@8QDTTM) '@C7G5UO - Preferences' (owner: @UY1G4X)
+#. Showing dialog 22 (@YBCWK0) '@5LSZXP - Commit' (owner: @LZXAB0)
+#. Performing ', Don't Replace'
+#. Performing 'stdSetModeHistory, Show History, Show the history view.'
+msgctxt "wndStd.mni:"
+msgid "Ask AI"
+msgstr ""
+
+#. Performing 'revert, Revert..., Undo the changes of an existing commit by "reverse" merging it.'
+#. Showing dialog 28 (@XQDN09) '@ZA858E - Revert' (owner: @LZXAB0)
+#. Performing ', OK'
+#. Performing 'stdSetModeHistory, Show History, Show the history view.'
+#. Performing ', Reset'
+#. Performing ', Reset Adv.'
+#. Performing ', Log'
+#. Performing ', Blame'
+#. Performing ', Investigate'
+#. Performing ', Fetch All'
+msgctxt "wndStd.mni:"
+msgid "Browse"
+msgstr ""
+
+#. Performing 'revert, Revert..., Undo the changes of an existing commit by "reverse" merging it.'
+#. Showing dialog 28 (@XQDN09) '@ZA858E - Revert' (owner: @LZXAB0)
+#. Performing ', OK'
+#. Performing 'stdSetModeHistory, Show History, Show the history view.'
+#. Performing ', Reset'
+#. Performing ', Reset Adv.'
+#. Performing ', Log'
+#. Performing ', Blame'
+#. Performing ', Investigate'
+#. Performing ', Fetch All'
+msgctxt "wndStd.mni:"
+msgid "Cherry-Pick"
+msgstr ""
+
+#. Performing 'previewCompareHeadVsIndex, HEAD vs. Index, Show changes between index (staged state) and HEAD (repository state).'
+#. Performing 'previewCompareIndexVsWT, Index vs. Working Tree, Show changes between local file (working tree) and Index (staged state).'
+#. Performing 'changesView.unified, Unified'
+#. Performing 'changesView.sideBySide, Side by Side'
+#. Performing 'changesView.compact, Compact'
+#. Performing 'view-ignore-whitespaces, Ignore Whitespace, Ignore irrelevant whitespace'
+#. Performing 'changesView.compact, Compact'
+#. Performing 'view-ignore-whitespaces, Ignore Whitespace, Ignore irrelevant whitespace'
+#. Performing 'preferences, Preferences'
+#. Showing dialog 21 (@8QDTTM) '@C7G5UO - Preferences' (owner: @UY1G4X)
+msgctxt "wndStd.mni:"
+msgid "Discard"
+msgstr ""
+
+#. Performing 'preferences, Preferences'
+#. Showing dialog 21 (@8QDTTM) '@C7G5UO - Preferences' (owner: @UY1G4X)
+#. Showing dialog 22 (@YBCWK0) '@5LSZXP - Commit' (owner: @LZXAB0)
+#. Performing ', Don't Replace'
+#. Performing 'stdSetModeHistory, Show History, Show the history view.'
+#. Performing 'showInMyHistory, Show in My History'
+#. Performing ', Show Local Changes'
+#. Performing 'stdSetModeWt, Show Local Changes, Show the local files of the repository (Working Tree).'
+#. Performing 'stdSetModeHistory, Show History, Show the history view.'
+#. Performing ', Regular Expressions, Interpret the search pattern as regular expression.'
+#. placeholder: $1=<remote_name>
+msgctxt "wndStd.mni:"
+msgid "Fetch '\\ud83d\\udd12$1'"
+msgstr ""
+
+#. Performing 'preferences, Preferences'
+#. Showing dialog 21 (@8QDTTM) '@C7G5UO - Preferences' (owner: @UY1G4X)
+#. Showing dialog 22 (@YBCWK0) '@5LSZXP - Commit' (owner: @LZXAB0)
+#. Performing ', Don't Replace'
+#. Performing 'stdSetModeHistory, Show History, Show the history view.'
+#. Performing 'showInMyHistory, Show in My History'
+#. Performing ', Show Local Changes'
+#. Performing 'stdSetModeWt, Show Local Changes, Show the local files of the repository (Working Tree).'
+#. Performing 'stdSetModeHistory, Show History, Show the history view.'
+#. Performing ', Regular Expressions, Interpret the search pattern as regular expression.'
+#. placeholder: $1=<remote_name>
+msgctxt "wndStd.mni:"
+msgid "Fetch '$1' \\(current\\) "
+msgstr ""
+
+#. Performing 'preferences, Preferences'
+#. Showing dialog 21 (@8QDTTM) '@C7G5UO - Preferences' (owner: @UY1G4X)
+#. Showing dialog 22 (@YBCWK0) '@5LSZXP - Commit' (owner: @LZXAB0)
+#. Performing ', Don't Replace'
+#. Performing 'stdSetModeHistory, Show History, Show the history view.'
+#. Performing 'showInMyHistory, Show in My History'
+#. Performing ', Show Local Changes'
+#. Performing 'stdSetModeWt, Show Local Changes, Show the local files of the repository (Working Tree).'
+#. Performing 'stdSetModeHistory, Show History, Show the history view.'
+#. Performing ', Regular Expressions, Interpret the search pattern as regular expression.'
+#. placeholder: $1=<remote_name>
+msgctxt "wndStd.mni:"
+msgid "Fetch '$1'"
+msgstr ""
+
+#. Performing 'preferences, Preferences'
+#. Showing dialog 21 (@8QDTTM) '@C7G5UO - Preferences' (owner: @UY1G4X)
+#. Showing dialog 22 (@YBCWK0) '@5LSZXP - Commit' (owner: @LZXAB0)
+#. Performing ', Don't Replace'
+#. Performing 'stdSetModeHistory, Show History, Show the history view.'
+#. Performing 'showInMyHistory, Show in My History'
+#. Performing ', Show Local Changes'
+#. Performing 'stdSetModeWt, Show Local Changes, Show the local files of the repository (Working Tree).'
+#. Performing 'stdSetModeHistory, Show History, Show the history view.'
+#. Performing ', Regular Expressions, Interpret the search pattern as regular expression.'
+msgctxt "wndStd.mni:"
+msgid "Pull from all remotes"
+msgstr ""
+
+#. Performing 'revert, Revert..., Undo the changes of an existing commit by "reverse" merging it.'
+#. Showing dialog 28 (@XQDN09) '@ZA858E - Revert' (owner: @LZXAB0)
+#. Performing ', OK'
+#. Performing 'stdSetModeHistory, Show History, Show the history view.'
+#. Performing ', Reset'
+#. Performing ', Reset Adv.'
+#. Performing ', Log'
+#. Performing ', Blame'
+#. Performing ', Investigate'
+#. Performing ', Fetch All'
+msgctxt "wndStd.mni:"
+msgid "Revert"
+msgstr ""
+
+#. Performing 'view-ignore-whitespaces, Ignore Whitespace, Ignore irrelevant whitespace'
+#. Performing 'preferences, Preferences'
+#. Showing dialog 21 (@8QDTTM) '@C7G5UO - Preferences' (owner: @UY1G4X)
+#. Showing dialog 22 (@YBCWK0) '@5LSZXP - Commit' (owner: @LZXAB0)
+#. Performing ', Don't Replace'
+#. Performing 'stdSetModeHistory, Show History, Show the history view.'
+#. Performing 'showInMyHistory, Show in My History'
+#. Performing ', Show Local Changes'
+#. Performing 'stdSetModeWt, Show Local Changes, Show the local files of the repository (Working Tree).'
+#. Performing 'stdSetModeHistory, Show History, Show the history view.'
+msgctxt "wndStd.mni:"
+msgid "Show Intermediate Commits"
+msgstr ""
+
+#. Performing 'preferences, Preferences'
+#. Showing dialog 21 (@8QDTTM) '@C7G5UO - Preferences' (owner: @UY1G4X)
+#. Showing dialog 22 (@YBCWK0) '@5LSZXP - Commit' (owner: @LZXAB0)
+#. Performing ', Don't Replace'
+#. Performing 'stdSetModeHistory, Show History, Show the history view.'
+#. Performing 'showInMyHistory, Show in My History'
+#. Performing ', Show Local Changes'
+#. Performing 'stdSetModeWt, Show Local Changes, Show the local files of the repository (Working Tree).'
+#. Performing 'stdSetModeHistory, Show History, Show the history view.'
+#. Performing ', Regular Expressions, Interpret the search pattern as regular expression.'
+msgctxt "wndStd.mni:"
+msgid "Sort By Date"
+msgstr ""
+
+#. Performing 'preferences, Preferences'
+#. Showing dialog 21 (@8QDTTM) '@C7G5UO - Preferences' (owner: @UY1G4X)
+#. Showing dialog 22 (@YBCWK0) '@5LSZXP - Commit' (owner: @LZXAB0)
+#. Performing ', Don't Replace'
+#. Performing 'stdSetModeHistory, Show History, Show the history view.'
+#. Performing 'showInMyHistory, Show in My History'
+#. Performing ', Show Local Changes'
+#. Performing 'stdSetModeWt, Show Local Changes, Show the local files of the repository (Working Tree).'
+#. Performing 'stdSetModeHistory, Show History, Show the history view.'
+#. Performing ', Regular Expressions, Interpret the search pattern as regular expression.'
+msgctxt "wndStd.mni:"
+msgid "Sort By Name \\(numbers reversed\\)"
+msgstr ""
+
+#. Performing 'preferences, Preferences'
+#. Showing dialog 21 (@8QDTTM) '@C7G5UO - Preferences' (owner: @UY1G4X)
+#. Showing dialog 22 (@YBCWK0) '@5LSZXP - Commit' (owner: @LZXAB0)
+#. Performing ', Don't Replace'
+#. Performing 'stdSetModeHistory, Show History, Show the history view.'
+#. Performing 'showInMyHistory, Show in My History'
+#. Performing ', Show Local Changes'
+#. Performing 'stdSetModeWt, Show Local Changes, Show the local files of the repository (Working Tree).'
+#. Performing 'stdSetModeHistory, Show History, Show the history view.'
+#. Performing ', Regular Expressions, Interpret the search pattern as regular expression.'
+msgctxt "wndStd.mni:"
+msgid "Sort By Name"
+msgstr ""
+
+#. Performing 'changesView.sideBySide, Side by Side'
+#. Performing 'changesView.compact, Compact'
+#. Performing 'view-ignore-whitespaces, Ignore Whitespace, Ignore irrelevant whitespace'
+#. Performing 'changesView.compact, Compact'
+#. Performing 'view-ignore-whitespaces, Ignore Whitespace, Ignore irrelevant whitespace'
+#. Performing 'preferences, Preferences'
+#. Showing dialog 21 (@8QDTTM) '@C7G5UO - Preferences' (owner: @UY1G4X)
+#. Showing dialog 22 (@YBCWK0) '@5LSZXP - Commit' (owner: @LZXAB0)
+#. Performing ', Don't Replace'
+#. Performing 'stdSetModeHistory, Show History, Show the history view.'
+msgctxt "wndStd.mniShowInMyHistory:"
+msgid "Show in My History"
+msgstr ""
+
+#. Performing ', OK'
+#. Performing 'stdSetModeHistory, Show History, Show the history view.'
+#. Performing 'reset, Reset..., Reset current branch (HEAD) to another commit.'
+#. Showing dialog 30 (@1L92FG) '@PYIXL5 - Reset' (owner: @LZXAB0)
+#. Performing ', Cancel'
+#. Performing 'resetAdvanced, Reset Advanced..., Reset current branch (HEAD) to another commit and keep the difference in Index or Working Tree.'
+#. Showing dialog 31 (@F88MLG) '@H9RKK8 - Reset' (owner: @LZXAB0)
+#. Performing ', Cancel'
+#. Performing 'log, Log, Show the history for selected file or directory.'
+#. opening smartgit.bFP@XDIYDG:messages.pot [<repository>] - Log for po/messages.pot@<commit> (smartgit.bFP@Z2EOIY)
+msgctxt "wndStd.tbr:"
+msgid "Fetch All"
+msgstr ""
+
+#. Performing ', OK'
+#. Performing 'stdSetModeHistory, Show History, Show the history view.'
+#. Performing ', Reset'
+#. Performing ', Reset Adv.'
+#. Performing ', Log'
+#. Performing ', Blame'
+#. Performing ', Investigate'
+#. Performing ', Fetch All'
+#. Performing ', Fetch'
+#. Performing 'remoteFetchAll, Fetch All, Fetch commits from all remote repositories.'
+msgctxt "wndStd.tbtRemoteFetchAll:"
+msgid "Fetch commits from all remote repositories."
+msgstr ""
+
+#. Performing ', Log'
+#. Performing ', Blame'
+#. Performing ', Investigate'
+#. Performing ', Fetch All'
+#. Performing ', Fetch'
+#. Performing 'remoteFetchAll, Fetch All, Fetch commits from all remote repositories.'
+#. Performing 'revert, Revert..., Undo the changes of an existing commit by "reverse" merging it.'
+#. Showing dialog 29 (@LB2GPO) '@T0FREW - Revert' (owner: @LZXAB0)
+#. Performing ', OK'
+#. Performing 'stdSetModeHistory, Show History, Show the history view.'
+msgctxt "wndStd.tbtReset:"
+msgid "Reset current branch \\(HEAD\\) to another commit."
+msgstr ""
+
+#. Performing ', Fetch All'
+#. Performing ', Fetch'
+#. Performing 'remoteFetchAll, Fetch All, Fetch commits from all remote repositories.'
+#. Performing 'revert, Revert..., Undo the changes of an existing commit by "reverse" merging it.'
+#. Showing dialog 29 (@LB2GPO) '@T0FREW - Revert' (owner: @LZXAB0)
+#. Performing ', OK'
+#. Performing 'stdSetModeHistory, Show History, Show the history view.'
+#. Performing 'reset, Reset..., Reset current branch (HEAD) to another commit.'
+#. Showing dialog 30 (@1L92FG) '@PYIXL5 - Reset' (owner: @LZXAB0)
+#. Performing ', Cancel'
+msgctxt "wndStd.tbtResetAdvanced:"
+msgid "Reset current branch \\(HEAD\\) to another commit and keep the difference in Index or Working Tree."
+msgstr ""
