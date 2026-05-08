@@ -1,6 +1,6 @@
 <!--
   source: docs/about_smartgit_properties.md
-  source-commit: <commit-id>
+  source-commit: fd254001
   synced-at: 2026-05-07
 -->
 # smartgit.properties について
