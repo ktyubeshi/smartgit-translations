@@ -1,7 +1,7 @@
 <!--
   source: docs/about_smartgit_properties.md
-  source-commit: fd254001
-  synced-at: 2026-05-07
+  source-commit: 04232fee
+  synced-at: 2026-05-09
 -->
 # smartgit.properties について
 
@@ -17,9 +17,10 @@
 | 4  | smartgit.debug.i18n.markUntranslated | boolean | false | `messages.pot` に含まれているが、まだ翻訳されていない UI 要素の翻訳の先頭に、指定のマークを表示します。 |
 | 5  | smartgit.debug.i18n.markerTranslatable | string | ✨ | オプション 3 で `i18n.markTranslatable` が true の場合に表示する文字を指定します。 |
 | 6  | smartgit.debug.i18n.markerUntranslated | string | ■ | オプション 4 で `i18n.markUntranslated` が true の場合に表示する文字を指定します。 |
+| 7  | smartgit.debug.i18n.markerNeedsReview | string | ⚐ | レビューが必要な翻訳エントリの先頭に表示する文字を指定します。PO ファイル内で fuzzy フラグが付いている項目（`#, fuzzy` が設定されている項目）を対象に、GUI 上でここで設定した文字が表示されます。PO ファイルだけでは適切かどうか判断できない翻訳に fuzzy フラグを設定し、それらを実際の GUI で確認するようなユースケースを想定しています。|
 
 オプション 5 と 6 を設定しても GUI 上で英語表記のまま残る文字列は、現時点では翻訳できません。翻訳可能にするには SmartGit のソースコードを変更する必要があります。
-もし翻訳を希望する場合は当該箇所のスクリーンショットなどを添えてIssueを作成してください。
+もし翻訳を希望する場合は当該箇所のスクリーンショットなどを添えて Issue を作成してください。
 
 
 オプション 2 に設定するファイルパスの区切り文字はWindows環境でも `/` でなければならないことに注意してください。また、`:` は `\` でエスケープしなければなりません。
@@ -34,8 +35,12 @@ smartgit.debug.i18n.markTranslatable=true
 smartgit.debug.i18n.markUntranslated=true
 smartgit.debug.i18n.markerTranslatable=✨
 smartgit.debug.i18n.markerUntranslated=■
+smartgit.debug.i18n.markerNeedsReview=⚐
 
 ```
+
+Unicode 絵文字は、`\uXXXX` 形式でも指定できます。
+
 
 ## smartgit.properties の格納先
 
@@ -49,3 +54,8 @@ smartgit.debug.i18n.markerUntranslated=■
 
 ![About SmartGit ダイアログの Settings Path](img/about_smartgit_properties/dialog-about_smart_git-information-settings_path.png)
 
+## トラブルシューティング
+
+`smartgit.properties` を設定しても PO ファイルが読み込まれない場合や、誤った設定や壊れた PO ファイルが原因で SmartGit を起動できなくなることがあるかもしれません。
+その場合は `smartgit.properties` ファイルが保存されているディレクトリの `logs` ディレクトリにあるログファイルを確認してください。
+ファイルの読み込みでエラーが発生していないかや、意図した場所にある PO ファイルを読み込もうとしているかを確認してください。
