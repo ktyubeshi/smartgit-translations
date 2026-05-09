@@ -20382,3 +20382,133 @@ msgstr ""
 msgctxt "wndStd.tbtStdProviderButton:"
 msgid "Refreshing the provider state failed.\\n\\nCancelled"
 msgstr ""
+
+# DON'T EDIT, this file will be rewritten!
+#
+# BUILD: 261030
+#
+#. opening smartgit.aCX@IBAS9F:null (smartgit.aCX@1J400G)
+#. Performing 'flowFeatureStart, Start Feature..., Start a new feature branch.'
+#. Showing dialog 1 (@V9MYDU) '@1Z0N8H - Feature Configuration' (owner: @1J400G)
+#. Performing 'stdSetModeHistory, Show History, Show the history view.'
+#. Performing 'stdSetModeWt, Show Local Changes, Show the local files of the repository (Working Tree).'
+#. Performing ', Select from GitLab...'
+#. Showing dialog 2 (@1T9CTV) '@R71QTR - Select Issue' (owner: @1J400G)
+#. Showing dialog 3 (@S4B8VV) '@Y7JVKT - Passwords' (owner: @1T9CTV)
+#. Performing ', Cancel'
+#. Showing dialog 4 (@DWDHQ3) '@KK15Q - Command Failed' (owner: @1T9CTV)
+msgctxt "dlgSgErrorUtilsClientException.fur:"
+msgid "Cancelled"
+msgstr ""
+
+#. opening smartgit.bUa@I2YSWC:SmartGit 26.1 RC (Working Tree) Evaluation until <date> (smartgit.bUa@LLGH3N) (index=0)
+#. Performing 'rebaseHeadTo, Rebase..., Apply commits from your current branch to the selected commit.'
+#. Showing dialog 10 (@5M2DK1) '@7RUPXG - Rebase' (owner: @LLGH3N)
+#. Showing dialog 11 (@Q4DPUB) '@Y5FF8C - Refresh' (owner: @5M2DK1)
+#. Performing ', Branches..., Select which refs (branches, tags) should be shown.'
+#. Showing dialog 12 (@9BROH) '@5GIIKH - Select Branches' (owner: @5M2DK1)
+#. Performing ', Cancel'
+#. Performing 'merge, Merge..., Merge changes from other branches.'
+#. Showing dialog 13 (@HG6J30) '@VEYH8O - Merge' (owner: @LLGH3N)
+#. Showing dialog 14 (@UV284A) '@O0DWH5 - Refresh' (owner: @HG6J30)
+msgctxt "dlgSgMerge.hnt:"
+msgid "No repository selected."
+msgstr ""
+
+#. opening smartgit.bUa@I2YSWC:SmartGit 26.1 RC (Working Tree) Evaluation until <date> (smartgit.bUa@LLGH3N) (index=0)
+#. Performing 'rebaseHeadTo, Rebase..., Apply commits from your current branch to the selected commit.'
+#. Showing dialog 10 (@5M2DK1) '@7RUPXG - Rebase' (owner: @LLGH3N)
+#. Showing dialog 11 (@Q4DPUB) '@Y5FF8C - Refresh' (owner: @5M2DK1)
+#. Performing ', Branches..., Select which refs (branches, tags) should be shown.'
+#. Showing dialog 12 (@9BROH) '@5GIIKH - Select Branches' (owner: @5M2DK1)
+#. Performing ', Cancel'
+#. Performing 'merge, Merge..., Merge changes from other branches.'
+#. Showing dialog 13 (@HG6J30) '@VEYH8O - Merge' (owner: @LLGH3N)
+#. Showing dialog 14 (@UV284A) '@O0DWH5 - Refresh' (owner: @HG6J30)
+msgctxt "dlgSgMerge.tbt:"
+msgid "Interpret the search pattern as regular expression."
+msgstr ""
+
+#. Performing ', Add Tag'
+#. Performing 'branchAdd, Add Branch..., Add a new branch for the current commit.'
+#. Showing dialog 7 (@L3O29K) '@7CRH49 - Add Branch' (owner: @1J400G)
+#. Performing 'branchAddTag, Add Tag..., Add a new tag for the current commit.'
+#. Showing dialog 8 (@UOGWUE) '@U7NKC7 - Add Tag' (owner: @1J400G)
+#. Performing 'discoverWindow, Discover Windows, Discover the different main windows.'
+#. Showing dialog 9 (@AM3TGQ) '@17HX2T - Discover Other SmartGit Windows' (owner: @1J400G)
+#. opening smartgit.bUa@I2YSWC:SmartGit 26.1 RC (Working Tree) Evaluation until <date> (smartgit.bUa@LLGH3N) (index=0)
+#. Performing 'rebaseHeadTo, Rebase..., Apply commits from your current branch to the selected commit.'
+#. Showing dialog 10 (@5M2DK1) '@7RUPXG - Rebase' (owner: @LLGH3N)
+msgctxt "dlgSgRebase.btn:"
+msgid "Rebase"
+msgstr ""
+
+#. Performing ', Add Tag'
+#. Performing 'branchAdd, Add Branch..., Add a new branch for the current commit.'
+#. Showing dialog 7 (@L3O29K) '@7CRH49 - Add Branch' (owner: @1J400G)
+#. Performing 'branchAddTag, Add Tag..., Add a new tag for the current commit.'
+#. Showing dialog 8 (@UOGWUE) '@U7NKC7 - Add Tag' (owner: @1J400G)
+#. Performing 'discoverWindow, Discover Windows, Discover the different main windows.'
+#. Showing dialog 9 (@AM3TGQ) '@17HX2T - Discover Other SmartGit Windows' (owner: @1J400G)
+#. opening smartgit.bUa@I2YSWC:SmartGit 26.1 RC (Working Tree) Evaluation until <date> (smartgit.bUa@LLGH3N) (index=0)
+#. Performing 'rebaseHeadTo, Rebase..., Apply commits from your current branch to the selected commit.'
+#. Showing dialog 10 (@5M2DK1) '@7RUPXG - Rebase' (owner: @LLGH3N)
+msgctxt "dlgSgRebase.hdl:"
+msgid "Rebase"
+msgstr ""
+
+#. Performing 'branchAdd, Add Branch..., Add a new branch for the current commit.'
+#. Showing dialog 7 (@L3O29K) '@7CRH49 - Add Branch' (owner: @1J400G)
+#. Performing 'branchAddTag, Add Tag..., Add a new tag for the current commit.'
+#. Showing dialog 8 (@UOGWUE) '@U7NKC7 - Add Tag' (owner: @1J400G)
+#. Performing 'discoverWindow, Discover Windows, Discover the different main windows.'
+#. Showing dialog 9 (@AM3TGQ) '@17HX2T - Discover Other SmartGit Windows' (owner: @1J400G)
+#. opening smartgit.bUa@I2YSWC:SmartGit 26.1 RC (Working Tree) Evaluation until <date> (smartgit.bUa@LLGH3N) (index=0)
+#. Performing 'rebaseHeadTo, Rebase..., Apply commits from your current branch to the selected commit.'
+#. Showing dialog 10 (@5M2DK1) '@7RUPXG - Rebase' (owner: @LLGH3N)
+#. Showing dialog 11 (@Q4DPUB) '@Y5FF8C - Refresh' (owner: @5M2DK1)
+msgctxt "dlgSgRebase.hnt:"
+msgid "No repository selected."
+msgstr ""
+
+#. Performing 'branchAdd, Add Branch..., Add a new branch for the current commit.'
+#. Showing dialog 7 (@L3O29K) '@7CRH49 - Add Branch' (owner: @1J400G)
+#. Performing 'branchAddTag, Add Tag..., Add a new tag for the current commit.'
+#. Showing dialog 8 (@UOGWUE) '@U7NKC7 - Add Tag' (owner: @1J400G)
+#. Performing 'discoverWindow, Discover Windows, Discover the different main windows.'
+#. Showing dialog 9 (@AM3TGQ) '@17HX2T - Discover Other SmartGit Windows' (owner: @1J400G)
+#. opening smartgit.bUa@I2YSWC:SmartGit 26.1 RC (Working Tree) Evaluation until <date> (smartgit.bUa@LLGH3N) (index=0)
+#. Performing 'rebaseHeadTo, Rebase..., Apply commits from your current branch to the selected commit.'
+#. Showing dialog 10 (@5M2DK1) '@7RUPXG - Rebase' (owner: @LLGH3N)
+#. Showing dialog 11 (@Q4DPUB) '@Y5FF8C - Refresh' (owner: @5M2DK1)
+msgctxt "dlgSgRebase.tbt:"
+msgid "Interpret the search pattern as regular expression."
+msgstr ""
+
+#. Performing 'flowFeatureStart, Start Feature..., Start a new feature branch.'
+#. Showing dialog 1 (@V9MYDU) '@1Z0N8H - Feature Configuration' (owner: @1J400G)
+#. Performing 'stdSetModeHistory, Show History, Show the history view.'
+#. Performing 'stdSetModeWt, Show Local Changes, Show the local files of the repository (Working Tree).'
+#. Performing ', Select from GitLab...'
+#. Showing dialog 2 (@1T9CTV) '@R71QTR - Select Issue' (owner: @1J400G)
+#. Showing dialog 3 (@S4B8VV) '@Y7JVKT - Passwords' (owner: @1T9CTV)
+#. Performing ', Cancel'
+#. Showing dialog 4 (@DWDHQ3) '@KK15Q - Command Failed' (owner: @1T9CTV)
+#. Performing ', OK'
+msgctxt "wndStd.mni:"
+msgid "Select from GitLab"
+msgstr ""
+
+#. Performing ', Branches..., Select which refs (branches, tags) should be shown.'
+#. Showing dialog 12 (@9BROH) '@5GIIKH - Select Branches' (owner: @5M2DK1)
+#. Performing ', Cancel'
+#. Performing 'merge, Merge..., Merge changes from other branches.'
+#. Showing dialog 13 (@HG6J30) '@VEYH8O - Merge' (owner: @LLGH3N)
+#. Showing dialog 14 (@UV284A) '@O0DWH5 - Refresh' (owner: @HG6J30)
+#. Performing ', Branches..., Select which refs (branches, tags) should be shown.'
+#. Showing dialog 15 (@YQZOQJ) '@8J8JK4 - Select Branches' (owner: @HG6J30)
+#. Showing dialog 16 (@RFG4UF) '@D33IKD - Close' (owner: @LLGH3N)
+#. Performing ', Close Now'
+msgctxt "wndStd.mni:"
+msgid "github \\(active\\)"
+msgstr ""
