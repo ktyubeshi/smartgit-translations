@@ -20203,6 +20203,51 @@ msgctxt "wndStd.tbtStdProviderButton:"
 msgid "Refreshing the provider state failed.\\n\\nCancelled"
 msgstr "プロバイダーの状態の更新に失敗しました。\\n\\nキャンセルされました"
 
+#, fuzzy
+msgctxt "dlgSgErrorUtilsClientException.fur:"
+msgid "Cancelled"
+msgstr "キャンセルされました"
+
+#, fuzzy
+msgctxt "dlgSgMerge.hnt:"
+msgid "No repository selected."
+msgstr "リポジトリが選択されていません。"
+
+#, fuzzy
+msgctxt "dlgSgMerge.tbt:"
+msgid "Interpret the search pattern as regular expression."
+msgstr "検索パターンを正規表現として解釈します。"
+
+#, fuzzy
+msgctxt "dlgSgRebase.btn:"
+msgid "Rebase"
+msgstr "リベース"
+
+#, fuzzy
+msgctxt "dlgSgRebase.hdl:"
+msgid "Rebase"
+msgstr "リベース"
+
+#, fuzzy
+msgctxt "dlgSgRebase.hnt:"
+msgid "No repository selected."
+msgstr "リポジトリが選択されていません。"
+
+#, fuzzy
+msgctxt "dlgSgRebase.tbt:"
+msgid "Interpret the search pattern as regular expression."
+msgstr "検索パターンを正規表現として解釈します。"
+
+#, fuzzy
+msgctxt "wndStd.mni:"
+msgid "Select from GitLab"
+msgstr "GitLab から選択"
+
+#, fuzzy
+msgctxt "wndStd.mni:"
+msgid "github \\(active\\)"
+msgstr "github \\(アクティブ\\)"
+
 #~ msgctxt "dlgSgOutput.lbl:"
 #~ msgid "stash failed \\(return code $1\\)"
 #~ msgstr "スタッシュに失敗しました \\(return code $1\\)"
