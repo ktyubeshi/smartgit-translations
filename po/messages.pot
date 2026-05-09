@@ -19568,9 +19568,9 @@ msgid "Fetch '$1'"
 msgstr ""
 
 # DON'T EDIT, this file will be rewritten!
-# 
+#
 # BUILD: 261030
-# 
+#
 #. Performing ', Refresh'
 #. Performing ', Log'
 #. Performing ', Blame'
@@ -19854,4 +19854,531 @@ msgstr ""
 #. Performing 'stage, Stage, Store working tree files in the index to prepare the next commit.'
 msgctxt "wndLog.mni:"
 msgid "Select from GitLab"
+msgstr ""
+
+# DON'T EDIT, this file will be rewritten!
+#
+# BUILD: 261030
+#
+#. Performing ', OK'
+#. Performing 'fixup, Use Message for Commit'
+#. Performing 'editCommitMessage, Edit Message...'
+#. Showing dialog 2 (@RBBTEF) '@CQ0AFZ - Edit Message' (owner: @UCZFYH)
+#. Performing ', OK'
+#. Performing ', Push'
+#. Showing dialog 3 (@94E92Z) '@WKQVUG - Push' (owner: @UCZFYH)
+#. Performing ', Push'
+#. Performing ', Select from GitLab...'
+#. Showing dialog 4 (@DW38PQ) '@3E116P - Select Issue' (owner: @UCZFYH)
+msgctxt "dlgSgGitLabCommitMessageSelect.btn:"
+msgid "Refresh"
+msgstr ""
+
+#. Performing ', OK'
+#. Performing 'fixup, Use Message for Commit'
+#. Performing 'editCommitMessage, Edit Message...'
+#. Showing dialog 2 (@RBBTEF) '@CQ0AFZ - Edit Message' (owner: @UCZFYH)
+#. Performing ', OK'
+#. Performing ', Push'
+#. Showing dialog 3 (@94E92Z) '@WKQVUG - Push' (owner: @UCZFYH)
+#. Performing ', Push'
+#. Performing ', Select from GitLab...'
+#. Showing dialog 4 (@DW38PQ) '@3E116P - Select Issue' (owner: @UCZFYH)
+msgctxt "dlgSgGitLabCommitMessageSelect.btn:"
+msgid "Select"
+msgstr ""
+
+#. Performing ', OK'
+#. Performing 'fixup, Use Message for Commit'
+#. Performing 'editCommitMessage, Edit Message...'
+#. Showing dialog 2 (@RBBTEF) '@CQ0AFZ - Edit Message' (owner: @UCZFYH)
+#. Performing ', OK'
+#. Performing ', Push'
+#. Showing dialog 3 (@94E92Z) '@WKQVUG - Push' (owner: @UCZFYH)
+#. Performing ', Push'
+#. Performing ', Select from GitLab...'
+#. Showing dialog 4 (@DW38PQ) '@3E116P - Select Issue' (owner: @UCZFYH)
+msgctxt "dlgSgGitLabCommitMessageSelect.col:"
+msgid "Number"
+msgstr ""
+
+#. Performing ', OK'
+#. Performing 'fixup, Use Message for Commit'
+#. Performing 'editCommitMessage, Edit Message...'
+#. Showing dialog 2 (@RBBTEF) '@CQ0AFZ - Edit Message' (owner: @UCZFYH)
+#. Performing ', OK'
+#. Performing ', Push'
+#. Showing dialog 3 (@94E92Z) '@WKQVUG - Push' (owner: @UCZFYH)
+#. Performing ', Push'
+#. Performing ', Select from GitLab...'
+#. Showing dialog 4 (@DW38PQ) '@3E116P - Select Issue' (owner: @UCZFYH)
+msgctxt "dlgSgGitLabCommitMessageSelect.col:"
+msgid "Title"
+msgstr ""
+
+#. Performing ', OK'
+#. Performing 'fixup, Use Message for Commit'
+#. Performing 'editCommitMessage, Edit Message...'
+#. Showing dialog 2 (@RBBTEF) '@CQ0AFZ - Edit Message' (owner: @UCZFYH)
+#. Performing ', OK'
+#. Performing ', Push'
+#. Showing dialog 3 (@94E92Z) '@WKQVUG - Push' (owner: @UCZFYH)
+#. Performing ', Push'
+#. Performing ', Select from GitLab...'
+#. Showing dialog 4 (@DW38PQ) '@3E116P - Select Issue' (owner: @UCZFYH)
+msgctxt "dlgSgGitLabCommitMessageSelect.hdl:"
+msgid "Select commit message by GitLab issue"
+msgstr ""
+
+#. Performing ', OK'
+#. Performing 'fixup, Use Message for Commit'
+#. Performing 'editCommitMessage, Edit Message...'
+#. Showing dialog 2 (@RBBTEF) '@CQ0AFZ - Edit Message' (owner: @UCZFYH)
+#. Performing ', OK'
+#. Performing ', Push'
+#. Showing dialog 3 (@94E92Z) '@WKQVUG - Push' (owner: @UCZFYH)
+#. Performing ', Push'
+#. Performing ', Select from GitLab...'
+#. Showing dialog 4 (@DW38PQ) '@3E116P - Select Issue' (owner: @UCZFYH)
+msgctxt "dlgSgGitLabCommitMessageSelect.inf:"
+msgid "The selected issue summary will be used as commit message."
+msgstr ""
+
+#. Showing dialog 1 (@8OPUJY) '@BA8ACG - Edit Message' (owner: @UCZFYH)
+#. Performing ', OK'
+#. Performing 'fixup, Use Message for Commit'
+#. Performing 'editCommitMessage, Edit Message...'
+#. Showing dialog 2 (@RBBTEF) '@CQ0AFZ - Edit Message' (owner: @UCZFYH)
+#. Performing ', OK'
+#. Performing ', Push'
+#. Showing dialog 3 (@94E92Z) '@WKQVUG - Push' (owner: @UCZFYH)
+#. Performing ', Push'
+#. Performing ', Select from GitLab...'
+msgctxt "dlgSgGitLabCommitMessageSelect.tle:"
+msgid "Select Issue"
+msgstr ""
+
+#. opening smartgit.cnX@37ZED4:ja_JP.po - [<directory>] - Editor (smartgit.cnX@U1UU36)
+#. Performing 'file-save, Save, Save file modifications.'
+#. Performing 'stage, Stage, Store working tree files in the index to prepare the next commit.'
+#. Performing ', Close'
+#. Performing ', Close'
+#. Performing 'editCommitMessage, Edit Message...'
+#. Showing dialog 1 (@8OPUJY) '@BA8ACG - Edit Message' (owner: @UCZFYH)
+#. Performing ', OK'
+#. Performing 'fixup, Use Message for Commit'
+#. Performing 'editCommitMessage, Edit Message...'
+msgctxt "dlgSgHistoryPushedCommitsModifyDisallowed.tle:"
+msgid "Edit Message"
+msgstr ""
+
+# DON'T EDIT, this file will be rewritten!
+#
+# BUILD: 261030
+#
+#. Showing dialog 4 (@RGEHSG) '@6W363A - Edit Property' (owner: @PHMMO1)
+#. Performing ', Cancel'
+#. Performing ', Edit...'
+#. Showing dialog 5 (@7ROP4F) '@CCALY0 - Edit Property' (owner: @PHMMO1)
+#. Performing ', Cancel'
+#. Performing ', Edit...'
+#. Showing dialog 6 (@DH0CWR) '@1WZ8I8 - Edit Property' (owner: @PHMMO1)
+#. Performing ', Cancel'
+#. Performing ', Edit...'
+#. Showing dialog 7 (@LZEW9Y) '@BC2HCD - Edit Property' (owner: @PHMMO1)
+msgctxt "dlgScPropertyEdit.lbl:"
+msgid "This property is experimental! Related functionality may not be stable or likely subject to change."
+msgstr ""
+
+#. Showing dialog 4 (@RGEHSG) '@6W363A - Edit Property' (owner: @PHMMO1)
+#. Performing ', Cancel'
+#. Performing ', Edit...'
+#. Showing dialog 5 (@7ROP4F) '@CCALY0 - Edit Property' (owner: @PHMMO1)
+#. Performing ', Cancel'
+#. Performing ', Edit...'
+#. Showing dialog 6 (@DH0CWR) '@1WZ8I8 - Edit Property' (owner: @PHMMO1)
+#. Performing ', Cancel'
+#. Performing ', Edit...'
+#. Showing dialog 7 (@LZEW9Y) '@BC2HCD - Edit Property' (owner: @PHMMO1)
+msgctxt "dlgScPropertyEdit.mni:"
+msgid "Copy"
+msgstr ""
+
+#. Performing ', OK'
+#. Performing 'stdProviderButton, Browse, Open in GitHub'
+#. Performing ', Active Branch'
+#. Performing ', Repository'
+#. Performing 'stdProviderButton, Browse, Open in GitHub'
+#. Performing ', Reconfigure...'
+#. Showing dialog 5 (@OUGQ40) '@K3JU2Z - Provider Selection' (owner: @91FDPI)
+#. Performing ', Select'
+#. Performing ', Reconfigure...'
+#. Showing dialog 6 (@9I83V2) '@MQE3GE - Provider Selection' (owner: @91FDPI)
+msgctxt "dlgSgProviderSelection.btn:"
+msgid "Select"
+msgstr ""
+
+#. Performing ', OK'
+#. Performing 'stdProviderButton, Browse, Open in GitHub'
+#. Performing ', Active Branch'
+#. Performing ', Repository'
+#. Performing 'stdProviderButton, Browse, Open in GitHub'
+#. Performing ', Reconfigure...'
+#. Showing dialog 5 (@OUGQ40) '@K3JU2Z - Provider Selection' (owner: @91FDPI)
+#. Performing ', Select'
+#. Performing ', Reconfigure...'
+#. Showing dialog 6 (@9I83V2) '@MQE3GE - Provider Selection' (owner: @91FDPI)
+msgctxt "dlgSgProviderSelection.col:"
+msgid "Action"
+msgstr ""
+
+#. Performing ', OK'
+#. Performing 'stdProviderButton, Browse, Open in GitHub'
+#. Performing ', Active Branch'
+#. Performing ', Repository'
+#. Performing 'stdProviderButton, Browse, Open in GitHub'
+#. Performing ', Reconfigure...'
+#. Showing dialog 5 (@OUGQ40) '@K3JU2Z - Provider Selection' (owner: @91FDPI)
+#. Performing ', Select'
+#. Performing ', Reconfigure...'
+#. Showing dialog 6 (@9I83V2) '@MQE3GE - Provider Selection' (owner: @91FDPI)
+msgctxt "dlgSgProviderSelection.col:"
+msgid "Name"
+msgstr ""
+
+#. Performing ', OK'
+#. Performing 'stdProviderButton, Browse, Open in GitHub'
+#. Performing ', Active Branch'
+#. Performing ', Repository'
+#. Performing 'stdProviderButton, Browse, Open in GitHub'
+#. Performing ', Reconfigure...'
+#. Showing dialog 5 (@OUGQ40) '@K3JU2Z - Provider Selection' (owner: @91FDPI)
+#. Performing ', Select'
+#. Performing ', Reconfigure...'
+#. Showing dialog 6 (@9I83V2) '@MQE3GE - Provider Selection' (owner: @91FDPI)
+msgctxt "dlgSgProviderSelection.col:"
+msgid "URL"
+msgstr ""
+
+#. Performing ', OK'
+#. Performing 'stdProviderButton, Browse, Open in GitHub'
+#. Performing ', Active Branch'
+#. Performing ', Repository'
+#. Performing 'stdProviderButton, Browse, Open in GitHub'
+#. Performing ', Reconfigure...'
+#. Showing dialog 5 (@OUGQ40) '@K3JU2Z - Provider Selection' (owner: @91FDPI)
+#. Performing ', Select'
+#. Performing ', Reconfigure...'
+#. Showing dialog 6 (@9I83V2) '@MQE3GE - Provider Selection' (owner: @91FDPI)
+msgctxt "dlgSgProviderSelection.edt:"
+msgid "Provider"
+msgstr ""
+
+#. Performing ', OK'
+#. Performing 'stdProviderButton, Browse, Open in GitHub'
+#. Performing ', Active Branch'
+#. Performing ', Repository'
+#. Performing 'stdProviderButton, Browse, Open in GitHub'
+#. Performing ', Reconfigure...'
+#. Showing dialog 5 (@OUGQ40) '@K3JU2Z - Provider Selection' (owner: @91FDPI)
+#. Performing ', Select'
+#. Performing ', Reconfigure...'
+#. Showing dialog 6 (@9I83V2) '@MQE3GE - Provider Selection' (owner: @91FDPI)
+msgctxt "dlgSgProviderSelection.hdl:"
+msgid "Select a Provider"
+msgstr ""
+
+#. Performing ', OK'
+#. Performing 'stdProviderButton, Browse, Open in GitHub'
+#. Performing ', Active Branch'
+#. Performing ', Repository'
+#. Performing 'stdProviderButton, Browse, Open in GitHub'
+#. Performing ', Reconfigure...'
+#. Showing dialog 5 (@OUGQ40) '@K3JU2Z - Provider Selection' (owner: @91FDPI)
+#. Performing ', Select'
+#. Performing ', Reconfigure...'
+#. Showing dialog 6 (@9I83V2) '@MQE3GE - Provider Selection' (owner: @91FDPI)
+msgctxt "dlgSgProviderSelection.inf:"
+msgid "Choose which provider should be used."
+msgstr ""
+
+#. Performing ', Pull'
+#. Performing ', Close'
+#. Performing 'discoverWindow, Discover Windows, Discover the different main windows.'
+#. Showing dialog 1 (@SV36OQ) '@EI8H8U - Discover Other SmartGit Windows' (owner: @7KC3Z)
+#. opening smartgit.aCX@1PRULW:null (smartgit.aCX@91FDPI)
+#. Performing 'stdProviderButton, Browse, Select a provider'
+#. Showing dialog 2 (@44DM76) '@XWXJLC - Provider Selection' (owner: @91FDPI)
+#. Performing ', Cancel'
+#. Performing ', Reconfigure...'
+#. Showing dialog 3 (@CXJRQX) '@A9MQ3R - Provider Selection' (owner: @91FDPI)
+msgctxt "dlgSgProviderSelection.inf:"
+msgid "Multiple providers are applicable to this repository."
+msgstr ""
+
+#. Performing ', OK'
+#. Performing 'stdProviderButton, Browse, Open in GitHub'
+#. Performing ', Active Branch'
+#. Performing ', Repository'
+#. Performing 'stdProviderButton, Browse, Open in GitHub'
+#. Performing ', Reconfigure...'
+#. Showing dialog 5 (@OUGQ40) '@K3JU2Z - Provider Selection' (owner: @91FDPI)
+#. Performing ', Select'
+#. Performing ', Reconfigure...'
+#. Showing dialog 6 (@9I83V2) '@MQE3GE - Provider Selection' (owner: @91FDPI)
+msgctxt "dlgSgProviderSelection.lbl:"
+msgid "Affected Remotes"
+msgstr ""
+
+#. Performing ', OK'
+#. Performing 'stdProviderButton, Browse, Open in GitHub'
+#. Performing ', Active Branch'
+#. Performing ', Repository'
+#. Performing 'stdProviderButton, Browse, Open in GitHub'
+#. Performing ', Reconfigure...'
+#. Showing dialog 5 (@OUGQ40) '@K3JU2Z - Provider Selection' (owner: @91FDPI)
+#. Performing ', Select'
+#. Performing ', Reconfigure...'
+#. Showing dialog 6 (@9I83V2) '@MQE3GE - Provider Selection' (owner: @91FDPI)
+msgctxt "dlgSgProviderSelection.lbl:"
+msgid "Fine-grained assignments can be configured on the respective remotes."
+msgstr ""
+
+#. Showing dialog 4 (@MQY3E4) '@FA86V - Passwords' (owner: @91FDPI)
+#. Performing ', OK'
+#. Performing 'stdProviderButton, Browse, Open in GitHub'
+#. Performing ', Active Branch'
+#. Performing ', Repository'
+#. Performing 'stdProviderButton, Browse, Open in GitHub'
+#. Performing ', Reconfigure...'
+#. Showing dialog 5 (@OUGQ40) '@K3JU2Z - Provider Selection' (owner: @91FDPI)
+#. Performing ', Select'
+#. Performing ', Reconfigure...'
+msgctxt "dlgSgProviderSelection.tle:"
+msgid "Provider Selection"
+msgstr ""
+
+#. Performing ', Reset'
+#. Performing ', Reset Adv.'
+#. Performing 'discoverWindow, Discover Windows, Discover the different main windows.'
+#. Showing dialog 11 (@C8JE8X) '@DDSXGF - Discover Other SmartGit Windows' (owner: @J3556A)
+#. Performing 'discoverWindow, Discover Windows, Discover the different main windows.'
+#. Showing dialog 12 (@AIQW9Y) '@GAXAZR - Discover Other SmartGit Windows' (owner: @52T29M)
+#. opening smartgit.bTY@R0IPP7:SmartGit 26.1 RC (Working Tree) Evaluation until <date> (smartgit.bTY@OK5XZP) (index=0)
+#. Performing 'viewFromSubmodules, Show Files From Submodules, If selected, files from submodules will be shown.'
+#. Performing ', Other Branch...'
+#. Showing dialog 13 (@216OJZ) '@FH2UC5 - Select Auxiliary Branch' (owner: @OK5XZP)
+msgctxt "dlgSgSelectBranch.hdl:"
+msgid "Select auxiliary branch to show"
+msgstr ""
+
+#. Performing ', OK'
+#. Performing ', Reset'
+#. Performing ', Reset Adv.'
+#. Performing 'discoverWindow, Discover Windows, Discover the different main windows.'
+#. Showing dialog 11 (@C8JE8X) '@DDSXGF - Discover Other SmartGit Windows' (owner: @J3556A)
+#. Performing 'discoverWindow, Discover Windows, Discover the different main windows.'
+#. Showing dialog 12 (@AIQW9Y) '@GAXAZR - Discover Other SmartGit Windows' (owner: @52T29M)
+#. opening smartgit.bTY@R0IPP7:SmartGit 26.1 RC (Working Tree) Evaluation until <date> (smartgit.bTY@OK5XZP) (index=0)
+#. Performing 'viewFromSubmodules, Show Files From Submodules, If selected, files from submodules will be shown.'
+#. Performing ', Other Branch...'
+msgctxt "dlgSgSelectBranch.tle:"
+msgid "Select Auxiliary Branch"
+msgstr ""
+
+#. Performing ', Cancel'
+#. Performing 'discoverWindow, Discover Windows, Discover the different main windows.'
+#. Showing dialog 9 (@9QHI0K) '@U0FFE7 - Discover Other SmartGit Windows' (owner: @52T29M)
+#. opening smartgit.aCW@HU2FKI:null (smartgit.aCW@J3556A)
+#. Performing ', Repository'
+#. Performing 'fetch, Pull..., Fetch commits from a remote repository and (optionally) integrate them with possible local commits.'
+#. Showing dialog 10 (@RG6SP2) '@IE8QM6 - Passwords' (owner: @J3556A)
+#. Performing ', OK'
+#. Performing ', Reset'
+#. Performing ', Reset Adv.'
+msgctxt "pop:"
+msgid "Pulled nothing new"
+msgstr ""
+
+#. Showing dialog 11 (@C8JE8X) '@DDSXGF - Discover Other SmartGit Windows' (owner: @J3556A)
+#. Performing 'discoverWindow, Discover Windows, Discover the different main windows.'
+#. Showing dialog 12 (@AIQW9Y) '@GAXAZR - Discover Other SmartGit Windows' (owner: @52T29M)
+#. opening smartgit.bTY@R0IPP7:SmartGit 26.1 RC (Working Tree) Evaluation until <date> (smartgit.bTY@OK5XZP) (index=0)
+#. Performing 'viewFromSubmodules, Show Files From Submodules, If selected, files from submodules will be shown.'
+#. Performing ', Other Branch...'
+#. Showing dialog 13 (@216OJZ) '@FH2UC5 - Select Auxiliary Branch' (owner: @OK5XZP)
+#. Performing ', Cancel'
+#. Performing 'view-settings, Settings...'
+#. Showing dialog 14 (@UGIE8C) '@TC2IHP - Settings' (owner: @OK5XZP)
+msgctxt "wndProject.mni:"
+msgid "Continue in Background"
+msgstr ""
+
+#. Showing dialog 11 (@C8JE8X) '@DDSXGF - Discover Other SmartGit Windows' (owner: @J3556A)
+#. Performing 'discoverWindow, Discover Windows, Discover the different main windows.'
+#. Showing dialog 12 (@AIQW9Y) '@GAXAZR - Discover Other SmartGit Windows' (owner: @52T29M)
+#. opening smartgit.bTY@R0IPP7:SmartGit 26.1 RC (Working Tree) Evaluation until <date> (smartgit.bTY@OK5XZP) (index=0)
+#. Performing 'viewFromSubmodules, Show Files From Submodules, If selected, files from submodules will be shown.'
+#. Performing ', Other Branch...'
+#. Showing dialog 13 (@216OJZ) '@FH2UC5 - Select Auxiliary Branch' (owner: @OK5XZP)
+#. Performing ', Cancel'
+#. Performing 'view-settings, Settings...'
+#. Showing dialog 14 (@UGIE8C) '@TC2IHP - Settings' (owner: @OK5XZP)
+msgctxt "wndProject.mni:"
+msgid "On Manual Intervention"
+msgstr ""
+
+#. Showing dialog 11 (@C8JE8X) '@DDSXGF - Discover Other SmartGit Windows' (owner: @J3556A)
+#. Performing 'discoverWindow, Discover Windows, Discover the different main windows.'
+#. Showing dialog 12 (@AIQW9Y) '@GAXAZR - Discover Other SmartGit Windows' (owner: @52T29M)
+#. opening smartgit.bTY@R0IPP7:SmartGit 26.1 RC (Working Tree) Evaluation until <date> (smartgit.bTY@OK5XZP) (index=0)
+#. Performing 'viewFromSubmodules, Show Files From Submodules, If selected, files from submodules will be shown.'
+#. Performing ', Other Branch...'
+#. Showing dialog 13 (@216OJZ) '@FH2UC5 - Select Auxiliary Branch' (owner: @OK5XZP)
+#. Performing ', Cancel'
+#. Performing 'view-settings, Settings...'
+#. Showing dialog 14 (@UGIE8C) '@TC2IHP - Settings' (owner: @OK5XZP)
+msgctxt "wndProject.mni:"
+msgid "Reconfigure"
+msgstr ""
+
+#. Showing dialog 11 (@C8JE8X) '@DDSXGF - Discover Other SmartGit Windows' (owner: @J3556A)
+#. Performing 'discoverWindow, Discover Windows, Discover the different main windows.'
+#. Showing dialog 12 (@AIQW9Y) '@GAXAZR - Discover Other SmartGit Windows' (owner: @52T29M)
+#. opening smartgit.bTY@R0IPP7:SmartGit 26.1 RC (Working Tree) Evaluation until <date> (smartgit.bTY@OK5XZP) (index=0)
+#. Performing 'viewFromSubmodules, Show Files From Submodules, If selected, files from submodules will be shown.'
+#. Performing ', Other Branch...'
+#. Showing dialog 13 (@216OJZ) '@FH2UC5 - Select Auxiliary Branch' (owner: @OK5XZP)
+#. Performing ', Cancel'
+#. Performing 'view-settings, Settings...'
+#. Showing dialog 14 (@UGIE8C) '@TC2IHP - Settings' (owner: @OK5XZP)
+msgctxt "wndProject.mni:"
+msgid "Select from GitLab"
+msgstr ""
+
+#. Showing dialog 11 (@C8JE8X) '@DDSXGF - Discover Other SmartGit Windows' (owner: @J3556A)
+#. Performing 'discoverWindow, Discover Windows, Discover the different main windows.'
+#. Showing dialog 12 (@AIQW9Y) '@GAXAZR - Discover Other SmartGit Windows' (owner: @52T29M)
+#. opening smartgit.bTY@R0IPP7:SmartGit 26.1 RC (Working Tree) Evaluation until <date> (smartgit.bTY@OK5XZP) (index=0)
+#. Performing 'viewFromSubmodules, Show Files From Submodules, If selected, files from submodules will be shown.'
+#. Performing ', Other Branch...'
+#. Showing dialog 13 (@216OJZ) '@FH2UC5 - Select Auxiliary Branch' (owner: @OK5XZP)
+#. Performing ', Cancel'
+#. Performing 'view-settings, Settings...'
+#. Showing dialog 14 (@UGIE8C) '@TC2IHP - Settings' (owner: @OK5XZP)
+msgctxt "wndProject.mni:"
+msgid "Stop"
+msgstr ""
+
+#. Performing ', Reset Adv.'
+#. Performing 'discoverWindow, Discover Windows, Discover the different main windows.'
+#. Showing dialog 11 (@C8JE8X) '@DDSXGF - Discover Other SmartGit Windows' (owner: @J3556A)
+#. Performing 'discoverWindow, Discover Windows, Discover the different main windows.'
+#. Showing dialog 12 (@AIQW9Y) '@GAXAZR - Discover Other SmartGit Windows' (owner: @52T29M)
+#. opening smartgit.bTY@R0IPP7:SmartGit 26.1 RC (Working Tree) Evaluation until <date> (smartgit.bTY@OK5XZP) (index=0)
+#. Performing 'viewFromSubmodules, Show Files From Submodules, If selected, files from submodules will be shown.'
+#. Performing ', Other Branch...'
+#. Showing dialog 13 (@216OJZ) '@FH2UC5 - Select Auxiliary Branch' (owner: @OK5XZP)
+#. Performing ', Cancel'
+#. placeholder: $1=<branch_name>
+msgctxt "wndProject.mni:"
+msgid "$1"
+msgstr ""
+
+#. Showing dialog 10 (@RG6SP2) '@IE8QM6 - Passwords' (owner: @J3556A)
+#. Performing ', OK'
+#. Performing ', Reset'
+#. Performing ', Reset Adv.'
+#. Performing 'discoverWindow, Discover Windows, Discover the different main windows.'
+#. Showing dialog 11 (@C8JE8X) '@DDSXGF - Discover Other SmartGit Windows' (owner: @J3556A)
+#. Performing 'discoverWindow, Discover Windows, Discover the different main windows.'
+#. Showing dialog 12 (@AIQW9Y) '@GAXAZR - Discover Other SmartGit Windows' (owner: @52T29M)
+#. opening smartgit.bTY@R0IPP7:SmartGit 26.1 RC (Working Tree) Evaluation until <date> (smartgit.bTY@OK5XZP) (index=0)
+#. Performing 'viewFromSubmodules, Show Files From Submodules, If selected, files from submodules will be shown.'
+msgctxt "wndProject.tbtViewRecursive:"
+msgid "If selected, files from subdirectories are shown."
+msgstr ""
+
+#. Performing ', Select'
+#. Showing dialog 4 (@MQY3E4) '@FA86V - Passwords' (owner: @91FDPI)
+#. Performing ', OK'
+#. Performing 'stdProviderButton, Browse, Open in GitHub'
+#. Performing ', Active Branch'
+#. Performing ', Repository'
+#. Performing 'stdProviderButton, Browse, Open in GitHub'
+#. Performing ', Reconfigure...'
+#. Showing dialog 5 (@OUGQ40) '@K3JU2Z - Provider Selection' (owner: @91FDPI)
+#. Performing ', Select'
+msgctxt "wndStd.mni:"
+msgid "Active Branch"
+msgstr ""
+
+#. Performing ', Cancel'
+#. Performing 'discoverWindow, Discover Windows, Discover the different main windows.'
+#. Showing dialog 9 (@9QHI0K) '@U0FFE7 - Discover Other SmartGit Windows' (owner: @52T29M)
+#. opening smartgit.aCW@HU2FKI:null (smartgit.aCW@J3556A)
+#. Performing ', Repository'
+#. Performing 'fetch, Pull..., Fetch commits from a remote repository and (optionally) integrate them with possible local commits.'
+#. Showing dialog 10 (@RG6SP2) '@IE8QM6 - Passwords' (owner: @J3556A)
+#. Performing ', OK'
+#. Performing ', Reset'
+#. Performing ', Reset Adv.'
+msgctxt "wndStd.mni:"
+msgid "Overlap"
+msgstr ""
+
+#. Performing ', Select'
+#. Showing dialog 4 (@MQY3E4) '@FA86V - Passwords' (owner: @91FDPI)
+#. Performing ', OK'
+#. Performing 'stdProviderButton, Browse, Open in GitHub'
+#. Performing ', Active Branch'
+#. Performing ', Repository'
+#. Performing 'stdProviderButton, Browse, Open in GitHub'
+#. Performing ', Reconfigure...'
+#. Showing dialog 5 (@OUGQ40) '@K3JU2Z - Provider Selection' (owner: @91FDPI)
+#. Performing ', Select'
+msgctxt "wndStd.mni:"
+msgid "Repository"
+msgstr ""
+
+#. Performing ', Select'
+#. Showing dialog 4 (@MQY3E4) '@FA86V - Passwords' (owner: @91FDPI)
+#. Performing ', OK'
+#. Performing 'stdProviderButton, Browse, Open in GitHub'
+#. Performing ', Active Branch'
+#. Performing ', Repository'
+#. Performing 'stdProviderButton, Browse, Open in GitHub'
+#. Performing ', Reconfigure...'
+#. Showing dialog 5 (@OUGQ40) '@K3JU2Z - Provider Selection' (owner: @91FDPI)
+#. Performing ', Select'
+msgctxt "wndStd.tbtStdProviderButton:"
+msgid "Open in GitHub"
+msgstr ""
+
+#. Performing ', Active Branch'
+#. Performing ', Repository'
+#. Performing 'stdProviderButton, Browse, Open in GitHub'
+#. Performing ', Reconfigure...'
+#. Showing dialog 5 (@OUGQ40) '@K3JU2Z - Provider Selection' (owner: @91FDPI)
+#. Performing ', Select'
+#. Performing ', Reconfigure...'
+#. Showing dialog 6 (@9I83V2) '@MQE3GE - Provider Selection' (owner: @91FDPI)
+#. Performing ', Select'
+#. Performing 'stdProviderButton, Browse, Open in GitLab'
+msgctxt "wndStd.tbtStdProviderButton:"
+msgid "Open in GitLab"
+msgstr ""
+
+#. Performing ', Cancel'
+#. Performing 'discoverWindow, Discover Windows, Discover the different main windows.'
+#. Showing dialog 9 (@9QHI0K) '@U0FFE7 - Discover Other SmartGit Windows' (owner: @52T29M)
+#. opening smartgit.aCW@HU2FKI:null (smartgit.aCW@J3556A)
+#. Performing ', Repository'
+#. Performing 'fetch, Pull..., Fetch commits from a remote repository and (optionally) integrate them with possible local commits.'
+#. Showing dialog 10 (@RG6SP2) '@IE8QM6 - Passwords' (owner: @J3556A)
+#. Performing ', OK'
+#. Performing ', Reset'
+#. Performing ', Reset Adv.'
+msgctxt "wndStd.tbtStdProviderButton:"
+msgid "Refreshing the provider state failed.\\n\\nCancelled"
 msgstr ""
