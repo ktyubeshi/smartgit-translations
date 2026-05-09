@@ -5589,9 +5589,10 @@ msgctxt "dlgSgHistoryPushedCommitsModifyPushedCommits.tle:"
 msgid "Split Commit"
 msgstr "コミットを分割"
 
+#, fuzzy
 msgctxt "dlgSgHistoryPushedCommitsModifyPushedCommits.tle:"
 msgid "Split Off Files"
-msgstr "ファイルを分割"
+msgstr "ファイルを別コミットに切り出し"
 
 msgctxt "dlgSgHistoryPushedCommitsModifyPushedCommits.tle:"
 msgid "Squash Commits"
@@ -11215,41 +11216,51 @@ msgctxt "dlgSgSplitOffFiles.btn:"
 msgid "JIRA"
 msgstr "JIRA"
 
+#, fuzzy
 msgctxt "dlgSgSplitOffFiles.btn:"
 msgid "Split After"
-msgstr "後方に分割"
+msgstr "後に切り出す"
 
+#, fuzzy
 msgctxt "dlgSgSplitOffFiles.btn:"
 msgid "Split Before"
-msgstr "前方に分割"
+msgstr "前に切り出す"
 
+#, fuzzy
 msgctxt "dlgSgSplitOffFiles.btn:"
 msgid "Split Off"
-msgstr "分割する"
+msgstr "切り出す"
 
 msgctxt "dlgSgSplitOffFiles.edt:"
 msgid "Commit Message"
 msgstr "コミットメッセージ"
 
+# Split Off Files is a feature that splits selected file changes into a separate commit, so this is translated according to that context rather than literally as moving files.
+# 「Split Off Files」は選択したファイルの変更を別コミットへ切り出す機能のため、「ファイルを移動する」という直訳ではなくコンテキストに即して意訳しています。
+#, fuzzy
 msgctxt "dlgSgSplitOffFiles.hdl:"
 msgid "Move files to a second commit"
-msgstr "ファイルを2番目のコミットに移動する"
+msgstr "選択したファイルの変更を別コミットに切り出します"
 
+#, fuzzy
 msgctxt "dlgSgSplitOffFiles.inf:"
 msgid "Provide the message for the second commit that should contain the changes from the selected files."
-msgstr "選択したファイルからの変更を含める必要がある 2 番目のコミットのメッセージを入力します。"
+msgstr "切り出した変更を含める別コミットのメッセージを入力し、作成位置を選択してください。"
 
+#, fuzzy
 msgctxt "dlgSgSplitOffFiles.tle:"
 msgid "Split Off Files"
-msgstr "ファイルを分割"
+msgstr "ファイルを別コミットに切り出し"
 
+#, fuzzy
 msgctxt "dlgSgSplitOffFilesEmptyCommit.fur:"
 msgid "By splitting off all files, the resulting commit would become empty."
-msgstr "すべてのファイルを分割すると、結果のコミットは空になります。"
+msgstr "すべてのファイルを切り出すと、元のコミットが空になります。"
 
+#, fuzzy
 msgctxt "dlgSgSplitOffFilesEmptyCommit.hdl:"
 msgid "You can't split off all files from a commit"
-msgstr "コミットからすべてのファイルを分割することはできません"
+msgstr "コミット内のすべてのファイルを切り出すことはできません"
 
 msgctxt "dlgSgSplitOffFilesEmptyCommit.tle:"
 msgid "Commit"
@@ -16810,9 +16821,10 @@ msgctxt "wnd(Log|Project|Std|).mniBranchSplit:"
 msgid "Modify or Split Commit"
 msgstr "コミットの変更または分割"
 
+#, fuzzy
 msgctxt "wnd(Log|Project|Std|).mniBranchSplitFiles:"
 msgid "Split Off Files"
-msgstr "ファイルを分割"
+msgstr "ファイルを別コミットに切り出し"
 
 msgctxt "wnd(Log|Project|Std|).mniBranchesGitFlowRemoteOnly:"
 msgid "Show remote branches in their Git-Flow sections"
