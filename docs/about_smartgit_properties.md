@@ -12,6 +12,7 @@ Note that the specifications of these options may change for internal reasons.
 | 4  | smartgit.debug.i18n.markUntranslated | boolean | false | A specific mark will be displayed at the beginning of the translation for UI elements that are included in `messages.pot` but have not yet been translated. |
 | 5  | smartgit.debug.i18n.markerTranslatable | string | ✨ | Specifies the character to be displayed when `i18n.markTranslatable` is true in option 3. |
 | 6  | smartgit.debug.i18n.markerUntranslated | string | ■ | Specifies the character to be displayed when `i18n.markUntranslated` is true in option 4. |
+| 7  | smartgit.debug.i18n.markerNeedsReview | string | ⚐ | Specifies the character to be displayed at the beginning of translation entries that need review. Items marked with the fuzzy flag in the PO file (items with `#, fuzzy`) are shown with this character in the GUI. This is intended for use cases where translations that cannot be judged properly by looking only at the PO file are marked as fuzzy and then checked in the actual GUI. |
 
 Despite setting options 5 and 6, strings that remain in English on the GUI are currently untranslatable and require modifications to the SmartGit source code to become translatable.
 If you want such strings to be made translatable, please create an issue with a screenshot of the relevant location.
@@ -29,8 +30,11 @@ smartgit.debug.i18n.markTranslatable=true
 smartgit.debug.i18n.markUntranslated=true
 smartgit.debug.i18n.markerTranslatable=✨
 smartgit.debug.i18n.markerUntranslated=■
+smartgit.debug.i18n.markerNeedsReview=⚐
 
 ```
+
+Unicode emoji can also be specified in `\uXXXX` format.
 
 ## Location of smartgit.properties
 
@@ -43,3 +47,8 @@ If you do not know where `smartgit.properties` is located, you can check the set
 2. Open the `Information` tab and check the directory shown in `Settings Path`. The `smartgit.properties` file is stored in this directory.
 
 ![Settings Path in the About SmartGit dialog](img/about_smartgit_properties/dialog-about_smart_git-information-settings_path.png)
+
+## Troubleshooting
+
+If SmartGit does not load the PO file even after configuring `smartgit.properties`, or if incorrect settings or a broken PO file prevent SmartGit from starting, check the log files in the `logs` directory under the directory where the `smartgit.properties` file is stored.
+Check whether any file loading errors occurred and whether SmartGit is trying to load the PO file from the intended location.
