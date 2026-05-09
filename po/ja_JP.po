@@ -20002,6 +20002,207 @@ msgctxt "wndLog.mni:"
 msgid "Select from GitLab"
 msgstr "GitLab から選択"
 
+#, fuzzy
+msgctxt "pop:"
+msgid "There are no obsolete local branches."
+msgstr "古くなったローカルブランチはありません。"
+
+#, fuzzy
+msgctxt "wndLog.mni:"
+msgid "Providers"
+msgstr "プロバイダー"
+
+#, fuzzy
+msgctxt "wndLog.tbt:"
+msgid "Select a provider"
+msgstr "プロバイダーを選択"
+
+#, fuzzy
+msgctxt "dlgSgGitLabCommitMessageSelect.btn:"
+msgid "Refresh"
+msgstr "更新"
+
+#, fuzzy
+msgctxt "dlgSgGitLabCommitMessageSelect.btn:"
+msgid "Select"
+msgstr "選択"
+
+#, fuzzy
+msgctxt "dlgSgGitLabCommitMessageSelect.col:"
+msgid "Number"
+msgstr "番号"
+
+#, fuzzy
+msgctxt "dlgSgGitLabCommitMessageSelect.col:"
+msgid "Title"
+msgstr "タイトル"
+
+#, fuzzy
+msgctxt "dlgSgGitLabCommitMessageSelect.hdl:"
+msgid "Select commit message by GitLab issue"
+msgstr "GitLab イシューからコミットメッセージを選択"
+
+#, fuzzy
+msgctxt "dlgSgGitLabCommitMessageSelect.inf:"
+msgid "The selected issue summary will be used as commit message."
+msgstr "選択したイシューの概要がコミットメッセージとして使用されます。"
+
+#, fuzzy
+msgctxt "dlgSgGitLabCommitMessageSelect.tle:"
+msgid "Select Issue"
+msgstr "イシューを選択"
+
+#, fuzzy
+msgctxt "dlgSgHistoryPushedCommitsModifyDisallowed.tle:"
+msgid "Edit Message"
+msgstr "メッセージを編集"
+
+#, fuzzy
+msgctxt "dlgScPropertyEdit.lbl:"
+msgid "This property is experimental! Related functionality may not be stable or likely subject to change."
+msgstr "このプロパティは実験的です。関連する機能は安定していない可能性があり、変更される可能性があります。"
+
+#, fuzzy
+msgctxt "dlgScPropertyEdit.mni:"
+msgid "Copy"
+msgstr "コピー"
+
+#, fuzzy
+msgctxt "dlgSgProviderSelection.btn:"
+msgid "Select"
+msgstr "選択"
+
+#, fuzzy
+msgctxt "dlgSgProviderSelection.col:"
+msgid "Action"
+msgstr "アクション"
+
+#, fuzzy
+msgctxt "dlgSgProviderSelection.col:"
+msgid "Name"
+msgstr "名前"
+
+#, fuzzy
+msgctxt "dlgSgProviderSelection.col:"
+msgid "URL"
+msgstr "URL"
+
+#, fuzzy
+msgctxt "dlgSgProviderSelection.edt:"
+msgid "Provider"
+msgstr "プロバイダー"
+
+#, fuzzy
+msgctxt "dlgSgProviderSelection.hdl:"
+msgid "Select a Provider"
+msgstr "プロバイダーを選択"
+
+#, fuzzy
+msgctxt "dlgSgProviderSelection.inf:"
+msgid "Choose which provider should be used."
+msgstr "使用するプロバイダーを選択してください。"
+
+#, fuzzy
+msgctxt "dlgSgProviderSelection.inf:"
+msgid "Multiple providers are applicable to this repository."
+msgstr "このリポジトリには複数のプロバイダーが適用できます。"
+
+#, fuzzy
+msgctxt "dlgSgProviderSelection.lbl:"
+msgid "Affected Remotes"
+msgstr "影響を受けるリモート"
+
+#, fuzzy
+msgctxt "dlgSgProviderSelection.lbl:"
+msgid "Fine-grained assignments can be configured on the respective remotes."
+msgstr "細かな割り当ては、それぞれのリモートで設定できます。"
+
+#, fuzzy
+msgctxt "dlgSgProviderSelection.tle:"
+msgid "Provider Selection"
+msgstr "プロバイダーの選択"
+
+#, fuzzy
+msgctxt "dlgSgSelectBranch.hdl:"
+msgid "Select auxiliary branch to show"
+msgstr "表示する補助ブランチを選択"
+
+#, fuzzy
+msgctxt "dlgSgSelectBranch.tle:"
+msgid "Select Auxiliary Branch"
+msgstr "補助ブランチを選択"
+
+#, fuzzy
+msgctxt "pop:"
+msgid "Pulled nothing new"
+msgstr "プルされた新規内容はありません。"
+
+#, fuzzy
+msgctxt "wndProject.mni:"
+msgid "Continue in Background"
+msgstr "バックグラウンドで続行"
+
+#, fuzzy
+msgctxt "wndProject.mni:"
+msgid "On Manual Intervention"
+msgstr "手動介入時"
+
+#, fuzzy
+msgctxt "wndProject.mni:"
+msgid "Reconfigure"
+msgstr "再設定"
+
+#, fuzzy
+msgctxt "wndProject.mni:"
+msgid "Select from GitLab"
+msgstr "GitLab から選択"
+
+#, fuzzy
+msgctxt "wndProject.mni:"
+msgid "Stop"
+msgstr "停止"
+
+#. placeholder: $1=<branch_name>
+#, fuzzy
+msgctxt "wndProject.mni:"
+msgid "$1"
+msgstr "$1"
+
+#, fuzzy
+msgctxt "wndProject.tbtViewRecursive:"
+msgid "If selected, files from subdirectories are shown."
+msgstr "選択すると、サブディレクトリ内のファイルも表示されます。"
+
+#, fuzzy
+msgctxt "wndStd.mni:"
+msgid "Active Branch"
+msgstr "アクティブブランチ"
+
+#, fuzzy
+msgctxt "wndStd.mni:"
+msgid "Overlap"
+msgstr "重ね合わせ"
+
+#, fuzzy
+msgctxt "wndStd.mni:"
+msgid "Repository"
+msgstr "リポジトリ"
+
+#, fuzzy
+msgctxt "wndStd.tbtStdProviderButton:"
+msgid "Open in GitHub"
+msgstr "GitHub で開く"
+
+#, fuzzy
+msgctxt "wndStd.tbtStdProviderButton:"
+msgid "Open in GitLab"
+msgstr "GitLab で開く"
+
+#, fuzzy
+msgctxt "wndStd.tbtStdProviderButton:"
+msgid "Refreshing the provider state failed.\\n\\nCancelled"
+msgstr "プロバイダーの状態の更新に失敗しました。\\n\\nキャンセルされました"
+
 #~ msgctxt "dlgSgOutput.lbl:"
 #~ msgid "stash failed \\(return code $1\\)"
 #~ msgstr "スタッシュに失敗しました \\(return code $1\\)"
