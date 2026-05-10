@@ -28467,7 +28467,6 @@ msgstr "このコミットと <b>$1</b> \\($2\\) の重なりに関する情報�
 #
 # BUILD: 261031
 #
-
 #. Showing dialog 0 (@5W4RC3) '@BZ7MT8 - Setup SmartGit 26.1 RC' (owner: null)
 msgctxt "dlgSgSetup.lbl\"<a href\\=\\\"click\\\">Have an on-premise license server?</a>\""
 msgid "<a href\\=\"click\">Have an on-premise license server?</a>"
