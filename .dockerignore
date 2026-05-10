@@ -1,0 +1,10 @@
+.git
+.pytest_cache
+tmp
+tools/.venv
+**/.pytest_cache
+**/__pycache__
+**/*.pyc
+**/.venv
+**/.idea
+**/.vscode

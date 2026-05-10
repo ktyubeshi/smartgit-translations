@@ -1,0 +1,17 @@
+services:
+  tools:
+    build:
+      context: .
+      dockerfile: tools/docker/Dockerfile
+    working_dir: /workspace
+    volumes:
+      - .:/workspace
+      - smartgit-tools-state:/opt/smartgit-tools
+    environment:
+      UV_PROJECT_ENVIRONMENT: /opt/smartgit-tools/venv
+      UV_CACHE_DIR: /opt/smartgit-tools/uv-cache
+    command: sleep infinity
+    tty: true
+
+volumes:
+  smartgit-tools-state:
