@@ -2,6 +2,9 @@
 name = "smartgit-translation-tools-workspace"
 version = "0.1.0"
 requires-python = ">=3.10"
+dependencies = [
+    "smartgit-i18n-scripts",
+]
 
 [tool.uv]
 package = false
@@ -10,3 +13,6 @@ package = false
 members = [
     "packages/smartgit-i18n-scripts",
 ]
+
+[tool.uv.sources]
+smartgit-i18n-scripts = { workspace = true }

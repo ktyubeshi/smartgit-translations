@@ -9,6 +9,13 @@ dependencies = [
 ]
 
 [project.scripts]
+sg-delete-comments = "smartgit_i18n_scripts.commands.delete_extracted_comments:main"
+sg-format-po = "smartgit_i18n_scripts.commands.format_po_files:main"
+sg-import-mismatch = "smartgit_i18n_scripts.commands.import_mismatch:main"
+sg-import-pot = "smartgit_i18n_scripts.commands.import_pot:main"
+sg-import-unknown = "smartgit_i18n_scripts.commands.import_unknown:main"
+sg-locale2po = "smartgit_i18n_scripts.commands.locale2po:main"
+sg-master2pot = "smartgit_i18n_scripts.commands.master2pot:main"
 smartgit-delete-extracted-comments = "smartgit_i18n_scripts.commands.delete_extracted_comments:main"
 smartgit-format-po = "smartgit_i18n_scripts.commands.format_po_files:main"
 smartgit-import-mismatch = "smartgit_i18n_scripts.commands.import_mismatch:main"

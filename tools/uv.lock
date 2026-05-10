@@ -469,6 +469,12 @@ dev = [{ name = "pytest" }]
 name = "smartgit-translation-tools-workspace"
 version = "0.1.0"
 source = { virtual = "." }
+dependencies = [
+    { name = "smartgit-i18n-scripts" },
+]
+
+[package.metadata]
+requires-dist = [{ name = "smartgit-i18n-scripts", editable = "packages/smartgit-i18n-scripts" }]
 
 [[package]]
 name = "sniffio"
