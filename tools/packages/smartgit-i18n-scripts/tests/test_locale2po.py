@@ -1,8 +1,8 @@
 import unittest
 
-from locale2po import CombinedSgMap_to_po
-from sgpo_common import *
-from sgv23_mapping import SgMap, CombinedSgMap
+from smartgit_i18n_scripts.commands.locale2po import CombinedSgMap_to_po
+from smartgit_i18n_scripts.sgpo_common import *
+from smartgit_i18n_scripts.sgv23_mapping import SgMap, CombinedSgMap
 
 
 def create_combined_sg_map(master_str: str, locale_str: str, state_str: str, locale_code: str) -> CombinedSgMap:

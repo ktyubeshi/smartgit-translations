@@ -1,0 +1,1 @@
+"""SmartGit translation maintenance scripts."""

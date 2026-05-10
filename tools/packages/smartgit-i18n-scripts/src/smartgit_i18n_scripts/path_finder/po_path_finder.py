@@ -1,5 +1,6 @@
 import os
 import glob
+from pathlib import Path
 from typing import AnyStr
 
 
@@ -39,7 +40,12 @@ class PoPathFinder:
 
 
 def get_repository_root() -> str:
-    return dirname(dirname(dirname(os.path.abspath(__file__))))
+    for start in (Path.cwd(), Path(__file__).resolve()):
+        for path in (start, *start.parents):
+            if (path / "po").is_dir() and (path / "README.md").is_file():
+                return str(path)
+
+    raise FileNotFoundError("Could not locate the repository root.")
 
 
 def dirname(p: os.PathLike[AnyStr]) -> AnyStr:

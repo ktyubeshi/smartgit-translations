@@ -1,5 +1,5 @@
-from path_finder import PoPathFinder
-import sgpo
+from smartgit_i18n_scripts import sgpo
+from smartgit_i18n_scripts.path_finder import PoPathFinder
 
 
 def main():

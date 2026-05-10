@@ -1,0 +1,27 @@
+[project]
+name = "smartgit-i18n-scripts"
+version = "0.1.0"
+requires-python = ">=3.10"
+dependencies = [
+    "openai",
+    "polib",
+    "pyparsing",
+]
+
+[project.scripts]
+smartgit-delete-extracted-comments = "smartgit_i18n_scripts.commands.delete_extracted_comments:main"
+smartgit-format-po = "smartgit_i18n_scripts.commands.format_po_files:main"
+smartgit-import-mismatch = "smartgit_i18n_scripts.commands.import_mismatch:main"
+smartgit-import-pot = "smartgit_i18n_scripts.commands.import_pot:main"
+smartgit-import-unknown = "smartgit_i18n_scripts.commands.import_unknown:main"
+smartgit-locale2po = "smartgit_i18n_scripts.commands.locale2po:main"
+smartgit-master2pot = "smartgit_i18n_scripts.commands.master2pot:main"
+
+[dependency-groups]
+dev = [
+    "pytest",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

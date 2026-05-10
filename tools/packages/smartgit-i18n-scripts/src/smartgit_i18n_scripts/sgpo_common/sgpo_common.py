@@ -1,4 +1,5 @@
 import os
+from pathlib import Path
 
 import polib
 
@@ -38,7 +39,12 @@ def optimize_po_entry(po_entry: polib.POEntry) -> polib.POEntry:
     return new_po_entry
 
 def get_repository_root() -> str:
-    return os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+    for start in (Path.cwd(), Path(__file__).resolve()):
+        for path in (start, *start.parents):
+            if (path / "po").is_dir() and (path / "README.md").is_file():
+                return str(path)
+
+    raise FileNotFoundError("Could not locate the repository root.")
 
 def get_po_dir(base_dir: str) -> str:
     return os.path.normpath(os.path.join(base_dir, "po"))

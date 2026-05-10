@@ -1,6 +1,6 @@
 import unittest
 
-from sgv23_mapping import SgMap
+from smartgit_i18n_scripts.sgv23_mapping import SgMap
 
 
 class TestSgMap(unittest.TestCase):
