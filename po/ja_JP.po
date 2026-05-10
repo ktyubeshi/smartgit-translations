@@ -28491,6 +28491,38 @@ msgctxt "dlgSgSetup.lbl\"<a href\\=\\\"search\\\">Search</a> common installation
 msgid "<a href\\=\"search\">Search</a> common installation locations."
 msgstr "一般的なインストール場所を<a href\\=\"search\">検索</a>します。"
 
+# DON'T EDIT, this file will be rewritten!
+#
+# BUILD: 261031
+#
+#. Performing ', Add'
+#. Performing ', GitLab'
+#. Showing dialog 13 (@4WLZ13) '@446N8P - Add Hosting Provider' (owner: @7QN5KC)
+#. Performing ', Cancel'
+#. Performing ', Add'
+#. Performing ', GitLab'
+#. Showing dialog 14 (@QZAQHY) '@LFMPO7 - Add Hosting Provider' (owner: @7QN5KC)
+#. Performing ', Add'
+#. Performing ', GitLab (Self Hosted)'
+#. Showing dialog 15 (@SBISFW) '@VQOSD9 - Add Hosting Provider' (owner: @7QN5KC)
+msgctxt "dlgSgHostingProviderAdd.lbl:"
+msgid "Provide a 'personal access token' which you can generate in your \\[link GitLab account settings\\]. Required scopes are \\*api\\* and \\*write\\\\_repository\\*."
+msgstr ""
+
+#. Performing ', Close'
+#. Performing ', Close'
+#. Performing ', Close'
+#. Performing 'preferences, Preferences'
+#. Showing dialog 5 (@7QN5KC) '@NXD08K - Preferences' (owner: @SLPJA)
+#. Performing ', Add'
+#. Performing ', GitHub'
+#. Showing dialog 6 (@4483UN) '@WVRO0W - Master Password' (owner: @7QN5KC)
+#. Performing ', OK'
+#. Showing dialog 7 (@FSKBVB) '@ZFOU7Y - Add Hosting Provider' (owner: @7QN5KC)
+msgctxt "dlgSgHostingProviderAdd.lbl\"You can review the GitHub application settings <a href\\=\\\"\\\">here</a>.\""
+msgid "You can review the GitHub application settings <a href\\=\"\">here</a>."
+msgstr ""
+
 #~ msgctxt "dlgSgOutput.lbl:"
 #~ msgid "stash failed \\(return code $1\\)"
 #~ msgstr "スタッシュに失敗しました \\(return code $1\\)"
