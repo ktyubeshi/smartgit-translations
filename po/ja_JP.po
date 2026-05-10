@@ -28217,6 +28217,236 @@ msgctxt "lblPropertyDescription:"
 msgid "\\*\\(Windows Only\\)\\* Set this option to `true` to enable file monitoring for UNC paths. Depending on the network drive type, this may slow down file monitoring and\\\\/or may not work reliably."
 msgstr "\\*\\(Windows のみ\\)\\* UNC パスのファイル監視を有効にするには、このオプションを `true` に設定します。ネットワークドライブの種類によっては、ファイル監視が遅くなったり、確実に動作しなかったりする可能性があります。"
 
+# DON'T EDIT, this file will be rewritten!
+#
+# BUILD: 261031
+#
+#. Performing 'delete, Delete..., Delete the selected local files or directory.'
+#. Showing dialog 63 (@WVOXIK) '@9VIBAK - Delete' (owner: @AZGTCG)
+#. Performing ', Delete'
+#. Performing 'delete, Delete..., Delete the selected local files or directory.'
+#. Showing dialog 64 (@KRHU41) '@UJJGWJ - Delete' (owner: @AZGTCG)
+#. Performing ', Delete'
+#. Performing ',   Reveal in Explorer'
+#. Performing ',   Reveal in Explorer'
+#. Performing 'viewIgnored, Show Ignored Files, If selected, ignored files will be shown.'
+#. Performing ', ID'
+msgctxt "ttpLogGraphOverlap:"
+msgid "<b>Click</b> on this symbol to fixate overlap display on this commit."
+msgstr ""
+
+#. Performing 'delete, Delete..., Delete the selected local files or directory.'
+#. Showing dialog 63 (@WVOXIK) '@9VIBAK - Delete' (owner: @AZGTCG)
+#. Performing ', Delete'
+#. Performing 'delete, Delete..., Delete the selected local files or directory.'
+#. Showing dialog 64 (@KRHU41) '@UJJGWJ - Delete' (owner: @AZGTCG)
+#. Performing ', Delete'
+#. Performing ',   Reveal in Explorer'
+#. Performing ',   Reveal in Explorer'
+#. Performing 'viewIgnored, Show Ignored Files, If selected, ignored files will be shown.'
+#. Performing ', ID'
+msgctxt "ttpLogGraphOverlap:"
+msgid "<b>Common Files</b>"
+msgstr ""
+
+#. Performing ', Configure...'
+#. Showing dialog 67 (@HA5JTL) '@UW0SIR - Master Password' (owner: @IA7AMI)
+#. Performing ', OK'
+#. Showing dialog 68 (@4K73BI) '@C8LSLV - Add Hosting Provider' (owner: @IA7AMI)
+#. Performing ', Generate Token'
+#. Showing dialog 69 (@ABAH2K) '@AZO3VX - Generate API Token' (owner: @4K73BI)
+#. Performing ', Add'
+#. Showing dialog 70 (@57UUU1) '@QZ2J42 - Checking connectivity' (owner: @4K73BI)
+#. Performing ', Next >'
+#. Performing ', Finish'
+msgctxt "ttpLogGraphOverlap:"
+msgid "<b>Error processing commit</b>"
+msgstr ""
+
+#. Performing 'delete, Delete..., Delete the selected local files or directory.'
+#. Showing dialog 63 (@WVOXIK) '@9VIBAK - Delete' (owner: @AZGTCG)
+#. Performing ', Delete'
+#. Performing 'delete, Delete..., Delete the selected local files or directory.'
+#. Showing dialog 64 (@KRHU41) '@UJJGWJ - Delete' (owner: @AZGTCG)
+#. Performing ', Delete'
+#. Performing ',   Reveal in Explorer'
+#. Performing ',   Reveal in Explorer'
+#. Performing 'viewIgnored, Show Ignored Files, If selected, ignored files will be shown.'
+#. Performing ', ID'
+msgctxt "ttpLogGraphOverlap:"
+msgid "<b>Hover</b> over other commits to see their overlap with this one."
+msgstr ""
+
+#. Performing 'delete, Delete..., Delete the selected local files or directory.'
+#. Showing dialog 63 (@WVOXIK) '@9VIBAK - Delete' (owner: @AZGTCG)
+#. Performing ', Delete'
+#. Performing 'delete, Delete..., Delete the selected local files or directory.'
+#. Showing dialog 64 (@KRHU41) '@UJJGWJ - Delete' (owner: @AZGTCG)
+#. Performing ', Delete'
+#. Performing ',   Reveal in Explorer'
+#. Performing ',   Reveal in Explorer'
+#. Performing 'viewIgnored, Show Ignored Files, If selected, ignored files will be shown.'
+#. Performing ', ID'
+msgctxt "ttpLogGraphOverlap:"
+msgid "<b>No Overlap</b>"
+msgstr ""
+
+#. Performing 'delete, Delete..., Delete the selected local files or directory.'
+#. Showing dialog 63 (@WVOXIK) '@9VIBAK - Delete' (owner: @AZGTCG)
+#. Performing ', Delete'
+#. Performing 'delete, Delete..., Delete the selected local files or directory.'
+#. Showing dialog 64 (@KRHU41) '@UJJGWJ - Delete' (owner: @AZGTCG)
+#. Performing ', Delete'
+#. Performing ',   Reveal in Explorer'
+#. Performing ',   Reveal in Explorer'
+#. Performing 'viewIgnored, Show Ignored Files, If selected, ignored files will be shown.'
+#. Performing ', ID'
+msgctxt "ttpLogGraphOverlap:"
+msgid "<b>Potential Conflicts</b>"
+msgstr ""
+
+#. Performing 'delete, Delete..., Delete the selected local files or directory.'
+#. Showing dialog 63 (@WVOXIK) '@9VIBAK - Delete' (owner: @AZGTCG)
+#. Performing ', Delete'
+#. Performing 'delete, Delete..., Delete the selected local files or directory.'
+#. Showing dialog 64 (@KRHU41) '@UJJGWJ - Delete' (owner: @AZGTCG)
+#. Performing ', Delete'
+#. Performing ',   Reveal in Explorer'
+#. Performing ',   Reveal in Explorer'
+#. Performing 'viewIgnored, Show Ignored Files, If selected, ignored files will be shown.'
+#. Performing ', ID'
+msgctxt "ttpLogGraphOverlap:"
+msgid "<b>Same Modified Files</b>"
+msgstr ""
+
+#. Performing 'delete, Delete..., Delete the selected local files or directory.'
+#. Showing dialog 63 (@WVOXIK) '@9VIBAK - Delete' (owner: @AZGTCG)
+#. Performing ', Delete'
+#. Performing 'delete, Delete..., Delete the selected local files or directory.'
+#. Showing dialog 64 (@KRHU41) '@UJJGWJ - Delete' (owner: @AZGTCG)
+#. Performing ', Delete'
+#. Performing ',   Reveal in Explorer'
+#. Performing ',   Reveal in Explorer'
+#. Performing 'viewIgnored, Show Ignored Files, If selected, ignored files will be shown.'
+#. Performing ', ID'
+msgctxt "ttpLogGraphOverlap:"
+msgid "<b>Selected Commit</b>"
+msgstr ""
+
+#. Performing 'delete, Delete..., Delete the selected local files or directory.'
+#. Showing dialog 63 (@WVOXIK) '@9VIBAK - Delete' (owner: @AZGTCG)
+#. Performing ', Delete'
+#. Performing 'delete, Delete..., Delete the selected local files or directory.'
+#. Showing dialog 64 (@KRHU41) '@UJJGWJ - Delete' (owner: @AZGTCG)
+#. Performing ', Delete'
+#. Performing ',   Reveal in Explorer'
+#. Performing ',   Reveal in Explorer'
+#. Performing 'viewIgnored, Show Ignored Files, If selected, ignored files will be shown.'
+#. Performing ', ID'
+msgctxt "ttpLogGraphOverlap:"
+msgid "<b>Superset</b>"
+msgstr ""
+
+#. Performing 'delete, Delete..., Delete the selected local files or directory.'
+#. Showing dialog 63 (@WVOXIK) '@9VIBAK - Delete' (owner: @AZGTCG)
+#. Performing ', Delete'
+#. Performing 'delete, Delete..., Delete the selected local files or directory.'
+#. Showing dialog 64 (@KRHU41) '@UJJGWJ - Delete' (owner: @AZGTCG)
+#. Performing ', Delete'
+#. Performing ',   Reveal in Explorer'
+#. Performing ',   Reveal in Explorer'
+#. Performing 'viewIgnored, Show Ignored Files, If selected, ignored files will be shown.'
+#. Performing ', ID'
+msgctxt "ttpLogGraphOverlap:"
+msgid "Commit modifies all files which are modified in the selected commit."
+msgstr ""
+
+#. Performing ', Configure...'
+#. Showing dialog 67 (@HA5JTL) '@UW0SIR - Master Password' (owner: @IA7AMI)
+#. Performing ', OK'
+#. Showing dialog 68 (@4K73BI) '@C8LSLV - Add Hosting Provider' (owner: @IA7AMI)
+#. Performing ', Generate Token'
+#. Showing dialog 69 (@ABAH2K) '@AZO3VX - Generate API Token' (owner: @4K73BI)
+#. Performing ', Add'
+#. Showing dialog 70 (@57UUU1) '@QZ2J42 - Checking connectivity' (owner: @4K73BI)
+#. Performing ', Next >'
+#. Performing ', Finish'
+msgctxt "ttpLogGraphOverlap:"
+msgid "Diff is too large to handle."
+msgstr ""
+
+#. Performing ', Configure...'
+#. Showing dialog 67 (@HA5JTL) '@UW0SIR - Master Password' (owner: @IA7AMI)
+#. Performing ', OK'
+#. Showing dialog 68 (@4K73BI) '@C8LSLV - Add Hosting Provider' (owner: @IA7AMI)
+#. Performing ', Generate Token'
+#. Showing dialog 69 (@ABAH2K) '@AZO3VX - Generate API Token' (owner: @4K73BI)
+#. Performing ', Add'
+#. Showing dialog 70 (@57UUU1) '@QZ2J42 - Checking connectivity' (owner: @4K73BI)
+#. Performing ', Next >'
+#. Performing ', Finish'
+msgctxt "ttpLogGraphOverlap:"
+msgid "If necessary, increase the value <i>log.graph.overlap.maxDiffSize</i>"
+msgstr ""
+
+#. Performing 'delete, Delete..., Delete the selected local files or directory.'
+#. Showing dialog 63 (@WVOXIK) '@9VIBAK - Delete' (owner: @AZGTCG)
+#. Performing ', Delete'
+#. Performing 'delete, Delete..., Delete the selected local files or directory.'
+#. Showing dialog 64 (@KRHU41) '@UJJGWJ - Delete' (owner: @AZGTCG)
+#. Performing ', Delete'
+#. Performing ',   Reveal in Explorer'
+#. Performing ',   Reveal in Explorer'
+#. Performing 'viewIgnored, Show Ignored Files, If selected, ignored files will be shown.'
+#. Performing ', ID'
+msgctxt "ttpLogGraphOverlap:"
+msgid "This commit and the selected commits modify exactly the same files."
+msgstr ""
+
+#. Performing 'delete, Delete..., Delete the selected local files or directory.'
+#. Showing dialog 63 (@WVOXIK) '@9VIBAK - Delete' (owner: @AZGTCG)
+#. Performing ', Delete'
+#. Performing 'delete, Delete..., Delete the selected local files or directory.'
+#. Showing dialog 64 (@KRHU41) '@UJJGWJ - Delete' (owner: @AZGTCG)
+#. Performing ', Delete'
+#. Performing ',   Reveal in Explorer'
+#. Performing ',   Reveal in Explorer'
+#. Performing 'viewIgnored, Show Ignored Files, If selected, ignored files will be shown.'
+#. Performing ', ID'
+msgctxt "ttpLogGraphOverlap:"
+msgid "This commit does not have any overlap with selected commit."
+msgstr ""
+
+#. Performing ', Configure...'
+#. Showing dialog 67 (@HA5JTL) '@UW0SIR - Master Password' (owner: @IA7AMI)
+#. Performing ', OK'
+#. Showing dialog 68 (@4K73BI) '@C8LSLV - Add Hosting Provider' (owner: @IA7AMI)
+#. Performing ', Generate Token'
+#. Showing dialog 69 (@ABAH2K) '@AZO3VX - Generate API Token' (owner: @4K73BI)
+#. Performing ', Add'
+#. Showing dialog 70 (@57UUU1) '@QZ2J42 - Checking connectivity' (owner: @4K73BI)
+#. Performing ', Next >'
+#. Performing ', Finish'
+msgctxt "ttpLogGraphOverlap:"
+msgid "To disable, deactivate the <i>Overlap</i> column in the hamburger menu of the log graph."
+msgstr ""
+
+#. Performing 'delete, Delete..., Delete the selected local files or directory.'
+#. Showing dialog 63 (@WVOXIK) '@9VIBAK - Delete' (owner: @AZGTCG)
+#. Performing ', Delete'
+#. Performing 'delete, Delete..., Delete the selected local files or directory.'
+#. Showing dialog 64 (@KRHU41) '@UJJGWJ - Delete' (owner: @AZGTCG)
+#. Performing ', Delete'
+#. Performing ',   Reveal in Explorer'
+#. Performing ',   Reveal in Explorer'
+#. Performing 'viewIgnored, Show Ignored Files, If selected, ignored files will be shown.'
+#. Performing ', ID'
+#. placeholder: $1=<commit_message>
+#. placeholder: $2=<commit_id>
+msgctxt "ttpLogGraphOverlap:"
+msgid "You're looking at info about overlap of this commit to <b>$1</b> \\($2\\)."
+msgstr ""
+
 #~ msgctxt "dlgSgOutput.lbl:"
 #~ msgid "stash failed \\(return code $1\\)"
 #~ msgstr "スタッシュに失敗しました \\(return code $1\\)"
