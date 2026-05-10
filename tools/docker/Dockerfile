@@ -19,5 +19,6 @@ RUN curl -LsSf https://astral.sh/uv/install.sh | sh
 ENV PATH="/root/.local/bin:/root/.cargo/bin:${PATH}"
 
 RUN curl https://sh.rustup.rs -sSf | sh -s -- -y --profile minimal --default-toolchain stable
+RUN rustup component add rustfmt clippy
 
 WORKDIR /workspace
