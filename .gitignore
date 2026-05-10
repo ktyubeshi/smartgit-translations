@@ -4,4 +4,6 @@
 **/unknown*
 **/unmapped*
 /.*/
+!/.github/
+!/.github/**
 **/apikey*
