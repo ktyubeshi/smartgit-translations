@@ -28468,24 +28468,28 @@ msgstr "このコミットと <b>$1</b> \\($2\\) の重なりに関する情報�
 # BUILD: 261031
 #
 #. Showing dialog 0 (@5W4RC3) '@BZ7MT8 - Setup SmartGit 26.1 RC' (owner: null)
+#, fuzzy
 msgctxt "dlgSgSetup.lbl\"<a href\\=\\\"click\\\">Have an on-premise license server?</a>\""
 msgid "<a href\\=\"click\">Have an on-premise license server?</a>"
-msgstr ""
+msgstr "<a href\\=\"click\">オンプレミスのライセンスサーバーをお持ちですか?</a>"
 
 #. Showing dialog 0 (@5W4RC3) '@BZ7MT8 - Setup SmartGit 26.1 RC' (owner: null)
+#, fuzzy
 msgctxt "dlgSgSetup.lbl\"<a href\\=\\\"click\\\">Register a plain license file</a>\""
 msgid "<a href\\=\"click\">Register a plain license file</a>"
-msgstr ""
+msgstr "<a href\\=\"click\">ライセンスファイルを直接登録</a>"
 
 #. Showing dialog 0 (@5W4RC3) '@BZ7MT8 - Setup SmartGit 26.1 RC' (owner: null)
+#, fuzzy
 msgctxt "dlgSgSetup.lbl\"<a href\\=\\\"dummy\\\">license agreement</a>\""
 msgid "<a href\\=\"dummy\">license agreement</a>"
-msgstr ""
+msgstr "<a href\\=\"dummy\">使用許諾契約</a>"
 
 #. Showing dialog 0 (@5W4RC3) '@BZ7MT8 - Setup SmartGit 26.1 RC' (owner: null)
+#, fuzzy
 msgctxt "dlgSgSetup.lbl\"<a href\\=\\\"search\\\">Search</a> common installation locations.\""
 msgid "<a href\\=\"search\">Search</a> common installation locations."
-msgstr ""
+msgstr "一般的なインストール場所を<a href\\=\"search\">検索</a>します。"
 
 #~ msgctxt "dlgSgOutput.lbl:"
 #~ msgid "stash failed \\(return code $1\\)"
