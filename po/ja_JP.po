@@ -28505,9 +28505,10 @@ msgstr "一般的なインストール場所を<a href\\=\"search\">検索</a>�
 #. Performing ', Add'
 #. Performing ', GitLab (Self Hosted)'
 #. Showing dialog 15 (@SBISFW) '@VQOSD9 - Add Hosting Provider' (owner: @7QN5KC)
+#, fuzzy
 msgctxt "dlgSgHostingProviderAdd.lbl:"
 msgid "Provide a 'personal access token' which you can generate in your \\[link GitLab account settings\\]. Required scopes are \\*api\\* and \\*write\\\\_repository\\*."
-msgstr ""
+msgstr "\\[link GitLab アカウント設定\\]で生成できる「個人アクセストークン」を入力してください。必要なスコープは \\*api\\* と \\*write\\\\_repository\\* です。"
 
 #. Performing ', Close'
 #. Performing ', Close'
@@ -28519,9 +28520,10 @@ msgstr ""
 #. Showing dialog 6 (@4483UN) '@WVRO0W - Master Password' (owner: @7QN5KC)
 #. Performing ', OK'
 #. Showing dialog 7 (@FSKBVB) '@ZFOU7Y - Add Hosting Provider' (owner: @7QN5KC)
+#, fuzzy
 msgctxt "dlgSgHostingProviderAdd.lbl\"You can review the GitHub application settings <a href\\=\\\"\\\">here</a>.\""
 msgid "You can review the GitHub application settings <a href\\=\"\">here</a>."
-msgstr ""
+msgstr "GitHub アプリケーションの設定は <a href\\=\"\">こちら</a> で確認できます。"
 
 #~ msgctxt "dlgSgOutput.lbl:"
 #~ msgid "stash failed \\(return code $1\\)"
