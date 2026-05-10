@@ -28180,3 +28180,28 @@ msgstr ""
 msgctxt "ttpLogGraphOverlap:"
 msgid "You're looking at info about overlap of this commit to <b>$1</b> \\($2\\)."
 msgstr ""
+
+# DON'T EDIT, this file will be rewritten!
+#
+# BUILD: 261031
+#
+
+#. Showing dialog 0 (@5W4RC3) '@BZ7MT8 - Setup SmartGit 26.1 RC' (owner: null)
+msgctxt "dlgSgSetup.lbl\"<a href\\=\\\"click\\\">Have an on-premise license server?</a>\""
+msgid "<a href\\=\"click\">Have an on-premise license server?</a>"
+msgstr ""
+
+#. Showing dialog 0 (@5W4RC3) '@BZ7MT8 - Setup SmartGit 26.1 RC' (owner: null)
+msgctxt "dlgSgSetup.lbl\"<a href\\=\\\"click\\\">Register a plain license file</a>\""
+msgid "<a href\\=\"click\">Register a plain license file</a>"
+msgstr ""
+
+#. Showing dialog 0 (@5W4RC3) '@BZ7MT8 - Setup SmartGit 26.1 RC' (owner: null)
+msgctxt "dlgSgSetup.lbl\"<a href\\=\\\"dummy\\\">license agreement</a>\""
+msgid "<a href\\=\"dummy\">license agreement</a>"
+msgstr ""
+
+#. Showing dialog 0 (@5W4RC3) '@BZ7MT8 - Setup SmartGit 26.1 RC' (owner: null)
+msgctxt "dlgSgSetup.lbl\"<a href\\=\\\"search\\\">Search</a> common installation locations.\""
+msgid "<a href\\=\"search\">Search</a> common installation locations."
+msgstr ""
