@@ -197,6 +197,7 @@ mod tests {
             msgctxt: Some("ctx:".to_string()),
             msgid: "Hello $1 $2".to_string(),
             msgstr: "こんにちは $1".to_string(),
+            ..PoEntry::default()
         }];
         let mut report = ValidationReport::default();
 
@@ -216,6 +217,7 @@ mod tests {
             msgctxt: Some("ctx:".to_string()),
             msgid: "Hello $1".to_string(),
             msgstr: String::new(),
+            ..PoEntry::default()
         }];
         let mut report = ValidationReport::default();
 
