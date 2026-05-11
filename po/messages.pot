@@ -28111,3 +28111,7 @@ msgstr ""
 msgctxt "wndLog.tbt:"
 msgid "File Name \\(expensive\\)"
 msgstr ""
+
+msgctxt "nttDemoReminder:"
+msgid "Your SmartGit evaluation ends in $1 days."
+msgstr ""
