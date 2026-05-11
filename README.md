@@ -184,3 +184,18 @@ Since SmartGit dynamically generates texts, the master mapping does not include 
 We need reviews by native speakers of each language.
 Pending pull requests and existing translations in `mapping.dev` may sometimes need refinement.
 We welcome review comments and suggestions for improving existing translations!
+
+## Repository Maintenance Tools
+
+Rust-based maintenance tools live in `tools/`. The current CLI package is
+`smartgit-i18n-cli`, which builds the `sglint` and `sgmerge` commands.
+
+To run the SmartGit-specific lint checks locally:
+
+```bash
+cd tools
+cargo build --release --locked -p smartgit-i18n-cli --bins
+./target/release/sglint check --pot ../po/messages.pot --po-dir ../po
+```
+
+`sgmerge` is present as a placeholder for future import/merge commands.

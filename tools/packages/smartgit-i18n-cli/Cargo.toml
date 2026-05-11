@@ -1,0 +1,15 @@
+[package]
+name = "smartgit-i18n-cli"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+smartgit-i18n-core = { path = "../smartgit-i18n-core" }
+
+[[bin]]
+name = "sglint"
+path = "src/bin/sglint.rs"
+
+[[bin]]
+name = "sgmerge"
+path = "src/bin/sgmerge.rs"

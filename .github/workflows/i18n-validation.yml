@@ -73,15 +73,15 @@ jobs:
         working-directory: tools
         run: cargo test --workspace --locked
 
-      - name: Build SmartGit i18n tools
+      - name: Build SmartGit i18n CLI tools
         working-directory: tools
-        run: cargo build --release --locked -p smartgit-i18n-tools
+        run: cargo build --release --locked -p smartgit-i18n-cli --bins
 
-      - name: Validate SmartGit translation files
+      - name: Run SmartGit-specific lint checks
         continue-on-error: true
         run: |
           set -euo pipefail
 
-          ./tools/target/release/smartgit-i18n-tools validate \
+          ./tools/target/release/sglint check \
             --pot po/messages.pot \
             --po-dir po

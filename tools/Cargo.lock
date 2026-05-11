@@ -3,12 +3,12 @@
 version = 4
 
 [[package]]
-name = "smartgit-i18n-core"
-version = "0.1.0"
-
-[[package]]
-name = "smartgit-i18n-tools"
+name = "smartgit-i18n-cli"
 version = "0.1.0"
 dependencies = [
  "smartgit-i18n-core",
 ]
+
+[[package]]
+name = "smartgit-i18n-core"
+version = "0.1.0"

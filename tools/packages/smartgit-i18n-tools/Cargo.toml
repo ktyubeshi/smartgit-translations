@@ -1,7 +1,0 @@
-[package]
-name = "smartgit-i18n-tools"
-version = "0.1.0"
-edition = "2021"
-
-[dependencies]
-smartgit-i18n-core = { path = "../smartgit-i18n-core" }

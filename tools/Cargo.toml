@@ -2,5 +2,5 @@
 resolver = "2"
 members = [
     "packages/smartgit-i18n-core",
-    "packages/smartgit-i18n-tools",
+    "packages/smartgit-i18n-cli",
 ]
