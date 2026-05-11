@@ -23444,3 +23444,477 @@ msgstr "`true` の場合、リポジトリ状態によっては一部のツー�
 msgctxt "lblPropertyDescription-ui.window.allowedMonitorOutset:"
 msgid "This value configures how many pixels a window might be placed outside the monitor bounds until it will be shifted."
 msgstr "ウィンドウを移動させるまでに、モニター範囲の外へどれだけのピクセル数はみ出せるかを設定します。"
+
+# DON'T EDIT, this file will be rewritten!
+#
+# BUILD: 261031
+#
+#. Performing ', Prompts'
+#. Performing ', Cancel'
+#. Performing 'discoverWindow, Discover Windows, Discover the different main windows.'
+#. Showing dialog 5 (@EB8C0Q) '@AEQTG - Discover Other SmartGit Windows' (owner: @KH3TDT)
+#. Performing 'discoverWindow, Discover Windows, Discover the different main windows.'
+#. Showing dialog 6 (@LH8ZCK) '@E6BZSW - Discover Other SmartGit Windows' (owner: @KH3TDT)
+#. opening smartgit.aCX@DDJOOV:null (smartgit.aCX@58MHLG)
+#. Performing 'stdSetModeHistory, Show History, Show the history view.'
+#. Performing ', Ask AI...'
+#. Showing dialog 7 (@Y6NDA6) '@8O3G2C - Ask AI' (owner: @58MHLG)
+msgctxt "dlgSgAiAsk.btn:"
+msgid "Ask"
+msgstr ""
+
+#. Performing ', Prompts'
+#. Performing ', Cancel'
+#. Performing 'discoverWindow, Discover Windows, Discover the different main windows.'
+#. Showing dialog 5 (@EB8C0Q) '@AEQTG - Discover Other SmartGit Windows' (owner: @KH3TDT)
+#. Performing 'discoverWindow, Discover Windows, Discover the different main windows.'
+#. Showing dialog 6 (@LH8ZCK) '@E6BZSW - Discover Other SmartGit Windows' (owner: @KH3TDT)
+#. opening smartgit.aCX@DDJOOV:null (smartgit.aCX@58MHLG)
+#. Performing 'stdSetModeHistory, Show History, Show the history view.'
+#. Performing ', Ask AI...'
+#. Showing dialog 7 (@Y6NDA6) '@8O3G2C - Ask AI' (owner: @58MHLG)
+msgctxt "dlgSgAiAsk.btn:"
+msgid "Prompts"
+msgstr ""
+
+#. Performing ', Prompts'
+#. Performing ', Cancel'
+#. Performing 'discoverWindow, Discover Windows, Discover the different main windows.'
+#. Showing dialog 5 (@EB8C0Q) '@AEQTG - Discover Other SmartGit Windows' (owner: @KH3TDT)
+#. Performing 'discoverWindow, Discover Windows, Discover the different main windows.'
+#. Showing dialog 6 (@LH8ZCK) '@E6BZSW - Discover Other SmartGit Windows' (owner: @KH3TDT)
+#. opening smartgit.aCX@DDJOOV:null (smartgit.aCX@58MHLG)
+#. Performing 'stdSetModeHistory, Show History, Show the history view.'
+#. Performing ', Ask AI...'
+#. Showing dialog 7 (@Y6NDA6) '@8O3G2C - Ask AI' (owner: @58MHLG)
+msgctxt "dlgSgAiAsk.chk:"
+msgid "More options"
+msgstr ""
+
+#. Performing ', Prompts'
+#. Performing ', Cancel'
+#. Performing 'discoverWindow, Discover Windows, Discover the different main windows.'
+#. Showing dialog 5 (@EB8C0Q) '@AEQTG - Discover Other SmartGit Windows' (owner: @KH3TDT)
+#. Performing 'discoverWindow, Discover Windows, Discover the different main windows.'
+#. Showing dialog 6 (@LH8ZCK) '@E6BZSW - Discover Other SmartGit Windows' (owner: @KH3TDT)
+#. opening smartgit.aCX@DDJOOV:null (smartgit.aCX@58MHLG)
+#. Performing 'stdSetModeHistory, Show History, Show the history view.'
+#. Performing ', Ask AI...'
+#. Showing dialog 7 (@Y6NDA6) '@8O3G2C - Ask AI' (owner: @58MHLG)
+msgctxt "dlgSgAiAsk.chk:"
+msgid "Run in background"
+msgstr ""
+
+#. Performing ', Prompts'
+#. Performing ', Cancel'
+#. Performing 'discoverWindow, Discover Windows, Discover the different main windows.'
+#. Showing dialog 5 (@EB8C0Q) '@AEQTG - Discover Other SmartGit Windows' (owner: @KH3TDT)
+#. Performing 'discoverWindow, Discover Windows, Discover the different main windows.'
+#. Showing dialog 6 (@LH8ZCK) '@E6BZSW - Discover Other SmartGit Windows' (owner: @KH3TDT)
+#. opening smartgit.aCX@DDJOOV:null (smartgit.aCX@58MHLG)
+#. Performing 'stdSetModeHistory, Show History, Show the history view.'
+#. Performing ', Ask AI...'
+#. Showing dialog 7 (@Y6NDA6) '@8O3G2C - Ask AI' (owner: @58MHLG)
+msgctxt "dlgSgAiAsk.chk:"
+msgid "Write debug log"
+msgstr ""
+
+#. Performing ', Prompts'
+#. Performing ', Cancel'
+#. Performing 'discoverWindow, Discover Windows, Discover the different main windows.'
+#. Showing dialog 5 (@EB8C0Q) '@AEQTG - Discover Other SmartGit Windows' (owner: @KH3TDT)
+#. Performing 'discoverWindow, Discover Windows, Discover the different main windows.'
+#. Showing dialog 6 (@LH8ZCK) '@E6BZSW - Discover Other SmartGit Windows' (owner: @KH3TDT)
+#. opening smartgit.aCX@DDJOOV:null (smartgit.aCX@58MHLG)
+#. Performing 'stdSetModeHistory, Show History, Show the history view.'
+#. Performing ', Ask AI...'
+#. Showing dialog 7 (@Y6NDA6) '@8O3G2C - Ask AI' (owner: @58MHLG)
+msgctxt "dlgSgAiAsk.edt:"
+msgid "Diff Context Lines"
+msgstr ""
+
+#. Performing ', Prompts'
+#. Performing ', Cancel'
+#. Performing 'discoverWindow, Discover Windows, Discover the different main windows.'
+#. Showing dialog 5 (@EB8C0Q) '@AEQTG - Discover Other SmartGit Windows' (owner: @KH3TDT)
+#. Performing 'discoverWindow, Discover Windows, Discover the different main windows.'
+#. Showing dialog 6 (@LH8ZCK) '@E6BZSW - Discover Other SmartGit Windows' (owner: @KH3TDT)
+#. opening smartgit.aCX@DDJOOV:null (smartgit.aCX@58MHLG)
+#. Performing 'stdSetModeHistory, Show History, Show the history view.'
+#. Performing ', Ask AI...'
+#. Showing dialog 7 (@Y6NDA6) '@8O3G2C - Ask AI' (owner: @58MHLG)
+msgctxt "dlgSgAiAsk.edt:"
+msgid "Diff Size Limit"
+msgstr ""
+
+#. Performing ', Prompts'
+#. Performing ', Cancel'
+#. Performing 'discoverWindow, Discover Windows, Discover the different main windows.'
+#. Showing dialog 5 (@EB8C0Q) '@AEQTG - Discover Other SmartGit Windows' (owner: @KH3TDT)
+#. Performing 'discoverWindow, Discover Windows, Discover the different main windows.'
+#. Showing dialog 6 (@LH8ZCK) '@E6BZSW - Discover Other SmartGit Windows' (owner: @KH3TDT)
+#. opening smartgit.aCX@DDJOOV:null (smartgit.aCX@58MHLG)
+#. Performing 'stdSetModeHistory, Show History, Show the history view.'
+#. Performing ', Ask AI...'
+#. Showing dialog 7 (@Y6NDA6) '@8O3G2C - Ask AI' (owner: @58MHLG)
+msgctxt "dlgSgAiAsk.edt:"
+msgid "Model"
+msgstr ""
+
+#. Performing ', Prompts'
+#. Performing ', Cancel'
+#. Performing 'discoverWindow, Discover Windows, Discover the different main windows.'
+#. Showing dialog 5 (@EB8C0Q) '@AEQTG - Discover Other SmartGit Windows' (owner: @KH3TDT)
+#. Performing 'discoverWindow, Discover Windows, Discover the different main windows.'
+#. Showing dialog 6 (@LH8ZCK) '@E6BZSW - Discover Other SmartGit Windows' (owner: @KH3TDT)
+#. opening smartgit.aCX@DDJOOV:null (smartgit.aCX@58MHLG)
+#. Performing 'stdSetModeHistory, Show History, Show the history view.'
+#. Performing ', Ask AI...'
+#. Showing dialog 7 (@Y6NDA6) '@8O3G2C - Ask AI' (owner: @58MHLG)
+msgctxt "dlgSgAiAsk.edt:"
+msgid "Prompt"
+msgstr ""
+
+#. Performing ', Prompts'
+#. Performing ', Cancel'
+#. Performing 'discoverWindow, Discover Windows, Discover the different main windows.'
+#. Showing dialog 5 (@EB8C0Q) '@AEQTG - Discover Other SmartGit Windows' (owner: @KH3TDT)
+#. Performing 'discoverWindow, Discover Windows, Discover the different main windows.'
+#. Showing dialog 6 (@LH8ZCK) '@E6BZSW - Discover Other SmartGit Windows' (owner: @KH3TDT)
+#. opening smartgit.aCX@DDJOOV:null (smartgit.aCX@58MHLG)
+#. Performing 'stdSetModeHistory, Show History, Show the history view.'
+#. Performing ', Ask AI...'
+#. Showing dialog 7 (@Y6NDA6) '@8O3G2C - Ask AI' (owner: @58MHLG)
+msgctxt "dlgSgAiAsk.edt:"
+msgid "Timeout \\(seconds\\)"
+msgstr ""
+
+#. Performing ', Prompts'
+#. Performing ', Cancel'
+#. Performing 'discoverWindow, Discover Windows, Discover the different main windows.'
+#. Showing dialog 5 (@EB8C0Q) '@AEQTG - Discover Other SmartGit Windows' (owner: @KH3TDT)
+#. Performing 'discoverWindow, Discover Windows, Discover the different main windows.'
+#. Showing dialog 6 (@LH8ZCK) '@E6BZSW - Discover Other SmartGit Windows' (owner: @KH3TDT)
+#. opening smartgit.aCX@DDJOOV:null (smartgit.aCX@58MHLG)
+#. Performing 'stdSetModeHistory, Show History, Show the history view.'
+#. Performing ', Ask AI...'
+#. Showing dialog 7 (@Y6NDA6) '@8O3G2C - Ask AI' (owner: @58MHLG)
+msgctxt "dlgSgAiAsk.hdl:"
+msgid "Ask AI on commit"
+msgstr ""
+
+#. Performing ', Prompts'
+#. Performing ', Cancel'
+#. Performing 'discoverWindow, Discover Windows, Discover the different main windows.'
+#. Showing dialog 5 (@EB8C0Q) '@AEQTG - Discover Other SmartGit Windows' (owner: @KH3TDT)
+#. Performing 'discoverWindow, Discover Windows, Discover the different main windows.'
+#. Showing dialog 6 (@LH8ZCK) '@E6BZSW - Discover Other SmartGit Windows' (owner: @KH3TDT)
+#. opening smartgit.aCX@DDJOOV:null (smartgit.aCX@58MHLG)
+#. Performing 'stdSetModeHistory, Show History, Show the history view.'
+#. Performing ', Ask AI...'
+#. Showing dialog 7 (@Y6NDA6) '@8O3G2C - Ask AI' (owner: @58MHLG)
+msgctxt "dlgSgAiAsk.inf:"
+msgid "Ask the AI by providing a prompt."
+msgstr ""
+
+#. Performing ', Prompts'
+#. Performing ', Cancel'
+#. Performing 'discoverWindow, Discover Windows, Discover the different main windows.'
+#. Showing dialog 5 (@EB8C0Q) '@AEQTG - Discover Other SmartGit Windows' (owner: @KH3TDT)
+#. Performing 'discoverWindow, Discover Windows, Discover the different main windows.'
+#. Showing dialog 6 (@LH8ZCK) '@E6BZSW - Discover Other SmartGit Windows' (owner: @KH3TDT)
+#. opening smartgit.aCX@DDJOOV:null (smartgit.aCX@58MHLG)
+#. Performing 'stdSetModeHistory, Show History, Show the history view.'
+#. Performing ', Ask AI...'
+#. Showing dialog 7 (@Y6NDA6) '@8O3G2C - Ask AI' (owner: @58MHLG)
+msgctxt "dlgSgAiAsk.lbl:"
+msgid "bytes"
+msgstr ""
+
+#. Showing dialog 3 (@LPXMDX) '@N8QHI6 - Discover Other SmartGit Windows' (owner: @CPOVNK)
+#. Performing ', Edit Config File...'
+#. opening smartgit.coh@CL8XOG:.smartgit-ai - [<directory>] - Editor (smartgit.coh@6JB1XM)
+#. Performing ', Edit Config File...'
+#. opening smartgit.coh@S8N4DP:.smartgit-ai - [<directory>] - Editor (smartgit.coh@JHWED2)
+#. Performing ', Close'
+#. Performing ', Close'
+#. Performing ', Ask AI...'
+#. Showing dialog 4 (@LLQ78F) '@A1KTAD - Ask AI' (owner: @KH3TDT)
+#. Performing ', Prompts'
+msgctxt "dlgSgAiAsk.mni:"
+msgid "\\{\\{ branch \\}\\}"
+msgstr ""
+
+#. Showing dialog 3 (@LPXMDX) '@N8QHI6 - Discover Other SmartGit Windows' (owner: @CPOVNK)
+#. Performing ', Edit Config File...'
+#. opening smartgit.coh@CL8XOG:.smartgit-ai - [<directory>] - Editor (smartgit.coh@6JB1XM)
+#. Performing ', Edit Config File...'
+#. opening smartgit.coh@S8N4DP:.smartgit-ai - [<directory>] - Editor (smartgit.coh@JHWED2)
+#. Performing ', Close'
+#. Performing ', Close'
+#. Performing ', Ask AI...'
+#. Showing dialog 4 (@LLQ78F) '@A1KTAD - Ask AI' (owner: @KH3TDT)
+#. Performing ', Prompts'
+msgctxt "dlgSgAiAsk.mni:"
+msgid "\\{\\{ commitMessage \\}\\}"
+msgstr ""
+
+#. Showing dialog 3 (@LPXMDX) '@N8QHI6 - Discover Other SmartGit Windows' (owner: @CPOVNK)
+#. Performing ', Edit Config File...'
+#. opening smartgit.coh@CL8XOG:.smartgit-ai - [<directory>] - Editor (smartgit.coh@6JB1XM)
+#. Performing ', Edit Config File...'
+#. opening smartgit.coh@S8N4DP:.smartgit-ai - [<directory>] - Editor (smartgit.coh@JHWED2)
+#. Performing ', Close'
+#. Performing ', Close'
+#. Performing ', Ask AI...'
+#. Showing dialog 4 (@LLQ78F) '@A1KTAD - Ask AI' (owner: @KH3TDT)
+#. Performing ', Prompts'
+msgctxt "dlgSgAiAsk.mni:"
+msgid "\\{\\{ gitDiff \\}\\}"
+msgstr ""
+
+#. Showing dialog 4 (@LLQ78F) '@A1KTAD - Ask AI' (owner: @KH3TDT)
+#. Performing ', Prompts'
+#. Performing ', Cancel'
+#. Performing 'discoverWindow, Discover Windows, Discover the different main windows.'
+#. Showing dialog 5 (@EB8C0Q) '@AEQTG - Discover Other SmartGit Windows' (owner: @KH3TDT)
+#. Performing 'discoverWindow, Discover Windows, Discover the different main windows.'
+#. Showing dialog 6 (@LH8ZCK) '@E6BZSW - Discover Other SmartGit Windows' (owner: @KH3TDT)
+#. opening smartgit.aCX@DDJOOV:null (smartgit.aCX@58MHLG)
+#. Performing 'stdSetModeHistory, Show History, Show the history view.'
+#. Performing ', Ask AI...'
+msgctxt "dlgSgAiAsk.tle:"
+msgid "Ask AI"
+msgstr ""
+
+#. Performing ', Cancel'
+#. Performing ', Explain Commit'
+#. Showing dialog 8 (@XKH59F) '@EQ0MNG - AI Upload Consent' (owner: @58MHLG)
+#. Performing ', Allow'
+#. Showing dialog 9 (@90OWXR) '@BZYZIS - Master Password' (owner: @58MHLG)
+#. Performing ', OK'
+#. Showing dialog 10 (@OA1SVO) '@EVY51C - API Key' (owner: @58MHLG)
+#. Performing ', Connect'
+#. Performing ', Close'
+#. Showing dialog 11 (@KOBY5C) '@98VDO4 - Explain Commit' (owner: @58MHLG)
+msgctxt "dlgSgAiResponseOutput.lbl\"<a href\\=\\\"click\\\">Copy to Clipboard</a>\""
+msgid "<a href\\=\"click\">Copy to Clipboard</a>"
+msgstr ""
+
+#. Showing dialog 7 (@Y6NDA6) '@8O3G2C - Ask AI' (owner: @58MHLG)
+#. Performing ', Cancel'
+#. Performing ', Explain Commit'
+#. Showing dialog 8 (@XKH59F) '@EQ0MNG - AI Upload Consent' (owner: @58MHLG)
+#. Performing ', Allow'
+#. Showing dialog 9 (@90OWXR) '@BZYZIS - Master Password' (owner: @58MHLG)
+#. Performing ', OK'
+#. Showing dialog 10 (@OA1SVO) '@EVY51C - API Key' (owner: @58MHLG)
+#. Performing ', Connect'
+#. Performing ', Close'
+msgctxt "dlgSgAiResponseOutput.tle:"
+msgid "Explain Commit"
+msgstr ""
+
+#. Showing dialog 13 (@AKKY31) '@3F0F3S - Close' (owner: @CPOVNK)
+#. Performing ', Close Now'
+#. Performing ', Close'
+#. Performing 'view-settings, Settings...'
+#. Showing dialog 14 (@4UF8LI) '@Y6NTDF - Settings' (owner: @KH3TDT)
+#. Performing ', Close'
+#. Performing 'changesView.ignoreLineSeparators, Ignore Line-Ending Changes'
+#. Performing 'changesView.ignoreLineSeparators, Ignore Line-Ending Changes'
+#. Performing 'fixup, Use Message for Commit'
+#. Performing ', Close'
+#. placeholder: $1=<prompt_name>
+msgctxt "wndLog.mni:"
+msgid "$1"
+msgstr ""
+
+#. Performing ', Regular Expressions, Interpret the search pattern as regular expression.'
+#. Performing ', Regular Expressions, Interpret the search pattern as regular expression.'
+#. Performing ', Close'
+#. Performing ', Close'
+#. Performing 'stdSetModeHistory, Show History, Show the history view.'
+#. Performing 'logRepository, Show Log Window'
+#. Performing 'configureToolbar, Configure Toolbar...'
+#. Showing dialog 19 (@6G036N) '@O0XHP0 - Configure Toolbar' (owner: @KH3TDT)
+#. Performing ', Add'
+#. Performing ', OK'
+msgctxt "wndLog.tbr:"
+msgid "Fetch All"
+msgstr ""
+
+#. Performing ', Regular Expressions, Interpret the search pattern as regular expression.'
+#. Performing ', Regular Expressions, Interpret the search pattern as regular expression.'
+#. Performing ', Close'
+#. Performing ', Close'
+#. Performing 'stdSetModeHistory, Show History, Show the history view.'
+#. Performing 'logRepository, Show Log Window'
+#. Performing 'configureToolbar, Configure Toolbar...'
+#. Showing dialog 19 (@6G036N) '@O0XHP0 - Configure Toolbar' (owner: @KH3TDT)
+#. Performing ', Add'
+#. Performing ', OK'
+msgctxt "wndLog.tbtRemoteFetchAll:"
+msgid "Fetch commits from all remote repositories."
+msgstr ""
+
+#. Performing ', Regular Expressions, Interpret the search pattern as regular expression.'
+#. Performing ', Regular Expressions, Interpret the search pattern as regular expression.'
+#. Performing ', Close'
+#. Performing ', Close'
+#. Performing 'stdSetModeHistory, Show History, Show the history view.'
+#. Performing 'logRepository, Show Log Window'
+#. Performing 'configureToolbar, Configure Toolbar...'
+#. Showing dialog 19 (@6G036N) '@O0XHP0 - Configure Toolbar' (owner: @KH3TDT)
+#. Performing ', Add'
+#. Performing ', OK'
+msgctxt "wndLog.tbtResetAdvanced:"
+msgid "Reset current branch \\(HEAD\\) to another commit and keep the difference in Index or Working Tree."
+msgstr ""
+
+#. Showing dialog 11 (@KOBY5C) '@98VDO4 - Explain Commit' (owner: @58MHLG)
+#. Performing ', Close'
+#. Performing 'discoverWindow, Discover Windows, Discover the different main windows.'
+#. Showing dialog 12 (@HVIOWL) '@JPPFL - Discover Other SmartGit Windows' (owner: @58MHLG)
+#. Performing ', Close'
+#. Performing ', Close'
+#. Performing 'stage, Stage, Store working tree files in the index to prepare the next commit.'
+#. Performing 'fixup, Use Message for Commit'
+#. Performing ', Close'
+#. Performing 'stage, Stage, Store working tree files in the index to prepare the next commit.'
+msgctxt "wndProject.tbtFlowContext:"
+msgid "Start a new Git-Flow feature."
+msgstr ""
+
+#. Performing 'push, Push, Push local commits to the remote origin repository.'
+#. Showing dialog 15 (@OB14K7) '@CDD7VK - Push' (owner: @KH3TDT)
+#. Performing ', Cancel'
+#. Performing 'fetch, Pull..., Fetch commits from a remote repository and (optionally) integrate them with possible local commits.'
+#. Showing dialog 16 (@MQALR6) '@MABCC9 - Pull' (owner: @KH3TDT)
+#. Performing ', Fetch Only'
+#. Showing dialog 17 (@12V9D4) '@JEC26Q - Command Output' (owner: @KH3TDT)
+#. Performing ', Close'
+#. Performing 'discoverWindow, Discover Windows, Discover the different main windows.'
+#. Showing dialog 18 (@8LJ0ZU) '@O2LCMB - Discover Other SmartGit Windows' (owner: @KH3TDT)
+msgctxt "wndStd.lbl:"
+msgid "<a>Select obsolete repositories</a>"
+msgstr ""
+
+#. Performing ', Cancel'
+#. Performing 'fetch, Pull..., Fetch commits from a remote repository and (optionally) integrate them with possible local commits.'
+#. Showing dialog 16 (@MQALR6) '@MABCC9 - Pull' (owner: @KH3TDT)
+#. Performing ', Fetch Only'
+#. Showing dialog 17 (@12V9D4) '@JEC26Q - Command Output' (owner: @KH3TDT)
+#. Performing ', Close'
+#. Performing 'discoverWindow, Discover Windows, Discover the different main windows.'
+#. Showing dialog 18 (@8LJ0ZU) '@O2LCMB - Discover Other SmartGit Windows' (owner: @KH3TDT)
+#. opening smartgit.aCX@OXZ8IE:null (smartgit.aCX@5WHUU3)
+#. Performing ', Apply Stash'
+msgctxt "wndStd.mni:"
+msgid ""
+msgstr ""
+
+#. Performing ', Apply Stash'
+#. Performing ', Remove'
+#. Performing ', Add Tag'
+#. Performing ', Add Branch'
+#. Performing ', Fetch All'
+#. Performing ', Fetch'
+#. Performing ', Ignore'
+#. Performing ', Show filter input field.'
+#. Performing ', Regular Expressions, Interpret the search pattern as regular expression.'
+#. Performing ', Regular Expressions, Interpret the search pattern as regular expression.'
+#. placeholder: $1=<prompt_name>
+msgctxt "wndStd.mni:"
+msgid "$1"
+msgstr ""
+
+#. Performing ', Apply Stash'
+#. Performing ', Remove'
+#. Performing ', Add Tag'
+#. Performing ', Add Branch'
+#. Performing ', Fetch All'
+#. Performing ', Fetch'
+#. Performing ', Ignore'
+#. Performing ', Show filter input field.'
+#. Performing ', Regular Expressions, Interpret the search pattern as regular expression.'
+#. Performing ', Regular Expressions, Interpret the search pattern as regular expression.'
+msgctxt "wndStd.mni:"
+msgid "Edit Config File"
+msgstr ""
+
+#. Performing 'discoverWindow, Discover Windows, Discover the different main windows.'
+#. Showing dialog 18 (@8LJ0ZU) '@O2LCMB - Discover Other SmartGit Windows' (owner: @KH3TDT)
+#. opening smartgit.aCX@OXZ8IE:null (smartgit.aCX@5WHUU3)
+#. Performing ', Apply Stash'
+#. Performing ', Remove'
+#. Performing ', Add Tag'
+#. Performing ', Add Branch'
+#. Performing ', Fetch All'
+#. Performing ', Fetch'
+#. Performing ', Ignore'
+#. placeholder: $1=<remote_name>
+msgctxt "wndStd.mni:"
+msgid "Fetch '$1' \\(current\\)"
+msgstr ""
+
+#. Performing ', Cancel'
+#. Performing 'fetch, Pull..., Fetch commits from a remote repository and (optionally) integrate them with possible local commits.'
+#. Showing dialog 16 (@MQALR6) '@MABCC9 - Pull' (owner: @KH3TDT)
+#. Performing ', Fetch Only'
+#. Showing dialog 17 (@12V9D4) '@JEC26Q - Command Output' (owner: @KH3TDT)
+#. Performing ', Close'
+#. Performing 'discoverWindow, Discover Windows, Discover the different main windows.'
+#. Showing dialog 18 (@8LJ0ZU) '@O2LCMB - Discover Other SmartGit Windows' (owner: @KH3TDT)
+#. opening smartgit.aCX@OXZ8IE:null (smartgit.aCX@5WHUU3)
+#. Performing ', Apply Stash'
+#. placeholder: $1=<branch_name>
+msgctxt "wndStd.mni:"
+msgid "On $1: SmartGit: automatic stash on Reset."
+msgstr ""
+
+#. Performing ', Cancel'
+#. Performing 'fetch, Pull..., Fetch commits from a remote repository and (optionally) integrate them with possible local commits.'
+#. Showing dialog 16 (@MQALR6) '@MABCC9 - Pull' (owner: @KH3TDT)
+#. Performing ', Fetch Only'
+#. Showing dialog 17 (@12V9D4) '@JEC26Q - Command Output' (owner: @KH3TDT)
+#. Performing ', Close'
+#. Performing 'discoverWindow, Discover Windows, Discover the different main windows.'
+#. Showing dialog 18 (@8LJ0ZU) '@O2LCMB - Discover Other SmartGit Windows' (owner: @KH3TDT)
+#. opening smartgit.aCX@OXZ8IE:null (smartgit.aCX@5WHUU3)
+#. Performing ', Apply Stash'
+#. placeholder: $1=<branch_name>
+#. placeholder: $2=<commit_id>
+#. placeholder: $3=<commit_message>
+msgctxt "wndStd.mni:"
+msgid "WIP on $1: $2 $3"
+msgstr ""
+
+#. Performing ', Apply Stash'
+#. Performing ', Remove'
+#. Performing ', Add Tag'
+#. Performing ', Add Branch'
+#. Performing ', Fetch All'
+#. Performing ', Fetch'
+#. Performing ', Ignore'
+#. Performing ', Show filter input field.'
+#. Performing ', Regular Expressions, Interpret the search pattern as regular expression.'
+#. Performing ', Regular Expressions, Interpret the search pattern as regular expression.'
+#. placeholder: $1=<branch_name>
+msgctxt "wndStd.mni:"
+msgid "$1 \\(active\\)"
+msgstr ""
+
+#. Performing ', Remove'
+#. Performing ', Add Tag'
+#. Performing ', Add Branch'
+#. Performing ', Fetch All'
+#. Performing ', Fetch'
+#. Performing ', Ignore'
+#. Performing ', Show filter input field.'
+#. Performing ', Regular Expressions, Interpret the search pattern as regular expression.'
+#. Performing ', Regular Expressions, Interpret the search pattern as regular expression.'
+#. Performing ', Close'
+msgctxt "wndStd.tbt:"
+msgid "Close"
+msgstr ""
