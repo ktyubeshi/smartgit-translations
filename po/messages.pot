@@ -28115,3 +28115,329 @@ msgstr ""
 msgctxt "nttDemoReminder:"
 msgid "Your SmartGit evaluation ends in $1 days."
 msgstr ""
+
+# DON'T EDIT, this file will be rewritten!
+#
+# BUILD: 261031
+#
+#. Performing 'editFile, Edit File'
+#. opening smartgit.coh@MHND77:messages.pot - [<directory>] - Editor (smartgit.coh@LHUZDC)
+#. Performing ',   Open in VSCode'
+#. Performing 'stage, Stage, Store working tree files in the index to prepare the next commit.'
+#. Performing 'fixup, Use Message for Commit'
+#. Performing 'viewUnchanged, Show Unchanged Files, If selected, unchanged files will be shown.'
+#. Performing ', Close'
+#. Performing ', Close'
+#. Performing 'preferences, Preferences'
+#. Showing dialog 0 (@MXJWSJ) '@AT8HSK - Preferences' (owner: @XP2NXL)
+msgctxt "lblPropertyDescription-github.encoding.write:"
+msgid "Encoding to be used for writing to GitHub REST API"
+msgstr ""
+
+#. Performing 'editFile, Edit File'
+#. opening smartgit.coh@MHND77:messages.pot - [<directory>] - Editor (smartgit.coh@LHUZDC)
+#. Performing ',   Open in VSCode'
+#. Performing 'stage, Stage, Store working tree files in the index to prepare the next commit.'
+#. Performing 'fixup, Use Message for Commit'
+#. Performing 'viewUnchanged, Show Unchanged Files, If selected, unchanged files will be shown.'
+#. Performing ', Close'
+#. Performing ', Close'
+#. Performing 'preferences, Preferences'
+#. Showing dialog 0 (@MXJWSJ) '@AT8HSK - Preferences' (owner: @XP2NXL)
+msgctxt "lblPropertyDescription-hobbyLicenseCheck.skipPublicRepositoryVerificationConfirmation:"
+msgid "Set to `true` to bypass the confirmation dialog confirming that SmartGit may check if a repository is public."
+msgstr ""
+
+#. Performing 'editFile, Edit File'
+#. opening smartgit.coh@MHND77:messages.pot - [<directory>] - Editor (smartgit.coh@LHUZDC)
+#. Performing ',   Open in VSCode'
+#. Performing 'stage, Stage, Store working tree files in the index to prepare the next commit.'
+#. Performing 'fixup, Use Message for Commit'
+#. Performing 'viewUnchanged, Show Unchanged Files, If selected, unchanged files will be shown.'
+#. Performing ', Close'
+#. Performing ', Close'
+#. Performing 'preferences, Preferences'
+#. Showing dialog 0 (@MXJWSJ) '@AT8HSK - Preferences' (owner: @XP2NXL)
+msgctxt "lblPropertyDescription-log.details.wrapTooLongLinesAfter:"
+msgid "Defines after which line length a comma-separated refs list will be wrapped in the Log's Details view."
+msgstr ""
+
+#. Performing 'editFile, Edit File'
+#. opening smartgit.coh@MHND77:messages.pot - [<directory>] - Editor (smartgit.coh@LHUZDC)
+#. Performing ',   Open in VSCode'
+#. Performing 'stage, Stage, Store working tree files in the index to prepare the next commit.'
+#. Performing 'fixup, Use Message for Commit'
+#. Performing 'viewUnchanged, Show Unchanged Files, If selected, unchanged files will be shown.'
+#. Performing ', Close'
+#. Performing ', Close'
+#. Performing 'preferences, Preferences'
+#. Showing dialog 0 (@MXJWSJ) '@AT8HSK - Preferences' (owner: @XP2NXL)
+msgctxt "lblPropertyDescription-log.file.stopAtAdditions:"
+msgid "Set this system property to `false` to not stop logging a file once SmartGit has encountered an addition of the file. This will make SmartGit report additional commits for which a file with the same name has been changed. Note however, that these files are usually not related."
+msgstr ""
+
+#. Performing 'editFile, Edit File'
+#. opening smartgit.coh@MHND77:messages.pot - [<directory>] - Editor (smartgit.coh@LHUZDC)
+#. Performing ',   Open in VSCode'
+#. Performing 'stage, Stage, Store working tree files in the index to prepare the next commit.'
+#. Performing 'fixup, Use Message for Commit'
+#. Performing 'viewUnchanged, Show Unchanged Files, If selected, unchanged files will be shown.'
+#. Performing ', Close'
+#. Performing ', Close'
+#. Performing 'preferences, Preferences'
+#. Showing dialog 0 (@MXJWSJ) '@AT8HSK - Preferences' (owner: @XP2NXL)
+msgctxt "lblPropertyDescription-log.graph.author.maxLength\"Configures after what length an author should be considered too long. See also option \\\"log.graph.author.truncateLength\\\".\""
+msgid "Configures after what length an author should be considered too long. See also option \"log.graph.author.truncateLength\"."
+msgstr ""
+
+#. Performing 'editFile, Edit File'
+#. opening smartgit.coh@MHND77:messages.pot - [<directory>] - Editor (smartgit.coh@LHUZDC)
+#. Performing ',   Open in VSCode'
+#. Performing 'stage, Stage, Store working tree files in the index to prepare the next commit.'
+#. Performing 'fixup, Use Message for Commit'
+#. Performing 'viewUnchanged, Show Unchanged Files, If selected, unchanged files will be shown.'
+#. Performing ', Close'
+#. Performing ', Close'
+#. Performing 'preferences, Preferences'
+#. Showing dialog 0 (@MXJWSJ) '@AT8HSK - Preferences' (owner: @XP2NXL)
+msgctxt "lblPropertyDescription-log.graph.draw.iconSubtree:"
+msgid "This option impacts the placement of the subtree icon."
+msgstr ""
+
+#. Performing 'editFile, Edit File'
+#. opening smartgit.coh@MHND77:messages.pot - [<directory>] - Editor (smartgit.coh@LHUZDC)
+#. Performing ',   Open in VSCode'
+#. Performing 'stage, Stage, Store working tree files in the index to prepare the next commit.'
+#. Performing 'fixup, Use Message for Commit'
+#. Performing 'viewUnchanged, Show Unchanged Files, If selected, unchanged files will be shown.'
+#. Performing ', Close'
+#. Performing ', Close'
+#. Performing 'preferences, Preferences'
+#. Showing dialog 0 (@MXJWSJ) '@AT8HSK - Preferences' (owner: @XP2NXL)
+msgctxt "lblPropertyDescription-log.graph.filter.maxCommits:"
+msgid "The maximum number of commits to load when filtering. Too high values risk an out-of-memory-error."
+msgstr ""
+
+#. Performing 'editFile, Edit File'
+#. opening smartgit.coh@MHND77:messages.pot - [<directory>] - Editor (smartgit.coh@LHUZDC)
+#. Performing ',   Open in VSCode'
+#. Performing 'stage, Stage, Store working tree files in the index to prepare the next commit.'
+#. Performing 'fixup, Use Message for Commit'
+#. Performing 'viewUnchanged, Show Unchanged Files, If selected, unchanged files will be shown.'
+#. Performing ', Close'
+#. Performing ', Close'
+#. Performing 'preferences, Preferences'
+#. Showing dialog 0 (@MXJWSJ) '@AT8HSK - Preferences' (owner: @XP2NXL)
+msgctxt "lblPropertyDescription-log.graph.layout.sorting.headRootTopMost:"
+msgid "By default, HEAD will be sorted top in the Graph \\(provided that it's actually a root commit and not part of another branch's history\\). Set to `false` to disable special handling of HEAD."
+msgstr ""
+
+#. Performing 'editFile, Edit File'
+#. opening smartgit.coh@MHND77:messages.pot - [<directory>] - Editor (smartgit.coh@LHUZDC)
+#. Performing ',   Open in VSCode'
+#. Performing 'stage, Stage, Store working tree files in the index to prepare the next commit.'
+#. Performing 'fixup, Use Message for Commit'
+#. Performing 'viewUnchanged, Show Unchanged Files, If selected, unchanged files will be shown.'
+#. Performing ', Close'
+#. Performing ', Close'
+#. Performing 'preferences, Preferences'
+#. Showing dialog 0 (@MXJWSJ) '@AT8HSK - Preferences' (owner: @XP2NXL)
+msgctxt "lblPropertyDescription-log.graph.refresh.includeTrackedRemoteBranchForHead:"
+msgid "By default, SmartGit will include include the HEAD's tracked branch when 'Include Tracked Remote Branches' option is set. To not include this branch, set this option to `false`."
+msgstr ""
+
+#. Performing 'editFile, Edit File'
+#. opening smartgit.coh@MHND77:messages.pot - [<directory>] - Editor (smartgit.coh@LHUZDC)
+#. Performing ',   Open in VSCode'
+#. Performing 'stage, Stage, Store working tree files in the index to prepare the next commit.'
+#. Performing 'fixup, Use Message for Commit'
+#. Performing 'viewUnchanged, Show Unchanged Files, If selected, unchanged files will be shown.'
+#. Performing ', Close'
+#. Performing ', Close'
+#. Performing 'preferences, Preferences'
+#. Showing dialog 0 (@MXJWSJ) '@AT8HSK - Preferences' (owner: @XP2NXL)
+msgctxt "lblPropertyDescription-nodeCache.useCommitGraph:"
+msgid "For Log-queries, use Git commit-graphs instead of SmartGit's built-in commit cache implementation."
+msgstr ""
+
+#. Performing 'editFile, Edit File'
+#. opening smartgit.coh@MHND77:messages.pot - [<directory>] - Editor (smartgit.coh@LHUZDC)
+#. Performing ',   Open in VSCode'
+#. Performing 'stage, Stage, Store working tree files in the index to prepare the next commit.'
+#. Performing 'fixup, Use Message for Commit'
+#. Performing 'viewUnchanged, Show Unchanged Files, If selected, unchanged files will be shown.'
+#. Performing ', Close'
+#. Performing ', Close'
+#. Performing 'preferences, Preferences'
+#. Showing dialog 0 (@MXJWSJ) '@AT8HSK - Preferences' (owner: @XP2NXL)
+msgctxt "lblPropertyDescription-output.details.maxChars:"
+msgid "This option limits the number of characters in the details text of the output dialog."
+msgstr ""
+
+#. Performing 'editFile, Edit File'
+#. opening smartgit.coh@MHND77:messages.pot - [<directory>] - Editor (smartgit.coh@LHUZDC)
+#. Performing ',   Open in VSCode'
+#. Performing 'stage, Stage, Store working tree files in the index to prepare the next commit.'
+#. Performing 'fixup, Use Message for Commit'
+#. Performing 'viewUnchanged, Show Unchanged Files, If selected, unchanged files will be shown.'
+#. Performing ', Close'
+#. Performing ', Close'
+#. Performing 'preferences, Preferences'
+#. Showing dialog 0 (@MXJWSJ) '@AT8HSK - Preferences' (owner: @XP2NXL)
+msgctxt "lblPropertyDescription-progress.showInTaskbar:"
+msgid "This option configures whether the status bar's progress also is replicated in the task bar."
+msgstr ""
+
+#. Performing 'editFile, Edit File'
+#. opening smartgit.coh@MHND77:messages.pot - [<directory>] - Editor (smartgit.coh@LHUZDC)
+#. Performing ',   Open in VSCode'
+#. Performing 'stage, Stage, Store working tree files in the index to prepare the next commit.'
+#. Performing 'fixup, Use Message for Commit'
+#. Performing 'viewUnchanged, Show Unchanged Files, If selected, unchanged files will be shown.'
+#. Performing ', Close'
+#. Performing ', Close'
+#. Performing 'preferences, Preferences'
+#. Showing dialog 0 (@MXJWSJ) '@AT8HSK - Preferences' (owner: @XP2NXL)
+msgctxt "lblPropertyDescription-pull.propagateFetchTagsToSubmodules:"
+msgid "Specifies whether SmartGit should also fetch and updated tags for submodules, if specified for the Pull command."
+msgstr ""
+
+#. Performing 'editFile, Edit File'
+#. opening smartgit.coh@MHND77:messages.pot - [<directory>] - Editor (smartgit.coh@LHUZDC)
+#. Performing ',   Open in VSCode'
+#. Performing 'stage, Stage, Store working tree files in the index to prepare the next commit.'
+#. Performing 'fixup, Use Message for Commit'
+#. Performing 'viewUnchanged, Show Unchanged Files, If selected, unchanged files will be shown.'
+#. Performing ', Close'
+#. Performing ', Close'
+#. Performing 'preferences, Preferences'
+#. Showing dialog 0 (@MXJWSJ) '@AT8HSK - Preferences' (owner: @XP2NXL)
+msgctxt "lblPropertyDescription-refresh.countRenamesOnlyOnce:"
+msgid "Set to `false` to count renames as separate changes when displaying the total change count."
+msgstr ""
+
+#. Performing 'editFile, Edit File'
+#. opening smartgit.coh@MHND77:messages.pot - [<directory>] - Editor (smartgit.coh@LHUZDC)
+#. Performing ',   Open in VSCode'
+#. Performing 'stage, Stage, Store working tree files in the index to prepare the next commit.'
+#. Performing 'fixup, Use Message for Commit'
+#. Performing 'viewUnchanged, Show Unchanged Files, If selected, unchanged files will be shown.'
+#. Performing ', Close'
+#. Performing ', Close'
+#. Performing 'preferences, Preferences'
+#. Showing dialog 0 (@MXJWSJ) '@AT8HSK - Preferences' (owner: @XP2NXL)
+msgctxt "lblPropertyDescription-rollback.messageTemplate:"
+msgid "This option configures the commit message set after a rollback command. Use `\\$\\{message\\}` and `\\$\\{sha\\}` as placeholders for the commit's message and ID. Leave empty to not set any message."
+msgstr ""
+
+#. Performing 'editFile, Edit File'
+#. opening smartgit.coh@MHND77:messages.pot - [<directory>] - Editor (smartgit.coh@LHUZDC)
+#. Performing ',   Open in VSCode'
+#. Performing 'stage, Stage, Store working tree files in the index to prepare the next commit.'
+#. Performing 'fixup, Use Message for Commit'
+#. Performing 'viewUnchanged, Show Unchanged Files, If selected, unchanged files will be shown.'
+#. Performing ', Close'
+#. Performing ', Close'
+#. Performing 'preferences, Preferences'
+#. Showing dialog 0 (@MXJWSJ) '@AT8HSK - Preferences' (owner: @XP2NXL)
+msgctxt "lblPropertyDescription-standard.actions.pullRequests.close:"
+msgid "Set this option to `true` to offer an unconditional 'Close' operation for pull requests."
+msgstr ""
+
+#. Performing 'editFile, Edit File'
+#. opening smartgit.coh@MHND77:messages.pot - [<directory>] - Editor (smartgit.coh@LHUZDC)
+#. Performing ',   Open in VSCode'
+#. Performing 'stage, Stage, Store working tree files in the index to prepare the next commit.'
+#. Performing 'fixup, Use Message for Commit'
+#. Performing 'viewUnchanged, Show Unchanged Files, If selected, unchanged files will be shown.'
+#. Performing ', Close'
+#. Performing ', Close'
+#. Performing 'preferences, Preferences'
+#. Showing dialog 0 (@MXJWSJ) '@AT8HSK - Preferences' (owner: @XP2NXL)
+msgctxt "lblPropertyDescription-standard.pullRequests.autoFetch:"
+msgid "Set to `true` to auto-fetch pull requests."
+msgstr ""
+
+#. Performing 'editFile, Edit File'
+#. opening smartgit.coh@MHND77:messages.pot - [<directory>] - Editor (smartgit.coh@LHUZDC)
+#. Performing ',   Open in VSCode'
+#. Performing 'stage, Stage, Store working tree files in the index to prepare the next commit.'
+#. Performing 'fixup, Use Message for Commit'
+#. Performing 'viewUnchanged, Show Unchanged Files, If selected, unchanged files will be shown.'
+#. Performing ', Close'
+#. Performing ', Close'
+#. Performing 'preferences, Preferences'
+#. Showing dialog 0 (@MXJWSJ) '@AT8HSK - Preferences' (owner: @XP2NXL)
+msgctxt "lblPropertyDescription-standard.ui.layoutActions:"
+msgid "Set this option to `true` to provide two rudimentary layout configurations in the Window menu which will preserve the Changes view splitter position. This option is most likely subject to change!"
+msgstr ""
+
+#. Performing 'editFile, Edit File'
+#. opening smartgit.coh@MHND77:messages.pot - [<directory>] - Editor (smartgit.coh@LHUZDC)
+#. Performing ',   Open in VSCode'
+#. Performing 'stage, Stage, Store working tree files in the index to prepare the next commit.'
+#. Performing 'fixup, Use Message for Commit'
+#. Performing 'viewUnchanged, Show Unchanged Files, If selected, unchanged files will be shown.'
+#. Performing ', Close'
+#. Performing ', Close'
+#. Performing 'preferences, Preferences'
+#. Showing dialog 0 (@MXJWSJ) '@AT8HSK - Preferences' (owner: @XP2NXL)
+msgctxt "lblPropertyDescription-styledText.lineSpacing:"
+msgid "This option lets you increase the line spacing for all used styled text controls. Only applies for newly created controls."
+msgstr ""
+
+#. Performing 'editFile, Edit File'
+#. opening smartgit.coh@MHND77:messages.pot - [<directory>] - Editor (smartgit.coh@LHUZDC)
+#. Performing ',   Open in VSCode'
+#. Performing 'stage, Stage, Store working tree files in the index to prepare the next commit.'
+#. Performing 'fixup, Use Message for Commit'
+#. Performing 'viewUnchanged, Show Unchanged Files, If selected, unchanged files will be shown.'
+#. Performing ', Close'
+#. Performing ', Close'
+#. Performing 'preferences, Preferences'
+#. Showing dialog 0 (@MXJWSJ) '@AT8HSK - Preferences' (owner: @XP2NXL)
+msgctxt "lblPropertyDescription-tagBranchSorting.reverseNumbers:"
+msgid "If `true`, the natural \\(numeric\\) order should put larger numbers before smaller ones, e.g. release-11 before release-10 before release-9. Otherwise they are shown increasingly, e.g. release-9 before release-10 before release-11."
+msgstr ""
+
+#. Performing 'editFile, Edit File'
+#. opening smartgit.coh@MHND77:messages.pot - [<directory>] - Editor (smartgit.coh@LHUZDC)
+#. Performing ',   Open in VSCode'
+#. Performing 'stage, Stage, Store working tree files in the index to prepare the next commit.'
+#. Performing 'fixup, Use Message for Commit'
+#. Performing 'viewUnchanged, Show Unchanged Files, If selected, unchanged files will be shown.'
+#. Performing ', Close'
+#. Performing ', Close'
+#. Performing 'preferences, Preferences'
+#. Showing dialog 0 (@MXJWSJ) '@AT8HSK - Preferences' (owner: @XP2NXL)
+msgctxt "lblPropertyDescription-textEditors.syntaxHighlighting:"
+msgid "If `true`, text editors try to show syntax highlighting according to the file name and the configured patterns."
+msgstr ""
+
+#. Performing 'editFile, Edit File'
+#. opening smartgit.coh@MHND77:messages.pot - [<directory>] - Editor (smartgit.coh@LHUZDC)
+#. Performing ',   Open in VSCode'
+#. Performing 'stage, Stage, Store working tree files in the index to prepare the next commit.'
+#. Performing 'fixup, Use Message for Commit'
+#. Performing 'viewUnchanged, Show Unchanged Files, If selected, unchanged files will be shown.'
+#. Performing ', Close'
+#. Performing ', Close'
+#. Performing 'preferences, Preferences'
+#. Showing dialog 0 (@MXJWSJ) '@AT8HSK - Preferences' (owner: @XP2NXL)
+msgctxt "lblPropertyDescription-toolbar.updateIconText:"
+msgid "If `true`, depending on the repository state, some toolbar buttons may change their text."
+msgstr ""
+
+#. Performing 'editFile, Edit File'
+#. opening smartgit.coh@MHND77:messages.pot - [<directory>] - Editor (smartgit.coh@LHUZDC)
+#. Performing ',   Open in VSCode'
+#. Performing 'stage, Stage, Store working tree files in the index to prepare the next commit.'
+#. Performing 'fixup, Use Message for Commit'
+#. Performing 'viewUnchanged, Show Unchanged Files, If selected, unchanged files will be shown.'
+#. Performing ', Close'
+#. Performing ', Close'
+#. Performing 'preferences, Preferences'
+#. Showing dialog 0 (@MXJWSJ) '@AT8HSK - Preferences' (owner: @XP2NXL)
+msgctxt "lblPropertyDescription-ui.window.allowedMonitorOutset:"
+msgid "This value configures how many pixels a window might be placed outside the monitor bounds until it will be shifted."
+msgstr ""
