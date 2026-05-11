@@ -23459,9 +23459,10 @@ msgstr "ウィンドウを移動させるまでに、モニター範囲の外へ
 #. Performing 'stdSetModeHistory, Show History, Show the history view.'
 #. Performing ', Ask AI...'
 #. Showing dialog 7 (@Y6NDA6) '@8O3G2C - Ask AI' (owner: @58MHLG)
+#, fuzzy
 msgctxt "dlgSgAiAsk.btn:"
 msgid "Ask"
-msgstr ""
+msgstr "質問"
 
 #. Performing ', Prompts'
 #. Performing ', Cancel'
@@ -23473,9 +23474,10 @@ msgstr ""
 #. Performing 'stdSetModeHistory, Show History, Show the history view.'
 #. Performing ', Ask AI...'
 #. Showing dialog 7 (@Y6NDA6) '@8O3G2C - Ask AI' (owner: @58MHLG)
+#, fuzzy
 msgctxt "dlgSgAiAsk.btn:"
 msgid "Prompts"
-msgstr ""
+msgstr "プロンプト"
 
 #. Performing ', Prompts'
 #. Performing ', Cancel'
@@ -23487,9 +23489,10 @@ msgstr ""
 #. Performing 'stdSetModeHistory, Show History, Show the history view.'
 #. Performing ', Ask AI...'
 #. Showing dialog 7 (@Y6NDA6) '@8O3G2C - Ask AI' (owner: @58MHLG)
+#, fuzzy
 msgctxt "dlgSgAiAsk.chk:"
 msgid "More options"
-msgstr ""
+msgstr "その他のオプション"
 
 #. Performing ', Prompts'
 #. Performing ', Cancel'
@@ -23501,9 +23504,10 @@ msgstr ""
 #. Performing 'stdSetModeHistory, Show History, Show the history view.'
 #. Performing ', Ask AI...'
 #. Showing dialog 7 (@Y6NDA6) '@8O3G2C - Ask AI' (owner: @58MHLG)
+#, fuzzy
 msgctxt "dlgSgAiAsk.chk:"
 msgid "Run in background"
-msgstr ""
+msgstr "バックグラウンドで実行"
 
 #. Performing ', Prompts'
 #. Performing ', Cancel'
@@ -23515,9 +23519,10 @@ msgstr ""
 #. Performing 'stdSetModeHistory, Show History, Show the history view.'
 #. Performing ', Ask AI...'
 #. Showing dialog 7 (@Y6NDA6) '@8O3G2C - Ask AI' (owner: @58MHLG)
+#, fuzzy
 msgctxt "dlgSgAiAsk.chk:"
 msgid "Write debug log"
-msgstr ""
+msgstr "デバッグログを書き込む"
 
 #. Performing ', Prompts'
 #. Performing ', Cancel'
@@ -23529,9 +23534,10 @@ msgstr ""
 #. Performing 'stdSetModeHistory, Show History, Show the history view.'
 #. Performing ', Ask AI...'
 #. Showing dialog 7 (@Y6NDA6) '@8O3G2C - Ask AI' (owner: @58MHLG)
+#, fuzzy
 msgctxt "dlgSgAiAsk.edt:"
 msgid "Diff Context Lines"
-msgstr ""
+msgstr "差分コンテキスト行数"
 
 #. Performing ', Prompts'
 #. Performing ', Cancel'
@@ -23543,9 +23549,10 @@ msgstr ""
 #. Performing 'stdSetModeHistory, Show History, Show the history view.'
 #. Performing ', Ask AI...'
 #. Showing dialog 7 (@Y6NDA6) '@8O3G2C - Ask AI' (owner: @58MHLG)
+#, fuzzy
 msgctxt "dlgSgAiAsk.edt:"
 msgid "Diff Size Limit"
-msgstr ""
+msgstr "差分サイズ制限"
 
 #. Performing ', Prompts'
 #. Performing ', Cancel'
@@ -23557,9 +23564,10 @@ msgstr ""
 #. Performing 'stdSetModeHistory, Show History, Show the history view.'
 #. Performing ', Ask AI...'
 #. Showing dialog 7 (@Y6NDA6) '@8O3G2C - Ask AI' (owner: @58MHLG)
+#, fuzzy
 msgctxt "dlgSgAiAsk.edt:"
 msgid "Model"
-msgstr ""
+msgstr "モデル"
 
 #. Performing ', Prompts'
 #. Performing ', Cancel'
@@ -23571,9 +23579,10 @@ msgstr ""
 #. Performing 'stdSetModeHistory, Show History, Show the history view.'
 #. Performing ', Ask AI...'
 #. Showing dialog 7 (@Y6NDA6) '@8O3G2C - Ask AI' (owner: @58MHLG)
+#, fuzzy
 msgctxt "dlgSgAiAsk.edt:"
 msgid "Prompt"
-msgstr ""
+msgstr "プロンプト"
 
 #. Performing ', Prompts'
 #. Performing ', Cancel'
@@ -23585,9 +23594,10 @@ msgstr ""
 #. Performing 'stdSetModeHistory, Show History, Show the history view.'
 #. Performing ', Ask AI...'
 #. Showing dialog 7 (@Y6NDA6) '@8O3G2C - Ask AI' (owner: @58MHLG)
+#, fuzzy
 msgctxt "dlgSgAiAsk.edt:"
 msgid "Timeout \\(seconds\\)"
-msgstr ""
+msgstr "タイムアウト \\(秒\\)"
 
 #. Performing ', Prompts'
 #. Performing ', Cancel'
@@ -23599,9 +23609,10 @@ msgstr ""
 #. Performing 'stdSetModeHistory, Show History, Show the history view.'
 #. Performing ', Ask AI...'
 #. Showing dialog 7 (@Y6NDA6) '@8O3G2C - Ask AI' (owner: @58MHLG)
+#, fuzzy
 msgctxt "dlgSgAiAsk.hdl:"
 msgid "Ask AI on commit"
-msgstr ""
+msgstr "コミットについて AI に質問"
 
 #. Performing ', Prompts'
 #. Performing ', Cancel'
@@ -23613,9 +23624,10 @@ msgstr ""
 #. Performing 'stdSetModeHistory, Show History, Show the history view.'
 #. Performing ', Ask AI...'
 #. Showing dialog 7 (@Y6NDA6) '@8O3G2C - Ask AI' (owner: @58MHLG)
+#, fuzzy
 msgctxt "dlgSgAiAsk.inf:"
 msgid "Ask the AI by providing a prompt."
-msgstr ""
+msgstr "プロンプトを入力して AI に質問します。"
 
 #. Performing ', Prompts'
 #. Performing ', Cancel'
@@ -23627,9 +23639,10 @@ msgstr ""
 #. Performing 'stdSetModeHistory, Show History, Show the history view.'
 #. Performing ', Ask AI...'
 #. Showing dialog 7 (@Y6NDA6) '@8O3G2C - Ask AI' (owner: @58MHLG)
+#, fuzzy
 msgctxt "dlgSgAiAsk.lbl:"
 msgid "bytes"
-msgstr ""
+msgstr "バイト"
 
 #. Showing dialog 3 (@LPXMDX) '@N8QHI6 - Discover Other SmartGit Windows' (owner: @CPOVNK)
 #. Performing ', Edit Config File...'
@@ -23641,9 +23654,10 @@ msgstr ""
 #. Performing ', Ask AI...'
 #. Showing dialog 4 (@LLQ78F) '@A1KTAD - Ask AI' (owner: @KH3TDT)
 #. Performing ', Prompts'
+#, fuzzy
 msgctxt "dlgSgAiAsk.mni:"
 msgid "\\{\\{ branch \\}\\}"
-msgstr ""
+msgstr "\\{\\{ branch \\}\\}"
 
 #. Showing dialog 3 (@LPXMDX) '@N8QHI6 - Discover Other SmartGit Windows' (owner: @CPOVNK)
 #. Performing ', Edit Config File...'
@@ -23655,9 +23669,10 @@ msgstr ""
 #. Performing ', Ask AI...'
 #. Showing dialog 4 (@LLQ78F) '@A1KTAD - Ask AI' (owner: @KH3TDT)
 #. Performing ', Prompts'
+#, fuzzy
 msgctxt "dlgSgAiAsk.mni:"
 msgid "\\{\\{ commitMessage \\}\\}"
-msgstr ""
+msgstr "\\{\\{ commitMessage \\}\\}"
 
 #. Showing dialog 3 (@LPXMDX) '@N8QHI6 - Discover Other SmartGit Windows' (owner: @CPOVNK)
 #. Performing ', Edit Config File...'
@@ -23669,9 +23684,10 @@ msgstr ""
 #. Performing ', Ask AI...'
 #. Showing dialog 4 (@LLQ78F) '@A1KTAD - Ask AI' (owner: @KH3TDT)
 #. Performing ', Prompts'
+#, fuzzy
 msgctxt "dlgSgAiAsk.mni:"
 msgid "\\{\\{ gitDiff \\}\\}"
-msgstr ""
+msgstr "\\{\\{ gitDiff \\}\\}"
 
 #. Showing dialog 4 (@LLQ78F) '@A1KTAD - Ask AI' (owner: @KH3TDT)
 #. Performing ', Prompts'
@@ -23683,9 +23699,10 @@ msgstr ""
 #. opening smartgit.aCX@DDJOOV:null (smartgit.aCX@58MHLG)
 #. Performing 'stdSetModeHistory, Show History, Show the history view.'
 #. Performing ', Ask AI...'
+#, fuzzy
 msgctxt "dlgSgAiAsk.tle:"
 msgid "Ask AI"
-msgstr ""
+msgstr "AI に質問"
 
 #. Performing ', Cancel'
 #. Performing ', Explain Commit'
@@ -23697,9 +23714,10 @@ msgstr ""
 #. Performing ', Connect'
 #. Performing ', Close'
 #. Showing dialog 11 (@KOBY5C) '@98VDO4 - Explain Commit' (owner: @58MHLG)
+#, fuzzy
 msgctxt "dlgSgAiResponseOutput.lbl\"<a href\\=\\\"click\\\">Copy to Clipboard</a>\""
 msgid "<a href\\=\"click\">Copy to Clipboard</a>"
-msgstr ""
+msgstr "<a href\\=\"click\">クリップボードにコピー</a>"
 
 #. Showing dialog 7 (@Y6NDA6) '@8O3G2C - Ask AI' (owner: @58MHLG)
 #. Performing ', Cancel'
@@ -23711,9 +23729,10 @@ msgstr ""
 #. Showing dialog 10 (@OA1SVO) '@EVY51C - API Key' (owner: @58MHLG)
 #. Performing ', Connect'
 #. Performing ', Close'
+#, fuzzy
 msgctxt "dlgSgAiResponseOutput.tle:"
 msgid "Explain Commit"
-msgstr ""
+msgstr "コミットの説明"
 
 #. Showing dialog 13 (@AKKY31) '@3F0F3S - Close' (owner: @CPOVNK)
 #. Performing ', Close Now'
@@ -23726,9 +23745,10 @@ msgstr ""
 #. Performing 'fixup, Use Message for Commit'
 #. Performing ', Close'
 #. placeholder: $1=<prompt_name>
+#, fuzzy
 msgctxt "wndLog.mni:"
 msgid "$1"
-msgstr ""
+msgstr "$1"
 
 #. Performing ', Regular Expressions, Interpret the search pattern as regular expression.'
 #. Performing ', Regular Expressions, Interpret the search pattern as regular expression.'
@@ -23740,9 +23760,10 @@ msgstr ""
 #. Showing dialog 19 (@6G036N) '@O0XHP0 - Configure Toolbar' (owner: @KH3TDT)
 #. Performing ', Add'
 #. Performing ', OK'
+#, fuzzy
 msgctxt "wndLog.tbr:"
 msgid "Fetch All"
-msgstr ""
+msgstr "すべてフェッチ"
 
 #. Performing ', Regular Expressions, Interpret the search pattern as regular expression.'
 #. Performing ', Regular Expressions, Interpret the search pattern as regular expression.'
@@ -23754,9 +23775,10 @@ msgstr ""
 #. Showing dialog 19 (@6G036N) '@O0XHP0 - Configure Toolbar' (owner: @KH3TDT)
 #. Performing ', Add'
 #. Performing ', OK'
+#, fuzzy
 msgctxt "wndLog.tbtRemoteFetchAll:"
 msgid "Fetch commits from all remote repositories."
-msgstr ""
+msgstr "すべてのリモートリポジトリからコミットを取得します。"
 
 #. Performing ', Regular Expressions, Interpret the search pattern as regular expression.'
 #. Performing ', Regular Expressions, Interpret the search pattern as regular expression.'
@@ -23768,9 +23790,10 @@ msgstr ""
 #. Showing dialog 19 (@6G036N) '@O0XHP0 - Configure Toolbar' (owner: @KH3TDT)
 #. Performing ', Add'
 #. Performing ', OK'
+#, fuzzy
 msgctxt "wndLog.tbtResetAdvanced:"
 msgid "Reset current branch \\(HEAD\\) to another commit and keep the difference in Index or Working Tree."
-msgstr ""
+msgstr "現在のブランチ \\(HEAD\\) を別のコミットにリセットし、差分をインデックスまたは作業ツリーに保持します。"
 
 #. Showing dialog 11 (@KOBY5C) '@98VDO4 - Explain Commit' (owner: @58MHLG)
 #. Performing ', Close'
@@ -23782,9 +23805,10 @@ msgstr ""
 #. Performing 'fixup, Use Message for Commit'
 #. Performing ', Close'
 #. Performing 'stage, Stage, Store working tree files in the index to prepare the next commit.'
+#, fuzzy
 msgctxt "wndProject.tbtFlowContext:"
 msgid "Start a new Git-Flow feature."
-msgstr ""
+msgstr "新しい Git-Flow の feature を開始します。"
 
 #. Performing 'push, Push, Push local commits to the remote origin repository.'
 #. Showing dialog 15 (@OB14K7) '@CDD7VK - Push' (owner: @KH3TDT)
@@ -23796,9 +23820,10 @@ msgstr ""
 #. Performing ', Close'
 #. Performing 'discoverWindow, Discover Windows, Discover the different main windows.'
 #. Showing dialog 18 (@8LJ0ZU) '@O2LCMB - Discover Other SmartGit Windows' (owner: @KH3TDT)
+#, fuzzy
 msgctxt "wndStd.lbl:"
 msgid "<a>Select obsolete repositories</a>"
-msgstr ""
+msgstr "<a>廃止されたリポジトリを選択</a>"
 
 #. Performing ', Cancel'
 #. Performing 'fetch, Pull..., Fetch commits from a remote repository and (optionally) integrate them with possible local commits.'
@@ -23825,9 +23850,10 @@ msgstr ""
 #. Performing ', Regular Expressions, Interpret the search pattern as regular expression.'
 #. Performing ', Regular Expressions, Interpret the search pattern as regular expression.'
 #. placeholder: $1=<prompt_name>
+#, fuzzy
 msgctxt "wndStd.mni:"
 msgid "$1"
-msgstr ""
+msgstr "$1"
 
 #. Performing ', Apply Stash'
 #. Performing ', Remove'
@@ -23839,9 +23865,10 @@ msgstr ""
 #. Performing ', Show filter input field.'
 #. Performing ', Regular Expressions, Interpret the search pattern as regular expression.'
 #. Performing ', Regular Expressions, Interpret the search pattern as regular expression.'
+#, fuzzy
 msgctxt "wndStd.mni:"
 msgid "Edit Config File"
-msgstr ""
+msgstr "設定ファイルを編集"
 
 #. Performing 'discoverWindow, Discover Windows, Discover the different main windows.'
 #. Showing dialog 18 (@8LJ0ZU) '@O2LCMB - Discover Other SmartGit Windows' (owner: @KH3TDT)
@@ -23854,9 +23881,10 @@ msgstr ""
 #. Performing ', Fetch'
 #. Performing ', Ignore'
 #. placeholder: $1=<remote_name>
+#, fuzzy
 msgctxt "wndStd.mni:"
 msgid "Fetch '$1' \\(current\\)"
-msgstr ""
+msgstr "'$1' をフェッチ \\(現在\\)"
 
 #. Performing ', Cancel'
 #. Performing 'fetch, Pull..., Fetch commits from a remote repository and (optionally) integrate them with possible local commits.'
@@ -23869,9 +23897,10 @@ msgstr ""
 #. opening smartgit.aCX@OXZ8IE:null (smartgit.aCX@5WHUU3)
 #. Performing ', Apply Stash'
 #. placeholder: $1=<branch_name>
+#, fuzzy
 msgctxt "wndStd.mni:"
 msgid "On $1: SmartGit: automatic stash on Reset."
-msgstr ""
+msgstr "$1 上: SmartGit: リセット時の自動スタッシュ。"
 
 #. Performing ', Cancel'
 #. Performing 'fetch, Pull..., Fetch commits from a remote repository and (optionally) integrate them with possible local commits.'
@@ -23886,9 +23915,10 @@ msgstr ""
 #. placeholder: $1=<branch_name>
 #. placeholder: $2=<commit_id>
 #. placeholder: $3=<commit_message>
+#, fuzzy
 msgctxt "wndStd.mni:"
 msgid "WIP on $1: $2 $3"
-msgstr ""
+msgstr "WIP on $1: $2 $3"
 
 #. Performing ', Apply Stash'
 #. Performing ', Remove'
@@ -23901,9 +23931,10 @@ msgstr ""
 #. Performing ', Regular Expressions, Interpret the search pattern as regular expression.'
 #. Performing ', Regular Expressions, Interpret the search pattern as regular expression.'
 #. placeholder: $1=<branch_name>
+#, fuzzy
 msgctxt "wndStd.mni:"
 msgid "$1 \\(active\\)"
-msgstr ""
+msgstr "$1 \\(アクティブ\\)"
 
 #. Performing ', Remove'
 #. Performing ', Add Tag'
@@ -23915,6 +23946,7 @@ msgstr ""
 #. Performing ', Regular Expressions, Interpret the search pattern as regular expression.'
 #. Performing ', Regular Expressions, Interpret the search pattern as regular expression.'
 #. Performing ', Close'
+#, fuzzy
 msgctxt "wndStd.tbt:"
 msgid "Close"
-msgstr ""
+msgstr "閉じる"
