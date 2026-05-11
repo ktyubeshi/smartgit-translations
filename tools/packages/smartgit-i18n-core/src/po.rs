@@ -328,6 +328,10 @@ pub fn write_document(document: &PoDocument) -> String {
         write_entry(&mut output, entry);
     }
 
+    if output.ends_with('\n') {
+        output.pop();
+    }
+
     output
 }
 
