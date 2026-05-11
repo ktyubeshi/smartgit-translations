@@ -36326,6 +36326,11 @@ msgctxt "wndLog.tbt:"
 msgid "File Name \\(expensive\\)"
 msgstr "ファイル名 \\(高負荷\\)"
 
+#, fuzzy
+msgctxt "nttDemoReminder:"
+msgid "Your SmartGit evaluation ends in $1 days."
+msgstr "SmartGit の評価期間はあと $1 日で終了します。"
+
 #~ msgctxt "dlgSgOutput.lbl:"
 #~ msgid "stash failed \\(return code $1\\)"
 #~ msgstr "スタッシュに失敗しました \\(return code $1\\)"
