@@ -12,7 +12,7 @@ def create_combined_sg_map(master_str: str, locale_str: str, state_str: str, loc
     return CombinedSgMap(master_map, locale_map, state_map)
 
 
-def find_po_entry(po: polib.POFile, msgctxt: str, msgid: str) -> polib.POEntry:
+def find_po_entry(po: rspolib.POFile, msgctxt: str, msgid: str) -> rspolib.POEntry:
     for entry in po:
         if entry.msgctxt == msgctxt and entry.msgid == msgid:
             return entry
@@ -37,7 +37,7 @@ class TestCombinedSgMapToPoFile(unittest.TestCase):
         self.assertEqual('dlgQFrameManagerExit.hdl', entry.msgctxt)
         self.assertEqual('Do you really want to exit SmartGit?', entry.msgid)
         self.assertEqual('', entry.msgstr)
-        self.assertEqual('', entry.comment)
+        self.assertIsNone(entry.comment)
         self.assertIsNone(entry.previous_msgid)
 
         # fuzzy=false because it is obvious that work is needed on untranslated entry.
@@ -61,7 +61,7 @@ class TestCombinedSgMapToPoFile(unittest.TestCase):
         self.assertEqual('dlgQFrameManagerExit.hdl', entry.msgctxt)
         self.assertEqual('Do you really want to exit SmartGit?', entry.msgid)
         self.assertEqual('是否确定要退出 SmartGit ？', entry.msgstr)
-        self.assertEqual('', entry.comment)
+        self.assertIsNone(entry.comment)
         self.assertIsNone(entry.previous_msgid)
 
         # fuzzy = True because the comment line in mapping.dev have not been removed.
@@ -85,7 +85,7 @@ class TestCombinedSgMapToPoFile(unittest.TestCase):
         self.assertEqual('dlgQFrameManagerExit.hdl', entry.msgctxt)
         self.assertEqual('Do you really want to exit SmartGit?', entry.msgid)
         self.assertEqual('是否确定要退出 SmartGit ？', entry.msgstr)
-        self.assertEqual('', entry.comment)
+        self.assertIsNone(entry.comment)
         self.assertIsNone(entry.previous_msgid)
         self.assertFalse(entry.fuzzy)
         print(po)
@@ -129,7 +129,7 @@ class TestCombinedSgMapToPoFile(unittest.TestCase):
         self.assertEqual('dlgQFrameManagerExit.hdl', entry.msgctxt)
         self.assertEqual('Do you really want to exit SmartGit?', entry.msgid)
         self.assertEqual('', entry.msgstr)
-        self.assertEqual('', entry.comment)
+        self.assertIsNone(entry.comment)
         self.assertIsNone(entry.previous_msgid)
         self.assertFalse(entry.fuzzy)
         print(po)
@@ -151,7 +151,7 @@ class TestCombinedSgMapToPoFile(unittest.TestCase):
         self.assertEqual('dlgQFrameManagerExit.hdl', entry.msgctxt)
         self.assertEqual('Do you really want to exit SmartGit?', entry.msgid)
         self.assertEqual('是否确定要退出 SmartGit ？', entry.msgstr)
-        self.assertEqual('', entry.comment)
+        self.assertIsNone(entry.comment)
         self.assertEqual('Do you want to exit SmartGit?', entry.previous_msgid)
         self.assertTrue(entry.fuzzy)
         print(po)
@@ -173,7 +173,7 @@ class TestCombinedSgMapToPoFile(unittest.TestCase):
         self.assertEqual('dlgQFrameManagerExit.hdl', entry.msgctxt)
         self.assertEqual('Do you really want to exit SmartGit?', entry.msgid)
         self.assertEqual('是否确定要退出 SmartGit ？', entry.msgstr)
-        self.assertEqual('', entry.comment)
+        self.assertIsNone(entry.comment)
         self.assertEqual('Do you want to exit SmartGit?', entry.previous_msgid)
         self.assertTrue(entry.fuzzy)
         print(po)

@@ -265,15 +265,6 @@ wheels = [
 ]
 
 [[package]]
-name = "polib"
-version = "1.2.0"
-source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/10/9a/79b1067d27e38ddf84fe7da6ec516f1743f31f752c6122193e7bce38bdbf/polib-1.2.0.tar.gz", hash = "sha256:f3ef94aefed6e183e342a8a269ae1fc4742ba193186ad76f175938621dbfc26b", size = 161658 }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/6b/99/45bb1f9926efe370c6dbe324741c749658e44cb060124f28dad201202274/polib-1.2.0-py2.py3-none-any.whl", hash = "sha256:1c77ee1b81feb31df9bca258cbc58db1bbb32d10214b173882452c73af06d62d", size = 20634 },
-]
-
-[[package]]
 name = "pydantic"
 version = "2.13.4"
 source = { registry = "https://pypi.org/simple" }
@@ -441,13 +432,33 @@ wheels = [
 ]
 
 [[package]]
+name = "rspolib"
+version = "0.1.2"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/9c/67/0782ede51f4c1585e30a79aaf64a98425f46535683ffacfa708bd9115769/rspolib-0.1.2.tar.gz", hash = "sha256:5b506991e4ddaf39bb24d865f1c7ab462293886946e751e4c3baf07ce7b6a700", size = 66324 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/dd/20/601fa64f738b336d02dc14e2ad95941698a3f118e8e9648ac218f0d2d0b7/rspolib-0.1.2-cp310-cp310-manylinux_2_24_x86_64.whl", hash = "sha256:c0e7cc3b93d7bb0dc0b293b93c1ac1270000d4a9536a599ee80a2e208694d0df", size = 503844 },
+    { url = "https://files.pythonhosted.org/packages/e1/ea/4d2621735120a270379052f6c7b86c7f0ee0158cc6950cc229cc4032d29b/rspolib-0.1.2-cp310-cp310-win_amd64.whl", hash = "sha256:dc2e38326dd4b86c060c4557e63bb143ebea53811d1cb54d5ce534ed8ca0d565", size = 346734 },
+    { url = "https://files.pythonhosted.org/packages/58/46/2a76510e4314ee0e9748c748bfa209f915ce3d209e5bef6ab7334b3e88d2/rspolib-0.1.2-cp311-cp311-macosx_11_0_arm64.whl", hash = "sha256:e31495c7e87b696f7c9a6a7f126e0dd8e57563bd29b7c3be4383b6a832ab191b", size = 461380 },
+    { url = "https://files.pythonhosted.org/packages/a4/68/a1bb0c3f6de71609ad2dcbeaebb86ab35a43558edd507a0a01ae7766f001/rspolib-0.1.2-cp311-cp311-manylinux_2_24_x86_64.whl", hash = "sha256:a4b1c3e5f8d1f62c7c57da69d1b6875df343064d42b68bac17e0a166f559e1ea", size = 503783 },
+    { url = "https://files.pythonhosted.org/packages/69/80/4dd7977ce3ad4da7b3bd76e11fd3d4f553148c41996b721223b01c8122ca/rspolib-0.1.2-cp311-cp311-win_amd64.whl", hash = "sha256:6df8e5d162133ebb1896bb711c1fbdf246b87af0d1fafb639a48a4882f1ebdc0", size = 346817 },
+    { url = "https://files.pythonhosted.org/packages/d2/81/126438a3ced572b96b21ffb36141505597a846486a0f26526310eaa3ed29/rspolib-0.1.2-cp312-cp312-macosx_11_0_arm64.whl", hash = "sha256:2317d75f8607dabfdab6793053881a58e456cb3b82591ba75e058c5b9290ab57", size = 453119 },
+    { url = "https://files.pythonhosted.org/packages/c7/4a/227c78fde579879f4f6d44252d1a64e890491a20a8ed0c2fc4bda695de3a/rspolib-0.1.2-cp312-cp312-manylinux_2_24_x86_64.whl", hash = "sha256:d4f2890ad85dfb85f9aa25dd0bd64d5ab71dd882f00bfa3d63f2eb5eeaead980", size = 506383 },
+    { url = "https://files.pythonhosted.org/packages/92/3a/0eac81bd34ab5837b60e243bc190376d1bc28e0e8f69c48975f8a3ab2a1c/rspolib-0.1.2-cp312-cp312-win_amd64.whl", hash = "sha256:4b676224fbc2aa32cd2f002776b0042631656dac965d8c5934a1688b77ce463c", size = 349411 },
+    { url = "https://files.pythonhosted.org/packages/13/7e/8b3ae7ca9f4d167ea47e7695b4d7fb25b6c02b16ede98dc2f21531295213/rspolib-0.1.2-cp313-cp313-macosx_11_0_arm64.whl", hash = "sha256:2529733cc7a619c179128a1aea880459af191910f64b7222a929c779dd9ec9e4", size = 452530 },
+    { url = "https://files.pythonhosted.org/packages/a5/31/0ef97be5651b08539556a14297389bf24247ee6e8fa0eed51e765886d36d/rspolib-0.1.2-cp313-cp313-manylinux_2_24_x86_64.whl", hash = "sha256:6cf24d37d73e8743750fa082d7d4f4320b1ab604724567a78e8ed3c7b1a810aa", size = 505447 },
+    { url = "https://files.pythonhosted.org/packages/fe/f9/bf4d61e608bdfc1a7320b8ed457865e95af8c81b917efe32c6c93bd89192/rspolib-0.1.2-cp313-cp313-win_amd64.whl", hash = "sha256:ec0a576e707fdd9dd4a06a02856865b617a948ce56c2c6843b59e3867b7bc496", size = 348694 },
+    { url = "https://files.pythonhosted.org/packages/47/11/b4a19291f831350b69ca5810c1d2821a95fc0464516020bad34f0c1e8270/rspolib-0.1.2-pp311-pypy311_pp73-manylinux_2_24_x86_64.whl", hash = "sha256:08c85aca1e3838f20acc13290487e988c5676b0f5c8016b15c76ce0091e3350c", size = 505721 },
+]
+
+[[package]]
 name = "smartgit-i18n-scripts"
 version = "0.1.0"
 source = { editable = "packages/smartgit-i18n-scripts" }
 dependencies = [
     { name = "openai" },
-    { name = "polib" },
     { name = "pyparsing" },
+    { name = "rspolib" },
 ]
 
 [package.dev-dependencies]
@@ -458,8 +469,8 @@ dev = [
 [package.metadata]
 requires-dist = [
     { name = "openai" },
-    { name = "polib" },
     { name = "pyparsing" },
+    { name = "rspolib", specifier = "==0.1.2" },
 ]
 
 [package.metadata.requires-dev]

@@ -4,7 +4,7 @@ import os
 import re
 from collections import namedtuple
 
-import polib
+import rspolib
 
 Key_tuple = namedtuple('Key_tuple', ['msgctxt', 'msgid'])
 
@@ -17,7 +17,7 @@ def pofile_from_text(text: str) -> SgPo:
     return SgPo._from_text(text)
 
 
-class SgPo(polib.POFile):
+class SgPo:
     META_DATA_BASE_DICT = {
         'Project-Id-Version': 'SmartGit',
         'Report-Msgid-Bugs-To': 'https://github.com/syntevo/smartgit-translations',
@@ -32,11 +32,14 @@ class SgPo(polib.POFile):
         'Plural-Forms': 'nplurals=1; plural=0;',
     }
 
-    def __init__(self) -> None:
-        super().__init__(self)
+    def __init__(self, po: rspolib.POFile | None = None) -> None:
+        if po is None:
+            self.entries = []
+            self.metadata = {}
+        else:
+            self.entries = list(po.get_entries())
+            self.metadata = dict(po.get_metadata())
         self.wrapwidth = 9999
-        self.charset = 'utf-8'
-        self.check_for_duplicates = True
 
     @classmethod
     def _from_file(cls, filename: str):
@@ -48,15 +51,32 @@ class SgPo(polib.POFile):
         return cls._create_instance(text)
 
     @classmethod
-    def _create_instance(cls, filename) -> SgPo:
-        instance = cls.__new__(cls)
-        po = polib.pofile(filename, wrapwidth=9999, chraset='utf-8', check_for_duplicates=True)
+    def _create_instance(cls, path_or_content) -> SgPo:
+        return cls(rspolib.pofile(path_or_content, wrapwidth=9999))
 
-        instance.__dict__ = po.__dict__
-        for entry in po:
-            instance.append(entry)
+    def __iter__(self):
+        return iter(self.entries)
 
-        return instance
+    def __len__(self):
+        return len(self.entries)
+
+    def __str__(self):
+        return self.__unicode__()
+
+    def __unicode__(self):
+        return str(self._to_rspolib_file())
+
+    def append(self, entry: rspolib.POEntry) -> None:
+        self.entries.append(entry)
+
+    def translated_entries(self) -> list:
+        return [entry for entry in self.entries if entry.msgstr and not self._is_fuzzy(entry)]
+
+    def untranslated_entries(self) -> list:
+        return [entry for entry in self.entries if not entry.msgstr and not self._is_fuzzy(entry)]
+
+    def fuzzy_entries(self) -> list:
+        return [entry for entry in self.entries if self._is_fuzzy(entry)]
 
     def import_unknown(self, unknown: SgPo) -> None:
         success_count = 0
@@ -179,7 +199,7 @@ class SgPo(polib.POFile):
             if entry.comment:
                 entry.comment = None
 
-    def find_by_key(self, msgctxt: str, msgid: str) -> polib.POEntry:
+    def find_by_key(self, msgctxt: str, msgid: str) -> rspolib.POEntry:
         for entry in self:
             # If the msgctxt ends with ':', the combination of msgid and
             # msgctxt becomes the key that identifies the entry.
@@ -195,9 +215,9 @@ class SgPo(polib.POFile):
 
     def sort(self, *, key=None, reverse=False):
         if key is None:
-            super().sort(key=lambda entry: (self._po_entry_to_sort_key(entry)), reverse=reverse)
+            self.entries.sort(key=lambda entry: (self._po_entry_to_sort_key(entry)), reverse=reverse)
         else:
-            super().sort(key=key, reverse=reverse)
+            self.entries.sort(key=key, reverse=reverse)
 
     def format(self):
         self.metadata = self._filter_po_metadata(self.metadata)
@@ -205,7 +225,7 @@ class SgPo(polib.POFile):
 
     def save(self, fpath=None, repr_method='__unicode__', newline='\n') -> None:
         # Change the default value of newline to \n (LF).
-        super().save(fpath=fpath, repr_method=repr_method, newline=newline)
+        self._to_rspolib_file().save(fpath)
 
     def get_key_list(self) -> list:
         return [self._po_entry_to_key_tuple(entry) for entry in self]
@@ -224,7 +244,19 @@ class SgPo(polib.POFile):
                 new_meta_dict[meta_key] = meta_value
         return new_meta_dict
 
-    def _po_entry_to_sort_key(self, po_entry: polib.POEntry) -> str:
+    def _to_rspolib_file(self) -> rspolib.POFile:
+        po = rspolib.POFile()
+        po.wrapwidth = self.wrapwidth
+        po.update_metadata(self.metadata)
+        for entry in self.entries:
+            po.append(entry)
+        return po
+
+    @staticmethod
+    def _is_fuzzy(entry: rspolib.POEntry) -> bool:
+        return 'fuzzy' in entry.get_flags()
+
+    def _po_entry_to_sort_key(self, po_entry: rspolib.POEntry) -> str:
         """
         Reorders the sort results by rewriting the sort key as intended.
         Entries starting with a '*' are greeted with a character of ASCII code 1 at the beginning to be placed at the start of the file.
@@ -237,14 +269,14 @@ class SgPo(polib.POFile):
             return self._multi_keys_filter(self._po_entry_to_legacy_key(po_entry))
 
     @staticmethod
-    def _po_entry_to_legacy_key(po_entry: polib.POEntry) -> str:
+    def _po_entry_to_legacy_key(po_entry: rspolib.POEntry) -> str:
         if po_entry.msgctxt.endswith(':'):
             return po_entry.msgctxt.rstrip(':') + '"' + po_entry.msgid + '"'
         else:
             return po_entry.msgctxt
 
     @staticmethod
-    def _po_entry_to_key_tuple(po_entry: polib.POEntry) -> Key_tuple:
+    def _po_entry_to_key_tuple(po_entry: rspolib.POEntry) -> Key_tuple:
         if po_entry.msgctxt.endswith(':'):
             return Key_tuple(msgctxt=po_entry.msgctxt, msgid=po_entry.msgid)
         else:

@@ -1,7 +1,7 @@
 import os
 from pathlib import Path
 
-import polib
+import rspolib
 
 # Key:Locale code
 # Value: Directory name
@@ -22,7 +22,7 @@ META_DATA_BASE_DICT = {
 }
 
 
-def optimize_po_entry(po_entry: polib.POEntry) -> polib.POEntry:
+def optimize_po_entry(po_entry: rspolib.POEntry) -> rspolib.POEntry:
     """
     In the process of converting the SmartGit v23 mapping file to the .po file format, the existing key is assigned to msgctxt.
     If the sentence of msgid is included at the end of msgctxt, remove the original text from msgctxt and convert it to a concise expression.

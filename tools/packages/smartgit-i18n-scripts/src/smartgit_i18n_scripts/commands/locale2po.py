@@ -1,4 +1,5 @@
 from smartgit_i18n_scripts.sgpo_common import *
+from smartgit_i18n_scripts.sgpo.sgpo import SgPo
 from smartgit_i18n_scripts.sgv23_mapping import SgMap, CombinedSgMap
 
 
@@ -46,28 +47,27 @@ def create_meda_dict(locale_code: str) -> dict:
 
 
 # ======================================================================
-def CombinedSgMap_to_po(combined_map: CombinedSgMap) -> polib.POFile:
-    po = polib.POFile()
+def CombinedSgMap_to_po(combined_map: CombinedSgMap) -> SgPo:
+    po = SgPo()
     po.wrapwidth = 1000
 
     meta_dict = create_meta_dict(combined_map.locale_code)
 
-    for key, value in meta_dict.items():
-        po.metadata[key] = value
+    po.metadata.update(meta_dict)
 
     for map_entry in combined_map.get_values():
         flags = []
         if map_entry.fuzzy:
             flags.append('fuzzy')
 
-        entry = polib.POEntry(
+        entry = rspolib.POEntry(
             msgctxt=map_entry.key,
             msgid=map_entry.original_msg,
             msgstr=map_entry.translated_msg,
-            previous_msgid=map_entry.previous_original_msg,
-            comment=map_entry.comment,
-            flags=flags
         )
+        entry.previous_msgid = map_entry.previous_original_msg
+        entry.comment = map_entry.comment if map_entry.comment else None
+        entry.flags = flags
         entry = optimize_po_entry(entry)
         po.append(entry)
 
