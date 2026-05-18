@@ -1,6 +1,13 @@
+use std::collections::HashMap;
 use std::path::Path;
 
+use rspolib::{
+    pofile, FileOptions, POEntry as RspPoEntry, POFile as RspPoFile,
+};
+
 use crate::Error;
+
+const WRAP_WIDTH: usize = 9999;
 
 #[derive(Debug, Clone, PartialEq, Eq)]
 pub struct PoDocument {
@@ -84,232 +91,10 @@ pub struct SmartgitKey {
     pub msgid: Option<String>,
 }
 
-#[derive(Debug, Clone, Copy, PartialEq, Eq)]
-enum Field {
-    Msgctxt,
-    Msgid,
-    Msgstr,
-    PreviousMsgctxt,
-    PreviousMsgid,
-    PreviousMsgstr,
-}
-
-#[derive(Debug, Default)]
-struct EntryBuilder {
-    entry: PoEntry,
-    current_field: Option<Field>,
-}
-
-impl EntryBuilder {
-    fn has_content(&self) -> bool {
-        self.has_metadata()
-            || self.entry.msgctxt.is_some()
-            || !self.entry.msgid.is_empty()
-            || !self.entry.msgstr.is_empty()
-            || self.entry.previous_msgctxt.is_some()
-            || self.entry.previous_msgid.is_some()
-            || self.entry.previous_msgstr.is_some()
-            || self.entry.obsolete
-    }
-
-    fn has_metadata(&self) -> bool {
-        !self.entry.translator_comments.is_empty()
-            || !self.entry.extracted_comments.is_empty()
-            || !self.entry.references.is_empty()
-            || !self.entry.flags.is_empty()
-    }
-
-    fn set_line_if_empty(&mut self, line: usize) {
-        if self.entry.line == 0 {
-            self.entry.line = line;
-        }
-    }
-
-    fn add_translator_comment(&mut self, comment: String, line: usize) {
-        self.set_line_if_empty(line);
-        self.entry.translator_comments.push(comment);
-        self.current_field = None;
-    }
-
-    fn add_extracted_comment(&mut self, comment: String, line: usize) {
-        self.set_line_if_empty(line);
-        self.entry.extracted_comments.push(comment);
-        self.current_field = None;
-    }
-
-    fn add_reference(&mut self, reference: String, line: usize) {
-        self.set_line_if_empty(line);
-        self.entry.references.push(reference);
-        self.current_field = None;
-    }
-
-    fn add_flags(&mut self, flags: String, line: usize) {
-        self.set_line_if_empty(line);
-        self.entry.flags = flags
-            .split(',')
-            .map(str::trim)
-            .filter(|flag| !flag.is_empty())
-            .map(ToOwned::to_owned)
-            .collect();
-        self.current_field = None;
-    }
-
-    fn push(
-        &mut self,
-        path: &Path,
-        field: Field,
-        value: String,
-        line: usize,
-        obsolete: bool,
-    ) -> Result<(), Error> {
-        self.set_line_if_empty(line);
-        self.entry.obsolete |= obsolete;
-        self.current_field = Some(field);
-
-        let target = match field {
-            Field::Msgctxt => &mut self.entry.msgctxt,
-            Field::PreviousMsgctxt => &mut self.entry.previous_msgctxt,
-            Field::Msgid => {
-                if !self.entry.msgid.is_empty() {
-                    return Err(Error::parse(
-                        path,
-                        format!("duplicate msgid at line {line}"),
-                    ));
-                }
-                self.entry.msgid = value;
-                return Ok(());
-            }
-            Field::Msgstr => {
-                if !self.entry.msgstr.is_empty() {
-                    return Err(Error::parse(
-                        path,
-                        format!("duplicate msgstr at line {line}"),
-                    ));
-                }
-                self.entry.msgstr = value;
-                return Ok(());
-            }
-            Field::PreviousMsgid => &mut self.entry.previous_msgid,
-            Field::PreviousMsgstr => &mut self.entry.previous_msgstr,
-        };
-
-        if target.is_some() {
-            return Err(Error::parse(
-                path,
-                format!("duplicate field at line {line}"),
-            ));
-        }
-        *target = Some(value);
-        Ok(())
-    }
-
-    fn append(&mut self, path: &Path, value: String, line: usize) -> Result<(), Error> {
-        match self.current_field {
-            Some(Field::Msgctxt) => self
-                .entry
-                .msgctxt
-                .get_or_insert_with(String::new)
-                .push_str(&value),
-            Some(Field::Msgid) => self.entry.msgid.push_str(&value),
-            Some(Field::Msgstr) => self.entry.msgstr.push_str(&value),
-            Some(Field::PreviousMsgctxt) => self
-                .entry
-                .previous_msgctxt
-                .get_or_insert_with(String::new)
-                .push_str(&value),
-            Some(Field::PreviousMsgid) => self
-                .entry
-                .previous_msgid
-                .get_or_insert_with(String::new)
-                .push_str(&value),
-            Some(Field::PreviousMsgstr) => self
-                .entry
-                .previous_msgstr
-                .get_or_insert_with(String::new)
-                .push_str(&value),
-            None => {
-                return Err(Error::parse(
-                    path,
-                    format!("continued string without a field at line {line}"),
-                ));
-            }
-        }
-
-        Ok(())
-    }
-
-    fn finish(&mut self) -> Option<PoEntry> {
-        if !self.has_content() {
-            return None;
-        }
-
-        self.current_field = None;
-        Some(std::mem::take(&mut self.entry))
-    }
-}
-
 pub fn parse_document(path: &Path, content: &str) -> Result<PoDocument, Error> {
-    let mut entries = Vec::new();
-    let mut builder = EntryBuilder::default();
-
-    for (index, raw_line) in content.lines().enumerate() {
-        let line_number = index + 1;
-        let line = raw_line.trim_start();
-
-        if line.is_empty() {
-            if let Some(entry) = builder.finish() {
-                entries.push(entry);
-            }
-            continue;
-        }
-
-        if let Some(comment) = line.strip_prefix("#.") {
-            builder.add_extracted_comment(trim_comment(comment), line_number);
-            continue;
-        }
-        if let Some(reference) = line.strip_prefix("#:") {
-            builder.add_reference(trim_comment(reference), line_number);
-            continue;
-        }
-        if let Some(flags) = line.strip_prefix("#,") {
-            builder.add_flags(trim_comment(flags), line_number);
-            continue;
-        }
-        if let Some(previous) = line.strip_prefix("#|") {
-            parse_field_line(
-                path,
-                previous.trim_start(),
-                line_number,
-                false,
-                &mut builder,
-                true,
-            )?;
-            continue;
-        }
-        if let Some(obsolete) = line.strip_prefix("#~") {
-            parse_field_line(
-                path,
-                obsolete.trim_start(),
-                line_number,
-                true,
-                &mut builder,
-                false,
-            )?;
-            continue;
-        }
-        if let Some(comment) = line.strip_prefix('#') {
-            builder.add_translator_comment(trim_comment(comment), line_number);
-            continue;
-        }
-
-        parse_field_line(path, line, line_number, false, &mut builder, false)?;
-    }
-
-    if let Some(entry) = builder.finish() {
-        entries.push(entry);
-    }
-
-    Ok(PoDocument { entries })
+    let file = pofile(FileOptions::from((content, WRAP_WIDTH)))
+        .map_err(|error| Error::parse(path, error.to_string()))?;
+    Ok(from_rsp_file(file, content))
 }
 
 pub(crate) fn parse_po(path: &Path, content: &str) -> Result<Vec<PoEntry>, Error> {
@@ -317,6 +102,19 @@ pub(crate) fn parse_po(path: &Path, content: &str) -> Result<Vec<PoEntry>, Error
 }
 
 pub fn write_document(document: &PoDocument) -> String {
+    if !document
+        .entries
+        .iter()
+        .any(|entry| entry.is_header() && !entry.obsolete)
+    {
+        return write_entries(document);
+    }
+
+    let file = to_rsp_file(document);
+    file.to_string().trim_end_matches('\n').to_string()
+}
+
+fn write_entries(document: &PoDocument) -> String {
     let mut output = String::new();
     let active_entries = document.entries.iter().filter(|entry| !entry.obsolete);
     let obsolete_entries = document.entries.iter().filter(|entry| entry.obsolete);
@@ -325,204 +123,182 @@ pub fn write_document(document: &PoDocument) -> String {
         if !output.is_empty() {
             output.push('\n');
         }
-        write_entry(&mut output, entry);
-    }
-
-    if output.ends_with('\n') {
-        output.pop();
+        output.push_str(to_rsp_entry(entry).to_string().trim_end_matches('\n'));
     }
 
     output
 }
 
-fn write_entry(output: &mut String, entry: &PoEntry) {
-    for comment in &entry.translator_comments {
-        if comment.is_empty() {
-            output.push_str("#\n");
-        } else {
-            output.push_str("# ");
-            output.push_str(comment);
-            output.push('\n');
-        }
-    }
-    for comment in &entry.extracted_comments {
-        output.push_str("#. ");
-        output.push_str(comment);
-        output.push('\n');
-    }
-    for reference in &entry.references {
-        output.push_str("#: ");
-        output.push_str(reference);
-        output.push('\n');
-    }
-    if !entry.flags.is_empty() {
-        output.push_str("#, ");
-        output.push_str(&entry.flags.join(", "));
-        output.push('\n');
-    }
-    if let Some(msgctxt) = &entry.previous_msgctxt {
-        write_field(output, "#| ", "msgctxt", msgctxt);
-    }
-    if let Some(msgid) = &entry.previous_msgid {
-        write_field(output, "#| ", "msgid", msgid);
-    }
-    if let Some(msgstr) = &entry.previous_msgstr {
-        write_field(output, "#| ", "msgstr", msgstr);
-    }
-
-    let prefix = if entry.obsolete { "#~ " } else { "" };
-    if let Some(msgctxt) = &entry.msgctxt {
-        write_field(output, prefix, "msgctxt", msgctxt);
-    }
-    write_field(output, prefix, "msgid", &entry.msgid);
-    write_field(output, prefix, "msgstr", &entry.msgstr);
-}
-
-fn write_field(output: &mut String, prefix: &str, name: &str, value: &str) {
-    if value.contains('\n') {
-        output.push_str(prefix);
-        output.push_str(name);
-        output.push_str(" \"\"\n");
-        for line in value.split_inclusive('\n') {
-            output.push_str(prefix);
-            output.push('"');
-            output.push_str(&escape_string(line));
-            output.push_str("\"\n");
-        }
+fn from_rsp_file(file: RspPoFile, content: &str) -> PoDocument {
+    let mut entries = Vec::new();
+    let first_entry_comments = if file.metadata.is_empty() {
+        leading_entry_translator_comments(content)
     } else {
-        output.push_str(prefix);
-        output.push_str(name);
-        output.push(' ');
-        output.push('"');
-        output.push_str(&escape_string(value));
-        output.push_str("\"\n");
-    }
-}
-
-fn parse_field_line(
-    path: &Path,
-    line: &str,
-    line_number: usize,
-    obsolete: bool,
-    builder: &mut EntryBuilder,
-    previous: bool,
-) -> Result<(), Error> {
-    if let Some(value) = parse_field(line, "msgctxt", path, line_number)? {
-        builder.push(
-            path,
-            if previous {
-                Field::PreviousMsgctxt
-            } else {
-                Field::Msgctxt
-            },
-            value,
-            line_number,
-            obsolete,
-        )?;
-    } else if let Some(value) = parse_field(line, "msgid", path, line_number)? {
-        builder.push(
-            path,
-            if previous {
-                Field::PreviousMsgid
-            } else {
-                Field::Msgid
-            },
-            value,
-            line_number,
-            obsolete,
-        )?;
-    } else if let Some(value) = parse_field(line, "msgstr", path, line_number)? {
-        builder.push(
-            path,
-            if previous {
-                Field::PreviousMsgstr
-            } else {
-                Field::Msgstr
-            },
-            value,
-            line_number,
-            obsolete,
-        )?;
-    } else if line.starts_with('"') {
-        let value = parse_quoted(line, path, line_number)?;
-        builder.append(path, value, line_number)?;
-    }
-
-    Ok(())
-}
-
-fn parse_field(
-    line: &str,
-    name: &str,
-    path: &Path,
-    line_number: usize,
-) -> Result<Option<String>, Error> {
-    let Some(rest) = line.strip_prefix(name) else {
-        return Ok(None);
+        None
     };
 
-    let rest = rest.trim_start();
-    if !rest.starts_with('"') {
-        return Ok(None);
+    if !file.metadata.is_empty() {
+        entries.push(PoEntry {
+            line: 1,
+            translator_comments: vec![String::new()],
+            msgid: String::new(),
+            msgstr: render_metadata(&file.metadata),
+            obsolete: file.metadata_is_fuzzy,
+            ..PoEntry::default()
+        });
     }
 
-    parse_quoted(rest, path, line_number).map(Some)
-}
-
-fn parse_quoted(line: &str, path: &Path, line_number: usize) -> Result<String, Error> {
-    let mut chars = line.chars();
-    if chars.next() != Some('"') {
-        return Err(Error::parse(
-            path,
-            format!("expected string at line {line_number}"),
-        ));
-    }
-
-    let mut value = String::new();
-    let mut escaped = false;
-    for ch in chars {
-        if escaped {
-            match ch {
-                'n' => value.push('\n'),
-                'r' => value.push('\r'),
-                't' => value.push('\t'),
-                '\\' => value.push('\\'),
-                '"' => value.push('"'),
-                other => value.push(other),
+    entries.extend(file.entries.iter().enumerate().map(|(index, entry)| {
+        let mut entry = from_rsp_entry(entry);
+        if index == 0 {
+            if let Some(comments) = &first_entry_comments {
+                entry.translator_comments = comments.clone();
             }
-            escaped = false;
-        } else if ch == '\\' {
-            escaped = true;
-        } else if ch == '"' {
-            return Ok(value);
-        } else {
-            value.push(ch);
         }
-    }
+        entry
+    }));
 
-    Err(Error::parse(
-        path,
-        format!("unterminated string at line {line_number}"),
-    ))
+    PoDocument { entries }
 }
 
-fn escape_string(value: &str) -> String {
-    let mut escaped = String::new();
-    for ch in value.chars() {
-        match ch {
-            '\n' => escaped.push_str("\\n"),
-            '\r' => escaped.push_str("\\r"),
-            '\t' => escaped.push_str("\\t"),
-            '\\' => escaped.push_str("\\\\"),
-            '"' => escaped.push_str("\\\""),
-            other => escaped.push(other),
-        }
+fn from_rsp_entry(entry: &RspPoEntry) -> PoEntry {
+    PoEntry {
+        line: entry.linenum,
+        translator_comments: split_comment(entry.tcomment.as_deref()),
+        extracted_comments: split_comment(entry.comment.as_deref()),
+        references: entry
+            .occurrences
+            .iter()
+            .map(|(file, line)| {
+                if line.is_empty() {
+                    file.clone()
+                } else {
+                    format!("{file}:{line}")
+                }
+            })
+            .collect(),
+        flags: entry.flags.clone(),
+        previous_msgctxt: entry.previous_msgctxt.clone(),
+        previous_msgid: entry.previous_msgid.clone(),
+        previous_msgstr: None,
+        msgctxt: entry.msgctxt.clone(),
+        msgid: entry.msgid.clone(),
+        msgstr: entry.msgstr.clone().unwrap_or_default(),
+        obsolete: entry.obsolete,
     }
-    escaped
 }
 
-fn trim_comment(comment: &str) -> String {
-    comment.strip_prefix(' ').unwrap_or(comment).to_string()
+fn to_rsp_file(document: &PoDocument) -> RspPoFile {
+    let mut file = RspPoFile::new(FileOptions::from(("", WRAP_WIDTH)));
+
+    for entry in &document.entries {
+        if entry.is_header() && !entry.obsolete {
+            file.metadata = parse_metadata(&entry.msgstr);
+            continue;
+        }
+
+        file.entries.push(to_rsp_entry(entry));
+    }
+
+    file
+}
+
+fn to_rsp_entry(entry: &PoEntry) -> RspPoEntry {
+    RspPoEntry {
+        msgid: entry.msgid.clone(),
+        msgstr: Some(entry.msgstr.clone()),
+        msgid_plural: None,
+        msgstr_plural: Vec::new(),
+        msgctxt: entry.msgctxt.clone(),
+        obsolete: entry.obsolete,
+        comment: join_comment(&entry.extracted_comments),
+        tcomment: join_comment(&entry.translator_comments),
+        occurrences: entry.references.iter().map(|value| split_reference(value)).collect(),
+        flags: entry.flags.clone(),
+        previous_msgid: entry.previous_msgid.clone(),
+        previous_msgid_plural: None,
+        previous_msgctxt: entry.previous_msgctxt.clone(),
+        linenum: entry.line,
+    }
+}
+
+fn split_comment(comment: Option<&str>) -> Vec<String> {
+    comment
+        .map(|comment| comment.lines().map(ToOwned::to_owned).collect())
+        .unwrap_or_default()
+}
+
+fn join_comment(lines: &[String]) -> Option<String> {
+    if lines.is_empty() {
+        None
+    } else {
+        Some(lines.join("\n"))
+    }
+}
+
+fn leading_entry_translator_comments(content: &str) -> Option<Vec<String>> {
+    let mut comments = Vec::new();
+    let mut saw_comment = false;
+
+    for line in content.lines() {
+        let trimmed = line.trim_start();
+        if trimmed.is_empty() {
+            return None;
+        }
+
+        if let Some(comment) = translator_comment(trimmed) {
+            saw_comment = true;
+            comments.push(comment.to_string());
+            continue;
+        }
+
+        return saw_comment.then_some(comments);
+    }
+
+    None
+}
+
+fn translator_comment(line: &str) -> Option<&str> {
+    let comment = line.strip_prefix('#')?;
+    if matches!(
+        comment.chars().next(),
+        Some('.') | Some(':') | Some(',') | Some('|') | Some('~')
+    ) {
+        return None;
+    }
+
+    Some(comment.strip_prefix(' ').unwrap_or(comment))
+}
+
+fn split_reference(reference: &str) -> (String, String) {
+    reference
+        .rsplit_once(':')
+        .map(|(file, line)| (file.to_string(), line.to_string()))
+        .unwrap_or_else(|| (reference.to_string(), String::new()))
+}
+
+fn parse_metadata(text: &str) -> HashMap<String, String> {
+    let mut metadata = HashMap::new();
+    for line in text.lines() {
+        if let Some((key, value)) = line.split_once(':') {
+            metadata.insert(key.to_string(), value.trim_start().to_string());
+        }
+    }
+    metadata
+}
+
+fn render_metadata(metadata: &HashMap<String, String>) -> String {
+    let mut keys = metadata.keys().collect::<Vec<_>>();
+    keys.sort();
+
+    let mut rendered = String::new();
+    for key in keys {
+        rendered.push_str(key);
+        rendered.push_str(": ");
+        rendered.push_str(&metadata[key]);
+        rendered.push('\n');
+    }
+    rendered
 }
 
 #[cfg(test)]
@@ -580,6 +356,17 @@ msgstr "translated"
 
         let rendered = write_document(&document);
         let reparsed = parse_document(Path::new("sample.po"), &rendered).unwrap();
-        assert_eq!(document, reparsed);
+        assert_entries_eq_without_lines(&document, &reparsed);
+    }
+
+    fn assert_entries_eq_without_lines(left: &PoDocument, right: &PoDocument) {
+        assert_eq!(left.entries.len(), right.entries.len());
+        for (left, right) in left.entries.iter().zip(&right.entries) {
+            let mut left = left.clone();
+            let mut right = right.clone();
+            left.line = 0;
+            right.line = 0;
+            assert_eq!(left, right);
+        }
     }
 }
