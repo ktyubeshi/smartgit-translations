@@ -23611,3 +23611,145 @@ msgstr ""
 msgctxt "wndStd.tbt:"
 msgid "Close"
 msgstr ""
+
+# DON'T EDIT, this file will be rewritten!
+#
+# BUILD: 261036
+#
+#. opening <window_id>:SmartGit 26.1 Evaluation until <date> (<window_id>)
+#. Performing ', Close'
+#. Performing ', Close'
+#. Performing ', Close'
+msgctxt "wndLog.mniDiscoverWindow:"
+msgid "Discover Windows"
+msgstr ""
+
+#. opening <window_id>:SmartGit 26.1 Evaluation until <date> (<window_id>)
+#. Performing ', Close'
+#. Performing ', Close'
+#. Performing ', Close'
+#. Performing 'configureToolbar, Configure Toolbar...'
+#. Showing dialog 0 (<dialog_id>) '<dialog_title> - Configure Toolbar' (owner: <window_id>)
+msgctxt "wndLog.mniFlowFeatureFinish:"
+msgid "Finish"
+msgstr ""
+
+#. opening <window_id>:SmartGit 26.1 Evaluation until <date> (<window_id>)
+#. Performing ', Close'
+#. Performing ', Close'
+#. Performing ', Close'
+#. Performing 'configureToolbar, Configure Toolbar...'
+#. Showing dialog 0 (<dialog_id>) '<dialog_title> - Configure Toolbar' (owner: <window_id>)
+msgctxt "wndLog.mniFlowFeatureStart:"
+msgid "Start"
+msgstr ""
+
+#. opening <window_id>:SmartGit 26.1 Evaluation until <date> (<window_id>)
+#. Performing ', Close'
+#. Performing ', Close'
+#. Performing ', Close'
+#. Performing 'configureToolbar, Configure Toolbar...'
+#. Showing dialog 0 (<dialog_id>) '<dialog_title> - Configure Toolbar' (owner: <window_id>)
+msgctxt "wndLog.mniFlowHotfixFinish:"
+msgid "Finish"
+msgstr ""
+
+#. opening <window_id>:SmartGit 26.1 Evaluation until <date> (<window_id>)
+#. Performing ', Close'
+#. Performing ', Close'
+#. Performing ', Close'
+#. Performing 'configureToolbar, Configure Toolbar...'
+#. Showing dialog 0 (<dialog_id>) '<dialog_title> - Configure Toolbar' (owner: <window_id>)
+msgctxt "wndLog.mniFlowHotfixStart:"
+msgid "Start"
+msgstr ""
+
+#. opening <window_id>:SmartGit 26.1 Evaluation until <date> (<window_id>)
+#. Performing ', Close'
+#. Performing ', Close'
+#. Performing ', Close'
+#. Performing 'configureToolbar, Configure Toolbar...'
+#. Showing dialog 0 (<dialog_id>) '<dialog_title> - Configure Toolbar' (owner: <window_id>)
+msgctxt "wndLog.mniFlowIntegrateDevelop:"
+msgid "Integrate"
+msgstr ""
+
+#. opening <window_id>:SmartGit 26.1 Evaluation until <date> (<window_id>)
+#. Performing ', Close'
+#. Performing ', Close'
+#. Performing ', Close'
+#. Performing 'configureToolbar, Configure Toolbar...'
+#. Showing dialog 0 (<dialog_id>) '<dialog_title> - Configure Toolbar' (owner: <window_id>)
+msgctxt "wndLog.mniLog:"
+msgid "Log Selection"
+msgstr ""
+
+#. opening <window_id>:SmartGit 26.1 Evaluation until <date> (<window_id>)
+#. Performing ', Close'
+#. Performing ', Close'
+#. Performing ', Close'
+#. Performing 'configureToolbar, Configure Toolbar...'
+#. Showing dialog 0 (<dialog_id>) '<dialog_title> - Configure Toolbar' (owner: <window_id>)
+msgctxt "wndLog.mniRepositorySearch:"
+msgid "Search"
+msgstr ""
+
+#. opening <window_id>:SmartGit 26.1 Evaluation until <date> (<window_id>)
+#. Performing ', Close'
+#. Performing ', Close'
+#. Performing ', Close'
+#. Performing 'configureToolbar, Configure Toolbar...'
+#. Showing dialog 0 (<dialog_id>) '<dialog_title> - Configure Toolbar' (owner: <window_id>)
+msgctxt "wndLog.mniResetAdvanced:"
+msgid "Reset Adv."
+msgstr ""
+
+#. opening <window_id>:SmartGit 26.1 Evaluation until <date> (<window_id>)
+#. Performing ', Close'
+#. Performing ', Close'
+#. Performing ', Close'
+#. Performing 'configureToolbar, Configure Toolbar...'
+#. Showing dialog 0 (<dialog_id>) '<dialog_title> - Configure Toolbar' (owner: <window_id>)
+msgctxt "wndLog.mniShowChanges:"
+msgid "Changes"
+msgstr ""
+
+#. opening <window_id>:SmartGit 26.1 Evaluation until <date> (<window_id>)
+#. Performing ', Close'
+#. Performing ', Close'
+#. Performing ', Close'
+#. Performing 'configureToolbar, Configure Toolbar...'
+#. Showing dialog 0 (<dialog_id>) '<dialog_title> - Configure Toolbar' (owner: <window_id>)
+msgctxt "wndLog.mniStashSave:"
+msgid "Save Stash"
+msgstr ""
+
+#. opening <window_id>:SmartGit 26.1 Evaluation until <date> (<window_id>)
+#. Performing ', Close'
+#. Performing ', Close'
+#. Performing ', Close'
+#. Performing 'configureToolbar, Configure Toolbar...'
+#. Showing dialog 0 (<dialog_id>) '<dialog_title> - Configure Toolbar' (owner: <window_id>)
+msgctxt "wndLog.mniSync:"
+msgid "Sync"
+msgstr ""
+
+#. opening <window_id>:SmartGit 26.1 Evaluation until <date> (<window_id>)
+#. Performing ', Close'
+#. Performing ', Close'
+#. Performing ', Close'
+#. Performing 'configureToolbar, Configure Toolbar...'
+#. Showing dialog 0 (<dialog_id>) '<dialog_title> - Configure Toolbar' (owner: <window_id>)
+msgctxt "wndLog.mniWindowLayoutSetMain:"
+msgid "Main"
+msgstr ""
+
+#. opening <window_id>:SmartGit 26.1 Evaluation until <date> (<window_id>)
+#. Performing ', Close'
+#. Performing ', Close'
+#. Performing ', Close'
+#. Performing 'configureToolbar, Configure Toolbar...'
+#. Showing dialog 0 (<dialog_id>) '<dialog_title> - Configure Toolbar' (owner: <window_id>)
+msgctxt "wndLog.mniWindowLayoutSetReview:"
+msgid "Review"
+msgstr ""
