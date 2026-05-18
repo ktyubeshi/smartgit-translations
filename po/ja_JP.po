@@ -23950,3 +23950,159 @@ msgstr "$1 \\(アクティブ\\)"
 msgctxt "wndStd.tbt:"
 msgid "Close"
 msgstr "閉じる"
+
+# DON'T EDIT, this file will be rewritten!
+#
+# BUILD: 261036
+#
+#. opening <window_id>:SmartGit 26.1 Evaluation until <date> (<window_id>)
+#. Performing ', Close'
+#. Performing ', Close'
+#. Performing ', Close'
+#, fuzzy
+msgctxt "wndLog.mniDiscoverWindow:"
+msgid "Discover Windows"
+msgstr "ウィンドウを検出"
+
+#. opening <window_id>:SmartGit 26.1 Evaluation until <date> (<window_id>)
+#. Performing ', Close'
+#. Performing ', Close'
+#. Performing ', Close'
+#. Performing 'configureToolbar, Configure Toolbar...'
+#. Showing dialog 0 (<dialog_id>) '<dialog_title> - Configure Toolbar' (owner: <window_id>)
+#, fuzzy
+msgctxt "wndLog.mniFlowFeatureFinish:"
+msgid "Finish"
+msgstr "完了"
+
+#. opening <window_id>:SmartGit 26.1 Evaluation until <date> (<window_id>)
+#. Performing ', Close'
+#. Performing ', Close'
+#. Performing ', Close'
+#. Performing 'configureToolbar, Configure Toolbar...'
+#. Showing dialog 0 (<dialog_id>) '<dialog_title> - Configure Toolbar' (owner: <window_id>)
+#, fuzzy
+msgctxt "wndLog.mniFlowFeatureStart:"
+msgid "Start"
+msgstr "開始"
+
+#. opening <window_id>:SmartGit 26.1 Evaluation until <date> (<window_id>)
+#. Performing ', Close'
+#. Performing ', Close'
+#. Performing ', Close'
+#. Performing 'configureToolbar, Configure Toolbar...'
+#. Showing dialog 0 (<dialog_id>) '<dialog_title> - Configure Toolbar' (owner: <window_id>)
+#, fuzzy
+msgctxt "wndLog.mniFlowHotfixFinish:"
+msgid "Finish"
+msgstr "完了"
+
+#. opening <window_id>:SmartGit 26.1 Evaluation until <date> (<window_id>)
+#. Performing ', Close'
+#. Performing ', Close'
+#. Performing ', Close'
+#. Performing 'configureToolbar, Configure Toolbar...'
+#. Showing dialog 0 (<dialog_id>) '<dialog_title> - Configure Toolbar' (owner: <window_id>)
+#, fuzzy
+msgctxt "wndLog.mniFlowHotfixStart:"
+msgid "Start"
+msgstr "開始"
+
+#. opening <window_id>:SmartGit 26.1 Evaluation until <date> (<window_id>)
+#. Performing ', Close'
+#. Performing ', Close'
+#. Performing ', Close'
+#. Performing 'configureToolbar, Configure Toolbar...'
+#. Showing dialog 0 (<dialog_id>) '<dialog_title> - Configure Toolbar' (owner: <window_id>)
+#, fuzzy
+msgctxt "wndLog.mniFlowIntegrateDevelop:"
+msgid "Integrate"
+msgstr "統合"
+
+#. opening <window_id>:SmartGit 26.1 Evaluation until <date> (<window_id>)
+#. Performing ', Close'
+#. Performing ', Close'
+#. Performing ', Close'
+#. Performing 'configureToolbar, Configure Toolbar...'
+#. Showing dialog 0 (<dialog_id>) '<dialog_title> - Configure Toolbar' (owner: <window_id>)
+#, fuzzy
+msgctxt "wndLog.mniLog:"
+msgid "Log Selection"
+msgstr "選択項目の履歴"
+
+#. opening <window_id>:SmartGit 26.1 Evaluation until <date> (<window_id>)
+#. Performing ', Close'
+#. Performing ', Close'
+#. Performing ', Close'
+#. Performing 'configureToolbar, Configure Toolbar...'
+#. Showing dialog 0 (<dialog_id>) '<dialog_title> - Configure Toolbar' (owner: <window_id>)
+#, fuzzy
+msgctxt "wndLog.mniRepositorySearch:"
+msgid "Search"
+msgstr "検索"
+
+#. opening <window_id>:SmartGit 26.1 Evaluation until <date> (<window_id>)
+#. Performing ', Close'
+#. Performing ', Close'
+#. Performing ', Close'
+#. Performing 'configureToolbar, Configure Toolbar...'
+#. Showing dialog 0 (<dialog_id>) '<dialog_title> - Configure Toolbar' (owner: <window_id>)
+#, fuzzy
+msgctxt "wndLog.mniResetAdvanced:"
+msgid "Reset Adv."
+msgstr "高度なリセット"
+
+#. opening <window_id>:SmartGit 26.1 Evaluation until <date> (<window_id>)
+#. Performing ', Close'
+#. Performing ', Close'
+#. Performing ', Close'
+#. Performing 'configureToolbar, Configure Toolbar...'
+#. Showing dialog 0 (<dialog_id>) '<dialog_title> - Configure Toolbar' (owner: <window_id>)
+#, fuzzy
+msgctxt "wndLog.mniShowChanges:"
+msgid "Changes"
+msgstr "変更点"
+
+#. opening <window_id>:SmartGit 26.1 Evaluation until <date> (<window_id>)
+#. Performing ', Close'
+#. Performing ', Close'
+#. Performing ', Close'
+#. Performing 'configureToolbar, Configure Toolbar...'
+#. Showing dialog 0 (<dialog_id>) '<dialog_title> - Configure Toolbar' (owner: <window_id>)
+#, fuzzy
+msgctxt "wndLog.mniStashSave:"
+msgid "Save Stash"
+msgstr "スタッシュに保存"
+
+#. opening <window_id>:SmartGit 26.1 Evaluation until <date> (<window_id>)
+#. Performing ', Close'
+#. Performing ', Close'
+#. Performing ', Close'
+#. Performing 'configureToolbar, Configure Toolbar...'
+#. Showing dialog 0 (<dialog_id>) '<dialog_title> - Configure Toolbar' (owner: <window_id>)
+#, fuzzy
+msgctxt "wndLog.mniSync:"
+msgid "Sync"
+msgstr "同期"
+
+#. opening <window_id>:SmartGit 26.1 Evaluation until <date> (<window_id>)
+#. Performing ', Close'
+#. Performing ', Close'
+#. Performing ', Close'
+#. Performing 'configureToolbar, Configure Toolbar...'
+#. Showing dialog 0 (<dialog_id>) '<dialog_title> - Configure Toolbar' (owner: <window_id>)
+#, fuzzy
+msgctxt "wndLog.mniWindowLayoutSetMain:"
+msgid "Main"
+msgstr "メイン"
+
+#. opening <window_id>:SmartGit 26.1 Evaluation until <date> (<window_id>)
+#. Performing ', Close'
+#. Performing ', Close'
+#. Performing ', Close'
+#. Performing 'configureToolbar, Configure Toolbar...'
+#. Showing dialog 0 (<dialog_id>) '<dialog_title> - Configure Toolbar' (owner: <window_id>)
+#, fuzzy
+msgctxt "wndLog.mniWindowLayoutSetReview:"
+msgid "Review"
+msgstr "レビュー"
