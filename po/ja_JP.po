@@ -18576,204 +18576,95 @@ msgctxt "wnd(Log|Std|).mniOpen:"
 msgid "Open from Working Tree"
 msgstr "作業ツリーから開く"
 
-# BUILD: 261029 
-#. opening smartgit.bJA@OKBJBN:SmartGit 26.1 RC Evaluation until Jun 6 (smartgit.bJA@41IZG4)
-#. Performing 'discoverWindow, Discover Windows, Discover the different main windows.'
-#. Showing dialog 0 (@L7GL7P) '@VC8WLC - Discover Other SmartGit Windows' (owner: @41IZG4)
 msgctxt "dlgDiscover.btn:"
 msgid "Change Default in Preferences"
 msgstr "デフォルトを環境設定で変更"
 
-#. opening smartgit.bJA@OKBJBN:SmartGit 26.1 RC Evaluation until Jun 6 (smartgit.bJA@41IZG4)
-#. Performing 'discoverWindow, Discover Windows, Discover the different main windows.'
-#. Showing dialog 0 (@L7GL7P) '@VC8WLC - Discover Other SmartGit Windows' (owner: @41IZG4)
 msgctxt "dlgDiscover.lbl:"
 msgid "- Working Tree and Graph\\n- repository tabs"
 msgstr "- 作業ツリーとグラフ\\n- リポジトリタブ"
 
-#. opening smartgit.bJA@OKBJBN:SmartGit 26.1 RC Evaluation until Jun 6 (smartgit.bJA@41IZG4)
-#. Performing 'discoverWindow, Discover Windows, Discover the different main windows.'
-#. Showing dialog 0 (@L7GL7P) '@VC8WLC - Discover Other SmartGit Windows' (owner: @41IZG4)
 msgctxt "dlgDiscover.lbl:"
 msgid "- Working Tree as graph node\\n- full feature set"
 msgstr "- グラフノードとしての作業ツリー\\n- すべての機能セット"
 
-#. opening smartgit.bJA@OKBJBN:SmartGit 26.1 RC Evaluation until Jun 6 (smartgit.bJA@41IZG4)
-#. Performing 'discoverWindow, Discover Windows, Discover the different main windows.'
-#. Showing dialog 0 (@L7GL7P) '@VC8WLC - Discover Other SmartGit Windows' (owner: @41IZG4)
 msgctxt "dlgDiscover.lbl:"
 msgid "- needs Log window for full history\\n- file display from submodules"
 msgstr "- 完全な履歴にはログウィンドウが必要\\n- サブモジュールからのファイル表示"
 
-#. opening smartgit.bJA@OKBJBN:SmartGit 26.1 RC Evaluation until Jun 6 (smartgit.bJA@41IZG4)
-#. Performing 'discoverWindow, Discover Windows, Discover the different main windows.'
-#. Showing dialog 0 (@L7GL7P) '@VC8WLC - Discover Other SmartGit Windows' (owner: @41IZG4)
 msgctxt "dlgDiscover.lbl:"
 msgid "\\[https://www.smartgit.dev/window-styles-and-cat-toys/ What are these icons?\\]"
 msgstr "\\[https://www.smartgit.dev/window-styles-and-cat-toys/ これらのアイコンは何ですか？\\]"
 
-#. opening smartgit.bJA@OKBJBN:SmartGit 26.1 RC Evaluation until Jun 6 (smartgit.bJA@41IZG4)
-#. Performing 'discoverWindow, Discover Windows, Discover the different main windows.'
-#. Showing dialog 0 (@L7GL7P) '@VC8WLC - Discover Other SmartGit Windows' (owner: @41IZG4)
 msgctxt "dlgDiscover.rbt:"
 msgid "Log Graph \\(commit oriented\\)"
 msgstr "ロググラフ \\(コミット中心\\)"
 
-#. opening smartgit.bJA@OKBJBN:SmartGit 26.1 RC Evaluation until Jun 6 (smartgit.bJA@41IZG4)
-#. Performing 'discoverWindow, Discover Windows, Discover the different main windows.'
-#. Showing dialog 0 (@L7GL7P) '@VC8WLC - Discover Other SmartGit Windows' (owner: @41IZG4)
 msgctxt "dlgDiscover.rbt:"
 msgid "Standard \\(workflow oriented\\)"
 msgstr "スタンダード\\(ワークフロー中心\\)"
 
-#. opening smartgit.bJA@OKBJBN:SmartGit 26.1 RC Evaluation until Jun 6 (smartgit.bJA@41IZG4)
-#. Performing 'discoverWindow, Discover Windows, Discover the different main windows.'
-#. Showing dialog 0 (@L7GL7P) '@VC8WLC - Discover Other SmartGit Windows' (owner: @41IZG4)
 msgctxt "dlgDiscover.rbt:"
 msgid "Working Tree \\(file oriented\\)"
 msgstr "作業ツリー \\(ファイル中心\\)"
 
-#. opening smartgit.bJA@OKBJBN:SmartGit 26.1 RC Evaluation until Jun 6 (smartgit.bJA@41IZG4)
-#. Performing 'discoverWindow, Discover Windows, Discover the different main windows.'
 msgctxt "dlgDiscover.tle:"
 msgid "Discover Other SmartGit Windows"
 msgstr "SmartGit のウィンドウスタイルを選択"
 
-#. opening smartgit.bJA@OKBJBN:SmartGit 26.1 RC Evaluation until Jun 6 (smartgit.bJA@41IZG4)
-#. Performing 'preferences, Preferences'
-#. Showing dialog 0 (@1XD9QX) '@5L0Z2O - Preferences' (owner: @41IZG4)
-#. Performing ', Cancel'
-#. Performing 'preferences, Preferences'
-#. Showing dialog 1 (@WKO20Z) '@XAUOS8 - Preferences' (owner: @41IZG4)
 #, fuzzy
 msgctxt "dlgSgPreferences.cdl:"
 msgid "Main Window"
 msgstr "メインウィンドウ"
 
-#. opening smartgit.bJA@OKBJBN:SmartGit 26.1 RC Evaluation until Jun 6 (smartgit.bJA@41IZG4)
-#. Performing 'preferences, Preferences'
-#. Showing dialog 0 (@1XD9QX) '@5L0Z2O - Preferences' (owner: @41IZG4)
-#. Performing ', Cancel'
-#. Performing 'preferences, Preferences'
-#. Showing dialog 1 (@WKO20Z) '@XAUOS8 - Preferences' (owner: @41IZG4)
 #, fuzzy
 msgctxt "dlgSgPreferences.chk:"
 msgid "Delete merged local branches if the remote branch has been deleted"
 msgstr "リモートブランチが削除されている場合、マージ済みのローカルブランチを削除"
 
-#. opening smartgit.bJA@OKBJBN:SmartGit 26.1 RC Evaluation until Jun 6 (smartgit.bJA@41IZG4)
-#. Performing 'preferences, Preferences'
-#. Showing dialog 0 (@1XD9QX) '@5L0Z2O - Preferences' (owner: @41IZG4)
-#. Performing ', Cancel'
-#. Performing 'preferences, Preferences'
-#. Showing dialog 1 (@WKO20Z) '@XAUOS8 - Preferences' (owner: @41IZG4)
 #, fuzzy
 msgctxt "dlgSgPreferences.chk:"
 msgid "Force disabling AI integration \\(globally\\)"
 msgstr "AI 連携を強制的に無効化 \\(全体\\)"
 
-#. opening smartgit.bJA@OKBJBN:SmartGit 26.1 RC Evaluation until Jun 6 (smartgit.bJA@41IZG4)
-#. Performing 'preferences, Preferences'
-#. Showing dialog 0 (@1XD9QX) '@5L0Z2O - Preferences' (owner: @41IZG4)
-#. Performing ', Cancel'
-#. Performing 'preferences, Preferences'
-#. Showing dialog 1 (@WKO20Z) '@XAUOS8 - Preferences' (owner: @41IZG4)
 #, fuzzy
 msgctxt "dlgSgPreferences.chk:"
 msgid "Reopen the last used repositories on startup"
 msgstr "起動時に最後に使用したリポジトリを再度開く"
 
-#. opening smartgit.bJA@OKBJBN:SmartGit 26.1 RC Evaluation until Jun 6 (smartgit.bJA@41IZG4)
-#. Performing 'preferences, Preferences'
-#. Showing dialog 0 (@1XD9QX) '@5L0Z2O - Preferences' (owner: @41IZG4)
-#. Performing ', Cancel'
-#. Performing 'preferences, Preferences'
-#. Showing dialog 1 (@WKO20Z) '@XAUOS8 - Preferences' (owner: @41IZG4)
 msgctxt "dlgSgPreferences.chk:"
 msgid "Show Discover toolbar button"
 msgstr "「スタイル」ツールバーボタンを表示"
 
-#. opening smartgit.bJA@OKBJBN:SmartGit 26.1 RC Evaluation until Jun 6 (smartgit.bJA@41IZG4)
-#. Performing 'preferences, Preferences'
-#. Showing dialog 0 (@1XD9QX) '@5L0Z2O - Preferences' (owner: @41IZG4)
-#. Performing ', Cancel'
-#. Performing 'preferences, Preferences'
-#. Showing dialog 1 (@WKO20Z) '@XAUOS8 - Preferences' (owner: @41IZG4)
 msgctxt "dlgSgPreferences.lbl:"
 msgid "- Working Tree and Graph\\n- repository tabs"
 msgstr "- 作業ツリーとグラフ\\n- リポジトリタブ"
 
-#. opening smartgit.bJA@OKBJBN:SmartGit 26.1 RC Evaluation until Jun 6 (smartgit.bJA@41IZG4)
-#. Performing 'preferences, Preferences'
-#. Showing dialog 0 (@1XD9QX) '@5L0Z2O - Preferences' (owner: @41IZG4)
-#. Performing ', Cancel'
-#. Performing 'preferences, Preferences'
-#. Showing dialog 1 (@WKO20Z) '@XAUOS8 - Preferences' (owner: @41IZG4)
 msgctxt "dlgSgPreferences.lbl:"
 msgid "- Working Tree as graph node\\n- full feature set"
 msgstr "- グラフノードとしての作業ツリー\\n- すべての機能セット"
 
-#. opening smartgit.bJA@OKBJBN:SmartGit 26.1 RC Evaluation until Jun 6 (smartgit.bJA@41IZG4)
-#. Performing 'preferences, Preferences'
-#. Showing dialog 0 (@1XD9QX) '@5L0Z2O - Preferences' (owner: @41IZG4)
-#. Performing ', Cancel'
-#. Performing 'preferences, Preferences'
-#. Showing dialog 1 (@WKO20Z) '@XAUOS8 - Preferences' (owner: @41IZG4)
 msgctxt "dlgSgPreferences.lbl:"
 msgid "- needs Log window for full history\\n- file display from submodules"
 msgstr "- 完全な履歴にはログウィンドウが必要\\n- サブモジュールからのファイル表示"
 
-#. opening smartgit.bJA@OKBJBN:SmartGit 26.1 RC Evaluation until Jun 6 (smartgit.bJA@41IZG4)
-#. Performing 'preferences, Preferences'
-#. Showing dialog 0 (@1XD9QX) '@5L0Z2O - Preferences' (owner: @41IZG4)
-#. Performing ', Cancel'
-#. Performing 'preferences, Preferences'
-#. Showing dialog 1 (@WKO20Z) '@XAUOS8 - Preferences' (owner: @41IZG4)
 #, fuzzy
 msgctxt "dlgSgPreferences.lbl:"
 msgid "Pull"
 msgstr "プル"
 
-#. opening smartgit.bJA@OKBJBN:SmartGit 26.1 RC Evaluation until Jun 6 (smartgit.bJA@41IZG4)
-#. Performing 'preferences, Preferences'
-#. Showing dialog 0 (@1XD9QX) '@5L0Z2O - Preferences' (owner: @41IZG4)
-#. Performing ', Cancel'
-#. Performing 'preferences, Preferences'
-#. Showing dialog 1 (@WKO20Z) '@XAUOS8 - Preferences' (owner: @41IZG4)
 msgctxt "dlgSgPreferences.lbl:"
 msgid "\\[https://www.smartgit.dev/window-styles-and-cat-toys/ What are these icons?\\]"
 msgstr "\\[https://www.smartgit.dev/window-styles-and-cat-toys/ これらのアイコンは何ですか？\\]"
 
-#. opening smartgit.bJA@OKBJBN:SmartGit 26.1 RC Evaluation until Jun 6 (smartgit.bJA@41IZG4)
-#. Performing 'preferences, Preferences'
-#. Showing dialog 0 (@1XD9QX) '@5L0Z2O - Preferences' (owner: @41IZG4)
-#. Performing ', Cancel'
-#. Performing 'preferences, Preferences'
-#. Showing dialog 1 (@WKO20Z) '@XAUOS8 - Preferences' (owner: @41IZG4)
 msgctxt "dlgSgPreferences.rbt:"
 msgid "Log Graph \\(commit oriented\\)"
 msgstr "ロググラフ \\(コミット中心\\)"
 
-#. opening smartgit.bJA@OKBJBN:SmartGit 26.1 RC Evaluation until Jun 6 (smartgit.bJA@41IZG4)
-#. Performing 'preferences, Preferences'
-#. Showing dialog 0 (@1XD9QX) '@5L0Z2O - Preferences' (owner: @41IZG4)
-#. Performing ', Cancel'
-#. Performing 'preferences, Preferences'
-#. Showing dialog 1 (@WKO20Z) '@XAUOS8 - Preferences' (owner: @41IZG4)
 msgctxt "dlgSgPreferences.rbt:"
 msgid "Working Tree \\(file oriented\\)"
 msgstr "作業ツリー \\(ファイル中心\\)"
 
-#. Showing dialog 4 (@E68PKP) '@7F32G8 - Configure Toolbar' (owner: @41IZG4)
-#. Performing ', Remove'
-#. Performing ', Add'
-#. Performing ', OK'
-#. Performing 'configureToolbar, Configure Toolbar...'
-#. Showing dialog 5 (@8HVOUT) '@13I2SU - Configure Toolbar' (owner: @41IZG4)
-#. Performing ', Remove'
-#. Performing ', OK'
-#. Performing 'investigate, Investigate, Investigate history line-wise with DeepGit.'
-#. opening smartgit.bfS@N6UPP8:Investigate (smartgit.bfS@HP2W3A)
 #, fuzzy
 msgctxt "wndDeepgit.tbtDgPerspectiveOrigins:"
 msgid "Find out what else happened where the line originates from.\\n\\nIn order to inspect available Origins, switch to Blame+Origins view first."
@@ -18784,59 +18675,19 @@ msgctxt "wndLog.mnu:"
 msgid "Provider"
 msgstr "プロバイダー"
 
-#. Performing ', Cancel'
-#. Performing 'preferences, Preferences'
-#. Showing dialog 1 (@WKO20Z) '@XAUOS8 - Preferences' (owner: @41IZG4)
-#. Performing ', Edit...'
-#. Showing dialog 2 (@5PDK9O) '@PP8V7Y - Edit Property' (owner: @WKO20Z)
-#. Performing ', Cancel'
-#. Performing ', Cancel'
-#. Performing '@smartgit.bJK'
-#. Performing '@smartgit.bJK'
-#. Performing '@smartgit.bJK'
 msgctxt "wndLog.tbr:"
 msgid "Discover"
 msgstr "スタイル"
 
-#. Performing ', Cancel'
-#. Performing 'preferences, Preferences'
-#. Showing dialog 1 (@WKO20Z) '@XAUOS8 - Preferences' (owner: @41IZG4)
-#. Performing ', Edit...'
-#. Showing dialog 2 (@5PDK9O) '@PP8V7Y - Edit Property' (owner: @WKO20Z)
-#. Performing ', Cancel'
-#. Performing ', Cancel'
-#. Performing '@smartgit.bJK'
-#. Performing '@smartgit.bJK'
-#. Performing '@smartgit.bJK'
 #, fuzzy
 msgctxt "wndLog.tbt:"
 msgid "Close"
 msgstr "閉じる"
 
-#. Showing dialog 1 (@2S8FFF) '@8LR841 - Preferences' (owner: @41IZG4)
-#. Performing ', Actions'
-#. Performing ', Actions'
-#. Performing ', Add'
-#. Performing ', Edit...'
-#. Showing dialog 2 (@KE0P6G) '@JPMCYK - Edit' (owner: @2S8FFF)
-#. Performing ', Variables'
-#. Performing ', Variables'
-#. Performing ', Cancel'
-#. Performing ', Cancel'
 msgctxt "wndLog.tbtDiscoverWindow:"
 msgid "Discover the different main windows."
 msgstr "SmartGit のウィンドウスタイルを試します。"
 
-#. Showing dialog 1 (@2S8FFF) '@8LR841 - Preferences' (owner: @41IZG4)
-#. Performing ', Actions'
-#. Performing ', Actions'
-#. Performing ', Add'
-#. Performing ', Edit...'
-#. Showing dialog 2 (@KE0P6G) '@JPMCYK - Edit' (owner: @2S8FFF)
-#. Performing ', Variables'
-#. Performing ', Variables'
-#. Performing ', Cancel'
-#. Performing ', Cancel'
 #, fuzzy
 msgctxt "wndLog.tbtFlowContext:"
 msgid "Configure Git-Flow."
@@ -18852,1151 +18703,406 @@ msgctxt "wndStd.mnu:"
 msgid "Provider"
 msgstr "プロバイダー"
 
-#. opening smartgit.bJA@5Y5WPC:SmartGit 26.1 RC Evaluation until Jun 6 (smartgit.bJA@MIB5LP)
-#. Performing 'discoverWindow, Discover Windows, Discover the different main windows.'
-#. Showing dialog 0 (@HBGURM) '@X9UB26 - Discover Other SmartGit Windows' (owner: @MIB5LP)
-#. Performing ', Close'
-#. Performing 'ai.commitMessageCompose, AI Commit Message Compose'
-#. Showing dialog 1 (@ER4MEO) '@PX1559 - AI Commit Message' (owner: @MIB5LP)
 #, fuzzy
 msgctxt "dlgSgAiCommitMessageComposeError.fur:"
 msgid "smartgit.qT: Cancelled"
 msgstr "smartgit.qT: キャンセルされました"
 
-#. opening smartgit.bJA@5Y5WPC:SmartGit 26.1 RC Evaluation until Jun 6 (smartgit.bJA@MIB5LP)
-#. Performing 'discoverWindow, Discover Windows, Discover the different main windows.'
-#. Showing dialog 0 (@HBGURM) '@X9UB26 - Discover Other SmartGit Windows' (owner: @MIB5LP)
-#. Performing ', Close'
-#. Performing 'ai.commitMessageCompose, AI Commit Message Compose'
 msgctxt "dlgSgAiCommitMessageComposeError.tle:"
 msgid "AI Commit Message"
 msgstr "AIコミットメッセージ"
 
-#. opening smartgit.bJA@5Y5WPC:SmartGit 26.1 RC Evaluation until Jun 6 (smartgit.bJA@MIB5LP)
-#. Performing 'discoverWindow, Discover Windows, Discover the different main windows.'
-#. Showing dialog 0 (@HBGURM) '@X9UB26 - Discover Other SmartGit Windows' (owner: @MIB5LP)
-#. Performing ', Close'
-#. Performing 'ai.commitMessageCompose, AI Commit Message Compose'
-#. Showing dialog 1 (@ER4MEO) '@PX1559 - AI Commit Message' (owner: @MIB5LP)
-#. Performing ', OK'
 #, fuzzy
 msgctxt "wndLog.mni:"
 msgid "Reword '@ai' commits"
 msgstr "'@ai' コミットを書き換え"
 
-#. opening smartgit.bJA@5Y5WPC:SmartGit 26.1 RC Evaluation until Jun 6 (smartgit.bJA@MIB5LP)
-#. Performing 'discoverWindow, Discover Windows, Discover the different main windows.'
-#. Showing dialog 0 (@HBGURM) '@X9UB26 - Discover Other SmartGit Windows' (owner: @MIB5LP)
-#. Performing ', Close'
-#. Performing 'ai.commitMessageCompose, AI Commit Message Compose'
-#. Showing dialog 1 (@ER4MEO) '@PX1559 - AI Commit Message' (owner: @MIB5LP)
-#. Performing ', OK'
 #, fuzzy
 msgctxt "wndLog.tbtAi.commitMessageCompose:"
 msgid "smartgit.qT: Cancelled"
 msgstr "smartgit.qT: キャンセルされました"
 
-#. opening smartgit.bJA@UV1WWG:SmartGit 26.1 RC Evaluation until Jun 6 (smartgit.bJA@YB7QZ9)
-#. Performing 'newStandardWindow, Show Standard Window'
-#. opening smartgit.aCW@SQPSVN:null (smartgit.aCW@XFVNVI)
-#. Performing 'repositoryOpen, Open Repository'
-#. Performing 'discoverWindow, Discover Windows, Discover the different main windows.'
-#. Showing dialog 0 (@N10L6O) '@GSVIBM - Discover Other SmartGit Windows' (owner: @XFVNVI)
-#. Performing ', Close'
-#. Performing ', Reconfigure...'
-#. Showing dialog 1 (@8Z7GT4) '@PGMG65 - AI Setup' (owner: @XFVNVI)
-#. Performing ', Next >'
 #, fuzzy
 msgctxt "dlgSgAiSetupLlmConfigurationInvalid.tle:"
 msgid "AI Setup"
 msgstr "AI セットアップ"
 
-#. opening smartgit.bJA@UV1WWG:SmartGit 26.1 RC Evaluation until Jun 6 (smartgit.bJA@YB7QZ9)
 #, fuzzy
 msgctxt "wndLog.mni:"
 msgid "Overlap"
 msgstr "重ね合わせ"
 
-#. Performing 'discoverWindow, Discover Windows, Discover the different main windows.'
-#. Showing dialog 0 (@N10L6O) '@GSVIBM - Discover Other SmartGit Windows' (owner: @XFVNVI)
-#. Performing ', Close'
-#. Performing ', Reconfigure...'
-#. Showing dialog 1 (@8Z7GT4) '@PGMG65 - AI Setup' (owner: @XFVNVI)
-#. Performing ', Next >'
-#. Showing dialog 2 (@MCIE7O) '@2NT3AK - AI Setup' (owner: @8Z7GT4)
-#. Performing ', OK'
-#. Performing ', Cancel'
-#. Performing 'stdSetModeHistory, Show History, Show the history view.'
 #, fuzzy
 msgctxt "wndStd.hnt:"
 msgid "This repository has\\nno local branches yet."
 msgstr "このリポジトリには\\nまだローカルブランチがありません。"
 
-#. opening smartgit.bJA@UV1WWG:SmartGit 26.1 RC Evaluation until Jun 6 (smartgit.bJA@YB7QZ9)
-#. Performing 'newStandardWindow, Show Standard Window'
-#. opening smartgit.aCW@SQPSVN:null (smartgit.aCW@XFVNVI)
-#. Performing 'repositoryOpen, Open Repository'
-#. Performing 'discoverWindow, Discover Windows, Discover the different main windows.'
-#. Showing dialog 0 (@N10L6O) '@GSVIBM - Discover Other SmartGit Windows' (owner: @XFVNVI)
-#. Performing ', Close'
 #, fuzzy
 msgctxt "wndStd.mni:"
 msgid "Reconfigure"
 msgstr "再設定"
 
-#. opening smartgit.bJA@UV1WWG:SmartGit 26.1 RC Evaluation until Jun 6 (smartgit.bJA@YB7QZ9)
-#. Performing 'newStandardWindow, Show Standard Window'
-#. opening smartgit.aCW@SQPSVN:null (smartgit.aCW@XFVNVI)
-#. Performing 'repositoryOpen, Open Repository'
-#. Performing 'discoverWindow, Discover Windows, Discover the different main windows.'
-#. Showing dialog 0 (@N10L6O) '@GSVIBM - Discover Other SmartGit Windows' (owner: @XFVNVI)
-#. Performing ', Close'
 #, fuzzy
 msgctxt "wndStd.mni:"
 msgid "Reword '@ai' commits"
 msgstr "'@ai' コミットを書き換え"
 
-#. opening smartgit.bJA@UV1WWG:SmartGit 26.1 RC Evaluation until Jun 6 (smartgit.bJA@YB7QZ9)
-#. Performing 'newStandardWindow, Show Standard Window'
 #, fuzzy
 msgctxt "wndStd.mniStdProviderButton:"
 msgid "Browse"
 msgstr "参照"
 
-#. Performing 'discoverWindow, Discover Windows, Discover the different main windows.'
-#. Showing dialog 0 (@N10L6O) '@GSVIBM - Discover Other SmartGit Windows' (owner: @XFVNVI)
-#. Performing ', Close'
-#. Performing ', Reconfigure...'
-#. Showing dialog 1 (@8Z7GT4) '@PGMG65 - AI Setup' (owner: @XFVNVI)
-#. Performing ', Next >'
-#. Showing dialog 2 (@MCIE7O) '@2NT3AK - AI Setup' (owner: @8Z7GT4)
-#. Performing ', OK'
-#. Performing ', Cancel'
-#. Performing 'stdSetModeHistory, Show History, Show the history view.'
 #, fuzzy
 msgctxt "wndStd.tbr:"
 msgid "Browse"
 msgstr "参照"
 
-#. Performing 'discoverWindow, Discover Windows, Discover the different main windows.'
-#. Showing dialog 0 (@N10L6O) '@GSVIBM - Discover Other SmartGit Windows' (owner: @XFVNVI)
-#. Performing ', Close'
-#. Performing ', Reconfigure...'
-#. Showing dialog 1 (@8Z7GT4) '@PGMG65 - AI Setup' (owner: @XFVNVI)
-#. Performing ', Next >'
-#. Showing dialog 2 (@MCIE7O) '@2NT3AK - AI Setup' (owner: @8Z7GT4)
-#. Performing ', OK'
-#. Performing ', Cancel'
-#. Performing 'stdSetModeHistory, Show History, Show the history view.'
 msgctxt "wndStd.tbr:"
 msgid "Discover"
 msgstr "スタイル"
 
-#. opening smartgit.bJA@UV1WWG:SmartGit 26.1 RC Evaluation until Jun 6 (smartgit.bJA@YB7QZ9)
-#. Performing 'newStandardWindow, Show Standard Window'
-#. opening smartgit.aCW@SQPSVN:null (smartgit.aCW@XFVNVI)
-#. Performing 'repositoryOpen, Open Repository'
-#. Performing 'discoverWindow, Discover Windows, Discover the different main windows.'
-#. Showing dialog 0 (@N10L6O) '@GSVIBM - Discover Other SmartGit Windows' (owner: @XFVNVI)
-#. Performing ', Close'
 msgctxt "wndStd.tbtDiscoverWindow:"
 msgid "Discover the different main windows."
 msgstr "SmartGit のウィンドウスタイルを試します。"
 
-#. Performing 'discoverWindow, Discover Windows, Discover the different main windows.'
-#. Showing dialog 0 (@N10L6O) '@GSVIBM - Discover Other SmartGit Windows' (owner: @XFVNVI)
-#. Performing ', Close'
-#. Performing ', Reconfigure...'
-#. Showing dialog 1 (@8Z7GT4) '@PGMG65 - AI Setup' (owner: @XFVNVI)
-#. Performing ', Next >'
-#. Showing dialog 2 (@MCIE7O) '@2NT3AK - AI Setup' (owner: @8Z7GT4)
-#. Performing ', OK'
-#. Performing ', Cancel'
-#. Performing 'stdSetModeHistory, Show History, Show the history view.'
 #, fuzzy
 msgctxt "wndStd.tbtStdOpenSubmodule:"
 msgid "Open the submodule in a new tab."
 msgstr "サブモジュールを新しいタブで開きます。"
 
-#. opening smartgit.bJA@UV1WWG:SmartGit 26.1 RC Evaluation until Jun 6 (smartgit.bJA@YB7QZ9)
-#. Performing 'newStandardWindow, Show Standard Window'
-#. opening smartgit.aCW@SQPSVN:null (smartgit.aCW@XFVNVI)
-#. Performing 'repositoryOpen, Open Repository'
-#. Performing 'discoverWindow, Discover Windows, Discover the different main windows.'
-#. Showing dialog 0 (@N10L6O) '@GSVIBM - Discover Other SmartGit Windows' (owner: @XFVNVI)
-#. Performing ', Close'
 #, fuzzy
 msgctxt "wndStd.tbtStdProviderButton:"
 msgid "No hosting provider available"
 msgstr "利用可能なホスティングプロバイダーがありません"
 
-#. Performing ', Edit in Index Editor'
-#. opening smartgit.bfh@XFVNVI:messages.pot - Index Editor (smartgit.bfh@SHF7KQ)
-#. Performing 'file-save, Save, Save file modifications.'
-#. Performing 'preferences, Preferences'
-#. Showing dialog 0 (@VR7BE) '@FU77DG - Preferences' (owner: @E5151G)
-#. Performing ', OK'
-#. Performing 'repositorySettings, Settings...'
-#. Showing dialog 1 (@56DTFF) '@1Z3JRX - Repository Settings' (owner: @E5151G)
-#. Performing ', Cancel'
-#. Performing 'stage, Stage, Store working tree files in the index to prepare the next commit.'
 #, fuzzy
 msgctxt "wndLog.mni:"
 msgid "Ask AI"
 msgstr "AI に尋ねる"
 
-#. Performing ', Overlap'
-#. Performing ', Overlap'
-#. Performing 'logCommitsColoringLegacy, Varying Coloring'
-#. Performing 'logCommitsColoringMerge, Mergeable Coloring'
-#. Performing 'logCommitsColoringBranch, Branch Coloring'
-#. Performing 'logCommitsColoringDefault, Default Coloring'
-#. Performing 'logCommitsColoringLegacy, Varying Coloring'
-#. Performing 'logCommitsColoringMerge, Mergeable Coloring'
-#. Performing 'logCommitsColoringBranch, Branch Coloring'
-#. Performing 'logCommitsColoringDefault, Default Coloring'
 #, fuzzy
 msgctxt "wndLog.tbtRevealPrevCommit:"
 msgid "Go back to previous graph selection."
 msgstr "前のグラフ選択に戻ります。"
 
-# BUILD: 261029
-# 
-#. opening smartgit.cnT@30B4F8:ja_JP.po - [<repository>\po] - Editor (smartgit.cnT@43ZZDI)
-#. Performing 'file-save, Save, Save file modifications.'
-#. Performing ',   Open in VSCode'
-#. Performing 'stage, Stage, Store working tree files in the index to prepare the next commit.'
-#. Performing 'editCommitMessage, Edit Message...'
-#. Showing dialog 8 (@C9KK0H) '@VVY7TP - Edit Message' (owner: @T9F38C)
-#. Performing ', Cancel'
-#. Performing 'stage, Stage, Store working tree files in the index to prepare the next commit.'
-#. Performing 'editCommitMessage, Edit Message...'
-#. Showing dialog 9 (@527MAN) '@PL6Z95 - Edit Message' (owner: @T9F38C)
 #, fuzzy
 msgctxt "dlgSgHistoryEditMessage.btn:"
 msgid "AI "
 msgstr "AI "
 
-#. Performing 'file-save, Save, Save file modifications.'
-#. Performing ',   Open in VSCode'
-#. Performing 'stage, Stage, Store working tree files in the index to prepare the next commit.'
-#. Performing 'editCommitMessage, Edit Message...'
-#. Showing dialog 8 (@C9KK0H) '@VVY7TP - Edit Message' (owner: @T9F38C)
-#. Performing ', Cancel'
-#. Performing 'stage, Stage, Store working tree files in the index to prepare the next commit.'
-#. Performing 'editCommitMessage, Edit Message...'
-#. Showing dialog 9 (@527MAN) '@PL6Z95 - Edit Message' (owner: @T9F38C)
-#. Performing '@smartgit.aSl'
 #, fuzzy
 msgctxt "dlgSgHistoryEditMessage.mni:"
 msgid "Reconfigure"
 msgstr "再設定"
 
-#. Performing 'file-save, Save, Save file modifications.'
-#. Performing ',   Open in VSCode'
-#. Performing 'stage, Stage, Store working tree files in the index to prepare the next commit.'
-#. Performing 'editCommitMessage, Edit Message...'
-#. Showing dialog 8 (@C9KK0H) '@VVY7TP - Edit Message' (owner: @T9F38C)
-#. Performing ', Cancel'
-#. Performing 'stage, Stage, Store working tree files in the index to prepare the next commit.'
-#. Performing 'editCommitMessage, Edit Message...'
-#. Showing dialog 9 (@527MAN) '@PL6Z95 - Edit Message' (owner: @T9F38C)
-#. Performing '@smartgit.aSl'
 #, fuzzy
 msgctxt "dlgSgHistoryEditMessage.mni:"
 msgid "github \\(active\\)"
 msgstr "github \\(アクティブ\\)"
 
-# DON'T EDIT, this file will be rewritten!
-# 
-# BUILD: 261029
-# 
-#. opening smartgit.brR@NLHXN6:[po/messages.pot] - File Compare (smartgit.brR@UZYDY6)
-#. Performing 'investigate, Investigate, Investigate history line-wise with DeepGit.'
-#. opening smartgit.bfS@H3RY7D:Investigate (smartgit.bfS@15L735)
-#. Performing 'dgPerspectiveCommit, Log Perspective, Investigate Log.'
-#. Showing dialog 37 (@2UJ1FY) '@PXPWSI - Layouting Graph' (owner: @15L735)
-#. Performing 'dgPerspectiveHistory, Diff Perspective, Investigate Diff between file's revisions.'
-#. Performing 'dgPerspectiveBlameSimple, Blame Perspective, Find where the line originates from in simple cases when there are no alternative Origins.'
-#. Performing 'dgPerspectiveBlameOrigin, Blame+Origins Perspective, Find where the line originates from in cases where you need to choose from one of possible Origins.'
-#. Performing 'dgPerspectiveOrigins, Origins Perspective, Find out what else happened where the line originates from.
-#. Selected origin candidate can't be investigated because it doesn't reflect a real change.'
-#. Showing dialog 38 (@COS03A) '@1V3OK9 - Origins Perspective' (owner: @15L735)
 #, fuzzy
 msgctxt "dlgDgSetPerspectiveCantSwitch.fur:"
 msgid "Selected origin candidate can't be investigated because it doesn't reflect a real change."
 msgstr "選択した由来候補は実際の変更を反映していないため調査できません。"
 
-#. Performing 'fixup, Use Message for Commit'
-#. Performing ', github (active)...'
-#. Showing dialog 6 (@81JEF) '@2YVFX2 - AI Upload Consent' (owner: @2DC2B)
-#. Performing ', Allow'
-#. Showing dialog 7 (@GP8L9B) '@MP4P8P - Master Password' (owner: @2DC2B)
-#. Performing ', OK'
-#. Showing dialog 8 (@X12VOW) '@LBNUNA - API Key' (owner: @2DC2B)
-#. Performing ', Cancel'
-#. Performing ', Close'
-#. Performing ', github (active)...'
 #, fuzzy
 msgctxt "dlgScSecretToken.tle:"
 msgid "API Key"
 msgstr "APIキー"
 
-#. Performing ', Regular Expressions, Interpret the search pattern as regular expression.'
-#. Performing 'branchAdd, Add Branch..., Add a new branch for the current commit.'
-#. Showing dialog 23 (@WS7OF7) '@BPH8SB - Add Branch' (owner: @LZXAB0)
-#. Performing 'branchAddTag, Add Tag..., Add a new tag for the current commit.'
-#. Showing dialog 24 (@OWGWS2) '@O08AZZ - Add Tag' (owner: @LZXAB0)
-#. Performing 'merge, Merge..., Merge changes from other branches.'
-#. Showing dialog 25 (@YGVTNX) '@746GP9 - Merge' (owner: @LZXAB0)
-#. Performing ', OK'
-#. Performing 'rebaseHeadTo, Rebase..., Apply commits from your current branch to the selected commit.'
-#. Showing dialog 26 (@CCLM6L) '@K3TN5 - Rebase' (owner: @LZXAB0)
 #, fuzzy
 msgctxt "dlgSgHistoryPushedCommitsModifyDisallowed.fur:"
 msgid "If you understand the implications and still wish to proceed, you can enable the option 'Allow modifying pushed commits' in the Preferences."
 msgstr "影響を理解したうえで続行する場合は、環境設定で 'Allow modifying pushed commits' オプションを有効にできます。"
 
-#. Performing ', Regular Expressions, Interpret the search pattern as regular expression.'
-#. Performing 'branchAdd, Add Branch..., Add a new branch for the current commit.'
-#. Showing dialog 23 (@WS7OF7) '@BPH8SB - Add Branch' (owner: @LZXAB0)
-#. Performing 'branchAddTag, Add Tag..., Add a new tag for the current commit.'
-#. Showing dialog 24 (@OWGWS2) '@O08AZZ - Add Tag' (owner: @LZXAB0)
-#. Performing 'merge, Merge..., Merge changes from other branches.'
-#. Showing dialog 25 (@YGVTNX) '@746GP9 - Merge' (owner: @LZXAB0)
-#. Performing ', OK'
-#. Performing 'rebaseHeadTo, Rebase..., Apply commits from your current branch to the selected commit.'
-#. Showing dialog 26 (@CCLM6L) '@K3TN5 - Rebase' (owner: @LZXAB0)
 #, fuzzy
 msgctxt "dlgSgHistoryPushedCommitsModifyDisallowed.hdl:"
 msgid "Can't modify an already pushed commit."
 msgstr "すでにプッシュされたコミットは変更できません。"
 
-#. Performing 'stdSetModeHistory, Show History, Show the history view.'
-#. Performing ', Regular Expressions, Interpret the search pattern as regular expression.'
-#. Performing 'branchAdd, Add Branch..., Add a new branch for the current commit.'
-#. Showing dialog 23 (@WS7OF7) '@BPH8SB - Add Branch' (owner: @LZXAB0)
-#. Performing 'branchAddTag, Add Tag..., Add a new tag for the current commit.'
-#. Showing dialog 24 (@OWGWS2) '@O08AZZ - Add Tag' (owner: @LZXAB0)
-#. Performing 'merge, Merge..., Merge changes from other branches.'
-#. Showing dialog 25 (@YGVTNX) '@746GP9 - Merge' (owner: @LZXAB0)
-#. Performing ', OK'
-#. Performing 'rebaseHeadTo, Rebase..., Apply commits from your current branch to the selected commit.'
 #, fuzzy
 msgctxt "dlgSgHistoryPushedCommitsModifyDisallowed.tle:"
 msgid "Rebase"
 msgstr "リベース"
 
-#. Performing 'remoteFetchAll, Fetch All, Fetch commits from all remote repositories.'
-#. Performing 'revert, Revert..., Undo the changes of an existing commit by "reverse" merging it.'
-#. Showing dialog 29 (@LB2GPO) '@T0FREW - Revert' (owner: @LZXAB0)
-#. Performing ', OK'
-#. Performing 'stdSetModeHistory, Show History, Show the history view.'
-#. Performing 'reset, Reset..., Reset current branch (HEAD) to another commit.'
-#. Showing dialog 30 (@1L92FG) '@PYIXL5 - Reset' (owner: @LZXAB0)
-#. Performing ', Cancel'
-#. Performing 'resetAdvanced, Reset Advanced..., Reset current branch (HEAD) to another commit and keep the difference in Index or Working Tree.'
-#. Showing dialog 31 (@F88MLG) '@H9RKK8 - Reset' (owner: @LZXAB0)
 #, fuzzy
 msgctxt "dlgSgResetAdv.inf:"
 msgid "Reset the current branch \\(HEAD\\) to the selected commit and optionally update Index and working tree."
 msgstr "現在のブランチ \\(HEAD\\) を選択したコミットにリセットし、必要に応じてインデックスと作業ツリーを更新します。"
 
-#. Performing 'stdSetModeHistory, Show History, Show the history view.'
-#. Performing 'showInMyHistory, Show in My History'
-#. Performing ', Show Local Changes'
-#. Performing 'stdSetModeWt, Show Local Changes, Show the local files of the repository (Working Tree).'
-#. Performing 'stdSetModeHistory, Show History, Show the history view.'
-#. Performing ', Regular Expressions, Interpret the search pattern as regular expression.'
-#. Performing 'branchAdd, Add Branch..., Add a new branch for the current commit.'
-#. Showing dialog 23 (@WS7OF7) '@BPH8SB - Add Branch' (owner: @LZXAB0)
-#. Performing 'branchAddTag, Add Tag..., Add a new tag for the current commit.'
-#. Showing dialog 24 (@OWGWS2) '@O08AZZ - Add Tag' (owner: @LZXAB0)
 #, fuzzy
 msgctxt "dlgSgTagAdd.hdl:"
 msgid "Add tag to current branch \\(HEAD\\)"
 msgstr "現在のブランチ \\(HEAD\\) にタグを追加"
 
-#. Showing dialog 23 (@WS7OF7) '@BPH8SB - Add Branch' (owner: @LZXAB0)
-#. Performing 'branchAddTag, Add Tag..., Add a new tag for the current commit.'
-#. Showing dialog 24 (@OWGWS2) '@O08AZZ - Add Tag' (owner: @LZXAB0)
-#. Performing 'merge, Merge..., Merge changes from other branches.'
-#. Showing dialog 25 (@YGVTNX) '@746GP9 - Merge' (owner: @LZXAB0)
-#. Performing ', OK'
-#. Performing 'rebaseHeadTo, Rebase..., Apply commits from your current branch to the selected commit.'
-#. Showing dialog 26 (@CCLM6L) '@K3TN5 - Rebase' (owner: @LZXAB0)
-#. Performing ', OK'
-#. Performing 'cherryPick, Cherry-Pick..., Cherry-pick commits from other branches.'
 #, fuzzy
 msgctxt "dlgStdPickCommitWtDirty.tle:"
 msgid "Cherry-Pick"
 msgstr "チェリーピック"
 
-#. Performing 'stdSetModeHistory, Show History, Show the history view.'
-#. Performing ', Reset'
-#. Performing ', Reset Adv.'
-#. Performing ', Log'
-#. Performing ', Blame'
-#. Performing ', Investigate'
-#. Performing ', Fetch All'
-#. Performing ', Fetch'
-#. Performing 'remoteFetchAll, Fetch All, Fetch commits from all remote repositories.'
-#. Performing 'revert, Revert..., Undo the changes of an existing commit by "reverse" merging it.'
 #, fuzzy
 msgctxt "dlgStdPickCommitWtDirty.tle:"
 msgid "Revert"
 msgstr "リバート"
 
-#. Performing ', OK'
-#. Performing 'stdSetModeHistory, Show History, Show the history view.'
-#. Performing ', Reset'
-#. Performing ', Reset Adv.'
-#. Performing ', Log'
-#. Performing ', Blame'
-#. Performing ', Investigate'
-#. Performing ', Fetch All'
-#. Performing ', Fetch'
-#. Performing 'remoteFetchAll, Fetch All, Fetch commits from all remote repositories.'
 #, fuzzy
 msgctxt "pop:"
 msgid "Fetched nothing new"
 msgstr "新しくフェッチされたものはありません"
 
-#. Performing 'refresh, Refresh, Refresh the log view.'
-#. Performing 'showChanges, Show Changes, Open the file compare for the selected file.'
-#. opening smartgit.brR@NLHXN6:[po/messages.pot] - File Compare (smartgit.brR@UZYDY6)
-#. Performing 'investigate, Investigate, Investigate history line-wise with DeepGit.'
-#. opening smartgit.bfS@H3RY7D:Investigate (smartgit.bfS@15L735)
-#. Performing 'dgPerspectiveCommit, Log Perspective, Investigate Log.'
-#. Showing dialog 37 (@2UJ1FY) '@PXPWSI - Layouting Graph' (owner: @15L735)
-#. Performing 'dgPerspectiveHistory, Diff Perspective, Investigate Diff between file's revisions.'
-#. Performing 'dgPerspectiveBlameSimple, Blame Perspective, Find where the line originates from in simple cases when there are no alternative Origins.'
-#. Performing 'dgPerspectiveBlameOrigin, Blame+Origins Perspective, Find where the line originates from in cases where you need to choose from one of possible Origins.'
 #, fuzzy
 msgctxt "wndDeepgit.tbtDgPerspectiveOrigins:"
 msgid "Find out what else happened where the line originates from.\\n\\nSelected origin candidate can't be investigated because it doesn't reflect a real change."
 msgstr "その行の由来となった場所で他に何が起きたかを調べます。\\n\\n選択した由来候補は実際の変更を反映していないため調査できません。"
 
-#. Showing dialog 6 (@81JEF) '@2YVFX2 - AI Upload Consent' (owner: @2DC2B)
-#. Performing ', Allow'
-#. Showing dialog 7 (@GP8L9B) '@MP4P8P - Master Password' (owner: @2DC2B)
-#. Performing ', OK'
-#. Showing dialog 8 (@X12VOW) '@LBNUNA - API Key' (owner: @2DC2B)
-#. Performing ', Cancel'
-#. Performing ', Close'
-#. Performing ', github (active)...'
-#. Showing dialog 9 (@RKZ6UC) '@5BKZ6O - API Key' (owner: @2DC2B)
-#. Performing ', Cancel'
 #, fuzzy
 msgctxt "wndLog.tbt:"
 msgid "No hosting provider available"
 msgstr "利用可能なホスティングプロバイダーがありません"
 
-#. Performing 'previewCompareHeadVsIndex, HEAD vs. Index, Show changes between index (staged state) and HEAD (repository state).'
-#. Performing 'previewCompareIndexVsWT, Index vs. Working Tree, Show changes between local file (working tree) and Index (staged state).'
-#. Performing 'changesView.unified, Unified'
-#. Performing 'changesView.sideBySide, Side by Side'
-#. Performing 'changesView.compact, Compact'
-#. Performing 'view-ignore-whitespaces, Ignore Whitespace, Ignore irrelevant whitespace'
-#. Performing 'changesView.compact, Compact'
-#. Performing 'view-ignore-whitespaces, Ignore Whitespace, Ignore irrelevant whitespace'
-#. Performing 'preferences, Preferences'
-#. Showing dialog 21 (@8QDTTM) '@C7G5UO - Preferences' (owner: @UY1G4X)
 msgctxt "wndProject.tbr:"
 msgid "Discover"
 msgstr "スタイル"
 
-#. Performing 'flowContext, Git-Flow..., Configure Git-Flow.'
-#. Performing 'flowConfigure, Configure...'
-#. Showing dialog 18 (@SZM9NW) '@39VXY3 - Configure Git-Flow' (owner: @UY1G4X)
-#. Performing 'preferences, Preferences'
-#. Showing dialog 19 (@Y0AFCA) '@G5YB14 - Preferences' (owner: @UY1G4X)
-#. Performing ', Edit...'
-#. Showing dialog 20 (@49UVQ5) '@3D57WE - Edit Property' (owner: @Y0AFCA)
-#. Performing ', Cancel'
-#. Performing ', Cancel'
-#. Performing ', Close'
 #, fuzzy
 msgctxt "wndProject.tbt:"
 msgid "Close"
 msgstr "閉じる"
 
-#. Performing 'previewCompareHeadVsIndex, HEAD vs. Index, Show changes between index (staged state) and HEAD (repository state).'
-#. Performing 'previewCompareIndexVsWT, Index vs. Working Tree, Show changes between local file (working tree) and Index (staged state).'
-#. Performing 'changesView.unified, Unified'
-#. Performing 'changesView.sideBySide, Side by Side'
-#. Performing 'changesView.compact, Compact'
-#. Performing 'view-ignore-whitespaces, Ignore Whitespace, Ignore irrelevant whitespace'
-#. Performing 'changesView.compact, Compact'
-#. Performing 'view-ignore-whitespaces, Ignore Whitespace, Ignore irrelevant whitespace'
-#. Performing 'preferences, Preferences'
-#. Showing dialog 21 (@8QDTTM) '@C7G5UO - Preferences' (owner: @UY1G4X)
 msgctxt "wndProject.tbtDiscoverWindow:"
 msgid "Discover the different main windows."
 msgstr "SmartGit のウィンドウスタイルを試します。"
 
-#. Performing ', Close'
-#. Performing 'discoverWindow, Discover Windows, Discover the different main windows.'
-#. Showing dialog 16 (@L58VKR) '@SG5B5B - Discover Other SmartGit Windows' (owner: @2DC2B)
-#. opening smartgit.aCW@6ZJZUH:null (smartgit.aCW@LZXAB0)
-#. Performing 'discoverWindow, Discover Windows, Discover the different main windows.'
-#. Showing dialog 17 (@1PMJMJ) '@ASJU4F - Discover Other SmartGit Windows' (owner: @LZXAB0)
-#. opening smartgit.bTY@B7U009:SmartGit 26.1 RC (Working Tree) Evaluation until Jun 6 (smartgit.bTY@UY1G4X) (index=0)
-#. Performing 'flowContext, Git-Flow..., Configure Git-Flow.'
-#. Performing 'flowConfigure, Configure...'
-#. Showing dialog 18 (@SZM9NW) '@39VXY3 - Configure Git-Flow' (owner: @UY1G4X)
 #, fuzzy
 msgctxt "wndProject.tbtFlowContext:"
 msgid "Configure Git-Flow."
 msgstr "Git-Flow を設定します。"
 
-#. Performing 'view-ignore-whitespaces, Ignore Whitespace, Ignore irrelevant whitespace'
-#. Performing 'preferences, Preferences'
-#. Showing dialog 21 (@8QDTTM) '@C7G5UO - Preferences' (owner: @UY1G4X)
-#. Showing dialog 22 (@YBCWK0) '@5LSZXP - Commit' (owner: @LZXAB0)
-#. Performing ', Don't Replace'
-#. Performing 'stdSetModeHistory, Show History, Show the history view.'
-#. Performing 'showInMyHistory, Show in My History'
-#. Performing ', Show Local Changes'
-#. Performing 'stdSetModeWt, Show Local Changes, Show the local files of the repository (Working Tree).'
-#. Performing 'stdSetModeHistory, Show History, Show the history view.'
 #, fuzzy
 msgctxt "wndStd.hnt:"
 msgid "This commit is empty."
 msgstr "このコミットは空です。"
 
-#. Performing 'preferences, Preferences'
-#. Showing dialog 21 (@8QDTTM) '@C7G5UO - Preferences' (owner: @UY1G4X)
-#. Showing dialog 22 (@YBCWK0) '@5LSZXP - Commit' (owner: @LZXAB0)
-#. Performing ', Don't Replace'
-#. Performing 'stdSetModeHistory, Show History, Show the history view.'
-#. Performing 'showInMyHistory, Show in My History'
-#. Performing ', Show Local Changes'
-#. Performing 'stdSetModeWt, Show Local Changes, Show the local files of the repository (Working Tree).'
-#. Performing 'stdSetModeHistory, Show History, Show the history view.'
-#. Performing ', Regular Expressions, Interpret the search pattern as regular expression.'
 #, fuzzy
 msgctxt "wndStd.mni:"
 msgid "Always Show Tags"
 msgstr "常にタグを表示"
 
-#. Performing 'changesView.sideBySide, Side by Side'
-#. Performing 'changesView.compact, Compact'
-#. Performing 'view-ignore-whitespaces, Ignore Whitespace, Ignore irrelevant whitespace'
-#. Performing 'changesView.compact, Compact'
-#. Performing 'view-ignore-whitespaces, Ignore Whitespace, Ignore irrelevant whitespace'
-#. Performing 'preferences, Preferences'
-#. Showing dialog 21 (@8QDTTM) '@C7G5UO - Preferences' (owner: @UY1G4X)
-#. Showing dialog 22 (@YBCWK0) '@5LSZXP - Commit' (owner: @LZXAB0)
-#. Performing ', Don't Replace'
-#. Performing 'stdSetModeHistory, Show History, Show the history view.'
 #, fuzzy
 msgctxt "wndStd.mni:"
 msgid "Ask AI"
 msgstr "AI に尋ねる"
 
-#. Performing 'revert, Revert..., Undo the changes of an existing commit by "reverse" merging it.'
-#. Showing dialog 28 (@XQDN09) '@ZA858E - Revert' (owner: @LZXAB0)
-#. Performing ', OK'
-#. Performing 'stdSetModeHistory, Show History, Show the history view.'
-#. Performing ', Reset'
-#. Performing ', Reset Adv.'
-#. Performing ', Log'
-#. Performing ', Blame'
-#. Performing ', Investigate'
-#. Performing ', Fetch All'
 #, fuzzy
 msgctxt "wndStd.mni:"
 msgid "Browse"
 msgstr "参照"
 
-#. Performing 'revert, Revert..., Undo the changes of an existing commit by "reverse" merging it.'
-#. Showing dialog 28 (@XQDN09) '@ZA858E - Revert' (owner: @LZXAB0)
-#. Performing ', OK'
-#. Performing 'stdSetModeHistory, Show History, Show the history view.'
-#. Performing ', Reset'
-#. Performing ', Reset Adv.'
-#. Performing ', Log'
-#. Performing ', Blame'
-#. Performing ', Investigate'
-#. Performing ', Fetch All'
 #, fuzzy
 msgctxt "wndStd.mni:"
 msgid "Cherry-Pick"
 msgstr "チェリーピック"
 
-#. Performing 'previewCompareHeadVsIndex, HEAD vs. Index, Show changes between index (staged state) and HEAD (repository state).'
-#. Performing 'previewCompareIndexVsWT, Index vs. Working Tree, Show changes between local file (working tree) and Index (staged state).'
-#. Performing 'changesView.unified, Unified'
-#. Performing 'changesView.sideBySide, Side by Side'
-#. Performing 'changesView.compact, Compact'
-#. Performing 'view-ignore-whitespaces, Ignore Whitespace, Ignore irrelevant whitespace'
-#. Performing 'changesView.compact, Compact'
-#. Performing 'view-ignore-whitespaces, Ignore Whitespace, Ignore irrelevant whitespace'
-#. Performing 'preferences, Preferences'
-#. Showing dialog 21 (@8QDTTM) '@C7G5UO - Preferences' (owner: @UY1G4X)
 #, fuzzy
 msgctxt "wndStd.mni:"
 msgid "Discard"
 msgstr "破棄"
 
-#. Performing 'preferences, Preferences'
-#. Showing dialog 21 (@8QDTTM) '@C7G5UO - Preferences' (owner: @UY1G4X)
-#. Showing dialog 22 (@YBCWK0) '@5LSZXP - Commit' (owner: @LZXAB0)
-#. Performing ', Don't Replace'
-#. Performing 'stdSetModeHistory, Show History, Show the history view.'
-#. Performing 'showInMyHistory, Show in My History'
-#. Performing ', Show Local Changes'
-#. Performing 'stdSetModeWt, Show Local Changes, Show the local files of the repository (Working Tree).'
-#. Performing 'stdSetModeHistory, Show History, Show the history view.'
-#. Performing ', Regular Expressions, Interpret the search pattern as regular expression.'
 #, fuzzy
 msgctxt "wndStd.mni:"
 msgid "Pull from all remotes"
 msgstr "すべてのリモートからプル"
 
-#. Performing 'revert, Revert..., Undo the changes of an existing commit by "reverse" merging it.'
-#. Showing dialog 28 (@XQDN09) '@ZA858E - Revert' (owner: @LZXAB0)
-#. Performing ', OK'
-#. Performing 'stdSetModeHistory, Show History, Show the history view.'
-#. Performing ', Reset'
-#. Performing ', Reset Adv.'
-#. Performing ', Log'
-#. Performing ', Blame'
-#. Performing ', Investigate'
-#. Performing ', Fetch All'
 #, fuzzy
 msgctxt "wndStd.mni:"
 msgid "Revert"
 msgstr "リバート"
 
-#. Performing 'view-ignore-whitespaces, Ignore Whitespace, Ignore irrelevant whitespace'
-#. Performing 'preferences, Preferences'
-#. Showing dialog 21 (@8QDTTM) '@C7G5UO - Preferences' (owner: @UY1G4X)
-#. Showing dialog 22 (@YBCWK0) '@5LSZXP - Commit' (owner: @LZXAB0)
-#. Performing ', Don't Replace'
-#. Performing 'stdSetModeHistory, Show History, Show the history view.'
-#. Performing 'showInMyHistory, Show in My History'
-#. Performing ', Show Local Changes'
-#. Performing 'stdSetModeWt, Show Local Changes, Show the local files of the repository (Working Tree).'
-#. Performing 'stdSetModeHistory, Show History, Show the history view.'
 #, fuzzy
 msgctxt "wndStd.mni:"
 msgid "Show Intermediate Commits"
 msgstr "中間コミットを表示"
 
-#. Performing 'preferences, Preferences'
-#. Showing dialog 21 (@8QDTTM) '@C7G5UO - Preferences' (owner: @UY1G4X)
-#. Showing dialog 22 (@YBCWK0) '@5LSZXP - Commit' (owner: @LZXAB0)
-#. Performing ', Don't Replace'
-#. Performing 'stdSetModeHistory, Show History, Show the history view.'
-#. Performing 'showInMyHistory, Show in My History'
-#. Performing ', Show Local Changes'
-#. Performing 'stdSetModeWt, Show Local Changes, Show the local files of the repository (Working Tree).'
-#. Performing 'stdSetModeHistory, Show History, Show the history view.'
-#. Performing ', Regular Expressions, Interpret the search pattern as regular expression.'
 #, fuzzy
 msgctxt "wndStd.mni:"
 msgid "Sort By Date"
 msgstr "日付で並べ替え"
 
-#. Performing 'preferences, Preferences'
-#. Showing dialog 21 (@8QDTTM) '@C7G5UO - Preferences' (owner: @UY1G4X)
-#. Showing dialog 22 (@YBCWK0) '@5LSZXP - Commit' (owner: @LZXAB0)
-#. Performing ', Don't Replace'
-#. Performing 'stdSetModeHistory, Show History, Show the history view.'
-#. Performing 'showInMyHistory, Show in My History'
-#. Performing ', Show Local Changes'
-#. Performing 'stdSetModeWt, Show Local Changes, Show the local files of the repository (Working Tree).'
-#. Performing 'stdSetModeHistory, Show History, Show the history view.'
-#. Performing ', Regular Expressions, Interpret the search pattern as regular expression.'
 #, fuzzy
 msgctxt "wndStd.mni:"
 msgid "Sort By Name \\(numbers reversed\\)"
 msgstr "名前で並べ替え \\(数値は逆順\\)"
 
-#. Performing 'preferences, Preferences'
-#. Showing dialog 21 (@8QDTTM) '@C7G5UO - Preferences' (owner: @UY1G4X)
-#. Showing dialog 22 (@YBCWK0) '@5LSZXP - Commit' (owner: @LZXAB0)
-#. Performing ', Don't Replace'
-#. Performing 'stdSetModeHistory, Show History, Show the history view.'
-#. Performing 'showInMyHistory, Show in My History'
-#. Performing ', Show Local Changes'
-#. Performing 'stdSetModeWt, Show Local Changes, Show the local files of the repository (Working Tree).'
-#. Performing 'stdSetModeHistory, Show History, Show the history view.'
-#. Performing ', Regular Expressions, Interpret the search pattern as regular expression.'
 #, fuzzy
 msgctxt "wndStd.mni:"
 msgid "Sort By Name"
 msgstr "名前で並べ替え"
 
-#. Performing 'changesView.sideBySide, Side by Side'
-#. Performing 'changesView.compact, Compact'
-#. Performing 'view-ignore-whitespaces, Ignore Whitespace, Ignore irrelevant whitespace'
-#. Performing 'changesView.compact, Compact'
-#. Performing 'view-ignore-whitespaces, Ignore Whitespace, Ignore irrelevant whitespace'
-#. Performing 'preferences, Preferences'
-#. Showing dialog 21 (@8QDTTM) '@C7G5UO - Preferences' (owner: @UY1G4X)
-#. Showing dialog 22 (@YBCWK0) '@5LSZXP - Commit' (owner: @LZXAB0)
-#. Performing ', Don't Replace'
-#. Performing 'stdSetModeHistory, Show History, Show the history view.'
 #, fuzzy
 msgctxt "wndStd.mniShowInMyHistory:"
 msgid "Show in My History"
 msgstr "マイヒストリーに表示"
 
-#. Performing ', OK'
-#. Performing 'stdSetModeHistory, Show History, Show the history view.'
-#. Performing 'reset, Reset..., Reset current branch (HEAD) to another commit.'
-#. Showing dialog 30 (@1L92FG) '@PYIXL5 - Reset' (owner: @LZXAB0)
-#. Performing ', Cancel'
-#. Performing 'resetAdvanced, Reset Advanced..., Reset current branch (HEAD) to another commit and keep the difference in Index or Working Tree.'
-#. Showing dialog 31 (@F88MLG) '@H9RKK8 - Reset' (owner: @LZXAB0)
-#. Performing ', Cancel'
-#. Performing 'log, Log, Show the history for selected file or directory.'
-#. opening smartgit.bFP@XDIYDG:messages.pot [<repository>] - Log for po/messages.pot@<commit> (smartgit.bFP@Z2EOIY)
 #, fuzzy
 msgctxt "wndStd.tbr:"
 msgid "Fetch All"
 msgstr "すべてフェッチ"
 
-#. Performing ', OK'
-#. Performing 'stdSetModeHistory, Show History, Show the history view.'
-#. Performing ', Reset'
-#. Performing ', Reset Adv.'
-#. Performing ', Log'
-#. Performing ', Blame'
-#. Performing ', Investigate'
-#. Performing ', Fetch All'
-#. Performing ', Fetch'
-#. Performing 'remoteFetchAll, Fetch All, Fetch commits from all remote repositories.'
 #, fuzzy
 msgctxt "wndStd.tbtRemoteFetchAll:"
 msgid "Fetch commits from all remote repositories."
 msgstr "すべてのリモートリポジトリからコミットを取得します。"
 
-#. Performing ', Log'
-#. Performing ', Blame'
-#. Performing ', Investigate'
-#. Performing ', Fetch All'
-#. Performing ', Fetch'
-#. Performing 'remoteFetchAll, Fetch All, Fetch commits from all remote repositories.'
-#. Performing 'revert, Revert..., Undo the changes of an existing commit by "reverse" merging it.'
-#. Showing dialog 29 (@LB2GPO) '@T0FREW - Revert' (owner: @LZXAB0)
-#. Performing ', OK'
-#. Performing 'stdSetModeHistory, Show History, Show the history view.'
 #, fuzzy
 msgctxt "wndStd.tbtReset:"
 msgid "Reset current branch \\(HEAD\\) to another commit."
 msgstr "現在のブランチ \\(HEAD\\) を別のコミットにリセットします。"
 
-#. Performing ', Fetch All'
-#. Performing ', Fetch'
-#. Performing 'remoteFetchAll, Fetch All, Fetch commits from all remote repositories.'
-#. Performing 'revert, Revert..., Undo the changes of an existing commit by "reverse" merging it.'
-#. Showing dialog 29 (@LB2GPO) '@T0FREW - Revert' (owner: @LZXAB0)
-#. Performing ', OK'
-#. Performing 'stdSetModeHistory, Show History, Show the history view.'
-#. Performing 'reset, Reset..., Reset current branch (HEAD) to another commit.'
-#. Showing dialog 30 (@1L92FG) '@PYIXL5 - Reset' (owner: @LZXAB0)
-#. Performing ', Cancel'
 #, fuzzy
 msgctxt "wndStd.tbtResetAdvanced:"
 msgid "Reset current branch \\(HEAD\\) to another commit and keep the difference in Index or Working Tree."
 msgstr "現在のブランチ \\(HEAD\\) を別のコミットにリセットし、差分をインデックスまたは作業ツリーに残します。"
 
-# DON'T EDIT, this file will be rewritten!
-# 
-# BUILD: 261029
-#
-#. Performing ', Close'
-#. Performing 'discoverWindow, Discover Windows, Discover the different main windows.'
-#. Showing dialog 1 (@MZUYAG) '@TH63MT - Discover Other SmartGit Windows' (owner: @1KXWU5)
-#. opening smartgit.aCW@UEDNO4:null (smartgit.aCW@37JKQE)
-#. Performing 'discoverWindow, Discover Windows, Discover the different main windows.'
-#. Showing dialog 2 (@IGTXAG) '@DN7RY0 - Discover Other SmartGit Windows' (owner: @37JKQE)
-#. opening smartgit.bTY@GQVHYR:SmartGit 26.1 RC (Working Tree) Evaluation until Jun 6 (smartgit.bTY@B3OD2V) (index=0)
-#. Showing dialog 3 (@SUSZH1) '@G4MFPE - Move and Squash Commit' (owner: @B3OD2V)
-#. Performing ', OK'
-#. Performing ', Close'
 #, fuzzy
 msgctxt "dlgSgHistoryPushedCommitsModifyDisallowed.tle:"
 msgid "Move and Squash Commit"
 msgstr "コミットを移動してスカッシュ"
 
-#. Performing ', Investigate'
-#. Performing ', Fetch All'
-#. Performing ', Fetch'
-#. Performing 'remoteFetchAll, Fetch All, Fetch commits from all remote repositories.'
-#. Performing 'revert, Revert..., Undo the changes of an existing commit by "reverse" merging it.'
-#. Showing dialog 29 (@LB2GPO) '@T0FREW - Revert' (owner: @LZXAB0)
-#. Performing ', OK'
-#. Performing 'stdSetModeHistory, Show History, Show the history view.'
-#. Performing 'reset, Reset..., Reset current branch (HEAD) to another commit.'
-#. Showing dialog 30 (@1L92FG) '@PYIXL5 - Reset' (owner: @LZXAB0)
 #. placeholder: $1=<branch_name>, $2=<commit_id>
 #, fuzzy
 msgctxt "dlgSgResetConfirm.hdl:"
 msgid "Do you want to reset '$1' to commit $2?"
 msgstr "'$1' をコミット $2 にリセットしますか？"
 
-#. Showing dialog 0 (@N6U9M7) '@MTA4BZ - Setup SmartGit 26.1 RC' (owner: null)
-#. Performing ', Next >'
-#. Showing dialog 1 (@4F9RVP) '@DLGOS5 - Setup SmartGit 26.1 RC' (owner: @N6U9M7)
-#. Performing ', Cancel'
-#. Performing ', Next >'
 #, fuzzy
 msgctxt "dlgSgSetup.hdl:"
 msgid "Looking for a Git installation"
 msgstr "Git インストールを検索中"
 
-#. Showing dialog 0 (@N6U9M7) '@MTA4BZ - Setup SmartGit 26.1 RC' (owner: null)
 msgctxt "dlgSgSetup.lbl:"
 msgid "- Working Tree and Graph\\n- repository tabs"
 msgstr "- 作業ツリーとグラフ\\n- リポジトリタブ"
 
-#. Showing dialog 0 (@N6U9M7) '@MTA4BZ - Setup SmartGit 26.1 RC' (owner: null)
 msgctxt "dlgSgSetup.lbl:"
 msgid "- Working Tree as graph node\\n- full feature set"
 msgstr "- グラフノードとしての作業ツリー\\n- すべての機能セット"
 
-#. Showing dialog 0 (@N6U9M7) '@MTA4BZ - Setup SmartGit 26.1 RC' (owner: null)
 msgctxt "dlgSgSetup.lbl:"
 msgid "- needs Log window for full history\\n- file display from submodules"
 msgstr "- 完全な履歴にはログウィンドウが必要\\n- サブモジュールからのファイル表示"
 
-#. Showing dialog 0 (@N6U9M7) '@MTA4BZ - Setup SmartGit 26.1 RC' (owner: null)
 msgctxt "dlgSgSetup.lbl:"
 msgid "\\[https://www.youtube.com/watch?v\\=T7kLnlS4pC8&t\\=22s Watch our short introduction video\\] to help you choose the best style for your workflow."
 msgstr "\\[https://www.youtube.com/watch?v\\=T7kLnlS4pC8&t\\=22s 短い紹介動画を見る\\] と、ワークフローに最適なスタイルを選ぶ参考になります。"
 
-#. Showing dialog 0 (@N6U9M7) '@MTA4BZ - Setup SmartGit 26.1 RC' (owner: null)
 msgctxt "dlgSgSetup.rbt:"
 msgid "Working Tree \\(file oriented\\)"
 msgstr "作業ツリー \\(ファイル中心\\)"
 
-#. Showing dialog 6 (@7Y4U21) '@ITB2DP - Preferences' (owner: @B3OD2V)
-#. Performing ', Cancel'
-#. Performing 'discoverWindow, Discover Windows, Discover the different main windows.'
-#. Showing dialog 7 (@I84WIT) '@SGIVZ5 - Discover Other SmartGit Windows' (owner: @B3OD2V)
-#. Performing 'preferences, Preferences'
-#. Showing dialog 8 (@M2792) '@EFJI6F - Preferences' (owner: @1KXWU5)
-#. Performing ', Paste'
-#. Performing 'preferences, Preferences'
-#. Showing dialog 9 (@AHK02F) '@J86XES - Preferences' (owner: @B3OD2V)
-#. Performing ', OK'
 #, fuzzy
 msgctxt "wndProject.tbtViewSeparateWtAndIndex:"
 msgid "If selected and Index as well as Working Tree changes are available, show them separately."
 msgstr "選択すると、インデックスと作業ツリーの両方に変更がある場合、それらを個別に表示します。"
 
-#. Performing 'preferences, Preferences'
-#. Showing dialog 21 (@8QDTTM) '@C7G5UO - Preferences' (owner: @UY1G4X)
-#. Showing dialog 22 (@YBCWK0) '@5LSZXP - Commit' (owner: @LZXAB0)
-#. Performing ', Don't Replace'
-#. Performing 'stdSetModeHistory, Show History, Show the history view.'
-#. Performing 'showInMyHistory, Show in My History'
-#. Performing ', Show Local Changes'
-#. Performing 'stdSetModeWt, Show Local Changes, Show the local files of the repository (Working Tree).'
-#. Performing 'stdSetModeHistory, Show History, Show the history view.'
-#. Performing ', Regular Expressions, Interpret the search pattern as regular expression.'
 #. placeholder: $1=<remote_name>
 #, fuzzy
 msgctxt "wndStd.mni:"
 msgid "Fetch '\\ud83d\\udd12$1'"
 msgstr "'\\ud83d\\udd12$1' をフェッチ"
 
-#. Performing 'preferences, Preferences'
-#. Showing dialog 21 (@8QDTTM) '@C7G5UO - Preferences' (owner: @UY1G4X)
-#. Showing dialog 22 (@YBCWK0) '@5LSZXP - Commit' (owner: @LZXAB0)
-#. Performing ', Don't Replace'
-#. Performing 'stdSetModeHistory, Show History, Show the history view.'
-#. Performing 'showInMyHistory, Show in My History'
-#. Performing ', Show Local Changes'
-#. Performing 'stdSetModeWt, Show Local Changes, Show the local files of the repository (Working Tree).'
-#. Performing 'stdSetModeHistory, Show History, Show the history view.'
-#. Performing ', Regular Expressions, Interpret the search pattern as regular expression.'
 #. placeholder: $1=<remote_name>
 #, fuzzy
 msgctxt "wndStd.mni:"
 msgid "Fetch '$1' \\(current\\) "
 msgstr "'$1' をフェッチ \\(現在\\) "
 
-#. Performing 'preferences, Preferences'
-#. Showing dialog 21 (@8QDTTM) '@C7G5UO - Preferences' (owner: @UY1G4X)
-#. Showing dialog 22 (@YBCWK0) '@5LSZXP - Commit' (owner: @LZXAB0)
-#. Performing ', Don't Replace'
-#. Performing 'stdSetModeHistory, Show History, Show the history view.'
-#. Performing 'showInMyHistory, Show in My History'
-#. Performing ', Show Local Changes'
-#. Performing 'stdSetModeWt, Show Local Changes, Show the local files of the repository (Working Tree).'
-#. Performing 'stdSetModeHistory, Show History, Show the history view.'
-#. Performing ', Regular Expressions, Interpret the search pattern as regular expression.'
 #. placeholder: $1=<remote_name>
 #, fuzzy
 msgctxt "wndStd.mni:"
 msgid "Fetch '$1'"
 msgstr "'$1' をフェッチ"
 
-# DON'T EDIT, this file will be rewritten!
-# 
-# BUILD: 261030
-# 
-#. Performing ', Refresh'
-#. Performing ', Log'
-#. Performing ', Blame'
-#. Performing 'log, Log, Show the history for selected file or directory.'
-#. opening smartgit.bFP@53O46I:ja_JP.po [<repository>] - Log for po/ja_JP.po@<commit_id> (smartgit.bFP@JEBXPF)
-#. Performing ', Merge'
-#. Performing ', Rebase'
-#. Performing ', Save Stash'
-#. Performing 'stashSave, Stash All..., Stash current local changes.'
-#. Showing dialog 3 (@5YRBQT) '@44Q1WM - Save Stash' (owner: @TEUOYL)
 #, fuzzy
 msgctxt "dlgSgStashAll.chk:"
 msgid "Create AI-generated stash message"
 msgstr "AI 生成のスタッシュメッセージを作成"
 
-#. Showing dialog 8 (@1IAL9U) '@HO3W51 - Delete' (owner: @TEUOYL)
-#. Performing ', Cancel'
-#. Performing 'remove, Remove..., Remove selected files or directories from repository.'
-#. Showing dialog 9 (@TEDH7A) '@P0XGMA - Remove' (owner: @TEUOYL)
-#. Performing ', Cancel'
-#. Performing ', All files, incl. ignored'
-#. Performing 'indexEditor, Index Editor, Edit the Index state of the selected file, e.g. to decide which lines should be staged.'
-#. opening smartgit.bfh@P4E4ZR:__init__.py - Index Editor (smartgit.bfh@JUNGVN)
-#. Performing 'flowFeatureStart, Start Feature..., Start a new feature branch.'
-#. Showing dialog 10 (@SU4MNH) '@8K041J - Feature Configuration' (owner: @TEUOYL)
 #, fuzzy
 msgctxt "dlgStdFeatureConfiguration.edt:"
 msgid "Trunk Branch"
 msgstr "トランクブランチ"
 
-#. Showing dialog 8 (@1IAL9U) '@HO3W51 - Delete' (owner: @TEUOYL)
-#. Performing ', Cancel'
-#. Performing 'remove, Remove..., Remove selected files or directories from repository.'
-#. Showing dialog 9 (@TEDH7A) '@P0XGMA - Remove' (owner: @TEUOYL)
-#. Performing ', Cancel'
-#. Performing ', All files, incl. ignored'
-#. Performing 'indexEditor, Index Editor, Edit the Index state of the selected file, e.g. to decide which lines should be staged.'
-#. opening smartgit.bfh@P4E4ZR:__init__.py - Index Editor (smartgit.bfh@JUNGVN)
-#. Performing 'flowFeatureStart, Start Feature..., Start a new feature branch.'
-#. Showing dialog 10 (@SU4MNH) '@8K041J - Feature Configuration' (owner: @TEUOYL)
 #, fuzzy
 msgctxt "dlgStdFeatureConfiguration.hdl:"
 msgid "Configure trunk branch"
 msgstr "トランクブランチの設定"
 
-#. Showing dialog 8 (@1IAL9U) '@HO3W51 - Delete' (owner: @TEUOYL)
-#. Performing ', Cancel'
-#. Performing 'remove, Remove..., Remove selected files or directories from repository.'
-#. Showing dialog 9 (@TEDH7A) '@P0XGMA - Remove' (owner: @TEUOYL)
-#. Performing ', Cancel'
-#. Performing ', All files, incl. ignored'
-#. Performing 'indexEditor, Index Editor, Edit the Index state of the selected file, e.g. to decide which lines should be staged.'
-#. opening smartgit.bfh@P4E4ZR:__init__.py - Index Editor (smartgit.bfh@JUNGVN)
-#. Performing 'flowFeatureStart, Start Feature..., Start a new feature branch.'
-#. Showing dialog 10 (@SU4MNH) '@8K041J - Feature Configuration' (owner: @TEUOYL)
 #, fuzzy
 msgctxt "dlgStdFeatureConfiguration.inf:"
 msgid "Set the trunk branch for your repository."
 msgstr "リポジトリのトランクブランチを設定します。"
 
-#. Showing dialog 8 (@1IAL9U) '@HO3W51 - Delete' (owner: @TEUOYL)
-#. Performing ', Cancel'
-#. Performing 'remove, Remove..., Remove selected files or directories from repository.'
-#. Showing dialog 9 (@TEDH7A) '@P0XGMA - Remove' (owner: @TEUOYL)
-#. Performing ', Cancel'
-#. Performing ', All files, incl. ignored'
-#. Performing 'indexEditor, Index Editor, Edit the Index state of the selected file, e.g. to decide which lines should be staged.'
-#. opening smartgit.bfh@P4E4ZR:__init__.py - Index Editor (smartgit.bfh@JUNGVN)
-#. Performing 'flowFeatureStart, Start Feature..., Start a new feature branch.'
-#. Showing dialog 10 (@SU4MNH) '@8K041J - Feature Configuration' (owner: @TEUOYL)
 #, fuzzy
 msgctxt "dlgStdFeatureConfiguration.lbl:"
 msgid "The 'trunk branch' represents the primary development branch of your repository and serves as a foundation for releases. Usually it is named 'develop', 'master' or 'main'.\\n\\nBranches that are used to develop a single new feature, bugfix or other related changes \\(temporarily\\) isolated from the trunk branch are called 'feature branch' \\(or short 'feature'\\). They typically have a special name prefix, e.g. 'feature/'.\\n\\nNew features will be forked off from a trunk branch using 'Start'. For an existing feature, new changes from the trunk branch will be integrated using 'Integrate'. Once you have finished the feature, you can incorporate it into the trunk branch using 'Finish'.\\n\\nFor extended configuration options, invoke '\\u30d6\\u30e9\\u30f3\\u30c1 \\| Feature \\u306e\\u8a2d\\u5b9a'."
 msgstr "'トランクブランチ' は、リポジトリの主要な開発ブランチを表し、リリースの基盤となります。通常は 'develop'、'master'、または 'main' という名前です。\\n\\nトランクブランチから \\(一時的に\\) 分離して、単一の新機能、バグ修正、またはその他の関連する変更を開発するために使用されるブランチは、'フィーチャーブランチ' \\(略して 'フィーチャー'\\) と呼ばれます。通常、'feature/' などの特別な名前のプレフィックスを持ちます。\\n\\n新しいフィーチャーは、'開始' を使用してトランクブランチから分岐します。既存のフィーチャーでは、'統合' を使用してトランクブランチからの新しい変更を取り込みます。フィーチャーの作業が完了したら、'完了' を使用してトランクブランチに取り込めます。\\n\\n詳細な設定オプションについては、'\\u30d6\\u30e9\\u30f3\\u30c1 \\| Feature \\u306e\\u8a2d\\u5b9a' を呼び出してください。"
 
-#. Performing 'delete, Delete..., Delete the selected local files or directory.'
-#. Showing dialog 8 (@1IAL9U) '@HO3W51 - Delete' (owner: @TEUOYL)
-#. Performing ', Cancel'
-#. Performing 'remove, Remove..., Remove selected files or directories from repository.'
-#. Showing dialog 9 (@TEDH7A) '@P0XGMA - Remove' (owner: @TEUOYL)
-#. Performing ', Cancel'
-#. Performing ', All files, incl. ignored'
-#. Performing 'indexEditor, Index Editor, Edit the Index state of the selected file, e.g. to decide which lines should be staged.'
-#. opening smartgit.bfh@P4E4ZR:__init__.py - Index Editor (smartgit.bfh@JUNGVN)
-#. Performing 'flowFeatureStart, Start Feature..., Start a new feature branch.'
 #, fuzzy
 msgctxt "dlgStdFeatureConfiguration.tle:"
 msgid "Feature Configuration"
 msgstr "フィーチャー設定"
 
-#. Performing ', Blame'
-#. Performing ', Investigate'
-#. Performing ', All files, excl. ignored'
-#. Performing 'remove, Remove..., Remove selected files or directories from repository.'
-#. Showing dialog 7 (@YTD074) '@FK86HT - Remove' (owner: @TEUOYL)
-#. Performing ', Cancel'
-#. Performing 'delete, Delete..., Delete the selected local files or directory.'
-#. Showing dialog 8 (@1IAL9U) '@HO3W51 - Delete' (owner: @TEUOYL)
-#. Performing ', Cancel'
-#. Performing 'remove, Remove..., Remove selected files or directories from repository.'
 #, fuzzy
 msgctxt "dlgStdRemove.tle:"
 msgid "Remove"
 msgstr "削除"
 
-#. opening smartgit.bFP@53O46I:ja_JP.po [<repository>] - Log for po/ja_JP.po@<commit_id> (smartgit.bFP@JEBXPF)
-#. Performing ', Merge'
-#. Performing ', Rebase'
-#. Performing ', Save Stash'
-#. Performing 'stashSave, Stash All..., Stash current local changes.'
-#. Showing dialog 3 (@5YRBQT) '@44Q1WM - Save Stash' (owner: @TEUOYL)
-#. Performing ', Cancel'
-#. Performing 'stashApply, Apply Stash..., Reapply local changes from a stash.'
-#. Showing dialog 4 (@GKGQ9K) '@WTRNW0 - Apply Stash' (owner: @TEUOYL)
-#. Performing ', Cancel'
 #, fuzzy
 msgctxt "wndStd.mni:"
 msgid "GitLab"
 msgstr "GitLab"
 
-#. opening smartgit.bFP@53O46I:ja_JP.po [<repository>] - Log for po/ja_JP.po@<commit_id> (smartgit.bFP@JEBXPF)
-#. Performing ', Merge'
-#. Performing ', Rebase'
-#. Performing ', Save Stash'
-#. Performing 'stashSave, Stash All..., Stash current local changes.'
-#. Showing dialog 3 (@5YRBQT) '@44Q1WM - Save Stash' (owner: @TEUOYL)
-#. Performing ', Cancel'
-#. Performing 'stashApply, Apply Stash..., Reapply local changes from a stash.'
-#. Showing dialog 4 (@GKGQ9K) '@WTRNW0 - Apply Stash' (owner: @TEUOYL)
-#. Performing ', Cancel'
 #, fuzzy
 msgctxt "wndStd.mni:"
 msgid "Multiple Selected Providers"
 msgstr "複数のプロバイダーが選択されています"
 
-#. opening smartgit.bFP@53O46I:ja_JP.po [<repository>] - Log for po/ja_JP.po@<commit_id> (smartgit.bFP@JEBXPF)
-#. Performing ', Merge'
-#. Performing ', Rebase'
-#. Performing ', Save Stash'
-#. Performing 'stashSave, Stash All..., Stash current local changes.'
-#. Showing dialog 3 (@5YRBQT) '@44Q1WM - Save Stash' (owner: @TEUOYL)
-#. Performing ', Cancel'
-#. Performing 'stashApply, Apply Stash..., Reapply local changes from a stash.'
-#. Showing dialog 4 (@GKGQ9K) '@WTRNW0 - Apply Stash' (owner: @TEUOYL)
-#. Performing ', Cancel'
 #. placeholder: $1=<branch_name>
 #, fuzzy
 msgctxt "wndStd.mni:"
 msgid "On $1: SmartGit: automatic stash on Edit Message."
 msgstr "$1 上: SmartGit: メッセージ編集時の自動スタッシュ。"
 
-#. opening smartgit.bFP@53O46I:ja_JP.po [<repository>] - Log for po/ja_JP.po@<commit_id> (smartgit.bFP@JEBXPF)
-#. Performing ', Merge'
-#. Performing ', Rebase'
-#. Performing ', Save Stash'
-#. Performing 'stashSave, Stash All..., Stash current local changes.'
-#. Showing dialog 3 (@5YRBQT) '@44Q1WM - Save Stash' (owner: @TEUOYL)
-#. Performing ', Cancel'
-#. Performing 'stashApply, Apply Stash..., Reapply local changes from a stash.'
-#. Showing dialog 4 (@GKGQ9K) '@WTRNW0 - Apply Stash' (owner: @TEUOYL)
-#. Performing ', Cancel'
 #, fuzzy
 msgctxt "wndStd.mni:"
 msgid "Refresh"
 msgstr "更新"
 
-#. opening smartgit.bFP@53O46I:ja_JP.po [<repository>] - Log for po/ja_JP.po@<commit_id> (smartgit.bFP@JEBXPF)
-#. Performing ', Merge'
-#. Performing ', Rebase'
-#. Performing ', Save Stash'
-#. Performing 'stashSave, Stash All..., Stash current local changes.'
-#. Showing dialog 3 (@5YRBQT) '@44Q1WM - Save Stash' (owner: @TEUOYL)
-#. Performing ', Cancel'
-#. Performing 'stashApply, Apply Stash..., Reapply local changes from a stash.'
-#. Showing dialog 4 (@GKGQ9K) '@WTRNW0 - Apply Stash' (owner: @TEUOYL)
-#. Performing ', Cancel'
 #, fuzzy
 msgctxt "wndStd.mni:"
 msgid "github.com"
 msgstr "github.com"
 
-#. Performing 'investigate, Investigate, Investigate history line-wise with DeepGit.'
-#. opening smartgit.bfS@T5MHJE:Investigate (smartgit.bfS@UI9U88)
-#. Performing ', Fetch'
-#. Performing ', Fetch All'
-#. Performing ', Add Branch'
-#. Performing ', Add Tag'
-#. Performing 'branchAdd, Add Branch..., Add a new branch for the current commit.'
-#. Showing dialog 5 (@3OU24J) '@45ORK6 - Add Branch' (owner: @TEUOYL)
-#. Performing 'branchAddTag, Add Tag..., Add a new tag for the current commit.'
-#. Showing dialog 6 (@E6V7Y3) '@LWWB1 - Add Tag' (owner: @TEUOYL)
 #, fuzzy
 msgctxt "wndStd.tbtIntegrateMain:"
 msgid "Integrate latest changes from the trunk branch into the current feature branch."
 msgstr "トランクブランチから最新の変更を現在のフィーチャーブランチに統合します。"
 
-#. Performing ', Cancel'
-#. Performing 'delete, Delete..., Delete the selected local files or directory.'
-#. Showing dialog 8 (@1IAL9U) '@HO3W51 - Delete' (owner: @TEUOYL)
-#. Performing ', Cancel'
-#. Performing 'remove, Remove..., Remove selected files or directories from repository.'
-#. Showing dialog 9 (@TEDH7A) '@P0XGMA - Remove' (owner: @TEUOYL)
-#. Performing ', Cancel'
-#. Performing ', All files, incl. ignored'
-#. Performing 'indexEditor, Index Editor, Edit the Index state of the selected file, e.g. to decide which lines should be staged.'
-#. opening smartgit.bfh@P4E4ZR:__init__.py - Index Editor (smartgit.bfh@JUNGVN)
 #, fuzzy
 msgctxt "wndStd.tbtStdProviderButton:"
 msgid "Select a provider"
 msgstr "プロバイダーを選択"
 
-# DON'T EDIT, this file will be rewritten!
-#
-# BUILD: 261030
-#
-#. Performing ', github.com...'
-#. Showing dialog 7 (@BTVN65) '@MW39X8 - GitHub Projects' (owner: @GNC9KI)
-#. Performing ', Cancel'
-#. Performing ', Provider'
-#. Performing ', Bitbucket...'
-#. Showing dialog 8 (@3GD0OM) '@1AZS1K - Add Hosting Provider' (owner: @GNC9KI)
-#. Performing ', Generate Token'
-#. Showing dialog 9 (@JSL5GM) '@U7W62E - Generate API Token' (owner: @3GD0OM)
-#. Performing ', Add'
-#. Showing dialog 10 (@IEDGEX) '@V1SI0F - Checking connectivity' (owner: @3GD0OM)
 #, fuzzy
 msgctxt "dlgSgHostingProviderSelectRepository.tle:"
 msgid "Bitbucket Projects"
 msgstr "Bitbucket プロジェクト"
 
-#. Performing ', Pull'
-#. Showing dialog 3 (@W8LMWF) '@Z0Q2RZ - SSH Authentication' (owner: @4LR1I8)
-#. Performing ', Open file chooser.'
-#. Performing ', Login'
-#. Showing dialog 4 (@6BGV8Y) '@LRX770 - Passwords' (owner: @W8LMWF)
-#. Performing ', OK'
-#. Performing 'remoteAdd, Add...'
-#. Showing dialog 5 (@GNC9KI) '@73FWTT - Add Remote Repository' (owner: @4LR1I8)
-#. Performing ', Provider'
-#. Performing ', GitLab...'
 #, fuzzy
 msgctxt "dlgSgHostingProviderSelectRepository.tle:"
 msgid "GitLab Projects"
 msgstr "GitLab プロジェクト"
 
-#. Performing ', Close'
-#. Performing 'editFile, Edit File'
-#. opening smartgit.cnX@GG6LE:<file_name> - [<directory>] - Editor (smartgit.cnX@JTVTQ7)
-#. Performing 'editFile, Edit File'
-#. opening smartgit.cnX@A0JRJZ:<file_name> - [<directory>] - Editor (smartgit.cnX@O3MFZ9)
-#. Showing dialog 12 (@YRJI1E) '@4IABQ6 - File Changed' (owner: @O3MFZ9)
-#. Performing ', Cancel'
-#. Showing dialog 13 (@X6EQFZ) '@N4PZXG - File Changed' (owner: @O3MFZ9)
-#. Performing ', Discard'
-#. Performing 'stage, Stage, Store working tree files in the index to prepare the next commit.'
 #, fuzzy
 msgctxt "wndLog.mni:"
 msgid "Select from GitLab"
@@ -20248,279 +19354,91 @@ msgctxt "wndStd.mni:"
 msgid "github \\(active\\)"
 msgstr "github \\(アクティブ\\)"
 
-# DON'T EDIT, this file will be rewritten!
-# 
-# BUILD: 261031
-# 
-#. Showing dialog 0 (@G8L14N) '@GSP36S - About SmartGit' (owner: @UZ2V0R)
-#. Performing ',   Open in Explorer'
-#. Performing ', Close'
-#. Performing ', Close'
-#. Performing ', Close'
-#. Performing 'changesView.compact, Compact'
-#. Performing '@smartgit.bGt'
-#. opening smartgit.brT@FJ9G8A:[po/ja_JP.po] - File Compare (smartgit.brT@HDMWO)
-#. Performing 'preferences, Preferences'
-#. Showing dialog 1 (@U8KDDP) '@HT06E6 - Preferences' (owner: @UZ2V0R)
 #, fuzzy
 msgctxt "dlgSgPreferences.lbl\"<a href\\=\\\"https://docs.syntevo.com/SmartGit/HowTos/Internationalization-for-developers-authors-.html\\\">Translations are community-contributed</a>\""
 msgid "<a href\\=\"https://docs.syntevo.com/SmartGit/HowTos/Internationalization-for-developers-authors-.html\">Translations are community-contributed</a>"
 msgstr "<a href=\\\"https://docs.syntevo.com/SmartGit/HowTos/Internationalization-for-developers-authors-.html\">翻訳はコミュニティによって提供されています</a>"
 
-#. Performing ', Close'
-#. Performing ', Close'
-#. Performing '@smartgit.bJM'
-#. Performing ', Close'
-#. Performing '@smartgit.bJM'
-#. Performing 'about, About SmartGit'
-#. Showing dialog 2 (@EGJ04N) '@1H06U - About SmartGit' (owner: @6CV5S6)
-#. Performing ', Reveal directory in file manager'
-#. Performing 'branchSplitFiles, Split Off Files...'
-#. Showing dialog 3 (@HOS6W0) '@CVUQPH - Commit' (owner: @6CV5S6)
 #, fuzzy
 msgctxt "dlgSgSplitOffFilesEmptyCommit.hdl:"
 msgid "You can't split off all files from a commit."
 msgstr "コミットからすべてのファイルを切り出すことはできません。"
 
-# DON'T EDIT, this file will be rewritten!
-#
-# BUILD: 261031
-#
-#. Performing 'delete, Delete..., Delete the selected local files or directory.'
-#. Showing dialog 63 (@WVOXIK) '@9VIBAK - Delete' (owner: @AZGTCG)
-#. Performing ', Delete'
-#. Performing 'delete, Delete..., Delete the selected local files or directory.'
-#. Showing dialog 64 (@KRHU41) '@UJJGWJ - Delete' (owner: @AZGTCG)
-#. Performing ', Delete'
-#. Performing ',   Reveal in Explorer'
-#. Performing ',   Reveal in Explorer'
-#. Performing 'viewIgnored, Show Ignored Files, If selected, ignored files will be shown.'
-#. Performing ', ID'
 #, fuzzy
 msgctxt "ttpLogGraphOverlap:"
 msgid "<b>Click</b> on this symbol to fixate overlap display on this commit."
 msgstr "このシンボルを<b>クリック</b>すると、このコミットで重ね合わせ表示を固定します。"
 
-#. Performing 'delete, Delete..., Delete the selected local files or directory.'
-#. Showing dialog 63 (@WVOXIK) '@9VIBAK - Delete' (owner: @AZGTCG)
-#. Performing ', Delete'
-#. Performing 'delete, Delete..., Delete the selected local files or directory.'
-#. Showing dialog 64 (@KRHU41) '@UJJGWJ - Delete' (owner: @AZGTCG)
-#. Performing ', Delete'
-#. Performing ',   Reveal in Explorer'
-#. Performing ',   Reveal in Explorer'
-#. Performing 'viewIgnored, Show Ignored Files, If selected, ignored files will be shown.'
-#. Performing ', ID'
 #, fuzzy
 msgctxt "ttpLogGraphOverlap:"
 msgid "<b>Common Files</b>"
 msgstr "<b>共通ファイル</b>"
 
-#. Performing ', Configure...'
-#. Showing dialog 67 (@HA5JTL) '@UW0SIR - Master Password' (owner: @IA7AMI)
-#. Performing ', OK'
-#. Showing dialog 68 (@4K73BI) '@C8LSLV - Add Hosting Provider' (owner: @IA7AMI)
-#. Performing ', Generate Token'
-#. Showing dialog 69 (@ABAH2K) '@AZO3VX - Generate API Token' (owner: @4K73BI)
-#. Performing ', Add'
-#. Showing dialog 70 (@57UUU1) '@QZ2J42 - Checking connectivity' (owner: @4K73BI)
-#. Performing ', Next >'
-#. Performing ', Finish'
 #, fuzzy
 msgctxt "ttpLogGraphOverlap:"
 msgid "<b>Error processing commit</b>"
 msgstr "<b>コミットの処理中にエラー</b>"
 
-#. Performing 'delete, Delete..., Delete the selected local files or directory.'
-#. Showing dialog 63 (@WVOXIK) '@9VIBAK - Delete' (owner: @AZGTCG)
-#. Performing ', Delete'
-#. Performing 'delete, Delete..., Delete the selected local files or directory.'
-#. Showing dialog 64 (@KRHU41) '@UJJGWJ - Delete' (owner: @AZGTCG)
-#. Performing ', Delete'
-#. Performing ',   Reveal in Explorer'
-#. Performing ',   Reveal in Explorer'
-#. Performing 'viewIgnored, Show Ignored Files, If selected, ignored files will be shown.'
-#. Performing ', ID'
 #, fuzzy
 msgctxt "ttpLogGraphOverlap:"
 msgid "<b>Hover</b> over other commits to see their overlap with this one."
 msgstr "他のコミットに<b>マウスオーバー</b>すると、このコミットとの重なりを確認できます。"
 
-#. Performing 'delete, Delete..., Delete the selected local files or directory.'
-#. Showing dialog 63 (@WVOXIK) '@9VIBAK - Delete' (owner: @AZGTCG)
-#. Performing ', Delete'
-#. Performing 'delete, Delete..., Delete the selected local files or directory.'
-#. Showing dialog 64 (@KRHU41) '@UJJGWJ - Delete' (owner: @AZGTCG)
-#. Performing ', Delete'
-#. Performing ',   Reveal in Explorer'
-#. Performing ',   Reveal in Explorer'
-#. Performing 'viewIgnored, Show Ignored Files, If selected, ignored files will be shown.'
-#. Performing ', ID'
 #, fuzzy
 msgctxt "ttpLogGraphOverlap:"
 msgid "<b>No Overlap</b>"
 msgstr "<b>重なりなし</b>"
 
-#. Performing 'delete, Delete..., Delete the selected local files or directory.'
-#. Showing dialog 63 (@WVOXIK) '@9VIBAK - Delete' (owner: @AZGTCG)
-#. Performing ', Delete'
-#. Performing 'delete, Delete..., Delete the selected local files or directory.'
-#. Showing dialog 64 (@KRHU41) '@UJJGWJ - Delete' (owner: @AZGTCG)
-#. Performing ', Delete'
-#. Performing ',   Reveal in Explorer'
-#. Performing ',   Reveal in Explorer'
-#. Performing 'viewIgnored, Show Ignored Files, If selected, ignored files will be shown.'
-#. Performing ', ID'
 #, fuzzy
 msgctxt "ttpLogGraphOverlap:"
 msgid "<b>Potential Conflicts</b>"
 msgstr "<b>競合の可能性</b>"
 
-#. Performing 'delete, Delete..., Delete the selected local files or directory.'
-#. Showing dialog 63 (@WVOXIK) '@9VIBAK - Delete' (owner: @AZGTCG)
-#. Performing ', Delete'
-#. Performing 'delete, Delete..., Delete the selected local files or directory.'
-#. Showing dialog 64 (@KRHU41) '@UJJGWJ - Delete' (owner: @AZGTCG)
-#. Performing ', Delete'
-#. Performing ',   Reveal in Explorer'
-#. Performing ',   Reveal in Explorer'
-#. Performing 'viewIgnored, Show Ignored Files, If selected, ignored files will be shown.'
-#. Performing ', ID'
 #, fuzzy
 msgctxt "ttpLogGraphOverlap:"
 msgid "<b>Same Modified Files</b>"
 msgstr "<b>同一の変更ファイル</b>"
 
-#. Performing 'delete, Delete..., Delete the selected local files or directory.'
-#. Showing dialog 63 (@WVOXIK) '@9VIBAK - Delete' (owner: @AZGTCG)
-#. Performing ', Delete'
-#. Performing 'delete, Delete..., Delete the selected local files or directory.'
-#. Showing dialog 64 (@KRHU41) '@UJJGWJ - Delete' (owner: @AZGTCG)
-#. Performing ', Delete'
-#. Performing ',   Reveal in Explorer'
-#. Performing ',   Reveal in Explorer'
-#. Performing 'viewIgnored, Show Ignored Files, If selected, ignored files will be shown.'
-#. Performing ', ID'
 #, fuzzy
 msgctxt "ttpLogGraphOverlap:"
 msgid "<b>Selected Commit</b>"
 msgstr "<b>選択したコミット</b>"
 
-#. Performing 'delete, Delete..., Delete the selected local files or directory.'
-#. Showing dialog 63 (@WVOXIK) '@9VIBAK - Delete' (owner: @AZGTCG)
-#. Performing ', Delete'
-#. Performing 'delete, Delete..., Delete the selected local files or directory.'
-#. Showing dialog 64 (@KRHU41) '@UJJGWJ - Delete' (owner: @AZGTCG)
-#. Performing ', Delete'
-#. Performing ',   Reveal in Explorer'
-#. Performing ',   Reveal in Explorer'
-#. Performing 'viewIgnored, Show Ignored Files, If selected, ignored files will be shown.'
-#. Performing ', ID'
 #, fuzzy
 msgctxt "ttpLogGraphOverlap:"
 msgid "<b>Superset</b>"
 msgstr "<b>包含</b>"
 
-#. Performing 'delete, Delete..., Delete the selected local files or directory.'
-#. Showing dialog 63 (@WVOXIK) '@9VIBAK - Delete' (owner: @AZGTCG)
-#. Performing ', Delete'
-#. Performing 'delete, Delete..., Delete the selected local files or directory.'
-#. Showing dialog 64 (@KRHU41) '@UJJGWJ - Delete' (owner: @AZGTCG)
-#. Performing ', Delete'
-#. Performing ',   Reveal in Explorer'
-#. Performing ',   Reveal in Explorer'
-#. Performing 'viewIgnored, Show Ignored Files, If selected, ignored files will be shown.'
-#. Performing ', ID'
 #, fuzzy
 msgctxt "ttpLogGraphOverlap:"
 msgid "Commit modifies all files which are modified in the selected commit."
 msgstr "このコミットは、選択したコミットで変更されているすべてのファイルを変更しています。"
 
-#. Performing ', Configure...'
-#. Showing dialog 67 (@HA5JTL) '@UW0SIR - Master Password' (owner: @IA7AMI)
-#. Performing ', OK'
-#. Showing dialog 68 (@4K73BI) '@C8LSLV - Add Hosting Provider' (owner: @IA7AMI)
-#. Performing ', Generate Token'
-#. Showing dialog 69 (@ABAH2K) '@AZO3VX - Generate API Token' (owner: @4K73BI)
-#. Performing ', Add'
-#. Showing dialog 70 (@57UUU1) '@QZ2J42 - Checking connectivity' (owner: @4K73BI)
-#. Performing ', Next >'
-#. Performing ', Finish'
 #, fuzzy
 msgctxt "ttpLogGraphOverlap:"
 msgid "Diff is too large to handle."
 msgstr "差分が大きすぎるため処理できません。"
 
-#. Performing ', Configure...'
-#. Showing dialog 67 (@HA5JTL) '@UW0SIR - Master Password' (owner: @IA7AMI)
-#. Performing ', OK'
-#. Showing dialog 68 (@4K73BI) '@C8LSLV - Add Hosting Provider' (owner: @IA7AMI)
-#. Performing ', Generate Token'
-#. Showing dialog 69 (@ABAH2K) '@AZO3VX - Generate API Token' (owner: @4K73BI)
-#. Performing ', Add'
-#. Showing dialog 70 (@57UUU1) '@QZ2J42 - Checking connectivity' (owner: @4K73BI)
-#. Performing ', Next >'
-#. Performing ', Finish'
 #, fuzzy
 msgctxt "ttpLogGraphOverlap:"
 msgid "If necessary, increase the value <i>log.graph.overlap.maxDiffSize</i>"
 msgstr "必要に応じて、<i>log.graph.overlap.maxDiffSize</i> の値を増やしてください"
 
-#. Performing 'delete, Delete..., Delete the selected local files or directory.'
-#. Showing dialog 63 (@WVOXIK) '@9VIBAK - Delete' (owner: @AZGTCG)
-#. Performing ', Delete'
-#. Performing 'delete, Delete..., Delete the selected local files or directory.'
-#. Showing dialog 64 (@KRHU41) '@UJJGWJ - Delete' (owner: @AZGTCG)
-#. Performing ', Delete'
-#. Performing ',   Reveal in Explorer'
-#. Performing ',   Reveal in Explorer'
-#. Performing 'viewIgnored, Show Ignored Files, If selected, ignored files will be shown.'
-#. Performing ', ID'
 #, fuzzy
 msgctxt "ttpLogGraphOverlap:"
 msgid "This commit and the selected commits modify exactly the same files."
 msgstr "このコミットと選択したコミットは、まったく同じファイルを変更しています。"
 
-#. Performing 'delete, Delete..., Delete the selected local files or directory.'
-#. Showing dialog 63 (@WVOXIK) '@9VIBAK - Delete' (owner: @AZGTCG)
-#. Performing ', Delete'
-#. Performing 'delete, Delete..., Delete the selected local files or directory.'
-#. Showing dialog 64 (@KRHU41) '@UJJGWJ - Delete' (owner: @AZGTCG)
-#. Performing ', Delete'
-#. Performing ',   Reveal in Explorer'
-#. Performing ',   Reveal in Explorer'
-#. Performing 'viewIgnored, Show Ignored Files, If selected, ignored files will be shown.'
-#. Performing ', ID'
 #, fuzzy
 msgctxt "ttpLogGraphOverlap:"
 msgid "This commit does not have any overlap with selected commit."
 msgstr "このコミットは、選択したコミットと重なっていません。"
 
-#. Performing ', Configure...'
-#. Showing dialog 67 (@HA5JTL) '@UW0SIR - Master Password' (owner: @IA7AMI)
-#. Performing ', OK'
-#. Showing dialog 68 (@4K73BI) '@C8LSLV - Add Hosting Provider' (owner: @IA7AMI)
-#. Performing ', Generate Token'
-#. Showing dialog 69 (@ABAH2K) '@AZO3VX - Generate API Token' (owner: @4K73BI)
-#. Performing ', Add'
-#. Showing dialog 70 (@57UUU1) '@QZ2J42 - Checking connectivity' (owner: @4K73BI)
-#. Performing ', Next >'
-#. Performing ', Finish'
 #, fuzzy
 msgctxt "ttpLogGraphOverlap:"
 msgid "To disable, deactivate the <i>Overlap</i> column in the hamburger menu of the log graph."
 msgstr "無効にするには、ロググラフのハンバーガーメニューで <i>重ね合わせ</i> 列を無効にしてください。"
 
-#. Performing 'delete, Delete..., Delete the selected local files or directory.'
-#. Showing dialog 63 (@WVOXIK) '@9VIBAK - Delete' (owner: @AZGTCG)
-#. Performing ', Delete'
-#. Performing 'delete, Delete..., Delete the selected local files or directory.'
-#. Showing dialog 64 (@KRHU41) '@UJJGWJ - Delete' (owner: @AZGTCG)
-#. Performing ', Delete'
-#. Performing ',   Reveal in Explorer'
-#. Performing ',   Reveal in Explorer'
-#. Performing 'viewIgnored, Show Ignored Files, If selected, ignored files will be shown.'
-#. Performing ', ID'
 #. placeholder: $1=<commit_message>
 #. placeholder: $2=<commit_id>
 #, fuzzy
@@ -20528,82 +19446,36 @@ msgctxt "ttpLogGraphOverlap:"
 msgid "You're looking at info about overlap of this commit to <b>$1</b> \\($2\\)."
 msgstr "このコミットと <b>$1</b> \\($2\\) の重なりに関する情報を表示しています。"
 
-# DON'T EDIT, this file will be rewritten!
-#
-# BUILD: 261031
-#
-#. Showing dialog 0 (@5W4RC3) '@BZ7MT8 - Setup SmartGit 26.1 RC' (owner: null)
 #, fuzzy
 msgctxt "dlgSgSetup.lbl\"<a href\\=\\\"click\\\">Have an on-premise license server?</a>\""
 msgid "<a href\\=\"click\">Have an on-premise license server?</a>"
 msgstr "<a href\\=\"click\">オンプレミスのライセンスサーバーをお持ちですか?</a>"
 
-#. Showing dialog 0 (@5W4RC3) '@BZ7MT8 - Setup SmartGit 26.1 RC' (owner: null)
 #, fuzzy
 msgctxt "dlgSgSetup.lbl\"<a href\\=\\\"click\\\">Register a plain license file</a>\""
 msgid "<a href\\=\"click\">Register a plain license file</a>"
 msgstr "<a href\\=\"click\">ライセンスファイルを直接登録</a>"
 
-#. Showing dialog 0 (@5W4RC3) '@BZ7MT8 - Setup SmartGit 26.1 RC' (owner: null)
 #, fuzzy
 msgctxt "dlgSgSetup.lbl\"<a href\\=\\\"dummy\\\">license agreement</a>\""
 msgid "<a href\\=\"dummy\">license agreement</a>"
 msgstr "<a href\\=\"dummy\">使用許諾契約</a>"
 
-#. Showing dialog 0 (@5W4RC3) '@BZ7MT8 - Setup SmartGit 26.1 RC' (owner: null)
 #, fuzzy
 msgctxt "dlgSgSetup.lbl\"<a href\\=\\\"search\\\">Search</a> common installation locations.\""
 msgid "<a href\\=\"search\">Search</a> common installation locations."
 msgstr "一般的なインストール場所を<a href\\=\"search\">検索</a>します。"
 
-# DON'T EDIT, this file will be rewritten!
-#
-# BUILD: 261031
-#
-#. Performing ', Add'
-#. Performing ', GitLab'
-#. Showing dialog 13 (@4WLZ13) '@446N8P - Add Hosting Provider' (owner: @7QN5KC)
-#. Performing ', Cancel'
-#. Performing ', Add'
-#. Performing ', GitLab'
-#. Showing dialog 14 (@QZAQHY) '@LFMPO7 - Add Hosting Provider' (owner: @7QN5KC)
-#. Performing ', Add'
-#. Performing ', GitLab (Self Hosted)'
-#. Showing dialog 15 (@SBISFW) '@VQOSD9 - Add Hosting Provider' (owner: @7QN5KC)
 #, fuzzy
 msgctxt "dlgSgHostingProviderAdd.lbl:"
 msgid "Provide a 'personal access token' which you can generate in your \\[link GitLab account settings\\]. Required scopes are \\*api\\* and \\*write\\\\_repository\\*."
 msgstr "\\[link GitLab アカウント設定\\]で生成できる「個人アクセストークン」を入力してください。必要なスコープは \\*api\\* と \\*write\\\\_repository\\* です。"
 
-#. Performing ', Close'
-#. Performing ', Close'
-#. Performing ', Close'
-#. Performing 'preferences, Preferences'
-#. Showing dialog 5 (@7QN5KC) '@NXD08K - Preferences' (owner: @SLPJA)
-#. Performing ', Add'
-#. Performing ', GitHub'
-#. Showing dialog 6 (@4483UN) '@WVRO0W - Master Password' (owner: @7QN5KC)
-#. Performing ', OK'
-#. Showing dialog 7 (@FSKBVB) '@ZFOU7Y - Add Hosting Provider' (owner: @7QN5KC)
 #, fuzzy
 msgctxt "dlgSgHostingProviderAdd.lbl\"You can review the GitHub application settings <a href\\=\\\"\\\">here</a>.\""
 msgid "You can review the GitHub application settings <a href\\=\"\">here</a>."
 msgstr "GitHub アプリケーションの設定は <a href\\=\"\">こちら</a> で確認できます。"
 
-# DON'T EDIT, this file will be rewritten!
-#
-# BUILD: 261031
-#
-#. Performing 'checkout, Check Out..., Check out an existing commit.'
-#. Showing dialog 0 (@EO27CK) '@4MPXRU - Check Out' (owner: @XQGV0X)
-#. Performing ', Cancel'
-#. Performing 'revealPrevCommit, Reveal Previous Commit, Go back to previous graph selection.'
-#. Performing 'revealHomeCommit, Reveal Working Tree, Reveal HEAD/working tree in graph.'
-#. Performing 'viewUnchanged, Show Unchanged Files, If selected, unchanged files will be shown.'
-#. Performing 'branchSplitFiles, Split Off Files...'
-#. Showing dialog 1 (@MZG33T) '@QIL477 - Split Off Files' (owner: @XQGV0X)
-#. Performing ', OK'
-#. Performing 'branchSplitFiles, Split Off Files...'
 #, fuzzy
 msgctxt "dlgSgHistoryPushedCommitsModifyDisallowed.tle:"
 msgid "Split Off Files"
@@ -23144,178 +22016,61 @@ msgctxt "lblPropertyDescription-window.title.showRepositoryPath:"
 msgid "This option configures whether for the main window title the repository path should be shown in addition to the repository name."
 msgstr "メインウィンドウのタイトルに、リポジトリ名に加えてリポジトリパスを表示するかどうかを設定します。"
 
-#. opening smartgit.bJC@SJ2B8C:SmartGit 26.1 RC Evaluation until Jun 7 (smartgit.bJC@CVW8WB)
-#. Performing 'preferences, Preferences'
-#. Showing dialog 0 (@S4N69Z) '@CUB8LH - Preferences' (owner: @CVW8WB)
-#. Performing 'preferences, Preferences'
-#. Showing dialog 1 (@MHLSNF) '@59AAAH - Preferences' (owner: @CVW8WB)
-#. Performing ', Edit...'
-#. Showing dialog 2 (@58FEV5) '@KJTOWR - Edit Property' (owner: @MHLSNF)
-#. Performing ', Cancel'
-#. Performing 'preferences, Preferences'
-#. Showing dialog 3 (@41HE84) '@76VH8R - Preferences' (owner: @CVW8WB)
 #, fuzzy
 msgctxt "nttDemoReminder:"
 msgid "Purchase"
 msgstr "購入"
 
-#. Performing ', Close'
-#. Performing 'preferences, Preferences'
-#. Showing dialog 17 (@BTGF4Z) '@XGPLT - Preferences' (owner: @XQGV0X)
-#. Performing ', <directory> > <repository>'
-#. Performing ', <directory> > <repository>'
-#. Performing 'viewUnchanged, Show Unchanged Files, If selected, unchanged files will be shown.'
-#. Performing ',   Reveal in Explorer'
-#. Performing 'about, About SmartGit'
-#. Showing dialog 18 (@95WX7Q) '@P56RMH - About SmartGit' (owner: @XQGV0X)
-#. Performing ', Close'
 #, fuzzy
 msgctxt "wndLog.mni:"
 msgid "Edit Config File"
 msgstr "設定ファイルを編集"
 
-#. Performing ', Close'
-#. Performing 'Author'
-#. Performing 'Committer'
-#. Performing 'Message'
-#. Performing ', Branches and Tags'
-#. Performing 'ID'
-#. Performing ', File Name (expensive)'
-#. Performing ', File Content (very expensive)'
-#. Performing ', Reveal'
-#. Performing ', Reveal'
 #, fuzzy
 msgctxt "wndLog.tbr:"
 msgid "Author"
 msgstr "著者"
 
-#. Performing ', Close'
-#. Performing 'Author'
-#. Performing 'Committer'
-#. Performing 'Message'
-#. Performing ', Branches and Tags'
-#. Performing 'ID'
-#. Performing ', File Name (expensive)'
-#. Performing ', File Content (very expensive)'
-#. Performing ', Reveal'
-#. Performing ', Reveal'
 #, fuzzy
 msgctxt "wndLog.tbr:"
 msgid "Committer"
 msgstr "コミッタ"
 
-#. Performing ', Close'
-#. Performing 'Author'
-#. Performing 'Committer'
-#. Performing 'Message'
-#. Performing ', Branches and Tags'
-#. Performing 'ID'
-#. Performing ', File Name (expensive)'
-#. Performing ', File Content (very expensive)'
-#. Performing ', Reveal'
-#. Performing ', Reveal'
 #, fuzzy
 msgctxt "wndLog.tbr:"
 msgid "Content\\*"
 msgstr "内容\\*"
 
-#. Performing ', Close'
-#. Performing 'Author'
-#. Performing 'Committer'
-#. Performing 'Message'
-#. Performing ', Branches and Tags'
-#. Performing 'ID'
-#. Performing ', File Name (expensive)'
-#. Performing ', File Content (very expensive)'
-#. Performing ', Reveal'
-#. Performing ', Reveal'
 #, fuzzy
 msgctxt "wndLog.tbr:"
 msgid "ID"
 msgstr "ID"
 
-#. Performing ', Close'
-#. Performing 'Author'
-#. Performing 'Committer'
-#. Performing 'Message'
-#. Performing ', Branches and Tags'
-#. Performing 'ID'
-#. Performing ', File Name (expensive)'
-#. Performing ', File Content (very expensive)'
-#. Performing ', Reveal'
-#. Performing ', Reveal'
 #, fuzzy
 msgctxt "wndLog.tbr:"
 msgid "Message"
 msgstr "メッセージ"
 
-#. Performing ', Close'
-#. Performing 'Author'
-#. Performing 'Committer'
-#. Performing 'Message'
-#. Performing ', Branches and Tags'
-#. Performing 'ID'
-#. Performing ', File Name (expensive)'
-#. Performing ', File Content (very expensive)'
-#. Performing ', Reveal'
-#. Performing ', Reveal'
 #, fuzzy
 msgctxt "wndLog.tbr:"
 msgid "Name\\*"
 msgstr "名前\\*"
 
-#. Performing ', Close'
-#. Performing 'Author'
-#. Performing 'Committer'
-#. Performing 'Message'
-#. Performing ', Branches and Tags'
-#. Performing 'ID'
-#. Performing ', File Name (expensive)'
-#. Performing ', File Content (very expensive)'
-#. Performing ', Reveal'
-#. Performing ', Reveal'
 #, fuzzy
 msgctxt "wndLog.tbr:"
 msgid "Refs"
 msgstr "Refs"
 
-#. opening smartgit.bJC@U6M530:SmartGit 26.1 RC Evaluation until Jun 7 (smartgit.bJC@XQGV0X)
-#. Performing ', Close'
-#. Performing ', Close'
-#. Performing ', Close'
-#. Performing 'Author'
-#. Performing 'Committer'
-#. Performing 'Message'
 #, fuzzy
 msgctxt "wndLog.tbt:"
 msgid "Branches and Tags"
 msgstr "ブランチとタグ"
 
-#. Performing ', Close'
-#. Performing 'Author'
-#. Performing 'Committer'
-#. Performing 'Message'
-#. Performing ', Branches and Tags'
-#. Performing 'ID'
-#. Performing ', File Name (expensive)'
-#. Performing ', File Content (very expensive)'
-#. Performing ', Reveal'
-#. Performing ', Reveal'
 #, fuzzy
 msgctxt "wndLog.tbt:"
 msgid "File Content \\(very expensive\\)"
 msgstr "ファイルの内容\\(非常に高コストな処理\\)"
 
-#. Performing ', Close'
-#. Performing 'Author'
-#. Performing 'Committer'
-#. Performing 'Message'
-#. Performing ', Branches and Tags'
-#. Performing 'ID'
-#. Performing ', File Name (expensive)'
-#. Performing ', File Content (very expensive)'
-#. Performing ', Reveal'
-#. Performing ', Reveal'
 #, fuzzy
 msgctxt "wndLog.tbt:"
 msgid "File Name \\(expensive\\)"
@@ -23326,10 +22081,6 @@ msgctxt "nttDemoReminder:"
 msgid "Your SmartGit evaluation ends in $1 days."
 msgstr "SmartGit の評価期間はあと $1 日で終了します。"
 
-# DON'T EDIT, this file will be rewritten!
-#
-# BUILD: 261031
-#
 #, fuzzy
 msgctxt "lblPropertyDescription-github.encoding.write:"
 msgid "Encoding to be used for writing to GitHub REST API"
@@ -23445,473 +22196,159 @@ msgctxt "lblPropertyDescription-ui.window.allowedMonitorOutset:"
 msgid "This value configures how many pixels a window might be placed outside the monitor bounds until it will be shifted."
 msgstr "ウィンドウを移動させるまでに、モニター範囲の外へどれだけのピクセル数はみ出せるかを設定します。"
 
-# DON'T EDIT, this file will be rewritten!
-#
-# BUILD: 261031
-#
-#. Performing ', Prompts'
-#. Performing ', Cancel'
-#. Performing 'discoverWindow, Discover Windows, Discover the different main windows.'
-#. Showing dialog 5 (@EB8C0Q) '@AEQTG - Discover Other SmartGit Windows' (owner: @KH3TDT)
-#. Performing 'discoverWindow, Discover Windows, Discover the different main windows.'
-#. Showing dialog 6 (@LH8ZCK) '@E6BZSW - Discover Other SmartGit Windows' (owner: @KH3TDT)
-#. opening smartgit.aCX@DDJOOV:null (smartgit.aCX@58MHLG)
-#. Performing 'stdSetModeHistory, Show History, Show the history view.'
-#. Performing ', Ask AI...'
-#. Showing dialog 7 (@Y6NDA6) '@8O3G2C - Ask AI' (owner: @58MHLG)
 #, fuzzy
 msgctxt "dlgSgAiAsk.btn:"
 msgid "Ask"
 msgstr "質問"
 
-#. Performing ', Prompts'
-#. Performing ', Cancel'
-#. Performing 'discoverWindow, Discover Windows, Discover the different main windows.'
-#. Showing dialog 5 (@EB8C0Q) '@AEQTG - Discover Other SmartGit Windows' (owner: @KH3TDT)
-#. Performing 'discoverWindow, Discover Windows, Discover the different main windows.'
-#. Showing dialog 6 (@LH8ZCK) '@E6BZSW - Discover Other SmartGit Windows' (owner: @KH3TDT)
-#. opening smartgit.aCX@DDJOOV:null (smartgit.aCX@58MHLG)
-#. Performing 'stdSetModeHistory, Show History, Show the history view.'
-#. Performing ', Ask AI...'
-#. Showing dialog 7 (@Y6NDA6) '@8O3G2C - Ask AI' (owner: @58MHLG)
 #, fuzzy
 msgctxt "dlgSgAiAsk.btn:"
 msgid "Prompts"
 msgstr "プロンプト"
 
-#. Performing ', Prompts'
-#. Performing ', Cancel'
-#. Performing 'discoverWindow, Discover Windows, Discover the different main windows.'
-#. Showing dialog 5 (@EB8C0Q) '@AEQTG - Discover Other SmartGit Windows' (owner: @KH3TDT)
-#. Performing 'discoverWindow, Discover Windows, Discover the different main windows.'
-#. Showing dialog 6 (@LH8ZCK) '@E6BZSW - Discover Other SmartGit Windows' (owner: @KH3TDT)
-#. opening smartgit.aCX@DDJOOV:null (smartgit.aCX@58MHLG)
-#. Performing 'stdSetModeHistory, Show History, Show the history view.'
-#. Performing ', Ask AI...'
-#. Showing dialog 7 (@Y6NDA6) '@8O3G2C - Ask AI' (owner: @58MHLG)
 #, fuzzy
 msgctxt "dlgSgAiAsk.chk:"
 msgid "More options"
 msgstr "その他のオプション"
 
-#. Performing ', Prompts'
-#. Performing ', Cancel'
-#. Performing 'discoverWindow, Discover Windows, Discover the different main windows.'
-#. Showing dialog 5 (@EB8C0Q) '@AEQTG - Discover Other SmartGit Windows' (owner: @KH3TDT)
-#. Performing 'discoverWindow, Discover Windows, Discover the different main windows.'
-#. Showing dialog 6 (@LH8ZCK) '@E6BZSW - Discover Other SmartGit Windows' (owner: @KH3TDT)
-#. opening smartgit.aCX@DDJOOV:null (smartgit.aCX@58MHLG)
-#. Performing 'stdSetModeHistory, Show History, Show the history view.'
-#. Performing ', Ask AI...'
-#. Showing dialog 7 (@Y6NDA6) '@8O3G2C - Ask AI' (owner: @58MHLG)
 #, fuzzy
 msgctxt "dlgSgAiAsk.chk:"
 msgid "Run in background"
 msgstr "バックグラウンドで実行"
 
-#. Performing ', Prompts'
-#. Performing ', Cancel'
-#. Performing 'discoverWindow, Discover Windows, Discover the different main windows.'
-#. Showing dialog 5 (@EB8C0Q) '@AEQTG - Discover Other SmartGit Windows' (owner: @KH3TDT)
-#. Performing 'discoverWindow, Discover Windows, Discover the different main windows.'
-#. Showing dialog 6 (@LH8ZCK) '@E6BZSW - Discover Other SmartGit Windows' (owner: @KH3TDT)
-#. opening smartgit.aCX@DDJOOV:null (smartgit.aCX@58MHLG)
-#. Performing 'stdSetModeHistory, Show History, Show the history view.'
-#. Performing ', Ask AI...'
-#. Showing dialog 7 (@Y6NDA6) '@8O3G2C - Ask AI' (owner: @58MHLG)
 #, fuzzy
 msgctxt "dlgSgAiAsk.chk:"
 msgid "Write debug log"
 msgstr "デバッグログを書き込む"
 
-#. Performing ', Prompts'
-#. Performing ', Cancel'
-#. Performing 'discoverWindow, Discover Windows, Discover the different main windows.'
-#. Showing dialog 5 (@EB8C0Q) '@AEQTG - Discover Other SmartGit Windows' (owner: @KH3TDT)
-#. Performing 'discoverWindow, Discover Windows, Discover the different main windows.'
-#. Showing dialog 6 (@LH8ZCK) '@E6BZSW - Discover Other SmartGit Windows' (owner: @KH3TDT)
-#. opening smartgit.aCX@DDJOOV:null (smartgit.aCX@58MHLG)
-#. Performing 'stdSetModeHistory, Show History, Show the history view.'
-#. Performing ', Ask AI...'
-#. Showing dialog 7 (@Y6NDA6) '@8O3G2C - Ask AI' (owner: @58MHLG)
 #, fuzzy
 msgctxt "dlgSgAiAsk.edt:"
 msgid "Diff Context Lines"
 msgstr "差分コンテキスト行数"
 
-#. Performing ', Prompts'
-#. Performing ', Cancel'
-#. Performing 'discoverWindow, Discover Windows, Discover the different main windows.'
-#. Showing dialog 5 (@EB8C0Q) '@AEQTG - Discover Other SmartGit Windows' (owner: @KH3TDT)
-#. Performing 'discoverWindow, Discover Windows, Discover the different main windows.'
-#. Showing dialog 6 (@LH8ZCK) '@E6BZSW - Discover Other SmartGit Windows' (owner: @KH3TDT)
-#. opening smartgit.aCX@DDJOOV:null (smartgit.aCX@58MHLG)
-#. Performing 'stdSetModeHistory, Show History, Show the history view.'
-#. Performing ', Ask AI...'
-#. Showing dialog 7 (@Y6NDA6) '@8O3G2C - Ask AI' (owner: @58MHLG)
 #, fuzzy
 msgctxt "dlgSgAiAsk.edt:"
 msgid "Diff Size Limit"
 msgstr "差分サイズ制限"
 
-#. Performing ', Prompts'
-#. Performing ', Cancel'
-#. Performing 'discoverWindow, Discover Windows, Discover the different main windows.'
-#. Showing dialog 5 (@EB8C0Q) '@AEQTG - Discover Other SmartGit Windows' (owner: @KH3TDT)
-#. Performing 'discoverWindow, Discover Windows, Discover the different main windows.'
-#. Showing dialog 6 (@LH8ZCK) '@E6BZSW - Discover Other SmartGit Windows' (owner: @KH3TDT)
-#. opening smartgit.aCX@DDJOOV:null (smartgit.aCX@58MHLG)
-#. Performing 'stdSetModeHistory, Show History, Show the history view.'
-#. Performing ', Ask AI...'
-#. Showing dialog 7 (@Y6NDA6) '@8O3G2C - Ask AI' (owner: @58MHLG)
 #, fuzzy
 msgctxt "dlgSgAiAsk.edt:"
 msgid "Model"
 msgstr "モデル"
 
-#. Performing ', Prompts'
-#. Performing ', Cancel'
-#. Performing 'discoverWindow, Discover Windows, Discover the different main windows.'
-#. Showing dialog 5 (@EB8C0Q) '@AEQTG - Discover Other SmartGit Windows' (owner: @KH3TDT)
-#. Performing 'discoverWindow, Discover Windows, Discover the different main windows.'
-#. Showing dialog 6 (@LH8ZCK) '@E6BZSW - Discover Other SmartGit Windows' (owner: @KH3TDT)
-#. opening smartgit.aCX@DDJOOV:null (smartgit.aCX@58MHLG)
-#. Performing 'stdSetModeHistory, Show History, Show the history view.'
-#. Performing ', Ask AI...'
-#. Showing dialog 7 (@Y6NDA6) '@8O3G2C - Ask AI' (owner: @58MHLG)
 #, fuzzy
 msgctxt "dlgSgAiAsk.edt:"
 msgid "Prompt"
 msgstr "プロンプト"
 
-#. Performing ', Prompts'
-#. Performing ', Cancel'
-#. Performing 'discoverWindow, Discover Windows, Discover the different main windows.'
-#. Showing dialog 5 (@EB8C0Q) '@AEQTG - Discover Other SmartGit Windows' (owner: @KH3TDT)
-#. Performing 'discoverWindow, Discover Windows, Discover the different main windows.'
-#. Showing dialog 6 (@LH8ZCK) '@E6BZSW - Discover Other SmartGit Windows' (owner: @KH3TDT)
-#. opening smartgit.aCX@DDJOOV:null (smartgit.aCX@58MHLG)
-#. Performing 'stdSetModeHistory, Show History, Show the history view.'
-#. Performing ', Ask AI...'
-#. Showing dialog 7 (@Y6NDA6) '@8O3G2C - Ask AI' (owner: @58MHLG)
 #, fuzzy
 msgctxt "dlgSgAiAsk.edt:"
 msgid "Timeout \\(seconds\\)"
 msgstr "タイムアウト \\(秒\\)"
 
-#. Performing ', Prompts'
-#. Performing ', Cancel'
-#. Performing 'discoverWindow, Discover Windows, Discover the different main windows.'
-#. Showing dialog 5 (@EB8C0Q) '@AEQTG - Discover Other SmartGit Windows' (owner: @KH3TDT)
-#. Performing 'discoverWindow, Discover Windows, Discover the different main windows.'
-#. Showing dialog 6 (@LH8ZCK) '@E6BZSW - Discover Other SmartGit Windows' (owner: @KH3TDT)
-#. opening smartgit.aCX@DDJOOV:null (smartgit.aCX@58MHLG)
-#. Performing 'stdSetModeHistory, Show History, Show the history view.'
-#. Performing ', Ask AI...'
-#. Showing dialog 7 (@Y6NDA6) '@8O3G2C - Ask AI' (owner: @58MHLG)
 #, fuzzy
 msgctxt "dlgSgAiAsk.hdl:"
 msgid "Ask AI on commit"
 msgstr "コミットについて AI に質問"
 
-#. Performing ', Prompts'
-#. Performing ', Cancel'
-#. Performing 'discoverWindow, Discover Windows, Discover the different main windows.'
-#. Showing dialog 5 (@EB8C0Q) '@AEQTG - Discover Other SmartGit Windows' (owner: @KH3TDT)
-#. Performing 'discoverWindow, Discover Windows, Discover the different main windows.'
-#. Showing dialog 6 (@LH8ZCK) '@E6BZSW - Discover Other SmartGit Windows' (owner: @KH3TDT)
-#. opening smartgit.aCX@DDJOOV:null (smartgit.aCX@58MHLG)
-#. Performing 'stdSetModeHistory, Show History, Show the history view.'
-#. Performing ', Ask AI...'
-#. Showing dialog 7 (@Y6NDA6) '@8O3G2C - Ask AI' (owner: @58MHLG)
 #, fuzzy
 msgctxt "dlgSgAiAsk.inf:"
 msgid "Ask the AI by providing a prompt."
 msgstr "プロンプトを入力して AI に質問します。"
 
-#. Performing ', Prompts'
-#. Performing ', Cancel'
-#. Performing 'discoverWindow, Discover Windows, Discover the different main windows.'
-#. Showing dialog 5 (@EB8C0Q) '@AEQTG - Discover Other SmartGit Windows' (owner: @KH3TDT)
-#. Performing 'discoverWindow, Discover Windows, Discover the different main windows.'
-#. Showing dialog 6 (@LH8ZCK) '@E6BZSW - Discover Other SmartGit Windows' (owner: @KH3TDT)
-#. opening smartgit.aCX@DDJOOV:null (smartgit.aCX@58MHLG)
-#. Performing 'stdSetModeHistory, Show History, Show the history view.'
-#. Performing ', Ask AI...'
-#. Showing dialog 7 (@Y6NDA6) '@8O3G2C - Ask AI' (owner: @58MHLG)
 #, fuzzy
 msgctxt "dlgSgAiAsk.lbl:"
 msgid "bytes"
 msgstr "バイト"
 
-#. Showing dialog 3 (@LPXMDX) '@N8QHI6 - Discover Other SmartGit Windows' (owner: @CPOVNK)
-#. Performing ', Edit Config File...'
-#. opening smartgit.coh@CL8XOG:.smartgit-ai - [<directory>] - Editor (smartgit.coh@6JB1XM)
-#. Performing ', Edit Config File...'
-#. opening smartgit.coh@S8N4DP:.smartgit-ai - [<directory>] - Editor (smartgit.coh@JHWED2)
-#. Performing ', Close'
-#. Performing ', Close'
-#. Performing ', Ask AI...'
-#. Showing dialog 4 (@LLQ78F) '@A1KTAD - Ask AI' (owner: @KH3TDT)
-#. Performing ', Prompts'
 #, fuzzy
 msgctxt "dlgSgAiAsk.mni:"
 msgid "\\{\\{ branch \\}\\}"
 msgstr "\\{\\{ branch \\}\\}"
 
-#. Showing dialog 3 (@LPXMDX) '@N8QHI6 - Discover Other SmartGit Windows' (owner: @CPOVNK)
-#. Performing ', Edit Config File...'
-#. opening smartgit.coh@CL8XOG:.smartgit-ai - [<directory>] - Editor (smartgit.coh@6JB1XM)
-#. Performing ', Edit Config File...'
-#. opening smartgit.coh@S8N4DP:.smartgit-ai - [<directory>] - Editor (smartgit.coh@JHWED2)
-#. Performing ', Close'
-#. Performing ', Close'
-#. Performing ', Ask AI...'
-#. Showing dialog 4 (@LLQ78F) '@A1KTAD - Ask AI' (owner: @KH3TDT)
-#. Performing ', Prompts'
 #, fuzzy
 msgctxt "dlgSgAiAsk.mni:"
 msgid "\\{\\{ commitMessage \\}\\}"
 msgstr "\\{\\{ commitMessage \\}\\}"
 
-#. Showing dialog 3 (@LPXMDX) '@N8QHI6 - Discover Other SmartGit Windows' (owner: @CPOVNK)
-#. Performing ', Edit Config File...'
-#. opening smartgit.coh@CL8XOG:.smartgit-ai - [<directory>] - Editor (smartgit.coh@6JB1XM)
-#. Performing ', Edit Config File...'
-#. opening smartgit.coh@S8N4DP:.smartgit-ai - [<directory>] - Editor (smartgit.coh@JHWED2)
-#. Performing ', Close'
-#. Performing ', Close'
-#. Performing ', Ask AI...'
-#. Showing dialog 4 (@LLQ78F) '@A1KTAD - Ask AI' (owner: @KH3TDT)
-#. Performing ', Prompts'
 #, fuzzy
 msgctxt "dlgSgAiAsk.mni:"
 msgid "\\{\\{ gitDiff \\}\\}"
 msgstr "\\{\\{ gitDiff \\}\\}"
 
-#. Showing dialog 4 (@LLQ78F) '@A1KTAD - Ask AI' (owner: @KH3TDT)
-#. Performing ', Prompts'
-#. Performing ', Cancel'
-#. Performing 'discoverWindow, Discover Windows, Discover the different main windows.'
-#. Showing dialog 5 (@EB8C0Q) '@AEQTG - Discover Other SmartGit Windows' (owner: @KH3TDT)
-#. Performing 'discoverWindow, Discover Windows, Discover the different main windows.'
-#. Showing dialog 6 (@LH8ZCK) '@E6BZSW - Discover Other SmartGit Windows' (owner: @KH3TDT)
-#. opening smartgit.aCX@DDJOOV:null (smartgit.aCX@58MHLG)
-#. Performing 'stdSetModeHistory, Show History, Show the history view.'
-#. Performing ', Ask AI...'
 #, fuzzy
 msgctxt "dlgSgAiAsk.tle:"
 msgid "Ask AI"
 msgstr "AI に質問"
 
-#. Performing ', Cancel'
-#. Performing ', Explain Commit'
-#. Showing dialog 8 (@XKH59F) '@EQ0MNG - AI Upload Consent' (owner: @58MHLG)
-#. Performing ', Allow'
-#. Showing dialog 9 (@90OWXR) '@BZYZIS - Master Password' (owner: @58MHLG)
-#. Performing ', OK'
-#. Showing dialog 10 (@OA1SVO) '@EVY51C - API Key' (owner: @58MHLG)
-#. Performing ', Connect'
-#. Performing ', Close'
-#. Showing dialog 11 (@KOBY5C) '@98VDO4 - Explain Commit' (owner: @58MHLG)
 #, fuzzy
 msgctxt "dlgSgAiResponseOutput.lbl\"<a href\\=\\\"click\\\">Copy to Clipboard</a>\""
 msgid "<a href\\=\"click\">Copy to Clipboard</a>"
 msgstr "<a href\\=\"click\">クリップボードにコピー</a>"
 
-#. Showing dialog 7 (@Y6NDA6) '@8O3G2C - Ask AI' (owner: @58MHLG)
-#. Performing ', Cancel'
-#. Performing ', Explain Commit'
-#. Showing dialog 8 (@XKH59F) '@EQ0MNG - AI Upload Consent' (owner: @58MHLG)
-#. Performing ', Allow'
-#. Showing dialog 9 (@90OWXR) '@BZYZIS - Master Password' (owner: @58MHLG)
-#. Performing ', OK'
-#. Showing dialog 10 (@OA1SVO) '@EVY51C - API Key' (owner: @58MHLG)
-#. Performing ', Connect'
-#. Performing ', Close'
 #, fuzzy
 msgctxt "dlgSgAiResponseOutput.tle:"
 msgid "Explain Commit"
 msgstr "コミットの説明"
 
-#. Showing dialog 13 (@AKKY31) '@3F0F3S - Close' (owner: @CPOVNK)
-#. Performing ', Close Now'
-#. Performing ', Close'
-#. Performing 'view-settings, Settings...'
-#. Showing dialog 14 (@4UF8LI) '@Y6NTDF - Settings' (owner: @KH3TDT)
-#. Performing ', Close'
-#. Performing 'changesView.ignoreLineSeparators, Ignore Line-Ending Changes'
-#. Performing 'changesView.ignoreLineSeparators, Ignore Line-Ending Changes'
-#. Performing 'fixup, Use Message for Commit'
-#. Performing ', Close'
 #. placeholder: $1=<prompt_name>
 #, fuzzy
 msgctxt "wndLog.mni:"
 msgid "$1"
 msgstr "$1"
 
-#. Performing ', Regular Expressions, Interpret the search pattern as regular expression.'
-#. Performing ', Regular Expressions, Interpret the search pattern as regular expression.'
-#. Performing ', Close'
-#. Performing ', Close'
-#. Performing 'stdSetModeHistory, Show History, Show the history view.'
-#. Performing 'logRepository, Show Log Window'
-#. Performing 'configureToolbar, Configure Toolbar...'
-#. Showing dialog 19 (@6G036N) '@O0XHP0 - Configure Toolbar' (owner: @KH3TDT)
-#. Performing ', Add'
-#. Performing ', OK'
 #, fuzzy
 msgctxt "wndLog.tbr:"
 msgid "Fetch All"
 msgstr "すべてフェッチ"
 
-#. Performing ', Regular Expressions, Interpret the search pattern as regular expression.'
-#. Performing ', Regular Expressions, Interpret the search pattern as regular expression.'
-#. Performing ', Close'
-#. Performing ', Close'
-#. Performing 'stdSetModeHistory, Show History, Show the history view.'
-#. Performing 'logRepository, Show Log Window'
-#. Performing 'configureToolbar, Configure Toolbar...'
-#. Showing dialog 19 (@6G036N) '@O0XHP0 - Configure Toolbar' (owner: @KH3TDT)
-#. Performing ', Add'
-#. Performing ', OK'
 #, fuzzy
 msgctxt "wndLog.tbtRemoteFetchAll:"
 msgid "Fetch commits from all remote repositories."
 msgstr "すべてのリモートリポジトリからコミットを取得します。"
 
-#. Performing ', Regular Expressions, Interpret the search pattern as regular expression.'
-#. Performing ', Regular Expressions, Interpret the search pattern as regular expression.'
-#. Performing ', Close'
-#. Performing ', Close'
-#. Performing 'stdSetModeHistory, Show History, Show the history view.'
-#. Performing 'logRepository, Show Log Window'
-#. Performing 'configureToolbar, Configure Toolbar...'
-#. Showing dialog 19 (@6G036N) '@O0XHP0 - Configure Toolbar' (owner: @KH3TDT)
-#. Performing ', Add'
-#. Performing ', OK'
 #, fuzzy
 msgctxt "wndLog.tbtResetAdvanced:"
 msgid "Reset current branch \\(HEAD\\) to another commit and keep the difference in Index or Working Tree."
 msgstr "現在のブランチ \\(HEAD\\) を別のコミットにリセットし、差分をインデックスまたは作業ツリーに保持します。"
 
-#. Showing dialog 11 (@KOBY5C) '@98VDO4 - Explain Commit' (owner: @58MHLG)
-#. Performing ', Close'
-#. Performing 'discoverWindow, Discover Windows, Discover the different main windows.'
-#. Showing dialog 12 (@HVIOWL) '@JPPFL - Discover Other SmartGit Windows' (owner: @58MHLG)
-#. Performing ', Close'
-#. Performing ', Close'
-#. Performing 'stage, Stage, Store working tree files in the index to prepare the next commit.'
-#. Performing 'fixup, Use Message for Commit'
-#. Performing ', Close'
-#. Performing 'stage, Stage, Store working tree files in the index to prepare the next commit.'
 #, fuzzy
 msgctxt "wndProject.tbtFlowContext:"
 msgid "Start a new Git-Flow feature."
 msgstr "新しい Git-Flow の feature を開始します。"
 
-#. Performing 'push, Push, Push local commits to the remote origin repository.'
-#. Showing dialog 15 (@OB14K7) '@CDD7VK - Push' (owner: @KH3TDT)
-#. Performing ', Cancel'
-#. Performing 'fetch, Pull..., Fetch commits from a remote repository and (optionally) integrate them with possible local commits.'
-#. Showing dialog 16 (@MQALR6) '@MABCC9 - Pull' (owner: @KH3TDT)
-#. Performing ', Fetch Only'
-#. Showing dialog 17 (@12V9D4) '@JEC26Q - Command Output' (owner: @KH3TDT)
-#. Performing ', Close'
-#. Performing 'discoverWindow, Discover Windows, Discover the different main windows.'
-#. Showing dialog 18 (@8LJ0ZU) '@O2LCMB - Discover Other SmartGit Windows' (owner: @KH3TDT)
 #, fuzzy
 msgctxt "wndStd.lbl:"
 msgid "<a>Select obsolete repositories</a>"
 msgstr "<a>廃止されたリポジトリを選択</a>"
 
-#. Performing ', Cancel'
-#. Performing 'fetch, Pull..., Fetch commits from a remote repository and (optionally) integrate them with possible local commits.'
-#. Showing dialog 16 (@MQALR6) '@MABCC9 - Pull' (owner: @KH3TDT)
-#. Performing ', Fetch Only'
-#. Showing dialog 17 (@12V9D4) '@JEC26Q - Command Output' (owner: @KH3TDT)
-#. Performing ', Close'
-#. Performing 'discoverWindow, Discover Windows, Discover the different main windows.'
-#. Showing dialog 18 (@8LJ0ZU) '@O2LCMB - Discover Other SmartGit Windows' (owner: @KH3TDT)
-#. opening smartgit.aCX@OXZ8IE:null (smartgit.aCX@5WHUU3)
-#. Performing ', Apply Stash'
 msgctxt "wndStd.mni:"
 msgid ""
 msgstr ""
 
-#. Performing ', Apply Stash'
-#. Performing ', Remove'
-#. Performing ', Add Tag'
-#. Performing ', Add Branch'
-#. Performing ', Fetch All'
-#. Performing ', Fetch'
-#. Performing ', Ignore'
-#. Performing ', Show filter input field.'
-#. Performing ', Regular Expressions, Interpret the search pattern as regular expression.'
-#. Performing ', Regular Expressions, Interpret the search pattern as regular expression.'
 #. placeholder: $1=<prompt_name>
 #, fuzzy
 msgctxt "wndStd.mni:"
 msgid "$1"
 msgstr "$1"
 
-#. Performing ', Apply Stash'
-#. Performing ', Remove'
-#. Performing ', Add Tag'
-#. Performing ', Add Branch'
-#. Performing ', Fetch All'
-#. Performing ', Fetch'
-#. Performing ', Ignore'
-#. Performing ', Show filter input field.'
-#. Performing ', Regular Expressions, Interpret the search pattern as regular expression.'
-#. Performing ', Regular Expressions, Interpret the search pattern as regular expression.'
 #, fuzzy
 msgctxt "wndStd.mni:"
 msgid "Edit Config File"
 msgstr "設定ファイルを編集"
 
-#. Performing 'discoverWindow, Discover Windows, Discover the different main windows.'
-#. Showing dialog 18 (@8LJ0ZU) '@O2LCMB - Discover Other SmartGit Windows' (owner: @KH3TDT)
-#. opening smartgit.aCX@OXZ8IE:null (smartgit.aCX@5WHUU3)
-#. Performing ', Apply Stash'
-#. Performing ', Remove'
-#. Performing ', Add Tag'
-#. Performing ', Add Branch'
-#. Performing ', Fetch All'
-#. Performing ', Fetch'
-#. Performing ', Ignore'
 #. placeholder: $1=<remote_name>
 #, fuzzy
 msgctxt "wndStd.mni:"
 msgid "Fetch '$1' \\(current\\)"
 msgstr "'$1' をフェッチ \\(現在\\)"
 
-#. Performing ', Cancel'
-#. Performing 'fetch, Pull..., Fetch commits from a remote repository and (optionally) integrate them with possible local commits.'
-#. Showing dialog 16 (@MQALR6) '@MABCC9 - Pull' (owner: @KH3TDT)
-#. Performing ', Fetch Only'
-#. Showing dialog 17 (@12V9D4) '@JEC26Q - Command Output' (owner: @KH3TDT)
-#. Performing ', Close'
-#. Performing 'discoverWindow, Discover Windows, Discover the different main windows.'
-#. Showing dialog 18 (@8LJ0ZU) '@O2LCMB - Discover Other SmartGit Windows' (owner: @KH3TDT)
-#. opening smartgit.aCX@OXZ8IE:null (smartgit.aCX@5WHUU3)
-#. Performing ', Apply Stash'
 #. placeholder: $1=<branch_name>
 #, fuzzy
 msgctxt "wndStd.mni:"
 msgid "On $1: SmartGit: automatic stash on Reset."
 msgstr "$1 上: SmartGit: リセット時の自動スタッシュ。"
 
-#. Performing ', Cancel'
-#. Performing 'fetch, Pull..., Fetch commits from a remote repository and (optionally) integrate them with possible local commits.'
-#. Showing dialog 16 (@MQALR6) '@MABCC9 - Pull' (owner: @KH3TDT)
-#. Performing ', Fetch Only'
-#. Showing dialog 17 (@12V9D4) '@JEC26Q - Command Output' (owner: @KH3TDT)
-#. Performing ', Close'
-#. Performing 'discoverWindow, Discover Windows, Discover the different main windows.'
-#. Showing dialog 18 (@8LJ0ZU) '@O2LCMB - Discover Other SmartGit Windows' (owner: @KH3TDT)
-#. opening smartgit.aCX@OXZ8IE:null (smartgit.aCX@5WHUU3)
-#. Performing ', Apply Stash'
 #. placeholder: $1=<branch_name>
 #. placeholder: $2=<commit_id>
 #. placeholder: $3=<commit_message>
@@ -23920,188 +22357,82 @@ msgctxt "wndStd.mni:"
 msgid "WIP on $1: $2 $3"
 msgstr "WIP on $1: $2 $3"
 
-#. Performing ', Apply Stash'
-#. Performing ', Remove'
-#. Performing ', Add Tag'
-#. Performing ', Add Branch'
-#. Performing ', Fetch All'
-#. Performing ', Fetch'
-#. Performing ', Ignore'
-#. Performing ', Show filter input field.'
-#. Performing ', Regular Expressions, Interpret the search pattern as regular expression.'
-#. Performing ', Regular Expressions, Interpret the search pattern as regular expression.'
 #. placeholder: $1=<branch_name>
 #, fuzzy
 msgctxt "wndStd.mni:"
 msgid "$1 \\(active\\)"
 msgstr "$1 \\(アクティブ\\)"
 
-#. Performing ', Remove'
-#. Performing ', Add Tag'
-#. Performing ', Add Branch'
-#. Performing ', Fetch All'
-#. Performing ', Fetch'
-#. Performing ', Ignore'
-#. Performing ', Show filter input field.'
-#. Performing ', Regular Expressions, Interpret the search pattern as regular expression.'
-#. Performing ', Regular Expressions, Interpret the search pattern as regular expression.'
-#. Performing ', Close'
 #, fuzzy
 msgctxt "wndStd.tbt:"
 msgid "Close"
 msgstr "閉じる"
 
-# DON'T EDIT, this file will be rewritten!
-#
-# BUILD: 261036
-#
-#. opening <window_id>:SmartGit 26.1 Evaluation until <date> (<window_id>)
-#. Performing ', Close'
-#. Performing ', Close'
-#. Performing ', Close'
 #, fuzzy
 msgctxt "wndLog.mniDiscoverWindow:"
 msgid "Discover Windows"
 msgstr "ウィンドウを検出"
 
-#. opening <window_id>:SmartGit 26.1 Evaluation until <date> (<window_id>)
-#. Performing ', Close'
-#. Performing ', Close'
-#. Performing ', Close'
-#. Performing 'configureToolbar, Configure Toolbar...'
-#. Showing dialog 0 (<dialog_id>) '<dialog_title> - Configure Toolbar' (owner: <window_id>)
 #, fuzzy
 msgctxt "wndLog.mniFlowFeatureFinish:"
 msgid "Finish"
 msgstr "完了"
 
-#. opening <window_id>:SmartGit 26.1 Evaluation until <date> (<window_id>)
-#. Performing ', Close'
-#. Performing ', Close'
-#. Performing ', Close'
-#. Performing 'configureToolbar, Configure Toolbar...'
-#. Showing dialog 0 (<dialog_id>) '<dialog_title> - Configure Toolbar' (owner: <window_id>)
 #, fuzzy
 msgctxt "wndLog.mniFlowFeatureStart:"
 msgid "Start"
 msgstr "開始"
 
-#. opening <window_id>:SmartGit 26.1 Evaluation until <date> (<window_id>)
-#. Performing ', Close'
-#. Performing ', Close'
-#. Performing ', Close'
-#. Performing 'configureToolbar, Configure Toolbar...'
-#. Showing dialog 0 (<dialog_id>) '<dialog_title> - Configure Toolbar' (owner: <window_id>)
 #, fuzzy
 msgctxt "wndLog.mniFlowHotfixFinish:"
 msgid "Finish"
 msgstr "完了"
 
-#. opening <window_id>:SmartGit 26.1 Evaluation until <date> (<window_id>)
-#. Performing ', Close'
-#. Performing ', Close'
-#. Performing ', Close'
-#. Performing 'configureToolbar, Configure Toolbar...'
-#. Showing dialog 0 (<dialog_id>) '<dialog_title> - Configure Toolbar' (owner: <window_id>)
 #, fuzzy
 msgctxt "wndLog.mniFlowHotfixStart:"
 msgid "Start"
 msgstr "開始"
 
-#. opening <window_id>:SmartGit 26.1 Evaluation until <date> (<window_id>)
-#. Performing ', Close'
-#. Performing ', Close'
-#. Performing ', Close'
-#. Performing 'configureToolbar, Configure Toolbar...'
-#. Showing dialog 0 (<dialog_id>) '<dialog_title> - Configure Toolbar' (owner: <window_id>)
 #, fuzzy
 msgctxt "wndLog.mniFlowIntegrateDevelop:"
 msgid "Integrate"
 msgstr "統合"
 
-#. opening <window_id>:SmartGit 26.1 Evaluation until <date> (<window_id>)
-#. Performing ', Close'
-#. Performing ', Close'
-#. Performing ', Close'
-#. Performing 'configureToolbar, Configure Toolbar...'
-#. Showing dialog 0 (<dialog_id>) '<dialog_title> - Configure Toolbar' (owner: <window_id>)
 #, fuzzy
 msgctxt "wndLog.mniLog:"
 msgid "Log Selection"
 msgstr "選択項目の履歴"
 
-#. opening <window_id>:SmartGit 26.1 Evaluation until <date> (<window_id>)
-#. Performing ', Close'
-#. Performing ', Close'
-#. Performing ', Close'
-#. Performing 'configureToolbar, Configure Toolbar...'
-#. Showing dialog 0 (<dialog_id>) '<dialog_title> - Configure Toolbar' (owner: <window_id>)
 #, fuzzy
 msgctxt "wndLog.mniRepositorySearch:"
 msgid "Search"
 msgstr "検索"
 
-#. opening <window_id>:SmartGit 26.1 Evaluation until <date> (<window_id>)
-#. Performing ', Close'
-#. Performing ', Close'
-#. Performing ', Close'
-#. Performing 'configureToolbar, Configure Toolbar...'
-#. Showing dialog 0 (<dialog_id>) '<dialog_title> - Configure Toolbar' (owner: <window_id>)
 #, fuzzy
 msgctxt "wndLog.mniResetAdvanced:"
 msgid "Reset Adv."
 msgstr "高度なリセット"
 
-#. opening <window_id>:SmartGit 26.1 Evaluation until <date> (<window_id>)
-#. Performing ', Close'
-#. Performing ', Close'
-#. Performing ', Close'
-#. Performing 'configureToolbar, Configure Toolbar...'
-#. Showing dialog 0 (<dialog_id>) '<dialog_title> - Configure Toolbar' (owner: <window_id>)
 #, fuzzy
 msgctxt "wndLog.mniShowChanges:"
 msgid "Changes"
 msgstr "変更点"
 
-#. opening <window_id>:SmartGit 26.1 Evaluation until <date> (<window_id>)
-#. Performing ', Close'
-#. Performing ', Close'
-#. Performing ', Close'
-#. Performing 'configureToolbar, Configure Toolbar...'
-#. Showing dialog 0 (<dialog_id>) '<dialog_title> - Configure Toolbar' (owner: <window_id>)
 #, fuzzy
 msgctxt "wndLog.mniStashSave:"
 msgid "Save Stash"
 msgstr "スタッシュに保存"
 
-#. opening <window_id>:SmartGit 26.1 Evaluation until <date> (<window_id>)
-#. Performing ', Close'
-#. Performing ', Close'
-#. Performing ', Close'
-#. Performing 'configureToolbar, Configure Toolbar...'
-#. Showing dialog 0 (<dialog_id>) '<dialog_title> - Configure Toolbar' (owner: <window_id>)
 #, fuzzy
 msgctxt "wndLog.mniSync:"
 msgid "Sync"
 msgstr "同期"
 
-#. opening <window_id>:SmartGit 26.1 Evaluation until <date> (<window_id>)
-#. Performing ', Close'
-#. Performing ', Close'
-#. Performing ', Close'
-#. Performing 'configureToolbar, Configure Toolbar...'
-#. Showing dialog 0 (<dialog_id>) '<dialog_title> - Configure Toolbar' (owner: <window_id>)
 #, fuzzy
 msgctxt "wndLog.mniWindowLayoutSetMain:"
 msgid "Main"
 msgstr "メイン"
 
-#. opening <window_id>:SmartGit 26.1 Evaluation until <date> (<window_id>)
-#. Performing ', Close'
-#. Performing ', Close'
-#. Performing ', Close'
-#. Performing 'configureToolbar, Configure Toolbar...'
-#. Showing dialog 0 (<dialog_id>) '<dialog_title> - Configure Toolbar' (owner: <window_id>)
 #, fuzzy
 msgctxt "wndLog.mniWindowLayoutSetReview:"
 msgid "Review"
