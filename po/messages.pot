@@ -23753,3 +23753,274 @@ msgstr ""
 msgctxt "wndLog.mniWindowLayoutSetReview:"
 msgid "Review"
 msgstr ""
+
+# DON'T EDIT, this file will be rewritten!
+#
+# BUILD: 261031
+#
+#. opening smartgit.bJD@GROJR5:SmartGit 26.1 Evaluation until <date> (smartgit.bJD@EKOW19)
+#. Showing dialog 0 (@J69V29) '@M26QA7 - Evaluation' (owner: @EKOW19)
+msgctxt "dlgScEvaluationReminderContinue.fur:"
+msgid "To use SmartGit, you will have to register a license file.\\n\\nIn a commercial environment you need to \\[https://www.smartgit.dev/purchase?evaluationReminderNotification purchase a license\\].\\n\\nFor \\[https://www.syntevo.com/register-non-commercial/?evaluationReminderNotification certain uses\\] we grant free licenses."
+msgstr ""
+
+#. opening smartgit.bJD@GROJR5:SmartGit 26.1 Evaluation until <date> (smartgit.bJD@EKOW19)
+#. Showing dialog 0 (@J69V29) '@M26QA7 - Evaluation' (owner: @EKOW19)
+msgctxt "dlgScEvaluationReminderContinue.lbl\"<a href\\=\\\"id\\\">Copy Evaluation-ID</a>\""
+msgid "<a href\\=\"id\">Copy Evaluation-ID</a>"
+msgstr ""
+
+#. Performing ', Cancel'
+#. Performing 'repositoryClone, Clone..., Clone a new repository.'
+#. Showing dialog 7 (@5GLW4G) '@2VRSCL - Clone' (owner: @3J8YPT)
+#. Performing ', Configure...'
+#. Showing dialog 8 (@79T9CQ) '@NOVHLH - Passwords' (owner: @5GLW4G)
+#. Performing ', OK'
+#. Showing dialog 9 (@EN85V4) '@708V1N - Add Hosting Provider' (owner: @5GLW4G)
+#. Performing ', Add'
+#. Showing dialog 10 (@XH43S7) '@E9Z4LO - Checking connectivity' (owner: @EN85V4)
+#. Showing dialog 11 (@WI9GSN) '@LX3GHN - Server Fingerprint' (owner: @XH43S7)
+msgctxt "dlgScSslFingerprint.lbl:"
+msgid "Is the following server fingerprint correct?"
+msgstr ""
+
+#. Performing ', Cancel'
+#. Performing 'repositoryClone, Clone..., Clone a new repository.'
+#. Showing dialog 7 (@5GLW4G) '@2VRSCL - Clone' (owner: @3J8YPT)
+#. Performing ', Configure...'
+#. Showing dialog 8 (@79T9CQ) '@NOVHLH - Passwords' (owner: @5GLW4G)
+#. Performing ', OK'
+#. Showing dialog 9 (@EN85V4) '@708V1N - Add Hosting Provider' (owner: @5GLW4G)
+#. Performing ', Add'
+#. Showing dialog 10 (@XH43S7) '@E9Z4LO - Checking connectivity' (owner: @EN85V4)
+#. Showing dialog 11 (@WI9GSN) '@LX3GHN - Server Fingerprint' (owner: @XH43S7)
+msgctxt "dlgScSslFingerprint.lbl:"
+msgid "When in doubt, contact your server administrator."
+msgstr ""
+
+#. Performing ', OK'
+#. opening smartgit.bJC@6RMR00:SmartGit 26.1 RC Evaluation until <date> (smartgit.bJC@18XTOC)
+#. Performing ',   Open in Explorer'
+#. Performing ', Close'
+#. Performing ', Close'
+#. Performing ',   Open in VSCode'
+#. Performing ', Check Out'
+#. Showing dialog 23 (@XTR4WS) '@SL3YIH - Check Out' (owner: @QVQ9A4)
+#. Performing ', Switch'
+#. Showing dialog 24 (@VRS3PI) '@3A1EZM - Check Out' (owner: @QVQ9A4)
+msgctxt "dlgSgCheckoutSwitchToWorktreeFailure.fur:"
+msgid "Make sure the directory exists and is a valid Git worktree."
+msgstr ""
+
+#. Performing ', OK'
+#. opening smartgit.bJC@6RMR00:SmartGit 26.1 RC Evaluation until <date> (smartgit.bJC@18XTOC)
+#. Performing ',   Open in Explorer'
+#. Performing ', Close'
+#. Performing ', Close'
+#. Performing ',   Open in VSCode'
+#. Performing ', Check Out'
+#. Showing dialog 23 (@XTR4WS) '@SL3YIH - Check Out' (owner: @QVQ9A4)
+#. Performing ', Switch'
+#. Showing dialog 24 (@VRS3PI) '@3A1EZM - Check Out' (owner: @QVQ9A4)
+#. placeholder: $1=<directory>
+msgctxt "dlgSgCheckoutSwitchToWorktreeFailure.hdl:"
+msgid "Invalid worktree '$1'."
+msgstr ""
+
+#. Showing dialog 22 (@G91BPX) '@JJ3OKS - Add Worktree' (owner: @FHXP9X)
+#. Performing ', OK'
+#. opening smartgit.bJC@6RMR00:SmartGit 26.1 RC Evaluation until <date> (smartgit.bJC@18XTOC)
+#. Performing ',   Open in Explorer'
+#. Performing ', Close'
+#. Performing ', Close'
+#. Performing ',   Open in VSCode'
+#. Performing ', Check Out'
+#. Showing dialog 23 (@XTR4WS) '@SL3YIH - Check Out' (owner: @QVQ9A4)
+#. Performing ', Switch'
+msgctxt "dlgSgCheckoutSwitchToWorktreeFailure.tle:"
+msgid "Check Out"
+msgstr ""
+
+#. Performing ', Close'
+#. Performing ', Close'
+#. Performing 'findObject, Find Object...'
+#. Showing dialog 2 (@9NLMO1) '@W63EHI - ' (owner: @EKOW19)
+#. Performing ',   Open in VSCode'
+#. Performing ', Close'
+#. Performing 'editCommitAuthor, Edit Author...'
+#. Showing dialog 3 (@VRNNMA) '@KXBHOU - Edit Author' (owner: @EKOW19)
+#. Performing ', Set Author'
+#. Showing dialog 4 (@X1ASTV) '@1J3PH4 - Log' (owner: @EKOW19)
+msgctxt "dlgSgHistoryCommandFailedOutdatedCommits.fur:"
+msgid "The shown commits represented a different repository state than it is now. Try again after the next refresh."
+msgstr ""
+
+#. Performing ', Close'
+#. Performing ', Close'
+#. Performing 'findObject, Find Object...'
+#. Showing dialog 2 (@9NLMO1) '@W63EHI - ' (owner: @EKOW19)
+#. Performing ',   Open in VSCode'
+#. Performing ', Close'
+#. Performing 'editCommitAuthor, Edit Author...'
+#. Showing dialog 3 (@VRNNMA) '@KXBHOU - Edit Author' (owner: @EKOW19)
+#. Performing ', Set Author'
+#. Showing dialog 4 (@X1ASTV) '@1J3PH4 - Log' (owner: @EKOW19)
+msgctxt "dlgSgHistoryCommandFailedOutdatedCommits.hdl:"
+msgid "The command has been aborted because of outdated commits."
+msgstr ""
+
+#. Performing ', Close'
+#. Performing ', Close'
+#. Performing ', Close'
+#. Performing 'findObject, Find Object...'
+#. Showing dialog 2 (@9NLMO1) '@W63EHI - ' (owner: @EKOW19)
+#. Performing ',   Open in VSCode'
+#. Performing ', Close'
+#. Performing 'editCommitAuthor, Edit Author...'
+#. Showing dialog 3 (@VRNNMA) '@KXBHOU - Edit Author' (owner: @EKOW19)
+#. Performing ', Set Author'
+msgctxt "dlgSgHistoryCommandFailedOutdatedCommits.tle:"
+msgid "Log"
+msgstr ""
+
+#. Showing dialog 3 (@FJ1R1C) '@WDB367 - Edit Config' (owner: @3J8YPT)
+#. Performing ', OK'
+#. Performing 'preferences, Preferences'
+#. Showing dialog 4 (@XGJ97U) '@W3KTE2 - Preferences' (owner: @3J8YPT)
+#. Performing ', Cancel'
+#. Performing 'repositoryRename, Rename...'
+#. Showing dialog 5 (@LSU746) '@6JKPLL - Rename' (owner: @3J8YPT)
+#. Performing ', Cancel'
+#. Performing 'repositoryRename, Rename...'
+#. Showing dialog 6 (@VUCNKU) '@9K1JSY - Rename' (owner: @3J8YPT)
+msgctxt "dlgSgRenameRepository.hdl:"
+msgid "Rename repository group"
+msgstr ""
+
+#. Showing dialog 3 (@FJ1R1C) '@WDB367 - Edit Config' (owner: @3J8YPT)
+#. Performing ', OK'
+#. Performing 'preferences, Preferences'
+#. Showing dialog 4 (@XGJ97U) '@W3KTE2 - Preferences' (owner: @3J8YPT)
+#. Performing ', Cancel'
+#. Performing 'repositoryRename, Rename...'
+#. Showing dialog 5 (@LSU746) '@6JKPLL - Rename' (owner: @3J8YPT)
+#. Performing ', Cancel'
+#. Performing 'repositoryRename, Rename...'
+#. Showing dialog 6 (@VUCNKU) '@9K1JSY - Rename' (owner: @3J8YPT)
+msgctxt "dlgSgRenameRepository.inf:"
+msgid "Provide the new name for the repository group."
+msgstr ""
+
+#. Showing dialog 16 (@LHQ5JM) '@UQY007 - Add Worktree' (owner: @FHXP9X)
+#. Performing ', Cancel'
+#. Performing ', Check Out'
+#. Showing dialog 17 (@77MV31) '@EQR911 - Check Out' (owner: @FHXP9X)
+#. Performing ', Cancel'
+#. Performing '@smartgit.bJM'
+#. Performing ', Check Out'
+#. Showing dialog 18 (@3FJ7K) '@DWX0YV - Check Out' (owner: @FHXP9X)
+#. Performing ', Checkout'
+#. Performing ', Close'
+msgctxt "dlgSgStashOnDemandConfirmation.tle:"
+msgid "Check Out"
+msgstr ""
+
+#. opening smartgit.bJD@GROJR5:SmartGit 26.1 Evaluation until <date> (smartgit.bJD@EKOW19)
+#. Showing dialog 0 (@J69V29) '@M26QA7 - Evaluation' (owner: @EKOW19)
+#. Performing ', Continue'
+#. Performing 'checkForLatestBuild, Check for Latest Build...'
+#. Showing dialog 1 (@35QW64) '@J44L45 - Check for Latest Build' (owner: @EKOW19)
+#. Performing ', Get Latest Build'
+#. Performing ', Close'
+msgctxt "ntmUpdateFetchNoNewerBuild:"
+msgid "You are already using the latest build."
+msgstr ""
+
+#. opening smartgit.bJD@GROJR5:SmartGit 26.1 Evaluation until <date> (smartgit.bJD@EKOW19)
+#. Showing dialog 0 (@J69V29) '@M26QA7 - Evaluation' (owner: @EKOW19)
+#. Performing ', Continue'
+#. Performing 'checkForLatestBuild, Check for Latest Build...'
+#. Showing dialog 1 (@35QW64) '@J44L45 - Check for Latest Build' (owner: @EKOW19)
+#. Performing ', Get Latest Build'
+#. Performing ', Close'
+msgctxt "nttUpdateFetchNoNewerBuild:"
+msgid "No newer build found."
+msgstr ""
+
+#. Showing dialog 25 (@HQM4EK) '@XHM12Z - Push To' (owner: @UY8RI1)
+#. Performing ', Force Push'
+#. Performing ', Push'
+#. Performing '@smartgit.bJM'
+#. Performing 'viewUnchanged, Show Unchanged Files, If selected, unchanged files will be shown.'
+#. Performing ', Files from Subdirectories, If selected, files from subdirectories are shown.'
+#. Performing 'stage, Stage, Store working tree files in the index to prepare the next commit.'
+#. Performing 'editCommitAuthor, Edit Author...'
+#. Showing dialog 26 (@77NE80) '@7LG034 - Edit Author' (owner: @3EVJ2C)
+#. Performing ', Set Author'
+msgctxt "ttpLogGraphOverlap:"
+msgid "Computation of overlap between this and the selected commit has not finished yet."
+msgstr ""
+
+#. Performing '@smartgit.bJM'
+#. Performing '@smartgit.bJM'
+#. Performing 'fetch, Pull..., Fetch commits from a remote repository and (optionally) integrate them with possible local commits.'
+#. Showing dialog 32 (@O0N50Z) '@4GQ2V3 - Pull' (owner: @QVQ9A4)
+#. Performing ', Fetch Only'
+#. Performing 'fetch, Pull..., Fetch commits from a remote repository and (optionally) integrate them with possible local commits.'
+#. Showing dialog 33 (@9IXRPE) '@SOBIJU - Pull' (owner: @QVQ9A4)
+#. Performing ', Fetch Only'
+#. Performing ',   Open in Explorer'
+#. Performing ', Reset HEAD to '<branch_name>''
+msgctxt "wndLog.mni:"
+msgid "No Provider"
+msgstr ""
+
+#. opening smartgit.bJC@91HDF5:SmartGit 26.1 RC Evaluation until <date> (smartgit.bJC@19H2FZ)
+#. Performing ', <repository> > <repository>'
+#. Performing ', <directory> > <repository>'
+msgctxt "wndLog.mniDiscoverWindow:"
+msgid "Discover Windows"
+msgstr ""
+
+#. Performing ', Push'
+#. Showing dialog 30 (@J6MAPE) '@F0CDZI - Push' (owner: @QVQ9A4)
+#. Performing ', Push'
+#. Performing 'findObject, Find Object...'
+#. Showing dialog 31 (@GR8ZHJ) '@T2COPL - ' (owner: @QVQ9A4)
+#. Performing '@smartgit.bJM'
+#. Performing '@smartgit.bJM'
+#. Performing 'fetch, Pull..., Fetch commits from a remote repository and (optionally) integrate them with possible local commits.'
+#. Showing dialog 32 (@O0N50Z) '@4GQ2V3 - Pull' (owner: @QVQ9A4)
+#. Performing ', Fetch Only'
+msgctxt "wndLog.tbt:"
+msgid "Refreshing"
+msgstr ""
+
+#. Showing dialog 26 (@IJ0566) '@2Y1138 - Check for Latest Build' (owner: @QVQ9A4)
+#. Performing ', Get Latest Build'
+#. Performing 'discoverWindow, Discover Windows, Discover the different main windows.'
+#. Showing dialog 27 (@1BHRN0) '@D5L8WF - Discover Other SmartGit Windows' (owner: @QVQ9A4)
+#. opening smartgit.aCX@JHB10C:null (smartgit.aCX@3L3XD3)
+#. Performing 'fetch, Pull..., Fetch commits from a remote repository and (optionally) integrate them with possible local commits.'
+#. Performing 'branchAdd, Add Branch..., Add a new branch for the current commit.'
+#. Showing dialog 28 (@I2ATK1) '@IE7ONA - Add Branch' (owner: @3L3XD3)
+#. Performing ', Show filter input field.'
+#. Performing ', Regular Expressions, Interpret the search pattern as regular expression.'
+#. placeholder: $1=<branch_name>
+msgctxt "wndStd.mni:"
+msgid "On $1: SmartGit: automatic stash on Check Out."
+msgstr ""
+
+#. Showing dialog 25 (@HLDMY9) '@CFKBVX - Check for Latest Build' (owner: @QVQ9A4)
+#. Performing ', Get Latest Build'
+#. Performing ', Close'
+#. Performing ', Close'
+#. Performing 'checkForLatestBuild, Check for Latest Build...'
+#. Showing dialog 26 (@IJ0566) '@2Y1138 - Check for Latest Build' (owner: @QVQ9A4)
+#. Performing ', Get Latest Build'
+#. Performing 'discoverWindow, Discover Windows, Discover the different main windows.'
+#. Showing dialog 27 (@1BHRN0) '@D5L8WF - Discover Other SmartGit Windows' (owner: @QVQ9A4)
+#. opening smartgit.aCX@JHB10C:null (smartgit.aCX@3L3XD3)
+msgctxt "wndStd.tbtStdProviderButton:"
+msgid "Refreshing the provider state failed.\\n\\nServer returned HTTP response code: 400 for URL: https://gitlab.com/oauth/token"
+msgstr ""
